@@ -36,6 +36,17 @@ def clean_worktree_required() -> None:
         raise RuntimeError(f"AH Note worktree is not clean:\n{status}")
 
 
+def ensure_git_identity() -> None:
+    defaults = {
+        "user.name": "AH Note Publisher",
+        "user.email": "publisher@ah-note.github.io",
+    }
+    for key, value in defaults.items():
+        configured = run_git(["config", "--get", key], check=False)
+        if configured.returncode != 0 or not configured.stdout.strip():
+            run_git(["config", key, value])
+
+
 def commit_message(codes: list[str]) -> str:
     safe_codes = sorted({code.upper() for code in codes if CODE_RE.fullmatch(code.upper())})
     if not safe_codes:
@@ -56,9 +67,13 @@ def publish(stock_report_root: Path, codes: list[str], *, push: bool = True) -> 
     lock_path = git_dir / "ah-note-publish.lock"
     with lock_path.open("a+", encoding="utf-8") as lock_file:
         fcntl.flock(lock_file.fileno(), fcntl.LOCK_EX)
+        ensure_git_identity()
         clean_worktree_required()
         run_git(["pull", "--ff-only", "origin", "main"])
         clean_worktree_required()
+        if push:
+            # Retry a commit left locally by an earlier transient push failure before rebuilding.
+            run_git(["push", "origin", "HEAD:main"])
 
         count = build_site(stock_report_root)
         run_git(["add", "--all", "--", *PUBLISH_PATHS])

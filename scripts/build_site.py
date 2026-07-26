@@ -929,7 +929,11 @@ def build_site(stock_report_root: Path = STOCK_REPORT_DIR, legacy_source_dir: Pa
         public_stock = dict(stock)
         public_stock.pop("_report_path", None)
         public_stocks.append(public_stock)
-    (DATA_DIR / "stocks.json").write_text(
+    stocks_path = DATA_DIR / "stocks.json"
+    existing_payload = json.loads(stocks_path.read_text(encoding="utf-8")) if stocks_path.exists() else {}
+    if existing_payload.get("stocks") == public_stocks and existing_payload.get("built_at"):
+        built_at = existing_payload["built_at"]
+    stocks_path.write_text(
         json.dumps({"built_at": built_at, "stocks": public_stocks}, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
