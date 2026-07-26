@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-27 02:08:33 +08:00",
+  "built_at": "2026-07-27 02:14:22 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -1370,7 +1370,7 @@
       "detail_url": "reports/01742.HK/"
     },
     {
-      "schema_version": "legacy",
+      "schema_version": "stock-research-result-v1",
       "code": "300770.SZ",
       "name": "新媒股份",
       "raw_name": "新媒股份",
@@ -1392,10 +1392,10 @@
       "parent_net_profit_yi": 6.6,
       "gross_margin_pct": 47.58,
       "net_margin_pct": 40.61,
-      "forecast_dividend_yield_pct": null,
-      "risk_level": "高",
-      "business_summary": "主业是广东 IPTV 集成播控和运营服务、云视听互联网电视产品、内容版权分...；利润主要靠主营毛利和费用控制；模式是中等毛利、现金转化好、资金资产厚、有息负债低，资产端有较多现金、定存或理财。",
-      "core_judgement": "沿用 owner_earnback 口径：市值 76.33 亿元，折后可剥离净现金 21.73 亿元，经营业务购买价 54.60 亿元；折后可持续可分配现金利润 5.12 亿元，控股回本年数 10.67 年，控股回本率 9.37%，市值/折后现金利润 14.92 倍，现金利润收益率 6.70%。该回本结论最依赖三个前提：定存可按折扣剥离、核心 IPTV/互联网视听利润稳定、合同资产最终能按接近账面金额回款。",
+      "forecast_dividend_yield_pct": 8.36,
+      "risk_level": "未分级",
+      "business_summary": "新媒股份主要运营广东 IPTV 集成播控分平台、互联网电视云视听系列产品、内容版权分发和少量商务运营业务。",
+      "core_judgement": "以 2026-07-24 输入市值 76.33 亿元为基准，折后可剥离净现金 21.73 亿元，经营业务购买价 54.60 亿元。扣非归母净利润扣除资金类资产利息收入后，再因合同资产集中和现金流波动打 0.85 折，得到折后可持续可分配现金利润 5.12 亿元，对应控股回本约 10.67 年。该口径不是买卖建议，关键前提是定存可剥离、核心业务稳定、合同资产能正常回款。",
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/300770.SZ/"
