@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-27 05:58:00 +08:00",
+  "built_at": "2026-07-27 06:01:49 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -2796,10 +2796,10 @@
       "detail_url": "reports/01051.HK/"
     },
     {
-      "schema_version": "legacy",
+      "schema_version": "stock-research-result-v1",
       "code": "01217.HK",
       "name": "中国创新投资",
-      "raw_name": "CH INNOVATION",
+      "raw_name": "中国创新投资",
       "market": "HK",
       "period": "2025-12-31",
       "currency": "CNY",
@@ -2810,18 +2810,18 @@
       "market_profit_payback_years": null,
       "market_cash_profit_yield_pct": null,
       "discounted_detachable_net_cash_yi": 1.33,
-      "discounted_net_cash_to_market_cap_pct": 112.87,
+      "discounted_net_cash_to_market_cap_pct": 112.88,
       "operating_business_price_yi": -0.15,
       "discounted_cash_profit_yi": null,
       "revenue_yi": 0.64,
       "gross_profit_yi": null,
       "parent_net_profit_yi": 0.52,
       "gross_margin_pct": null,
-      "net_margin_pct": null,
+      "net_margin_pct": 81.33,
       "forecast_dividend_yield_pct": null,
-      "risk_level": "高",
-      "business_summary": "主业是Chapter 投资公司；利润主要靠主营毛利和费用控制；模式是金融资产周转，现金质量取决于客户款、监管资金和投资/信用风险。",
-      "core_judgement": "owner_earnback_result_json 给出的折后可剥离净现金为原币 HK$144.487m，折人民币约 1.33 亿元，高于折人民币约 1.18 亿元的粗筛市值，经营业务购买价为负。但折后可持续可分配现金利润为 null，控股回本年数、回本率、市值/现金利润和现金利润收益率均为 null。核心原因是投资公司利润来自已扣除或可变现资产的本金收益，不能重复作为回本分母。",
+      "risk_level": "未分级",
+      "business_summary": "中国创新投资是香港Chapter 21投资公司，通过买卖港股上市证券和持有未上市股权获取投资收益及资本增值。",
+      "core_judgement": "折后可剥离净现金约人民币1.33亿元，高于输入市值约人民币1.18亿元，因此经营业务购买价为负。但公司是投资公司，现金、证券户现金和上市股票本金已在可剥离资产中扣除，相关利息、股息、处置收益和公允价值收益不能再作为可持续现金利润重复计入；回本年数和市值/现金利润因此为 null。",
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/01217.HK/"
