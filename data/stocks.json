@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-27 02:03:45 +08:00",
+  "built_at": "2026-07-27 02:08:33 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -1339,7 +1339,7 @@
       "detail_url": "reports/600612.SH/"
     },
     {
-      "schema_version": "legacy",
+      "schema_version": "stock-research-result-v1",
       "code": "01742.HK",
       "name": "HPC HOLDINGS",
       "raw_name": "HPC HOLDINGS",
@@ -1348,12 +1348,12 @@
       "currency": "CNY",
       "market_cap_yi": 2.14,
       "pe_ttm": 1.14,
-      "owner_earnback_years": 10.66,
-      "owner_earnback_rate_pct": 9.38,
-      "market_profit_payback_years": 18.56,
+      "owner_earnback_years": 10.64,
+      "owner_earnback_rate_pct": 9.4,
+      "market_profit_payback_years": 18.54,
       "market_cash_profit_yield_pct": 5.39,
       "discounted_detachable_net_cash_yi": 0.91,
-      "discounted_net_cash_to_market_cap_pct": 42.55,
+      "discounted_net_cash_to_market_cap_pct": 42.59,
       "operating_business_price_yi": 1.23,
       "discounted_cash_profit_yi": 0.12,
       "revenue_yi": 14.86,
@@ -1361,10 +1361,10 @@
       "parent_net_profit_yi": 1.89,
       "gross_margin_pct": 7.27,
       "net_margin_pct": 12.69,
-      "forecast_dividend_yield_pct": null,
-      "risk_level": "高",
-      "business_summary": "主业是新加坡工程承包；利润主要靠靠项目报价、分包采购、材料和人力控制赚薄项目差价；模式是低毛利、现金转化好、经营资产占用重。",
-      "core_judgement": "回本专题口径下，折后可剥离净现金约 0.91 亿元，经营业务购买价约 1.23 亿元，折后可持续可分配现金利润约 0.12 亿元。控股回本年数为 10.66 年，控股回本率 9.38%，市值/折后现金利润 18.56 年，现金利润收益率 5.39%。",
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "HPC HOLDINGS 是在新加坡做一般楼宇建筑和土木工程的项目制建筑承包商。",
+      "core_judgement": "按控股口径，公司市值约 2.14 亿元，折后可剥离净现金约 0.91 亿元，剩余经营业务购买价约 1.23 亿元。折后可持续可分配现金利润采用 S$2.2m 口径，已剔除 Fishbox/Apollo Aquarium 议价购买收益，并考虑施工项目现金周转、少数股东和必要经营现金约束；对应控股回本约 10.64 年。这个数值不是买卖建议，核心敏感项是订单簿毛利率和应收/扣留款回收。",
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/01742.HK/"
