@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-27 01:06:33 +08:00",
+  "built_at": "2026-07-27 01:11:42 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -932,7 +932,7 @@
       "detail_url": "reports/000719.SZ/"
     },
     {
-      "schema_version": "legacy",
+      "schema_version": "stock-research-result-v1",
       "code": "601019.SH",
       "name": "山东出版",
       "raw_name": "山东出版",
@@ -954,10 +954,10 @@
       "parent_net_profit_yi": 11.74,
       "gross_margin_pct": 36.5,
       "net_margin_pct": 10.5,
-      "forecast_dividend_yield_pct": null,
-      "risk_level": "中",
-      "business_summary": "主业是出版、发行、印刷、物资和外贸一体化集团；这说明高利润主要来自教材教辅、图书发行和区域渠道，外贸更像低毛利周转业务；模式是中等毛利、现金转化好、资金资产厚、有息负债低，仍需要持续投入经营资产。",
-      "core_judgement": "复用 owner_earnback 结果：折后可剥离净现金 82.17 亿元，经营业务购买价为市值 151.93 亿元减折后净现金，即 69.76 亿元；折后可持续可分配现金利润 10.20 亿元；控股回本年数 6.84 年，控股回本率 14.62%；总市值/折后现金利润 14.90 年，现金利润收益率 6.71%。该回本数最依赖定期存款折扣、必要经营现金、教辅/发行利润稳定性、资金收益双算剔除和税收优惠延续。",
+      "forecast_dividend_yield_pct": 3.98,
+      "risk_level": "未分级",
+      "business_summary": "山东出版依靠山东省出版发行渠道销售教材教辅、一般图书和文化教育服务，账上现金厚，主业现金化较好但收入和毛利率承压。",
+      "core_judgement": "市值扣除折后可剥离净现金后，经营业务购买价约69.76亿元；用折后可持续可分配现金利润10.20亿元回收，约6.84年。该数字对定期存款折扣、必要经营现金、出版发行利润稳定性和资金收益双算剔除敏感。",
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/601019.SH/"
