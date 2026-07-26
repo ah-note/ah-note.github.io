@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-27 00:18:17 +08:00",
+  "built_at": "2026-07-27 00:21:25 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -591,17 +591,17 @@
       "detail_url": "reports/01627.HK/"
     },
     {
-      "schema_version": "legacy",
+      "schema_version": "stock-research-result-v1",
       "code": "02165.HK",
       "name": "领悦服务集团",
-      "raw_name": "LING YUE SER GP",
+      "raw_name": "领悦服务集团",
       "market": "HK",
       "period": "2025-12-31",
       "currency": "CNY",
       "market_cap_yi": 3.92,
       "pe_ttm": 4.94,
       "owner_earnback_years": 0.49,
-      "owner_earnback_rate_pct": 202.84,
+      "owner_earnback_rate_pct": 202.9,
       "market_profit_payback_years": 6.88,
       "market_cash_profit_yield_pct": 14.54,
       "discounted_detachable_net_cash_yi": 3.64,
@@ -613,10 +613,10 @@
       "parent_net_profit_yi": 0.79,
       "gross_margin_pct": 30.63,
       "net_margin_pct": 11.95,
-      "forecast_dividend_yield_pct": null,
-      "risk_level": "高",
-      "business_summary": "主业是中国内地物业服务商；利润主要靠主营毛利和费用控制；模式是中等毛利、现金转化好、资金资产厚、有息负债低。",
-      "core_judgement": "沿用 owner_earnback 主口径：市值 3.92 亿元，折后可剥离净现金 3.64 亿元，经营业务购买价 0.28 亿元；折后可持续可分配现金利润 0.57 亿元，控股回本年数 0.49 年，控股回本率 202.84%，市值/折后现金利润 6.88 年，现金利润收益率 14.54%。这个数字最依赖三件事：现金是否能以 0.65 折扣剥离、合同负债和代收款是否足额保留、以及 0.75 利润折扣是否足以覆盖应收坏账和关联方风险。",
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "领悦服务集团在中国内地提供物业管理、面向非业主的开发商相关增值服务和社区增值服务，2025 年收入九成以上来自基础物业管理。",
+      "core_judgement": "Under the control-owner lens, market cap of RMB392.0m less discounted detachable net cash of RMB363.9m leaves an operating business price of RMB28.1m. Against discounted sustainable cash profit of RMB57.0m, earnback is about 0.49 years; the...",
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/02165.HK/"
