@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-27 01:24:27 +08:00",
+  "built_at": "2026-07-27 01:27:36 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -1060,7 +1060,7 @@
       "detail_url": "reports/00837.HK/"
     },
     {
-      "schema_version": "legacy",
+      "schema_version": "stock-research-result-v1",
       "code": "000915.SZ",
       "name": "华特达因",
       "raw_name": "华特达因",
@@ -1075,17 +1075,17 @@
       "market_cash_profit_yield_pct": 7.4,
       "discounted_detachable_net_cash_yi": 21.12,
       "discounted_net_cash_to_market_cap_pct": 35.36,
-      "operating_business_price_yi": null,
+      "operating_business_price_yi": 38.59,
       "discounted_cash_profit_yi": 4.42,
       "revenue_yi": 22.28,
       "gross_profit_yi": 18.97,
       "parent_net_profit_yi": 5.35,
       "gross_margin_pct": 85.11,
       "net_margin_pct": 24.01,
-      "forecast_dividend_yield_pct": null,
-      "risk_level": "高",
-      "business_summary": "主业是儿童医药健康产品；利润主要靠高毛利品类、品牌或服务溢价；模式是高毛利、现金转化好、资金资产厚、有息负债低，资产占用主要看库存和应收回款。",
-      "core_judgement": "沿用owner_earnback结果：市值59.71亿元，折后可剥离净现金21.12亿元，经营业务购买价38.59亿元，折后可持续可分配现金利润4.42亿元，控股回本8.74年，控股回本率11.45%，市值/折后现金利润13.51年，现金利润收益率7.40%。该结论最依赖儿童医药高毛利、伊可新品牌稳定、渠道费用可控、现金利润不被少数股东和再投入过度稀释。",
+      "forecast_dividend_yield_pct": 7.85,
+      "risk_level": "未分级",
+      "business_summary": "公司主营儿童医药和健康产品的研发、生产和销售，2025年医药业务收入21.94亿元，占合并收入98.44%，主要收入和利润来源于子公司达因药业。",
+      "core_judgement": "市值59.71亿元扣除折后可剥离净现金21.12亿元后，经营业务购买价约38.59亿元；以折后可持续可分配现金利润4.42亿元计算，控股回本约8.74年。该口径依赖儿童医药高毛利、销售费用可控、现金可剥离性和达因药业少数股东分流已被折扣处理。",
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/000915.SZ/"
