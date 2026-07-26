@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AH Note 股票研究</title>
+  <meta name="description" content="A 股和港股的 owner_earnback 股票分析报告。">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div>
+      <p class="eyebrow">AH Note</p>
+      <h1>股票研究</h1>
+      <p class="lead">按 owner_earnback 口径整理的 A 股与港股研究报告，重点展示市值、折后净现金、折后现金利润、回本年和人工备注。</p>
+    </div>
+    <div class="updated">更新：2026-07-26 10:15:42 +08:00</div>
+  </header>
+
+  <main>
+    <section class="stats" aria-label="统计"><div class="stat"><span>公司</span><strong>82</strong></div>
+<div class="stat"><span>A 股</span><strong>43</strong></div>
+<div class="stat"><span>港股</span><strong>39</strong></div>
+<div class="stat"><span>赚钱且便宜</span><strong>51</strong></div>
+<div class="stat"><span>清算便宜</span><strong>31</strong></div></section>
+
+    <section class="toolbar" aria-label="筛选">
+      <input id="searchInput" type="search" placeholder="搜索代码、公司、业务、备注">
+      <select id="marketFilter" aria-label="市场">
+        <option value="all">全部市场</option>
+        <option value="A">A 股</option>
+        <option value="HK">港股</option>
+      </select>
+      <select id="bucketFilter" aria-label="榜单">
+        <option value="all">全部榜单</option>
+        <option value="profit_cheap">赚钱且便宜</option>
+        <option value="liquidation_watch">清算便宜</option>
+      </select>
+      <select id="sortSelect" aria-label="排序">
+        <option value="default">榜单优先</option>
+        <option value="earnback">纯按回本年</option>
+        <option value="cashProfit">按市值/现金利润</option>
+        <option value="netCash">按折后净现金占市值</option>
+        <option value="marketCap">按市值</option>
+      </select>
+      <label class="check"><input id="noteOnly" type="checkbox">只看有备注</label>
+    </section>
+
+    <section>
+      <div class="section-head">
+        <h2>股票表格</h2>
+        <span id="resultCount"></span>
+      </div>
+      <div class="table-wrap stock-table">
+        <table>
+          <thead>
+            <tr>
+              <th>代码</th>
+              <th>公司</th>
+              <th>榜单</th>
+              <th>PE</th>
+              <th>回本年</th>
+              <th>市值/现金利润</th>
+              <th>市值</th>
+              <th>折后净现金</th>
+              <th>折后现金利润</th>
+              <th>一句话业务</th>
+              <th>备注</th>
+            </tr>
+          </thead>
+          <tbody id="stockRows"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
