@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-27 02:45:24 +08:00",
+  "built_at": "2026-07-27 02:50:12 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -1618,7 +1618,7 @@
       "detail_url": "reports/920029.BJ/"
     },
     {
-      "schema_version": "legacy",
+      "schema_version": "stock-research-result-v1",
       "code": "600987.SH",
       "name": "航民股份",
       "raw_name": "航民股份",
@@ -1640,10 +1640,10 @@
       "parent_net_profit_yi": 7.35,
       "gross_margin_pct": 15.77,
       "net_margin_pct": 6.85,
-      "forecast_dividend_yield_pct": null,
-      "risk_level": "高",
-      "business_summary": "主业是纺织印染、热电、黄金珠宝以及少量批发、运输、水利和机械业务；利润主要靠主营毛利和费用控制；模式是中等毛利、现金转化好，资产端有较多现金、定存或理财。",
-      "core_judgement": "复用owner_earnback口径：市值67.17亿元，折后可剥离净现金-1.36亿元，经营业务购买价68.53亿元；折后可持续可分配现金利润5.56亿元，控股回本年数12.32年，控股回本率8.12%，市值/折后现金利润12.07倍，现金利润收益率8.28%。该回本数最依赖黄金租赁负债完整扣除、必要经营现金8亿元、现金利润0.80折扣和近三年扣非利润中位数可持续。",
+      "forecast_dividend_yield_pct": 5.32,
+      "risk_level": "未分级",
+      "business_summary": "航民股份以纺织印染、热电和黄金珠宝为主，黄金业务贡献收入规模，纺织和热电贡献更高毛利，黄金租赁使表面现金与真实可剥离现金差异很大。",
+      "core_judgement": "市值67.17亿元，扣除折后可剥离净现金为负1.36亿元后，经营业务购买价为68.53亿元；折后可持续可分配现金利润5.56亿元，对应控股回本约12.32年。这个结论来自利润现金流而非净现金抵扣，关键前提是黄金租赁负债已完整扣除、必要经营现金足够、黄金库存和T+D波动不持续吞噬利润。",
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600987.SH/"
