@@ -429,6 +429,62 @@ def make_one_line_business(sections: dict[str, str]) -> str:
     return compact_text(f"{main}；{profit}；{model}。", 135)
 
 
+def margin_applicability(sections: dict[str, str], metrics: dict) -> tuple[bool, bool]:
+    business_story = sections.get("business_story") or ""
+    profit_bridge = sections.get("profit_bridge") or ""
+    combined = business_story + profit_bridge
+    non_operating_keywords = [
+        "公允价值",
+        "FVTPL",
+        "FVPL",
+        "投资收益",
+        "证券出售",
+        "持有收益",
+        "处置收益",
+        "减值转回",
+        "估值收益",
+        "投资物业估值",
+    ]
+    non_comparable_business = [
+        "Chapter 21",
+        "investment holding",
+        "投资公司",
+        "投资组合",
+        "自营投资",
+        "证券经纪",
+        "保证金融资",
+        "放贷",
+        "资管",
+        "金融服务",
+        "保险服务收入",
+        "财险",
+        "寿险",
+        "再保险",
+    ]
+    if any(keyword in combined for keyword in non_comparable_business):
+        return (False, False)
+
+    gross_profit = metrics.get("gross_profit")
+    parent_net_profit = metrics.get("parent_net_profit")
+    operating_profit = metrics.get("operating_profit")
+    profit_base = gross_profit if isinstance(gross_profit, (int, float)) and gross_profit > 0 else None
+    if (
+        profit_base
+        and isinstance(parent_net_profit, (int, float))
+        and parent_net_profit > profit_base * 1.05
+        and any(keyword in combined for keyword in non_operating_keywords)
+    ):
+        return (True, False)
+    if (
+        profit_base
+        and isinstance(operating_profit, (int, float))
+        and operating_profit > profit_base * 1.2
+        and any(keyword in combined for keyword in non_operating_keywords)
+    ):
+        return (True, False)
+    return (True, True)
+
+
 def risk_level(result: dict) -> str:
     order = {"低": 1, "中": 2, "高": 3}
     highest = ""
@@ -473,6 +529,7 @@ def load_stocks(notes: dict[str, dict[str, str]], chinese_names: dict[str, str])
         business_summary, core_judgement = extract_summary(sections_for_summary)
         market_cap_yi = yuan_to_yi(metrics.get("market_cap"))
         discounted_cash_yi = yuan_to_yi(metrics.get("discounted_detachable_net_cash"))
+        gross_margin_usable, net_margin_usable = margin_applicability(sections, metrics)
         stock = {
             "code": code,
             "name": display_name,
@@ -499,12 +556,14 @@ def load_stocks(notes: dict[str, dict[str, str]], chinese_names: dict[str, str])
             "revenue_yi": yuan_to_yi(metrics.get("revenue")),
             "gross_profit_yi": yuan_to_yi(metrics.get("gross_profit")),
             "parent_net_profit_yi": yuan_to_yi(metrics.get("parent_net_profit")),
-            "gross_margin_pct": pct(metrics.get("gross_margin")),
+            "gross_margin_pct": pct(metrics.get("gross_margin")) if gross_margin_usable else None,
             "net_margin_pct": pct(
                 (metrics.get("parent_net_profit") or 0) / metrics.get("revenue")
                 if metrics.get("revenue")
                 else None
-            ),
+            )
+            if net_margin_usable
+            else None,
             "risk_level": risk_level(result),
             "business_summary": business_summary,
             "core_judgement": core_judgement,
