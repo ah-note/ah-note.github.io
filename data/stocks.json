@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-27 01:15:50 +08:00",
+  "built_at": "2026-07-27 01:19:39 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -994,10 +994,10 @@
       "detail_url": "reports/600894.SH/"
     },
     {
-      "schema_version": "legacy",
+      "schema_version": "stock-research-result-v1",
       "code": "01339.HK",
       "name": "中国人民保险集团",
-      "raw_name": "PICC GROUP",
+      "raw_name": "中国人民保险集团",
       "market": "HK",
       "period": "2025-12-31",
       "currency": "CNY",
@@ -1011,15 +1011,15 @@
       "discounted_net_cash_to_market_cap_pct": 0.0,
       "operating_business_price_yi": 1992.23,
       "discounted_cash_profit_yi": 257.21,
-      "revenue_yi": 6690.44,
+      "revenue_yi": 5707.17,
       "gross_profit_yi": 435.47,
       "parent_net_profit_yi": 466.46,
-      "gross_margin_pct": null,
-      "net_margin_pct": null,
-      "forecast_dividend_yield_pct": null,
-      "risk_level": "高",
-      "business_summary": "主业是财险、寿险和健康险的保险服务收入；利润较薄，主要靠规模周转和费用控制；模式是保险承保和投资资产共同驱动，资产负债表决定利润波动。",
-      "core_judgement": "owner_earnback主口径把折后可剥离净现金设为0，经营业务购买价等于市值1992.23亿元；以2023-2025年归母净利润中位数428.69亿元打6折，折后可持续可分配现金利润257.21亿元，控股回本7.75年。",
+      "gross_margin_pct": 7.63,
+      "net_margin_pct": 8.17,
+      "forecast_dividend_yield_pct": 4.88,
+      "risk_level": "未分级",
+      "business_summary": "中国人民保险集团是以人保财险为核心的综合保险金融集团，利润来自承保服务、保险资金投资以及寿险、健康险等子公司贡献。",
+      "core_judgement": "保险资金、定期存款、债券和权益投资均服务保险负债、偿付能力和投资主业，折后可剥离净现金取0；以2023-2025年归母净利润中位数428.69亿元打6折作为可持续可分配现金利润，得到控股回本约7.75年。该结论依赖承保质量、投资收益和子公司利润上翻能力维持。",
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/01339.HK/"
