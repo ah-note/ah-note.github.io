@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-27 00:58:16 +08:00",
+  "built_at": "2026-07-27 01:02:25 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -870,18 +870,18 @@
       "detail_url": "reports/00811.HK/"
     },
     {
-      "schema_version": "legacy",
+      "schema_version": "stock-research-result-v1",
       "code": "01568.HK",
       "name": "承达集团",
-      "raw_name": "SUNDART HLDGS",
+      "raw_name": "承达集团",
       "market": "HK",
       "period": "2025-12-31",
       "currency": "CNY",
       "market_cap_yi": 12.46,
       "pe_ttm": 5.06,
-      "owner_earnback_years": 3.67,
-      "owner_earnback_rate_pct": 27.28,
-      "market_profit_payback_years": 8.05,
+      "owner_earnback_years": 3.66,
+      "owner_earnback_rate_pct": 27.29,
+      "market_profit_payback_years": 8.04,
       "market_cash_profit_yield_pct": 12.43,
       "discounted_detachable_net_cash_yi": 6.78,
       "discounted_net_cash_to_market_cap_pct": 54.45,
@@ -892,10 +892,10 @@
       "parent_net_profit_yi": 2.46,
       "gross_margin_pct": 13.33,
       "net_margin_pct": 5.2,
-      "forecast_dividend_yield_pct": null,
-      "risk_level": "高",
-      "business_summary": "主业是收入几乎来自室内装潢工程：室内装潢收入 ，占；利润主要靠主业是项目管理和分包/材料组织能力赚取低双位数毛利的承包生意；模式是低毛利、现金转化偏弱、经营资产占用重、有息负债低，资产端有较多现金、定存或理财。",
-      "core_judgement": "复用 owner_earnback 口径：市值 13.52 亿港元，折后可剥离净现金 7.36 亿港元，经营业务购买价 6.16 亿港元；折后可持续可分配现金利润 1.68 亿港元，对应控股回本 3.67 年，控股回本率 27.28%，市值/折后现金利润 8.05 年，现金利润收益率 12.43%。这个数最依赖三个前提：现金确有较高可剥离性、工程业务能维持约 2.8 亿港元折前现金利润、2025 年异常高 PPE 支出不是常态维持资本开...",
+      "forecast_dividend_yield_pct": 7.98,
+      "risk_level": "未分级",
+      "business_summary": "承达集团主要为香港、澳门、新加坡及中国客户提供室内装潢工程，利润来自项目管理、分包组织、材料采购和施工交付之间的低双位数毛利差。",
+      "core_judgement": "按控股回本口径，市值扣除折后可剥离净现金后，经营业务购买价约人民币5.68亿元；若折后可持续可分配现金利润约人民币1.55亿元成立，回本约3.66年。该判断依赖现金可剥离性、项目利润稳定性以及2025年高PPE支出不成为常态。",
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/01568.HK/"
