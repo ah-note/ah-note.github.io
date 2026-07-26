@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-27 03:14:45 +08:00",
+  "built_at": "2026-07-27 03:18:54 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -1835,7 +1835,7 @@
       "detail_url": "reports/603816.SH/"
     },
     {
-      "schema_version": "legacy",
+      "schema_version": "stock-research-result-v1",
       "code": "601921.SH",
       "name": "浙版传媒",
       "raw_name": "浙版传媒",
@@ -1857,10 +1857,10 @@
       "parent_net_profit_yi": 12.86,
       "gross_margin_pct": 29.34,
       "net_margin_pct": 12.19,
-      "forecast_dividend_yield_pct": null,
-      "risk_level": "高",
-      "business_summary": "主业是出版、发行和数字出版相关业务主体；利润主要靠教材教辅是稳定利润底座，一般图书和线上渠道是压力来源；模式是中等毛利、现金转化偏弱、资金资产厚、有息负债低，资产占用主要看库存和应收回款。",
-      "core_judgement": "复用 owner_earnback 结果：市值 156.22 亿元，折后可剥离净现金 71.28 亿元，经营业务购买价 84.94 亿元，折后可持续可分配现金利润 6.04 亿元，控股回本 14.1 年，控股回本率 7.12%，市值/折后现金利润 25.9 年，现金利润收益率 3.87%。这个结果最依赖理财折扣、必要经营现金、教材教辅稳定性和利润现金化折扣。",
+      "forecast_dividend_yield_pct": 4.55,
+      "risk_level": "未分级",
+      "business_summary": "浙版传媒主要靠教材教辅出版发行和一般图书发行业务赚钱，账上现金理财很厚，主业现金利润受渠道、库存和供应商结算波动影响。",
+      "core_judgement": "以156.22亿元市值扣除折后可剥离净现金71.28亿元后，经营业务购买价约84.94亿元；按折后可持续可分配现金利润6.04亿元计，控股回本约14.1年。这个口径不使用榜单标签，核心不确定性是理财折扣、教材教辅稳定性和利润现金化。",
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/601921.SH/"
