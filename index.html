@@ -9,56 +9,17 @@
   <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
-  <header class="site-header">
-    <div>
-      <p class="eyebrow">AH Note</p>
-      <h1>股票研究</h1>
-      <p class="lead">按 owner_earnback 口径整理的 A 股与港股研究报告，重点展示市值、折后净现金、折后现金利润、回本年和人工备注。</p>
-    </div>
-    <div class="updated">更新：2026-07-26 10:15:42 +08:00</div>
-  </header>
-
-  <main>
-    <section class="stats" aria-label="统计"><div class="stat"><span>公司</span><strong>82</strong></div>
-<div class="stat"><span>A 股</span><strong>43</strong></div>
-<div class="stat"><span>港股</span><strong>39</strong></div>
-<div class="stat"><span>赚钱且便宜</span><strong>51</strong></div>
-<div class="stat"><span>清算便宜</span><strong>31</strong></div></section>
-
-    <section class="toolbar" aria-label="筛选">
-      <input id="searchInput" type="search" placeholder="搜索代码、公司、业务、备注">
-      <select id="marketFilter" aria-label="市场">
-        <option value="all">全部市场</option>
-        <option value="A">A 股</option>
-        <option value="HK">港股</option>
-      </select>
-      <select id="bucketFilter" aria-label="榜单">
-        <option value="all">全部榜单</option>
-        <option value="profit_cheap">赚钱且便宜</option>
-        <option value="liquidation_watch">清算便宜</option>
-      </select>
-      <select id="sortSelect" aria-label="排序">
-        <option value="default">榜单优先</option>
-        <option value="earnback">纯按回本年</option>
-        <option value="cashProfit">按市值/现金利润</option>
-        <option value="netCash">按折后净现金占市值</option>
-        <option value="marketCap">按市值</option>
-      </select>
-      <label class="check"><input id="noteOnly" type="checkbox">只看有备注</label>
-    </section>
-
-    <section>
-      <div class="section-head">
-        <h2>股票表格</h2>
-        <span id="resultCount"></span>
-      </div>
+  <nav class="site-nav"><a class="active" href="">榜单</a><a href="reports/">报告</a><a href="reference/">参考资料</a></nav>
+  <main class="board-page">
+    <section class="ranking-section">
+      <h1>赚钱且便宜榜</h1>
+      
       <div class="table-wrap stock-table">
         <table>
           <thead>
             <tr>
               <th>代码</th>
               <th>公司</th>
-              <th>榜单</th>
               <th>PE</th>
               <th>回本年</th>
               <th>市值/现金利润</th>
@@ -69,12 +30,122 @@
               <th>备注</th>
             </tr>
           </thead>
-          <tbody id="stockRows"></tbody>
+          <tbody>
+            <tr><td><a href="reports/03662.HK/">03662.HK</a></td><td>STARJOY W&amp;T</td><td>4.62</td><td>-8.72</td><td>11.76</td><td>2.38</td><td>4.15</td><td>0.20</td><td class="business-cell">公司卖的是住宅/非住宅物业管理、社区增值、商业运营和招商服务，2025 年收入 12.20 亿元，其中物业管理 10.64 亿元，占 87.2%；商业运营 1.39 亿元；新增物业租赁及相关服务 0.17 亿元。服务成本 9.07 亿元，主要是安保、保洁、维修、绿化、公用事业和材料消耗等项目现场成本...</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/00717.HK/">00717.HK</a></td><td>EMPEROR CAPITAL</td><td>2.80</td><td>-7.60</td><td>10.28</td><td>3.76</td><td>6.54</td><td>0.37</td><td class="business-cell">公司收入来自全球金融市场、融资和企业融资三块。2025 年收入约人民币 6.68 亿元，其中全球金融市场约 4.95 亿元，主要受配售及包销佣金拉动；融资分部约 1.65 亿元，来自保证金、IPO 融资、贷款及垫款利息；企业融资约 0.08 亿元。金融服务公司没有普通商品销售成本和毛利表，真正需要观...</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/00606.HK/">00606.HK</a></td><td>SCE CM</td><td>7.15</td><td>-7.48</td><td>13.80</td><td>4.14</td><td>6.39</td><td>0.30</td><td class="business-cell">公司收入来自中国内地物业管理和增值服务。2025 年收入 11.93 亿元，其中物业管理服务 9.86 亿元、增值服务 1.75 亿元，另有投资物业租金 0.32 亿元。商业物业管理及运营收入下降到 3.23 亿元，住宅物业管理收入增长到 8.70 亿元；总毛利 3.15 亿元、毛利率 26.4%...</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/01260.HK/">01260.HK</a></td><td>WONDERFUL SKY</td><td>11.03</td><td>-7.44</td><td>12.63</td><td>4.24</td><td>6.74</td><td>0.34</td><td class="business-cell">公司主要卖财经公关、投资者关系、财务印刷和资本市场品牌服务。2025 财年收入折人民币 1.78 亿元，全部来自财经公关服务分部；国际路演收入为零。毛利率 55.94%，说明服务交付扣除项目直接成本后仍有较高毛利，但收入同比下滑，分部利润增长更多来自成本和费用收缩，而不是收入扩张。</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/00882.HK/">00882.HK</a></td><td>TIANJIN DEV</td><td>5.19</td><td>-6.93</td><td>11.48</td><td>20.47</td><td>32.83</td><td>1.78</td><td class="business-cell">收入约29.47亿元人民币，公用事业和制药是合并收入主体。公用事业收入11.65亿元，来自供水、供热和热电；制药收入15.35亿元，来自化学药、中成药、健康产品和药包材；酒店收入1.26亿元；机电收入1.21亿元。综合毛利8.65亿元，毛利率29.35%，但经营经济性并不只在合并毛利里，港口服务和电...</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/02210.HK/">02210.HK</a></td><td>BEIJING JIAYE</td><td>N/A</td><td>-6.38</td><td>6.10</td><td>2.38</td><td>4.87</td><td>0.39</td><td class="business-cell">公司做物业管理、非业主增值服务和社区增值服务。2025 年收入 RMB22.92 亿，其中物业管理 RMB15.91 亿，占 69.4%；非业主增值服务 RMB3.09 亿，占 13.5%；社区增值服务 RMB3.92 亿，占 17.1%。总毛利 RMB3.18 亿，毛利率 13.9%，比 2024...</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/02222.HK/">02222.HK</a></td><td>NVC INTL</td><td>3.64</td><td>-5.89</td><td>8.76</td><td>3.05</td><td>5.10</td><td>0.35</td><td class="business-cell">公司卖灯具、灯饰、照明电子产品和相关产品，收入在交付时确认，客户正常账期 30-90 天。2025 年收入约 15.67 亿元人民币，其中国际 non-NVC 品牌贡献 82.4%，美国是最大市场。毛利率 34.3%，比 2024 年提升，但收入下降，说明公司在生产采购优化和产品结构上抵消了部分需求...</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/00380.HK/">00380.HK</a></td><td>CHINA PIPE</td><td>2.79</td><td>-4.31</td><td>5.64</td><td>1.43</td><td>2.52</td><td>0.25</td><td class="business-cell">公司只有一个经营分部：建筑材料贸易，主要卖管道、管件及相关配件，收入约5.91亿元人民币，其中香港贡献绝大部分。毛利约1.79亿元，毛利率30.27%；业务不是重制造，而是靠备货、品牌/品类覆盖、仓储物流、批发账期和零售门店服务建筑承建商、设计师、顾问和政府机构。</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/01416.HK/">01416.HK</a></td><td>CTR HOLDINGS</td><td>2.88</td><td>-3.38</td><td>8.51</td><td>2.18</td><td>3.04</td><td>0.26</td><td class="business-cell">公司在新加坡做工程承包，FY2025/2026收入人民币13.75亿元，其中结构工程约占75.4%，湿建筑约占13.1%，新列示的主承包工程约占11.5%。毛利人民币1.81亿元，毛利率13.2%，说明每100元工程收入留下约13.2元毛利，剩余主要支付材料、分包、施工工资和短租成本。</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/01556.HK/">01556.HK</a></td><td>CHINNEY KW</td><td>3.10</td><td>-2.50</td><td>5.14</td><td>3.56</td><td>5.29</td><td>0.69</td><td class="business-cell">公司在香港做地基建筑及相关服务、钻探及地盘勘测。2025 年收入约 19.63 亿元，地基建筑贡献约 16.59 亿元，钻探及地盘勘测贡献约 3.04 亿元；毛利约 4.21 亿元，毛利率 21.46%。项目制施工意味着收入确认随工程进度走，客户付款、保留金和未开票工程量会沉淀为应收和合同资产。</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/01527.HK/">01527.HK</a></td><td>TENGY ENV</td><td>2.33</td><td>-2.22</td><td>5.13</td><td>1.90</td><td>2.72</td><td>0.37</td><td class="business-cell">公司是大气污染防治设备项目制制造商，2025 年收入 7.54 亿元，其中环保设备 7.40 亿元、材料 0.13 亿元。环保设备中静电除尘器 6.77 亿元、占 91%，袋式除尘器 0.35 亿元、脱硫脱硝装置 0.28 亿元。销售成本主要是钢材、电力仪器、滤袋、人工、折旧和制造费用；毛利 2.5...</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/08373.HK/">08373.HK</a></td><td>INDIGO STAR</td><td>2.34</td><td>-1.84</td><td>7.07</td><td>0.25</td><td>0.31</td><td>0.03</td><td class="business-cell">公司收入来自新加坡建筑合约、劳工供应、瓷砖销售和香港手机及配件分销。2025 年收入约人民币 4.45 亿元，毛利约 0.82 亿元，毛利率 18.42%。建筑与劳工业务合计仍是经营核心，手机分销收入占 27.3% 但分部利润较薄，说明该业务更像渠道周转而非品牌溢价业务。</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/09909.HK/">09909.HK</a></td><td>POWERLONG CM</td><td>5.08</td><td>-0.32</td><td>7.94</td><td>11.87</td><td>12.35</td><td>1.50</td><td class="business-cell">公司收入来自两块：商业运营服务 20.99 亿元，占 80.5%，包括开业前定位招商、购物中心运营管理、租金代收和转租租赁；住宅物业管理 5.08 亿元，占 19.5%，包括案场、交付后安保清洁维修和社区增值服务。2025 年总收入 26.08 亿元，同比小降 0.4%；营业成本 17.94 亿元...</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/01627.HK/">01627.HK</a></td><td>ABLE ENG HLDGS</td><td>4.38</td><td>0.48</td><td>8.08</td><td>9.32</td><td>8.77</td><td>1.15</td><td class="business-cell">公司只有建筑一个可报告分部，FY2025收入约人民币74.28亿元，楼宇建筑占绝大多数；收入按工程进度确认，收款通常在付款证书后30日内，但质量保证金要等保留期结束。毛利约人民币5.43亿元、毛利率7.31%，是低毛利、高周转、项目风险集中型承包业务。</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/02165.HK/">02165.HK</a></td><td>LING YUE SER GP</td><td>4.94</td><td>0.49</td><td>6.88</td><td>3.92</td><td>3.64</td><td>0.57</td><td class="business-cell">公司是中国内地物业服务商，2025 年收入 6.64 亿元，其中物业管理服务 6.19 亿元、占 93.2%，非业主增值服务 0.15 亿元、占 2.2%，社区增值服务 0.30 亿元、占 4.6%。物业管理服务是保安、清洁、绿化、维修维护等持续服务，成本主要是员工、外包、耗材、水电、办公和维修。2...</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/00366.HK/">00366.HK</a></td><td>LUKS GROUP (VN)</td><td>22.02</td><td>1.05</td><td>9.48</td><td>3.58</td><td>3.18</td><td>0.38</td><td class="business-cell">收入来自水泥、物业租金及管理、酒店和小额电子产品。物业投资贡献最大分部利润，水泥收入下降但亏损收窄，酒店收入增长但仍小幅亏损。毛利率 40.24%，说明租金和酒店服务拉高了整体毛利，水泥制造仍受区域需求、物流、电价和产能利用率影响。</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/00046.HK/">00046.HK</a></td><td>COMPUTER &amp; TECH</td><td>16.62</td><td>1.30</td><td>12.02</td><td>2.78</td><td>2.48</td><td>0.23</td><td class="business-cell">公司收入来自应用服务、解决方案及集成服务和投资三块。应用服务提供企业软件、SaaS、GETS、云服务和增值服务；解决方案及集成服务提供 IT 方案实施、软件开发、外包运维、系统和网络集成；投资分部主要是物业租金和证券投资。2025 年毛利率 58.08%，第三方采购成本下降后，毛利率改善，但收入下降...</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/08512.HK/">08512.HK</a></td><td>HYFUSIN GROUP</td><td>3.44</td><td>1.96</td><td>5.00</td><td>3.49</td><td>2.12</td><td>0.70</td><td class="business-cell">公司是蜡烛和家居香氛出口制造商，核心制造在越南，收入按单一经营分部披露。2025 年收入 8.98108 亿港元，其中美国 7.77786 亿港元、英国 1.09164 亿港元；Customer A 收入 4.08042 亿港元。毛利 2.83937 亿港元，毛利率 31.6%，较 2024 年下降...</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/01354.HK/">01354.HK</a></td><td>KINGFARPROPERTY</td><td>1.74</td><td>2.82</td><td>4.49</td><td>1.11</td><td>0.41</td><td>0.25</td><td class="business-cell">公司主要在陕西及西北地区做城市服务、住宅物业管理和商业物业管理。2025年收入10.49亿元，其中城市服务6.55亿元、占62.4%，住宅物业2.29亿元、占21.8%，商业物业1.62亿元、占15.5%。毛利1.62亿元，毛利率15.5%；城市服务毛利率12.7%，低于住宅18.2%和商业22.6...</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/00327.HK/">00327.HK</a></td><td>PAX GLOBAL</td><td>5.10</td><td>2.95</td><td>7.12</td><td>33.20</td><td>19.43</td><td>4.66</td><td class="business-cell">公司卖电子支付终端和相关服务。2025 年收入约人民币 50.72 亿元，其中电子支付终端产品约港币 54.85 亿元、服务约港币 3.87 亿元；Android 产品占集团收入超过 70%。毛利约人民币 22.11 亿元，毛利率 43.6%，但同比下降 360bp，主要来自陈旧库存拨备和直接核销增...</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/00240.HK/">00240.HK</a></td><td>BUILD KING HOLD</td><td>3.90</td><td>3.28</td><td>7.46</td><td>15.85</td><td>8.88</td><td>2.13</td><td class="business-cell">公司几乎是一家香港建筑工程承包商，2025年香港建筑收入约122.25亿元人民币，占收入约98.3%；内地环保基础设施收入约2.16亿元。营业收入124.42亿元、营业成本115.06亿元、毛利9.35亿元，毛利率7.52%，说明主业规模大但项目承包毛利薄，工程认证、保留金和分包成本会显著影响利润兑...</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/00811.HK/">00811.HK</a></td><td>XINHUA WINSHARE</td><td>6.31</td><td>3.39</td><td>10.13</td><td>99.03</td><td>65.92</td><td>9.78</td><td class="business-cell">公司卖的是出版物内容和渠道服务。出版分部收入 RMB28.95 亿元、毛利率 31.18%；发行分部收入 RMB102.12 亿元、毛利率 29.81%，是收入主力。教材教辅由学校、学生和教育主管部门需求驱动，一般图书则面临零售渠道和线上平台竞争。</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/01568.HK/">01568.HK</a></td><td>SUNDART HLDGS</td><td>5.06</td><td>3.67</td><td>8.05</td><td>12.46</td><td>6.78</td><td>1.55</td><td class="business-cell">收入几乎来自室内装潢工程：2025 年室内装潢收入 50.09 亿港元，占 97.5%；材料制造、采购和分销收入 1.22 亿港元，改建与加建及建筑工程只有 0.05 亿港元。工程业务按投入法确认收入，客户通常按进度结算，因此收入确认领先现金回收时会形成未开票应收和合约资产。整体毛利率 13.33%...</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/000719.SZ/">000719.SZ</a></td><td>中原传媒</td><td>9.15</td><td>5.47</td><td>12.87</td><td>125.85</td><td>72.35</td><td>9.78</td><td class="business-cell">公司收入来自出版、发行、物资销售、印刷和其他文化服务。出版和发行是核心，2025年出版收入32.54亿元、毛利率37.41%，发行收入79.20亿元、毛利率31.93%；物资销售收入14.63亿元但毛利率仅5.85%。分部间抵销较大，说明集团内部从内容、纸张、印刷到发行链条互相交易，合并后真正对外收...</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/601019.SH/">601019.SH</a></td><td>山东出版</td><td>12.94</td><td>6.84</td><td>14.90</td><td>151.93</td><td>82.17</td><td>10.20</td><td class="business-cell">公司是出版、发行、印刷、物资和外贸一体化集团。2025 年合并营业收入 111.80 亿元，成本 70.99 亿元，毛利 40.80 亿元，毛利率 36.50%。抵销前分部中，发行收入 82.78 亿元、毛利率 30.11%，出版收入 36.51 亿元、毛利率 25.89%，物资收入 16.09 亿...</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/600894.SH/">600894.SH</a></td><td>广日股份</td><td>9.38</td><td>6.87</td><td>12.12</td><td>64.64</td><td>27.99</td><td>5.33</td><td class="business-cell">公司收入来自电梯整机及后市场、电梯零部件及配套服务和少量其他业务。2025 年营业收入 72.46 亿元，营业成本 61.18 亿元，毛利 11.28 亿元，毛利率 15.57%。分产品看，整机及后市场收入 35.38 亿元、毛利率 23.64%，是毛利核心；零部件及配套服务收入 35.39 亿元...</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/01339.HK/">01339.HK</a></td><td>PICC GROUP</td><td>4.27</td><td>7.75</td><td>7.75</td><td>1992.23</td><td>0.00</td><td>257.21</td><td class="business-cell">收入主体来自财险、寿险和健康险的保险服务收入。集团保险服务收入5707.17亿元，保险服务费用5271.70亿元，保险服务口径差额435.47亿元；人保财险贡献保险服务收入5115.94亿元，是最核心业务。</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/00837.HK/">00837.HK</a></td><td>CARPENTER TAN</td><td>7.77</td><td>8.57</td><td>11.07</td><td>13.29</td><td>3.00</td><td>1.20</td><td class="business-cell">公司卖的是品牌化木制手工艺品和饰品，2025 年收入 5.58 亿元，其中线下商品 3.24 亿元、线上商品 2.29 亿元、直营店 0.05 亿元；按产品看礼盒 5.13 亿元，占 91.9%。毛利 3.45 亿元，毛利率 61.9%，说明消费者支付的主要不是普通木材加工费，而是品牌、设计、礼品包...</td><td class="note-cell">价值股例子：PE 较低、账上有较多高质量现金、每年稳定产生利润。</td></tr>
+<tr><td><a href="reports/000915.SZ/">000915.SZ</a></td><td>华特达因</td><td>11.16</td><td>8.74</td><td>13.51</td><td>59.71</td><td>21.12</td><td>4.42</td><td class="business-cell">公司收入几乎全部来自儿童医药健康产品，医药业务收入21.94亿元，占合并收入98.44%，医药产品毛利率85.45%。这意味着公司不是靠重资产产能赚薄利，而是靠伊可新等儿童药和儿童营养健康产品的品牌、渠道、专家教育和终端触达取得高毛利。</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/601518.SH/">601518.SH</a></td><td>吉林高速</td><td>10.67</td><td>9.01</td><td>12.94</td><td>52.37</td><td>15.90</td><td>4.05</td><td class="business-cell">吉林高速收入来自两块：高速公路通行业务 11.19 亿元、毛利率 63.48%；科维机电工程业务 2.43 亿元、毛利率 11.02%。通行费是车通过长平高速和长春绕城西北环后形成的现金回款，机电工程收入则在项目验收后确认，因此后者更容易形成工程款应收和合同履约成本库存。</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/01895.HK/">01895.HK</a></td><td>XINYUAN PM</td><td>1.52</td><td>9.05</td><td>5.68</td><td>1.48</td><td>-0.88</td><td>0.26</td><td class="business-cell">公司做的是轻资产物业服务，2025年收入9.05亿元，毛利2.83亿元，毛利率31.24%。物业管理服务是主业，占收入70.39%，毛利率30.7%；增值服务占22.84%，毛利率40.0%；交付前及咨询和物业工程与地产开发、项目交付相关，占比已经较低，且毛利率明显低。</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/000651.SZ/">000651.SZ</a></td><td>格力电器</td><td>7.84</td><td>9.78</td><td>11.14</td><td>2272.49</td><td>278.31</td><td>204.00</td><td class="business-cell">公司收入主要来自消费电器，2025年消费电器收入1330.55亿元，占营业收入78.06%，毛利率35.28%；工业制品及绿色能源收入173.81亿元，毛利率15.53%；内销主营1264.07亿元，外销主营273.75亿元。消费电器毛利469.43亿元，是利润池核心。收入同比下降9.89%，但消费...</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/601900.SH/">601900.SH</a></td><td>南方传媒</td><td>9.66</td><td>10.35</td><td>13.17</td><td>100.72</td><td>21.54</td><td>7.65</td><td class="business-cell">公司收入来自出版、发行、物资、印刷和报媒。出版和发行是基本盘，分行业收入分别为 35.84 亿元和 69.76 亿元，因内部抵销后合并营业收入为 86.35 亿元；教材教辅按产品口径收入 86.68 亿元、毛利率 27.78%，说明教育出版发行仍是收入韧性的核心。营业成本主要是图书商品销售成本、纸张...</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/600612.SH/">600612.SH</a></td><td>老凤祥</td><td>10.32</td><td>10.39</td><td>12.96</td><td>181.16</td><td>35.90</td><td>13.98</td><td class="business-cell">公司收入主要来自黄金珠宝首饰和黄金交易。2025 年主营业务收入 526.24 亿元，其中珠宝首饰 425.83 亿元、黄金交易 97.91 亿元。珠宝首饰毛利率 10.63%，是主要利润来源；黄金交易毛利率只有 0.96%，更像大额低毛利的资金和黄金流转业务。按销售模式看，批发收入 391.27...</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/300770.SZ/">300770.SZ</a></td><td>新媒股份</td><td>11.56</td><td>10.67</td><td>14.92</td><td>76.33</td><td>21.73</td><td>5.12</td><td class="business-cell">公司卖的是广东 IPTV 集成播控和运营服务、云视听互联网电视产品、内容版权分发和少量商务运营。2025 年收入 16.26 亿元、成本 8.52 亿元、毛利 7.74 亿元、毛利率 47.58%。IPTV 基础业务收入 8.31 亿元、毛利率 53.66%，互联网视听业务收入 6.30 亿元、毛利...</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/603551.SH/">603551.SH</a></td><td>奥普科技</td><td>11.78</td><td>10.84</td><td>14.41</td><td>35.01</td><td>8.66</td><td>2.43</td><td class="business-cell">公司卖浴霸、晾衣机、照明、通风、厨房空调、集成吊顶和集成墙面。2025年电器业务贡献15.70亿元收入、毛利率50.75%，材料业务贡献2.93亿元、毛利率17.84%；收入和利润核心在电器，材料更像围绕厨卫顶部空间方案的配套。</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/600033.SH/">600033.SH</a></td><td>福建高速</td><td>10.27</td><td>11.10</td><td>13.03</td><td>97.43</td><td>14.43</td><td>7.48</td><td class="business-cell">公司卖的是福建省内泉厦、福泉、罗宁三条沈海高速相关路段的通行能力。2025年高速公路收费收入30.15亿元，占总收入98.90%，主营毛利率57.40%。泉厦和福泉贡献绝大部分收入与毛利，罗宁收入1.47亿元、毛利率3.20%，更接近剩余期限短、资本消耗高的尾部路产。</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/002884.SZ/">002884.SZ</a></td><td>凌霄泵业</td><td>12.70</td><td>11.50</td><td>14.38</td><td>57.77</td><td>11.57</td><td>4.02</td><td class="business-cell">公司卖民用离心泵，收入全部来自水泵制造业。塑料卫浴泵 8.02 亿元、不锈钢泵 6.02 亿元、通用泵 2.72 亿元，是三条主要产品线。2025 年综合毛利 6.14 亿元、毛利率 35.67%，国外销售毛利率 39.17% 高于国内 32.23%，但美国需求和关税压力让外销增长停住。</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/002668.SZ/">002668.SZ</a></td><td>TCL智家</td><td>N/A</td><td>11.64</td><td>13.12</td><td>104.73</td><td>11.86</td><td>7.98</td><td class="business-cell">公司收入几乎全部来自冰箱、冷柜和洗衣机。2025年冰箱冷柜收入155.63亿元、毛利率27.28%，洗衣机收入28.31亿元、毛利率13.68%；境外收入144.05亿元，占77.73%。成本中原材料116.67亿元，占营业成本84.20%，说明毛利主要受压缩机、钢材、塑料等家电制造材料和海外订单价...</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/920029.BJ/">920029.BJ</a></td><td>开发科技</td><td>9.34</td><td>11.76</td><td>14.93</td><td>65.97</td><td>13.98</td><td>4.42</td><td class="business-cell">公司卖的是智能电、水、气表等智能计量终端及 AMI 系统软件。2025 年收入 30.20 亿元，其中智能计量终端 28.88 亿元，收入占 95.62%，毛利率 36.80%；系统软件 0.68 亿元，毛利率 92.60%；服务收入 0.62 亿元，毛利率 95.18%。地区上，境外收入 25.8...</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/600987.SH/">600987.SH</a></td><td>航民股份</td><td>N/A</td><td>12.32</td><td>12.07</td><td>67.17</td><td>-1.36</td><td>5.56</td><td class="business-cell">公司收入来自纺织印染、热电、黄金珠宝以及少量批发、运输、水利和机械业务。黄金珠宝收入63.90亿元，占合并收入约59.6%，但毛利率只有8.06%；纺织业收入40.14亿元，毛利率22.98%；电力生产业收入7.88亿元，毛利率27.61%。这意味着收入规模主要由黄金周转拉动，利润厚度更多依赖纺织和...</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/000786.SZ/">000786.SZ</a></td><td>北新建材</td><td>11.43</td><td>12.88</td><td>14.05</td><td>332.11</td><td>27.78</td><td>23.63</td><td class="business-cell">收入来自轻质建材、防水建材和涂料建材三块。轻质建材收入160.73亿元、毛利率30.68%，其中石膏板仍是最大单品；防水建材收入47.86亿元、毛利率18.78%；涂料建材收入44.21亿元、毛利率32.92%。经销收入218.91亿元，占86.59%，说明公司主要依靠渠道网络卖货，而不是少数大客户...</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/600968.SH/">600968.SH</a></td><td>海油发展</td><td>10.15</td><td>13.03</td><td>14.72</td><td>394.41</td><td>45.31</td><td>26.79</td><td class="business-cell">公司围绕海上油气生产阶段做能源技术服务、低碳环保与数字化、能源物流服务。2025 年收入 503.63 亿元、成本 422.62 亿元、毛利 81.01 亿元，毛利率 16.09%。能源技术服务和低碳环保与数字化毛利率接近 20%，能源物流服务毛利率 9.31%，说明物流和供应链支持更像低毛利周转业...</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/603816.SH/">603816.SH</a></td><td>顾家家居</td><td>11.16</td><td>13.50</td><td>14.16</td><td>199.78</td><td>9.23</td><td>14.11</td><td class="business-cell">顾家家居卖的是沙发、卧室产品、集成产品、定制家具和信息技术服务，收入来自国内直营/经销/线上/大宗以及境外OEM/ODM/OBM等渠道。2025年收入200.56亿元、成本134.85亿元、毛利65.71亿元、毛利率32.76%。主营业务中家具制造收入185.33亿元，毛利率30.34%；信息技术服...</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/600873.SH/">600873.SH</a></td><td>梅花生物</td><td>7.21</td><td>14.27</td><td>13.87</td><td>236.40</td><td>-6.97</td><td>17.05</td><td class="business-cell">公司收入主要来自动物营养氨基酸和食品味觉性状优化产品。2025 年动物营养氨基酸收入 142.02 亿元、毛利率 20.83%；食品味觉性状优化产品收入 74.70 亿元、毛利率 12.73%；人类营养与医用氨基酸收入 7.40 亿元、毛利率 33.12%。销量增长来自赖氨酸、异亮氨酸和味精产能释放...</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/600690.SH/">600690.SH</a></td><td>海尔智家</td><td>10.48</td><td>14.65</td><td>14.45</td><td>2049.95</td><td>-29.39</td><td>141.90</td><td class="business-cell">收入来自大型家电和智慧家庭解决方案。按主营业务产品，电冰箱收入 841.65 亿元、洗衣机 649.85 亿元、空调 537.42 亿元、厨电 413.23 亿元、水家电 174.74 亿元、装备部品及渠道综合服务 388.93 亿元。总营业收入 3023.47 亿元、营业成本 2217.39 亿元...</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/00966.HK/">00966.HK</a></td><td>CHINA TAIPING</td><td>2.53</td><td>15.77</td><td>14.76</td><td>618.40</td><td>-42.10</td><td>41.89</td><td class="business-cell">中国太平 2025 年保险服务收入 1,014.02 亿元，保险服务费用 784.27 亿元，按普通展示口径形成 229.75 亿元毛利，毛利率 22.66%；更适合保险公司的指标是保险服务业绩 216.77 亿元。寿险贡献主要收入和利润，境内财险、海外财险、再保险贡献承保利润，其他业务包括资产管理...</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/600096.SH/">600096.SH</a></td><td>云天化</td><td>10.70</td><td>17.46</td><td>14.69</td><td>551.45</td><td>-104.21</td><td>37.55</td><td class="business-cell">公司主营化肥、磷矿采选、磷化工、新能源材料和商贸物流。2025 年主营业务收入 480.04 亿元，化肥贡献 270.98 亿元、毛利率 26.18%；商贸物流 118.50 亿元、毛利率 1.53%；磷化工 33.83 亿元、毛利率 34.45%。商贸收入大幅下降，和公司三季度后不再开展大豆贸易...</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/01508.HK/">01508.HK</a></td><td>CHINA RE</td><td>4.46</td><td>18.50</td><td>7.44</td><td>436.25</td><td>-648.21</td><td>58.63</td><td class="business-cell">公司是再保险和保险集团，收入来自财产再保险、人身再保险、财产险直保和资产管理。2025 年保险收入 1030.87 亿元，同比增长 1.7%；财产再保险 458.12 亿元、人身再保险 100.88 亿元、财产险直保 488.69 亿元。以保险服务费用、分出保费和再保摊回净额模拟普通企业成本，成本约...</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/603368.SH/">603368.SH</a></td><td>柳药集团</td><td>8.61</td><td>19.46</td><td>12.24</td><td>61.09</td><td>-36.07</td><td>4.99</td><td class="business-cell">公司收入来自医药批发、医药零售和医药工业。2025年医药批发收入160.07亿元，占主营收入约76.84%，毛利率7.45%；这门生意本质上是向上游药械企业采购，再向医院、流通企业和药店配送，赚配送、品种和供应链服务价差。医药零售收入36.44亿元，毛利率15.91%，通过桂中大药房及线上渠道面向个...</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/600269.SH/">600269.SH</a></td><td>赣粤高速</td><td>7.30</td><td>25.10</td><td>12.69</td><td>93.42</td><td>-91.35</td><td>7.36</td><td class="business-cell">公司收入主要来自高速通行费、智慧交通工程、服务区和城区加油站成品油销售、少量房地产销售。高速公路运营收入 36.08 亿元，毛利率 53.53%，是利润主体；智慧交通收入 10.49 亿元但毛利率 17.38%，更像工程和系统集成交付；成品油收入 13.56 亿元，毛利率 17.00%，受新能源替代...</td><td class="note-cell"></td></tr>
+          </tbody>
         </table>
       </div>
+    
+    </section>
+
+    <section class="ranking-section">
+      <h1>清算便宜榜</h1>
+      
+      <div class="table-wrap stock-table">
+        <table>
+          <thead>
+            <tr>
+              <th>代码</th>
+              <th>公司</th>
+              <th>PE</th>
+              <th>回本年</th>
+              <th>市值/现金利润</th>
+              <th>市值</th>
+              <th>折后净现金</th>
+              <th>折后现金利润</th>
+              <th>一句话业务</th>
+              <th>备注</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td><a href="reports/00032.HK/">00032.HK</a></td><td>CROSS-HAR(HOLD)</td><td>3.84</td><td>-24.84</td><td>46.28</td><td>23.99</td><td>36.86</td><td>0.52</td><td class="business-cell">收入人民币 8.03 亿元，其中驾驶学校课程费是最大经营收入，按完成课程确认；treasury management 收入来自利息和证券股息；电子收费业务主要是咨询/管理费和 Autotoll JV 利润。</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/000521.SZ/">000521.SZ</a></td><td>长虹美菱</td><td>12.20</td><td>-11.43</td><td>30.80</td><td>50.05</td><td>68.62</td><td>1.62</td><td class="business-cell">公司卖的是冰箱柜、空调、洗衣机、厨卫小家电和生物医疗低温设备，99.09%的收入来自家用电器制造，99.09%的销售模式为分销。2025年收入304.08亿元，其中空调173.81亿元、占57.16%，冰箱柜89.46亿元、占29.42%，洗衣机22.07亿元、占7.26%。营业成本272.15亿元...</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/00873.HK/">00873.HK</a></td><td>SHIMAO SERVICES</td><td>8.97</td><td>-7.59</td><td>18.53</td><td>9.27</td><td>13.06</td><td>0.50</td><td class="business-cell">公司收入主要来自存量物业管理，2025 年物业管理收入 RMB5.816bn，占 73.8%；社区增值、非业主增值和城市服务分别占 16.8%、2.5%、6.9%。毛利 RMB1.400bn、毛利率 17.8%，分部毛利率均下滑，反映清洁绿化、设备维护、人工能源耗材以及地产链条降价压力。</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/00050.HK/">00050.HK</a></td><td>HK FERRY (HOLD)</td><td>5.15</td><td>-5.25</td><td>74.20</td><td>15.53</td><td>16.63</td><td>0.21</td><td class="business-cell">2025年收入约3.84亿元，物业投资、渡轮船厂、医疗美容和证券投资共同构成收入。物业投资贡献最稳定的分部利润，渡轮和医疗分部仍亏损，说明会计利润主要来自租金、资金收益、估值和合营项目，而不是各经营分部全面高回报。</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/01075.HK/">01075.HK</a></td><td>CAPINFO</td><td>3.45</td><td>-0.61</td><td>17.11</td><td>4.28</td><td>4.43</td><td>0.25</td><td class="business-cell">公司主业是北京电子政务和城市数字化相关的信息技术服务。收入来自产品、软件开发及服务4.29亿元、行业解决方案5.09亿元、运营及运维服务7.28亿元，以及少量投资物业租金。项目制交付让收入增长和应收、合同资产、合同负债一起波动。</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/00113.HK/">00113.HK</a></td><td>DICKSON CONCEPT</td><td>12.73</td><td>2.58</td><td>30.01</td><td>21.77</td><td>19.90</td><td>0.73</td><td class="business-cell">公司卖的是手表珠宝、化妆品美容、时装配饰，并通过零售、批发、特许经营和寄售取得收入。FY2025 奢侈品销售分部收入约15.60亿元人民币，占总收入约94%；证券投资收入约1.00亿元，占约6%。毛利率约44.7%，但香港销售下滑、门店租金和人员渠道费用会继续消耗毛利。</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/600420.SH/">600420.SH</a></td><td>国药现代</td><td>12.38</td><td>9.87</td><td>19.88</td><td>116.55</td><td>58.68</td><td>5.86</td><td class="business-cell">公司 2025 年收入 93.63 亿元，原料药及医药中间体 44.76 亿元、制剂 46.22 亿元，两者合计占主营业务绝大部分。价格下行和集采使收入下降 14.39%，成本只下降 4.79%，所以毛利率降至 32.43%。</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/002508.SZ/">002508.SZ</a></td><td>老板电器</td><td>11.78</td><td>10.27</td><td>18.10</td><td>147.88</td><td>64.00</td><td>8.17</td><td class="business-cell">公司收入主要来自厨房电器。2025 年营业收入 101.16 亿元，其中家电厨卫 98.14 亿元，占 97.02%；吸油烟机 49.85 亿元、燃气灶 25.06 亿元，两项合计超过收入七成。直销收入 49.41 亿元、代销 38.29 亿元、工程 10.75 亿元。工程渠道毛利率只有 39.97...</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/300360.SZ/">300360.SZ</a></td><td>炬华科技</td><td>11.05</td><td>10.93</td><td>16.37</td><td>62.63</td><td>20.83</td><td>3.83</td><td class="business-cell">公司卖能源物联网设备，2025年收入16.87亿元，其中电工仪器仪表行业占99.23%，智慧计量与采集系统收入14.57亿元、占86.38%。直销占100%，现实含义是客户主要通过招投标和项目交付采购，收入确认受电网和行业客户采购批次影响。营业成本9.60亿元，材料占成本约89.43%，因此芯片、表...</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/603948.SH/">603948.SH</a></td><td>建业股份</td><td>12.98</td><td>12.73</td><td>18.15</td><td>29.85</td><td>8.92</td><td>1.64</td><td class="business-cell">公司卖低碳脂肪胺、电子化学品、乙酸酯、增塑剂等精细化工产品。主营业务收入 19.62 亿元，其中低碳脂肪胺 12.93 亿元、毛利率 23.00%，是利润核心；乙酸酯和增塑剂收入分别 2.37 亿元、2.97 亿元，毛利率仅 3.30% 和 2.51%，更像低利润率基础化工品。2025 年总收入下降...</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/603886.SH/">603886.SH</a></td><td>元祖股份</td><td>16.92</td><td>12.98</td><td>21.00</td><td>23.62</td><td>9.01</td><td>1.12</td><td class="business-cell">公司卖的是节令礼盒、蛋糕和中西糕点，通过 791 家线下实体店、线上门店、电商和外卖平台触达 B 端和 C 端客户。2025 年收入 20.81 亿元，成本 7.90 亿元，毛利 12.90 亿元，毛利率 62.02%。蛋糕收入 8.33 亿元、毛利率 70.96%；中西糕点礼盒收入 11.05 亿...</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/601921.SH/">601921.SH</a></td><td>浙版传媒</td><td>12.15</td><td>14.05</td><td>25.85</td><td>156.22</td><td>71.28</td><td>6.04</td><td class="business-cell">公司是出版、发行和数字出版相关业务主体。2025 年主营业务收入 101.87 亿元，出版业务 30.14 亿元、发行业务 83.88 亿元，合并前口径相加后有内部抵消。出版端教材教辅毛利率 42.27%，发行业务教材教辅毛利率 27.80%，一般图书发行毛利率仅 14.27%，线上销售收入 27....</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/002697.SZ/">002697.SZ</a></td><td>红旗连锁</td><td>12.82</td><td>15.40</td><td>23.37</td><td>61.61</td><td>21.01</td><td>2.64</td><td class="business-cell">红旗连锁的收入来自成都及周边便利超市门店销售食品、烟酒、日用百货，以及供应商促销服务、商品管理、信息服务、门店转租和代销。2025 年总收入 95.56 亿元，其中主营商品零售 88.10 亿元，占 92.20%；其他业务收入 7.45 亿元，占 7.80%。主营成本 67.27 亿元全部来自商品销...</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/605577.SH/">605577.SH</a></td><td>龙版传媒</td><td>18.27</td><td>17.72</td><td>33.86</td><td>40.93</td><td>19.51</td><td>1.21</td><td class="business-cell">公司是黑龙江出版发行平台，收入主要来自教材教辅、一般图书、物资贸易和其他文化教育服务。2025年主营收入14.60亿元，其中教材教辅10.29亿元，占主营收入70.46%，毛利率49.04%；一般图书3.85亿元，毛利率19.30%。公司年报说明收入下降主要受政策及学生人数减少影响，教材教辅收入同比...</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/688080.SH/">688080.SH</a></td><td>映翰通</td><td>16.30</td><td>17.82</td><td>24.96</td><td>24.29</td><td>6.94</td><td>0.97</td><td class="business-cell">公司收入来自工业物联网、数字配电网、企业网络、智能售货控制系统和技术服务。2025 年收入 7.77 亿元，毛利 3.83 亿元，综合毛利率 49.24%。工业物联网产品贡献最大，收入 4.47 亿元、毛利率 54.90%；智能售货控制系统收入 0.92 亿元、同比增长 228.97%，但毛利率仅...</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/002233.SZ/">002233.SZ</a></td><td>塔牌集团</td><td>13.41</td><td>18.15</td><td>34.69</td><td>85.01</td><td>40.54</td><td>2.45</td><td class="business-cell">公司主业是各类硅酸盐水泥、熟料和预拌混凝土，销售区域围绕梅州、惠州、龙岩三大基地，通过公路辐射粤东、珠三角周边、闽西和赣南。2025年营业收入41.07亿元，其中水泥收入36.58亿元，占89.07%；熟料1.35亿元，占3.28%；商品混凝土0.99亿元，占2.41%；环保业务1.27亿元。营业成...</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/002249.SZ/">002249.SZ</a></td><td>大洋电机</td><td>15.90</td><td>18.89</td><td>25.32</td><td>172.20</td><td>43.77</td><td>6.80</td><td class="business-cell">公司卖的是建筑及家居电器电机、起动机及发电机、新能源车辆动力总成系统。建筑及家居行业收入69.02亿元、毛利率24.97%，汽车零部件行业收入51.78亿元、毛利率18.86%。成本主要是材料、人工和制造费用，其中直接材料合计78.04亿元左右，说明这是一门高度依赖供应链采购、工厂制造和客户订单节奏...</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/000650.SZ/">000650.SZ</a></td><td>仁和药业</td><td>19.12</td><td>20.68</td><td>35.48</td><td>75.18</td><td>31.37</td><td>2.12</td><td class="business-cell">公司收入主要来自药品和大健康产品，2025年医药含大健康收入34.51亿元，占97.58%；药品24.48亿元、健康相关产品10.03亿元。渠道分销收入34.88亿元，占98.63%，说明业务核心是把OTC药品和健康产品通过经销、零售和线上渠道卖给终端消费者。全年毛利13.07亿元、毛利率36.96...</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/603587.SH/">603587.SH</a></td><td>地素时尚</td><td>20.84</td><td>20.87</td><td>32.27</td><td>54.27</td><td>19.17</td><td>1.68</td><td class="business-cell">公司卖DAZZLE、DIAMOND DAZZLE、d’zzit等中高端女装，直营店、电商和经销商共同卖货。2025年主营服装收入21.32亿元，毛利率75.00%，但线下收入下降9.79%、经销收入下降21.93%，电商增长27.03%。</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/001387.SZ/">001387.SZ</a></td><td>雪祺电气</td><td>19.93</td><td>22.40</td><td>30.46</td><td>19.42</td><td>5.14</td><td>0.64</td><td class="business-cell">公司是大容积冰箱 ODM 制造商，2025年收入20.00亿元，其中冰箱16.30亿元、占81.52%，商用展示柜及其他1.10亿元，PCBA 0.57亿元，蒸发器和冷凝器0.78亿元。冰箱毛利率13.68%，境外毛利率18.70%高于境内9.82%，说明利润弹性更多来自出口订单、产品结构和客户议价...</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/003012.SZ/">003012.SZ</a></td><td>东鹏控股</td><td>14.83</td><td>22.67</td><td>31.62</td><td>52.18</td><td>14.77</td><td>1.65</td><td class="business-cell">公司收入来自建筑陶瓷和卫浴产品。2025 年收入 60.62 亿元，同比下降 6.30%；瓷砖收入 51.11 亿元，占 84.32%，毛利率 31.23%；洁具收入 7.93 亿元，占 13.08%，毛利率 21.32%。经销收入 36.89 亿元，直销收入 22.81 亿元，说明公司主要通过经销...</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/002393.SZ/">002393.SZ</a></td><td>力生制药</td><td>10.55</td><td>27.16</td><td>54.03</td><td>43.90</td><td>21.83</td><td>0.81</td><td class="business-cell">公司 2025 年收入全部来自医药制造，营业收入 13.92 亿元，同比增长 4.18%。片剂收入 8.33 亿元、占 59.86%，毛利率 60.22%，是核心利润来源；针剂收入 2.14 亿元、毛利率 51.33%；胶囊和丸剂增长较快，丸剂毛利率 68.14%。营业成本 6.23 亿元，其中原料...</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/688330.SH/">688330.SH</a></td><td>宏力达</td><td>7.17</td><td>29.15</td><td>43.53</td><td>45.71</td><td>15.10</td><td>1.05</td><td class="business-cell">公司卖的是配电网智能设备和少量软件信息服务。2025年配电网智能设备收入6.26亿元、毛利率53.77%，是主要利润来源；软件与信息技术服务收入0.19亿元、毛利率7.47%，经济性较弱。收入确认依赖交付、投运单或客户验收，因此销售后会形成应收账款、票据和质保合同资产。</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/000957.SZ/">000957.SZ</a></td><td>中通客车</td><td>16.44</td><td>41.15</td><td>55.81</td><td>59.11</td><td>15.52</td><td>1.06</td><td class="business-cell">公司卖的是公路、公交、旅游、团体、校车等客车，2025 年销售 12,363 辆。收入 73.29 亿元，其中传统客车 33.76 亿元、新能源客车 36.51 亿元、其他 3.02 亿元；国外收入 43.03 亿元，占 58.71%。营业成本 60.38 亿元，原材料占成本 90.67%，说明毛利...</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/300771.SZ/">300771.SZ</a></td><td>智莱科技</td><td>31.12</td><td>57.91</td><td>90.45</td><td>25.75</td><td>9.27</td><td>0.28</td><td class="business-cell">公司卖的是智能保管与交付设备，2025 年收入 6.00 亿元，成本 4.08 亿元，毛利 1.91 亿元，毛利率 31.92%。智能快件箱类设备收入 3.66 亿元、毛利率 37.33%，是收入主轴；出口销售 2.94 亿元、毛利率 44.05%，说明海外订单对利润率贡献更高。智能换电柜收入 57...</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/00559.HK/">00559.HK</a></td><td>DETAI NEWENERGY</td><td>N/A</td><td>N/A</td><td>N/A</td><td>0.57</td><td>1.48</td><td>0.00</td><td class="business-cell">收入约 0.29 亿元，酒店贡献约四分之三，上市证券股息贡献约四分之一，酒类销售很小，借贷服务没有收入。毛利率 46.32%，但酒店、放贷和酒类分部均亏损，报表盈利主要来自上市证券组合。</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/02324.HK/">02324.HK</a></td><td>CAPITAL VC</td><td>0.76</td><td>N/A</td><td>N/A</td><td>0.91</td><td>1.84</td><td>N/A</td><td class="business-cell">公司业务实质是投资组合管理，不是卖商品或服务。年报披露收入由FVTPL上市证券净收益、股息收入、债券投资利息和投资处置相关利息构成，因此没有普通意义的营业成本、库存和毛利率。2025年利润主要来自FVTPL净收益人民币1.15亿元，其中港元口径未实现收益约HK$84.6m。</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/00428.HK/">00428.HK</a></td><td>COCOON HOLDINGS</td><td>N/A</td><td>N/A</td><td>N/A</td><td>0.31</td><td>0.59</td><td>N/A</td><td class="business-cell">公司是香港主板 Chapter 21 投资公司，单一经营分部是投资认可交易所上市证券及具资本增值潜力的非上市投资。收入 HKD0.319m 只是香港上市 FVTPL 权益证券股息；证券出售收益和公允价值变动不列入收入，而列入其他收益/亏损。因此毛利率 100% 只是股息收入没有销售成本的会计结果，不...</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/00768.HK/">00768.HK</a></td><td>UBA INVESTMENTS</td><td>4.18</td><td>N/A</td><td>N/A</td><td>0.34</td><td>0.52</td><td>N/A</td><td class="business-cell">公司只有 investment holding 一个业务分部，收入为上市股本证券股息，折人民币约437万元。年报未披露普通销售成本或毛利，因为它不是生产或销售商品的公司；真实业务是持有和买卖香港上市证券。2025年利润主要来自FVTPL证券公允价值和处置收益，折人民币约886万元。</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/01225.HK/">01225.HK</a></td><td>LERADO FIN</td><td>0.67</td><td>N/A</td><td>N/A</td><td>0.51</td><td>0.70</td><td>0.00</td><td class="business-cell">公司收入来自三块：医疗产品和塑料玩具、证券经纪及资管、放贷和其他金融服务。制造业务有真实产品收入但分部亏损，说明毛利不足以覆盖相关费用和资产占用；放贷分部利润主要被贷款减值转回抬高，不等于新发贷款创造的现金利润；证券分部在香港市场成交大幅改善的年份仍收入很小、亏损。</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/01063.HK/">01063.HK</a></td><td>SUNCORP TECH</td><td>N/A</td><td>N/A</td><td>N/A</td><td>0.61</td><td>0.79</td><td>0.00</td><td class="business-cell">公司收入主要来自二手电脑相关组件、服装及美容产品贸易，约0.37亿元人民币，占收入81.8%；证券和放债贡献收入但分部亏损。毛利率21.67%，贸易本身有毛利，但集团层面被平台费用、ECL和金融资产波动主导。</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/01051.HK/">01051.HK</a></td><td>G-RESOURCES</td><td>N/A</td><td>N/A</td><td>N/A</td><td>34.55</td><td>42.02</td><td>N/A</td><td class="business-cell">公司有金融服务、自营投资和房地产三块业务。2025年收入2.23亿元，主要来自利息1.72亿元、股息及分派0.35亿元、手续费佣金0.16亿元，租金只有43万元。年报未披露普通制造或零售式营业成本，因此不能计算可比毛利。金融服务业务本质是券商经纪、保证金融资、放债和资管；自营投资业务本质是把大量股东...</td><td class="note-cell"></td></tr>
+<tr><td><a href="reports/01217.HK/">01217.HK</a></td><td>CH INNOVATION</td><td>2.26</td><td>N/A</td><td>N/A</td><td>1.18</td><td>1.33</td><td>N/A</td><td class="business-cell">公司是 Chapter 21 投资公司，现实业务是拿现金买卖上市证券、持有未上市股权并等待资本增值。年报 Turnover 是出售或赎回 FVTPL 投资的总成交额，不是商品销售额；Revenue 是银行利息、港股股息、已实现 FVTPL 处置收益和未实现持有收益。因此成本和毛利口径不适用，核心经济...</td><td class="note-cell"></td></tr>
+          </tbody>
+        </table>
+      </div>
+    
     </section>
   </main>
-
-  <script src="assets/app.js"></script>
 </body>
 </html>

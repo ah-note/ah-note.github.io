@@ -4,6 +4,7 @@ from __future__ import annotations
 import html
 import json
 import re
+import shutil
 from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -14,8 +15,8 @@ SOURCE_DIR = ROOT / "_source" / "stock_research"
 NOTES_FILE = ROOT / "_source" / "user_stock_evaluations.md"
 DATA_DIR = ROOT / "data"
 STOCKS_DIR = ROOT / "stocks"
-ASSET_PATH = "../../assets/styles.css"
-APP_PATH = "assets/app.js"
+REPORTS_DIR = ROOT / "reports"
+REFERENCE_DIR = ROOT / "reference"
 TZ = ZoneInfo("Asia/Shanghai")
 
 
@@ -188,9 +189,16 @@ def slugify(text: str) -> str:
 
 
 def extract_summary(sections: dict[str, str]) -> tuple[str, str]:
-    business = sections.get("business_story") or ""
-    judgement = sections.get("earnback_story") or sections.get("risk_judgement") or ""
-    return business[:180], judgement[:220]
+    business = compact_text(sections.get("business_story") or "", 150)
+    judgement = compact_text(sections.get("earnback_story") or sections.get("risk_judgement") or "", 220)
+    return business, judgement
+
+
+def compact_text(text: str, limit: int) -> str:
+    text = re.sub(r"\s+", " ", text).strip()
+    if len(text) <= limit:
+        return text
+    return text[:limit].rstrip("，。；、 ") + "..."
 
 
 def risk_level(result: dict) -> str:
@@ -258,7 +266,7 @@ def load_stocks(notes: dict[str, dict[str, str]]) -> list[dict]:
             "core_judgement": core_judgement,
             "user_note": note.get("note", ""),
             "user_tags": [tag.strip() for tag in note.get("tags", "").split("；") if tag.strip()],
-            "detail_url": f"stocks/{code}/",
+            "detail_url": f"reports/{code}/",
             "_report_path": str(report_path),
         }
         stocks.append(stock)
@@ -273,24 +281,61 @@ def fmt(value: object, suffix: str = "") -> str:
     return f"{value}{suffix}"
 
 
-def stat_block(label: str, value: str) -> str:
-    return f'<div class="stat"><span>{html.escape(label)}</span><strong>{html.escape(value)}</strong></div>'
+def nav(current: str, prefix: str = "") -> str:
+    items = [("榜单", "index", ""), ("报告", "reports", "reports/"), ("参考资料", "reference", "reference/")]
+    links = []
+    for label, key, href in items:
+        cls = ' class="active"' if key == current else ""
+        links.append(f'<a{cls} href="{prefix}{href}">{html.escape(label)}</a>')
+    return '<nav class="site-nav">' + "".join(links) + "</nav>"
+
+
+def stock_table(stocks: list[dict]) -> str:
+    rows = []
+    for stock in stocks:
+        note = html.escape(stock["user_note"]) if stock["user_note"] else ""
+        rows.append(
+            "<tr>"
+            f'<td><a href="{html.escape(stock["detail_url"])}">{html.escape(stock["code"])}</a></td>'
+            f'<td>{html.escape(stock["name"])}</td>'
+            f"<td>{fmt(stock['pe_ttm'])}</td>"
+            f"<td>{fmt(stock['owner_earnback_years'])}</td>"
+            f"<td>{fmt(stock['market_profit_payback_years'])}</td>"
+            f"<td>{fmt(stock['market_cap_yi'])}</td>"
+            f"<td>{fmt(stock['discounted_detachable_net_cash_yi'])}</td>"
+            f"<td>{fmt(stock['discounted_cash_profit_yi'])}</td>"
+            f'<td class="business-cell">{html.escape(stock["business_summary"])}</td>'
+            f'<td class="note-cell">{note}</td>'
+            "</tr>"
+        )
+    return """
+      <div class="table-wrap stock-table">
+        <table>
+          <thead>
+            <tr>
+              <th>代码</th>
+              <th>公司</th>
+              <th>PE</th>
+              <th>回本年</th>
+              <th>市值/现金利润</th>
+              <th>市值</th>
+              <th>折后净现金</th>
+              <th>折后现金利润</th>
+              <th>一句话业务</th>
+              <th>备注</th>
+            </tr>
+          </thead>
+          <tbody>
+            """ + "\n".join(rows) + """
+          </tbody>
+        </table>
+      </div>
+    """
 
 
 def render_index(stocks: list[dict], built_at: str) -> str:
-    a_count = sum(1 for item in stocks if item["market"] == "A")
-    hk_count = sum(1 for item in stocks if item["market"] == "HK")
-    profit_count = sum(1 for item in stocks if item["bucket"] == "profit_cheap")
-    liq_count = sum(1 for item in stocks if item["bucket"] == "liquidation_watch")
-    stats = "\n".join(
-        [
-            stat_block("公司", str(len(stocks))),
-            stat_block("A 股", str(a_count)),
-            stat_block("港股", str(hk_count)),
-            stat_block("赚钱且便宜", str(profit_count)),
-            stat_block("清算便宜", str(liq_count)),
-        ]
-    )
+    profit_stocks = [item for item in stocks if item["bucket"] == "profit_cheap"]
+    liquidation_stocks = [item for item in stocks if item["bucket"] == "liquidation_watch"]
     return f"""<!doctype html>
 <html lang="zh-CN">
 <head>
@@ -302,69 +347,86 @@ def render_index(stocks: list[dict], built_at: str) -> str:
   <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
-  <header class="site-header">
-    <div>
-      <p class="eyebrow">AH Note</p>
-      <h1>股票研究</h1>
-      <p class="lead">按 owner_earnback 口径整理的 A 股与港股研究报告，重点展示市值、折后净现金、折后现金利润、回本年和人工备注。</p>
-    </div>
-    <div class="updated">更新：{html.escape(built_at)}</div>
-  </header>
-
-  <main>
-    <section class="stats" aria-label="统计">{stats}</section>
-
-    <section class="toolbar" aria-label="筛选">
-      <input id="searchInput" type="search" placeholder="搜索代码、公司、业务、备注">
-      <select id="marketFilter" aria-label="市场">
-        <option value="all">全部市场</option>
-        <option value="A">A 股</option>
-        <option value="HK">港股</option>
-      </select>
-      <select id="bucketFilter" aria-label="榜单">
-        <option value="all">全部榜单</option>
-        <option value="profit_cheap">赚钱且便宜</option>
-        <option value="liquidation_watch">清算便宜</option>
-      </select>
-      <select id="sortSelect" aria-label="排序">
-        <option value="default">榜单优先</option>
-        <option value="earnback">纯按回本年</option>
-        <option value="cashProfit">按市值/现金利润</option>
-        <option value="netCash">按折后净现金占市值</option>
-        <option value="marketCap">按市值</option>
-      </select>
-      <label class="check"><input id="noteOnly" type="checkbox">只看有备注</label>
+  {nav("index")}
+  <main class="board-page">
+    <section class="ranking-section">
+      <h1>赚钱且便宜榜</h1>
+      {stock_table(profit_stocks)}
     </section>
 
-    <section>
-      <div class="section-head">
-        <h2>股票表格</h2>
-        <span id="resultCount"></span>
-      </div>
-      <div class="table-wrap stock-table">
-        <table>
-          <thead>
-            <tr>
-              <th>代码</th>
-              <th>公司</th>
-              <th>榜单</th>
-              <th>PE</th>
-              <th>回本年</th>
-              <th>市值/现金利润</th>
-              <th>市值</th>
-              <th>折后净现金</th>
-              <th>折后现金利润</th>
-              <th>一句话业务</th>
-              <th>备注</th>
-            </tr>
-          </thead>
-          <tbody id="stockRows"></tbody>
-        </table>
-      </div>
+    <section class="ranking-section">
+      <h1>清算便宜榜</h1>
+      {stock_table(liquidation_stocks)}
     </section>
   </main>
+</body>
+</html>
+"""
 
-  <script src="{APP_PATH}"></script>
+
+def render_reports_index(stocks: list[dict], built_at: str) -> str:
+    cards = []
+    for stock in stocks:
+        note = f'<p class="report-note">{html.escape(stock["user_note"])}</p>' if stock["user_note"] else ""
+        cards.append(
+            f"""
+            <article class="report-card">
+              <a href="{html.escape(stock["code"])}/">
+                <span>{html.escape(stock["bucket_label"])} · {html.escape(stock["market"])}</span>
+                <h2>{html.escape(stock["name"])} {html.escape(stock["code"])}</h2>
+                <p>{html.escape(stock["business_summary"])}</p>
+                {note}
+              </a>
+            </article>
+            """
+        )
+    return f"""<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>研究报告 - AH Note</title>
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/styles.css">
+</head>
+<body>
+  {nav("reports", "../")}
+  <main class="reports-page">
+    <h1>研究报告</h1>
+    <div class="report-list">
+      {"".join(cards)}
+    </div>
+  </main>
+</body>
+</html>
+"""
+
+
+def render_reference() -> str:
+    return f"""<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>参考资料 - AH Note</title>
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/styles.css">
+</head>
+<body>
+  {nav("reference", "../")}
+  <main class="reference-page">
+    <h1>参考资料</h1>
+    <section class="reference-block">
+      <h2>榜单口径</h2>
+      <p>赚钱且便宜榜：折后现金利润能在约 15 年内覆盖市值或经营业务购买价的公司。</p>
+      <p>清算便宜榜：利润回本不进入第一类，但折后净现金或可清算资产相对市值有观察价值的公司。</p>
+    </section>
+    <section class="reference-block">
+      <h2>核心字段</h2>
+      <p>市值、折后净现金、折后现金利润和回本年均来自 owner_earnback 分析结果，展示单位默认为亿元人民币。</p>
+      <p>一句话业务来自研究报告结构化结果中的 <code>sections.business_story</code>，用于在榜单页快速识别公司实际做什么。</p>
+    </section>
+  </main>
 </body>
 </html>
 """
@@ -380,15 +442,6 @@ def render_detail(stock: dict, report_html: str, built_at: str) -> str:
           <p>{html.escape(stock["user_note"])}</p>
           <div class="tags">{tags}</div>
         </section>"""
-    metrics = [
-        ("PE", fmt(stock["pe_ttm"])),
-        ("回本年", fmt(stock["owner_earnback_years"])),
-        ("市值/现金利润", fmt(stock["market_profit_payback_years"])),
-        ("市值", fmt(stock["market_cap_yi"])),
-        ("折后净现金", fmt(stock["discounted_detachable_net_cash_yi"])),
-        ("折后现金利润", fmt(stock["discounted_cash_profit_yi"])),
-    ]
-    metric_html = "\n".join(stat_block(label, value) for label, value in metrics)
     return f"""<!doctype html>
 <html lang="zh-CN">
 <head>
@@ -399,17 +452,9 @@ def render_detail(stock: dict, report_html: str, built_at: str) -> str:
   <link rel="stylesheet" href="../../assets/styles.css">
 </head>
 <body>
-  <header class="site-header detail-header">
-    <div>
-      <a class="back-link" href="../../">← 返回股票表格</a>
-      <p class="eyebrow">{html.escape(stock["bucket_label"])} · {html.escape(stock["market"])}</p>
-      <h1>{html.escape(stock["name"])} <span>{html.escape(stock["code"])}</span></h1>
-      <p class="lead">{html.escape(stock["business_summary"])}</p>
-    </div>
-    <div class="updated">更新：{html.escape(built_at)}</div>
-  </header>
-  <main>
-    <section class="stats detail-stats">{metric_html}</section>
+  {nav("reports", "../../")}
+  <main class="report-page">
+    <a class="back-link" href="../">← 返回报告</a>
     {note_block}
     <article class="report-content">
       {report_html}
@@ -424,14 +469,21 @@ def write_detail_pages(stocks: list[dict], built_at: str) -> None:
     for stock in stocks:
         report_path = Path(stock["_report_path"])
         report_html = markdown_to_html(report_path.read_text(encoding="utf-8"))
-        out_dir = STOCKS_DIR / stock["code"]
+        out_dir = REPORTS_DIR / stock["code"]
         out_dir.mkdir(parents=True, exist_ok=True)
         (out_dir / "index.html").write_text(render_detail(stock, report_html, built_at), encoding="utf-8")
 
 
 def main() -> None:
     DATA_DIR.mkdir(exist_ok=True)
-    STOCKS_DIR.mkdir(exist_ok=True)
+    if STOCKS_DIR.exists():
+        shutil.rmtree(STOCKS_DIR)
+    if REPORTS_DIR.exists():
+        shutil.rmtree(REPORTS_DIR)
+    if REFERENCE_DIR.exists():
+        shutil.rmtree(REFERENCE_DIR)
+    REPORTS_DIR.mkdir(exist_ok=True)
+    REFERENCE_DIR.mkdir(exist_ok=True)
     built_at = datetime.now(TZ).strftime("%Y-%m-%d %H:%M:%S +08:00")
     notes = parse_notes()
     stocks = load_stocks(notes)
@@ -445,6 +497,8 @@ def main() -> None:
         encoding="utf-8",
     )
     (ROOT / "index.html").write_text(render_index(public_stocks, built_at), encoding="utf-8")
+    (REPORTS_DIR / "index.html").write_text(render_reports_index(public_stocks, built_at), encoding="utf-8")
+    (REFERENCE_DIR / "index.html").write_text(render_reference(), encoding="utf-8")
     write_detail_pages(stocks, built_at)
     print(f"generated {len(stocks)} stocks at {built_at}")
 

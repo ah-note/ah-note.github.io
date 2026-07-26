@@ -13,3 +13,10 @@ python3 -m http.server 8765
 ```
 
 Open `http://127.0.0.1:8765/` to preview.
+
+Published pages:
+
+- `/` - ranking tables
+- `/reports/` - report list
+- `/reports/<code>/` - full report
+- `/reference/` - calculation and field reference
