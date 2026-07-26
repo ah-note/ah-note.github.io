@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-27 02:58:50 +08:00",
+  "built_at": "2026-07-27 03:02:58 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -1711,7 +1711,7 @@
       "detail_url": "reports/000786.SZ/"
     },
     {
-      "schema_version": "legacy",
+      "schema_version": "stock-research-result-v1",
       "code": "603886.SH",
       "name": "元祖股份",
       "raw_name": "元祖股份",
@@ -1733,10 +1733,10 @@
       "parent_net_profit_yi": 1.4,
       "gross_margin_pct": 62.02,
       "net_margin_pct": 6.71,
-      "forecast_dividend_yield_pct": null,
-      "risk_level": "高",
-      "business_summary": "主业是节令礼盒、蛋糕和中西糕点；利润主要靠高毛利品类、品牌或服务溢价；模式是高毛利、现金转化好、资金资产厚，资产端有较多现金、定存或理财。",
-      "core_judgement": "owner_earnback 复用口径：市值 23.62 亿元，折后可剥离净现金 9.01 亿元，经营业务购买价 14.61 亿元；折后可持续可分配现金利润 1.125 亿元，控股回本年数 12.98 年，控股回本率 7.70%，市值/折后现金利润 21.00 年，现金利润收益率 4.76%。这个回本数最依赖三个前提：结构性理财按折扣后可剥离、卡券预收不会造成额外大额兑付挤兑、2025 年利润下滑不会继续深度恶化。",
+      "forecast_dividend_yield_pct": 6.1,
+      "risk_level": "未分级",
+      "business_summary": "公司从事烘焙食品研发、生产与销售，产品包括蛋糕、中西式糕点、礼盒等，主要通过直营/加盟线下门店、线上门店、电商和外卖平台销售。",
+      "core_judgement": "市值23.62亿元，折后可剥离净现金9.01亿元，经营业务购买价14.61亿元；按折后可持续可分配现金利润1.125亿元计算，控股回本约12.98年。该结论依赖结构性理财折扣可变现、卡券预收履约不挤兑，以及2025年利润下滑不继续深度恶化。",
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603886.SH/"
