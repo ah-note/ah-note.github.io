@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-27 01:49:39 +08:00",
+  "built_at": "2026-07-27 01:54:47 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -1246,7 +1246,7 @@
       "detail_url": "reports/01073.HK/"
     },
     {
-      "schema_version": "legacy",
+      "schema_version": "stock-research-result-v1",
       "code": "002508.SZ",
       "name": "老板电器",
       "raw_name": "老板电器",
@@ -1268,10 +1268,10 @@
       "parent_net_profit_yi": 12.56,
       "gross_margin_pct": 50.19,
       "net_margin_pct": 12.41,
-      "forecast_dividend_yield_pct": null,
-      "risk_level": "高",
-      "business_summary": "主业是厨房电器；利润主要靠高毛利品类、品牌或服务溢价；模式是高毛利、现金转化好、资金资产厚、有息负债低，资产端有较多现金、定存或理财。",
-      "core_judgement": "复用 owner_earnback_result_json 主口径：市值 147.88 亿元，折后可剥离净现金 64.00 亿元，经营业务购买价 83.88 亿元；折后可持续可分配现金利润 8.17 亿元，控股回本年数 10.27 年，控股回本率 9.74%。按整家公司市值除以折后现金利润为 18.10 年，现金利润收益率 5.52%，因此专题分类为 liquidation_watch，而不是 profit_cheap。",
+      "forecast_dividend_yield_pct": 3.19,
+      "risk_level": "未分级",
+      "business_summary": "老板电器主要通过品牌、渠道和制造体系销售吸油烟机、燃气灶、洗碗机、蒸烤一体机等厨房电器，2025年利润来自零售厨电毛利和资金收益共同贡献。",
+      "core_judgement": "按147.88亿元市值、64.00亿元折后可剥离净现金和8.17亿元折后可持续现金利润计算，经营业务购买价约83.88亿元，控股回本约10.27年；若不扣净现金，市值/现金利润约18.10年。这个结论依赖长期定存、理财和其他非流动金融资产能按折扣兑现，以及主业现金利润不继续显著下台阶。",
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002508.SZ/"
