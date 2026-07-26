@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-27 05:52:51 +08:00",
+  "built_at": "2026-07-27 05:58:00 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -2765,10 +2765,10 @@
       "detail_url": "reports/01063.HK/"
     },
     {
-      "schema_version": "legacy",
+      "schema_version": "stock-research-result-v1",
       "code": "01051.HK",
       "name": "国际资源",
-      "raw_name": "G-RESOURCES",
+      "raw_name": "国际资源",
       "market": "HK",
       "period": "2025-12-31",
       "currency": "CNY",
@@ -2779,18 +2779,18 @@
       "market_profit_payback_years": null,
       "market_cash_profit_yield_pct": null,
       "discounted_detachable_net_cash_yi": 42.02,
-      "discounted_net_cash_to_market_cap_pct": 121.62,
+      "discounted_net_cash_to_market_cap_pct": 121.63,
       "operating_business_price_yi": -7.47,
       "discounted_cash_profit_yi": null,
       "revenue_yi": 2.23,
       "gross_profit_yi": null,
       "parent_net_profit_yi": 7.09,
       "gross_margin_pct": null,
-      "net_margin_pct": null,
-      "forecast_dividend_yield_pct": null,
-      "risk_level": "高",
-      "business_summary": "主业是有金融服务、自营投资和房地产三块业务；利润主要靠主营毛利和费用控制；模式是金融资产周转，现金质量取决于客户款、监管资金和投资/信用风险。",
-      "core_judgement": "复用owner earnback结果：输入市值34.55亿元，折后可剥离净现金42.02亿元，经营业务购买价为-7.47亿元。但折后可持续可分配现金利润为null，因为公司是金融/投资控股平台，2025年利润主要来自投资资产公允价值；在已经把现金、定存和部分上市证券本金扣作可清算资金后，不能再把其利息和投资收益完整放入回本分母。因此控股回本年、控股回本率、市值/现金利润和现金利润收益率均不成立，分类为liquidation_watch。",
+      "net_margin_pct": 317.69,
+      "forecast_dividend_yield_pct": 1.44,
+      "risk_level": "未分级",
+      "business_summary": "国际资源是香港上市的金融服务和投资控股平台，收入主要来自投资组合利息、股息分派、金融服务手续费和少量物业租金。",
+      "core_judgement": "折后可剥离净现金高于输入市值，经营业务购买价为负；但这不是稳定利润回本样本。公司利润主要来自投资组合公允价值变动，经营现金流转正也依赖利息和股息收款；在现金、定存和部分上市证券本金已被扣作可剥离资金后，不能再把其收益完整作为可持续现金利润，否则会本金和收益双算。",
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/01051.HK/"
