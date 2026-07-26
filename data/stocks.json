@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-27 00:49:39 +08:00",
+  "built_at": "2026-07-27 00:54:27 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -808,10 +808,10 @@
       "detail_url": "reports/00327.HK/"
     },
     {
-      "schema_version": "legacy",
+      "schema_version": "stock-research-result-v1",
       "code": "00240.HK",
       "name": "利基控股",
-      "raw_name": "BUILD KING HOLD",
+      "raw_name": "利基控股",
       "market": "HK",
       "period": "2025-12-31",
       "currency": "CNY",
@@ -830,10 +830,10 @@
       "parent_net_profit_yi": 4.07,
       "gross_margin_pct": 7.52,
       "net_margin_pct": 3.27,
-      "forecast_dividend_yield_pct": null,
-      "risk_level": "高",
-      "business_summary": "主业是几乎是一家香港建筑工程承包商，香港建筑收入约人民币，占收入约；利润主要靠主业规模大但项目承包毛利薄，工程认证、保留金和分包成本会显著影响利润兑现；模式是低毛利、现金转化好、经营资产占用重、有息负债低，资产端有较多现金、定存或理财。",
-      "core_judgement": "经营业务购买价=市值15.85亿元-折后可剥离净现金8.88亿元=6.97亿元。折后可持续可分配现金利润2.13亿元，控股回本年数3.28年，控股回本率30.50%；市值/折后现金利润7.46年，现金利润收益率13.41%。这个回本数最依赖工程现金流能跨周期保持、必要经营现金估算没有偏低、Road King相关资产不出现更大减值。",
+      "forecast_dividend_yield_pct": 11.97,
+      "risk_level": "未分级",
+      "business_summary": "利基控股主要在香港承接建筑、土木、基础、机电和装修工程，并在内地经营少量环保基础设施。",
+      "core_judgement": "按控股口径，输入市值扣除折后可剥离净现金后，经营业务购买价约6.97亿元；折后可持续可分配现金利润约2.13亿元，对应回本约3.28年。这个数字依赖工程利润稳定、合同资产不持续吞现金、现金可剥离折扣没有被高估。",
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00240.HK/"
