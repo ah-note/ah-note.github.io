@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-27 02:40:34 +08:00",
+  "built_at": "2026-07-27 02:45:24 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -1587,7 +1587,7 @@
       "detail_url": "reports/002668.SZ/"
     },
     {
-      "schema_version": "legacy",
+      "schema_version": "stock-research-result-v1",
       "code": "920029.BJ",
       "name": "开发科技",
       "raw_name": "开发科技",
@@ -1602,17 +1602,17 @@
       "market_cash_profit_yield_pct": 6.7,
       "discounted_detachable_net_cash_yi": 13.98,
       "discounted_net_cash_to_market_cap_pct": 21.2,
-      "operating_business_price_yi": null,
+      "operating_business_price_yi": 51.99,
       "discounted_cash_profit_yi": 4.42,
       "revenue_yi": 30.2,
       "gross_profit_yi": 11.87,
       "parent_net_profit_yi": 7.07,
-      "gross_margin_pct": 39.3,
+      "gross_margin_pct": 39.31,
       "net_margin_pct": 23.39,
-      "forecast_dividend_yield_pct": null,
-      "risk_level": "高",
-      "business_summary": "主业是智能电、水、气表等智能计量终端及 AMI 系统软件；利润主要靠主营毛利和费用控制；模式是中等毛利、现金转化尚可、资金资产厚、有息负债低，资产占用主要看库存和应收回款。",
-      "core_judgement": "沿用 owner_earnback：市值 65.97 亿元，折后可剥离净现金 13.98 亿元，经营业务购买价 51.99 亿元，折后可持续可分配现金利润 4.42 亿元。控股回本年数 = 51.99 / 4.42 = 11.76 年；控股回本率 = 4.42 / 51.99 = 8.50%；市值/折后现金利润 = 14.93 年；现金利润收益率 = 4.42 / 65.97 = 6.70%。该结论最依赖境外订单和回款延续、资本开支不长...",
+      "forecast_dividend_yield_pct": 3.37,
+      "risk_level": "未分级",
+      "business_summary": "开发科技主营智能电、水、气表等智能计量终端及 AMI 系统软件，2025 年收入主要来自境外公用事业和电力计量客户。",
+      "core_judgement": "按本次输入市值 65.97 亿元，复用历史 owner_earnback 的折后可剥离净现金 13.98 亿元后，经营业务购买价为 51.99 亿元。折后可持续可分配现金利润取 4.42 亿元，低于 2025 年经营自由现金流 5.54 亿元，主要为扣除已作为净现金处理资产对应收益、资本开支和项目波动留折扣。控股回本年数约 11.76 年，结论依赖境外订单、主要客户回款和资本开支不长期恶化。",
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/920029.BJ/"
