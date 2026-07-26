@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>参考资料 - AH Note</title>
   <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="../assets/styles.css">
+  <link rel="stylesheet" href="../assets/styles.css?v=20260726-1">
 </head>
 <body>
   <nav class="site-nav"><a href="../">股票</a><a href="../reports/">报告</a><a class="active" href="../reference/">参考资料</a></nav>
@@ -18,8 +18,8 @@
     </section>
     <section class="reference-block">
       <h2>核心字段</h2>
-      <p>市值、折后净现金、折后现金利润和回本年均来自 owner_earnback 分析结果，展示单位默认为亿元人民币。</p>
-      <p>一句话业务来自研究报告结构化结果中的 <code>sections.business_story</code>，用于在榜单页快速识别公司实际做什么。</p>
+      <p>市值、折后净现金、折后现金利润和回本年均直接来自统一股票研究 Agent 的结构化结果，展示单位默认为亿元人民币。</p>
+      <p>一句话业务直接使用统一研究结果中的 <code>business.one_line</code>；旧报告尚未重跑时才使用兼容摘要。</p>
     </section>
   </main>
 </body>

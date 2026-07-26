@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
+import argparse
 import html
 import csv
 import json
@@ -9,6 +10,8 @@ import shutil
 from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
+
+from site_sources import ResearchDocument, UNIFIED_SCHEMA, load_research_documents
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -21,12 +24,7 @@ STOCKS_DIR = ROOT / "stocks"
 REPORTS_DIR = ROOT / "reports"
 REFERENCE_DIR = ROOT / "reference"
 TZ = ZoneInfo("Asia/Shanghai")
-
-
-BUCKET_LABELS = {
-    "profit_cheap": "赚钱且便宜",
-    "liquidation_watch": "清算便宜",
-}
+ASSET_VERSION = "20260726-1"
 
 
 def yuan_to_yi(value: float | int | None) -> float | None:
@@ -47,12 +45,14 @@ def num(value: float | int | None, digits: int = 2) -> float | None:
     return round(float(value), digits)
 
 
-def parse_notes() -> dict[str, dict[str, str]]:
-    if not NOTES_FILE.exists():
+def parse_notes(stock_report_root: Path = STOCK_REPORT_DIR) -> dict[str, dict[str, str]]:
+    canonical_notes = stock_report_root / "data" / "notes" / "user_stock_evaluations.md"
+    notes_file = canonical_notes if canonical_notes.exists() else NOTES_FILE
+    if not notes_file.exists():
         return {}
 
     notes: dict[str, dict[str, str]] = {}
-    for line in NOTES_FILE.read_text(encoding="utf-8").splitlines():
+    for line in notes_file.read_text(encoding="utf-8").splitlines():
         if not line.startswith("|") or "---" in line or "代码" in line:
             continue
         cells = [cell.strip() for cell in line.strip("|").split("|")]
@@ -122,14 +122,14 @@ def parse_csv_name_file(mapping: dict[str, str], path: Path) -> None:
             add_name(mapping, code, str(name))
 
 
-def load_chinese_names(notes: dict[str, dict[str, str]]) -> dict[str, str]:
+def load_chinese_names(notes: dict[str, dict[str, str]], stock_report_root: Path = STOCK_REPORT_DIR) -> dict[str, str]:
     mapping: dict[str, str] = {}
     add_name(mapping, "01416.HK", "CTR控股")
     for code, note in notes.items():
         add_name(mapping, code, note.get("company", ""))
 
-    parse_markdown_name_tables(mapping, STOCK_REPORT_DIR / "data" / "outputs" / "hk_owner_earnback_notes")
-    parse_markdown_name_tables(mapping, STOCK_REPORT_DIR / "data" / "outputs" / "a_share_owner_earnback_notes")
+    parse_markdown_name_tables(mapping, stock_report_root / "data" / "outputs" / "hk_owner_earnback_notes")
+    parse_markdown_name_tables(mapping, stock_report_root / "data" / "outputs" / "a_share_owner_earnback_notes")
 
     imported = STOCK_ANALYSIS_DIR / "data" / "imported" / "stock" / "processed_lists"
     for filename in [
@@ -495,13 +495,12 @@ def risk_level(result: dict) -> str:
     return highest or "未分级"
 
 
-def stock_sort_key(stock: dict) -> tuple[int, float, float]:
-    bucket_rank = 0 if stock["bucket"] == "profit_cheap" else 1
+def stock_sort_key(stock: dict) -> tuple[float, float]:
     earnback = stock["owner_earnback_years"]
     if earnback is None:
         earnback = 9999
     cash_ratio = stock["discounted_net_cash_to_market_cap_pct"]
-    return (bucket_rank, float(earnback), -float(cash_ratio or 0))
+    return (float(earnback), -float(cash_ratio or 0))
 
 
 def display_name_for(code: str, fallback: str, chinese_names: dict[str, str]) -> str:
@@ -509,71 +508,113 @@ def display_name_for(code: str, fallback: str, chinese_names: dict[str, str]) ->
     return chinese_names.get(code) or chinese_names.get(base_code) or fallback
 
 
-def load_stocks(notes: dict[str, dict[str, str]], chinese_names: dict[str, str]) -> list[dict]:
-    stocks: list[dict] = []
-    for result_path in sorted(SOURCE_DIR.glob("*/*/result.json")):
-        report_path = result_path.with_name("report.md")
-        if not report_path.exists():
-            continue
-        result = json.loads(result_path.read_text(encoding="utf-8"))
-        company = result.get("company") or {}
-        metrics = result.get("metrics") or {}
-        sections = result.get("sections") or {}
-        sections_for_summary = dict(sections)
-        sections_for_summary["_metrics"] = metrics
-        sections_for_summary["_gross_margin"] = metrics.get("gross_margin")
-        code = company.get("code") or result_path.parents[1].name
-        note = notes.get(code, {})
-        raw_name = company.get("name") or note.get("company") or code
-        display_name = display_name_for(code, raw_name, chinese_names)
-        business_summary, core_judgement = extract_summary(sections_for_summary)
-        market_cap_yi = yuan_to_yi(metrics.get("market_cap"))
-        discounted_cash_yi = yuan_to_yi(metrics.get("discounted_detachable_net_cash"))
+def stock_from_document(
+    document: ResearchDocument,
+    notes: dict[str, dict[str, str]],
+    chinese_names: dict[str, str],
+) -> dict:
+    result = document.result
+    company = result.get("company") or {}
+    metrics = result.get("metrics") or {}
+    sections = result.get("sections") or {}
+    business = result.get("business") or {}
+    earnback = result.get("owner_earnback") or {}
+    sections_for_summary = dict(sections)
+    sections_for_summary["_metrics"] = metrics
+    sections_for_summary["_gross_margin"] = metrics.get("gross_margin")
+    code = str(company.get("code") or document.result_path.parents[1].name).upper()
+    note = notes.get(code, {})
+    raw_name = company.get("display_name") or company.get("name") or note.get("company") or code
+    display_name = (
+        raw_name
+        if result.get("schema_version") == UNIFIED_SCHEMA and name_is_chinese(str(raw_name))
+        else display_name_for(code, raw_name, chinese_names)
+    )
+    generated_summary, generated_judgement = extract_summary(sections_for_summary)
+    business_summary = compact_text(str(business.get("one_line") or generated_summary), 180)
+    core_judgement = compact_text(str(earnback.get("interpretation") or generated_judgement), 240)
+    market_cap_yi = yuan_to_yi(metrics.get("market_cap"))
+    discounted_cash_yi = yuan_to_yi(metrics.get("discounted_detachable_net_cash"))
+    if result.get("schema_version") == UNIFIED_SCHEMA:
+        gross_margin_usable = isinstance(metrics.get("gross_margin"), (int, float))
+        net_margin_usable = isinstance(metrics.get("net_margin"), (int, float))
+    else:
         gross_margin_usable, net_margin_usable = margin_applicability(sections, metrics)
-        stock = {
-            "code": code,
-            "name": display_name,
-            "raw_name": raw_name,
-            "market": company.get("market") or ("HK" if code.endswith(".HK") else "A"),
-            "period": result.get("period") or "2025-12-31",
-            "currency": result.get("currency") or "CNY",
-            "bucket": metrics.get("investment_case_type") or "unknown",
-            "bucket_label": BUCKET_LABELS.get(metrics.get("investment_case_type"), "未分类"),
-            "market_cap_yi": market_cap_yi,
-            "pe_ttm": num(metrics.get("pe_ttm"), 2),
-            "owner_earnback_years": num(metrics.get("owner_earnback_years"), 2),
-            "owner_earnback_rate_pct": pct(metrics.get("owner_earnback_rate")),
-            "market_profit_payback_years": num(metrics.get("market_profit_payback_years"), 2),
-            "market_cash_profit_yield_pct": pct(metrics.get("market_cash_profit_yield")),
-            "discounted_detachable_net_cash_yi": discounted_cash_yi,
-            "discounted_net_cash_to_market_cap_pct": pct(
-                (metrics.get("discounted_detachable_net_cash") or 0) / metrics.get("market_cap")
-                if metrics.get("market_cap")
-                else None
-            ),
-            "operating_business_price_yi": yuan_to_yi(metrics.get("operating_business_price_after_haircut") or metrics.get("operating_business_price")),
-            "discounted_cash_profit_yi": yuan_to_yi(metrics.get("discounted_sustainable_cash_profit")),
-            "revenue_yi": yuan_to_yi(metrics.get("revenue")),
-            "gross_profit_yi": yuan_to_yi(metrics.get("gross_profit")),
-            "parent_net_profit_yi": yuan_to_yi(metrics.get("parent_net_profit")),
-            "gross_margin_pct": pct(metrics.get("gross_margin")) if gross_margin_usable else None,
-            "net_margin_pct": pct(
-                (metrics.get("parent_net_profit") or 0) / metrics.get("revenue")
-                if metrics.get("revenue")
-                else None
-            )
-            if net_margin_usable
-            else None,
-            "risk_level": risk_level(result),
-            "business_summary": business_summary,
-            "core_judgement": core_judgement,
-            "user_note": note.get("note", ""),
-            "user_tags": [tag.strip() for tag in note.get("tags", "").split("；") if tag.strip()],
-            "detail_url": f"reports/{code}/",
-            "_report_path": str(report_path),
-        }
-        stocks.append(stock)
+    net_margin = metrics.get("net_margin")
+    if net_margin is None and metrics.get("revenue"):
+        net_margin = (metrics.get("parent_net_profit") or 0) / metrics["revenue"]
+    discounted_cash_ratio = metrics.get("discounted_net_cash_to_market_cap")
+    if discounted_cash_ratio is None and metrics.get("market_cap"):
+        discounted_cash_ratio = (metrics.get("discounted_detachable_net_cash") or 0) / metrics["market_cap"]
+    return {
+        "schema_version": result.get("schema_version") or "legacy",
+        "code": code,
+        "name": display_name,
+        "raw_name": raw_name,
+        "market": company.get("market") or ("HK" if code.endswith(".HK") else "A"),
+        "period": result.get("period") or document.result_path.parent.name,
+        "currency": result.get("currency") or "CNY",
+        "market_cap_yi": market_cap_yi,
+        "pe_ttm": num(metrics.get("pe_ttm"), 2),
+        "owner_earnback_years": num(metrics.get("owner_earnback_years"), 2),
+        "owner_earnback_rate_pct": pct(metrics.get("owner_earnback_rate")),
+        "market_profit_payback_years": num(metrics.get("market_profit_payback_years"), 2),
+        "market_cash_profit_yield_pct": pct(metrics.get("market_cash_profit_yield")),
+        "discounted_detachable_net_cash_yi": discounted_cash_yi,
+        "discounted_net_cash_to_market_cap_pct": pct(discounted_cash_ratio),
+        "operating_business_price_yi": yuan_to_yi(
+            metrics.get("operating_business_price_after_haircut") or metrics.get("operating_business_price")
+        ),
+        "discounted_cash_profit_yi": yuan_to_yi(metrics.get("discounted_sustainable_cash_profit")),
+        "revenue_yi": yuan_to_yi(metrics.get("revenue")),
+        "gross_profit_yi": yuan_to_yi(metrics.get("gross_profit")),
+        "parent_net_profit_yi": yuan_to_yi(metrics.get("parent_net_profit")),
+        "gross_margin_pct": pct(metrics.get("gross_margin")) if gross_margin_usable else None,
+        "net_margin_pct": pct(net_margin) if net_margin_usable else None,
+        "forecast_dividend_yield_pct": pct(metrics.get("forecast_dividend_yield")),
+        "risk_level": risk_level(result),
+        "business_summary": business_summary,
+        "core_judgement": core_judgement,
+        "user_note": note.get("note", ""),
+        "user_tags": [tag.strip() for tag in note.get("tags", "").split("；") if tag.strip()],
+        "detail_url": f"reports/{code}/",
+        "_report_path": str(document.report_path),
+    }
+
+
+def load_stocks(
+    notes: dict[str, dict[str, str]],
+    chinese_names: dict[str, str],
+    legacy_source_dir: Path = SOURCE_DIR,
+    stock_report_root: Path = STOCK_REPORT_DIR,
+) -> list[dict]:
+    stocks: list[dict] = []
+    for document in load_research_documents(legacy_source_dir, stock_report_root):
+        stocks.append(stock_from_document(document, notes, chinese_names))
     return sorted(stocks, key=stock_sort_key)
+
+
+def load_published_stocks() -> list[dict]:
+    path = DATA_DIR / "stocks.json"
+    if not path.exists():
+        return []
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    return payload.get("stocks") if isinstance(payload.get("stocks"), list) else []
+
+
+def merge_published_stocks(published: list[dict], sourced: list[dict]) -> list[dict]:
+    merged = {str(stock.get("code") or "").upper(): dict(stock) for stock in published if stock.get("code")}
+    for stock in sourced:
+        code = str(stock.get("code") or "").upper()
+        current = merged.get(code)
+        candidate_rank = (str(stock.get("period") or ""), 1 if stock.get("schema_version") == UNIFIED_SCHEMA else 0)
+        current_rank = (
+            str(current.get("period") or ""),
+            1 if current.get("schema_version") == UNIFIED_SCHEMA else 0,
+        ) if current else None
+        if current_rank is None or candidate_rank >= current_rank:
+            merged[code] = dict(stock)
+    return sorted(merged.values(), key=stock_sort_key)
 
 
 def fmt(value: object, suffix: str = "") -> str:
@@ -650,6 +691,7 @@ def stock_table(stocks: list[dict]) -> str:
             f'<td><a href="{html.escape(stock["detail_url"])}">{html.escape(stock["code"])}</a></td>'
             f'<td>{html.escape(stock["name"])}</td>'
             f"<td>{fmt(stock['pe_ttm'])}</td>"
+            f"<td>{fmt(stock.get('forecast_dividend_yield_pct'), '%')}</td>"
             f"<td>{fmt(stock['gross_margin_pct'], '%')}</td>"
             f"<td>{fmt(stock['net_margin_pct'], '%')}</td>"
             f"<td>{fmt(stock['owner_earnback_years'])}</td>"
@@ -669,6 +711,7 @@ def stock_table(stocks: list[dict]) -> str:
               <th>代码</th>
               <th>公司</th>
               <th>PE</th>
+              <th>预测分红率</th>
               <th>毛利率</th>
               <th>净利率</th>
               <th>回本年</th>
@@ -701,9 +744,9 @@ def render_index(stocks: list[dict], built_at: str) -> str:
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>AH Note 股票研究</title>
-  <meta name="description" content="A 股和港股的 owner_earnback 股票分析报告。">
+  <meta name="description" content="A 股和港股的统一股票研究报告。">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="stylesheet" href="assets/styles.css?v={ASSET_VERSION}">
 </head>
 <body>
   {nav("index")}
@@ -761,18 +804,18 @@ def render_reports_index(stocks: list[dict], built_at: str) -> str:
     cards = []
     for stock in stocks:
         note = f'<p class="report-note">{html.escape(stock["user_note"])}</p>' if stock["user_note"] else ""
-        cards.append(
-            f"""
+        card = f"""
             <article class="report-card">
               <a href="{html.escape(stock["code"])}/">
-                <span>{html.escape(stock["bucket_label"])} · {html.escape(stock["market"])}</span>
+                <span>{html.escape(stock["market"])} · {html.escape(str(stock.get("period") or ""))}</span>
                 <h2>{html.escape(stock["name"])} {html.escape(stock["code"])}</h2>
                 <p>{html.escape(stock["business_summary"])}</p>
                 {note}
               </a>
             </article>
-            """
-        )
+            """.strip()
+        cards.append("\n".join(line.rstrip() for line in card.splitlines()))
+    cards_html = "\n".join(cards)
     return f"""<!doctype html>
 <html lang="zh-CN">
 <head>
@@ -780,14 +823,14 @@ def render_reports_index(stocks: list[dict], built_at: str) -> str:
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>研究报告 - AH Note</title>
   <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="../assets/styles.css">
+  <link rel="stylesheet" href="../assets/styles.css?v={ASSET_VERSION}">
 </head>
 <body>
   {nav("reports", "../")}
   <main class="reports-page">
     <h1>研究报告</h1>
     <div class="report-list">
-      {"".join(cards)}
+      {cards_html}
     </div>
   </main>
 </body>
@@ -803,7 +846,7 @@ def render_reference() -> str:
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>参考资料 - AH Note</title>
   <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="../assets/styles.css">
+  <link rel="stylesheet" href="../assets/styles.css?v={ASSET_VERSION}">
 </head>
 <body>
   {nav("reference", "../")}
@@ -816,8 +859,8 @@ def render_reference() -> str:
     </section>
     <section class="reference-block">
       <h2>核心字段</h2>
-      <p>市值、折后净现金、折后现金利润和回本年均来自 owner_earnback 分析结果，展示单位默认为亿元人民币。</p>
-      <p>一句话业务来自研究报告结构化结果中的 <code>sections.business_story</code>，用于在榜单页快速识别公司实际做什么。</p>
+      <p>市值、折后净现金、折后现金利润和回本年均直接来自统一股票研究 Agent 的结构化结果，展示单位默认为亿元人民币。</p>
+      <p>一句话业务直接使用统一研究结果中的 <code>business.one_line</code>；旧报告尚未重跑时才使用兼容摘要。</p>
     </section>
   </main>
 </body>
@@ -842,13 +885,13 @@ def render_detail(stock: dict, report_html: str, built_at: str) -> str:
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{html.escape(stock["name"])} {html.escape(stock["code"])} - AH Note</title>
   <link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="../../assets/styles.css">
+  <link rel="stylesheet" href="../../assets/styles.css?v={ASSET_VERSION}">
 </head>
 <body>
   {nav("reports", "../../")}
   <main class="report-page">
     <a class="back-link" href="../">← 返回报告</a>
-    {note_block}
+{note_block}
     <article class="report-content">
       {report_html}
     </article>
@@ -860,27 +903,27 @@ def render_detail(stock: dict, report_html: str, built_at: str) -> str:
 
 def write_detail_pages(stocks: list[dict], built_at: str) -> None:
     for stock in stocks:
-        report_path = Path(stock["_report_path"])
+        report_path_text = stock.get("_report_path")
+        if not report_path_text:
+            continue
+        report_path = Path(report_path_text)
         report_html = markdown_to_html(report_path.read_text(encoding="utf-8"))
         out_dir = REPORTS_DIR / stock["code"]
         out_dir.mkdir(parents=True, exist_ok=True)
         (out_dir / "index.html").write_text(render_detail(stock, report_html, built_at), encoding="utf-8")
 
 
-def main() -> None:
+def build_site(stock_report_root: Path = STOCK_REPORT_DIR, legacy_source_dir: Path = SOURCE_DIR) -> int:
     DATA_DIR.mkdir(exist_ok=True)
     if STOCKS_DIR.exists():
         shutil.rmtree(STOCKS_DIR)
-    if REPORTS_DIR.exists():
-        shutil.rmtree(REPORTS_DIR)
-    if REFERENCE_DIR.exists():
-        shutil.rmtree(REFERENCE_DIR)
     REPORTS_DIR.mkdir(exist_ok=True)
     REFERENCE_DIR.mkdir(exist_ok=True)
     built_at = datetime.now(TZ).strftime("%Y-%m-%d %H:%M:%S +08:00")
-    notes = parse_notes()
-    chinese_names = load_chinese_names(notes)
-    stocks = load_stocks(notes, chinese_names)
+    notes = parse_notes(stock_report_root)
+    chinese_names = load_chinese_names(notes, stock_report_root)
+    sourced_stocks = load_stocks(notes, chinese_names, legacy_source_dir, stock_report_root)
+    stocks = merge_published_stocks(load_published_stocks(), sourced_stocks)
     public_stocks = []
     for stock in stocks:
         public_stock = dict(stock)
@@ -895,6 +938,25 @@ def main() -> None:
     (REFERENCE_DIR / "index.html").write_text(render_reference(), encoding="utf-8")
     write_detail_pages(stocks, built_at)
     print(f"generated {len(stocks)} stocks at {built_at}")
+    return len(stocks)
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description="Build the AH Note static website.")
+    parser.add_argument(
+        "--stock-report-root",
+        type=Path,
+        default=STOCK_REPORT_DIR,
+        help="stock_report repository root; unified reports here override legacy snapshots",
+    )
+    parser.add_argument(
+        "--legacy-source-dir",
+        type=Path,
+        default=SOURCE_DIR,
+        help="legacy report snapshot root used only when a stock has no newer unified result",
+    )
+    args = parser.parse_args()
+    build_site(args.stock_report_root.resolve(), args.legacy_source_dir.resolve())
 
 
 if __name__ == "__main__":
