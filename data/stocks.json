@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-27 03:18:54 +08:00",
+  "built_at": "2026-07-27 03:23:02 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -1866,7 +1866,7 @@
       "detail_url": "reports/601921.SH/"
     },
     {
-      "schema_version": "legacy",
+      "schema_version": "stock-research-result-v1",
       "code": "600873.SH",
       "name": "梅花生物",
       "raw_name": "梅花生物",
@@ -1888,10 +1888,10 @@
       "parent_net_profit_yi": 32.81,
       "gross_margin_pct": 19.0,
       "net_margin_pct": 13.55,
-      "forecast_dividend_yield_pct": null,
-      "risk_level": "高",
-      "business_summary": "主业是动物营养氨基酸和食品味觉性状优化产品；利润主要靠主营毛利和费用控制；模式是中等毛利、现金转化尚可、经营资产占用重，资产端有较多现金、定存或理财。",
-      "core_judgement": "复用 owner_earnback 结果：市值 236.40 亿元，折后可剥离净现金 -6.97 亿元，经营业务购买价 243.37 亿元；近两年自由现金流均值 22.73 亿元经 0.75 折扣后为 17.05 亿元。控股回本年数 14.27 年，控股回本率 7.01%，市值/折后现金利润 13.87 年，现金利润收益率 7.21%。该结果主要依赖产品价格不继续深跌、资本开支不会长期显著高于近两年、跨境收购整合不拖累现金流。",
+      "forecast_dividend_yield_pct": 5.08,
+      "risk_level": "未分级",
+      "business_summary": "梅花生物用玉米等原料通过生物发酵生产动物营养氨基酸、味精/呈味核苷酸、黄原胶和医药级氨基酸，利润主要来自规模化发酵产线的成本效率和产品价格周期。",
+      "core_judgement": "市值236.40亿元扣除折后可剥离净现金-6.97亿元后，经营业务购买价为243.37亿元。折后可持续可分配现金利润采用2025/2024经营自由现金流均值22.73亿元并打75折，得到17.05亿元，控股回本约14.27年。这个结论依赖产品价格不持续深跌、近20亿元/年的资本开支能回落或形成现金回报。",
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600873.SH/"
