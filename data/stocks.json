@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-26 23:21:42 +08:00",
+  "built_at": "2026-07-26 23:28:31 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -219,21 +219,21 @@
       "detail_url": "reports/00882.HK/"
     },
     {
-      "schema_version": "legacy",
+      "schema_version": "stock-research-result-v1",
       "code": "02210.HK",
       "name": "京城佳业",
-      "raw_name": "BEIJING JIAYE",
+      "raw_name": "京城佳业",
       "market": "HK",
       "period": "2025-12-31",
-      "currency": "RMB",
+      "currency": "CNY",
       "market_cap_yi": 2.38,
       "pe_ttm": null,
       "owner_earnback_years": -6.38,
-      "owner_earnback_rate_pct": -15.68,
+      "owner_earnback_rate_pct": -15.69,
       "market_profit_payback_years": 6.1,
       "market_cash_profit_yield_pct": 16.39,
       "discounted_detachable_net_cash_yi": 4.87,
-      "discounted_net_cash_to_market_cap_pct": 204.51,
+      "discounted_net_cash_to_market_cap_pct": 204.47,
       "operating_business_price_yi": -2.49,
       "discounted_cash_profit_yi": 0.39,
       "revenue_yi": 22.92,
@@ -241,10 +241,10 @@
       "parent_net_profit_yi": 0.52,
       "gross_margin_pct": 13.89,
       "net_margin_pct": 2.27,
-      "forecast_dividend_yield_pct": null,
-      "risk_level": "高",
-      "business_summary": "主业是做物业管理、非业主增值服务和社区增值服务；利润主要靠收入增长背后需要更多前期投入、品质维护和外包成本；模式是低毛利、现金转化好、资金资产厚、有息负债低，资产端有较多现金、定存或理财。",
-      "core_judgement": "沿用 owner_earnback 主口径：市值 RMB2.38 亿，折后可剥离净现金 RMB4.87 亿，经营业务购买价为 RMB-2.49 亿；折后可持续可分配现金利润 RMB0.39 亿，控股回本年数 -6.38 年，控股回本率 -15.68%，市值/折后现金利润 6.10 年，现金利润收益率 16.39%。负的经营业务购买价来自折后可剥离净现金高于市值，但这个结论最依赖现金权属折扣、客户资金扣除和利润现金化折扣。",
+      "forecast_dividend_yield_pct": 5.97,
+      "risk_level": "未分级",
+      "business_summary": "京城佳业是在中国内地提供物业管理、非业主增值服务和社区增值服务的物业服务公司，收入主要来自在管项目服务费，利润质量受毛利率、外包成本、应收回款和账面现金权属约束。",
+      "core_judgement": "本次沿用上一版 owner_earnback 的折后可剥离净现金486.6381百万元和折后可持续现金利润39.0百万元，并把市值统一为输入文件的238.0百万元重算。折后净现金高于市值，经营业务购买价为负；这个数字不是买卖建议，关键取决于现金权属、客户资金扣除、必要经营现金和利润现金化折扣是否足够保守。",
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/02210.HK/"
