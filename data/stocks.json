@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-27 01:02:25 +08:00",
+  "built_at": "2026-07-27 01:06:33 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -901,7 +901,7 @@
       "detail_url": "reports/01568.HK/"
     },
     {
-      "schema_version": "legacy",
+      "schema_version": "stock-research-result-v1",
       "code": "000719.SZ",
       "name": "中原传媒",
       "raw_name": "中原传媒",
@@ -923,10 +923,10 @@
       "parent_net_profit_yi": 13.76,
       "gross_margin_pct": 42.28,
       "net_margin_pct": 14.71,
-      "forecast_dividend_yield_pct": null,
-      "risk_level": "高",
-      "business_summary": "主业是出版、发行、物资销售、印刷和其他文化服务；利润主要靠出版和发行；模式是中等毛利、现金转化好、资金资产厚、有息负债低，资产端有较多现金、定存或理财。",
-      "core_judgement": "沿用owner_earnback专题：市值125.85亿元，折后可剥离净现金72.35亿元，经营业务购买价53.50亿元；折后可持续可分配现金利润9.78亿元，控股回本5.47年，控股回本率18.27%，市值/折后现金利润12.87年，现金利润收益率7.77%。该口径已经剔除已扣资金本金对应的主要资金收益，避免本金和利息收益双算。",
+      "forecast_dividend_yield_pct": 5.37,
+      "risk_level": "未分级",
+      "business_summary": "中原传媒以河南省内教材教辅、图书出版发行和新华书店渠道为核心赚钱，物资销售和印刷贡献收入但毛利薄。",
+      "core_judgement": "市值125.85亿元扣除折后可剥离净现金72.35亿元后，经营业务购买价约53.50亿元；以剔除主要资金收益并折扣后的9.78亿元可持续可分配现金利润计算，控股回本约5.47年。该数值依赖定存可按折扣剥离、教材教辅现金流维持、资金收益不与本金双算。",
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/000719.SZ/"
