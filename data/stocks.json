@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-27 01:11:42 +08:00",
+  "built_at": "2026-07-27 01:15:50 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -963,7 +963,7 @@
       "detail_url": "reports/601019.SH/"
     },
     {
-      "schema_version": "legacy",
+      "schema_version": "stock-research-result-v1",
       "code": "600894.SH",
       "name": "广日股份",
       "raw_name": "广日股份",
@@ -985,10 +985,10 @@
       "parent_net_profit_yi": 6.89,
       "gross_margin_pct": 15.57,
       "net_margin_pct": 9.51,
-      "forecast_dividend_yield_pct": null,
-      "risk_level": "高",
-      "business_summary": "主业是电梯整机及后市场、电梯零部件及配套服务和少量其他业务；利润主要靠主营毛利和费用控制；模式是中等毛利、现金转化偏弱、有息负债低，资产占用主要看库存和应收回款。",
-      "core_judgement": "沿用 owner_earnback 结果：市值 64.64 亿元，折后可剥离净现金 27.99 亿元，经营业务购买价 36.65 亿元；折后可持续可分配现金利润 5.33 亿元，控股回本年数 6.87 年，控股回本率 14.55%，市值/折后现金利润 12.12 年，现金利润收益率 8.25%。这个结论最依赖日立电梯等投资分红持续、制造经营自由现金流不恶化、账上现金可按折扣口径调拨。",
+      "forecast_dividend_yield_pct": 6.59,
+      "risk_level": "未分级",
+      "business_summary": "广日股份以电梯整机、后市场、零部件、配套服务和物流为主业，并持有日立电梯（中国）等重要股权投资。",
+      "core_judgement": "按控股口径，64.64亿元市值先扣除27.99亿元折后可剥离净现金，经营业务购买价为36.65亿元；折后可持续可分配现金利润取5.33亿元，对应回本约6.87年。该口径最依赖现金可调拨性、日立电梯等投资分红持续性和制造经营自由现金流不继续恶化。",
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600894.SH/"
