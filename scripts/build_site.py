@@ -500,6 +500,11 @@ def load_stocks(notes: dict[str, dict[str, str]], chinese_names: dict[str, str])
             "gross_profit_yi": yuan_to_yi(metrics.get("gross_profit")),
             "parent_net_profit_yi": yuan_to_yi(metrics.get("parent_net_profit")),
             "gross_margin_pct": pct(metrics.get("gross_margin")),
+            "net_margin_pct": pct(
+                (metrics.get("parent_net_profit") or 0) / metrics.get("revenue")
+                if metrics.get("revenue")
+                else None
+            ),
             "risk_level": risk_level(result),
             "business_summary": business_summary,
             "core_judgement": core_judgement,
@@ -521,7 +526,7 @@ def fmt(value: object, suffix: str = "") -> str:
 
 
 def nav(current: str, prefix: str = "") -> str:
-    items = [("榜单", "index", ""), ("报告", "reports", "reports/"), ("参考资料", "reference", "reference/")]
+    items = [("股票", "index", ""), ("报告", "reports", "reports/"), ("参考资料", "reference", "reference/")]
     links = []
     for label, key, href in items:
         cls = ' class="active"' if key == current else ""
@@ -529,15 +534,65 @@ def nav(current: str, prefix: str = "") -> str:
     return '<nav class="site-nav">' + "".join(links) + "</nav>"
 
 
+def sort_value(stock: dict, key: str) -> float | None:
+    value = stock.get(key)
+    if isinstance(value, (int, float)):
+        return float(value)
+    return None
+
+
+def relative_sort_options(stocks: list[dict]) -> list[tuple[str, str, str]]:
+    options = [
+        ("owner_earnback_years", "回本年", "asc"),
+        ("pe_ttm", "PE", "asc"),
+        ("forecast_dividend_yield_pct", "预测分红率", "desc"),
+        ("gross_margin_pct", "毛利率", "desc"),
+        ("net_margin_pct", "净利率", "desc"),
+        ("market_profit_payback_years", "市值/现金利润", "asc"),
+        ("market_cash_profit_yield_pct", "现金利润收益率", "desc"),
+        ("discounted_net_cash_to_market_cap_pct", "净现金/市值", "desc"),
+    ]
+    return options
+
+
+def sort_stocks_for_index(stocks: list[dict], key: str = "owner_earnback_years", direction: str = "asc") -> list[dict]:
+    descending = direction == "desc"
+
+    def key_fn(stock: dict) -> tuple[int, float]:
+        value = sort_value(stock, key)
+        if value is None:
+            return (1, 0)
+        return (0, -value if descending else value)
+
+    return sorted(stocks, key=key_fn)
+
+
 def stock_table(stocks: list[dict]) -> str:
     rows = []
     for stock in stocks:
         note = html.escape(stock["user_note"]) if stock["user_note"] else ""
+        data_attrs = {
+            "pe_ttm": stock.get("pe_ttm"),
+            "owner_earnback_years": stock.get("owner_earnback_years"),
+            "gross_margin_pct": stock.get("gross_margin_pct"),
+            "net_margin_pct": stock.get("net_margin_pct"),
+            "market_profit_payback_years": stock.get("market_profit_payback_years"),
+            "market_cash_profit_yield_pct": stock.get("market_cash_profit_yield_pct"),
+            "discounted_net_cash_to_market_cap_pct": stock.get("discounted_net_cash_to_market_cap_pct"),
+            "forecast_dividend_yield_pct": stock.get("forecast_dividend_yield_pct"),
+        }
+        attrs = " ".join(
+            f'data-{key.replace("_", "-")}="{html.escape(str(value))}"'
+            for key, value in data_attrs.items()
+            if value is not None
+        )
         rows.append(
-            "<tr>"
+            f"<tr {attrs}>"
             f'<td><a href="{html.escape(stock["detail_url"])}">{html.escape(stock["code"])}</a></td>'
             f'<td>{html.escape(stock["name"])}</td>'
             f"<td>{fmt(stock['pe_ttm'])}</td>"
+            f"<td>{fmt(stock['gross_margin_pct'], '%')}</td>"
+            f"<td>{fmt(stock['net_margin_pct'], '%')}</td>"
             f"<td>{fmt(stock['owner_earnback_years'])}</td>"
             f"<td>{fmt(stock['market_profit_payback_years'])}</td>"
             f"<td>{fmt(stock['market_cap_yi'])}</td>"
@@ -549,12 +604,14 @@ def stock_table(stocks: list[dict]) -> str:
         )
     return """
       <div class="table-wrap stock-table">
-        <table>
+        <table id="stockTable">
           <thead>
             <tr>
               <th>代码</th>
               <th>公司</th>
               <th>PE</th>
+              <th>毛利率</th>
+              <th>净利率</th>
               <th>回本年</th>
               <th>市值/现金利润</th>
               <th>市值</th>
@@ -573,8 +630,12 @@ def stock_table(stocks: list[dict]) -> str:
 
 
 def render_index(stocks: list[dict], built_at: str) -> str:
-    profit_stocks = [item for item in stocks if item["bucket"] == "profit_cheap"]
-    liquidation_stocks = [item for item in stocks if item["bucket"] == "liquidation_watch"]
+    options = relative_sort_options(stocks)
+    option_html = "".join(
+        f'<option value="{html.escape(key)}" data-direction="{html.escape(direction)}"{" selected" if key == "owner_earnback_years" else ""}>{html.escape(label)}</option>'
+        for key, label, direction in options
+    )
+    sorted_stocks = sort_stocks_for_index(stocks)
     return f"""<!doctype html>
 <html lang="zh-CN">
 <head>
@@ -589,15 +650,49 @@ def render_index(stocks: list[dict], built_at: str) -> str:
   {nav("index")}
   <main class="board-page">
     <section class="ranking-section">
-      <h1>赚钱且便宜榜</h1>
-      {stock_table(profit_stocks)}
-    </section>
-
-    <section class="ranking-section">
-      <h1>清算便宜榜</h1>
-      {stock_table(liquidation_stocks)}
+      <div class="table-tools">
+        <label>
+          <span>排序</span>
+          <select id="sortBy">
+            {option_html}
+          </select>
+        </label>
+      </div>
+      {stock_table(sorted_stocks)}
     </section>
   </main>
+  <script>
+    (() => {{
+      const select = document.getElementById("sortBy");
+      const table = document.getElementById("stockTable");
+      if (!select || !table) return;
+      const tbody = table.querySelector("tbody");
+      const rows = Array.from(tbody.querySelectorAll("tr"));
+      const attrName = (key) => "data-" + key.replaceAll("_", "-");
+      const numberOf = (row, key) => {{
+        const raw = row.getAttribute(attrName(key));
+        if (raw === null || raw === "") return null;
+        const value = Number(raw);
+        return Number.isFinite(value) ? value : null;
+      }};
+      const sortRows = () => {{
+        const option = select.selectedOptions[0];
+        const key = select.value;
+        const descending = option && option.dataset.direction === "desc";
+        rows.sort((a, b) => {{
+          const av = numberOf(a, key);
+          const bv = numberOf(b, key);
+          if (av === null && bv === null) return 0;
+          if (av === null) return 1;
+          if (bv === null) return -1;
+          return descending ? bv - av : av - bv;
+        }});
+        rows.forEach((row) => tbody.appendChild(row));
+      }};
+      select.addEventListener("change", sortRows);
+      sortRows();
+    }})();
+  </script>
 </body>
 </html>
 """
@@ -656,9 +751,9 @@ def render_reference() -> str:
   <main class="reference-page">
     <h1>参考资料</h1>
     <section class="reference-block">
-      <h2>榜单口径</h2>
-      <p>赚钱且便宜榜：折后现金利润能在约 15 年内覆盖市值或经营业务购买价的公司。</p>
-      <p>清算便宜榜：利润回本不进入第一类，但折后净现金或可清算资产相对市值有观察价值的公司。</p>
+      <h2>排序口径</h2>
+      <p>首页展示全部已完成研究的股票，排序只使用相对指标，例如 PE、预测分红率、毛利率、净利率、回本年、市值/现金利润、现金利润收益率和净现金/市值。</p>
+      <p>市值、折后净现金、折后现金利润属于绝对金额，只作为表格数字展示，不作为首页排序选项。</p>
     </section>
     <section class="reference-block">
       <h2>核心字段</h2>

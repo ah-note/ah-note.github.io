@@ -209,6 +209,25 @@ select {
   margin-bottom: 36px;
 }
 
+.table-tools {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 0 10px;
+}
+
+.table-tools label {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.table-tools select {
+  width: 150px;
+  min-height: 36px;
+}
+
 .ranking-section h1,
 .reports-page > h1,
 .reference-page > h1 {
@@ -232,7 +251,7 @@ select {
 table {
   width: 100%;
   border-collapse: collapse;
-  min-width: 1180px;
+  min-width: 1280px;
 }
 
 th,
