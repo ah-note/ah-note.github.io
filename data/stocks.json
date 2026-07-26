@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-27 04:17:31 +08:00",
+  "built_at": "2026-07-27 04:21:40 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -2207,7 +2207,7 @@
       "detail_url": "reports/002249.SZ/"
     },
     {
-      "schema_version": "legacy",
+      "schema_version": "stock-research-result-v1",
       "code": "603368.SH",
       "name": "柳药集团",
       "raw_name": "柳药集团",
@@ -2229,10 +2229,10 @@
       "parent_net_profit_yi": 7.09,
       "gross_margin_pct": 11.05,
       "net_margin_pct": 3.39,
-      "forecast_dividend_yield_pct": null,
-      "risk_level": "高",
-      "business_summary": "主业是医药批发、医药零售和医药工业；利润较薄，主要靠规模周转和费用控制；模式是低毛利、现金转化好、经营资产占用重，资产端有较多现金、定存或理财。",
-      "core_judgement": "复用owner_earnback结果：市值61.09亿元，折后可剥离净现金为-36.07亿元，因此经营业务购买价为97.16亿元。折前可分配现金利润用三年经营自由现金流中位数6.91亿元，扣除约0.25亿元资金资产相关收益后为6.66亿元，再按0.75折扣得到折后可持续可分配现金利润4.99亿元。控股回本年数为19.46年，控股回本率为5.14%；市值/折后现金利润为12.24年，现金利润收益率8.17%。这个回本数最依赖医院回款、集采...",
+      "forecast_dividend_yield_pct": 4.32,
+      "risk_level": "未分级",
+      "business_summary": "公司以医药批发、医药零售和医药工业为主业，批发业务面向医疗卫生机构、流通企业和药店，零售业务由桂中大药房及线上渠道销售医药健康产品，工业业务围绕中药饮片、配方颗粒和中成药。",
+      "core_judgement": "账上资金资产不足以覆盖融资负债、贴现商业承兑汇票、必要经营现金和摩擦准备，折后可剥离净现金为负；市值口径现金利润倍数较低，但控制权口径需要为营运资金和融资压力买单，回本年数接近20年。",
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603368.SH/"
