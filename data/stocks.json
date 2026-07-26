@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-27 04:05:33 +08:00",
+  "built_at": "2026-07-27 04:09:42 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -2145,10 +2145,10 @@
       "detail_url": "reports/002233.SZ/"
     },
     {
-      "schema_version": "legacy",
+      "schema_version": "stock-research-result-v1",
       "code": "01508.HK",
       "name": "中国再保险",
-      "raw_name": "CHINA RE",
+      "raw_name": "中国再保险",
       "market": "HK",
       "period": "2025-12-31",
       "currency": "CNY",
@@ -2165,12 +2165,12 @@
       "revenue_yi": 1030.87,
       "gross_profit_yi": 33.36,
       "parent_net_profit_yi": 97.71,
-      "gross_margin_pct": null,
-      "net_margin_pct": null,
-      "forecast_dividend_yield_pct": null,
-      "risk_level": "高",
-      "business_summary": "主业是财产再保险、人身再保险、财产险直保和资产管理；利润较薄，主要靠规模周转和费用控制；模式是保险承保和投资资产共同驱动，资产负债表决定利润波动。",
-      "core_judgement": "复用 owner_earnback 结果：市值 436.25 亿元，折后可剥离净现金 -648.21 亿元，经营业务购买价 1084.46 亿元；2025 年归母净利润 97.71 亿元按 0.60 折扣后，折后可持续可分配现金利润 58.63 亿元。控股回本年数为 18.50 年，控股回本率为 5.41%；市值/折后现金利润为 7.44 年，现金利润收益率为 13.44%。这个结论最依赖利润折扣、投资收益持续性、巨灾损失和上市控股层现...",
+      "gross_margin_pct": 3.24,
+      "net_margin_pct": 9.48,
+      "forecast_dividend_yield_pct": 6.73,
+      "risk_level": "未分级",
+      "business_summary": "中国再保险是中国再保险集团，向保险公司和终端财险客户提供财产再保险、人身再保险、财产险直保，并管理保险资金和第三方资产。",
+      "core_judgement": "保险集团账面金融资产很大，但大多不能作为可剥离现金。按复用 owner_earnback 口径，折后净现金为负，控股购买价高于市值；折后利润来自 2025 年归母净利润的 0.60 折扣，回本约 18.50 年。该结论对投资收益持续性、巨灾损失和可上翻现金约束敏感。",
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/01508.HK/"
