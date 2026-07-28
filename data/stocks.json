@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-28 22:52:53 +08:00",
+  "built_at": "2026-07-28 22:57:02 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -3205,6 +3205,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002011.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "000999.SZ",
+      "name": "华润三九",
+      "raw_name": "华润三九",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 415.89,
+      "pe_ttm": 12.69,
+      "owner_earnback_years": 13.72,
+      "owner_earnback_rate_pct": 7.29,
+      "market_profit_payback_years": 13.97,
+      "market_cash_profit_yield_pct": 7.16,
+      "discounted_detachable_net_cash_yi": 7.35,
+      "discounted_net_cash_to_market_cap_pct": 1.77,
+      "operating_business_price_yi": 408.54,
+      "discounted_cash_profit_yi": 29.77,
+      "revenue_yi": 316.03,
+      "gross_profit_yi": 170.75,
+      "parent_net_profit_yi": 34.21,
+      "gross_margin_pct": 54.03,
+      "net_margin_pct": 10.83,
+      "forecast_dividend_yield_pct": 4.16,
+      "risk_level": "未分级",
+      "business_summary": "华润三九以CHC自我诊疗为核心，同时通过天士力处方药和昆药集团三七/精品国药构成“一体两翼”的医药制造与医药批零业务。",
+      "core_judgement": "按控股视角，先把账面资金类资产按可剥离性折扣，再扣除短期借款、长期借款一年内到期部分、长期借款和租赁负债。2025年归母净利润扣除归母非经常性损益后约31.34亿元，因经营现金流连续三年高于归母净利润，但资本开支和并购整合占用上升，本次再留5%缓冲，得到折后可持续现金利润约29.77亿元。以2026-07-28市值415.89亿元计算，经营业务购买价约408.54亿元，控股回本约13.72年。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/000999.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
