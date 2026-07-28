@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-28 21:32:07 +08:00",
+  "built_at": "2026-07-28 21:36:16 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -3143,6 +3143,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002697.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "603611.SH",
+      "name": "诺力股份",
+      "raw_name": "诺力股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 41.78,
+      "pe_ttm": 10.96,
+      "owner_earnback_years": 15.55,
+      "owner_earnback_rate_pct": 6.43,
+      "market_profit_payback_years": 15.06,
+      "market_cash_profit_yield_pct": 6.64,
+      "discounted_detachable_net_cash_yi": -1.35,
+      "discounted_net_cash_to_market_cap_pct": -3.24,
+      "operating_business_price_yi": 43.13,
+      "discounted_cash_profit_yi": 2.77,
+      "revenue_yi": 66.89,
+      "gross_profit_yi": 15.14,
+      "parent_net_profit_yi": 4.29,
+      "gross_margin_pct": 22.63,
+      "net_margin_pct": 6.42,
+      "forecast_dividend_yield_pct": 5.14,
+      "risk_level": "未分级",
+      "business_summary": "诺力股份是以工业车辆等智能智造装备和智慧物流系统集成为主的物流装备公司。",
+      "core_judgement": "按普通经营公司口径，折后可剥离净现金为-1.35亿元，因为现金和理财折价后不足以覆盖借款、必要经营现金和摩擦准备。以三年扣非归母净利润中位数3.96亿元为折前基础，并因项目制周转、2023年经营现金流偏弱、资本开支和非经常性收益占比打70折，得到折后可持续现金利润2.77亿元。用2026-07-28市值41.78亿元计算，经营业务购买价约43.13亿元，控股回本约15.5年；如果不扣净现金、直接用市值除折后现金利润约15.1年。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/603611.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
