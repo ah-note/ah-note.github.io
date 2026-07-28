@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-28 23:45:46 +08:00",
+  "built_at": "2026-07-28 23:49:15 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -2957,6 +2957,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/000786.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "301039.SZ",
+      "name": "中集车辆",
+      "raw_name": "中集车辆",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 144.87,
+      "pe_ttm": 16.43,
+      "owner_earnback_years": 12.9,
+      "owner_earnback_rate_pct": 7.75,
+      "market_profit_payback_years": 19.83,
+      "market_cash_profit_yield_pct": 5.04,
+      "discounted_detachable_net_cash_yi": 50.59,
+      "discounted_net_cash_to_market_cap_pct": 34.92,
+      "operating_business_price_yi": 94.28,
+      "discounted_cash_profit_yi": 7.31,
+      "revenue_yi": 201.78,
+      "gross_profit_yi": 32.06,
+      "parent_net_profit_yi": 9.04,
+      "gross_margin_pct": 15.89,
+      "net_margin_pct": 4.48,
+      "forecast_dividend_yield_pct": 2.72,
+      "risk_level": "未分级",
+      "business_summary": "中集车辆是全球化道路运输车辆制造商，主要销售半挂车、专用车上装/底盘/牵引车和零部件。",
+      "core_judgement": "按普通经营公司口径，货币资金和少量金融资产折价后扣除有息负债，得到约50.65亿元可剥离净现金；经营业务购买价约94.22亿元。现金利润采用2025年扣非归母净利润扣除税后利息收入后的约7.31亿元，并与2025年经营自由现金流11.16亿元取较低值，避免把一次性营运资本释放过度资本化。对应控股回本约12.9年，市值/现金利润约19.8倍。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/301039.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
