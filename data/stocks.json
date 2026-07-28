@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-29 01:21:03 +08:00",
+  "built_at": "2026-07-29 01:26:14 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -4104,6 +4104,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/688616.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "603706.SH",
+      "name": "东方环宇",
+      "raw_name": "东方环宇",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 34.64,
+      "pe_ttm": 14.58,
+      "owner_earnback_years": 15.15,
+      "owner_earnback_rate_pct": 6.6,
+      "market_profit_payback_years": 19.24,
+      "market_cash_profit_yield_pct": 5.2,
+      "discounted_detachable_net_cash_yi": 7.38,
+      "discounted_net_cash_to_market_cap_pct": 21.29,
+      "operating_business_price_yi": 27.26,
+      "discounted_cash_profit_yi": 1.8,
+      "revenue_yi": 13.31,
+      "gross_profit_yi": 3.89,
+      "parent_net_profit_yi": 2.16,
+      "gross_margin_pct": 29.23,
+      "net_margin_pct": 16.23,
+      "forecast_dividend_yield_pct": 4.92,
+      "risk_level": "未分级",
+      "business_summary": "东方环宇是在新疆昌吉做城市燃气、在伊宁做集中供热，并配套提供燃气设施安装的区域公用事业公司。",
+      "core_judgement": "按控股视角，市值34.64亿元先扣除折后可剥离净现金约7.38亿元，等于为燃气、安装和供热经营资产支付约27.26亿元。可持续现金利润采用1.80亿元，低于2025年扣非归母1.96亿元和2025年经营自由现金流2.34亿元，反映天然气销量下降、供热和燃气资产资本开支周期以及理财收益剔除后的保守口径。对应经营业务回本约15.1年；若不扣净现金，市值/现金利润约19.2倍。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/603706.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
