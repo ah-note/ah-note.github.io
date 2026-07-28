@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-28 23:22:59 +08:00",
+  "built_at": "2026-07-28 23:26:48 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -3918,6 +3918,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/920892.BJ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "920121.BJ",
+      "name": "江天科技",
+      "raw_name": "江天科技",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 17.92,
+      "pe_ttm": 15.76,
+      "owner_earnback_years": 16.97,
+      "owner_earnback_rate_pct": 5.89,
+      "market_profit_payback_years": 21.48,
+      "market_cash_profit_yield_pct": 4.66,
+      "discounted_detachable_net_cash_yi": 3.76,
+      "discounted_net_cash_to_market_cap_pct": 20.97,
+      "operating_business_price_yi": 14.16,
+      "discounted_cash_profit_yi": 0.83,
+      "revenue_yi": 6.07,
+      "gross_profit_yi": 1.75,
+      "parent_net_profit_yi": 1.1,
+      "gross_margin_pct": 28.79,
+      "net_margin_pct": 18.03,
+      "forecast_dividend_yield_pct": 1.84,
+      "risk_level": "未分级",
+      "business_summary": "公司主要从事标签印刷产品的研发、生产与销售，提供不干胶标签等消费品标签一体化解决方案。",
+      "core_judgement": "按 2026-07-28 输入市值 17.92 亿元，年末现金及大额存单账面约 5.90 亿元。考虑 2025 年上市募资、募投约束未逐项穿透和经营周转需要，扣除 3000 万必要经营现金后对现金和存单折扣，得到折后可剥离净现金约 3.76 亿元，经营业务购买价约 14.16 亿元。利润分母以 2025 年扣非归母净利润扣除银行理财收益后再打 0.85 折，约 8343 万元，对应控股回本约 17.0 年；这是保守控股口径，不是目标价或买卖建议。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/920121.BJ/"
     },
     {
       "schema_version": "stock-research-result-v1",
