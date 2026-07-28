@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-28 18:50:17 +08:00",
+  "built_at": "2026-07-28 18:55:46 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -1996,6 +1996,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/920029.BJ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "600757.SH",
+      "name": "长江传媒",
+      "raw_name": "长江传媒",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 93.57,
+      "pe_ttm": 9.23,
+      "owner_earnback_years": 11.93,
+      "owner_earnback_rate_pct": 8.38,
+      "market_profit_payback_years": 40.99,
+      "market_cash_profit_yield_pct": 2.44,
+      "discounted_detachable_net_cash_yi": 66.33,
+      "discounted_net_cash_to_market_cap_pct": 70.89,
+      "operating_business_price_yi": 27.24,
+      "discounted_cash_profit_yi": 2.28,
+      "revenue_yi": 70.82,
+      "gross_profit_yi": 23.54,
+      "parent_net_profit_yi": 10.14,
+      "gross_margin_pct": 33.25,
+      "net_margin_pct": 14.32,
+      "forecast_dividend_yield_pct": 5.32,
+      "risk_level": "未分级",
+      "business_summary": "长江传媒以湖北出版发行体系为核心，靠教材教辅、一般图书发行、出版和少量物资贸易赚钱。",
+      "core_judgement": "市值93.57亿元中，按折扣和运营留存处理后的可剥离净现金约66.33亿元，剩余经营业务购买价约27.24亿元。现金利润用2023-2025年经营自由现金流中位数4.75亿元起步，扣除已作为可剥离资金本金处理的利息、投资收益和公允价值变动收益2.06亿元，再打85%折扣，得到约2.28亿元。该口径下经营业务回本约11.9年；若不扣除现金资产收益或不保留运营留存，结果会更乐观，但存在重复计算资金收益的风险。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/600757.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
