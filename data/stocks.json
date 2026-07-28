@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-28 21:53:12 +08:00",
+  "built_at": "2026-07-28 21:57:41 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -3577,6 +3577,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002249.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "603357.SH",
+      "name": "设计总院",
+      "raw_name": "设计总院",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 32.57,
+      "pe_ttm": 10.85,
+      "owner_earnback_years": 19.11,
+      "owner_earnback_rate_pct": 5.23,
+      "market_profit_payback_years": 18.75,
+      "market_cash_profit_yield_pct": 5.33,
+      "discounted_detachable_net_cash_yi": -0.63,
+      "discounted_net_cash_to_market_cap_pct": -1.92,
+      "operating_business_price_yi": 33.2,
+      "discounted_cash_profit_yi": 1.74,
+      "revenue_yi": 25.23,
+      "gross_profit_yi": 9.71,
+      "parent_net_profit_yi": 3.66,
+      "gross_margin_pct": 38.49,
+      "net_margin_pct": 14.49,
+      "forecast_dividend_yield_pct": 3.44,
+      "risk_level": "未分级",
+      "business_summary": "设计总院是安徽交通基建工程咨询设计平台，主要靠勘察设计和工程管理等项目制服务赚钱，并辅以工程总承包收入。",
+      "core_judgement": "按2026-07-28市值32.57亿元，非受限现金打七折后扣除有息融资负债和明确非自由代收/保证金义务，折后可剥离净现金为-0.63亿元，等于控股方买经营业务还要额外承担净现金缺口。现金利润用2025年扣非归母净利润3.51亿元作为起点，按事实包给出的近三年现金转化折扣0.56处理，再扣2025年资本开支0.23亿元，得到折后可持续可分配现金利润约1.74亿元。对应经营业务购买价约33.20亿元，控股回本约19.1年；若不扣现金，市值/折后现金利润约18.8倍。该数字主要受...",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/603357.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
