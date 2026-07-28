@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-29 00:20:02 +08:00",
+  "built_at": "2026-07-29 00:23:51 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -3856,6 +3856,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600300.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "603071.SH",
+      "name": "物产环能",
+      "raw_name": "物产环能",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 66.01,
+      "pe_ttm": 10.06,
+      "owner_earnback_years": 14.86,
+      "owner_earnback_rate_pct": 6.73,
+      "market_profit_payback_years": 14.75,
+      "market_cash_profit_yield_pct": 6.78,
+      "discounted_detachable_net_cash_yi": -0.5,
+      "discounted_net_cash_to_market_cap_pct": -0.76,
+      "operating_business_price_yi": 66.51,
+      "discounted_cash_profit_yi": 4.48,
+      "revenue_yi": 373.04,
+      "gross_profit_yi": 18.64,
+      "parent_net_profit_yi": 6.38,
+      "gross_margin_pct": 5.0,
+      "net_margin_pct": 1.71,
+      "forecast_dividend_yield_pct": 3.97,
+      "risk_level": "未分级",
+      "business_summary": "物产环能用大规模煤炭流通贡献收入，用热电联产和新能源等能源实业贡献更高质量利润。",
+      "core_judgement": "折后可剥离净现金约为-0.50亿元，原因是可折扣资金资产与有息债务基本相抵且略低于债务；按2026-07-28市值66.01亿元，经营业务购买价约66.51亿元。现金利润采用三年扣非归母净利润中位数6.88亿元乘以0.65，得到约4.48亿元，控股回本约14.86年。该口径没有把2025年21.75亿元经营现金流直接年化，因为煤炭贸易营运资金波动会显著扭曲单年现金流。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/603071.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
