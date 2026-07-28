@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-28 20:39:25 +08:00",
+  "built_at": "2026-07-28 20:44:55 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -1527,6 +1527,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603833.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "600741.SH",
+      "name": "华域汽车",
+      "raw_name": "华域汽车",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 511.37,
+      "pe_ttm": 7.13,
+      "owner_earnback_years": 8.2,
+      "owner_earnback_rate_pct": 12.19,
+      "market_profit_payback_years": 11.91,
+      "market_cash_profit_yield_pct": 8.4,
+      "discounted_detachable_net_cash_yi": 159.25,
+      "discounted_net_cash_to_market_cap_pct": 31.14,
+      "operating_business_price_yi": 352.12,
+      "discounted_cash_profit_yi": 42.94,
+      "revenue_yi": 1839.99,
+      "gross_profit_yi": 226.38,
+      "parent_net_profit_yi": 72.07,
+      "gross_margin_pct": 12.3,
+      "net_margin_pct": 3.92,
+      "forecast_dividend_yield_pct": 6.17,
+      "risk_level": "未分级",
+      "business_summary": "华域汽车是面向国内外整车厂供货的汽车零部件系统集成商，核心收入来自内外饰、底盘、动力、电子电器等零部件及总成配套。",
+      "core_judgement": "按511.37亿元市值看，折后可剥离净现金约159.25亿元，相当于市值31.14%；扣除这部分后经营业务购买价约352.12亿元。2025年经营自由现金流和三年中位自由现金流均约47.71亿元，考虑汽车零部件业务持续资本开支、营运资金和价格压力后再打九折，折后可持续现金利润约42.94亿元，对应控股回本约8.20年；若不扣净现金，市值/现金利润约11.91倍。该数字依赖现金可剥离折扣和自由现金流可持续性，不等同于买卖建议。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/600741.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
