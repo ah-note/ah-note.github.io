@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-28 23:07:01 +08:00",
+  "built_at": "2026-07-28 23:10:10 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -3515,6 +3515,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/601001.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "000513.SZ",
+      "name": "丽珠集团",
+      "raw_name": "丽珠集团",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 270.9,
+      "pe_ttm": 13.8,
+      "owner_earnback_years": 14.35,
+      "owner_earnback_rate_pct": 6.97,
+      "market_profit_payback_years": 17.71,
+      "market_cash_profit_yield_pct": 5.65,
+      "discounted_detachable_net_cash_yi": 51.45,
+      "discounted_net_cash_to_market_cap_pct": 18.99,
+      "operating_business_price_yi": 219.45,
+      "discounted_cash_profit_yi": 15.3,
+      "revenue_yi": 120.2,
+      "gross_profit_yi": 79.21,
+      "parent_net_profit_yi": 20.23,
+      "gross_margin_pct": 65.9,
+      "net_margin_pct": 16.83,
+      "forecast_dividend_yield_pct": 4.11,
+      "risk_level": "未分级",
+      "business_summary": "丽珠集团是一家以化学制剂、原料药及中间体、中药制剂、诊断试剂与设备为核心的综合医药制造公司。",
+      "core_judgement": "按270.90亿元市值计算，扣除折后可剥离净现金约51.41亿元后，经营业务购买价约219.49亿元。以2025年归母净利润和经营自由现金流中较低者为基础，剔除资金利息收益并打85折，折后可持续可分配现金利润约15.30亿元，对应控股回本约14.35年；若不扣净现金，市值/折后现金利润约17.70倍。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/000513.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
