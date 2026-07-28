@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-28 22:11:49 +08:00",
+  "built_at": "2026-07-28 22:15:38 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -2926,6 +2926,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/000726.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "600826.SH",
+      "name": "兰生股份",
+      "raw_name": "兰生股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 57.5,
+      "pe_ttm": 17.06,
+      "owner_earnback_years": 13.32,
+      "owner_earnback_rate_pct": 7.51,
+      "market_profit_payback_years": 27.58,
+      "market_cash_profit_yield_pct": 3.63,
+      "discounted_detachable_net_cash_yi": 29.72,
+      "discounted_net_cash_to_market_cap_pct": 51.69,
+      "operating_business_price_yi": 27.78,
+      "discounted_cash_profit_yi": 2.09,
+      "revenue_yi": 16.26,
+      "gross_profit_yi": 5.96,
+      "parent_net_profit_yi": 3.26,
+      "gross_margin_pct": 36.63,
+      "net_margin_pct": 20.03,
+      "forecast_dividend_yield_pct": 3.78,
+      "risk_level": "未分级",
+      "business_summary": "兰生股份是东浩兰生集团旗下国有控股会展企业，主业为会展组织、展馆运营、会展配套和体育赛事活动服务。",
+      "core_judgement": "按2026-07-28输入市值57.50亿元，折后可剥离净现金约29.72亿元，控股口径购买经营业务价格约27.78亿元。利润端以2025年归母净利润3.26亿元为起点，扣除非经常性损益0.73亿元，并扣除已剥离金融资产相关股利/交易性金融资产持有收益的估算税后影响0.44亿元，得到折后可持续可分配现金利润约2.09亿元，对应回本约13.3年。该口径对金融资产折扣和投资收益剔除较敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/600826.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
