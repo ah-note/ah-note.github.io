@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-28 20:24:58 +08:00",
+  "built_at": "2026-07-28 20:29:47 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -1496,6 +1496,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/01339.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "603833.SH",
+      "name": "欧派家居",
+      "raw_name": "欧派家居",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 195.66,
+      "pe_ttm": 10.61,
+      "owner_earnback_years": 8.18,
+      "owner_earnback_rate_pct": 12.22,
+      "market_profit_payback_years": 11.51,
+      "market_cash_profit_yield_pct": 8.69,
+      "discounted_detachable_net_cash_yi": 56.59,
+      "discounted_net_cash_to_market_cap_pct": 28.92,
+      "operating_business_price_yi": 139.07,
+      "discounted_cash_profit_yi": 17.0,
+      "revenue_yi": 172.32,
+      "gross_profit_yi": 62.44,
+      "parent_net_profit_yi": 19.97,
+      "gross_margin_pct": 36.24,
+      "net_margin_pct": 11.59,
+      "forecast_dividend_yield_pct": 7.67,
+      "risk_level": "未分级",
+      "business_summary": "欧派家居是一站式定制家居公司，靠经销商专卖店为核心的渠道把橱柜、衣柜及配套、卫浴、木门等订单式产品卖给家庭装修客户。",
+      "core_judgement": "按195.66亿元市值扣除折后可剥离净现金约56.59亿元后，经营业务购买价约139.07亿元。2025年扣非归母净利润17.30亿元、经营自由现金流28.33亿元；考虑收入和归母利润仍在下滑，本次不用高经营现金流放大利润分母，而取约17.00亿元作为折后可持续可分配现金利润。对应控股回本约8.18年，市值/现金利润约11.51倍。这个口径的关键敏感项是理财和长期定期存款是否真能按折价后释放，以及利润是否能稳定在扣非利润附近。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/603833.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
