@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-28 18:29:31 +08:00",
+  "built_at": "2026-07-28 18:33:40 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -1186,6 +1186,37 @@
         "高风险"
       ],
       "detail_url": "reports/002091.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "600583.SH",
+      "name": "海油工程",
+      "raw_name": "海油工程",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 250.69,
+      "pe_ttm": 12.03,
+      "owner_earnback_years": 6.61,
+      "owner_earnback_rate_pct": 15.14,
+      "market_profit_payback_years": 15.1,
+      "market_cash_profit_yield_pct": 6.62,
+      "discounted_detachable_net_cash_yi": 141.0,
+      "discounted_net_cash_to_market_cap_pct": 56.24,
+      "operating_business_price_yi": 109.69,
+      "discounted_cash_profit_yi": 16.6,
+      "revenue_yi": 271.63,
+      "gross_profit_yi": 37.62,
+      "parent_net_profit_yi": 20.84,
+      "gross_margin_pct": 13.85,
+      "net_margin_pct": 7.67,
+      "forecast_dividend_yield_pct": 3.46,
+      "risk_level": "未分级",
+      "business_summary": "海油工程是中国海油体系内的海洋能源工程总承包平台，收入来自海洋油气及相关能源工程的设计、采办、建造、安装、调试和维修。",
+      "core_judgement": "按控股视角，市值250.69亿元中约141.00亿元可由折后资金性资产覆盖，经营业务购买价约109.69亿元。现金利润用2025年扣非归母净利润18.45亿元再打九折为16.60亿元，低于2025年经营自由现金流25.06亿元和近三年平均经营自由现金流32.29亿元，因此口径偏保守；对应经营业务回本约6.61年，按全市值/折后现金利润约15.10倍。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/600583.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
