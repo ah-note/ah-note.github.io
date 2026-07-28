@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-29 00:38:00 +08:00",
+  "built_at": "2026-07-29 00:42:50 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -4011,6 +4011,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603605.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "688616.SH",
+      "name": "西力科技",
+      "raw_name": "西力科技",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 17.15,
+      "pe_ttm": 16.87,
+      "owner_earnback_years": 15.09,
+      "owner_earnback_rate_pct": 6.63,
+      "market_profit_payback_years": 19.06,
+      "market_cash_profit_yield_pct": 5.25,
+      "discounted_detachable_net_cash_yi": 3.57,
+      "discounted_net_cash_to_market_cap_pct": 20.81,
+      "operating_business_price_yi": 13.58,
+      "discounted_cash_profit_yi": 0.9,
+      "revenue_yi": 5.66,
+      "gross_profit_yi": 1.88,
+      "parent_net_profit_yi": 1.04,
+      "gross_margin_pct": 33.14,
+      "net_margin_pct": 18.35,
+      "forecast_dividend_yield_pct": 3.08,
+      "risk_level": "未分级",
+      "business_summary": "西力科技卖智能电表、用电信息采集终端和电能计量箱，主要通过国网、南网等电网客户招投标取得订单。",
+      "core_judgement": "按 2026-07-28 市值 17.15 亿元，扣除折后可剥离净现金约 3.57 亿元后，经营业务购买价约 13.58 亿元。可持续可分配现金利润未直接采用 2025 年 1.16 亿元自由现金流，因为年报说明当年经营现金流受供应商款项仍在信用期内未支付影响；本次以 2024-2025 扣非归母利润和两年自由现金流交叉验证，折为 9000 万元。对应控股回本约 15.1 年，市值/现金利润约 19.1 倍。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/688616.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
