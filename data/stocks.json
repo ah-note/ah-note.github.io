@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-28 23:57:34 +08:00",
+  "built_at": "2026-07-29 00:03:24 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -4259,6 +4259,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/605577.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "002588.SZ",
+      "name": "史丹利",
+      "raw_name": "史丹利",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 99.52,
+      "pe_ttm": 9.16,
+      "owner_earnback_years": 17.75,
+      "owner_earnback_rate_pct": 5.63,
+      "market_profit_payback_years": 18.96,
+      "market_cash_profit_yield_pct": 5.28,
+      "discounted_detachable_net_cash_yi": 6.32,
+      "discounted_net_cash_to_market_cap_pct": 6.35,
+      "operating_business_price_yi": 93.2,
+      "discounted_cash_profit_yi": 5.25,
+      "revenue_yi": 122.83,
+      "gross_profit_yi": 22.29,
+      "parent_net_profit_yi": 10.33,
+      "gross_margin_pct": 18.15,
+      "net_margin_pct": 8.41,
+      "forecast_dividend_yield_pct": 3.13,
+      "risk_level": "未分级",
+      "business_summary": "史丹利以经销网络销售复合肥，并向磷肥、精制磷酸等上游磷化工延伸来增强原料配套和成本韧性。",
+      "core_judgement": "按2026-07-28市值99.52亿元，扣除折后可剥离净资金6.32亿元后，经营业务购买价约93.20亿元。利润端不直接用10.33亿元归母净利润，而以2025年自由现金流5.94亿元、三年扣非利润和2024年现金流波动为约束，取折后可持续可分配现金利润5.25亿元；对应控股回本约17.75年，市值/现金利润约18.96倍。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/002588.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
