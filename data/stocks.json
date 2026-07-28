@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-28 18:55:46 +08:00",
+  "built_at": "2026-07-28 19:12:22 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -1182,6 +1182,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/601811.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "002035.SZ",
+      "name": "华帝股份",
+      "raw_name": "华帝股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 39.84,
+      "pe_ttm": 13.24,
+      "owner_earnback_years": 5.67,
+      "owner_earnback_rate_pct": 17.64,
+      "market_profit_payback_years": 16.26,
+      "market_cash_profit_yield_pct": 6.15,
+      "discounted_detachable_net_cash_yi": 25.95,
+      "discounted_net_cash_to_market_cap_pct": 65.15,
+      "operating_business_price_yi": 13.89,
+      "discounted_cash_profit_yi": 2.45,
+      "revenue_yi": 56.48,
+      "gross_profit_yi": 24.01,
+      "parent_net_profit_yi": 3.01,
+      "gross_margin_pct": 42.51,
+      "net_margin_pct": 5.33,
+      "forecast_dividend_yield_pct": 2.09,
+      "risk_level": "未分级",
+      "business_summary": "华帝股份主要卖油烟机、燃气灶、热水器等厨卫电器，收入来自境内线下、线上渠道和部分海外销售。",
+      "core_judgement": "按约39.84亿元市值购买，折后可剥离净现金约25.95亿元，等于先用约13.89亿元买经营业务。2025年扣非归母净利润约2.72亿元，因收入下降11.36%且第四季度亏损，对可持续现金利润再打10%折扣至约2.45亿元；该口径下经营业务回本约5.67年，整体市值/折后现金利润约16.26倍。这个结论依赖理财和结构性存款确实可按折扣回收，以及2025年下滑不是持续恶化的起点。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/002035.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
