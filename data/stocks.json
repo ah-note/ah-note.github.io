@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-28 20:54:53 +08:00",
+  "built_at": "2026-07-28 20:59:22 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -1841,6 +1841,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600511.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "000921.SZ",
+      "name": "海信家电",
+      "raw_name": "海信家电",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 357.43,
+      "pe_ttm": 11.55,
+      "owner_earnback_years": 9.75,
+      "owner_earnback_rate_pct": 10.26,
+      "market_profit_payback_years": 17.2,
+      "market_cash_profit_yield_pct": 5.81,
+      "discounted_detachable_net_cash_yi": 154.81,
+      "discounted_net_cash_to_market_cap_pct": 43.31,
+      "operating_business_price_yi": 202.62,
+      "discounted_cash_profit_yi": 20.78,
+      "revenue_yi": 879.28,
+      "gross_profit_yi": 187.38,
+      "parent_net_profit_yi": 31.87,
+      "gross_margin_pct": 21.31,
+      "net_margin_pct": 3.62,
+      "forecast_dividend_yield_pct": 4.9,
+      "risk_level": "未分级",
+      "business_summary": "海信家电是以暖通空调、白电和汽车热管理为主的制造销售集团，用多品牌和全球渠道把研发制造能力变成产品收入。",
+      "core_judgement": "按 2026-07-28 约 357.43 亿元市值，折后可剥离净现金约 154.82 亿元，经营业务购买价约 202.61 亿元。可持续现金利润采用近三年扣非归母净利润中位数 24.45 亿元并折 0.85，得到约 20.78 亿元，控股回本约 9.75 年。该数字依赖理财/基金折扣、必要经营现金和扣非利润能否持续，不能视作确定回收期。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/000921.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
