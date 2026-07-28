@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-29 01:30:06 +08:00",
+  "built_at": "2026-07-29 01:34:17 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -2120,6 +2120,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/001386.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "300533.SZ",
+      "name": "冰川网络",
+      "raw_name": "冰川网络",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 43.95,
+      "pe_ttm": 15.43,
+      "owner_earnback_years": 10.18,
+      "owner_earnback_rate_pct": 9.83,
+      "market_profit_payback_years": 14.65,
+      "market_cash_profit_yield_pct": 6.83,
+      "discounted_detachable_net_cash_yi": 13.42,
+      "discounted_net_cash_to_market_cap_pct": 30.54,
+      "operating_business_price_yi": 30.53,
+      "discounted_cash_profit_yi": 3.0,
+      "revenue_yi": 25.54,
+      "gross_profit_yi": 23.82,
+      "parent_net_profit_yi": 4.83,
+      "gross_margin_pct": 93.27,
+      "net_margin_pct": 18.93,
+      "forecast_dividend_yield_pct": 5.33,
+      "risk_level": "未分级",
+      "business_summary": "冰川网络主要做网络游戏研发、发行与运营，2025年收入几乎全部来自游戏充值，尤其是移动游戏。",
+      "core_judgement": "按439500万元市值扣除折后可剥离净现金约13.43亿元后，经营业务购买价约30.52亿元。由于游戏收入高度依赖产品周期和买量效率，本次没有把2025年6.52亿元经营自由现金流直接视为可持续利润，而采用3.00亿元折后可持续可分配现金利润；对应控股回本约10.2年，市值/现金利润约14.7倍。结论对新老游戏流水和销售费用投放效率非常敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/300533.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
