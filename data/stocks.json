@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-28 21:27:37 +08:00",
+  "built_at": "2026-07-28 21:32:07 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -2864,6 +2864,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603816.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "603279.SH",
+      "name": "景津装备",
+      "raw_name": "景津装备",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 76.02,
+      "pe_ttm": 15.93,
+      "owner_earnback_years": 13.69,
+      "owner_earnback_rate_pct": 7.31,
+      "market_profit_payback_years": 14.94,
+      "market_cash_profit_yield_pct": 6.69,
+      "discounted_detachable_net_cash_yi": 6.39,
+      "discounted_net_cash_to_market_cap_pct": 8.4,
+      "operating_business_price_yi": 69.63,
+      "discounted_cash_profit_yi": 5.09,
+      "revenue_yi": 58.18,
+      "gross_profit_yi": 12.9,
+      "parent_net_profit_yi": 5.21,
+      "gross_margin_pct": 22.17,
+      "net_margin_pct": 8.95,
+      "forecast_dividend_yield_pct": 6.07,
+      "risk_level": "未分级",
+      "business_summary": "景津装备做过滤成套装备，靠压滤机整机、配件和配套装备卖给矿物加工、环保、新能源、化工、食品医药等工业客户赚钱。",
+      "core_judgement": "按 2026-07-28 市值 76.02 亿元，扣除折后可剥离净现金约 6.39 亿元后，经营业务购买价约 69.63 亿元。可持续可分配现金利润用 2025 年扣非归母净利润 5.09 亿元作为保守起点，因 2025 年利润下滑来自降价和毛利率下降，不用 2023-2024 高利润回补。对应控股回本约 13.69 年；若只看市值/现金利润为 14.94 年。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/603279.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
