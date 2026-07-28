@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-29 01:34:17 +08:00",
+  "built_at": "2026-07-29 01:38:28 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -5034,6 +5034,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603357.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "003008.SZ",
+      "name": "开普检测",
+      "raw_name": "开普检测",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 17.58,
+      "pe_ttm": 22.27,
+      "owner_earnback_years": 19.15,
+      "owner_earnback_rate_pct": 5.22,
+      "market_profit_payback_years": 27.9,
+      "market_cash_profit_yield_pct": 3.58,
+      "discounted_detachable_net_cash_yi": 5.51,
+      "discounted_net_cash_to_market_cap_pct": 31.36,
+      "operating_business_price_yi": 12.07,
+      "discounted_cash_profit_yi": 0.63,
+      "revenue_yi": 2.33,
+      "gross_profit_yi": 1.57,
+      "parent_net_profit_yi": 0.88,
+      "gross_margin_pct": 67.64,
+      "net_margin_pct": 37.9,
+      "forecast_dividend_yield_pct": 2.96,
+      "risk_level": "未分级",
+      "business_summary": "开普检测是一家面向新型电力系统装备的第三方检测服务商，核心收入来自为电力保护控制、新能源控制、电动汽车充换电等设备出具检测数据和报告。",
+      "core_judgement": "按2026-07-28腾讯行情市值17.58亿元，扣除折后可剥离净现金5.51亿元后，经营业务购买价约12.07亿元。三年经营自由现金流中位数7001.38万元，考虑检测设备维护、规模较小和项目波动后按90%折为6301.24万元，控股回本约19.15年；若不扣除净现金，市值/折后现金利润约27.90倍。这个口径显示账上净现金提供明显保护，但主营检测业务按控股回本并不算短回本。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/003008.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
