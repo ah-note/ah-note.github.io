@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-28 22:01:51 +08:00",
+  "built_at": "2026-07-28 22:06:00 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -2895,6 +2895,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/000726.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "601083.SH",
+      "name": "锦江航运",
+      "raw_name": "锦江航运",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 140.15,
+      "pe_ttm": 9.48,
+      "owner_earnback_years": 13.35,
+      "owner_earnback_rate_pct": 7.49,
+      "market_profit_payback_years": 15.57,
+      "market_cash_profit_yield_pct": 6.42,
+      "discounted_detachable_net_cash_yi": 19.96,
+      "discounted_net_cash_to_market_cap_pct": 14.24,
+      "operating_business_price_yi": 120.19,
+      "discounted_cash_profit_yi": 9.0,
+      "revenue_yi": 70.1,
+      "gross_profit_yi": 22.3,
+      "parent_net_profit_yi": 15.0,
+      "gross_margin_pct": 31.82,
+      "net_margin_pct": 21.4,
+      "forecast_dividend_yield_pct": 7.5,
+      "risk_level": "未分级",
+      "business_summary": "锦江航运是以上海为核心的近洋和国内集装箱班轮运输公司，靠航线网络、船队运力和延伸物流服务收取运费及相关服务费。",
+      "core_judgement": "按控股视角，先从市值中扣除折后可剥离净现金约19.93亿元，得到经营业务购买价约120.22亿元。2025年经营现金流明显高于利润，但船舶租赁本金在筹资现金流列示，且公司处于运力更新周期，因此没有直接使用18.57亿元经营自由现金流，而是按约9.00亿元折后可持续可分配现金利润估算。对应控股回本约13.4年，市值/现金利润约15.6倍。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/601083.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
