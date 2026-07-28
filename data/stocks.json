@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-28 21:23:48 +08:00",
+  "built_at": "2026-07-28 21:27:37 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -1996,6 +1996,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600585.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "000028.SZ",
+      "name": "国药一致",
+      "raw_name": "国药一致",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 124.53,
+      "pe_ttm": 11.37,
+      "owner_earnback_years": 10.02,
+      "owner_earnback_rate_pct": 9.98,
+      "market_profit_payback_years": 12.45,
+      "market_cash_profit_yield_pct": 8.03,
+      "discounted_detachable_net_cash_yi": 24.33,
+      "discounted_net_cash_to_market_cap_pct": 19.54,
+      "operating_business_price_yi": 100.2,
+      "discounted_cash_profit_yi": 10.0,
+      "revenue_yi": 734.16,
+      "gross_profit_yi": 78.4,
+      "parent_net_profit_yi": 11.36,
+      "gross_margin_pct": 10.68,
+      "net_margin_pct": 1.55,
+      "forecast_dividend_yield_pct": 2.75,
+      "risk_level": "未分级",
+      "business_summary": "国药一致是国药体系内以两广等区域医药批发和全国性药房零售为主的医药流通公司。",
+      "core_judgement": "以2026年7月28日腾讯行情市值124.53亿元为基础，折后可剥离净现金约24.33亿元，经营业务购买价约100.20亿元。2025年扣非归母净利润10.96亿元、经营自由现金流14.21亿元；考虑医药分销应收和存货占用大、经营现金流年际波动，按10.00亿元作为折后可持续可分配现金利润，控股回本约10.0年。这个口径依赖应收回款和供应商信用维持，不能把账面高营运资产当作清算价值。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/000028.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
