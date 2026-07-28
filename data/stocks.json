@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-28 21:57:41 +08:00",
+  "built_at": "2026-07-28 22:01:51 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -3298,6 +3298,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603611.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "002749.SZ",
+      "name": "国光股份",
+      "raw_name": "国光股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 49.36,
+      "pe_ttm": 16.8,
+      "owner_earnback_years": 15.59,
+      "owner_earnback_rate_pct": 6.41,
+      "market_profit_payback_years": 17.84,
+      "market_cash_profit_yield_pct": 5.61,
+      "discounted_detachable_net_cash_yi": 6.21,
+      "discounted_net_cash_to_market_cap_pct": 12.59,
+      "operating_business_price_yi": 43.15,
+      "discounted_cash_profit_yi": 2.77,
+      "revenue_yi": 20.57,
+      "gross_profit_yi": 9.34,
+      "parent_net_profit_yi": 3.12,
+      "gross_margin_pct": 45.42,
+      "net_margin_pct": 15.18,
+      "forecast_dividend_yield_pct": 1.89,
+      "risk_level": "未分级",
+      "business_summary": "国光股份是一家以植物生长调节剂为核心、配套农药和高端水溶肥产品的国内农化公司，收入主要来自国内经销渠道。",
+      "core_judgement": "按49.36亿元市值扣除约6.21亿元折后可剥离净现金，经营业务购买价约43.15亿元。以2025年扣非归母3.07亿元为现金利润基础、打九折后约2.77亿元测算，控股回本约15.6年；这个口径已把受限存单、必要经营现金和扩产/资本开支不确定性作保守处理。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/002749.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
