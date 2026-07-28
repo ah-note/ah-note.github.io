@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-28 23:14:40 +08:00",
+  "built_at": "2026-07-28 23:18:49 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -3639,6 +3639,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600690.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "600300.SH",
+      "name": "维维股份",
+      "raw_name": "维维股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 50.29,
+      "pe_ttm": 14.46,
+      "owner_earnback_years": 14.86,
+      "owner_earnback_rate_pct": 6.73,
+      "market_profit_payback_years": 17.96,
+      "market_cash_profit_yield_pct": 5.57,
+      "discounted_detachable_net_cash_yi": 8.69,
+      "discounted_net_cash_to_market_cap_pct": 17.28,
+      "operating_business_price_yi": 41.6,
+      "discounted_cash_profit_yi": 2.8,
+      "revenue_yi": 33.49,
+      "gross_profit_yi": 9.52,
+      "parent_net_profit_yi": 3.35,
+      "gross_margin_pct": 28.44,
+      "net_margin_pct": 9.99,
+      "forecast_dividend_yield_pct": 3.34,
+      "risk_level": "未分级",
+      "business_summary": "维维股份以豆奶粉、豆浆粉、谷物麦片、植物蛋白饮料等食品饮料制造为主要利润来源，同时经营低毛利粮油仓储贸易。",
+      "core_judgement": "以 50.29 亿元市值为起点，剔除折后可剥离净现金约 8.69 亿元后，经营业务购买价约 41.60 亿元。用 2.80 亿元折后可持续可分配现金利润估算，控股回本约 14.86 年；如果不扣净现金，则市值/现金利润约 17.96 倍。这个口径没有把 2025 年异常高经营现金流直接外推，也没有把长期投资资产按现金抵扣。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/600300.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
