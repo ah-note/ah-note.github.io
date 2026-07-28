@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-28 23:49:15 +08:00",
+  "built_at": "2026-07-28 23:53:25 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -3856,6 +3856,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603605.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "300144.SZ",
+      "name": "宋城演艺",
+      "raw_name": "宋城演艺",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 157.58,
+      "pe_ttm": 20.2,
+      "owner_earnback_years": 15.17,
+      "owner_earnback_rate_pct": 6.59,
+      "market_profit_payback_years": 20.2,
+      "market_cash_profit_yield_pct": 4.95,
+      "discounted_detachable_net_cash_yi": 39.27,
+      "discounted_net_cash_to_market_cap_pct": 24.92,
+      "operating_business_price_yi": 118.31,
+      "discounted_cash_profit_yi": 7.8,
+      "revenue_yi": 22.58,
+      "gross_profit_yi": 14.62,
+      "parent_net_profit_yi": 8.18,
+      "gross_margin_pct": 64.76,
+      "net_margin_pct": 36.22,
+      "forecast_dividend_yield_pct": 4.15,
+      "risk_level": "未分级",
+      "business_summary": "宋城演艺用自营“千古情”景区和剧场把文化演艺、门票和旅游服务打包销售，同时输出品牌、策划和托管服务。",
+      "core_judgement": "按2026-07-28市值157.58亿元，折后可剥离净现金约39.27亿元，控股视角购买经营业务价格约118.31亿元。折后可持续可分配现金利润取7.80亿元，主要锚定2025年扣非归母净利润7.85亿元，并用三年经营自由现金流高于净利润来验证现金化能力，但不把2025年营运资金释放全部资本化。对应控股回本约15.17年；若不扣折后净现金，市值/现金利润约20.20倍。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/300144.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
