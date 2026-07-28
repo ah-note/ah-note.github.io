@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-29 00:23:51 +08:00",
+  "built_at": "2026-07-29 00:28:41 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -2554,6 +2554,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603202.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "601156.SH",
+      "name": "东航物流",
+      "raw_name": "东航物流",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 270.36,
+      "pe_ttm": 9.94,
+      "owner_earnback_years": 11.07,
+      "owner_earnback_rate_pct": 9.03,
+      "market_profit_payback_years": 10.72,
+      "market_cash_profit_yield_pct": 9.33,
+      "discounted_detachable_net_cash_yi": -8.98,
+      "discounted_net_cash_to_market_cap_pct": -3.32,
+      "operating_business_price_yi": 279.34,
+      "discounted_cash_profit_yi": 25.23,
+      "revenue_yi": 242.64,
+      "gross_profit_yi": 47.62,
+      "parent_net_profit_yi": 26.88,
+      "gross_margin_pct": 19.63,
+      "net_margin_pct": 11.08,
+      "forecast_dividend_yield_pct": 3.98,
+      "risk_level": "未分级",
+      "business_summary": "东航物流依托全货机、东航客机腹舱和机场货站，向制造业、医药冷链、跨境电商、货代和航司客户提供航空货运及综合物流服务。",
+      "core_judgement": "按控股口径，资金类资产先扣受限现金、租赁融资负债和约1个月经营现金流出作为必要营运现金；关联财务公司存款因期限和穿透资产质量不足按80%折价。折后可剥离净现金为-8.98亿元，相当于经营业务购买价约279.34亿元。以2025年扣非归母净利润25.23亿元作为可持续现金利润基准，回本约11.1年；若不扣必要营运现金或提高财务公司存款折扣，回本会更短，但该差异属于现金可剥离质量判断。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/601156.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
