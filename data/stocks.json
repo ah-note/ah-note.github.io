@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-29 00:33:10 +08:00",
+  "built_at": "2026-07-29 00:38:00 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -3019,6 +3019,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002555.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "600060.SH",
+      "name": "海信视像",
+      "raw_name": "海信视像",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 360.04,
+      "pe_ttm": 14.45,
+      "owner_earnback_years": 12.82,
+      "owner_earnback_rate_pct": 7.8,
+      "market_profit_payback_years": 19.9,
+      "market_cash_profit_yield_pct": 5.02,
+      "discounted_detachable_net_cash_yi": 128.17,
+      "discounted_net_cash_to_market_cap_pct": 35.6,
+      "operating_business_price_yi": 231.87,
+      "discounted_cash_profit_yi": 18.09,
+      "revenue_yi": 576.79,
+      "gross_profit_yi": 96.35,
+      "parent_net_profit_yi": 24.54,
+      "gross_margin_pct": 16.7,
+      "net_margin_pct": 4.25,
+      "forecast_dividend_yield_pct": 3.41,
+      "risk_level": "未分级",
+      "business_summary": "海信视像以电视和多场景大显示终端为基本盘，通过全球品牌、渠道和供应链销售硬件，并延伸到激光显示、商用显示、显示芯片和云服务。",
+      "core_judgement": "按 2026-07-28 市值 360.04 亿元，扣除折后可剥离净现金约 128.17 亿元后，经营业务购买价约 231.87 亿元。分母采用 2023-2025 年扣非归母净利润均值约 18.09 亿元，因近三年经营现金流均覆盖归母净利润，且 2025 年经营自由现金流约 40.26 亿元，现金转化不是主要约束；该口径下控股回本约 12.82 年。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/600060.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
