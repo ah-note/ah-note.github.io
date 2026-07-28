@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-28 20:19:49 +08:00",
+  "built_at": "2026-07-28 20:24:58 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -1748,6 +1748,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/688526.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "600511.SH",
+      "name": "国药股份",
+      "raw_name": "国药股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 205.22,
+      "pe_ttm": 10.2,
+      "owner_earnback_years": 9.32,
+      "owner_earnback_rate_pct": 10.73,
+      "market_profit_payback_years": 12.05,
+      "market_cash_profit_yield_pct": 8.3,
+      "discounted_detachable_net_cash_yi": 46.45,
+      "discounted_net_cash_to_market_cap_pct": 22.63,
+      "operating_business_price_yi": 158.77,
+      "discounted_cash_profit_yi": 17.03,
+      "revenue_yi": 524.68,
+      "gross_profit_yi": 34.6,
+      "parent_net_profit_yi": 19.97,
+      "gross_margin_pct": 6.59,
+      "net_margin_pct": 3.81,
+      "forecast_dividend_yield_pct": 2.94,
+      "risk_level": "未分级",
+      "business_summary": "国药股份主要靠北京区域药械直销、全国麻精药分销和医药商品流通赚取低毛利率但高周转的渠道服务利润。",
+      "core_judgement": "按2026-07-28腾讯行情市值205.22亿元，先扣除折后可剥离净现金约46.45亿元，得到经营业务购买价约158.77亿元。现金利润用2025经营自由现金流19.37亿元为起点，按归母口径折算并对医药流通营运资金波动打92折，折后可持续可分配现金利润约17.03亿元，对应控股回本约9.32年；若不扣现金，市值/现金利润约12.05倍。这个结论依赖经营现金流继续接近近三年中位水平，且投资收益没有明显恶化。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/600511.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
