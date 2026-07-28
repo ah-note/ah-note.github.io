@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-28 20:50:44 +08:00",
+  "built_at": "2026-07-28 20:54:53 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -2027,6 +2027,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600612.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "601919.SH",
+      "name": "中远海控",
+      "raw_name": "中远海控",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 2355.87,
+      "pe_ttm": 9.4,
+      "owner_earnback_years": 10.44,
+      "owner_earnback_rate_pct": 9.58,
+      "market_profit_payback_years": 13.09,
+      "market_cash_profit_yield_pct": 7.64,
+      "discounted_detachable_net_cash_yi": 476.65,
+      "discounted_net_cash_to_market_cap_pct": 20.23,
+      "operating_business_price_yi": 1879.22,
+      "discounted_cash_profit_yi": 180.0,
+      "revenue_yi": 2195.04,
+      "gross_profit_yi": 440.09,
+      "parent_net_profit_yi": 308.68,
+      "gross_margin_pct": 20.05,
+      "net_margin_pct": 14.06,
+      "forecast_dividend_yield_pct": 6.54,
+      "risk_level": "未分级",
+      "business_summary": "中远海控以集装箱航运为核心，并经营集装箱码头和全球数字化供应链相关服务。",
+      "core_judgement": "按2355.87亿元市值，先将非受限普通现金95%、财务公司存款70%、小额金融资产80%折现，再扣短期借款、长期借款、租赁负债和股东借款，得到折后可剥离净现金约476.65亿元；经营业务购买价约1879.22亿元。可持续现金利润取180亿元，低于2025年经营自由现金流205.30亿元，用来反映少数股东、航运周期和维持资本开支拆分不清。该口径下回本约10.44年，市值/现金利润约13.09倍。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/601919.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
