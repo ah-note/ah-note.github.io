@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-28 23:01:11 +08:00",
+  "built_at": "2026-07-28 23:07:01 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -3577,6 +3577,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600690.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "002818.SZ",
+      "name": "富森美",
+      "raw_name": "富森美",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 80.46,
+      "pe_ttm": 10.12,
+      "owner_earnback_years": 15.28,
+      "owner_earnback_rate_pct": 6.54,
+      "market_profit_payback_years": 20.11,
+      "market_cash_profit_yield_pct": 4.97,
+      "discounted_detachable_net_cash_yi": 19.32,
+      "discounted_net_cash_to_market_cap_pct": 24.01,
+      "operating_business_price_yi": 61.14,
+      "discounted_cash_profit_yi": 4.0,
+      "revenue_yi": 11.99,
+      "gross_profit_yi": 7.55,
+      "parent_net_profit_yi": 5.55,
+      "gross_margin_pct": 62.96,
+      "net_margin_pct": 46.32,
+      "forecast_dividend_yield_pct": 2.88,
+      "risk_level": "未分级",
+      "business_summary": "富森美主要在成都运营自持家居建材卖场，向商户收取市场租赁及服务费。",
+      "core_judgement": "以2026-07-28腾讯行情市值80.46亿元为基数，折后可剥离净现金约19.32亿元后，经营业务购买价约61.14亿元。2025年经营现金流表观很高，但包含小贷/保理净收回6.07亿元；剔除该项并扣除资本开支后的现金流约6.05亿元。考虑收入和利润下行、金融投资收益质量及卖场租赁业务周期，折后可持续可分配现金利润取4.00亿元，对应控股回本约15.3年。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/002818.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
