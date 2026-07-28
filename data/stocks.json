@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-28 15:16:23 +08:00",
+  "built_at": "2026-07-28 17:20:27 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -1099,7 +1099,7 @@
       "period": "2025-12-31",
       "currency": "CNY",
       "market_cap_yi": 54.51,
-      "pe_ttm": null,
+      "pe_ttm": 10.9,
       "owner_earnback_years": 8.56,
       "owner_earnback_rate_pct": 11.68,
       "market_profit_payback_years": 15.9,
