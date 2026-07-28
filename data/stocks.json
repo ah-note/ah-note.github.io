@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-28 23:31:17 +08:00",
+  "built_at": "2026-07-28 23:37:07 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -2306,6 +2306,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/601919.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "002478.SZ",
+      "name": "常宝股份",
+      "raw_name": "常宝股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 54.59,
+      "pe_ttm": 12.46,
+      "owner_earnback_years": 10.6,
+      "owner_earnback_rate_pct": 9.44,
+      "market_profit_payback_years": 14.37,
+      "market_cash_profit_yield_pct": 6.96,
+      "discounted_detachable_net_cash_yi": 14.32,
+      "discounted_net_cash_to_market_cap_pct": 26.23,
+      "operating_business_price_yi": 40.27,
+      "discounted_cash_profit_yi": 3.8,
+      "revenue_yi": 58.93,
+      "gross_profit_yi": 9.54,
+      "parent_net_profit_yi": 4.82,
+      "gross_margin_pct": 16.19,
+      "net_margin_pct": 8.18,
+      "forecast_dividend_yield_pct": 3.28,
+      "risk_level": "未分级",
+      "business_summary": "常宝股份是面向油气、电力锅炉、石化装备、机械装备和汽车零部件客户的中小口径高端特种专用管材制造商。",
+      "core_judgement": "按2026-07-28市值54.59亿元，先扣除折后可剥离净现金约14.32亿元，经营业务购买价约40.27亿元。2025年经营自由现金流4.29亿元，三年经营自由现金流中位数也是4.29亿元；考虑钢管制造周期、应收存货占用和特材/精密管项目资本开支，折后可持续可分配现金利润取3.80亿元，对应控股回本约10.6年，市值/现金利润约14.4倍。这个数字依赖现金可剥离折扣和现金利润可持续性，不是确定收益承诺。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/002478.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
