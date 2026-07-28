@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-28 21:49:03 +08:00",
+  "built_at": "2026-07-28 21:53:12 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -2616,6 +2616,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600987.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "600211.SH",
+      "name": "西藏药业",
+      "raw_name": "西藏药业",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 120.68,
+      "pe_ttm": 12.47,
+      "owner_earnback_years": 12.44,
+      "owner_earnback_rate_pct": 8.04,
+      "market_profit_payback_years": 14.2,
+      "market_cash_profit_yield_pct": 7.04,
+      "discounted_detachable_net_cash_yi": 14.96,
+      "discounted_net_cash_to_market_cap_pct": 12.39,
+      "operating_business_price_yi": 105.72,
+      "discounted_cash_profit_yi": 8.5,
+      "revenue_yi": 29.82,
+      "gross_profit_yi": 28.09,
+      "parent_net_profit_yi": 9.38,
+      "gross_margin_pct": 94.22,
+      "net_margin_pct": 31.46,
+      "forecast_dividend_yield_pct": 4.66,
+      "risk_level": "未分级",
+      "business_summary": "西藏药业以心血管领域药品为核心，新活素贡献绝大部分销售，依姆多、诺迪康胶囊等补充，公司自行销售并委托康哲药业体系推广。",
+      "core_judgement": "按2026-07-28 16:14:56腾讯行情市值120.68亿元，扣除折后可剥离净现金约14.96亿元后，经营业务购买价约105.72亿元。以折后可持续可分配现金利润8.50亿元估算，控股回本约12.44年；若不扣净现金，市值/现金利润约14.20倍。这个口径依赖新活素等核心品种维持现金利润和60%左右分红政策延续。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/600211.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
