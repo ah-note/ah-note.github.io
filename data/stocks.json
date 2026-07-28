@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-28 21:40:45 +08:00",
+  "built_at": "2026-07-28 21:44:34 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -2337,6 +2337,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002884.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "603529.SH",
+      "name": "爱玛科技",
+      "raw_name": "爱玛科技",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 184.26,
+      "pe_ttm": 11.33,
+      "owner_earnback_years": 10.81,
+      "owner_earnback_rate_pct": 9.25,
+      "market_profit_payback_years": 12.6,
+      "market_cash_profit_yield_pct": 7.94,
+      "discounted_detachable_net_cash_yi": 26.23,
+      "discounted_net_cash_to_market_cap_pct": 14.24,
+      "operating_business_price_yi": 158.03,
+      "discounted_cash_profit_yi": 14.63,
+      "revenue_yi": 250.95,
+      "gross_profit_yi": 45.9,
+      "parent_net_profit_yi": 20.35,
+      "gross_margin_pct": 18.29,
+      "net_margin_pct": 8.11,
+      "forecast_dividend_yield_pct": 5.52,
+      "risk_level": "未分级",
+      "business_summary": "爱玛科技通过经销和线上线下渠道销售电动自行车、电动两轮摩托车、电动三轮车及配件，利润主要来自整车制造、品牌和渠道周转。",
+      "core_judgement": "按184.26亿元市值，扣除折后可剥离净现金约26.23亿元后，经营业务购买价约158.03亿元。2025年扣非归母净利润19.50亿元，但2023-2024年经营自由现金流为负、2025年资本开支仍高，不能把会计利润全部视作可分配现金；本次按75%折为可持续可分配现金利润约14.63亿元，对应控股回本约10.81年。该数字依赖维持性资本开支估计和理财/受限资金折扣。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/603529.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
