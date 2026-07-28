@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-28 19:51:15 +08:00",
+  "built_at": "2026-07-28 19:56:03 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -1120,6 +1120,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/000719.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "601949.SH",
+      "name": "中国出版",
+      "raw_name": "中国出版",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 96.53,
+      "pe_ttm": 16.78,
+      "owner_earnback_years": 5.53,
+      "owner_earnback_rate_pct": 18.07,
+      "market_profit_payback_years": 21.45,
+      "market_cash_profit_yield_pct": 4.66,
+      "discounted_detachable_net_cash_yi": 71.63,
+      "discounted_net_cash_to_market_cap_pct": 74.21,
+      "operating_business_price_yi": 24.9,
+      "discounted_cash_profit_yi": 4.5,
+      "revenue_yi": 53.34,
+      "gross_profit_yi": 18.58,
+      "parent_net_profit_yi": 6.47,
+      "gross_margin_pct": 34.83,
+      "net_margin_pct": 12.13,
+      "forecast_dividend_yield_pct": 2.01,
+      "risk_level": "未分级",
+      "business_summary": "中国出版是以大众/教材教辅等图书出版为核心、配套发行、物资供销和印刷服务的出版集团上市平台。",
+      "core_judgement": "按2026-07-28市值96.53亿元，资金类资产经流动性/期限折价、扣有息债务和8亿元必要经营现金后，折后可剥离净现金约71.63亿元；剩余经营业务购买价约24.90亿元。以2025年扣非归母净利润为起点并对收入下滑和维持资本开支不确定性再折为4.50亿元可持续可分配现金利润，经营业务回本约5.5年；按总市值除该现金利润约21.5年。该结论依赖现金类资产可由控股股东支配且低风险理财/存单能按接近账面价值变现。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/601949.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
