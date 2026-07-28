@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-29 00:56:25 +08:00",
+  "built_at": "2026-07-29 01:01:16 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -4414,6 +4414,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/688236.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "002159.SZ",
+      "name": "三特索道",
+      "raw_name": "三特索道",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 22.5,
+      "pe_ttm": 16.81,
+      "owner_earnback_years": 16.4,
+      "owner_earnback_rate_pct": 6.1,
+      "market_profit_payback_years": 19.45,
+      "market_cash_profit_yield_pct": 5.14,
+      "discounted_detachable_net_cash_yi": 3.53,
+      "discounted_net_cash_to_market_cap_pct": 15.7,
+      "operating_business_price_yi": 18.97,
+      "discounted_cash_profit_yi": 1.16,
+      "revenue_yi": 6.38,
+      "gross_profit_yi": 3.98,
+      "parent_net_profit_yi": 1.43,
+      "gross_margin_pct": 62.35,
+      "net_margin_pct": 22.45,
+      "forecast_dividend_yield_pct": 2.21,
+      "risk_level": "未分级",
+      "business_summary": "三特索道在多地经营索道和景区交通，并配套餐饮、文创、住宿、温泉和主题体验等文旅消费。",
+      "core_judgement": "按2026-07-28约22.50亿元市值，扣除折后可剥离净现金约3.53亿元后，经营业务购买价约18.97亿元。折后可持续可分配现金利润采用2023-2025年扣非归母净利润中位数1.36亿元并打0.85行业波动折扣，约1.16亿元；对应控股回本约16.4年，未扣现金的市值/现金利润约19.5倍。这个口径强调经营资产买断后的现金回收速度，不等同于股价建议。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/002159.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
