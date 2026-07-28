@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-28 23:26:48 +08:00",
+  "built_at": "2026-07-28 23:31:17 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -3298,6 +3298,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600380.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "600216.SH",
+      "name": "浙江医药",
+      "raw_name": "浙江医药",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 113.67,
+      "pe_ttm": 15.13,
+      "owner_earnback_years": 13.85,
+      "owner_earnback_rate_pct": 7.22,
+      "market_profit_payback_years": 15.88,
+      "market_cash_profit_yield_pct": 6.3,
+      "discounted_detachable_net_cash_yi": 14.51,
+      "discounted_net_cash_to_market_cap_pct": 12.77,
+      "operating_business_price_yi": 99.16,
+      "discounted_cash_profit_yi": 7.16,
+      "revenue_yi": 88.81,
+      "gross_profit_yi": 30.79,
+      "parent_net_profit_yi": 8.73,
+      "gross_margin_pct": 34.67,
+      "net_margin_pct": 9.83,
+      "forecast_dividend_yield_pct": 2.36,
+      "risk_level": "未分级",
+      "business_summary": "浙江医药是医药制造和生命营养品公司，收入主要来自维生素/类维生素、原料药、制剂及医药商业销售。",
+      "core_judgement": "按输入市值113.67亿元，扣除折后可剥离净现金约14.51亿元后，经营业务购买价约99.16亿元。利润端不直接采用2025年14.39亿元自由现金流，而以2023-2025年扣非归母净利润均值约7.16亿元作为周期化、可分配现金利润基准；据此控股回本约13.85年，市值/现金利润约15.88倍。这个数字的主要含义是：账上现金能降低一部分购买价，但维生素价格周期和制造业资本占用使利润折扣不能过低。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/600216.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
