@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-28 23:40:57 +08:00",
+  "built_at": "2026-07-28 23:45:46 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -2523,6 +2523,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/300360.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "603202.SH",
+      "name": "天有为",
+      "raw_name": "天有为",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 82.53,
+      "pe_ttm": 10.21,
+      "owner_earnback_years": 10.98,
+      "owner_earnback_rate_pct": 9.11,
+      "market_profit_payback_years": 14.58,
+      "market_cash_profit_yield_pct": 6.86,
+      "discounted_detachable_net_cash_yi": 20.37,
+      "discounted_net_cash_to_market_cap_pct": 24.69,
+      "operating_business_price_yi": 62.16,
+      "discounted_cash_profit_yi": 5.66,
+      "revenue_yi": 39.98,
+      "gross_profit_yi": 13.79,
+      "parent_net_profit_yi": 9.22,
+      "gross_margin_pct": 34.51,
+      "net_margin_pct": 23.06,
+      "forecast_dividend_yield_pct": 4.85,
+      "risk_level": "未分级",
+      "business_summary": "天有为是汽车仪表和智能座舱电子零部件供应商，面向国内外整车厂和零部件客户做前装直销配套。",
+      "core_judgement": "按输入市值82.53亿元，折后可剥离净现金约20.37亿元后，经营业务购买价约62.16亿元。以2025年经营现金流减资本开支、再扣除利息收入后的现金利润约5.66亿元作分母，控股回本约11.0年；若完全不扣净现金，则市值/现金利润约14.6倍。这个口径的关键约束是2025年IPO后未使用募集资金仍需专户存储、专项使用，因此未把账面资金全额视为可立即拿走的现金。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/603202.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
