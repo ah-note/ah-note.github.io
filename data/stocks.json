@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-29 00:15:53 +08:00",
+  "built_at": "2026-07-29 00:20:02 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -3980,6 +3980,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002818.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "920112.BJ",
+      "name": "巴兰仕",
+      "raw_name": "巴兰仕",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 18.86,
+      "pe_ttm": 12.81,
+      "owner_earnback_years": 15.28,
+      "owner_earnback_rate_pct": 6.54,
+      "market_profit_payback_years": 18.16,
+      "market_cash_profit_yield_pct": 5.51,
+      "discounted_detachable_net_cash_yi": 2.99,
+      "discounted_net_cash_to_market_cap_pct": 15.83,
+      "operating_business_price_yi": 15.87,
+      "discounted_cash_profit_yi": 1.04,
+      "revenue_yi": 11.2,
+      "gross_profit_yi": 3.36,
+      "parent_net_profit_yi": 1.46,
+      "gross_margin_pct": 30.03,
+      "net_margin_pct": 13.06,
+      "forecast_dividend_yield_pct": 2.7,
+      "risk_level": "未分级",
+      "business_summary": "巴兰仕是一家汽保设备制造商，主要向国内外经销商、汽车维修保养设备品牌商和整车厂客户销售举升机、拆胎机、平衡机、养护设备等产品。",
+      "core_judgement": "按18.86亿元市值，保守折后可剥离净现金约2.99亿元，经营业务购买价约15.87亿元。以扣非归母净利润扣除资金资产收益后的1.385亿元为经营利润基数，再按75%折为可持续可分配现金利润约1.04亿元，控股回本约15.3年；若不扣现金，市值/折后现金利润约18.2倍。这个口径已排除募集资金结构性存款，并对现金流和扩产资本开支留了折扣。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/920112.BJ/"
     },
     {
       "schema_version": "stock-research-result-v1",
