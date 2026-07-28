@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-29 00:07:33 +08:00",
+  "built_at": "2026-07-29 00:11:23 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -4135,6 +4135,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/301173.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "688236.SH",
+      "name": "春立医疗",
+      "raw_name": "春立医疗",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 52.74,
+      "pe_ttm": 19.1,
+      "owner_earnback_years": 15.96,
+      "owner_earnback_rate_pct": 6.27,
+      "market_profit_payback_years": 25.8,
+      "market_cash_profit_yield_pct": 3.88,
+      "discounted_detachable_net_cash_yi": 20.12,
+      "discounted_net_cash_to_market_cap_pct": 38.14,
+      "operating_business_price_yi": 32.62,
+      "discounted_cash_profit_yi": 2.04,
+      "revenue_yi": 10.46,
+      "gross_profit_yi": 6.91,
+      "parent_net_profit_yi": 2.73,
+      "gross_margin_pct": 66.04,
+      "net_margin_pct": 26.06,
+      "forecast_dividend_yield_pct": 2.61,
+      "risk_level": "未分级",
+      "business_summary": "春立医疗生产并销售人工关节、脊柱、创伤、运动医学等骨科植入和相关医疗器械，收入来自境内医院/经销渠道和海外市场。",
+      "core_judgement": "按52.74亿元市值扣除折后可剥离净现金约20.13亿元，控股视角买经营业务约32.61亿元。分母用2025年扣非归母净利润2.56亿元打八折，得到折后可持续可分配现金利润约2.04亿元；对应经营业务回本约15.9年，市值/折后现金利润约25.8倍。这个口径把2025年较强自由现金流纳入观察，但也因2024年经营现金流为负、理财条款披露不足而折价。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/688236.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
