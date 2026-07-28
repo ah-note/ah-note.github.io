@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-28 22:57:02 +08:00",
+  "built_at": "2026-07-28 23:01:11 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -3732,6 +3732,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/301173.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "920892.BJ",
+      "name": "广咨国际",
+      "raw_name": "广咨国际",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 17.34,
+      "pe_ttm": 16.01,
+      "owner_earnback_years": 16.62,
+      "owner_earnback_rate_pct": 6.02,
+      "market_profit_payback_years": 21.59,
+      "market_cash_profit_yield_pct": 4.63,
+      "discounted_detachable_net_cash_yi": 4.0,
+      "discounted_net_cash_to_market_cap_pct": 23.05,
+      "operating_business_price_yi": 13.34,
+      "discounted_cash_profit_yi": 0.8,
+      "revenue_yi": 5.9,
+      "gross_profit_yi": 2.27,
+      "parent_net_profit_yi": 1.08,
+      "gross_margin_pct": 38.42,
+      "net_margin_pct": 18.26,
+      "forecast_dividend_yield_pct": 5.89,
+      "risk_level": "未分级",
+      "business_summary": "广咨国际是广东省属国有控股的轻资产工程咨询服务公司，靠工程咨询、工程造价和招标代理等项目咨询服务收费赚钱。",
+      "core_judgement": "以2026-07-28 15:35:45市值17.34亿元计算，折后可剥离净现金约4.00亿元，买经营业务约13.34亿元。用扣非利润、低资本开支和保证金/代收代付现金流扰动折价后，估计可持续可分配现金利润约0.80亿元，对应控股回本约16.6年；这不是便宜到主要靠现金覆盖的状态，核心仍取决于工程咨询业务能否保持利润和现金分红。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/920892.BJ/"
     },
     {
       "schema_version": "stock-research-result-v1",
