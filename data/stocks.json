@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-28 20:44:55 +08:00",
+  "built_at": "2026-07-28 20:50:44 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -2647,6 +2647,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603816.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "600380.SH",
+      "name": "健康元",
+      "raw_name": "健康元",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 185.14,
+      "pe_ttm": 14.08,
+      "owner_earnback_years": 13.81,
+      "owner_earnback_rate_pct": 7.24,
+      "market_profit_payback_years": 20.37,
+      "market_cash_profit_yield_pct": 4.91,
+      "discounted_detachable_net_cash_yi": 59.63,
+      "discounted_net_cash_to_market_cap_pct": 32.21,
+      "operating_business_price_yi": 125.51,
+      "discounted_cash_profit_yi": 9.09,
+      "revenue_yi": 152.16,
+      "gross_profit_yi": 95.01,
+      "parent_net_profit_yi": 13.36,
+      "gross_margin_pct": 62.44,
+      "net_margin_pct": 8.78,
+      "forecast_dividend_yield_pct": 2.17,
+      "risk_level": "未分级",
+      "business_summary": "健康元是以丽珠集团为基本盘，覆盖化学制剂、生物药、原料药及中间体、保健品的综合医药制造企业。",
+      "core_judgement": "按输入市值185.14亿元，先扣除折后可剥离净现金59.63亿元，得到经营业务购买价125.51亿元；再用三年扣非归母中位数扣除剥离资金收益并留经营折扣后的可持续现金利润9.09亿元估算，控股回本约13.81年。该数字是普通经营公司口径下的可排序估算，不代表买卖建议。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/600380.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
