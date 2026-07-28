@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-28 18:10:49 +08:00",
+  "built_at": "2026-07-28 18:22:13 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -1120,6 +1120,41 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/601811.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "002091.SZ",
+      "name": "江苏国泰",
+      "raw_name": "江苏国泰",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 123.54,
+      "pe_ttm": null,
+      "owner_earnback_years": 6.07,
+      "owner_earnback_rate_pct": 16.47,
+      "market_profit_payback_years": 14.22,
+      "market_cash_profit_yield_pct": 7.03,
+      "discounted_detachable_net_cash_yi": 70.78,
+      "discounted_net_cash_to_market_cap_pct": 57.3,
+      "operating_business_price_yi": 52.76,
+      "discounted_cash_profit_yi": 8.69,
+      "revenue_yi": 393.85,
+      "gross_profit_yi": 63.87,
+      "parent_net_profit_yi": 12.94,
+      "gross_margin_pct": 16.22,
+      "net_margin_pct": 3.29,
+      "forecast_dividend_yield_pct": 6.19,
+      "risk_level": "未分级",
+      "business_summary": "江苏国泰以纺织服装等消费品进出口供应链服务为主体，并通过瑞泰新材经营电子化学品、有机硅等化工新材料。",
+      "core_judgement": "以输入市值123.54亿元测算，保守扣留约一个月收入对应的经营必要现金32.82亿元，并将可动用货币资金、理财和一年内固收分别折价后再扣除融资负债，得到折后可剥离净现金70.78亿元。经营业务购买价约52.76亿元。可持续现金利润采用2025年扣非归母净利润10.22亿元再打85折，约8.69亿元；对应控股回本约6.07年。该结论对理财可剥离性、经营必要现金和贸易利润稳定性敏感。",
+      "user_note": "利润率低，大规模亏损概率大，风险高。",
+      "user_tags": [
+        "低利润率",
+        "潜在大额亏损",
+        "高风险"
+      ],
+      "detail_url": "reports/002091.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
