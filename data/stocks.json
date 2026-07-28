@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-28 22:21:08 +08:00",
+  "built_at": "2026-07-28 22:24:37 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -3081,6 +3081,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603279.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "002011.SZ",
+      "name": "盾安环境",
+      "raw_name": "盾安环境",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 110.24,
+      "pe_ttm": 10.43,
+      "owner_earnback_years": 13.7,
+      "owner_earnback_rate_pct": 7.3,
+      "market_profit_payback_years": 15.33,
+      "market_cash_profit_yield_pct": 6.52,
+      "discounted_detachable_net_cash_yi": 11.75,
+      "discounted_net_cash_to_market_cap_pct": 10.66,
+      "operating_business_price_yi": 98.49,
+      "discounted_cash_profit_yi": 7.19,
+      "revenue_yi": 130.35,
+      "gross_profit_yi": 24.09,
+      "parent_net_profit_yi": 10.78,
+      "gross_margin_pct": 18.48,
+      "net_margin_pct": 8.27,
+      "forecast_dividend_yield_pct": 0.97,
+      "risk_level": "未分级",
+      "business_summary": "盾安环境是以制冷空调零部件为主、延伸新能源汽车热管理和制冷设备的制造业公司。",
+      "core_judgement": "按 2026-07-28 市值 110.24 亿元，扣除折后可剥离净现金约 11.75 亿元后，经营业务购买价约 98.49 亿元。现金利润分母采用 2023-2025 年经营自由现金流中位数 7.19 亿元，得到控股回本约 13.7 年；若不扣净现金，市值/现金利润约 15.3 倍。该口径依赖对必要经营现金和维持性资本开支的估算。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/002011.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
