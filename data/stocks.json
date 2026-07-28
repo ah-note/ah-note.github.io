@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-28 22:15:38 +08:00",
+  "built_at": "2026-07-28 22:21:08 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -3205,6 +3205,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600873.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "002773.SZ",
+      "name": "康弘药业",
+      "raw_name": "康弘药业",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 196.33,
+      "pe_ttm": 18.34,
+      "owner_earnback_years": 14.29,
+      "owner_earnback_rate_pct": 7.0,
+      "market_profit_payback_years": 18.49,
+      "market_cash_profit_yield_pct": 5.41,
+      "discounted_detachable_net_cash_yi": 44.59,
+      "discounted_net_cash_to_market_cap_pct": 22.71,
+      "operating_business_price_yi": 151.74,
+      "discounted_cash_profit_yi": 10.62,
+      "revenue_yi": 45.85,
+      "gross_profit_yi": 41.2,
+      "parent_net_profit_yi": 11.63,
+      "gross_margin_pct": 89.85,
+      "net_margin_pct": 25.36,
+      "forecast_dividend_yield_pct": 3.28,
+      "risk_level": "未分级",
+      "business_summary": "康弘药业是以康柏西普等眼科生物药、中成药和化学药为主要收入来源的研发、生产、经销型药企。",
+      "core_judgement": "按2026-07-28市值196.33亿元，先扣除折后可剥离净现金44.59亿元，剩余经营业务购买价约151.74亿元。利润分母采用2025年扣非归母净利润11.18亿元并打95折，得到折后可持续可分配现金利润约10.62亿元；近两年经营自由现金流约12.4-12.5亿元，对该分母有现金流支持。对应控股回本约14.3年，全市值/折后现金利润约18.5倍。这个口径没有给研发管线成功额外加值，也没有把全部现金按面值扣除。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/002773.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
