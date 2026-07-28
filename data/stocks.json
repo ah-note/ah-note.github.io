@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-29 01:26:14 +08:00",
+  "built_at": "2026-07-29 01:30:06 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -4662,6 +4662,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600096.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "300389.SZ",
+      "name": "艾比森",
+      "raw_name": "艾比森",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 43.37,
+      "pe_ttm": 17.03,
+      "owner_earnback_years": 17.69,
+      "owner_earnback_rate_pct": 5.65,
+      "market_profit_payback_years": 25.15,
+      "market_cash_profit_yield_pct": 3.98,
+      "discounted_detachable_net_cash_yi": 12.87,
+      "discounted_net_cash_to_market_cap_pct": 29.66,
+      "operating_business_price_yi": 30.5,
+      "discounted_cash_profit_yi": 1.72,
+      "revenue_yi": 41.58,
+      "gross_profit_yi": 12.94,
+      "parent_net_profit_yi": 2.52,
+      "gross_margin_pct": 31.13,
+      "net_margin_pct": 6.06,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "艾比森主要向全球客户销售 LED 大屏显示产品，并提供专业视听解决方案。",
+      "core_judgement": "按 2026-07-28 市值 43.37 亿元，折后可剥离净现金约 12.87 亿元，经营业务购买价约 30.50 亿元。现金利润采用近三年扣非归母净利润中位数 2.30 亿元并打 0.75 折，得到约 1.72 亿元；对应控股回本约 17.7 年，市值/折后现金利润约 25.2 倍。这个口径把 2025 年异常强的经营现金流视为营运资金波动，而不是直接资本化为可持续利润。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/300389.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
