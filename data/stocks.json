@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-28 20:11:11 +08:00",
+  "built_at": "2026-07-28 20:15:00 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -2492,6 +2492,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603816.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "300641.SZ",
+      "name": "正丹股份",
+      "raw_name": "正丹股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 72.74,
+      "pe_ttm": 18.52,
+      "owner_earnback_years": 13.89,
+      "owner_earnback_rate_pct": 7.2,
+      "market_profit_payback_years": 18.18,
+      "market_cash_profit_yield_pct": 5.5,
+      "discounted_detachable_net_cash_yi": 17.19,
+      "discounted_net_cash_to_market_cap_pct": 23.63,
+      "operating_business_price_yi": 55.55,
+      "discounted_cash_profit_yi": 4.0,
+      "revenue_yi": 22.91,
+      "gross_profit_yi": 8.73,
+      "parent_net_profit_yi": 7.14,
+      "gross_margin_pct": 38.1,
+      "net_margin_pct": 31.18,
+      "forecast_dividend_yield_pct": 3.61,
+      "risk_level": "未分级",
+      "business_summary": "公司围绕芳烃综合利用产业链，研发、生产和销售特种精细化学品和高端环保新材料。",
+      "core_judgement": "按控股口径，先把无受限披露的货币资金按 85% 折价，再扣除短期借款，得到约 17.19 亿元折后可剥离净现金；经营业务购买价约 55.55 亿元。利润端不采用 2025 年 10.44 亿元经营自由现金流满额资本化，因为其中约 3.34 亿元来自营运资金释放，且 TMA/TOTM 价格已从高位回落、下半年利润明显低于上半年；本次用 4.00 亿元作为折后可持续可分配现金利润。对应控股回本约 13.89 年，市值/现金利润约 18.18 倍。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/300641.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
