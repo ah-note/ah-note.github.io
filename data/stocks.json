@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-29 13:36:54 +08:00",
+  "built_at": "2026-07-29 13:41:04 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -5189,6 +5189,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/301004.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "603600.SH",
+      "name": "永艺股份",
+      "raw_name": "永艺股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 30.5,
+      "pe_ttm": 12.33,
+      "owner_earnback_years": 20.66,
+      "owner_earnback_rate_pct": 4.84,
+      "market_profit_payback_years": 18.98,
+      "market_cash_profit_yield_pct": 5.27,
+      "discounted_detachable_net_cash_yi": -2.7,
+      "discounted_net_cash_to_market_cap_pct": -8.85,
+      "operating_business_price_yi": 33.2,
+      "discounted_cash_profit_yi": 1.61,
+      "revenue_yi": 48.82,
+      "gross_profit_yi": 9.98,
+      "parent_net_profit_yi": 2.33,
+      "gross_margin_pct": 20.45,
+      "net_margin_pct": 4.77,
+      "forecast_dividend_yield_pct": 4.98,
+      "risk_level": "未分级",
+      "business_summary": "永艺股份是以人体工学办公椅为核心、向电动升降桌和沙发等延伸的健康家具制造商，外销ODM/OEM为主，内销推进自主品牌。",
+      "core_judgement": "按本次输入市值30.50亿元，未受限货币资金9折后为8.62亿元，扣除融资负债8.62亿元、估算必要经营现金2.50亿元和税费/汇兑/分红摩擦0.20亿元后，折后可剥离净现金为-2.70亿元；经营业务购买价约33.20亿元。以2025年扣非归母净利润2.14亿元打75折作为可持续可分配现金利润，约1.61亿元，对应控股回本约20.66年。该口径对现金利润和必要经营现金的估算较保守，核心敏感点是外销汇率、资本开支是否回落、毛利率和分红持续性。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/603600.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
