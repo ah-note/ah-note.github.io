@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 03:51:55 +08:00",
+  "built_at": "2026-08-01 03:53:06 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -26579,6 +26579,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/300662.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "003006.SZ",
+      "name": "百亚股份",
+      "raw_name": "百亚股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 63.16,
+      "pe_ttm": 28.57,
+      "owner_earnback_years": 55.59,
+      "owner_earnback_rate_pct": 1.8,
+      "market_profit_payback_years": 58.61,
+      "market_cash_profit_yield_pct": 1.71,
+      "discounted_detachable_net_cash_yi": 3.26,
+      "discounted_net_cash_to_market_cap_pct": 5.16,
+      "operating_business_price_yi": 59.9,
+      "discounted_cash_profit_yi": 1.08,
+      "revenue_yi": 34.92,
+      "gross_profit_yi": 18.97,
+      "parent_net_profit_yi": 2.08,
+      "gross_margin_pct": 54.3,
+      "net_margin_pct": 5.95,
+      "forecast_dividend_yield_pct": 2.72,
+      "risk_level": "未分级",
+      "business_summary": "以自由点中高端卫生巾为绝对主业，通过自产、经销/KA、电商和新零售渠道赚取品牌与产品结构溢价。",
+      "core_judgement": "按输入市值63.16亿元，资金类资产折价并扣除租赁及长期结算负债后，可剥离净现金约3.26亿元，仅占市值5.16%；经营业务购买价约59.90亿元。以2024—2025两年经营自由现金流均值1.197亿元再打九折，折后可持续现金利润约1.078亿元，对应经营业务回本约55.6年、市值/现金利润约58.6倍。价格主要依赖未来利润增长，而非现有现金和当期可分配现金覆盖；这是静态控股回本测算，不是目标价或买卖建议。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/003006.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
