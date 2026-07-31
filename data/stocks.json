@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 21:19:27 +08:00",
+  "built_at": "2026-07-31 21:20:16 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -19883,6 +19883,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/000755.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "601619.SH",
+      "name": "嘉泽新能",
+      "raw_name": "嘉泽新能",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 135.45,
+      "pe_ttm": 22.35,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 24.99,
+      "gross_profit_yi": 14.34,
+      "parent_net_profit_yi": 7.14,
+      "gross_margin_pct": 57.38,
+      "net_margin_pct": 28.58,
+      "forecast_dividend_yield_pct": 1.72,
+      "risk_level": "未分级",
+      "business_summary": "开发、建设并运营风电和光伏电站，向电网及工商业用户售电，同时滚动出售电站并提供运维和电力交易服务。",
+      "core_judgement": "普通控股回本口径不适用：账上现金不能脱离项目建设、融资租赁和债务服务而剥离，且单年资本开支混合维护与新增建设。应改用逐项目剩余运营期现金流模型，按发电量、市场化结算电价、限电率、运维税费、维护资本开支及债务还本付息测算股东可分配现金。2025年经营现金流27.50亿元受补贴回款增加显著抬升，不能直接视为稳态。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/601619.SH/"
     }
   ]
 }
