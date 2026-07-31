@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 18:27:15 +08:00",
+  "built_at": "2026-07-31 18:28:45 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -10211,6 +10211,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002236.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "000538.SZ",
+      "name": "云南白药",
+      "raw_name": "云南白药",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 934.6,
+      "pe_ttm": 17.78,
+      "owner_earnback_years": 22.07,
+      "owner_earnback_rate_pct": 4.53,
+      "market_profit_payback_years": 27.34,
+      "market_cash_profit_yield_pct": 3.66,
+      "discounted_detachable_net_cash_yi": 180.17,
+      "discounted_net_cash_to_market_cap_pct": 19.28,
+      "operating_business_price_yi": 754.43,
+      "discounted_cash_profit_yi": 34.19,
+      "revenue_yi": 411.87,
+      "gross_profit_yi": 121.54,
+      "parent_net_profit_yi": 51.53,
+      "gross_margin_pct": 29.51,
+      "net_margin_pct": 12.51,
+      "forecast_dividend_yield_pct": 4.97,
+      "risk_level": "未分级",
+      "business_summary": "以云南白药品牌经营中药、药品和口腔护理等高毛利自制产品，同时开展低毛利医药批发零售并持有上海医药联营股权。",
+      "core_judgement": "市值934.60亿元扣折后净现金180.17亿元，经营业务价754.43亿元；按折后现金利润34.19亿元静态回本22.1年。结果对上海医药股权可实现价值和经营现金流持续性敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/000538.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
