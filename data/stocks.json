@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 18:58:12 +08:00",
+  "built_at": "2026-07-31 18:59:42 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -12102,6 +12102,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/000400.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "601339.SH",
+      "name": "百隆东方",
+      "raw_name": "百隆东方",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 121.02,
+      "pe_ttm": 16.69,
+      "owner_earnback_years": 24.46,
+      "owner_earnback_rate_pct": 4.09,
+      "market_profit_payback_years": 21.96,
+      "market_cash_profit_yield_pct": 4.55,
+      "discounted_detachable_net_cash_yi": -13.83,
+      "discounted_net_cash_to_market_cap_pct": -11.43,
+      "operating_business_price_yi": 134.85,
+      "discounted_cash_profit_yi": 5.51,
+      "revenue_yi": 78.61,
+      "gross_profit_yi": 10.74,
+      "parent_net_profit_yi": 6.56,
+      "gross_margin_pct": 13.67,
+      "net_margin_pct": 8.35,
+      "forecast_dividend_yield_pct": 3.1,
+      "risk_level": "未分级",
+      "business_summary": "以国内与越南产能研发、生产并直销色纺纱和坯纱，利润核心来自棉花采购、产能利用率、产品结构与越南制造成本。",
+      "core_judgement": "市值121.02亿元减去折后可剥离净现金-13.83亿元，经营业务隐含购买价约134.85亿元；除以折后可持续现金利润5.51亿元，静态回本约24.5年。该口径显示债务使经营业务购买价高于市值；结果对纺织周期、棉价、越南盈利和现金可汇回性敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/601339.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
