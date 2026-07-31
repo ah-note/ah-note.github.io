@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 19:06:07 +08:00",
+  "built_at": "2026-07-31 19:07:56 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -12009,6 +12009,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/300320.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "603351.SH",
+      "name": "威尔药业",
+      "raw_name": "威尔药业",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 31.65,
+      "pe_ttm": 20.82,
+      "owner_earnback_years": 23.97,
+      "owner_earnback_rate_pct": 4.17,
+      "market_profit_payback_years": 23.29,
+      "market_cash_profit_yield_pct": 4.29,
+      "discounted_detachable_net_cash_yi": -0.92,
+      "discounted_net_cash_to_market_cap_pct": -2.92,
+      "operating_business_price_yi": 32.57,
+      "discounted_cash_profit_yi": 1.36,
+      "revenue_yi": 13.35,
+      "gross_profit_yi": 3.8,
+      "parent_net_profit_yi": 1.51,
+      "gross_margin_pct": 28.46,
+      "net_margin_pct": 11.31,
+      "forecast_dividend_yield_pct": 2.57,
+      "risk_level": "未分级",
+      "business_summary": "以直销方式向制药和润滑油客户销售高规格药用辅料与合成润滑基础油，利润依赖配方工艺、质量认证、客户验证和规模化化学制造。",
+      "core_judgement": "截至2025年末，现金及按50%折价的长期金融资产不足以覆盖短期借款、长期借款、一年内到期非流动负债和租赁负债，折后可剥离净现金为负0.92亿元，因此按控股口径买下经营业务的实际价格高于市值。可持续现金利润以2025年归母净利润1.51亿元为基准，因单年经营现金流和自由现金流较强但扩产仍在继续，保守折减10%至1.36亿元。对应经营业务回本约24.0年；该结果对利润持续性、未来维护性资本开支及金融资产退出价值敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/603351.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
