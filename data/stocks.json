@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 19:40:00 +08:00",
+  "built_at": "2026-07-31 19:40:29 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -14706,6 +14706,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002440.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "001210.SZ",
+      "name": "金房能源",
+      "raw_name": "金房能源",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 38.22,
+      "pe_ttm": 27.87,
+      "owner_earnback_years": 30.9,
+      "owner_earnback_rate_pct": 3.24,
+      "market_profit_payback_years": 38.22,
+      "market_cash_profit_yield_pct": 2.62,
+      "discounted_detachable_net_cash_yi": 7.32,
+      "discounted_net_cash_to_market_cap_pct": 19.15,
+      "operating_business_price_yi": 30.9,
+      "discounted_cash_profit_yi": 1.0,
+      "revenue_yi": 11.99,
+      "gross_profit_yi": 3.09,
+      "parent_net_profit_yi": 1.34,
+      "gross_margin_pct": 25.73,
+      "net_margin_pct": 11.21,
+      "forecast_dividend_yield_pct": 1.85,
+      "risk_level": "未分级",
+      "business_summary": "以居民和公共建筑供热运营为核心，并向工业供能、蓄冷储能和节能改造延伸的综合能源运营商。",
+      "core_judgement": "按2026-07-31市值38.22亿元，折后可剥离净现金约7.32亿元，经营业务购买价约30.90亿元。以1.00亿元折后可持续可分配现金利润计，经营业务回本约30.9年，市值对应现金利润约38.2年。该数字明显依赖现金可剥离程度和现金利润正常化假设；2025年自由现金流较强，但2024年仅约0.28亿元，且2025年合同负债增加0.98亿元、应收减值较大，不能直接把单年自由现金流全部外推。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/001210.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
