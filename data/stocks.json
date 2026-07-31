@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 02:53:19 +08:00",
+  "built_at": "2026-08-01 02:53:48 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -25618,6 +25618,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002430.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "600298.SH",
+      "name": "安琪酵母",
+      "raw_name": "安琪酵母",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 363.46,
+      "pe_ttm": 22.71,
+      "owner_earnback_years": 59.84,
+      "owner_earnback_rate_pct": 1.67,
+      "market_profit_payback_years": 51.94,
+      "market_cash_profit_yield_pct": 1.93,
+      "discounted_detachable_net_cash_yi": -55.21,
+      "discounted_net_cash_to_market_cap_pct": -15.19,
+      "operating_business_price_yi": 418.67,
+      "discounted_cash_profit_yi": 7.0,
+      "revenue_yi": 167.29,
+      "gross_profit_yi": 41.33,
+      "parent_net_profit_yi": 15.44,
+      "gross_margin_pct": 24.71,
+      "net_margin_pct": 9.23,
+      "forecast_dividend_yield_pct": 1.31,
+      "risk_level": "未分级",
+      "business_summary": "以酵母及深加工为利润核心，依靠发酵技术、规模化工厂、应用服务和全球渠道向食品及生物制造客户销售产品，并辅以糖业、食品原料和包装等低毛利业务。",
+      "core_judgement": "普通经营模型适用。可自由现金和折后理财不足以覆盖融资债务，折后净现金为负55.21亿元；市值加净债务后相当于以418.67亿元购买经营业务。以2025年经营自由现金流再打九折作为现金利润，静态回本约59.84年。增长与维持资本开支未拆分，回本年对该假设高度敏感，本结果是保守压力测试而非确定估值。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/600298.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
