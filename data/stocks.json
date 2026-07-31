@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 22:46:24 +08:00",
+  "built_at": "2026-07-31 22:51:44 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -19015,6 +19015,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/000407.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "601880.SH",
+      "name": "辽港股份",
+      "raw_name": "辽港股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 351.22,
+      "pe_ttm": 24.03,
+      "owner_earnback_years": 34.42,
+      "owner_earnback_rate_pct": 2.9,
+      "market_profit_payback_years": 30.25,
+      "market_cash_profit_yield_pct": 3.31,
+      "discounted_detachable_net_cash_yi": -48.52,
+      "discounted_net_cash_to_market_cap_pct": -13.82,
+      "operating_business_price_yi": 399.74,
+      "discounted_cash_profit_yi": 11.61,
+      "revenue_yi": 113.59,
+      "gross_profit_yi": 32.5,
+      "parent_net_profit_yi": 13.07,
+      "gross_margin_pct": 28.62,
+      "net_margin_pct": 11.5,
+      "forecast_dividend_yield_pct": 1.92,
+      "risk_level": "未分级",
+      "business_summary": "东北最大的综合性码头运营商，向油品、集装箱、散杂货、粮食及滚装客户收取装卸、堆存和物流服务费。",
+      "core_judgement": "现金八折后53.58亿元，扣全部计息债务及租赁义务102.10亿元，折后净现金-48.52亿元，经营业务购买价399.74亿元。以扣非归母净利12.90亿元再打九折得现金利润11.61亿元，对应经营业务回本34.4年、市值/现金利润30.2倍。2025年自由现金流受应收回收和折旧影响，不直接永续化。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/601880.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
