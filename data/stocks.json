@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 20:42:12 +08:00",
+  "built_at": "2026-07-31 20:42:41 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -17062,6 +17062,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/300509.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "601020.SH",
+      "name": "华钰矿业",
+      "raw_name": "华钰矿业",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 159.4,
+      "pe_ttm": 18.63,
+      "owner_earnback_years": 54.91,
+      "owner_earnback_rate_pct": 1.82,
+      "market_profit_payback_years": 50.44,
+      "market_cash_profit_yield_pct": 1.98,
+      "discounted_detachable_net_cash_yi": -14.13,
+      "discounted_net_cash_to_market_cap_pct": -8.86,
+      "operating_business_price_yi": 173.53,
+      "discounted_cash_profit_yi": 3.16,
+      "revenue_yi": 20.71,
+      "gross_profit_yi": 10.14,
+      "parent_net_profit_yi": 8.71,
+      "gross_margin_pct": 48.98,
+      "net_margin_pct": 42.05,
+      "forecast_dividend_yield_pct": 0.41,
+      "risk_level": "未分级",
+      "business_summary": "华钰矿业在西藏、塔吉克斯坦和贵州开采并选矿，将铅锌锑银精矿及黄金产品销售给下游冶炼/加工客户，利润取决于可售金属量、金属价格、品位回收率和采选成本。",
+      "core_judgement": "按控股口径，折后资金资产约6.26亿元，低于约20.39亿元融资及类融资负债，形成约14.13亿元负净现金，故经营业务购买价高于市值。2025年归母净利8.71亿元含亚太矿业原40%股权重估收益4.13亿元；先采用扣非归母净利4.51亿元，再因金属价格周期、塔铝金业锑库存、泥堡建设资本开支和少数股东约束打七折，得到折后现金利润3.16亿元。由此经营业务回本约54.9年，市值/现金利润约50.4倍。这是审慎情景估算，不是产量、金属价格或利润预测。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/601020.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
