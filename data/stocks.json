@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 19:29:33 +08:00",
+  "built_at": "2026-07-31 19:30:42 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -16721,6 +16721,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/000065.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "601816.SH",
+      "name": "京沪高铁",
+      "raw_name": "京沪高铁",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 2490.32,
+      "pe_ttm": 18.65,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 430.62,
+      "gross_profit_yi": 201.88,
+      "parent_net_profit_yi": 131.72,
+      "gross_margin_pct": 46.88,
+      "net_margin_pct": 30.59,
+      "forecast_dividend_yield_pct": 2.63,
+      "risk_level": "未分级",
+      "business_summary": "拥有并运营京沪高铁及安徽四段高铁通道，靠担当列车票款和向其他铁路企业收取线路、接触网使用费赚钱。",
+      "core_judgement": "普通控股回本口径不适用：现金、线路资产、维护资本开支和约506亿元有息负债共同服务收费通道，不能假设收购后剥离现金再以年度利润回本。应看客运与路网服务量价、资产经济寿命与更新需求、经营现金流对利息及偿债覆盖和可持续分红。2025年经营现金流212.05亿元、账面资本开支7.55亿元，但单年资本开支可能低于全周期更新需求。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/601816.SH/"
     }
   ]
 }
