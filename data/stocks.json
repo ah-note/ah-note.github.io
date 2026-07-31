@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 21:18:17 +08:00",
+  "built_at": "2026-07-31 21:19:27 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -16132,6 +16132,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/601633.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "300643.SZ",
+      "name": "万通智控",
+      "raw_name": "万通智控",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 38.47,
+      "pe_ttm": 23.96,
+      "owner_earnback_years": 28.89,
+      "owner_earnback_rate_pct": 3.46,
+      "market_profit_payback_years": 32.28,
+      "market_cash_profit_yield_pct": 3.1,
+      "discounted_detachable_net_cash_yi": 4.04,
+      "discounted_net_cash_to_market_cap_pct": 10.51,
+      "operating_business_price_yi": 34.43,
+      "discounted_cash_profit_yi": 1.19,
+      "revenue_yi": 12.23,
+      "gross_profit_yi": 4.21,
+      "parent_net_profit_yi": 1.58,
+      "gross_margin_pct": 34.4,
+      "net_margin_pct": 12.92,
+      "forecast_dividend_yield_pct": 1.32,
+      "risk_level": "未分级",
+      "business_summary": "面向全球汽车前装与售后市场，制造高毛利TPMS/车联网传感器、商用车金属解耦管路和气门嘴。",
+      "core_judgement": "按输入市值38.47亿元，扣除折后可剥离净现金4.04亿元后，经营业务购买价约34.43亿元；以折后可持续现金利润1.19亿元计，静态控股回本约28.9年。该数字不是收益承诺，最敏感于传感器增长能否持续、海外贸易和汇率、资本开支以及商誉资产质量。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/300643.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
