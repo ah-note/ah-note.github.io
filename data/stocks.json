@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 04:22:17 +08:00",
+  "built_at": "2026-08-01 04:22:47 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -27664,6 +27664,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002998.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "000582.SZ",
+      "name": "北部湾港",
+      "raw_name": "北部湾港",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 314.64,
+      "pe_ttm": 29.37,
+      "owner_earnback_years": 69.39,
+      "owner_earnback_rate_pct": 1.44,
+      "market_profit_payback_years": 52.44,
+      "market_cash_profit_yield_pct": 1.91,
+      "discounted_detachable_net_cash_yi": -101.72,
+      "discounted_net_cash_to_market_cap_pct": -32.33,
+      "operating_business_price_yi": 416.36,
+      "discounted_cash_profit_yi": 6.0,
+      "revenue_yi": 76.14,
+      "gross_profit_yi": 23.04,
+      "parent_net_profit_yi": 10.38,
+      "gross_margin_pct": 30.26,
+      "net_margin_pct": 13.63,
+      "forecast_dividend_yield_pct": 1.25,
+      "risk_level": "未分级",
+      "business_summary": "广西北部湾地区最大的国有公共码头运营商，靠集装箱和散杂货的装卸、堆存及配套港口服务收费。",
+      "core_judgement": "按2026-07-31市值314.64亿元，90%折后现金31.02亿元不足以覆盖132.74亿元有息融资负债，折后可剥离净现金为-101.72亿元；经营业务购买价因此升至416.36亿元。2025年扣非归母净利润9.27亿元，但经营现金流30.63亿元减去全部资本开支27.35亿元后仅3.29亿元。因年报未拆分维护与扩建资本开支，以6.00亿元作为保守、可持续且可分配现金利润估计，得到约69.4年经营业务回本期、市值/现金利润52.4倍。该结果高度依赖维护资本开支判断，不是...",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/000582.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
