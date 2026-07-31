@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 01:44:27 +08:00",
+  "built_at": "2026-08-01 01:45:37 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -24502,6 +24502,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603239.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "603613.SH",
+      "name": "国联股份",
+      "raw_name": "国联股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 140.0,
+      "pe_ttm": 10.55,
+      "owner_earnback_years": 75.28,
+      "owner_earnback_rate_pct": 1.33,
+      "market_profit_payback_years": 75.28,
+      "market_cash_profit_yield_pct": 1.33,
+      "discounted_detachable_net_cash_yi": 0.0,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": 140.0,
+      "discounted_cash_profit_yi": 1.86,
+      "revenue_yi": 509.81,
+      "gross_profit_yi": 33.05,
+      "parent_net_profit_yi": 13.22,
+      "gross_margin_pct": 6.48,
+      "net_margin_pct": 2.59,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "通过多多平台自营采购并转售化工、粮油、化肥、玻璃等工业原料，以低毛利大规模交易为主，辅以高毛利信息与数字技术服务。",
+      "core_judgement": "按2026-07-31市值140亿元，未给予净现金扣减，经营业务购买价仍为140亿元。以2024—2025两年经营自由现金流均值1.86亿元作折后可持续现金利润，静态回本约75.28年。其与10.55倍PE差异巨大，原因是2025年归母利润13.22亿元仅对应经营自由现金流2.03亿元，且大量现金受限或需匹配融资与近99亿元预付款。结果对营运资金回收高度敏感，是压力测试而非确定预测。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/603613.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
