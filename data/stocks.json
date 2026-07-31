@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 19:40:29 +08:00",
+  "built_at": "2026-07-31 19:40:58 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -13063,6 +13063,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600356.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "603871.SH",
+      "name": "嘉友国际",
+      "raw_name": "嘉友国际",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 177.43,
+      "pe_ttm": 14.7,
+      "owner_earnback_years": 25.26,
+      "owner_earnback_rate_pct": 3.96,
+      "market_profit_payback_years": 26.11,
+      "market_cash_profit_yield_pct": 3.83,
+      "discounted_detachable_net_cash_yi": 5.75,
+      "discounted_net_cash_to_market_cap_pct": 3.24,
+      "operating_business_price_yi": 171.68,
+      "discounted_cash_profit_yi": 6.8,
+      "revenue_yi": 83.77,
+      "gross_profit_yi": 15.48,
+      "parent_net_profit_yi": 11.41,
+      "gross_margin_pct": 18.48,
+      "net_margin_pct": 13.62,
+      "forecast_dividend_yield_pct": 3.08,
+      "risk_level": "未分级",
+      "business_summary": "公司围绕中蒙、中亚和非洲陆锁资源区，以自有口岸/陆港/仓储/车队组织跨境多式联运，并延伸主焦煤供应链贸易和非洲收费权陆港运营。",
+      "core_judgement": "按2026年7月31日177.43亿元市值，先将15.51亿元可用现金按60%计入，再全额扣除短借及租赁类债务，得到折后可剥离净现金5.75亿元。2025年经营自由现金流7.55亿元再打九折，折后可持续现金利润6.80亿元；经营业务购买价171.68亿元，对应约25.3年回本，未扣现金的市值/现金利润为26.1倍。该数字是保守的控股口径，不是收益承诺：若非洲扩建资本开支长期高于本年水平或中蒙毛利继续收缩，实际回本更慢；若本年资本开支主要为成长性投入且新增项目兑现，口径会偏保守...",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/603871.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
