@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 23:15:28 +08:00",
+  "built_at": "2026-07-31 23:16:17 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -6336,6 +6336,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002159.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "300864.SZ",
+      "name": "南大环境",
+      "raw_name": "南大环境",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 28.8,
+      "pe_ttm": 18.89,
+      "owner_earnback_years": 16.46,
+      "owner_earnback_rate_pct": 6.08,
+      "market_profit_payback_years": 25.21,
+      "market_cash_profit_yield_pct": 3.97,
+      "discounted_detachable_net_cash_yi": 9.99,
+      "discounted_net_cash_to_market_cap_pct": 34.7,
+      "operating_business_price_yi": 18.81,
+      "discounted_cash_profit_yi": 1.14,
+      "revenue_yi": 8.01,
+      "gross_profit_yi": 2.9,
+      "parent_net_profit_yi": 1.51,
+      "gross_margin_pct": 36.19,
+      "net_margin_pct": 18.89,
+      "forecast_dividend_yield_pct": 4.66,
+      "risk_level": "未分级",
+      "business_summary": "为政府、园区和工业企业按项目提供环境调查鉴定、研究咨询设计、环保装备系统集成及能源环保资源化服务。",
+      "core_judgement": "按2026-07-31市值28.80亿元，折后可剥离净现金约9.99亿元，经营业务购买价约18.81亿元；以折后可持续现金利润约1.14亿元计，经营业务回本约16.46年，整家公司市值对应现金利润约25.21倍。该结果依赖理财和存单可变现、维持性资本开支估计及项目回款质量，不能视为承诺回报。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/300864.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
