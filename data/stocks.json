@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 23:19:59 +08:00",
+  "built_at": "2026-07-31 23:21:29 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -4259,6 +4259,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600757.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "300873.SZ",
+      "name": "海晨股份",
+      "raw_name": "海晨股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 47.4,
+      "pe_ttm": 22.77,
+      "owner_earnback_years": 14.13,
+      "owner_earnback_rate_pct": 7.08,
+      "market_profit_payback_years": 16.93,
+      "market_cash_profit_yield_pct": 5.91,
+      "discounted_detachable_net_cash_yi": 7.85,
+      "discounted_net_cash_to_market_cap_pct": 16.55,
+      "operating_business_price_yi": 39.55,
+      "discounted_cash_profit_yi": 2.8,
+      "revenue_yi": 18.98,
+      "gross_profit_yi": 4.91,
+      "parent_net_profit_yi": 2.65,
+      "gross_margin_pct": 25.85,
+      "net_margin_pct": 13.95,
+      "forecast_dividend_yield_pct": 1.6,
+      "risk_level": "未分级",
+      "business_summary": "以长期驻场和数字系统为制造业客户运营仓储、备料、货代与配送，并向半导体等客户销售自动搬运设备及系统集成。",
+      "core_judgement": "按市值47.40亿元，扣除折后可剥离净现金7.85亿元后，经营业务购买价约39.55亿元。以2.80亿元折后可持续可分配现金利润估算，经营业务回本约14.1年；不扣净现金的市值/现金利润约16.9倍。这是保守归一化估计而非承诺：2025年报经营现金流5.27亿元，但当年资本开支4.05亿元、租赁偿付1.22亿元且未来已签约资本开支8.96亿元；同时公司披露剔除汇率和权益投资波动后的归母利润3.32亿元。本口径在两者之间留出扩张、客户集中和维护性投入缓冲，将可持续现金利润折至2...",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/300873.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
