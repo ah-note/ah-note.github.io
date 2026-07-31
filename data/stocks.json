@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 21:24:54 +08:00",
+  "built_at": "2026-07-31 21:25:44 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -20069,6 +20069,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002887.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "600483.SH",
+      "name": "福能股份",
+      "raw_name": "福能股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 302.48,
+      "pe_ttm": 10.59,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 137.51,
+      "gross_profit_yi": 39.52,
+      "parent_net_profit_yi": 29.57,
+      "gross_margin_pct": 28.74,
+      "net_margin_pct": 21.51,
+      "forecast_dividend_yield_pct": 3.24,
+      "risk_level": "未分级",
+      "business_summary": "以福建为核心运营风电、燃气、燃煤热电联产和光伏项目，向电网、售电公司和工业园区销售电与热，并保留小规模纺织业务。",
+      "core_judgement": "普通净现金回本口径不适用。公司110.34亿元货币资金中包含38.02亿元可转债募集资金，且与231.47亿元固定资产、54.97亿元在建工程、147.35亿元长期借款、35.28亿元应付债券及项目收费权质押共同构成发电项目资本结构。控股视角应改用分电源/分项目的剩余运营现金流模型：预测发电量与电热价格，扣除燃料、运维、税费、维持性资本开支、债务服务和少数股东份额，再评估可供母公司分配现金。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/600483.SH/"
     }
   ]
 }
