@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 21:38:42 +08:00",
+  "built_at": "2026-07-31 21:39:11 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -17868,6 +17868,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600862.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "001696.SZ",
+      "name": "宗申动力",
+      "raw_name": "宗申动力",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 163.28,
+      "pe_ttm": 26.73,
+      "owner_earnback_years": 35.53,
+      "owner_earnback_rate_pct": 2.81,
+      "market_profit_payback_years": 32.66,
+      "market_cash_profit_yield_pct": 3.06,
+      "discounted_detachable_net_cash_yi": -14.35,
+      "discounted_net_cash_to_market_cap_pct": -8.79,
+      "operating_business_price_yi": 177.63,
+      "discounted_cash_profit_yi": 5.0,
+      "revenue_yi": 123.1,
+      "gross_profit_yi": 16.73,
+      "parent_net_profit_yi": 6.66,
+      "gross_margin_pct": 13.59,
+      "net_margin_pct": 5.41,
+      "forecast_dividend_yield_pct": 1.4,
+      "risk_level": "未分级",
+      "business_summary": "以摩托车发动机和通用机械动力为基本盘，向新能源动力、航空发动机及零部件延伸的动力装备制造商。",
+      "core_judgement": "按市值163.28亿元，折后资金资产17.80亿元不足覆盖约32.16亿元融资性负债，折后可剥离净现金为-14.35亿元，因此经营业务购买价为177.63亿元。可持续现金利润审慎取5.00亿元，低于2025年扣非归母6.29亿元及单年自由现金流8.85亿元，以反映2024年现金流偏弱、2025年四季度亏损、营运资金波动和金融子公司资金占用。由此回本约35.5年；这是控股口径测算，不是盈利预测。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/001696.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
