@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 20:35:34 +08:00",
+  "built_at": "2026-07-31 20:36:44 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -12629,6 +12629,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/300320.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "003017.SZ",
+      "name": "大洋生物",
+      "raw_name": "大洋生物",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 20.81,
+      "pe_ttm": 20.52,
+      "owner_earnback_years": 23.9,
+      "owner_earnback_rate_pct": 4.18,
+      "market_profit_payback_years": 24.86,
+      "market_cash_profit_yield_pct": 4.02,
+      "discounted_detachable_net_cash_yi": 0.8,
+      "discounted_net_cash_to_market_cap_pct": 3.84,
+      "operating_business_price_yi": 20.01,
+      "discounted_cash_profit_yi": 0.84,
+      "revenue_yi": 10.45,
+      "gross_profit_yi": 2.39,
+      "parent_net_profit_yi": 1.0,
+      "gross_margin_pct": 22.9,
+      "net_margin_pct": 9.55,
+      "forecast_dividend_yield_pct": 1.21,
+      "risk_level": "未分级",
+      "business_summary": "以轻质碳酸钾、碳酸氢钾为核心，兼营盐酸氨丙啉和含氟精细化学品的化工制造商。",
+      "core_judgement": "按2026-07-31市值20.81亿元计算，货币资金全额计入、交易性金融资产按80%计入，再全额扣除有息融资及租赁负债，得到折后可剥离净现金0.80亿元。可持续现金利润取2025年经营现金流减全部资本开支的0.84亿元，低于扣非归母净利润0.93亿元，保留扩产期的谨慎性。由此经营业务购买价约20.01亿元，回本约23.9年；该结果对扩产资本开支、原料价格和2025年现金流代表性高度敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/003017.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
