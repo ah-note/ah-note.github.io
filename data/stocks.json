@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 03:21:17 +08:00",
+  "built_at": "2026-08-01 03:21:47 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -26796,6 +26796,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603300.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "603066.SH",
+      "name": "音飞储存",
+      "raw_name": "音飞储存",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 25.89,
+      "pe_ttm": 20.66,
+      "owner_earnback_years": 102.18,
+      "owner_earnback_rate_pct": 0.98,
+      "market_profit_payback_years": 103.56,
+      "market_cash_profit_yield_pct": 0.97,
+      "discounted_detachable_net_cash_yi": 0.35,
+      "discounted_net_cash_to_market_cap_pct": 1.33,
+      "operating_business_price_yi": 25.54,
+      "discounted_cash_profit_yi": 0.25,
+      "revenue_yi": 12.56,
+      "gross_profit_yi": 2.68,
+      "parent_net_profit_yi": 0.33,
+      "gross_margin_pct": 21.31,
+      "net_margin_pct": 2.64,
+      "forecast_dividend_yield_pct": 0.39,
+      "risk_level": "未分级",
+      "business_summary": "为制造业和物流客户提供货架、堆垛机及自动化仓储系统集成，主要靠项目设计、设备制造、安装验收和后续服务赚钱。",
+      "core_judgement": "在25.89亿元市值下，仅将50%的可随时支付现金和80%的理财视作可剥离，并全额扣除有息及租赁负债，折后净现金仅0.345亿元。现金利润取扣非归母净利润0.175亿元与经营自由现金流0.307亿元之间的保守归一值0.250亿元。由此经营业务购买价25.54亿元、回本约102.2年；这是估算而非预测，且对项目回款和利润恢复高度敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/603066.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
