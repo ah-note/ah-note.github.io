@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 03:58:36 +08:00",
+  "built_at": "2026-08-01 04:00:06 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -9808,6 +9808,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/000997.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "301219.SZ",
+      "name": "腾远钴业",
+      "raw_name": "腾远钴业",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 172.73,
+      "pe_ttm": 11.38,
+      "owner_earnback_years": 19.48,
+      "owner_earnback_rate_pct": 5.13,
+      "market_profit_payback_years": 22.63,
+      "market_cash_profit_yield_pct": 4.42,
+      "discounted_detachable_net_cash_yi": 24.04,
+      "discounted_net_cash_to_market_cap_pct": 13.91,
+      "operating_business_price_yi": 148.69,
+      "discounted_cash_profit_yi": 7.63,
+      "revenue_yi": 83.4,
+      "gross_profit_yi": 23.12,
+      "parent_net_profit_yi": 11.11,
+      "gross_margin_pct": 27.73,
+      "net_margin_pct": 13.32,
+      "forecast_dividend_yield_pct": 1.7,
+      "risk_level": "未分级",
+      "business_summary": "公司采购原生及再生钴铜镍锂原料，在中国和刚果（金）冶炼加工后，向电池材料及工业客户直销钴盐、电积铜等产品，利润主要由钴铜价差、回收率和产能利用率共同决定。",
+      "core_judgement": "按输入市值172.73亿元，先将非受限货币资金35.8768亿元打九折，再全额扣除8.2540亿元融资性负债，得到折后可剥离净现金24.0352亿元；经营业务购买价148.6948亿元。可持续现金利润以2025年扣非归母利润10.9027亿元为起点，考虑钴铜价格周期、库存大增和扩产现金需求打七折至7.6319亿元，对应经营业务回本约19.48年、市值/现金利润约22.63倍。这是审慎情景估算，不是确定性预测。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/301219.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
