@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 16:11:19 +08:00",
+  "built_at": "2026-07-31 16:12:08 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -8444,6 +8444,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002209.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "002287.SZ",
+      "name": "奇正藏药",
+      "raw_name": "奇正藏药",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 118.89,
+      "pe_ttm": 17.8,
+      "owner_earnback_years": 23.09,
+      "owner_earnback_rate_pct": 4.33,
+      "market_profit_payback_years": 27.51,
+      "market_cash_profit_yield_pct": 3.63,
+      "discounted_detachable_net_cash_yi": 19.11,
+      "discounted_net_cash_to_market_cap_pct": 16.07,
+      "operating_business_price_yi": 99.78,
+      "discounted_cash_profit_yi": 4.32,
+      "revenue_yi": 24.16,
+      "gross_profit_yi": 20.07,
+      "parent_net_profit_yi": 6.48,
+      "gross_margin_pct": 83.05,
+      "net_margin_pct": 26.84,
+      "forecast_dividend_yield_pct": 1.95,
+      "risk_level": "未分级",
+      "business_summary": "以消痛贴膏为核心、通过经销体系销售外用止痛及口服藏药的高毛利藏药制造商。",
+      "core_judgement": "按118.89亿元市值，扣除折后可剥离净现金19.11亿元后，经营业务购买价约99.78亿元；以扣非归母利润4.802亿元为基准再折价10%，得到可持续可分配现金利润4.321亿元，对应经营业务回本约23.1年、市值/现金利润约27.5倍。2025年经营自由现金流5.766亿元高于该折后利润，现金兑现支持该口径，但单年政府补助和金融资产收益较大，不能外推为主营增长。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/002287.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
