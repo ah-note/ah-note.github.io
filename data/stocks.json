@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 00:47:14 +08:00",
+  "built_at": "2026-08-01 00:48:04 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -22022,6 +22022,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002534.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "002270.SZ",
+      "name": "华明装备",
+      "raw_name": "华明装备",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 180.95,
+      "pe_ttm": 25.8,
+      "owner_earnback_years": 41.28,
+      "owner_earnback_rate_pct": 2.42,
+      "market_profit_payback_years": 40.87,
+      "market_cash_profit_yield_pct": 2.45,
+      "discounted_detachable_net_cash_yi": -1.81,
+      "discounted_net_cash_to_market_cap_pct": -1.0,
+      "operating_business_price_yi": 182.76,
+      "discounted_cash_profit_yi": 4.43,
+      "revenue_yi": 24.27,
+      "gross_profit_yi": 13.22,
+      "parent_net_profit_yi": 7.1,
+      "gross_margin_pct": 54.49,
+      "net_margin_pct": 29.25,
+      "forecast_dividend_yield_pct": 1.04,
+      "risk_level": "未分级",
+      "business_summary": "公司以变压器分接开关为核心，向变压器厂商销售定制化设备并提供全生命周期检修服务，2025年电力设备贡献86.6%收入和主要利润。",
+      "core_judgement": "按2026-07-31市值180.95亿元，货币资金仅按80%、交易性金融资产按70%计入，并全额扣除借款、一年内到期非流动负债、长期应付款和租赁负债后，折后可剥离净现金为-1.81亿元，经营业务购买价约182.76亿元。2025年经营自由现金流4.92亿元，再因单年经营现金流同比下降32%、应收账款为关键审计事项而折价10%，得到可持续可分配现金利润4.43亿元，对应经营业务回本约41.3年、市值/现金利润约40.9倍。该口径是控股现金回收压力测试，不是目标价或买卖建议。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/002270.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
