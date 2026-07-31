@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 21:30:23 +08:00",
+  "built_at": "2026-07-31 21:31:33 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -16225,6 +16225,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600428.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "002083.SZ",
+      "name": "孚日股份",
+      "raw_name": "孚日股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 103.18,
+      "pe_ttm": 21.44,
+      "owner_earnback_years": 28.81,
+      "owner_earnback_rate_pct": 3.47,
+      "market_profit_payback_years": 25.8,
+      "market_cash_profit_yield_pct": 3.88,
+      "discounted_detachable_net_cash_yi": -12.04,
+      "discounted_net_cash_to_market_cap_pct": -11.67,
+      "operating_business_price_yi": 115.22,
+      "discounted_cash_profit_yi": 4.0,
+      "revenue_yi": 52.1,
+      "gross_profit_yi": 10.89,
+      "parent_net_profit_yi": 4.28,
+      "gross_margin_pct": 20.91,
+      "net_margin_pct": 8.22,
+      "forecast_dividend_yield_pct": 2.69,
+      "risk_level": "未分级",
+      "business_summary": "以出口毛巾和床品为现金流主业，同时经营热电、化工，并培育电解液添加剂和功能涂层材料。",
+      "core_judgement": "按2026-07-31市值103.18亿元，折后可剥离净现金为-12.04亿元，经营业务购买价约115.22亿元；以折后可持续可分配现金利润4.00亿元计，经营业务回本约28.81年，市值/现金利润25.80倍。负净现金意味着收购者需承接净融资，而非从市值中扣出现金；结果对维持性资本开支和新材料业务盈利改善高度敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/002083.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
