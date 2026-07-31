@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 00:09:20 +08:00",
+  "built_at": "2026-08-01 00:10:10 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -21278,6 +21278,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603227.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "688314.SH",
+      "name": "康拓医疗",
+      "raw_name": "康拓医疗",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 25.03,
+      "pe_ttm": 28.5,
+      "owner_earnback_years": 39.26,
+      "owner_earnback_rate_pct": 2.55,
+      "market_profit_payback_years": 41.73,
+      "market_cash_profit_yield_pct": 2.4,
+      "discounted_detachable_net_cash_yi": 1.48,
+      "discounted_net_cash_to_market_cap_pct": 5.91,
+      "operating_business_price_yi": 23.55,
+      "discounted_cash_profit_yi": 0.6,
+      "revenue_yi": 3.51,
+      "gross_profit_yi": 2.76,
+      "parent_net_profit_yi": 0.99,
+      "gross_margin_pct": 78.69,
+      "net_margin_pct": 28.11,
+      "forecast_dividend_yield_pct": 1.04,
+      "risk_level": "未分级",
+      "business_summary": "公司以高毛利的PEEK与钛材料III类植入器械为核心，向神经外科颅骨修补固定等场景提供标准化及患者定制产品，并向心胸外科、颌面修复和口腔延伸。",
+      "core_judgement": "按2026-07-31市值25.03亿元，先将年末现金及现金等价物按70%折算，再全额扣除银行借款、并购应付款和租赁负债，得到折后可剥离净现金1.48亿元；经营现金流减资本开支为0.67亿元，再打九折得到0.60亿元可持续现金利润。由此经营业务购买价23.55亿元，对应约39.3年回本；市值/现金利润约41.7倍。该结果明显比输入PE TTM 28.5倍更谨慎，核心原因是2025年资本开支较高且现金利润口径继续打折。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/688314.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
