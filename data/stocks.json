@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 15:18:15 +08:00",
+  "built_at": "2026-07-31 15:20:04 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -4104,6 +4104,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002255.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "300515.SZ",
+      "name": "三德科技",
+      "raw_name": "三德科技",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 31.34,
+      "pe_ttm": 16.61,
+      "owner_earnback_years": 14.61,
+      "owner_earnback_rate_pct": 6.84,
+      "market_profit_payback_years": 17.91,
+      "market_cash_profit_yield_pct": 5.58,
+      "discounted_detachable_net_cash_yi": 5.77,
+      "discounted_net_cash_to_market_cap_pct": 18.4,
+      "operating_business_price_yi": 25.57,
+      "discounted_cash_profit_yi": 1.75,
+      "revenue_yi": 6.6,
+      "gross_profit_yi": 3.59,
+      "parent_net_profit_yi": 1.84,
+      "gross_margin_pct": 54.46,
+      "net_margin_pct": 27.83,
+      "forecast_dividend_yield_pct": 2.56,
+      "risk_level": "未分级",
+      "business_summary": "三德科技向火电、煤炭、冶金等工业客户直销煤质等分析仪器、定制化无人检测装备，并靠安装运维和存量设备服务持续变现。",
+      "core_judgement": "按2026-07-31市值31.34亿元，资金类资产逐项折价后可剥离净现金约5.77亿元，占市值18.40%；经营业务购买价约25.57亿元。以1.75亿元归一化可持续现金利润计算，经营业务约14.61年回本，市值对应现金利润约17.91倍。该口径低于当年2.07亿元自由现金流，主要为合同负债增加和项目营运资金顺风留出正常化缓冲；它是控股视角估算，不代表现金可立即全部分配。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/300515.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
