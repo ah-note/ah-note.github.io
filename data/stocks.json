@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 15:31:50 +08:00",
+  "built_at": "2026-07-31 15:32:39 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -5561,6 +5561,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600662.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "603566.SH",
+      "name": "普莱柯",
+      "raw_name": "普莱柯",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 35.82,
+      "pe_ttm": 20.73,
+      "owner_earnback_years": 17.07,
+      "owner_earnback_rate_pct": 5.86,
+      "market_profit_payback_years": 21.07,
+      "market_cash_profit_yield_pct": 4.75,
+      "discounted_detachable_net_cash_yi": 6.8,
+      "discounted_net_cash_to_market_cap_pct": 18.99,
+      "operating_business_price_yi": 29.02,
+      "discounted_cash_profit_yi": 1.7,
+      "revenue_yi": 10.9,
+      "gross_profit_yi": 6.53,
+      "parent_net_profit_yi": 1.85,
+      "gross_margin_pct": 59.87,
+      "net_margin_pct": 16.97,
+      "forecast_dividend_yield_pct": 3.82,
+      "risk_level": "未分级",
+      "business_summary": "普莱柯靠研发并生产销售猪、禽、反刍及宠物用疫苗、化学药品和保健品赚钱，核心利润来自高毛利疫苗产品与技术转让。",
+      "core_judgement": "以2026年7月31日市值35.82亿元，扣除折后可剥离净现金6.80亿元后，经营业务购买价约29.02亿元；以折后可持续现金利润1.70亿元计，经营业务回本约17.1年，整体市值对应现金利润约21.1年。该结果依赖理财产品可按九折变现、2025年现金改善可部分持续，以及非经常损益不重复发生。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/603566.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
