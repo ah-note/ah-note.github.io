@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 05:22:17 +08:00",
+  "built_at": "2026-08-01 05:23:07 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -29090,6 +29090,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/688332.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "002595.SZ",
+      "name": "豪迈科技",
+      "raw_name": "豪迈科技",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 609.12,
+      "pe_ttm": 25.5,
+      "owner_earnback_years": 79.95,
+      "owner_earnback_rate_pct": 1.25,
+      "market_profit_payback_years": 82.08,
+      "market_cash_profit_yield_pct": 1.22,
+      "discounted_detachable_net_cash_yi": 15.81,
+      "discounted_net_cash_to_market_cap_pct": 2.6,
+      "operating_business_price_yi": 593.31,
+      "discounted_cash_profit_yi": 7.42,
+      "revenue_yi": 110.78,
+      "gross_profit_yi": 37.18,
+      "parent_net_profit_yi": 23.93,
+      "gross_margin_pct": 33.56,
+      "net_margin_pct": 21.6,
+      "forecast_dividend_yield_pct": 1.31,
+      "risk_level": "未分级",
+      "business_summary": "以直销方式向全球轮胎、能源装备和精密制造客户提供轮胎模具、大型铸造精加工零部件及高档数控机床。",
+      "core_judgement": "按2026-07-31市值609.12亿元，扣除折后可剥离净现金15.81亿元后，经营业务购买价约593.31亿元；以折后可持续可分配现金利润7.42亿元计，回本约79.95年。显著长于PE TTM隐含年数，原因是近三年经营现金流低于会计利润且2025年应收和扩产占用较大。若应收增长回落并释放现金，回本会缩短；若高资本开支持续，则本口径仍可能偏乐观。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/002595.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
