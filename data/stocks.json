@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 21:08:53 +08:00",
+  "built_at": "2026-07-31 21:09:43 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -15140,6 +15140,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600609.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "300529.SZ",
+      "name": "健帆生物",
+      "raw_name": "健帆生物",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 147.26,
+      "pe_ttm": 26.08,
+      "owner_earnback_years": 27.14,
+      "owner_earnback_rate_pct": 3.68,
+      "market_profit_payback_years": 29.45,
+      "market_cash_profit_yield_pct": 3.4,
+      "discounted_detachable_net_cash_yi": 11.54,
+      "discounted_net_cash_to_market_cap_pct": 7.84,
+      "operating_business_price_yi": 135.72,
+      "discounted_cash_profit_yi": 5.0,
+      "revenue_yi": 20.12,
+      "gross_profit_yi": 15.83,
+      "parent_net_profit_yi": 5.33,
+      "gross_margin_pct": 78.7,
+      "net_margin_pct": 26.48,
+      "forecast_dividend_yield_pct": 2.73,
+      "risk_level": "未分级",
+      "business_summary": "以高毛利一次性血液灌流器为核心，通过医院端经销渠道销售血液净化耗材，并用配套设备促进临床使用。",
+      "core_judgement": "市值147.26亿元扣除折后净现金11.54亿元，经营业务购买价135.72亿元；按折后现金利润5亿元，经营业务回本约27.14年，市值/现金利润29.45倍。关键敏感项是收入下滑能否止住及5亿元现金利润能否持续。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/300529.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
