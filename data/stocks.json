@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 01:10:52 +08:00",
+  "built_at": "2026-08-01 01:11:43 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -16876,6 +16876,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/300760.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "301019.SZ",
+      "name": "宁波色母",
+      "raw_name": "宁波色母",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 28.9,
+      "pe_ttm": 25.33,
+      "owner_earnback_years": 27.16,
+      "owner_earnback_rate_pct": 3.68,
+      "market_profit_payback_years": 32.93,
+      "market_cash_profit_yield_pct": 3.04,
+      "discounted_detachable_net_cash_yi": 5.07,
+      "discounted_net_cash_to_market_cap_pct": 17.53,
+      "operating_business_price_yi": 23.83,
+      "discounted_cash_profit_yi": 0.88,
+      "revenue_yi": 4.69,
+      "gross_profit_yi": 1.76,
+      "parent_net_profit_yi": 1.1,
+      "gross_margin_pct": 37.54,
+      "net_margin_pct": 23.45,
+      "forecast_dividend_yield_pct": 3.71,
+      "risk_level": "未分级",
+      "business_summary": "公司按客户配方采购树脂、钛白粉、颜料等原料，以订单式生产和直销销售彩色、白色、黑色及功能色母粒，利润来自定制配方、稳定品质和原料成本控制。",
+      "core_judgement": "年末资金资产扣除其后已实施的1.0723亿元分红，再对现金按80%、结构性存款和大额存单按90%计入，得折后净现金5.0665亿元；持续现金利润以归母净利扣除税后现金管理收益后再打九折，得8776.36万元。经营业务价23.83亿元，约27.2年回本；未扣净现金则约32.9倍。结果对扩产资金需求和毛利持续性敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/301019.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
