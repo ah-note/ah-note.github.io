@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 05:10:11 +08:00",
+  "built_at": "2026-08-01 05:11:01 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -28842,6 +28842,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002406.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "688332.SH",
+      "name": "中科蓝讯",
+      "raw_name": "中科蓝讯",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 149.29,
+      "pe_ttm": 10.94,
+      "owner_earnback_years": 78.57,
+      "owner_earnback_rate_pct": 1.27,
+      "market_profit_payback_years": 100.01,
+      "market_cash_profit_yield_pct": 1.0,
+      "discounted_detachable_net_cash_yi": 32.01,
+      "discounted_net_cash_to_market_cap_pct": 21.44,
+      "operating_business_price_yi": 117.28,
+      "discounted_cash_profit_yi": 1.49,
+      "revenue_yi": 18.42,
+      "gross_profit_yi": 4.09,
+      "parent_net_profit_yi": 14.15,
+      "gross_margin_pct": 22.19,
+      "net_margin_pct": 76.86,
+      "forecast_dividend_yield_pct": 1.62,
+      "risk_level": "未分级",
+      "business_summary": "公司以Fabless模式研发无线音频SoC并主要经经销商销售，2025年约78%收入来自蓝牙耳机和音箱芯片，但当年绝大部分利润来自GPU等股权投资估值上涨。",
+      "core_judgement": "市值149.29亿元扣除折后可剥离净现金32.01亿元后，经营业务购买价约117.28亿元。可持续现金利润以剔除投资收益后的经营NOPAT 1.866亿元再打八折至1.493亿元，经营业务回本约78.6年，市值/现金利润约100.0倍。输入PE 10.94倍主要被非现金、非持续投资收益压低。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/688332.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
