@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 21:43:11 +08:00",
+  "built_at": "2026-07-31 21:44:21 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -16938,6 +16938,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/300371.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "002970.SZ",
+      "name": "锐明技术",
+      "raw_name": "锐明技术",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 86.45,
+      "pe_ttm": 26.57,
+      "owner_earnback_years": 29.96,
+      "owner_earnback_rate_pct": 3.34,
+      "market_profit_payback_years": 32.68,
+      "market_cash_profit_yield_pct": 3.06,
+      "discounted_detachable_net_cash_yi": 7.2,
+      "discounted_net_cash_to_market_cap_pct": 8.32,
+      "operating_business_price_yi": 79.25,
+      "discounted_cash_profit_yi": 2.65,
+      "revenue_yi": 24.77,
+      "gross_profit_yi": 11.19,
+      "parent_net_profit_yi": 3.83,
+      "gross_margin_pct": 45.18,
+      "net_margin_pct": 15.45,
+      "forecast_dividend_yield_pct": 1.26,
+      "risk_level": "未分级",
+      "business_summary": "以车载摄像头和边缘终端为入口，把AI识别、主动安全和云端车队管理卖给全球商用车队、系统集成商与整车厂。",
+      "core_judgement": "按2026-07-31市值86.45亿元，折后可剥离净现金约7.20亿元，经营业务购买价约79.25亿元。可持续现金利润以2025年扣非归母净利3.497亿元与经营自由现金流2.940亿元孰低，再打九折为2.646亿元；对应经营业务静态回本约30.0年，市值/现金利润约32.7倍。该口径不含增长假设，也不代表未来一定可按此金额分配。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/002970.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
