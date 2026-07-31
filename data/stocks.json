@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 21:40:22 +08:00",
+  "built_at": "2026-07-31 21:41:12 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -4073,6 +4073,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/601225.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "601677.SH",
+      "name": "明泰铝业",
+      "raw_name": "明泰铝业",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 207.51,
+      "pe_ttm": 9.34,
+      "owner_earnback_years": 13.98,
+      "owner_earnback_rate_pct": 7.16,
+      "market_profit_payback_years": 17.29,
+      "market_cash_profit_yield_pct": 5.78,
+      "discounted_detachable_net_cash_yi": 39.8,
+      "discounted_net_cash_to_market_cap_pct": 19.18,
+      "operating_business_price_yi": 167.71,
+      "discounted_cash_profit_yi": 12.0,
+      "revenue_yi": 351.35,
+      "gross_profit_yi": 24.86,
+      "parent_net_profit_yi": 19.6,
+      "gross_margin_pct": 7.08,
+      "net_margin_pct": 5.58,
+      "forecast_dividend_yield_pct": 1.89,
+      "risk_level": "未分级",
+      "business_summary": "以铝锭和废铝为原料，通过再生铝保级熔炼和轧制深加工，按铝价加加工费向制造企业及经销商销售铝板带箔。",
+      "core_judgement": "市值207.51亿元扣除折后可剥离净现金39.80亿元，经营业务购买价167.71亿元；以12.00亿元折后可持续现金利润计，静态回本约13.98年。票据保证金、扩产承诺和营运资金会限制实际分配。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/601677.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
