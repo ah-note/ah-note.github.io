@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 18:34:20 +08:00",
+  "built_at": "2026-07-31 18:37:36 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -11978,6 +11978,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603339.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "000887.SZ",
+      "name": "中鼎股份",
+      "raw_name": "中鼎股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 227.23,
+      "pe_ttm": 15.06,
+      "owner_earnback_years": 25.07,
+      "owner_earnback_rate_pct": 3.99,
+      "market_profit_payback_years": 22.44,
+      "market_cash_profit_yield_pct": 4.46,
+      "discounted_detachable_net_cash_yi": -26.69,
+      "discounted_net_cash_to_market_cap_pct": -11.75,
+      "operating_business_price_yi": 253.92,
+      "discounted_cash_profit_yi": 10.13,
+      "revenue_yi": 198.0,
+      "gross_profit_yi": 46.02,
+      "parent_net_profit_yi": 15.89,
+      "gross_margin_pct": 23.24,
+      "net_margin_pct": 8.03,
+      "forecast_dividend_yield_pct": 1.16,
+      "risk_level": "未分级",
+      "business_summary": "面向全球整车厂直销密封、热管理管路、减震、轻量化底盘和空气悬架等汽车零部件，以规模制造、同步研发和跨区域配套赚取产品毛利。",
+      "core_judgement": "折后可动用现金与交易性金融资产42.44亿元，低于融资性负债69.13亿元，形成折后净负债26.69亿元；经营业务购买价253.92亿元。以2024—2025两年经营自由现金流均值11.25亿元再折九成，得到可持续现金利润10.13亿元，对应经营业务回本约25.1年、市值/现金利润约22.4倍。口径避开了2025年4.75亿元公允价值收益，但资本开支的维持性与扩张性无法精确拆分，结果仍具判断性。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/000887.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
