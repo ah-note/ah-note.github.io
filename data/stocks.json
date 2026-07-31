@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 22:38:44 +08:00",
+  "built_at": "2026-07-31 22:39:14 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -10831,6 +10831,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002690.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "301065.SZ",
+      "name": "本立科技",
+      "raw_name": "本立科技",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 18.78,
+      "pe_ttm": 25.31,
+      "owner_earnback_years": 21.2,
+      "owner_earnback_rate_pct": 4.72,
+      "market_profit_payback_years": 28.89,
+      "market_cash_profit_yield_pct": 3.46,
+      "discounted_detachable_net_cash_yi": 5.0,
+      "discounted_net_cash_to_market_cap_pct": 26.63,
+      "operating_business_price_yi": 13.78,
+      "discounted_cash_profit_yi": 0.65,
+      "revenue_yi": 6.39,
+      "gross_profit_yi": 1.46,
+      "parent_net_profit_yi": 0.79,
+      "gross_margin_pct": 22.93,
+      "net_margin_pct": 12.35,
+      "forecast_dividend_yield_pct": 1.65,
+      "risk_level": "未分级",
+      "business_summary": "以自研绿色化工工艺生产医药、农药和新材料中间体，利润主要依赖喹诺酮类药物产业链。",
+      "core_judgement": "市值18.78亿元扣除折后可剥离净现金约5.00亿元后，经营业务购买价约13.78亿元；以折后可持续现金利润6500万元计，控股回本约21.2年，未扣现金的市值/现金利润约28.9倍。结果对新厂资本开支、产品量价和资金用途敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/301065.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
