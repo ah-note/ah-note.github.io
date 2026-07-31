@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 22:15:49 +08:00",
+  "built_at": "2026-07-31 22:17:19 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -17124,6 +17124,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002040.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "300871.SZ",
+      "name": "回盛生物",
+      "raw_name": "回盛生物",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 41.93,
+      "pe_ttm": 14.64,
+      "owner_earnback_years": 29.7,
+      "owner_earnback_rate_pct": 3.37,
+      "market_profit_payback_years": 29.95,
+      "market_cash_profit_yield_pct": 3.34,
+      "discounted_detachable_net_cash_yi": 0.34,
+      "discounted_net_cash_to_market_cap_pct": 0.82,
+      "operating_business_price_yi": 41.59,
+      "discounted_cash_profit_yi": 1.4,
+      "revenue_yi": 16.81,
+      "gross_profit_yi": 5.21,
+      "parent_net_profit_yi": 2.53,
+      "gross_margin_pct": 30.99,
+      "net_margin_pct": 15.06,
+      "forecast_dividend_yield_pct": 1.44,
+      "risk_level": "未分级",
+      "business_summary": "面向规模养殖集团、兽药企业和经销商销售兽用化药制剂与大环内酯类原料药，以原料—制剂一体化、制造产能和技术服务赚取产品毛利。",
+      "core_judgement": "按41.93亿元市值，先对受限资金、理财、权益投资和全部有息债务逐项折扣，得到可剥离净现金约0.344亿元；经营业务购买价约41.59亿元。2025年经营自由现金流为1.415亿元，考虑利润刚从2024年亏损大幅反转且原料药毛利具有周期性，将可持续可分配现金利润取整折为1.40亿元，对应经营业务回本约29.70年、市值/现金利润29.95倍。该结果不是收益保证，最敏感变量是原料药价格和维持性资本开支。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/300871.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
