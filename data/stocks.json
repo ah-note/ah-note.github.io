@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 21:58:19 +08:00",
+  "built_at": "2026-07-31 21:59:09 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -13466,6 +13466,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603237.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "001286.SZ",
+      "name": "陕西能源",
+      "raw_name": "陕西能源",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 386.62,
+      "pe_ttm": 12.1,
+      "owner_earnback_years": 24.02,
+      "owner_earnback_rate_pct": 4.16,
+      "market_profit_payback_years": 14.27,
+      "market_cash_profit_yield_pct": 7.01,
+      "discounted_detachable_net_cash_yi": -263.85,
+      "discounted_net_cash_to_market_cap_pct": -68.25,
+      "operating_business_price_yi": 650.47,
+      "discounted_cash_profit_yi": 27.09,
+      "revenue_yi": 229.58,
+      "gross_profit_yi": 84.43,
+      "parent_net_profit_yi": 30.09,
+      "gross_margin_pct": 36.78,
+      "net_margin_pct": 13.11,
+      "forecast_dividend_yield_pct": 3.98,
+      "risk_level": "未分级",
+      "business_summary": "以陕西及西北煤炭资源为基础，通过煤电一体化生产并销售电力和煤炭，以高毛利煤炭板块对冲火电燃料与电价波动。",
+      "core_judgement": "按控股视角，货币资金仅按50%折价，明确融资及租赁类负债全额扣除，因此折后可剥离净现金为负；以归母净利润下调10%作为周期性、少数股东结构及维持性资本开支不可拆分的缓冲。含净债务的经营业务购买价约650.47亿元，对应约24.0年；单看市值/折后现金利润约14.3年。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/001286.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
