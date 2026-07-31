@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 00:10:40 +08:00",
+  "built_at": "2026-08-01 00:12:51 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -22146,6 +22146,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600686.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "600833.SH",
+      "name": "第一医药",
+      "raw_name": "第一医药",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 21.44,
+      "pe_ttm": 28.11,
+      "owner_earnback_years": 169.02,
+      "owner_earnback_rate_pct": 0.59,
+      "market_profit_payback_years": 214.4,
+      "market_cash_profit_yield_pct": 0.47,
+      "discounted_detachable_net_cash_yi": 4.54,
+      "discounted_net_cash_to_market_cap_pct": 21.16,
+      "operating_business_price_yi": 16.9,
+      "discounted_cash_profit_yi": 0.1,
+      "revenue_yi": 21.3,
+      "gross_profit_yi": 3.42,
+      "parent_net_profit_yi": 0.58,
+      "gross_margin_pct": 16.03,
+      "net_margin_pct": 2.71,
+      "forecast_dividend_yield_pct": 0.81,
+      "risk_level": "未分级",
+      "business_summary": "上海区域老字号医药流通商，通过216家零售门店、线上渠道及批发配送赚取商品进销差价和服务收益。",
+      "core_judgement": "以21.44亿元市值减约4.54亿元折后可剥离净现金，经营业务隐含价约16.90亿元。经营自由现金流0.730亿元，但租赁相关现金流出0.624亿元列在筹资活动；扣后约0.106亿元，与扣非归母净利润0.071亿元相近。采用0.10亿元折后可持续现金利润，经营业务回本约169年、市值/现金利润约214倍；结果对租赁口径和正常化利润高度敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/600833.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
