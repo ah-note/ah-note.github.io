@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 18:10:07 +08:00",
+  "built_at": "2026-07-31 18:10:56 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -11513,6 +11513,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603339.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "688557.SH",
+      "name": "兰剑智能",
+      "raw_name": "兰剑智能",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 27.47,
+      "pe_ttm": 24.74,
+      "owner_earnback_years": 25.16,
+      "owner_earnback_rate_pct": 3.97,
+      "market_profit_payback_years": 30.52,
+      "market_cash_profit_yield_pct": 3.28,
+      "discounted_detachable_net_cash_yi": 4.83,
+      "discounted_net_cash_to_market_cap_pct": 17.57,
+      "operating_business_price_yi": 22.64,
+      "discounted_cash_profit_yi": 0.9,
+      "revenue_yi": 15.02,
+      "gross_profit_yi": 4.07,
+      "parent_net_profit_yi": 1.09,
+      "gross_margin_pct": 27.12,
+      "net_margin_pct": 7.29,
+      "forecast_dividend_yield_pct": 1.22,
+      "risk_level": "未分级",
+      "business_summary": "以自研机器人、软件和数字孪生为核心，为制造、电商、医药等客户交付定制化智慧物流系统，并提供代运营与运维。",
+      "core_judgement": "按2026-07-31市值27.47亿元，扣除折后可剥离净现金4.83亿元后，经营业务购买价约22.64亿元；以9,000万元折后可持续可分配现金利润估算，静态回本约25.2年。该口径不是预测：项目验收节奏、毛利率、政府补助、应收回款和周转资金均可能显著改变结果。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/688557.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
