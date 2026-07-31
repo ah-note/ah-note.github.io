@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 19:57:35 +08:00",
+  "built_at": "2026-07-31 19:58:45 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -10025,6 +10025,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600587.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "002831.SZ",
+      "name": "裕同科技",
+      "raw_name": "裕同科技",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 342.05,
+      "pe_ttm": 21.42,
+      "owner_earnback_years": 21.06,
+      "owner_earnback_rate_pct": 4.75,
+      "market_profit_payback_years": 20.53,
+      "market_cash_profit_yield_pct": 4.87,
+      "discounted_detachable_net_cash_yi": -8.8,
+      "discounted_net_cash_to_market_cap_pct": -2.57,
+      "operating_business_price_yi": 350.85,
+      "discounted_cash_profit_yi": 16.66,
+      "revenue_yi": 172.38,
+      "gross_profit_yi": 43.98,
+      "parent_net_profit_yi": 15.92,
+      "gross_margin_pct": 25.51,
+      "net_margin_pct": 9.24,
+      "forecast_dividend_yield_pct": 3.29,
+      "risk_level": "未分级",
+      "business_summary": "为消费电子、智能硬件、白酒及快消品牌直销纸制精品包装和配套产品，以设计、制造、仓储物流一体化及全球交付赚取利润。",
+      "core_judgement": "市值342.05亿元，折后可剥离净现金为-8.80亿元，经营业务购买价约350.85亿元。以2025年自由现金流18.51亿元为起点，对单年现金流、客户集中和应收占用不确定性折价10%，得到现金利润16.66亿元；静态经营业务回本约21.06年，市值/现金利润约20.53倍。不含增长价值，也非确定回报。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/002831.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
