@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 02:31:53 +08:00",
+  "built_at": "2026-08-01 02:32:22 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -25308,6 +25308,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/300547.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "002430.SZ",
+      "name": "杭氧股份",
+      "raw_name": "杭氧股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 228.35,
+      "pe_ttm": 23.11,
+      "owner_earnback_years": 58.8,
+      "owner_earnback_rate_pct": 1.7,
+      "market_profit_payback_years": 48.36,
+      "market_cash_profit_yield_pct": 2.07,
+      "discounted_detachable_net_cash_yi": -49.32,
+      "discounted_net_cash_to_market_cap_pct": -21.6,
+      "operating_business_price_yi": 277.67,
+      "discounted_cash_profit_yi": 4.72,
+      "revenue_yi": 150.83,
+      "gross_profit_yi": 31.68,
+      "parent_net_profit_yi": 9.49,
+      "gross_margin_pct": 21.0,
+      "net_margin_pct": 6.29,
+      "forecast_dividend_yield_pct": 1.71,
+      "risk_level": "未分级",
+      "business_summary": "以大型空分设备技术为入口，一端销售成套装备，另一端自建并运营供气装置，向冶金、化工、能源和新材料客户持续销售工业气体。",
+      "core_judgement": "2025年经营自由现金流为5.25亿元，但气体运营仍处扩产后的资本回收阶段。将现金等价物、到期资金及少量投资折价后，再全额扣除约73.36亿元计息债务，折后净现金为负49.32亿元；再对单年自由现金流打九折，得到4.72亿元可持续现金利润。按2026年7月31日市值计算，经营业务购买价约277.67亿元，对应约58.8年回本。该结果对维持性资本开支和工业气体价格高度敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/002430.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
