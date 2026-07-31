@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 23:09:19 +08:00",
+  "built_at": "2026-07-31 23:10:56 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -19914,6 +19914,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002457.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "603725.SH",
+      "name": "天安新材",
+      "raw_name": "天安新材",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 29.39,
+      "pe_ttm": 25.39,
+      "owner_earnback_years": 37.88,
+      "owner_earnback_rate_pct": 2.64,
+      "market_profit_payback_years": 31.89,
+      "market_cash_profit_yield_pct": 3.14,
+      "discounted_detachable_net_cash_yi": -5.52,
+      "discounted_net_cash_to_market_cap_pct": -18.77,
+      "operating_business_price_yi": 34.91,
+      "discounted_cash_profit_yi": 0.92,
+      "revenue_yi": 30.86,
+      "gross_profit_yi": 6.89,
+      "parent_net_profit_yi": 1.12,
+      "gross_margin_pct": 22.34,
+      "net_margin_pct": 3.62,
+      "forecast_dividend_yield_pct": 1.23,
+      "risk_level": "未分级",
+      "business_summary": "以高分子复合饰面材料和鹰牌建筑陶瓷为两大收入支柱，并向家居、公装整装交付延伸的制造与渠道型泛家居公司。",
+      "core_judgement": "以2026-07-31市值29.39亿元计，折后资金减计息债务为-5.52亿元，因此经营业务购买价升至34.91亿元。以2025年扣非归母净利1.084亿元为正常化起点，再按85%计入可持续可分配现金利润0.921亿元，控股回本约37.9年；即便不扣净债务，市值/折后现金利润也约31.9倍。该结果对汽车内饰增长延续、地产应收回收、营运资金和维护资本开支高度敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/603725.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
