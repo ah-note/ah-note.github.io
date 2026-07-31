@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 00:37:22 +08:00",
+  "built_at": "2026-08-01 00:38:38 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -15419,6 +15419,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/000700.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "600312.SH",
+      "name": "平高电气",
+      "raw_name": "平高电气",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 266.5,
+      "pe_ttm": 22.66,
+      "owner_earnback_years": 25.57,
+      "owner_earnback_rate_pct": 3.91,
+      "market_profit_payback_years": 31.35,
+      "market_cash_profit_yield_pct": 3.19,
+      "discounted_detachable_net_cash_yi": 49.18,
+      "discounted_net_cash_to_market_cap_pct": 18.45,
+      "operating_business_price_yi": 217.32,
+      "discounted_cash_profit_yi": 8.5,
+      "revenue_yi": 125.17,
+      "gross_profit_yi": 29.94,
+      "parent_net_profit_yi": 11.2,
+      "gross_margin_pct": 23.92,
+      "net_margin_pct": 8.95,
+      "forecast_dividend_yield_pct": 1.69,
+      "risk_level": "未分级",
+      "business_summary": "平高电气以直销和项目交付方式，向国家电网等客户提供高压/特高压及配网开关设备，并赚取设备制造和运维检修利润。",
+      "core_judgement": "以266.50亿元市值，扣除折后可剥离净现金49.18亿元后，经营业务购买价约217.32亿元；按8.50亿元折后可持续现金利润，静态回本约25.57年，若不扣现金则约31.35年。8.50亿元不是管理层指引，而是研究估计：高于2025年自由现金流5.12亿元，因当年缩短供应商付款账期造成经营现金流阶段性承压；低于归母净利润11.20亿元，以覆盖项目回款波动、资本开支和少数股东分流。该口径显示当前价格对经营持续性要求较高，不构成买卖结论。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/600312.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
