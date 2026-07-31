@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 05:04:08 +08:00",
+  "built_at": "2026-08-01 05:04:57 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -10955,6 +10955,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603697.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "000581.SZ",
+      "name": "威孚高科",
+      "raw_name": "威孚高科",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 173.25,
+      "pe_ttm": 15.92,
+      "owner_earnback_years": 20.51,
+      "owner_earnback_rate_pct": 4.88,
+      "market_profit_payback_years": 24.9,
+      "market_cash_profit_yield_pct": 4.02,
+      "discounted_detachable_net_cash_yi": 30.52,
+      "discounted_net_cash_to_market_cap_pct": 17.62,
+      "operating_business_price_yi": 142.73,
+      "discounted_cash_profit_yi": 6.96,
+      "revenue_yi": 120.24,
+      "gross_profit_yi": 20.84,
+      "parent_net_profit_yi": 10.68,
+      "gross_margin_pct": 17.33,
+      "net_margin_pct": 8.88,
+      "forecast_dividend_yield_pct": 4.46,
+      "risk_level": "未分级",
+      "business_summary": "向整车厂和主机厂直销燃油喷射、尾气后处理、进气、智能电动及氢能零部件，制造主业过百亿元，但合并利润核心来自博世相关联营企业。",
+      "core_judgement": "按173.25亿元市值，扣除30.52亿元折后可剥离净现金后，经营与长期投资组合的隐含购买价142.73亿元。经营自由现金流0.51亿元加实际收到投资分红7.22亿元，再打九折得到6.96亿元现金利润，对应回本约20.5年；该结果对联营分红和资本开支敏感，不是确定回收期。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/000581.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
