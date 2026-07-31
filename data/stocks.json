@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 22:27:03 +08:00",
+  "built_at": "2026-07-31 22:28:53 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -17558,6 +17558,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/000680.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "301119.SZ",
+      "name": "正强股份",
+      "raw_name": "正强股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 28.19,
+      "pe_ttm": 28.1,
+      "owner_earnback_years": 30.3,
+      "owner_earnback_rate_pct": 3.3,
+      "market_profit_payback_years": 37.59,
+      "market_cash_profit_yield_pct": 2.66,
+      "discounted_detachable_net_cash_yi": 5.47,
+      "discounted_net_cash_to_market_cap_pct": 19.39,
+      "operating_business_price_yi": 22.72,
+      "discounted_cash_profit_yi": 0.75,
+      "revenue_yi": 4.59,
+      "gross_profit_yi": 1.45,
+      "parent_net_profit_yi": 1.13,
+      "gross_margin_pct": 31.5,
+      "net_margin_pct": 24.55,
+      "forecast_dividend_yield_pct": 0.44,
+      "risk_level": "未分级",
+      "business_summary": "正强股份向全球汽车一级零部件供应商销售用于转向和传动系统的十字轴万向节总成、节叉、十字轴等安全件。",
+      "core_judgement": "先从货币资金中剔除受限资金与尚未使用募集资金，对剩余现金按95%、理财和债权投资按90%折价，再全额扣除短期借款和租赁负债，得到折后可剥离净现金5.47亿元。现金利润以扣非归母净利润1.054亿元为起点，剔除约3000万元由大额现金产生、且在现金被视为可剥离后不应重复资本化的税后利息贡献，取整为7500万元。按2026-07-31市值，经营业务购买价22.72亿元，对应约30.3年；这是静态控股回本测算，不是目标价或收益承诺。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/301119.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
