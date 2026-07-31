@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 19:30:42 +08:00",
+  "built_at": "2026-07-31 19:31:11 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -10676,6 +10676,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603565.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "300453.SZ",
+      "name": "三鑫医疗",
+      "raw_name": "三鑫医疗",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 51.11,
+      "pe_ttm": 18.28,
+      "owner_earnback_years": 21.83,
+      "owner_earnback_rate_pct": 4.58,
+      "market_profit_payback_years": 23.23,
+      "market_cash_profit_yield_pct": 4.3,
+      "discounted_detachable_net_cash_yi": 3.08,
+      "discounted_net_cash_to_market_cap_pct": 6.02,
+      "operating_business_price_yi": 48.03,
+      "discounted_cash_profit_yi": 2.2,
+      "revenue_yi": 16.4,
+      "gross_profit_yi": 5.91,
+      "parent_net_profit_yi": 2.65,
+      "gross_margin_pct": 36.02,
+      "net_margin_pct": 16.15,
+      "forecast_dividend_yield_pct": 2.04,
+      "risk_level": "未分级",
+      "business_summary": "以血液透析器、管路、透析液/粉及设备为核心，向医院和经销渠道销售血液净化全产业链产品的医疗器械制造商。",
+      "core_judgement": "按51.11亿元市值，扣除3.08亿元折后可剥离净现金后，经营业务购买价约48.03亿元；以2.20亿元折后可持续可分配现金利润计，经营业务回本约21.83年，未扣现金的市值/现金利润约23.23倍。该结果依赖扩产期资本开支能否回落、集采下毛利能否维持及海外增长能否持续。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/300453.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
