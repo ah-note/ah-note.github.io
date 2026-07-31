@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 02:02:43 +08:00",
+  "built_at": "2026-08-01 02:05:14 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -10800,6 +10800,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/300595.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "600282.SH",
+      "name": "南钢股份",
+      "raw_name": "南钢股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 311.95,
+      "pe_ttm": 10.81,
+      "owner_earnback_years": 20.8,
+      "owner_earnback_rate_pct": 4.81,
+      "market_profit_payback_years": 20.8,
+      "market_cash_profit_yield_pct": 4.81,
+      "discounted_detachable_net_cash_yi": 0.0,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": 311.95,
+      "discounted_cash_profit_yi": 15.0,
+      "revenue_yi": 579.94,
+      "gross_profit_yi": 81.62,
+      "parent_net_profit_yi": 28.67,
+      "gross_margin_pct": 14.07,
+      "net_margin_pct": 4.94,
+      "forecast_dividend_yield_pct": 5.06,
+      "risk_level": "未分级",
+      "business_summary": "以专用板材和特钢长材为利润核心，辅以印尼焦炭、资源、环保与智造服务的千万吨级钢铁联合企业。",
+      "core_judgement": "折价资金与金融投资不足以覆盖核心借款，可剥离净现金按0；经营业务购买价等于市值。现金利润以9.97亿元单年经营自由现金流、扣除天工股份公允价值贡献后约24.34亿元归母利润及15.77亿元年度分红交叉判断，审慎取15亿元，回本约20.8年。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/600282.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
