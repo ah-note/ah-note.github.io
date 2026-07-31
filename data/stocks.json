@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 20:48:40 +08:00",
+  "built_at": "2026-07-31 20:49:30 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -10490,6 +10490,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603345.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "300910.SZ",
+      "name": "瑞丰新材",
+      "raw_name": "瑞丰新材",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 114.84,
+      "pe_ttm": 16.85,
+      "owner_earnback_years": 21.34,
+      "owner_earnback_rate_pct": 4.69,
+      "market_profit_payback_years": 22.97,
+      "market_cash_profit_yield_pct": 4.35,
+      "discounted_detachable_net_cash_yi": 8.16,
+      "discounted_net_cash_to_market_cap_pct": 7.11,
+      "operating_business_price_yi": 106.68,
+      "discounted_cash_profit_yi": 5.0,
+      "revenue_yi": 35.08,
+      "gross_profit_yi": 12.14,
+      "parent_net_profit_yi": 7.36,
+      "gross_margin_pct": 34.6,
+      "net_margin_pct": 20.99,
+      "forecast_dividend_yield_pct": 3.79,
+      "risk_level": "未分级",
+      "business_summary": "国内领先的润滑油添加剂研发制造商，以单剂自主生产和复合剂配方能力向全球润滑油企业直销产品。",
+      "core_judgement": "按2026-07-31输入市值114.84亿元，现金等价物按95%、交易性金融资产按80%折算，并全额扣除短期借款、长期借款及租赁负债，得到折后可剥离净现金8.16亿元；经营业务购买价106.68亿元。可持续可分配现金利润取5.00亿元：以扣非归母净利6.68亿元和2025年经营自由现金流4.28亿元交叉约束，并考虑扩产期维护/必要资本开支、2024年自由现金流偏弱及毛利率下滑。对应经营业务回本约21.34年，市值/现金利润约22.97年。该结果是情景估算，不是确定可取走现金...",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/300910.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
