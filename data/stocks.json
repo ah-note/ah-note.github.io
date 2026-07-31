@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 18:26:06 +08:00",
+  "built_at": "2026-07-31 18:27:15 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -10242,6 +10242,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603280.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "002033.SZ",
+      "name": "丽江股份",
+      "raw_name": "丽江股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 47.64,
+      "pe_ttm": 19.39,
+      "owner_earnback_years": 22.1,
+      "owner_earnback_rate_pct": 4.52,
+      "market_profit_payback_years": 23.82,
+      "market_cash_profit_yield_pct": 4.2,
+      "discounted_detachable_net_cash_yi": 3.44,
+      "discounted_net_cash_to_market_cap_pct": 7.22,
+      "operating_business_price_yi": 44.2,
+      "discounted_cash_profit_yi": 2.0,
+      "revenue_yi": 8.6,
+      "gross_profit_yi": 4.83,
+      "parent_net_profit_yi": 2.13,
+      "gross_margin_pct": 56.18,
+      "net_margin_pct": 24.81,
+      "forecast_dividend_yield_pct": 4.04,
+      "risk_level": "未分级",
+      "business_summary": "依托玉龙雪山稀缺区位，以高毛利索道为利润核心，并向实景演出、度假酒店、餐饮和游客配套延伸的区域旅游运营商。",
+      "core_judgement": "按2026-07-31市值47.64亿元，先对流动资金按80%-98%折价，剔除受限保证金和租赁负债，并为牦牛坪索道5.3199亿元预算中尚未形成在建工程的4.4712亿元预留资金，得到折后可剥离净现金3.4400亿元。以2025年扣非归母净利润2.2042亿元为起点，考虑旅游天气与客流周期、新酒店爬坡以及重大改扩建阶段，折后可持续可分配现金利润取2.00亿元。由此经营业务购买价44.20亿元，经营业务回本约22.10年；未扣现金的市值/现金利润为23.82倍。该结果是保守的...",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/002033.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
