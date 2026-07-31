@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 20:37:33 +08:00",
+  "built_at": "2026-07-31 20:39:43 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -13559,6 +13559,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/688557.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "002444.SZ",
+      "name": "巨星科技",
+      "raw_name": "巨星科技",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 357.03,
+      "pe_ttm": 13.92,
+      "owner_earnback_years": 25.17,
+      "owner_earnback_rate_pct": 3.97,
+      "market_profit_payback_years": 27.46,
+      "market_cash_profit_yield_pct": 3.64,
+      "discounted_detachable_net_cash_yi": 29.88,
+      "discounted_net_cash_to_market_cap_pct": 8.37,
+      "operating_business_price_yi": 327.15,
+      "discounted_cash_profit_yi": 13.0,
+      "revenue_yi": 146.66,
+      "gross_profit_yi": 47.99,
+      "parent_net_profit_yi": 25.1,
+      "gross_margin_pct": 32.72,
+      "net_margin_pct": 17.11,
+      "forecast_dividend_yield_pct": 2.17,
+      "risk_level": "未分级",
+      "business_summary": "面向欧美家居维修、建筑、电力和工业客户，通过全球采购制造、ODM大客户供货及自有品牌/DTC渠道销售手工具、电动工具和工业工具。",
+      "core_judgement": "按357.03亿元市值，现金等价物九折、交易性金融资产七折并全额扣除有息及租赁负债后，折后可剥离净现金29.88亿元；长期股权投资未抵市值。2025年经营现金流23.10亿元减全部资本开支9.72亿元为13.38亿元，再小幅下修至13.00亿元作为折后可持续可分配现金利润。由此经营业务购买价327.15亿元，静态回本约25.2年；这是保守控股口径，不是目标价，且对关税、汇率、资本开支周期和联营分红高度敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/002444.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
