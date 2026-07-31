@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 00:14:42 +08:00",
+  "built_at": "2026-08-01 00:15:12 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -20782,6 +20782,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/300409.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "300434.SZ",
+      "name": "金石亚药",
+      "raw_name": "金石亚药",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 39.85,
+      "pe_ttm": 21.57,
+      "owner_earnback_years": 36.55,
+      "owner_earnback_rate_pct": 2.74,
+      "market_profit_payback_years": 40.88,
+      "market_cash_profit_yield_pct": 2.45,
+      "discounted_detachable_net_cash_yi": 4.21,
+      "discounted_net_cash_to_market_cap_pct": 10.58,
+      "operating_business_price_yi": 35.64,
+      "discounted_cash_profit_yi": 0.97,
+      "revenue_yi": 10.38,
+      "gross_profit_yi": 6.05,
+      "parent_net_profit_yi": 1.32,
+      "gross_margin_pct": 58.29,
+      "net_margin_pct": 12.68,
+      "forecast_dividend_yield_pct": 0.83,
+      "risk_level": "未分级",
+      "business_summary": "以快克、小快克感冒呼吸药为利润核心，通过全国直营OTC/RX渠道销售，并辅以其他药品、保健食品、复合管与真空镀膜设备及房产租赁。",
+      "core_judgement": "按2026年7月31日39.85亿元市值，扣除折后可剥离净现金4.21亿元后，经营业务购买价约35.64亿元；以折后可持续现金利润0.975亿元计，静态回本约36.6年，市值/现金利润约40.9倍。该结果未给投资性房地产和股权/非流动金融投资任何扣减价值，也未假设2025年利润增速延续。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/300434.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
