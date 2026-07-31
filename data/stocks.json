@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 03:15:26 +08:00",
+  "built_at": "2026-08-01 03:15:55 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -24719,6 +24719,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002756.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "000408.SZ",
+      "name": "藏格矿业",
+      "raw_name": "藏格矿业",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 1259.05,
+      "pe_ttm": 26.91,
+      "owner_earnback_years": 43.93,
+      "owner_earnback_rate_pct": 2.28,
+      "market_profit_payback_years": 44.25,
+      "market_cash_profit_yield_pct": 2.26,
+      "discounted_detachable_net_cash_yi": 8.99,
+      "discounted_net_cash_to_market_cap_pct": 0.71,
+      "operating_business_price_yi": 1250.06,
+      "discounted_cash_profit_yi": 28.46,
+      "revenue_yi": 35.77,
+      "gross_profit_yi": 21.19,
+      "parent_net_profit_yi": 38.52,
+      "gross_margin_pct": 59.24,
+      "net_margin_pct": 107.71,
+      "forecast_dividend_yield_pct": 1.87,
+      "risk_level": "未分级",
+      "business_summary": "以察尔汗盐湖卤水低成本生产钾肥和碳酸锂，并通过持有巨龙铜业30.78%权益分享铜矿利润。",
+      "core_judgement": "按2026-07-31市值1259.05亿元，先将不受限货币资金和交易性金融资产各按50%计入、扣除借款及租赁负债，得到折后可剥离净现金8.99亿元；再以经营现金流加实际收到的巨龙铜业分红、扣资本开支形成35.57亿元基准现金利润，并因商品价格周期、联营企业分红节奏及在建项目资金需求折至80%，得到28.46亿元。经营业务购买价1250.06亿元，对应约43.93年；该数值是静态压力测试，不是收益承诺。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/000408.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
