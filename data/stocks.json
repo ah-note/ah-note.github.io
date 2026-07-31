@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 22:59:19 +08:00",
+  "built_at": "2026-07-31 23:03:11 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -22642,6 +22642,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/000429.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "000567.SZ",
+      "name": "海德股份",
+      "raw_name": "海德股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 120.01,
+      "pe_ttm": 16.96,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 7.04,
+      "gross_profit_yi": 6.77,
+      "parent_net_profit_yi": 3.85,
+      "gross_margin_pct": null,
+      "net_margin_pct": 54.7,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "以持牌地方AMC海徳资管为核心，折价收购或受托管理困境资产，通过清收、重组、以资抵债和处置实现收益，并辅以个贷不良服务及房产租赁。",
+      "core_judgement": "普通控股回本口径不适用。2025年末货币资金仅2.03亿元，而核心资产是30.19亿元交易性金融资产、10.20亿元债权投资、41.95亿元抵债资产；这些资产与27.44亿元有息借款、结构化主体优先级资金及差额补足安排共同构成AMC业务。应改看不良资产项目回收率和回收周期、抵债采矿权的权属与可变现价值、融资成本、杠杆、信用减值及实际分红能力。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/000567.SZ/"
     }
   ]
 }
