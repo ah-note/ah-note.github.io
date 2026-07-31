@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 15:17:47 +08:00",
+  "built_at": "2026-07-31 15:18:15 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -7421,6 +7421,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/000690.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "301598.SZ",
+      "name": "博科测试",
+      "raw_name": "博科测试",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 27.38,
+      "pe_ttm": 22.05,
+      "owner_earnback_years": 24.06,
+      "owner_earnback_rate_pct": 4.16,
+      "market_profit_payback_years": 24.89,
+      "market_cash_profit_yield_pct": 4.02,
+      "discounted_detachable_net_cash_yi": 0.91,
+      "discounted_net_cash_to_market_cap_pct": 3.34,
+      "operating_business_price_yi": 26.47,
+      "discounted_cash_profit_yi": 1.1,
+      "revenue_yi": 5.63,
+      "gross_profit_yi": 2.5,
+      "parent_net_profit_yi": 1.21,
+      "gross_margin_pct": 44.38,
+      "net_margin_pct": 21.44,
+      "forecast_dividend_yield_pct": 2.15,
+      "risk_level": "未分级",
+      "business_summary": "以自研控制软硬件和系统集成为核心，向车企、科研院所及工程客户交付定制化汽车与伺服测试试验系统。",
+      "core_judgement": "年末货币资金与理财先全额扣除合同负债、租赁债务和期后已实施年度分红，可剥离净现金约0.91亿元；可持续现金利润审慎取1.10亿元，低于归母净利润1.21亿元和经营自由现金流1.67亿元，对应经营业务回本约24.1年。该估算不表示资金可立即由控股股东拿走。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/301598.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
