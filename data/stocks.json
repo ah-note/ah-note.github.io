@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 04:22:47 +08:00",
+  "built_at": "2026-08-01 04:23:36 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -28346,6 +28346,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002259.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "000603.SZ",
+      "name": "盛达资源",
+      "raw_name": "盛达资源",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 174.01,
+      "pe_ttm": 28.83,
+      "owner_earnback_years": 126.8,
+      "owner_earnback_rate_pct": 0.79,
+      "market_profit_payback_years": 119.6,
+      "market_cash_profit_yield_pct": 0.84,
+      "discounted_detachable_net_cash_yi": -10.48,
+      "discounted_net_cash_to_market_cap_pct": -6.02,
+      "operating_business_price_yi": 184.49,
+      "discounted_cash_profit_yi": 1.45,
+      "revenue_yi": 24.61,
+      "gross_profit_yi": 14.18,
+      "parent_net_profit_yi": 5.32,
+      "gross_margin_pct": 57.61,
+      "net_margin_pct": 21.63,
+      "forecast_dividend_yield_pct": 0.48,
+      "risk_level": "未分级",
+      "business_summary": "以自有银铅锌、银金及铜金矿采选为核心，按金属市场价向冶炼厂、加工企业或贸易商销售精粉和金银锭。",
+      "core_judgement": "折后可剥离净现金为负10.48亿元，经营业务购买价184.49亿元。以2024、2025年经营现金流减资本开支并按归母利润占比折算后的均值1.455亿元作为现金利润，对应回本126.8年。该口径包含扩产资本开支，偏保守，但避免把2025年高银价利润永久化。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/000603.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
