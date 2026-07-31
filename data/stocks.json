@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 20:39:43 +08:00",
+  "built_at": "2026-07-31 20:40:13 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -18736,6 +18736,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/601188.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "000885.SZ",
+      "name": "城发环境",
+      "raw_name": "城发环境",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 82.76,
+      "pe_ttm": 6.48,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 65.63,
+      "gross_profit_yi": 25.94,
+      "parent_net_profit_yi": 12.36,
+      "gross_margin_pct": 39.52,
+      "net_margin_pct": 18.83,
+      "forecast_dividend_yield_pct": 2.99,
+      "risk_level": "未分级",
+      "business_summary": "以垃圾焚烧发电、环卫和水务为主，并持有河南收费公路的区域公用事业运营商，靠处理费、售电/补贴、政府服务费和通行费赚钱。",
+      "core_judgement": "普通控股回本数字不产出。市值82.76亿元虽低于归母权益94.87亿元、PE TTM为6.48倍，但价值取决于各项目剩余收费期内的量价、回款、维护资本开支及偿债。2025年经营现金流20.82亿元、扣购建长期资产支出后的简单自由现金流9.39亿元仅代表当年；回款改善、并购剥离和项目周期使其不宜直接永续化。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/000885.SZ/"
     }
   ]
 }
