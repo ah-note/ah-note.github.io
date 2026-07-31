@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 18:30:23 +08:00",
+  "built_at": "2026-07-31 18:31:32 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -6894,6 +6894,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/300389.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "000778.SZ",
+      "name": "新兴铸管",
+      "raw_name": "新兴铸管",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 152.98,
+      "pe_ttm": 15.19,
+      "owner_earnback_years": 17.71,
+      "owner_earnback_rate_pct": 5.65,
+      "market_profit_payback_years": 12.75,
+      "market_cash_profit_yield_pct": 7.84,
+      "discounted_detachable_net_cash_yi": -59.58,
+      "discounted_net_cash_to_market_cap_pct": -38.95,
+      "operating_business_price_yi": 212.56,
+      "discounted_cash_profit_yi": 12.0,
+      "revenue_yi": 370.22,
+      "gross_profit_yi": 28.49,
+      "parent_net_profit_yi": 9.47,
+      "gross_margin_pct": 7.69,
+      "net_margin_pct": 2.56,
+      "forecast_dividend_yield_pct": 1.94,
+      "risk_level": "未分级",
+      "business_summary": "以球墨铸铁管和钢材为核心的重资产制造商，靠规模化冶炼、铸造、轧制及全国销售网络向水务、市政、基建和制造业客户销售产品。",
+      "core_judgement": "按控股口径，63.81亿元可随时支付现金仅按50%计入，以保留重资产制造所需营运资金并反映其中44.14亿元存放集团财务公司的集中度；受限资金不计。长期股权与权益工具投资分别按30%和50%折算，再全额扣除108.31亿元有息债务，得到折后可剥离净现金-59.58亿元。2025年表观经营自由现金流24.24亿元受应收释放等营运资金变动抬高；以去营运资金波动后的约17.9亿元现金能力为起点，进一步考虑钢铁周期、少数股东和维护性资本开支不确定性，折后可持续现金利润取12亿元。对应...",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/000778.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
