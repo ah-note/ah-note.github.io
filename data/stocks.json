@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 14:35:26 +08:00",
+  "built_at": "2026-07-31 14:39:35 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -5499,6 +5499,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603939.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "603153.SH",
+      "name": "上海建科",
+      "raw_name": "上海建科",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 54.96,
+      "pe_ttm": 14.8,
+      "owner_earnback_years": 17.43,
+      "owner_earnback_rate_pct": 5.74,
+      "market_profit_payback_years": 20.36,
+      "market_cash_profit_yield_pct": 4.91,
+      "discounted_detachable_net_cash_yi": 7.9,
+      "discounted_net_cash_to_market_cap_pct": 14.37,
+      "operating_business_price_yi": 47.06,
+      "discounted_cash_profit_yi": 2.7,
+      "revenue_yi": 50.0,
+      "gross_profit_yi": 18.47,
+      "parent_net_profit_yi": 3.68,
+      "gross_margin_pct": 36.94,
+      "net_margin_pct": 7.36,
+      "forecast_dividend_yield_pct": 2.01,
+      "risk_level": "未分级",
+      "business_summary": "上海建科主要向政府和企业按项目提供工程决策咨询、监理设计、检测认证及环境低碳技术服务，利润依赖专业人才、资质能力和项目回款。",
+      "core_judgement": "以2026-07-31市值54.96亿元计，现金及现金等价物先全额扣除4.02亿元融资与租赁负债，再预留10亿元最低经营现金，保守取可剥离净现金7.90亿元；经营业务购买价约47.06亿元。可持续现金利润取2.70亿元，低于2024-2025年平均扣非归母利润2.78亿元和平均经营自由现金流2.88亿元，以吸收应收增长、信用减值和资本开支波动。对应经营业务回本约17.4年，未扣现金的市值/现金利润约20.4倍。这是情景估算，不是确定的可分配金额；若10亿元经营现金底仓不足或回...",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/603153.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
