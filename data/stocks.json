@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 03:21:47 +08:00",
+  "built_at": "2026-08-01 03:23:38 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -21557,6 +21557,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/601952.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "300181.SZ",
+      "name": "佐力药业",
+      "raw_name": "佐力药业",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 101.14,
+      "pe_ttm": 15.55,
+      "owner_earnback_years": 33.36,
+      "owner_earnback_rate_pct": 3.0,
+      "market_profit_payback_years": 33.71,
+      "market_cash_profit_yield_pct": 2.97,
+      "discounted_detachable_net_cash_yi": 1.07,
+      "discounted_net_cash_to_market_cap_pct": 1.05,
+      "operating_business_price_yi": 100.07,
+      "discounted_cash_profit_yi": 3.0,
+      "revenue_yi": 30.41,
+      "gross_profit_yi": 18.73,
+      "parent_net_profit_yi": 6.32,
+      "gross_margin_pct": 61.6,
+      "net_margin_pct": 20.78,
+      "forecast_dividend_yield_pct": 2.4,
+      "risk_level": "未分级",
+      "business_summary": "以乌灵胶囊等高毛利成药为利润核心，同时经营百令系列、中药饮片、配方颗粒和低毛利医药流通。",
+      "core_judgement": "按输入市值101.14亿元，现金等价物九折、权益投资五折后扣除全部有息及租赁债务，折后可剥离净现金仅1.07亿元，经营业务购买价约100.07亿元。可持续可分配现金利润取3.00亿元：以2025年经营现金流4.12亿元为起点，扣除约1.12亿元维护性资本开支估算。经营业务回本约33.4年，明显长于PE暗示的会计利润回本期；原因是应收扩张和高资本开支使利润尚未充分转成自由现金。维护资本开支无法从年报精确拆分，是最重要估算项。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/300181.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
