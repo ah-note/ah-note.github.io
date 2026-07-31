@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 21:13:32 +08:00",
+  "built_at": "2026-07-31 21:14:48 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -16101,6 +16101,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603129.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "002226.SZ",
+      "name": "江南化工",
+      "raw_name": "江南化工",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 130.86,
+      "pe_ttm": 17.79,
+      "owner_earnback_years": 29.25,
+      "owner_earnback_rate_pct": 3.42,
+      "market_profit_payback_years": 21.16,
+      "market_cash_profit_yield_pct": 4.73,
+      "discounted_detachable_net_cash_yi": -50.06,
+      "discounted_net_cash_to_market_cap_pct": -38.25,
+      "operating_business_price_yi": 180.92,
+      "discounted_cash_profit_yi": 6.18,
+      "revenue_yi": 99.82,
+      "gross_profit_yi": 30.34,
+      "parent_net_profit_yi": 7.58,
+      "gross_margin_pct": 30.4,
+      "net_margin_pct": 7.59,
+      "forecast_dividend_yield_pct": 1.78,
+      "risk_level": "未分级",
+      "business_summary": "以工业炸药及雷管生产为入口，向矿山爆破和采矿一体化服务延伸，同时运营约106万千瓦风光电站。",
+      "core_judgement": "以2026-07-31市值130.86亿元计，折后资金资产扣除全部有息债务后为负50.06亿元，经营业务购买价为180.92亿元。以2025年扣非归母净利润6.87亿元打九折得到可持续现金利润6.18亿元，对应控股回本约29.3年；市值/现金利润约21.2倍。2025年经营自由现金流6.81亿元和2024年约6.10亿元可作交叉验证。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/002226.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
