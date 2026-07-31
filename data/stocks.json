@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 21:31:33 +08:00",
+  "built_at": "2026-07-31 21:32:22 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -17124,6 +17124,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600803.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "300015.SZ",
+      "name": "爱尔眼科",
+      "raw_name": "爱尔眼科",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 842.54,
+      "pe_ttm": 24.99,
+      "owner_earnback_years": 31.04,
+      "owner_earnback_rate_pct": 3.22,
+      "market_profit_payback_years": 32.41,
+      "market_cash_profit_yield_pct": 3.09,
+      "discounted_detachable_net_cash_yi": 35.59,
+      "discounted_net_cash_to_market_cap_pct": 4.22,
+      "operating_business_price_yi": 806.95,
+      "discounted_cash_profit_yi": 26.0,
+      "revenue_yi": 223.53,
+      "gross_profit_yi": 105.31,
+      "parent_net_profit_yi": 32.4,
+      "gross_margin_pct": 47.11,
+      "net_margin_pct": 14.5,
+      "forecast_dividend_yield_pct": 1.98,
+      "risk_level": "未分级",
+      "business_summary": "以分级连锁医院网络向患者提供眼科诊疗、手术和医学验光配镜，核心收入来自屈光与视光服务。",
+      "core_judgement": "按842.54亿元市值，扣除35.59亿元折后可剥离净现金后，经营业务购买价约806.95亿元；以26亿元折后可持续可分配现金利润估算，静态回本约31.04年。该数字不含增长假设，且对租赁本金、少数股东分享和金融资产折价作了保守处理；它是经营资产回本测算，不是目标价或买卖判断。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/300015.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
