@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 22:54:01 +08:00",
+  "built_at": "2026-07-31 22:57:33 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -22487,6 +22487,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600900.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "600027.SH",
+      "name": "华电国际",
+      "raw_name": "华电国际",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 553.88,
+      "pe_ttm": 9.43,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 1260.13,
+      "gross_profit_yi": 144.11,
+      "parent_net_profit_yi": 60.7,
+      "gross_margin_pct": 11.44,
+      "net_margin_pct": 4.82,
+      "forecast_dividend_yield_pct": 4.82,
+      "risk_level": "未分级",
+      "business_summary": "华电国际经营全国性燃煤、燃气和水电机组，把电力和热力卖给区域电网及热力客户，利润主要由上网电量、电价与煤价之间的价差决定。",
+      "core_judgement": "普通控股回本口径不适用，相关排序数字均保持null。应按发电资产组合建模：上网电量×电价，扣燃料及运营成本、税、维持性资本开支、利息和到期债务，再扣永续债持有人及少数股东应占现金，观察普通股可持续分红。2025年经营自由现金流121.58亿元包含扩建资本开支且未拆出维持性资本开支，不能直接作为普通股可分配现金。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/600027.SH/"
     }
   ]
 }
