@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 01:48:43 +08:00",
+  "built_at": "2026-08-01 01:49:34 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -21712,6 +21712,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603579.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "603713.SH",
+      "name": "密尔克卫",
+      "raw_name": "密尔克卫",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 94.3,
+      "pe_ttm": 14.76,
+      "owner_earnback_years": 36.11,
+      "owner_earnback_rate_pct": 2.77,
+      "market_profit_payback_years": 23.57,
+      "market_cash_profit_yield_pct": 4.24,
+      "discounted_detachable_net_cash_yi": -50.13,
+      "discounted_net_cash_to_market_cap_pct": -53.16,
+      "operating_business_price_yi": 144.43,
+      "discounted_cash_profit_yi": 4.0,
+      "revenue_yi": 133.35,
+      "gross_profit_yi": 15.39,
+      "parent_net_profit_yi": 6.27,
+      "gross_margin_pct": 11.54,
+      "net_margin_pct": 4.7,
+      "forecast_dividend_yield_pct": 1.68,
+      "risk_level": "未分级",
+      "business_summary": "以危化品货代、运输、仓储网络为底座，同时撮合并分销化工品，赚取物流服务毛利和贸易价差。",
+      "core_judgement": "市值94.30亿元；折后资金约9.05亿元减有息及租赁负债59.18亿元，折后净现金为-50.13亿元，经营业务购买价144.43亿元。可持续现金利润取4.00亿元，介于2025年扣非归母利润5.75亿元与自由现金流2.99亿元之间，以反映资本开支和营运资金波动。对应控股回本约36.1年，市值/现金利润23.6倍；这是保守情景，不是预测或买卖结论。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/603713.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
