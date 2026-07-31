@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 23:03:41 +08:00",
+  "built_at": "2026-07-31 23:04:31 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -2647,6 +2647,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603551.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "603599.SH",
+      "name": "广信股份",
+      "raw_name": "广信股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 96.31,
+      "pe_ttm": 14.74,
+      "owner_earnback_years": 11.26,
+      "owner_earnback_rate_pct": 8.88,
+      "market_profit_payback_years": 35.34,
+      "market_cash_profit_yield_pct": 2.83,
+      "discounted_detachable_net_cash_yi": 65.62,
+      "discounted_net_cash_to_market_cap_pct": 68.14,
+      "operating_business_price_yi": 30.69,
+      "discounted_cash_profit_yi": 2.73,
+      "revenue_yi": 35.32,
+      "gross_profit_yi": 11.43,
+      "parent_net_profit_yi": 6.57,
+      "gross_margin_pct": 32.36,
+      "net_margin_pct": 18.6,
+      "forecast_dividend_yield_pct": 2.08,
+      "risk_level": "未分级",
+      "business_summary": "围绕稀缺光气资质，把基础化工原料加工成农药原药、制剂及农药/医药/染料中间体，依靠一体化装置、规模和直销客户赚取制造价差。",
+      "core_judgement": "按市值96.31亿元，折后可剥离净现金约65.62亿元，隐含经营业务购买价30.69亿元。以2025年经营自由现金流3.03亿元为锚、再打九折，现金利润2.73亿元，经营业务静态回本约11.26年；但全市值/现金利润仍为35.34倍。结果依赖大额存单、定期存款及理财按期收回且不被扩产占用。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/603599.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
@@ -22704,6 +22735,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/000567.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "600009.SH",
+      "name": "上海机场",
+      "raw_name": "上海机场",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 610.38,
+      "pe_ttm": 28.06,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 133.46,
+      "gross_profit_yi": 36.72,
+      "parent_net_profit_yi": 21.17,
+      "gross_margin_pct": 27.51,
+      "net_margin_pct": 15.86,
+      "forecast_dividend_yield_pct": 1.92,
+      "risk_level": "未分级",
+      "business_summary": "统一运营浦东、虹桥两大机场，以飞机起降、旅客和货邮服务收费为底座，再把客货流量转化为商业餐饮、广告租赁和航空物流收入。",
+      "core_judgement": "普通控股回本口径不适用：机场基础设施、使用权资产与租赁负债共同构成经营权和服务能力，现金也需覆盖扩建、维护及长期租赁付款，不能机械按市值减净现金。应采用两场项目现金流模型，逐年估计客货流量、航空性收费、非航变现、运营维护、资本开支、租赁债务服务、剩余租期和可分配现金；本结果不为排序强行给出普通回本年。2025年经营现金流59.82亿元、购建长期资产现金支出13.07亿元，简单差额46.75亿元仅用于现金转化观察，不代表可持续可分配现金。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/600009.SH/"
     }
   ]
 }
