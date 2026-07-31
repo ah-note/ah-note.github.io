@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 20:25:08 +08:00",
+  "built_at": "2026-07-31 20:25:37 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -15202,6 +15202,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/601607.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "600428.SH",
+      "name": "中远海特",
+      "raw_name": "中远海特",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 310.34,
+      "pe_ttm": 16.86,
+      "owner_earnback_years": 28.68,
+      "owner_earnback_rate_pct": 3.49,
+      "market_profit_payback_years": 20.69,
+      "market_cash_profit_yield_pct": 4.83,
+      "discounted_detachable_net_cash_yi": -119.87,
+      "discounted_net_cash_to_market_cap_pct": -38.62,
+      "operating_business_price_yi": 430.21,
+      "discounted_cash_profit_yi": 15.0,
+      "revenue_yi": 232.11,
+      "gross_profit_yi": 49.31,
+      "parent_net_profit_yi": 17.8,
+      "gross_margin_pct": 21.24,
+      "net_margin_pct": 7.67,
+      "forecast_dividend_yield_pct": 2.87,
+      "risk_level": "未分级",
+      "business_summary": "以自有和长期租入的多用途、重吊、半潜、汽车等特种船，为新能源装备、先进制造、纸浆和海工客户提供海运及端到端供应链服务。",
+      "core_judgement": "市值310.34亿元；折价资金与投资资产不足覆盖借款、租赁负债和长期职工福利，折后净现金-119.87亿元，经营业务购买价430.21亿元。按15亿元审慎现金利润，控股回本约28.68年；市值/现金利润20.69倍。对租船规模、周期运价和维持性资本开支敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/600428.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
