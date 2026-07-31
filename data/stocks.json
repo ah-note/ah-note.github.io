@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 18:20:31 +08:00",
+  "built_at": "2026-07-31 18:21:00 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -12815,6 +12815,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002204.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "000597.SZ",
+      "name": "东北制药",
+      "raw_name": "东北制药",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 65.21,
+      "pe_ttm": 26.04,
+      "owner_earnback_years": 31.45,
+      "owner_earnback_rate_pct": 3.18,
+      "market_profit_payback_years": 32.6,
+      "market_cash_profit_yield_pct": 3.07,
+      "discounted_detachable_net_cash_yi": 2.3,
+      "discounted_net_cash_to_market_cap_pct": 3.53,
+      "operating_business_price_yi": 62.91,
+      "discounted_cash_profit_yi": 2.0,
+      "revenue_yi": 70.75,
+      "gross_profit_yi": 26.37,
+      "parent_net_profit_yi": 2.6,
+      "gross_margin_pct": 37.27,
+      "net_margin_pct": 3.68,
+      "forecast_dividend_yield_pct": 1.2,
+      "risk_level": "未分级",
+      "business_summary": "东北制药以化学原料药和制剂制造赚取较高制造毛利，同时经营区域医药流通网络扩大收入规模，但商业板块毛利很薄。",
+      "core_judgement": "市值65.21亿元。期末现金及现金等价物28.52亿元先覆盖23.92亿元金融性负债，余4.60亿元再按50%计入可剥离价值，得到折后净现金2.30亿元；经营业务购买价约62.91亿元。2025年扣非归母利润2.04亿元、经营自由现金流10.09亿元，但后者受折旧摊销、减值及营运资金变化影响，不宜直接外推，故将可持续可分配现金利润保守取整为2.00亿元。对应经营业务回本约31.45年、市值/现金利润32.61年；这是基于单年年报的审慎估算，不是确定回收期。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/000597.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
