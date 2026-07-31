@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 01:53:15 +08:00",
+  "built_at": "2026-08-01 01:53:44 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -15636,6 +15636,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600268.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "603181.SH",
+      "name": "皇马科技",
+      "raw_name": "皇马科技",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 76.0,
+      "pe_ttm": 16.99,
+      "owner_earnback_years": 25.29,
+      "owner_earnback_rate_pct": 3.95,
+      "market_profit_payback_years": 25.33,
+      "market_cash_profit_yield_pct": 3.95,
+      "discounted_detachable_net_cash_yi": 0.12,
+      "discounted_net_cash_to_market_cap_pct": 0.15,
+      "operating_business_price_yi": 75.88,
+      "discounted_cash_profit_yi": 3.0,
+      "revenue_yi": 24.04,
+      "gross_profit_yi": 6.3,
+      "parent_net_profit_yi": 4.37,
+      "gross_margin_pct": 26.2,
+      "net_margin_pct": 18.16,
+      "forecast_dividend_yield_pct": 1.72,
+      "risk_level": "未分级",
+      "business_summary": "面向新材料、电子化学品、润滑、涂料、纺织和农化等客户，按订单研发并生产定制化特种表面活性剂的精细化工制造商。",
+      "core_judgement": "以76亿元市值计，保守折后可剥离净现金仅约0.12亿元，经营业务购买价约75.88亿元；以3.00亿元折后可持续可分配现金利润计，控股回本约25.3年。该口径不是收益承诺：2025年实际经营自由现金流仅1.66亿元，因第三工厂等扩产资本开支明显高于折旧；若全部资本开支都视作维持性支出，回本期会显著更长。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/603181.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
