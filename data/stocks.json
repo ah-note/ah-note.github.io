@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 16:34:38 +08:00",
+  "built_at": "2026-07-31 16:35:06 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -9281,6 +9281,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/000690.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "000888.SZ",
+      "name": "峨眉山Ａ",
+      "raw_name": "峨眉山Ａ",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 51.48,
+      "pe_ttm": 23.36,
+      "owner_earnback_years": 23.99,
+      "owner_earnback_rate_pct": 4.17,
+      "market_profit_payback_years": 27.53,
+      "market_cash_profit_yield_pct": 3.63,
+      "discounted_detachable_net_cash_yi": 6.61,
+      "discounted_net_cash_to_market_cap_pct": 12.83,
+      "operating_business_price_yi": 44.87,
+      "discounted_cash_profit_yi": 1.87,
+      "revenue_yi": 9.33,
+      "gross_profit_yi": 4.66,
+      "parent_net_profit_yi": 2.2,
+      "gross_margin_pct": 49.89,
+      "net_margin_pct": 23.57,
+      "forecast_dividend_yield_pct": 1.54,
+      "risk_level": "未分级",
+      "business_summary": "依托峨眉山世界自然与文化双遗产景区，向游客直接销售门票、索道、酒店及配套文旅服务，其中索道是收入和毛利的核心。",
+      "core_judgement": "按2026-07-31市值51.48亿元，折后可剥离净现金6.61亿元，经营业务购买价44.87亿元；以折后可持续可分配现金利润1.87亿元计，经营业务回本约24.0年，未扣现金的市值/现金利润约27.5倍。该结果对现金可剥离比例及云上旅投后续亏损、债务代偿高度敏感，是控股视角估算而非确定回收期。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/000888.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
