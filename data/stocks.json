@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 20:31:36 +08:00",
+  "built_at": "2026-07-31 20:32:06 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -18519,6 +18519,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600023.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "000543.SZ",
+      "name": "皖能电力",
+      "raw_name": "皖能电力",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 180.9,
+      "pe_ttm": 8.41,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 273.06,
+      "gross_profit_yi": 44.42,
+      "parent_net_profit_yi": 21.49,
+      "gross_margin_pct": 16.27,
+      "net_margin_pct": 7.87,
+      "forecast_dividend_yield_pct": 4.75,
+      "risk_level": "未分级",
+      "business_summary": "以安徽及外省火电机组向电网售电为基本盘，叠加新能源、环保发电和参股电力资产收益的省属综合发电平台。",
+      "core_judgement": "普通控股回本公式不适用：公司现金、债务、机组和在建项目彼此匹配，且合并现金流需与少数股东分享；不能以市值减现金后除以单年自由现金流。控股视角应使用分项目/资产组合现金流模型，按剩余寿命、量价、燃料与碳成本、维护及扩张资本开支、债务服务、少数股东分流和参股资产分红估算归母可分配现金。2025年仅作观察：经营现金流53.90亿元减购建长期资产32.47亿元为21.43亿元，但该差额含扩张建设支出且未单列维护资本开支，不可直接当可持续现金利润。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/000543.SZ/"
     }
   ]
 }
