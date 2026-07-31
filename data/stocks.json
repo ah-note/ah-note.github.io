@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 17:22:24 +08:00",
+  "built_at": "2026-07-31 17:24:33 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -8754,6 +8754,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002997.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "600738.SH",
+      "name": "丽尚国潮",
+      "raw_name": "丽尚国潮",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 29.77,
+      "pe_ttm": 17.88,
+      "owner_earnback_years": 20.74,
+      "owner_earnback_rate_pct": 4.82,
+      "market_profit_payback_years": 22.05,
+      "market_cash_profit_yield_pct": 4.53,
+      "discounted_detachable_net_cash_yi": 1.78,
+      "discounted_net_cash_to_market_cap_pct": 5.97,
+      "operating_business_price_yi": 27.99,
+      "discounted_cash_profit_yi": 1.35,
+      "revenue_yi": 6.34,
+      "gross_profit_yi": 4.16,
+      "parent_net_profit_yi": 1.64,
+      "gross_margin_pct": 65.56,
+      "net_margin_pct": 25.87,
+      "forecast_dividend_yield_pct": 2.49,
+      "risk_level": "未分级",
+      "business_summary": "公司以杭州、南京服装专业市场和兰州核心商圈商业物业的租赁运营为利润底盘，兼营百货联营零售与酒店。",
+      "core_judgement": "按2026-07-31市值29.77亿元，扣除折后可剥离净现金1.78亿元后，经营业务购买价约27.99亿元；以折后可持续可分配现金利润1.35亿元计，经营业务回本约20.74年，未扣现金的市值/现金利润约22.05倍。该口径没有给核心商业物业估值抵扣，因为物业是产生租金的必要经营资产且其中11.01亿元账面价值已抵押；也没有把2025年受预收租金和回款推动的3.37亿元经营现金流直接年化。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/600738.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
