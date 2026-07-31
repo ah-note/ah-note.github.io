@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 21:57:50 +08:00",
+  "built_at": "2026-07-31 21:58:19 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -18147,6 +18147,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002299.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "300354.SZ",
+      "name": "东华测试",
+      "raw_name": "东华测试",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 39.86,
+      "pe_ttm": 29.47,
+      "owner_earnback_years": 34.57,
+      "owner_earnback_rate_pct": 2.89,
+      "market_profit_payback_years": 35.7,
+      "market_cash_profit_yield_pct": 2.8,
+      "discounted_detachable_net_cash_yi": 1.26,
+      "discounted_net_cash_to_market_cap_pct": 3.17,
+      "operating_business_price_yi": 38.6,
+      "discounted_cash_profit_yi": 1.12,
+      "revenue_yi": 5.31,
+      "gross_profit_yi": 3.51,
+      "parent_net_profit_yi": 1.37,
+      "gross_margin_pct": 66.05,
+      "net_margin_pct": 25.79,
+      "forecast_dividend_yield_pct": 0.69,
+      "risk_level": "未分级",
+      "business_summary": "向航空航天、装备制造、基础设施、高校科研等客户销售自主研发的传感器、数据采集硬件和分析软件，并交付结构测试、在线监测/PHM及电化学测试系统。",
+      "core_judgement": "按2026-07-31市值39.86亿元，扣除折后可剥离净现金1.2619亿元后，经营业务购买价38.5981亿元；以2023-2025年扣非归母净利润均值1.1166亿元作为折后可持续现金利润，静态回本约34.57年。该口径没有把2025年回款改善形成的高自由现金流直接年化，也未计未来增长；它显示当前价格主要要求未来增长兑现，而不是由现有分红或净现金快速回本。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/300354.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
