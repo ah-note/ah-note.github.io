@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 03:38:03 +08:00",
+  "built_at": "2026-08-01 03:41:36 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -25711,6 +25711,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600366.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "601890.SH",
+      "name": "亚星锚链",
+      "raw_name": "亚星锚链",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 82.12,
+      "pe_ttm": 23.51,
+      "owner_earnback_years": 47.98,
+      "owner_earnback_rate_pct": 2.08,
+      "market_profit_payback_years": 54.75,
+      "market_cash_profit_yield_pct": 1.83,
+      "discounted_detachable_net_cash_yi": 10.15,
+      "discounted_net_cash_to_market_cap_pct": 12.36,
+      "operating_business_price_yi": 71.97,
+      "discounted_cash_profit_yi": 1.5,
+      "revenue_yi": 20.99,
+      "gross_profit_yi": 6.64,
+      "parent_net_profit_yi": 3.17,
+      "gross_margin_pct": 31.63,
+      "net_margin_pct": 15.12,
+      "forecast_dividend_yield_pct": 1.17,
+      "risk_level": "未分级",
+      "business_summary": "按订单为船厂、海洋油气/海工项目和煤企制造船用锚链、深海系泊链及高强度矿用链，利润弹性主要来自高毛利系泊链放量。",
+      "core_judgement": "按2026年7月31日82.12亿元市值，扣除10.15亿元折后可剥离净现金后，经营业务购买价约71.97亿元；以1.50亿元折后可持续可分配现金利润计，经营业务静态回本约48.0年，未扣净现金的市值/现金利润约54.7倍。该口径是保守情景估算，不是目标价；最敏感变量是金融资产折价、扩产资本开支中维护性部分及系泊链景气持续性。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/601890.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
