@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 01:33:35 +08:00",
+  "built_at": "2026-08-01 01:34:05 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -24130,6 +24130,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/000507.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "002920.SZ",
+      "name": "德赛西威",
+      "raw_name": "德赛西威",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 550.2,
+      "pe_ttm": 23.59,
+      "owner_earnback_years": 61.13,
+      "owner_earnback_rate_pct": 1.64,
+      "market_profit_payback_years": 61.13,
+      "market_cash_profit_yield_pct": 1.64,
+      "discounted_detachable_net_cash_yi": 0.0,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": 550.2,
+      "discounted_cash_profit_yi": 9.0,
+      "revenue_yi": 325.57,
+      "gross_profit_yi": 62.08,
+      "parent_net_profit_yi": 24.54,
+      "gross_margin_pct": 19.07,
+      "net_margin_pct": 7.54,
+      "forecast_dividend_yield_pct": 1.35,
+      "risk_level": "未分级",
+      "business_summary": "向全球整车厂销售定制化智能座舱、智能驾驶计算平台及网联软硬件，以项目定点、研发量产和规模交付获取汽车电子产品与服务收入。",
+      "core_judgement": "按2026年7月31日550.20亿元市值，保守地不把定增募集资金及业务周转资金当作可剥离现金；以2025年经营现金流减资本开支10.81亿元为锚，并考虑2024年同口径自由现金流接近零、营运资本与扩产波动，将可持续可分配现金利润折至9.00亿元。由此经营业务购买价仍为550.20亿元，回本约61.1年。该数字不是预测，而是对当前价格所隐含现金兑现要求的压力测试。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/002920.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
