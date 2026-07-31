@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 03:51:26 +08:00",
+  "built_at": "2026-08-01 03:51:55 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -26300,6 +26300,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/000737.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "600867.SH",
+      "name": "通化东宝",
+      "raw_name": "通化东宝",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 163.73,
+      "pe_ttm": 13.24,
+      "owner_earnback_years": 51.86,
+      "owner_earnback_rate_pct": 1.93,
+      "market_profit_payback_years": 54.58,
+      "market_cash_profit_yield_pct": 1.83,
+      "discounted_detachable_net_cash_yi": 8.15,
+      "discounted_net_cash_to_market_cap_pct": 4.98,
+      "operating_business_price_yi": 155.58,
+      "discounted_cash_profit_yi": 3.0,
+      "revenue_yi": 29.47,
+      "gross_profit_yi": 20.73,
+      "parent_net_profit_yi": 12.19,
+      "gross_margin_pct": 70.33,
+      "net_margin_pct": 41.36,
+      "forecast_dividend_yield_pct": 3.58,
+      "risk_level": "未分级",
+      "business_summary": "以甘舒霖、平舒霖、锐舒霖等人胰岛素及胰岛素类似物为核心，通过终端推广网络向糖尿病患者提供药品、注射器械和血糖监测产品。",
+      "core_judgement": "按2026年7月31日163.73亿元市值，扣除8.15亿元折后可剥离净现金后，经营业务购买价约155.58亿元。以3.00亿元折后可持续可分配现金利润估算，经营业务回本约51.9年；若不扣现金，市值/现金利润约54.6倍。该分母低于2025年3.75亿元扣非归母净利润，并处于1.72亿元经营自由现金流与扣非利润之间，用于反映高资本化研发和持续资本投入；这是审慎估计，不是公司指引。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/600867.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
