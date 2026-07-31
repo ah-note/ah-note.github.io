@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 02:31:03 +08:00",
+  "built_at": "2026-08-01 02:31:53 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -21557,6 +21557,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/301367.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "003019.SZ",
+      "name": "宸展光电",
+      "raw_name": "宸展光电",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 39.55,
+      "pe_ttm": 22.97,
+      "owner_earnback_years": 34.67,
+      "owner_earnback_rate_pct": 2.88,
+      "market_profit_payback_years": 39.55,
+      "market_cash_profit_yield_pct": 2.53,
+      "discounted_detachable_net_cash_yi": 4.88,
+      "discounted_net_cash_to_market_cap_pct": 12.33,
+      "operating_business_price_yi": 34.67,
+      "discounted_cash_profit_yi": 1.0,
+      "revenue_yi": 25.2,
+      "gross_profit_yi": 5.86,
+      "parent_net_profit_yi": 1.94,
+      "gross_margin_pct": 23.25,
+      "net_margin_pct": 7.7,
+      "forecast_dividend_yield_pct": 2.23,
+      "risk_level": "未分级",
+      "business_summary": "面向全球商用、消费和汽车客户，提供触控显示器、产业电脑与车载显示总成的ODM制造、MicroTouch品牌销售和定制化服务。",
+      "core_judgement": "市值39.55亿元先扣除折后可剥离净现金4.88亿元，经营业务隐含购买价34.67亿元；以折后可持续可分配现金利润1.00亿元计，回本约34.7年。该利润低于1.65亿元扣非归母净利润，也高于当年0.68亿元实际经营自由现金流，含义是对应收增长和扩产资本开支做部分正常化，但仍保留明显折扣。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/003019.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
