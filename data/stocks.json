@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 00:42:39 +08:00",
+  "built_at": "2026-08-01 00:44:50 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -22735,6 +22735,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/688097.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "002973.SZ",
+      "name": "侨银股份",
+      "raw_name": "侨银股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 36.7,
+      "pe_ttm": 24.27,
+      "owner_earnback_years": 48.6,
+      "owner_earnback_rate_pct": 2.06,
+      "market_profit_payback_years": 24.47,
+      "market_cash_profit_yield_pct": 4.09,
+      "discounted_detachable_net_cash_yi": -36.21,
+      "discounted_net_cash_to_market_cap_pct": -98.66,
+      "operating_business_price_yi": 72.91,
+      "discounted_cash_profit_yi": 1.5,
+      "revenue_yi": 36.11,
+      "gross_profit_yi": 9.83,
+      "parent_net_profit_yi": 1.84,
+      "gross_margin_pct": 27.22,
+      "net_margin_pct": 5.09,
+      "forecast_dividend_yield_pct": 1.11,
+      "risk_level": "未分级",
+      "business_summary": "为地方政府和公共服务客户提供道路清扫、垃圾收运处理及一体化城市运维，靠长期项目运营服务费赚钱。",
+      "core_judgement": "可动用现金及交易性金融资产约2.58亿元，扣除38.78亿元融资后，折后可剥离净现金为负36.21亿元，经营业务购买价72.91亿元。2025年自由现金流2.71亿元受集中回款推动，而2024年同口径为负2.38亿元，不能直接年化；以归母利润1.84亿元为锚，对回款、持续资本开支及减值波动折扣后取1.50亿元可持续现金利润，对应约48.6年回本。结论对现金利润假设高度敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/002973.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
