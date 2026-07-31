@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 00:16:10 +08:00",
+  "built_at": "2026-08-01 00:18:01 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -3174,6 +3174,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002563.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "000030.SZ",
+      "name": "富奥股份",
+      "raw_name": "富奥股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 74.3,
+      "pe_ttm": 11.19,
+      "owner_earnback_years": 12.56,
+      "owner_earnback_rate_pct": 7.96,
+      "market_profit_payback_years": 13.51,
+      "market_cash_profit_yield_pct": 7.4,
+      "discounted_detachable_net_cash_yi": 5.25,
+      "discounted_net_cash_to_market_cap_pct": 7.06,
+      "operating_business_price_yi": 69.05,
+      "discounted_cash_profit_yi": 5.5,
+      "revenue_yi": 174.1,
+      "gross_profit_yi": 21.66,
+      "parent_net_profit_yi": 7.03,
+      "gross_margin_pct": 12.44,
+      "net_margin_pct": 4.04,
+      "forecast_dividend_yield_pct": 3.47,
+      "risk_level": "未分级",
+      "business_summary": "向整车厂直销智能底盘、智能网联、热管理及发动机附件等汽车零部件，并通过联营合资企业分享安全、转向等业务利润。",
+      "core_judgement": "按74.30亿元市值，折后可剥离净现金约5.25亿元，经营业务购买价约69.05亿元；以5.50亿元折后可持续可分配现金利润计，经营业务回本约12.56年，未扣现金的市值/现金利润约13.51倍。该数字依赖联营企业持续分红、汽车零部件资本开支保持在当前水平及客户回款未恶化，不是承诺收益率。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/000030.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
