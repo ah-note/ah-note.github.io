@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 20:14:00 +08:00",
+  "built_at": "2026-07-31 20:15:50 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -7824,6 +7824,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/300274.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "300039.SZ",
+      "name": "上海凯宝",
+      "raw_name": "上海凯宝",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 57.74,
+      "pe_ttm": 22.28,
+      "owner_earnback_years": 18.54,
+      "owner_earnback_rate_pct": 5.39,
+      "market_profit_payback_years": 30.39,
+      "market_cash_profit_yield_pct": 3.29,
+      "discounted_detachable_net_cash_yi": 22.52,
+      "discounted_net_cash_to_market_cap_pct": 39.0,
+      "operating_business_price_yi": 35.22,
+      "discounted_cash_profit_yi": 1.9,
+      "revenue_yi": 11.53,
+      "gross_profit_yi": 9.31,
+      "parent_net_profit_yi": 2.79,
+      "gross_margin_pct": 80.74,
+      "net_margin_pct": 24.17,
+      "forecast_dividend_yield_pct": 1.81,
+      "risk_level": "未分级",
+      "business_summary": "上海凯宝主要通过经销商销售以独家痰热清注射液为核心的呼吸领域药品，并以高毛利覆盖庞大的销售推广和研发费用。",
+      "core_judgement": "按57.74亿元市值，扣除折后可剥离净现金22.52亿元后，经营业务购买价约35.22亿元；用1.90亿元折后可持续可分配现金利润计算，经营业务回本约18.54年，未扣现金的市值/现金利润约30.39倍。这里的1.90亿元低于2025年经营自由现金流2.04亿元，反映收入与利润明显下滑；其他权益工具投资未纳入净现金，因此结果偏保守，但药品销量与政策变化仍可能令现金利润继续波动。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/300039.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
