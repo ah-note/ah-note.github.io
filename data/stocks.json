@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 15:37:34 +08:00",
+  "built_at": "2026-07-31 15:40:24 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -6987,6 +6987,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002249.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "603966.SH",
+      "name": "法兰泰克",
+      "raw_name": "法兰泰克",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 41.11,
+      "pe_ttm": 16.15,
+      "owner_earnback_years": 20.49,
+      "owner_earnback_rate_pct": 4.88,
+      "market_profit_payback_years": 22.65,
+      "market_cash_profit_yield_pct": 4.41,
+      "discounted_detachable_net_cash_yi": 3.92,
+      "discounted_net_cash_to_market_cap_pct": 9.53,
+      "operating_business_price_yi": 37.19,
+      "discounted_cash_profit_yi": 1.81,
+      "revenue_yi": 24.28,
+      "gross_profit_yi": 5.82,
+      "parent_net_profit_yi": 2.35,
+      "gross_margin_pct": 23.96,
+      "net_margin_pct": 9.66,
+      "forecast_dividend_yield_pct": 2.72,
+      "risk_level": "未分级",
+      "business_summary": "面向工业与重大工程客户，直销定制欧式/缆索起重机、空中搬运机器人及全生命周期服务的重载物料搬运装备商。",
+      "core_judgement": "以41.11亿元市值扣除3.92亿元折后可剥离净现金，经营业务购买价约37.19亿元；以扣非归母净利润2.016亿元再打九折得到1.815亿元可持续可分配现金利润，静态回本约20.5年。2025年自由现金流3.28亿元高于净利润，但合同负债大增、存货增加，强回款不能直接视为常态，因此未用单年自由现金流作分母。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/603966.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
