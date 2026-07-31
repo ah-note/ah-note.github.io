@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 03:42:55 +08:00",
+  "built_at": "2026-08-01 03:43:26 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -12350,6 +12350,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/300685.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "688093.SH",
+      "name": "世华科技",
+      "raw_name": "世华科技",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 73.6,
+      "pe_ttm": 18.53,
+      "owner_earnback_years": 21.7,
+      "owner_earnback_rate_pct": 4.61,
+      "market_profit_payback_years": 24.74,
+      "market_cash_profit_yield_pct": 4.04,
+      "discounted_detachable_net_cash_yi": 9.04,
+      "discounted_net_cash_to_market_cap_pct": 12.28,
+      "operating_business_price_yi": 64.56,
+      "discounted_cash_profit_yi": 2.98,
+      "revenue_yi": 10.87,
+      "gross_profit_yi": 6.32,
+      "parent_net_profit_yi": 3.99,
+      "gross_margin_pct": 58.11,
+      "net_margin_pct": 36.71,
+      "forecast_dividend_yield_pct": 2.65,
+      "risk_level": "未分级",
+      "business_summary": "世华科技为消费电子、显示面板及新能源汽车等客户直销定制化功能性电子材料和高性能光学材料，利润核心来自高技术门槛、高毛利的功能性电子材料。",
+      "core_judgement": "按2026-07-31市值73.60亿元，流动资金资产因定增募投和在建项目约束统一按八折，再全额扣除负债，得到折后可剥离净现金9.04亿元；以3.50亿元正常化税后现金利润为基准并再打八五折，折后现金利润2.975亿元。对应经营业务购买价64.56亿元、回本约21.70年。该数字依赖高毛利电子材料盈利能够延续，以及扩张资本开支最终能转为有效产能，不是收益承诺。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/688093.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
