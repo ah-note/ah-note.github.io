@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 04:10:42 +08:00",
+  "built_at": "2026-08-01 04:11:52 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -27974,6 +27974,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603066.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "600196.SH",
+      "name": "复星医药",
+      "raw_name": "复星医药",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 619.27,
+      "pe_ttm": 17.81,
+      "owner_earnback_years": 122.37,
+      "owner_earnback_rate_pct": 0.82,
+      "market_profit_payback_years": 90.02,
+      "market_cash_profit_yield_pct": 1.11,
+      "discounted_detachable_net_cash_yi": -222.54,
+      "discounted_net_cash_to_market_cap_pct": -35.94,
+      "operating_business_price_yi": 841.81,
+      "discounted_cash_profit_yi": 6.88,
+      "revenue_yi": 416.62,
+      "gross_profit_yi": 208.62,
+      "parent_net_profit_yi": 33.71,
+      "gross_margin_pct": 50.07,
+      "net_margin_pct": 8.09,
+      "forecast_dividend_yield_pct": 1.66,
+      "risk_level": "未分级",
+      "business_summary": "以制药为核心、兼营器械诊断与医疗服务，并通过参股国药控股分享医药分销利润的综合医药集团。",
+      "core_judgement": "按输入市值619.27亿元，折后可剥离净现金为-222.54亿元（实为折后净债务），经营业务购买价升至841.81亿元。现金利润以经营现金流52.13亿元减包含研发开发支出的资本开支51.26亿元，再加投资现金流中收到的长期股权投资股利6.01亿元，得到6.88亿元；对应经营业务回本约122.4年、市值/现金利润约90.0倍。该口径刻意保留持续研发和资产投入，显著严于会计利润口径。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/600196.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
