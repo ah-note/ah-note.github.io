@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 21:35:51 +08:00",
+  "built_at": "2026-07-31 21:38:42 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -10087,6 +10087,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/300595.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "300413.SZ",
+      "name": "芒果超媒",
+      "raw_name": "芒果超媒",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 308.86,
+      "pe_ttm": 29.48,
+      "owner_earnback_years": 20.83,
+      "owner_earnback_rate_pct": 4.8,
+      "market_profit_payback_years": 34.32,
+      "market_cash_profit_yield_pct": 2.91,
+      "discounted_detachable_net_cash_yi": 121.39,
+      "discounted_net_cash_to_market_cap_pct": 39.3,
+      "operating_business_price_yi": 187.47,
+      "discounted_cash_profit_yi": 9.0,
+      "revenue_yi": 138.13,
+      "gross_profit_yi": 31.9,
+      "parent_net_profit_yi": 12.27,
+      "gross_margin_pct": 23.09,
+      "net_margin_pct": 8.88,
+      "forecast_dividend_yield_pct": 1.57,
+      "risk_level": "未分级",
+      "business_summary": "以芒果TV为核心，用自制综艺和影视内容吸引会员与流量，再通过会员订阅、品牌广告、运营商大屏分发、电商和IP衍生多次变现。",
+      "core_judgement": "以308.86亿元市值扣除121.39亿元折后可剥离净现金，经营业务隐含购买价187.47亿元；以9.00亿元折后可持续可分配现金利润计，经营业务回本约20.83年，市值/现金利润约34.32倍。该口径承认公司低杠杆与大额存款价值，但未把全部存款按面值扣除，并下调了受回款改善、金融资产公允价值收益和递延所得税收益影响的年度利润；结果对9亿元现金利润假设高度敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/300413.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
