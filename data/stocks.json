@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 01:03:59 +08:00",
+  "built_at": "2026-08-01 01:06:31 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -21991,6 +21991,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603725.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "002468.SZ",
+      "name": "申通快递",
+      "raw_name": "申通快递",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 215.84,
+      "pe_ttm": 13.56,
+      "owner_earnback_years": 38.26,
+      "owner_earnback_rate_pct": 2.61,
+      "market_profit_payback_years": 33.36,
+      "market_cash_profit_yield_pct": 3.0,
+      "discounted_detachable_net_cash_yi": -31.73,
+      "discounted_net_cash_to_market_cap_pct": -14.7,
+      "operating_business_price_yi": 247.57,
+      "discounted_cash_profit_yi": 6.47,
+      "revenue_yi": 555.86,
+      "gross_profit_yi": 35.62,
+      "parent_net_profit_yi": 13.69,
+      "gross_margin_pct": 6.41,
+      "net_margin_pct": 2.46,
+      "forecast_dividend_yield_pct": 0.71,
+      "risk_level": "未分级",
+      "business_summary": "申通通过直营转运枢纽和加盟末端网点，为电商及散件客户提供以经济快递为主的全链路揽收、中转运输和派送服务，靠规模、单票价格与网络效率之间的薄利差赚钱。",
+      "core_judgement": "按2026-07-31市值215.84亿元，资金资产折价后约26.90亿元，扣除58.63亿元有息债务，折后可剥离净现金为-31.73亿元，经营业务购买价约247.57亿元。以2025年经营现金流37.99亿元减实际购建支出31.52亿元所得6.47亿元作为保守的可持续现金利润，经营业务回本约38.3年，市值/现金利润约33.4倍。该结果显示当前估值对资本开支回落或现金利润继续增长有明显依赖；若2025年扩产支出显著高于长期维护需求，本口径会低估稳态现金利润，反之则不能上调。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/002468.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
