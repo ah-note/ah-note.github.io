@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 03:25:58 +08:00",
+  "built_at": "2026-08-01 03:26:28 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -25463,6 +25463,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603737.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "002803.SZ",
+      "name": "吉宏股份",
+      "raw_name": "吉宏股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 81.55,
+      "pe_ttm": 28.12,
+      "owner_earnback_years": 47.25,
+      "owner_earnback_rate_pct": 2.12,
+      "market_profit_payback_years": 47.97,
+      "market_cash_profit_yield_pct": 2.08,
+      "discounted_detachable_net_cash_yi": 1.22,
+      "discounted_net_cash_to_market_cap_pct": 1.5,
+      "operating_business_price_yi": 80.33,
+      "discounted_cash_profit_yi": 1.7,
+      "revenue_yi": 67.22,
+      "gross_profit_yi": 31.54,
+      "parent_net_profit_yi": 2.77,
+      "gross_margin_pct": 46.92,
+      "net_margin_pct": 4.12,
+      "forecast_dividend_yield_pct": 0.97,
+      "risk_level": "未分级",
+      "business_summary": "吉宏股份用社交媒体广告把中国泛品卖给海外消费者，同时向快消品客户提供纸制包装设计、制造和配送。",
+      "core_judgement": "按2026年7月31日81.55亿元市值，审慎折后可剥离净现金仅1.224亿元，经营业务购买价约80.33亿元。以2024年和2025年经营自由现金流约2.505亿元、0.942亿元的中点为锚并向下取整，折后可持续现金利润取1.70亿元，对应经营业务回本约47.3年、市值/现金利润约48.0倍。该口径显示当前价格主要依赖未来增长，而非依靠现有现金产出快速回本。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/002803.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
