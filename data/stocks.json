@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 21:50:10 +08:00",
+  "built_at": "2026-07-31 21:52:00 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -16225,6 +16225,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600573.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "002967.SZ",
+      "name": "广电计量",
+      "raw_name": "广电计量",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 108.75,
+      "pe_ttm": 24.91,
+      "owner_earnback_years": 28.25,
+      "owner_earnback_rate_pct": 3.54,
+      "market_profit_payback_years": 28.25,
+      "market_cash_profit_yield_pct": 3.54,
+      "discounted_detachable_net_cash_yi": 0.0,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": 108.75,
+      "discounted_cash_profit_yi": 3.85,
+      "revenue_yi": 36.03,
+      "gross_profit_yi": 16.88,
+      "parent_net_profit_yi": 4.25,
+      "gross_margin_pct": 46.84,
+      "net_margin_pct": 11.78,
+      "forecast_dividend_yield_pct": 1.13,
+      "risk_level": "未分级",
+      "business_summary": "以全国实验室网络、检测设备、技术人员和资质为基础，向制造业、科研院所及政府客户直销计量校准和检验检测服务。",
+      "core_judgement": "2025年经营自由现金流4.78亿元，高于扣非归母净利润3.85亿元；为避免把单年回款改善和较2024年显著下降的资本开支永久化，取两者较低的扣非归母净利润作为可持续现金利润。货币资金扣除受限资金后约10.91亿元，但短期借款、长期借款、一年内到期非流动负债及非流动租赁负债合计约16.34亿元，故可剥离净现金按0计。按输入市值，经营业务购买价108.75亿元，静态回本约28.25年。该口径未计增长价值，也未假设未来定增资金可无条件剥离。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/002967.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
