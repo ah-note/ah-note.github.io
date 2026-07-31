@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 22:41:13 +08:00",
+  "built_at": "2026-07-31 22:45:25 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -18891,6 +18891,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002429.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "600577.SH",
+      "name": "精达股份",
+      "raw_name": "精达股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 168.89,
+      "pe_ttm": 27.66,
+      "owner_earnback_years": 33.78,
+      "owner_earnback_rate_pct": 2.96,
+      "market_profit_payback_years": 33.78,
+      "market_cash_profit_yield_pct": 2.96,
+      "discounted_detachable_net_cash_yi": 0.0,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": 168.89,
+      "discounted_cash_profit_yi": 5.0,
+      "revenue_yi": 246.74,
+      "gross_profit_yi": 14.16,
+      "parent_net_profit_yi": 5.99,
+      "gross_margin_pct": 5.74,
+      "net_margin_pct": 2.43,
+      "forecast_dividend_yield_pct": 1.15,
+      "risk_level": "未分级",
+      "business_summary": "精达股份以铜、铝为主要原料，按订单生产并向汽车、家电、电机、电子及新能源客户直销漆包电磁线、汽车电子线和特种导体，赚取规模制造与高性能材料加工的薄毛利。",
+      "core_judgement": "折后可剥离净现金取0：1,104,758,265.58元现金等价物加349,451,600.07元不可提前支取定存及约190,397,871.28元金融资产，仍低于3,164,243,377.85元融资类负债，且生产经营还需大量营运资金。以2025年扣非归母净利润569,634,073.52元为起点，考虑单年现金流受票据结算和集中回款扭曲、薄毛利及铜价周期，折后可持续可分配现金利润取500,000,000元。市值全部视为经营业务购买价，对应约33.78年回本；这是静态控股口径...",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/600577.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
