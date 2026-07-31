@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 04:13:42 +08:00",
+  "built_at": "2026-08-01 04:16:15 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -24502,6 +24502,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600329.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "601872.SH",
+      "name": "招商轮船",
+      "raw_name": "招商轮船",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 1346.83,
+      "pe_ttm": 17.03,
+      "owner_earnback_years": 39.63,
+      "owner_earnback_rate_pct": 2.52,
+      "market_profit_payback_years": 33.51,
+      "market_cash_profit_yield_pct": 2.98,
+      "discounted_detachable_net_cash_yi": -245.82,
+      "discounted_net_cash_to_market_cap_pct": -18.25,
+      "operating_business_price_yi": 1592.65,
+      "discounted_cash_profit_yi": 40.19,
+      "revenue_yi": 281.77,
+      "gross_profit_yi": 74.6,
+      "parent_net_profit_yi": 60.12,
+      "gross_margin_pct": 26.47,
+      "net_margin_pct": 21.34,
+      "forecast_dividend_yield_pct": 1.92,
+      "risk_level": "未分级",
+      "business_summary": "运营油轮、干散货、集装箱、滚装和LNG船队，主要靠运费与船舶租金赚取航运周期和运营效率的差价。",
+      "core_judgement": "按控股口径，期末现金及现金等价物47.18亿元不足覆盖融资性负债293.01亿元，折后可剥离净现金为-245.82亿元，因此经营业务购买价为1592.65亿元。以扣非归母利润50.24亿元为基准，对航运周期和维持性资本开支估计误差打八折，折后现金利润40.19亿元，对应经营业务回本约39.6年、市值/现金利润约33.5倍。该数字是审慎可比口径，不是盈利预测。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/601872.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
