@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 23:27:25 +08:00",
+  "built_at": "2026-07-31 23:29:02 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -19852,6 +19852,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/688355.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "301408.SZ",
+      "name": "华人健康",
+      "raw_name": "华人健康",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 56.84,
+      "pe_ttm": 27.14,
+      "owner_earnback_years": 36.22,
+      "owner_earnback_rate_pct": 2.76,
+      "market_profit_payback_years": 32.48,
+      "market_cash_profit_yield_pct": 3.08,
+      "discounted_detachable_net_cash_yi": -6.55,
+      "discounted_net_cash_to_market_cap_pct": -11.53,
+      "operating_business_price_yi": 63.39,
+      "discounted_cash_profit_yi": 1.75,
+      "revenue_yi": 54.87,
+      "gross_profit_yi": 18.6,
+      "parent_net_profit_yi": 1.91,
+      "gross_margin_pct": 33.89,
+      "net_margin_pct": 3.49,
+      "forecast_dividend_yield_pct": 0.7,
+      "risk_level": "未分级",
+      "business_summary": "以安徽为根据地的医药零售与渠道服务商，通过药店网络、医药营销、终端集采和小规模研发生产赚取商品差价与服务收益。",
+      "core_judgement": "账面货币资金大部分为票据保证金，折后资金资产不足以覆盖计息借款，故经营业务购买价高于市值。以保守持续现金利润1.75亿元计，控股回本约36.2年；该利润为分析估计而非公司指引。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/301408.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
