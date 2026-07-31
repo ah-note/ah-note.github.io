@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 17:35:05 +08:00",
+  "built_at": "2026-07-31 17:36:34 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -11141,6 +11141,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/688101.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "002714.SZ",
+      "name": "牧原股份",
+      "raw_name": "牧原股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 2253.78,
+      "pe_ttm": 23.04,
+      "owner_earnback_years": 26.47,
+      "owner_earnback_rate_pct": 3.78,
+      "market_profit_payback_years": 20.79,
+      "market_cash_profit_yield_pct": 4.81,
+      "discounted_detachable_net_cash_yi": -615.25,
+      "discounted_net_cash_to_market_cap_pct": -27.3,
+      "operating_business_price_yi": 2869.03,
+      "discounted_cash_profit_yi": 108.41,
+      "revenue_yi": 1441.45,
+      "gross_profit_yi": 256.84,
+      "parent_net_profit_yi": 154.87,
+      "gross_margin_pct": 17.82,
+      "net_margin_pct": 10.74,
+      "forecast_dividend_yield_pct": 3.3,
+      "risk_level": "未分级",
+      "business_summary": "以自育自繁自养的一体化体系规模化养猪，并向下游延伸屠宰和肉食销售，利润核心仍来自商品猪售价与完全成本之间的差额。",
+      "core_judgement": "货币资金按70%折后仅约97.04亿元，而主要融资负债约712.29亿元，形成折后净债务约615.25亿元，因此经营业务购买价高于市值。可持续现金利润取归母净利润154.87亿元与经营自由现金流205.27亿元孰低，再因猪价强周期、2025年四季度盈利显著回落而折减30%，得到108.41亿元。由此经营业务回本约26.47年；这是周期折扣下的控股口径，不是盈利预测。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/002714.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
