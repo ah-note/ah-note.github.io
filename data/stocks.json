@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 20:16:19 +08:00",
+  "built_at": "2026-07-31 20:18:50 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -14892,6 +14892,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002823.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "301631.SZ",
+      "name": "壹连科技",
+      "raw_name": "壹连科技",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 75.09,
+      "pe_ttm": 24.7,
+      "owner_earnback_years": 28.17,
+      "owner_earnback_rate_pct": 3.55,
+      "market_profit_payback_years": 30.77,
+      "market_cash_profit_yield_pct": 3.25,
+      "discounted_detachable_net_cash_yi": 6.36,
+      "discounted_net_cash_to_market_cap_pct": 8.47,
+      "operating_business_price_yi": 68.73,
+      "discounted_cash_profit_yi": 2.44,
+      "revenue_yi": 51.49,
+      "gross_profit_yi": 8.0,
+      "parent_net_profit_yi": 2.93,
+      "gross_margin_pct": 15.53,
+      "net_margin_pct": 5.7,
+      "forecast_dividend_yield_pct": 1.22,
+      "risk_level": "未分级",
+      "business_summary": "面向新能源车与储能客户直销定制电连接组件，增长快但利润率薄、客户集中且占用应收、存货和产能。",
+      "core_judgement": "按75.09亿元市值，折后净现金约6.36亿元，经营业务隐含购买价68.73亿元；折后可持续现金利润2.44亿元，对应经营业务回本约28.2年、市值/现金利润约30.8年。结论高度依赖最大客户订单、毛利率与扩产资本开支，是静态控股测算而非预测或建议。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/301631.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
