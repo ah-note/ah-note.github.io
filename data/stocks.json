@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 15:30:32 +08:00",
+  "built_at": "2026-07-31 15:31:01 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -4352,6 +4352,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002001.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "601326.SH",
+      "name": "秦港股份",
+      "raw_name": "秦港股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 194.44,
+      "pe_ttm": 12.05,
+      "owner_earnback_years": 15.12,
+      "owner_earnback_rate_pct": 6.61,
+      "market_profit_payback_years": 15.98,
+      "market_cash_profit_yield_pct": 6.26,
+      "discounted_detachable_net_cash_yi": 10.47,
+      "discounted_net_cash_to_market_cap_pct": 5.39,
+      "operating_business_price_yi": 183.97,
+      "discounted_cash_profit_yi": 12.16,
+      "revenue_yi": 69.86,
+      "gross_profit_yi": 29.11,
+      "parent_net_profit_yi": 16.06,
+      "gross_margin_pct": 41.67,
+      "net_margin_pct": 22.99,
+      "forecast_dividend_yield_pct": 3.3,
+      "risk_level": "未分级",
+      "business_summary": "以秦皇岛、曹妃甸和黄骅港区为节点，为煤炭、金属矿石等大宗散货提供装卸、堆存、仓储、运输和物流服务。",
+      "core_judgement": "以194.44亿元市值，扣除10.47亿元折后可剥离净现金后，经营业务购买价183.97亿元。2025年经营自由现金流14.03亿元，扣少数股东当年利润0.52亿元后为13.52亿元，再按90%折算为12.16亿元可持续可分配现金利润，对应经营业务回本15.12年；结果依赖单年资本开支能代表长期维护需求。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/601326.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
