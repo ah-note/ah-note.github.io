@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 02:00:45 +08:00",
+  "built_at": "2026-08-01 02:02:43 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -24967,6 +24967,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/000100.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "601003.SH",
+      "name": "柳钢股份",
+      "raw_name": "柳钢股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 105.37,
+      "pe_ttm": 24.27,
+      "owner_earnback_years": 86.23,
+      "owner_earnback_rate_pct": 1.16,
+      "market_profit_payback_years": 26.38,
+      "market_cash_profit_yield_pct": 3.79,
+      "discounted_detachable_net_cash_yi": -239.06,
+      "discounted_net_cash_to_market_cap_pct": -226.88,
+      "operating_business_price_yi": 344.43,
+      "discounted_cash_profit_yi": 3.99,
+      "revenue_yi": 688.91,
+      "gross_profit_yi": 39.36,
+      "parent_net_profit_yi": 6.71,
+      "gross_margin_pct": 5.71,
+      "net_margin_pct": 0.97,
+      "forecast_dividend_yield_pct": 2.5,
+      "risk_level": "未分级",
+      "business_summary": "在柳州与防城港采购矿石、煤和废钢，经长流程冶炼轧制成板材、棒线材等，主要通过经销及直供卖给华南、西南客户。",
+      "core_judgement": "可用现金31.29亿元减融资性负债270.35亿元，得到-239.06亿元净现金，实质为净债务。合并自由现金流32.41亿元包含大量少数股东归属，且2023—2024年归母连续亏损；以2025年扣非归母6.145亿元再作35%周期折扣，得到3.994亿元。经营业务购买价344.43亿元，约86.2年回本；这是审慎情景，不是确定预测。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/601003.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
