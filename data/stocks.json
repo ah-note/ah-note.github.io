@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 00:15:12 +08:00",
+  "built_at": "2026-08-01 00:15:41 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -24750,6 +24750,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603929.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "600886.SH",
+      "name": "国投电力",
+      "raw_name": "国投电力",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 1212.68,
+      "pe_ttm": 16.31,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 530.14,
+      "gross_profit_yi": 218.08,
+      "parent_net_profit_yi": 73.93,
+      "gross_margin_pct": 41.14,
+      "net_margin_pct": 13.95,
+      "forecast_dividend_yield_pct": 3.35,
+      "risk_level": "未分级",
+      "business_summary": "公司通过控股和投资水电、火电、风电、光伏项目，把发出的电卖给电网及电力市场；利润核心来自雅砻江等大水电，同时火电燃料成本和新能源电价决定边际盈利。",
+      "core_judgement": "普通控股回本口径不适用。2025年末现金与约1556.21亿元主要有息融资、1956.89亿元固定资产及持续建设支出共同构成电站项目资本结构，不能把现金独立剥离后扣减市值；合并经营现金流也包含少数股东权益对应份额且需先覆盖维护/扩张资本开支、利息和本金。应改用分项目折现现金流：按剩余运营期预测发电量×上网电价，扣除燃料与运维、税费、维护性资本开支和债务服务，再按持股比例归集上市公司可分配现金，并以实际分红检验。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/600886.SH/"
     }
   ]
 }
