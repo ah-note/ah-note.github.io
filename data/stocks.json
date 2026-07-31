@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 01:47:28 +08:00",
+  "built_at": "2026-08-01 01:48:43 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -23758,6 +23758,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002155.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "688100.SH",
+      "name": "威胜信息",
+      "raw_name": "威胜信息",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 147.21,
+      "pe_ttm": 21.8,
+      "owner_earnback_years": 46.15,
+      "owner_earnback_rate_pct": 2.17,
+      "market_profit_payback_years": 50.6,
+      "market_cash_profit_yield_pct": 1.98,
+      "discounted_detachable_net_cash_yi": 12.95,
+      "discounted_net_cash_to_market_cap_pct": 8.8,
+      "operating_business_price_yi": 134.26,
+      "discounted_cash_profit_yi": 2.91,
+      "revenue_yi": 29.78,
+      "gross_profit_yi": 11.96,
+      "parent_net_profit_yi": 6.66,
+      "gross_margin_pct": 40.17,
+      "net_margin_pct": 22.38,
+      "forecast_dividend_yield_pct": 1.82,
+      "risk_level": "未分级",
+      "business_summary": "为电网和水气热公用事业客户提供感知终端、通信模块/网关、管理系统及能源数字化解决方案。",
+      "core_judgement": "以147.21亿元市值减去折后可剥离净现金12.95亿元，经营业务购买价约134.26亿元；以2025年经营现金流减实际资本开支得到的2.91亿元作为保守可持续现金利润，经营业务回本约46.1年，市值/现金利润约50.6倍。该结果不等同于盈利预测：应收快速增长或高资本开支持续会拉长回本；若2.25亿元资本开支中扩张性支出未来显著回落，则本口径会偏保守。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/688100.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
