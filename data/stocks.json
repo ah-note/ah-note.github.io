@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 03:26:28 +08:00",
+  "built_at": "2026-08-01 03:28:19 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -26765,6 +26765,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/000100.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "002406.SZ",
+      "name": "远东传动",
+      "raw_name": "远东传动",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 48.41,
+      "pe_ttm": 28.01,
+      "owner_earnback_years": 78.45,
+      "owner_earnback_rate_pct": 1.27,
+      "market_profit_payback_years": 96.96,
+      "market_cash_profit_yield_pct": 1.03,
+      "discounted_detachable_net_cash_yi": 9.24,
+      "discounted_net_cash_to_market_cap_pct": 19.09,
+      "operating_business_price_yi": 39.17,
+      "discounted_cash_profit_yi": 0.5,
+      "revenue_yi": 15.69,
+      "gross_profit_yi": 4.28,
+      "parent_net_profit_yi": 1.56,
+      "gross_margin_pct": 27.29,
+      "net_margin_pct": 9.96,
+      "forecast_dividend_yield_pct": 4.53,
+      "risk_level": "未分级",
+      "business_summary": "公司面向商用车、工程机械、特种车辆及部分乘用车整车厂，按订单生产并直销非等速传动轴、等速驱动轴及零部件。",
+      "core_judgement": "按输入市值48.41亿元，现金等价物九折、交易性金融资产八折、短期借款全额扣除，折后可剥离净现金约9.24亿元；经营业务购买价约39.17亿元。现金利润采用2024—2025年经营自由现金流均值5,547.6万元再打九折，约4,992.8万元，对应经营业务回本约78.5年、市值/现金利润约97.0倍。该结果揭示2025年应收扩张下现金转化偏弱，并非盈利预测；若应收占用回落，回本年会缩短。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/002406.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
