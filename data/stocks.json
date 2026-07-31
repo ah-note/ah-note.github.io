@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 18:08:09 +08:00",
+  "built_at": "2026-07-31 18:08:38 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -11296,6 +11296,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/000400.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "603062.SH",
+      "name": "麦加芯彩",
+      "raw_name": "麦加芯彩",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 38.62,
+      "pe_ttm": 22.7,
+      "owner_earnback_years": 24.63,
+      "owner_earnback_rate_pct": 4.06,
+      "market_profit_payback_years": 27.59,
+      "market_cash_profit_yield_pct": 3.63,
+      "discounted_detachable_net_cash_yi": 4.14,
+      "discounted_net_cash_to_market_cap_pct": 10.72,
+      "operating_business_price_yi": 34.48,
+      "discounted_cash_profit_yi": 1.4,
+      "revenue_yi": 17.12,
+      "gross_profit_yi": 4.07,
+      "parent_net_profit_yi": 2.1,
+      "gross_margin_pct": 23.8,
+      "net_margin_pct": 12.28,
+      "forecast_dividend_yield_pct": 4.71,
+      "risk_level": "未分级",
+      "business_summary": "向集装箱、风电叶片等装备客户研发、生产并以直销为主销售高性能工业涂料。",
+      "core_judgement": "按38.62亿元输入市值，折后可剥离净现金约4.14亿元，占市值10.72%；经营业务购买价34.48亿元。以1.40亿元折后可持续现金利润计，经营业务回本约24.63年，未扣净现金的市值/现金利润约27.59倍。结果对募集资金用途、理财回收及集装箱和风电周期敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/603062.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
