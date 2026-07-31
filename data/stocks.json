@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 18:44:26 +08:00",
+  "built_at": "2026-07-31 18:44:55 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -11110,6 +11110,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002209.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "002917.SZ",
+      "name": "金奥博",
+      "raw_name": "金奥博",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 35.49,
+      "pe_ttm": 20.03,
+      "owner_earnback_years": 23.01,
+      "owner_earnback_rate_pct": 4.35,
+      "market_profit_payback_years": 22.94,
+      "market_cash_profit_yield_pct": 4.36,
+      "discounted_detachable_net_cash_yi": -0.1,
+      "discounted_net_cash_to_market_cap_pct": -0.29,
+      "operating_business_price_yi": 35.59,
+      "discounted_cash_profit_yi": 1.55,
+      "revenue_yi": 17.69,
+      "gross_profit_yi": 6.44,
+      "parent_net_profit_yi": 1.75,
+      "gross_margin_pct": 36.42,
+      "net_margin_pct": 9.87,
+      "forecast_dividend_yield_pct": 1.46,
+      "risk_level": "未分级",
+      "business_summary": "以民爆智能装备和工艺为入口，延伸至化工材料、炸药雷管、运输及爆破服务的一体化民爆企业。",
+      "core_judgement": "折后净现金略负，经营业务购买价35.59亿元；扣非归母利润九折后的现金利润1.55亿元，对应回本约23.0年。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/002917.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
