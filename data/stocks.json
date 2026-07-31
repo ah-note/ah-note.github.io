@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 01:13:14 +08:00",
+  "built_at": "2026-08-01 01:14:03 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -17155,6 +17155,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002454.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "603379.SH",
+      "name": "三美股份",
+      "raw_name": "三美股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 361.22,
+      "pe_ttm": 16.67,
+      "owner_earnback_years": 27.56,
+      "owner_earnback_rate_pct": 3.63,
+      "market_profit_payback_years": 28.9,
+      "market_cash_profit_yield_pct": 3.46,
+      "discounted_detachable_net_cash_yi": 16.71,
+      "discounted_net_cash_to_market_cap_pct": 4.63,
+      "operating_business_price_yi": 344.51,
+      "discounted_cash_profit_yi": 12.5,
+      "revenue_yi": 58.5,
+      "gross_profit_yi": 29.6,
+      "parent_net_profit_yi": 20.61,
+      "gross_margin_pct": 50.64,
+      "net_margin_pct": 35.24,
+      "forecast_dividend_yield_pct": 2.57,
+      "risk_level": "未分级",
+      "business_summary": "三美股份以萤石—氟化氢—氟制冷剂一体化制造为核心，主要赚取受配额与供需影响的制冷剂价差。",
+      "core_judgement": "以2026-07-31市值361.22亿元，扣除折后可剥离净现金16.71亿元后，经营业务购买价约344.51亿元；以折后可持续可分配现金利润12.50亿元计，回本约27.6年。该数字不是收益承诺：2025年利润受制冷剂销售价格大涨推动，且22.01亿元在建工程说明现金仍需支持扩产，因此同时对现金和峰值利润作了保守折扣。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/603379.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
