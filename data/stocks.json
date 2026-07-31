@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 17:53:24 +08:00",
+  "built_at": "2026-07-31 17:56:34 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -4538,6 +4538,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603071.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "600179.SH",
+      "name": "安通控股",
+      "raw_name": "安通控股",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 184.49,
+      "pe_ttm": 16.8,
+      "owner_earnback_years": 14.91,
+      "owner_earnback_rate_pct": 6.71,
+      "market_profit_payback_years": 18.9,
+      "market_cash_profit_yield_pct": 5.29,
+      "discounted_detachable_net_cash_yi": 38.94,
+      "discounted_net_cash_to_market_cap_pct": 21.11,
+      "operating_business_price_yi": 145.55,
+      "discounted_cash_profit_yi": 9.76,
+      "revenue_yi": 90.8,
+      "gross_profit_yi": 16.98,
+      "parent_net_profit_yi": 10.86,
+      "gross_margin_pct": 18.7,
+      "net_margin_pct": 11.96,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "以自有和租赁船舶、集装箱为核心，整合海运、公路和铁路网络，为国内为主、国际为辅的客户提供按运输服务收费的集装箱全程物流。",
+      "core_judgement": "以2026-07-31市值184.49亿元计，折后可剥离净现金38.94亿元，占市值21.11%；余下经营业务购买价145.55亿元。以扣除2025年非经常性损益后的归母净利9.76亿元作为审慎现金利润代理，经营业务静态回本约14.91年，市值/现金利润约18.90倍。该结果依赖2025年盈利可持续、现金资产未继续大额投入船箱且保留10亿元运营缓冲足够；它不是承诺回报。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/600179.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
