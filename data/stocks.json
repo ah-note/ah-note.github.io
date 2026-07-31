@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 20:46:41 +08:00",
+  "built_at": "2026-07-31 20:47:50 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -16008,6 +16008,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/000680.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "301203.SZ",
+      "name": "国泰环保",
+      "raw_name": "国泰环保",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 24.9,
+      "pe_ttm": 23.52,
+      "owner_earnback_years": 30.53,
+      "owner_earnback_rate_pct": 3.28,
+      "market_profit_payback_years": 41.97,
+      "market_cash_profit_yield_pct": 2.38,
+      "discounted_detachable_net_cash_yi": 6.79,
+      "discounted_net_cash_to_market_cap_pct": 27.25,
+      "operating_business_price_yi": 18.11,
+      "discounted_cash_profit_yi": 0.59,
+      "revenue_yi": 3.0,
+      "gross_profit_yi": 1.67,
+      "parent_net_profit_yi": 1.14,
+      "gross_margin_pct": 55.63,
+      "net_margin_pct": 37.93,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "以自研深度脱水技术为大型污水处理厂提供污泥处理运营服务，并向工业降碳、资源循环和电池材料延伸。",
+      "core_judgement": "市值24.90亿元减折后净现金6.786亿元，经营业务隐含购买价约18.11亿元；以2025年经营自由现金流6591万元再打九折得5932万元现金利润，静态回本约30.5年。净利润未完全转为自由现金流，故现金口径比PE更保守。若现金继续投入新项目或回款恶化，回本更长。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/301203.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
