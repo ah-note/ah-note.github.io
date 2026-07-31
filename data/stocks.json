@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 02:20:17 +08:00",
+  "built_at": "2026-08-01 02:23:30 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -17279,6 +17279,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/300760.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "600557.SH",
+      "name": "康缘药业",
+      "raw_name": "康缘药业",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 72.3,
+      "pe_ttm": 24.12,
+      "owner_earnback_years": 27.16,
+      "owner_earnback_rate_pct": 3.68,
+      "market_profit_payback_years": 33.28,
+      "market_cash_profit_yield_pct": 3.01,
+      "discounted_detachable_net_cash_yi": 13.29,
+      "discounted_net_cash_to_market_cap_pct": 18.39,
+      "operating_business_price_yi": 59.01,
+      "discounted_cash_profit_yi": 2.17,
+      "revenue_yi": 32.93,
+      "gross_profit_yi": 23.53,
+      "parent_net_profit_yi": 3.04,
+      "gross_margin_pct": 71.44,
+      "net_margin_pct": 9.23,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "以现代中药为核心、化药和生物药为两翼，自研自产并通过医药商业渠道及自建学术推广团队触达医疗终端。",
+      "core_judgement": "以72.30亿元市值减去13.29亿元折后可剥离净现金，经营业务购买价约59.01亿元；以2025年扣非归母净利润2.17亿元作为折后可持续可分配现金利润，经营业务回本约27.2年，整体市值/现金利润约33.3倍。该口径已对现金用途和关联债务保守折价，但仍高度依赖收入止跌和研发投入最终转化。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/600557.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
