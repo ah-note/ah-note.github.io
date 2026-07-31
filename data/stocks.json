@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 01:24:03 +08:00",
+  "built_at": "2026-08-01 01:24:33 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -15853,6 +15853,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603298.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "300259.SZ",
+      "name": "新天科技",
+      "raw_name": "新天科技",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 44.7,
+      "pe_ttm": 18.41,
+      "owner_earnback_years": 25.87,
+      "owner_earnback_rate_pct": 3.86,
+      "market_profit_payback_years": 34.38,
+      "market_cash_profit_yield_pct": 2.91,
+      "discounted_detachable_net_cash_yi": 11.06,
+      "discounted_net_cash_to_market_cap_pct": 24.75,
+      "operating_business_price_yi": 33.64,
+      "discounted_cash_profit_yi": 1.3,
+      "revenue_yi": 10.66,
+      "gross_profit_yi": 4.65,
+      "parent_net_profit_yi": 2.51,
+      "gross_margin_pct": 43.57,
+      "net_margin_pct": 23.51,
+      "forecast_dividend_yield_pct": 1.53,
+      "risk_level": "未分级",
+      "business_summary": "面向水务、燃气、热力等公用事业客户销售智能计量终端，并配套软件平台和物联网解决方案。",
+      "core_judgement": "按44.70亿元市值，扣除折后可剥离净现金11.06亿元后，经营业务购买价约33.64亿元；以1.30亿元折后可持续现金利润计，经营业务回本约25.9年，未扣现金的市值/现金利润约34.4倍。该结果对交易性金融资产折价、应收回款以及维护资本开支判断敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/300259.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
