@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 18:21:00 +08:00",
+  "built_at": "2026-07-31 18:21:29 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -11699,6 +11699,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603339.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "002658.SZ",
+      "name": "雪迪龙",
+      "raw_name": "雪迪龙",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 45.84,
+      "pe_ttm": 29.55,
+      "owner_earnback_years": 25.14,
+      "owner_earnback_rate_pct": 3.98,
+      "market_profit_payback_years": 33.96,
+      "market_cash_profit_yield_pct": 2.95,
+      "discounted_detachable_net_cash_yi": 11.9,
+      "discounted_net_cash_to_market_cap_pct": 25.96,
+      "operating_business_price_yi": 33.94,
+      "discounted_cash_profit_yi": 1.35,
+      "revenue_yi": 13.98,
+      "gross_profit_yi": 6.09,
+      "parent_net_profit_yi": 1.51,
+      "gross_margin_pct": 43.57,
+      "net_margin_pct": 10.8,
+      "forecast_dividend_yield_pct": 2.77,
+      "risk_level": "未分级",
+      "business_summary": "公司向政府监测机构和电力、建材、钢铁、石化、化工等工业客户直营环境监测与过程分析仪器、系统集成和运维服务，生态环境监测系统贡献约八成收入。",
+      "core_judgement": "按2026年7月31日45.84亿元市值，折后可剥离净现金约11.90亿元，余下经营业务购买价约33.94亿元。以1.35亿元折后可持续可分配现金利润计，经营业务回本约25.1年，市值/现金利润约34.0倍。资金资产降低了实际经营业务买价，但当前价格仍主要依赖持续盈利而非净现金覆盖；该数字对营运现金保留额、理财可变现性和回款可持续性敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/002658.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
