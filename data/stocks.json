@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 22:03:38 +08:00",
+  "built_at": "2026-07-31 22:04:54 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -21154,6 +21154,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600018.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "600012.SH",
+      "name": "皖通高速",
+      "raw_name": "皖通高速",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 289.09,
+      "pe_ttm": 15.52,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 67.22,
+      "gross_profit_yi": 29.91,
+      "parent_net_profit_yi": 18.77,
+      "gross_margin_pct": 44.5,
+      "net_margin_pct": 27.93,
+      "forecast_dividend_yield_pct": 3.9,
+      "risk_level": "未分级",
+      "business_summary": "运营安徽省内多条收费高速、公路和桥梁，以车辆通行费获取现金流，并通过收购与改扩建延续路产组合。",
+      "core_judgement": "普通控股回本口径不适用。收费权是有期限且需持续投入的经营资产，货币资金也要覆盖146.25亿元合并有息债务、改扩建和已承诺投资。应建立逐路段剩余收费期现金流模型，在通行费收入中扣除运营养护、所得税、维护及改扩建资本开支和债务服务，并对2026年前后到期路段及未核定期限做情景分析。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/600012.SH/"
     }
   ]
 }
