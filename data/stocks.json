@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 16:29:21 +08:00",
+  "built_at": "2026-07-31 16:29:50 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -9033,6 +9033,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600526.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "300994.SZ",
+      "name": "久祺股份",
+      "raw_name": "久祺股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 24.8,
+      "pe_ttm": 19.96,
+      "owner_earnback_years": 23.33,
+      "owner_earnback_rate_pct": 4.29,
+      "market_profit_payback_years": 28.16,
+      "market_cash_profit_yield_pct": 3.55,
+      "discounted_detachable_net_cash_yi": 4.25,
+      "discounted_net_cash_to_market_cap_pct": 17.15,
+      "operating_business_price_yi": 20.55,
+      "discounted_cash_profit_yi": 0.88,
+      "revenue_yi": 33.61,
+      "gross_profit_yi": 4.71,
+      "parent_net_profit_yi": 1.48,
+      "gross_margin_pct": 14.0,
+      "net_margin_pct": 4.4,
+      "forecast_dividend_yield_pct": 5.26,
+      "risk_level": "未分级",
+      "business_summary": "一家以出口为主、用ODM和贸易模式走量并以自有品牌提高毛利的自行车、童车、电助力车及配件供应商。",
+      "core_judgement": "以2026-07-31市值24.80亿元计，折后可剥离净现金4.252亿元，相当于市值17.15%；经营业务购买价20.548亿元。折后可持续现金利润取2025年经营现金流减资本开支后的0.979亿元，再打九折为0.881亿元，对应经营业务回本约23.33年、市值/现金利润约28.16倍。该口径刻意低于归母净利润，反映2025年资本开支较高、单年现金流仍有营运资金波动；它是基于历史年度的压力测试，不是未来业绩承诺。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/300994.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
