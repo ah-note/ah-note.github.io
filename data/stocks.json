@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 02:48:46 +08:00",
+  "built_at": "2026-08-01 02:49:36 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -29214,6 +29214,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/301175.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "600008.SH",
+      "name": "首创环保",
+      "raw_name": "首创环保",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 213.61,
+      "pe_ttm": 11.85,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 188.86,
+      "gross_profit_yi": 69.27,
+      "parent_net_profit_yi": 17.72,
+      "gross_margin_pct": 36.68,
+      "net_margin_pct": 9.38,
+      "forecast_dividend_yield_pct": 4.12,
+      "risk_level": "未分级",
+      "business_summary": "以PPP、特许经营和委托运营等方式投资并运营供水、污水处理、垃圾焚烧等公共环保设施，靠长期处理费、水费、售电及配套工程服务回收资本。",
+      "core_judgement": "普通控股回本口径不适用。56.96亿元货币资金、项目债务、PPP金融资产及444.87亿元特许经营权共同构成项目融资和履约结构，不能把现金简单剥离，也不能用合并自由现金流直接资本化。应改用逐项目剩余收费期、量价机制、维持性资本开支、回款和债务服务后的股东现金流折现；年报未提供足以完成逐项目模型的统一明细，因此普通回本排序数字保持为空。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/600008.SH/"
     }
   ]
 }
