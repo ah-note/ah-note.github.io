@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 01:57:55 +08:00",
+  "built_at": "2026-08-01 01:59:05 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -24130,6 +24130,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/688097.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "600366.SH",
+      "name": "宁波韵升",
+      "raw_name": "宁波韵升",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 121.0,
+      "pe_ttm": 29.5,
+      "owner_earnback_years": 47.83,
+      "owner_earnback_rate_pct": 2.09,
+      "market_profit_payback_years": 50.67,
+      "market_cash_profit_yield_pct": 1.97,
+      "discounted_detachable_net_cash_yi": 6.77,
+      "discounted_net_cash_to_market_cap_pct": 5.59,
+      "operating_business_price_yi": 114.23,
+      "discounted_cash_profit_yi": 2.39,
+      "revenue_yi": 54.64,
+      "gross_profit_yi": 9.73,
+      "parent_net_profit_yi": 3.31,
+      "gross_margin_pct": 17.81,
+      "net_margin_pct": 6.05,
+      "forecast_dividend_yield_pct": 0.9,
+      "risk_level": "未分级",
+      "business_summary": "为新能源汽车、消费电子和工业/机器人客户定制高性能钕铁硼磁材及磁组件，盈利取决于稀土原料成本传导、产品结构和产能利用率。",
+      "core_judgement": "按2026-07-31市值121亿元，折后可剥离净现金约6.77亿元，仅覆盖市值5.59%；经营业务购买价约114.23亿元。以2025年经营自由现金流2.65亿元与扣非归母净利2.79亿元中较低者为基准，再因单年现金流受营运资金波动、存货上升影响折价10%，可持续可分配现金利润约2.39亿元，对应经营业务回本约47.8年、市值/现金利润约50.7倍。该结果对稀土价格、毛利率及营运资金回转高度敏感，不代表未来必然现金流。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/600366.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
