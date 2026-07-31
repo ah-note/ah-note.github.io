@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 21:09:43 +08:00",
+  "built_at": "2026-07-31 21:10:12 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -17589,6 +17589,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/300043.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "600681.SH",
+      "name": "百川能源",
+      "raw_name": "百川能源",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 46.13,
+      "pe_ttm": 18.82,
+      "owner_earnback_years": 42.28,
+      "owner_earnback_rate_pct": 2.36,
+      "market_profit_payback_years": 30.9,
+      "market_cash_profit_yield_pct": 3.24,
+      "discounted_detachable_net_cash_yi": -17.0,
+      "discounted_net_cash_to_market_cap_pct": -36.86,
+      "operating_business_price_yi": 63.13,
+      "discounted_cash_profit_yi": 1.49,
+      "revenue_yi": 52.05,
+      "gross_profit_yi": 7.17,
+      "parent_net_profit_yi": 2.37,
+      "gross_margin_pct": 13.77,
+      "net_margin_pct": 4.56,
+      "forecast_dividend_yield_pct": 4.36,
+      "risk_level": "未分级",
+      "business_summary": "在河北、天津、湖北、安徽、辽宁等区域采购管道天然气，经城镇门站和自有管网向居民与工商业客户销售，并赚取接驳安装和燃气具服务利润。",
+      "core_judgement": "以市值46.13亿元，加回折后净融资负债17.00亿元，经营业务购买价约63.13亿元。可持续现金利润从归母净利润扣除非经常性损益后再打九折，约1.49亿元；对应经营业务回本约42.3年，未考虑增长、通胀、未来并购收益或进一步减值。2025年自由现金流高于该利润口径，但单年经营现金流同比下降39.87%，因此没有直接把单年自由现金流全部视为可分配利润。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/600681.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
