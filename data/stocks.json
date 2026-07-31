@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 16:07:55 +08:00",
+  "built_at": "2026-07-31 16:09:50 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -7483,6 +7483,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002372.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "002379.SZ",
+      "name": "宏桥控股",
+      "raw_name": "宏桥控股",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 2816.02,
+      "pe_ttm": 14.29,
+      "owner_earnback_years": 19.95,
+      "owner_earnback_rate_pct": 5.01,
+      "market_profit_payback_years": 18.77,
+      "market_cash_profit_yield_pct": 5.33,
+      "discounted_detachable_net_cash_yi": -176.89,
+      "discounted_net_cash_to_market_cap_pct": -6.28,
+      "operating_business_price_yi": 2992.91,
+      "discounted_cash_profit_yi": 150.0,
+      "revenue_yi": 1567.21,
+      "gross_profit_yi": 303.28,
+      "parent_net_profit_yi": 178.64,
+      "gross_margin_pct": 19.35,
+      "net_margin_pct": 11.4,
+      "forecast_dividend_yield_pct": 1.16,
+      "risk_level": "未分级",
+      "business_summary": "以氧化铝、电解铝为主体并延伸至铝深加工的一体化铝业制造商，利润核心取决于铝与氧化铝价差、电力及原料成本和产能利用率。",
+      "core_judgement": "按保守折扣后，公司不是净现金资产而是约176.89亿元净融资负担；以150亿元可持续可分配现金利润估算，市值对应约18.77年现金利润，连同净负债后的经营业务购买价对应约19.95年。该口径是周期中枢情景，不是承诺：铝价、氧化铝价、电力与原料成本、维持性资本开支均可显著改变结果。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/002379.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
