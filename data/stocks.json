@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 20:19:19 +08:00",
+  "built_at": "2026-07-31 20:19:48 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -15295,6 +15295,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603680.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "603758.SH",
+      "name": "秦安股份",
+      "raw_name": "秦安股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 39.93,
+      "pe_ttm": 28.51,
+      "owner_earnback_years": 29.66,
+      "owner_earnback_rate_pct": 3.37,
+      "market_profit_payback_years": 29.15,
+      "market_cash_profit_yield_pct": 3.43,
+      "discounted_detachable_net_cash_yi": -0.69,
+      "discounted_net_cash_to_market_cap_pct": -1.74,
+      "operating_business_price_yi": 40.62,
+      "discounted_cash_profit_yi": 1.37,
+      "revenue_yi": 13.52,
+      "gross_profit_yi": 2.79,
+      "parent_net_profit_yi": 1.49,
+      "gross_margin_pct": 20.66,
+      "net_margin_pct": 11.05,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "以直销方式为整车及动力系统客户制造发动机缸盖、缸体、曲轴和变速器箱体，并在2025年末通过收购亦高光电进入高端真空镀膜。",
+      "core_judgement": "按2026-07-31市值39.93亿元，折后可剥离净现金为负0.69亿元，经营业务购买价约40.62亿元。折后可持续现金利润约1.37亿元，对应经营业务回本约29.7年、市值/现金利润约29.1倍。该口径不给尚未完整并表且现金转化未验证的亦高光电新增利润估值，却已扣除收购债务，因此偏保守；若亦高光电兑现三年累计2.4亿元业绩承诺并形成现金，回本会缩短，反之商誉减值及扩产支出会拉长。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/603758.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
