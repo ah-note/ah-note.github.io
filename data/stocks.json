@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 16:50:27 +08:00",
+  "built_at": "2026-07-31 16:51:16 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -12071,6 +12071,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600642.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "600323.SH",
+      "name": "瀚蓝环境",
+      "raw_name": "瀚蓝环境",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 252.35,
+      "pe_ttm": 11.41,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 139.37,
+      "gross_profit_yi": 46.29,
+      "parent_net_profit_yi": 19.73,
+      "gross_margin_pct": 33.21,
+      "net_margin_pct": 14.16,
+      "forecast_dividend_yield_pct": 3.39,
+      "risk_level": "未分级",
+      "business_summary": "以垃圾焚烧发电和固废处理为核心，同时经营燃气、供水与排水的区域公用事业和特许经营平台。",
+      "core_judgement": "普通控股回本口径不适用。现金与项目债务、受监管收费权及资本开支绑定；需逐项目取得剩余期限、量价、维护资本开支、债务摊还和少数股东分流数据后折现股东可得现金流。现有年报不足以可靠汇总专项回本年数。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/600323.SH/"
     }
   ]
 }
