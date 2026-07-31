@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 05:11:01 +08:00",
+  "built_at": "2026-08-01 05:11:31 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -28253,6 +28253,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600419.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "600188.SH",
+      "name": "兖矿能源",
+      "raw_name": "兖矿能源",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 2016.4,
+      "pe_ttm": 19.81,
+      "owner_earnback_years": 59.65,
+      "owner_earnback_rate_pct": 1.68,
+      "market_profit_payback_years": 38.93,
+      "market_cash_profit_yield_pct": 2.57,
+      "discounted_detachable_net_cash_yi": -1073.22,
+      "discounted_net_cash_to_market_cap_pct": -53.22,
+      "operating_business_price_yi": 3089.62,
+      "discounted_cash_profit_yi": 51.79,
+      "revenue_yi": 1449.33,
+      "gross_profit_yi": 425.24,
+      "parent_net_profit_yi": 83.81,
+      "gross_margin_pct": 29.34,
+      "net_margin_pct": 5.78,
+      "forecast_dividend_yield_pct": 2.49,
+      "risk_level": "未分级",
+      "business_summary": "以中国和澳大利亚煤炭资源开采销售为利润核心，并向煤化工、物流、装备和新能源延伸的重资产能源集团。",
+      "core_judgement": "以2026-07-31市值2016.4亿元计，折后资金不足覆盖明确融资负债，净负债使经营业务购买价升至3089.62亿元。持续现金利润用2025年扣非归母净利润73.99亿元再打七折为51.79亿元，以吸收煤价周期、并购并表、少数股东/永续债归属及单年自由现金流仅9.64亿元的不确定性。对应经营业务回本约59.65年、市值/折后现金利润约38.93倍；这是保守控股测算，不是目标价或买卖建议。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/600188.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
