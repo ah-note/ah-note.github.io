@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 21:57:20 +08:00",
+  "built_at": "2026-07-31 21:57:50 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -20937,6 +20937,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/601033.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "600018.SH",
+      "name": "上港集团",
+      "raw_name": "上港集团",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 1219.87,
+      "pe_ttm": 8.93,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 396.11,
+      "gross_profit_yi": 143.09,
+      "parent_net_profit_yi": 135.65,
+      "gross_margin_pct": 36.12,
+      "net_margin_pct": 34.24,
+      "forecast_dividend_yield_pct": 3.72,
+      "risk_level": "未分级",
+      "business_summary": "以上海港集装箱码头运营为核心，叠加港口物流、港口服务、航运及联营股权收益的港航综合平台。",
+      "core_judgement": "普通控股回本口径不适用：长期股权投资占资产约40%，权益法投资收益占利润总额约42%，港口资产和在建工程又是运营必需资本。应拆分评估主业经营现金流与资本开支、联营投资实际分红、债务服务和母公司分红能力；故普通回本字段均保持null。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/600018.SH/"
     }
   ]
 }
