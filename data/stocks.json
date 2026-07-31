@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 19:03:51 +08:00",
+  "built_at": "2026-07-31 19:04:20 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -14179,6 +14179,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603008.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "002328.SZ",
+      "name": "新朋股份",
+      "raw_name": "新朋股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 50.94,
+      "pe_ttm": 24.83,
+      "owner_earnback_years": 37.58,
+      "owner_earnback_rate_pct": 2.66,
+      "market_profit_payback_years": 50.94,
+      "market_cash_profit_yield_pct": 1.96,
+      "discounted_detachable_net_cash_yi": 13.36,
+      "discounted_net_cash_to_market_cap_pct": 26.23,
+      "operating_business_price_yi": 37.58,
+      "discounted_cash_profit_yi": 1.0,
+      "revenue_yi": 38.42,
+      "gross_profit_yi": 4.32,
+      "parent_net_profit_yi": 1.41,
+      "gross_margin_pct": 11.24,
+      "net_margin_pct": 3.66,
+      "forecast_dividend_yield_pct": 1.76,
+      "risk_level": "未分级",
+      "business_summary": "以汽车冲压焊接零部件为核心、兼营通信金属件与厂房租赁，并持有较大规模私募股权基金资产的B2B制造公司。",
+      "core_judgement": "按市值50.94亿元，现金按85%、无活跃市场的投资资产按40%计入，并全额扣除借款和租赁负债后，经营业务购买价约37.58亿元。可持续可分配现金利润取1.00亿元，介于2025年归母扣非净利润0.73亿元与按归母利润占比折算的经营自由现金流约1.12亿元之间。对应经营业务回本约37.6年，未显示出短回本特征；结论高度取决于投资资产可变现价值和制造业务利润能否恢复。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/002328.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
