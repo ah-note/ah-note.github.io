@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 00:01:20 +08:00",
+  "built_at": "2026-08-01 00:03:11 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -21092,6 +21092,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002901.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "603227.SH",
+      "name": "雪峰科技",
+      "raw_name": "雪峰科技",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 82.84,
+      "pe_ttm": 17.06,
+      "owner_earnback_years": 39.19,
+      "owner_earnback_rate_pct": 2.55,
+      "market_profit_payback_years": 38.14,
+      "market_cash_profit_yield_pct": 2.62,
+      "discounted_detachable_net_cash_yi": -2.29,
+      "discounted_net_cash_to_market_cap_pct": -2.77,
+      "operating_business_price_yi": 85.13,
+      "discounted_cash_profit_yi": 2.17,
+      "revenue_yi": 55.64,
+      "gross_profit_yi": 12.42,
+      "parent_net_profit_yi": 5.04,
+      "gross_margin_pct": 22.32,
+      "net_margin_pct": 9.05,
+      "forecast_dividend_yield_pct": 1.94,
+      "risk_level": "未分级",
+      "business_summary": "以新疆为核心销售民爆器材并提供矿山爆破服务，同时经营天然气化工和LNG。",
+      "core_judgement": "非受限货币资金按90%计入并全额扣除计息债务；现金利润取2025经营现金流减资本开支后按归母利润占比86.90%归属。经营业务购买价85.13亿元，回本约39.2年，对回款和化工景气敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/603227.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
