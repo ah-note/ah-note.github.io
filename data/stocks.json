@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 23:49:40 +08:00",
+  "built_at": "2026-07-31 23:50:30 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -20534,6 +20534,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/688667.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "605580.SH",
+      "name": "恒盛能源",
+      "raw_name": "恒盛能源",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 46.84,
+      "pe_ttm": 28.88,
+      "owner_earnback_years": 37.41,
+      "owner_earnback_rate_pct": 2.67,
+      "market_profit_payback_years": 33.5,
+      "market_cash_profit_yield_pct": 2.99,
+      "discounted_detachable_net_cash_yi": -5.47,
+      "discounted_net_cash_to_market_cap_pct": -11.67,
+      "operating_business_price_yi": 52.31,
+      "discounted_cash_profit_yi": 1.4,
+      "revenue_yi": 10.21,
+      "gross_profit_yi": 2.87,
+      "parent_net_profit_yi": 1.56,
+      "gross_margin_pct": 28.14,
+      "net_margin_pct": 15.28,
+      "forecast_dividend_yield_pct": 1.79,
+      "risk_level": "未分级",
+      "business_summary": "在浙江衢州和吉林伊通运营区域热电联产，并拓展固废资源化、光伏与CVD金刚石的小型重资产能源企业。",
+      "core_judgement": "以2026-07-31市值计算，账面现金不足覆盖有息及租赁负债，经营业务购买价反而高于市值。以2025年扣非归母净利润作为折后可持续可分配现金利润，经营业务静态回本约37.4年；该结果不是预测，且华大热电仅并表首年、资本开支与营运资金变化较大。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/605580.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
