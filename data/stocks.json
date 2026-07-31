@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 04:36:33 +08:00",
+  "built_at": "2026-08-01 04:37:03 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -32314,6 +32314,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/000591.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "000623.SZ",
+      "name": "吉林敖东",
+      "raw_name": "吉林敖东",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 219.09,
+      "pe_ttm": 7.98,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 23.35,
+      "gross_profit_yi": 11.25,
+      "parent_net_profit_yi": 23.95,
+      "gross_margin_pct": 48.19,
+      "net_margin_pct": 102.57,
+      "forecast_dividend_yield_pct": 1.61,
+      "risk_level": "未分级",
+      "business_summary": "吉林敖东是以中药制造和药品零售为实业底座、以广发证券第一大股东权益为资产和利润核心的产融混合控股平台。",
+      "core_judgement": "普通回本口径不适用：广发证券股权是产生权益法利润和现金股利的核心经营资产，不是可从市值中扣除的闲置现金；券商底层资产负债也属于其业务本身。控股视角应分别看（1）广发证券持股的账面/市场价值、盈利周期和现金分红，（2）医药实业自由现金流，（3）集团有息债务与母公司现金，（4）底层分红传到吉林敖东股东的比例。2025年末广发持股参考市值319.94亿元，高于本次219.09亿元市值，但这只是时点穿透比较，未扣税费、流动性、治理和持股折价，也不构成普通回本年数。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/000623.SZ/"
     }
   ]
 }
