@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 15:31:01 +08:00",
+  "built_at": "2026-07-31 15:31:50 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -5964,6 +5964,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600125.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "002734.SZ",
+      "name": "利民股份",
+      "raw_name": "利民股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 63.67,
+      "pe_ttm": 12.64,
+      "owner_earnback_years": 18.04,
+      "owner_earnback_rate_pct": 5.54,
+      "market_profit_payback_years": 16.56,
+      "market_cash_profit_yield_pct": 6.04,
+      "discounted_detachable_net_cash_yi": -5.7,
+      "discounted_net_cash_to_market_cap_pct": -8.95,
+      "operating_business_price_yi": 69.37,
+      "discounted_cash_profit_yi": 3.84,
+      "revenue_yi": 45.27,
+      "gross_profit_yi": 11.95,
+      "parent_net_profit_yi": 4.8,
+      "gross_margin_pct": 26.4,
+      "net_margin_pct": 10.6,
+      "forecast_dividend_yield_pct": 3.33,
+      "risk_level": "未分级",
+      "business_summary": "以农药为主、兽药为辅，依靠原药—制剂一体化制造、登记资源和国内外渠道销售农兽药产品。",
+      "core_judgement": "以2026-07-31市值63.67亿元计，折后可剥离净现金为-5.70亿元，意味着收购者需按约69.37亿元购买经营业务；以3.84亿元审慎可持续现金利润计，经营业务回本约18.0年，市值/现金利润约16.6倍。该结果高度依赖2025年农化景气修复能否持续，以及新河公司利润能否转化为实际分红。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/002734.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
