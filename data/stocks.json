@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 13:45:33 +08:00",
+  "built_at": "2026-07-31 13:50:43 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -8599,6 +8599,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/01217.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "600841.SH",
+      "name": "动力新科",
+      "raw_name": "动力新科",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 80.63,
+      "pe_ttm": 2.59,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": -17.15,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": -10.53,
+      "discounted_detachable_net_cash_yi": 31.11,
+      "discounted_net_cash_to_market_cap_pct": 38.59,
+      "operating_business_price_yi": 49.52,
+      "discounted_cash_profit_yi": -8.49,
+      "revenue_yi": 57.4,
+      "gross_profit_yi": 4.75,
+      "parent_net_profit_yi": 28.72,
+      "gross_margin_pct": 8.27,
+      "net_margin_pct": 50.04,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "上汽红岩重整出表后，公司是一家向商用车、工程机械、船舶及发电机组客户销售柴油发动机的制造企业。",
+      "core_judgement": "按25%经营现金流出保留必要经营现金后，折后可剥离净现金约31.11亿元，约占市值38.59%，经营业务隐含购买价约49.52亿元。但2025年扣非归母净利润为-8.49亿元，且2023至2025年连续为负，无法建立正的可持续可分配现金利润分母，因此回本年和市值/现金利润均不成立；2.59倍PE主要由上汽红岩出表处置收益造成，不能解释持续经营便宜程度。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/600841.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
