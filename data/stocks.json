@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 02:06:03 +08:00",
+  "built_at": "2026-08-01 02:06:33 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -24967,6 +24967,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600686.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "300532.SZ",
+      "name": "今天国际",
+      "raw_name": "今天国际",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 45.13,
+      "pe_ttm": 20.8,
+      "owner_earnback_years": 64.98,
+      "owner_earnback_rate_pct": 1.54,
+      "market_profit_payback_years": 64.98,
+      "market_cash_profit_yield_pct": 1.54,
+      "discounted_detachable_net_cash_yi": 0.0,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": 45.13,
+      "discounted_cash_profit_yi": 0.69,
+      "revenue_yi": 23.61,
+      "gross_profit_yi": 5.75,
+      "parent_net_profit_yi": 2.35,
+      "gross_margin_pct": 24.36,
+      "net_margin_pct": 9.96,
+      "forecast_dividend_yield_pct": 4.02,
+      "risk_level": "未分级",
+      "business_summary": "为新能源、烟草、石化等制造业客户定制智慧物流和智能制造系统，靠方案设计、软硬件集成、机器人/工业软件与后续运维赚取项目毛利。",
+      "core_judgement": "按2026年7月31日45.13亿元市值，货币资金在扣除受限资金、短期借款及与16.01亿元合同负债相匹配的履约资金后，没有可稳妥剥离的净现金；经营业务购买价仍为45.13亿元。以2025年经营现金流1.531亿元减全部资本开支0.836亿元得到保守现金利润0.694亿元，对应回本约65.0年。该口径显著受单年项目回款与土地支出影响，应结合多年度交付和回款复核，不能视为稳定预测。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/300532.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
