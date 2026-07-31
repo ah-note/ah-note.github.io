@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 01:55:44 +08:00",
+  "built_at": "2026-08-01 01:57:55 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -24843,6 +24843,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603613.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "000100.SZ",
+      "name": "TCL科技",
+      "raw_name": "TCL科技",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 992.2,
+      "pe_ttm": 19.61,
+      "owner_earnback_years": 78.12,
+      "owner_earnback_rate_pct": 1.28,
+      "market_profit_payback_years": 34.25,
+      "market_cash_profit_yield_pct": 2.92,
+      "discounted_detachable_net_cash_yi": -1270.75,
+      "discounted_net_cash_to_market_cap_pct": -128.07,
+      "operating_business_price_yi": 2262.95,
+      "discounted_cash_profit_yi": 28.97,
+      "revenue_yi": 1840.63,
+      "gross_profit_yi": 242.06,
+      "parent_net_profit_yi": 45.17,
+      "gross_margin_pct": 13.15,
+      "net_margin_pct": 2.45,
+      "forecast_dividend_yield_pct": 1.89,
+      "risk_level": "未分级",
+      "business_summary": "TCL科技以TCL华星的显示面板制造为利润主轴，同时经营亏损中的光伏硅片/组件、半导体硅片及电子产品分销。",
+      "core_judgement": "按保守控股口径，可用货币资金扣除受限部分，交易性金融资产按九折，再扣除短借、长期借款、债券、一年内到期非流动负债及租赁负债，得到折后可剥离净现金为负1270.75亿元。现金利润以扣非归母净利润28.97亿元作为可持续下限锚，而不直接采用277.43亿元合并经营自由现金流，因为少数股东权益占总权益约54%，且折旧、减值、周期资本开支和债务服务使合并现金流不能全归母公司股东。由此经营业务购买价约2262.95亿元，回本约78.1年；该数字高度依赖显示盈利周期、光伏减亏和维持性资本...",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/000100.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
