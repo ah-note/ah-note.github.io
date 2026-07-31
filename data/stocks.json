@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 00:39:28 +08:00",
+  "built_at": "2026-08-01 00:39:57 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -22549,6 +22549,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002155.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "002637.SZ",
+      "name": "赞宇科技",
+      "raw_name": "赞宇科技",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 45.44,
+      "pe_ttm": 22.62,
+      "owner_earnback_years": 46.25,
+      "owner_earnback_rate_pct": 2.16,
+      "market_profit_payback_years": 30.29,
+      "market_cash_profit_yield_pct": 3.3,
+      "discounted_detachable_net_cash_yi": -23.93,
+      "discounted_net_cash_to_market_cap_pct": -52.67,
+      "operating_business_price_yi": 69.37,
+      "discounted_cash_profit_yi": 1.5,
+      "revenue_yi": 131.34,
+      "gross_profit_yi": 9.42,
+      "parent_net_profit_yi": 1.82,
+      "gross_margin_pct": 7.17,
+      "net_margin_pct": 1.39,
+      "forecast_dividend_yield_pct": 1.2,
+      "risk_level": "未分级",
+      "business_summary": "公司以棕榈油等原料制造并直销表面活性剂和油脂化学品，赚取规模加工与原料地布局下的薄利价差。",
+      "core_judgement": "按80%折价计入可随时支付的现金及现金等价物、受限资金不计价值，并全额扣除短期借款、一年内到期非流动负债、长期借款和租赁负债，得到折后可剥离净现金为负23.93亿元。因此市值并未被净现金覆盖，反而需承担净债务，经营业务购买价约69.37亿元。可持续可分配现金利润取1.50亿元：接近2023—2025年归母净利润均值1.35亿元并略低于2025年1.82亿元，避免把2025年因应付款增加而异常偏高的经营现金流以及扩产期自由现金流直接年化。对应控股回本约46.25年；不计净债务的...",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/002637.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
