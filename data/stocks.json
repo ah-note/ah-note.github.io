@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 17:05:33 +08:00",
+  "built_at": "2026-07-31 17:06:42 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -8599,6 +8599,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603558.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "300595.SZ",
+      "name": "欧普康视",
+      "raw_name": "欧普康视",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 102.24,
+      "pe_ttm": 21.97,
+      "owner_earnback_years": 20.8,
+      "owner_earnback_rate_pct": 4.81,
+      "market_profit_payback_years": 27.78,
+      "market_cash_profit_yield_pct": 3.6,
+      "discounted_detachable_net_cash_yi": 25.69,
+      "discounted_net_cash_to_market_cap_pct": 25.13,
+      "operating_business_price_yi": 76.55,
+      "discounted_cash_profit_yi": 3.68,
+      "revenue_yi": 18.61,
+      "gross_profit_yi": 13.49,
+      "parent_net_profit_yi": 4.8,
+      "gross_margin_pct": 72.46,
+      "net_margin_pct": 25.77,
+      "forecast_dividend_yield_pct": 1.16,
+      "risk_level": "未分级",
+      "business_summary": "欧普康视以高毛利角膜塑形镜等硬性接触镜和护理产品为核心，通过经销、直销及自建/并购眼视光终端向青少年近视防控人群提供产品与服务。",
+      "core_judgement": "按2026-07-31市值102.24亿元，现金与理财折价并扣除融资/金融负债后，可剥离净现金约25.69亿元，经营业务购买价约76.55亿元；以扣非归母净利4.09亿元再打九折得到可持续现金利润3.68亿元，经营业务静态回本约20.8年，市值/现金利润约27.8倍。该口径不等于预测，利润下滑、并购减值或资金不能剥离都会延长回本期。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/300595.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
