@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 01:42:58 +08:00",
+  "built_at": "2026-08-01 01:43:28 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -13652,6 +13652,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600406.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "000983.SZ",
+      "name": "山西焦煤",
+      "raw_name": "山西焦煤",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 366.17,
+      "pe_ttm": 27.58,
+      "owner_earnback_years": 23.34,
+      "owner_earnback_rate_pct": 4.28,
+      "market_profit_payback_years": 14.65,
+      "market_cash_profit_yield_pct": 6.83,
+      "discounted_detachable_net_cash_yi": -217.28,
+      "discounted_net_cash_to_market_cap_pct": -59.34,
+      "operating_business_price_yi": 583.45,
+      "discounted_cash_profit_yi": 25.0,
+      "revenue_yi": 371.55,
+      "gross_profit_yi": 113.41,
+      "parent_net_profit_yi": 12.01,
+      "gross_margin_pct": 30.52,
+      "net_margin_pct": 3.23,
+      "forecast_dividend_yield_pct": 1.95,
+      "risk_level": "未分级",
+      "business_summary": "以山西优质炼焦煤资源为核心，靠煤炭开采、洗选和销售赚取主要利润，并配套电力热力、焦炭化工等业务。",
+      "core_judgement": "以期末现金及现金等价物83.24亿元按80%计入，再扣除约283.87亿元计息融资负债，得到折后可剥离净现金为-217.28亿元；因此收购经营业务的经济购买价约583.45亿元。2025年经营自由现金流33.43亿元，但归母净利润仅12.01亿元且煤价处于周期下行，少数股东权益占比23.10%，本分析将可持续可分配现金利润保守取25亿元。对应控股回本约23.3年，说明当前市值并未因账面现金形成净现金保护，结论高度依赖煤价、资本开支和债务下降速度。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/000983.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
