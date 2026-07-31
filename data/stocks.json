@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 00:31:20 +08:00",
+  "built_at": "2026-08-01 00:32:10 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -22456,6 +22456,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603737.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "688097.SH",
+      "name": "博众精工",
+      "raw_name": "博众精工",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 182.19,
+      "pe_ttm": 27.91,
+      "owner_earnback_years": 47.26,
+      "owner_earnback_rate_pct": 2.12,
+      "market_profit_payback_years": 45.55,
+      "market_cash_profit_yield_pct": 2.2,
+      "discounted_detachable_net_cash_yi": -6.84,
+      "discounted_net_cash_to_market_cap_pct": -3.75,
+      "operating_business_price_yi": 189.03,
+      "discounted_cash_profit_yi": 4.0,
+      "revenue_yi": 65.66,
+      "gross_profit_yi": 18.56,
+      "parent_net_profit_yi": 5.93,
+      "gross_margin_pct": 28.26,
+      "net_margin_pct": 9.04,
+      "forecast_dividend_yield_pct": 0.59,
+      "risk_level": "未分级",
+      "business_summary": "向消费电子、新能源电池、汽车及半导体客户直销定制化自动化设备和产线，靠设计集成、交付验收及零配件服务获利。",
+      "core_judgement": "市值182.19亿元，未受限现金14.54亿元减有息融资负债21.38亿元，折后净现金为-6.84亿元，经营业务购买价189.03亿元。可持续现金利润取4.00亿元，介于扣非归母净利3.33亿元与经营自由现金流5.16亿元之间，避免外推2.59亿元投资收益和单年回款改善；回本约47.26年，市值/现金利润45.55倍，仅为比较口径。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/688097.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
