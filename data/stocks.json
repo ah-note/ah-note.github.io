@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 04:33:23 +08:00",
+  "built_at": "2026-08-01 04:34:33 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -18333,6 +18333,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/300121.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "002130.SZ",
+      "name": "沃尔核材",
+      "raw_name": "沃尔核材",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 235.6,
+      "pe_ttm": 20.95,
+      "owner_earnback_years": 27.24,
+      "owner_earnback_rate_pct": 3.67,
+      "market_profit_payback_years": 26.18,
+      "market_cash_profit_yield_pct": 3.82,
+      "discounted_detachable_net_cash_yi": -9.56,
+      "discounted_net_cash_to_market_cap_pct": -4.06,
+      "operating_business_price_yi": 245.16,
+      "discounted_cash_profit_yi": 9.0,
+      "revenue_yi": 84.51,
+      "gross_profit_yi": 26.75,
+      "parent_net_profit_yi": 11.44,
+      "gross_margin_pct": 31.65,
+      "net_margin_pct": 13.54,
+      "forecast_dividend_yield_pct": 0.97,
+      "risk_level": "未分级",
+      "business_summary": "以热缩电子材料为基础，向高速通信、汽车高压连接、电力电缆附件等场景销售材料和线缆，并持有少量风电运营资产。",
+      "core_judgement": "以2026年7月31日A股市值235.60亿元计，折后可剥离净现金为-9.56亿元，经营业务购买价约245.16亿元。以9.00亿元折后可持续可分配现金利润估算，经营业务回本约27.24年，市值/现金利润约26.18倍。9.00亿元不是公司指引：它以2025年经营现金流11.60亿元扣除估计维持性资本开支2.60亿元得到；2025年实际资本开支10.36亿元含明显扩产投入，若全部视为持续必需，报表自由现金流仅1.24亿元，回本会显著更长。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/002130.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
