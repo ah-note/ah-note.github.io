@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 17:57:32 +08:00",
+  "built_at": "2026-07-31 17:58:01 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -5561,6 +5561,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600480.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "002648.SZ",
+      "name": "卫星化学",
+      "raw_name": "卫星化学",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 852.6,
+      "pe_ttm": 14.55,
+      "owner_earnback_years": 15.98,
+      "owner_earnback_rate_pct": 6.26,
+      "market_profit_payback_years": 15.94,
+      "market_cash_profit_yield_pct": 6.27,
+      "discounted_detachable_net_cash_yi": -1.76,
+      "discounted_net_cash_to_market_cap_pct": -0.21,
+      "operating_business_price_yi": 854.36,
+      "discounted_cash_profit_yi": 53.48,
+      "revenue_yi": 460.68,
+      "gross_profit_yi": 102.8,
+      "parent_net_profit_yi": 53.11,
+      "gross_margin_pct": 22.31,
+      "net_margin_pct": 11.53,
+      "forecast_dividend_yield_pct": 1.97,
+      "risk_level": "未分级",
+      "business_summary": "以进口乙烷/丙烷等为主要原料，在嘉兴、独山港和连云港的大型一体化装置中生产功能化学品、高分子新材料及新能源材料，再通过直销和经销卖给工业客户。",
+      "core_judgement": "按2026-07-31市值852.60亿元，折后可剥离净现金为-1.76亿元，经营业务购买价约854.36亿元；以扣非归母利润62.92亿元为基准，对化工价差周期和持续资本需求打85%折扣，现金利润约53.48亿元，对应经营业务回本约15.98年。该数字是静态控股口径，不是收益承诺；价差、装置负荷、原料成本和维护资本开支变化都可显著改变结果。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/002648.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
