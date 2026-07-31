@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 04:16:44 +08:00",
+  "built_at": "2026-08-01 04:17:35 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -31725,6 +31725,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600025.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "688472.SH",
+      "name": "阿特斯",
+      "raw_name": "阿特斯",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 384.72,
+      "pe_ttm": 25.86,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": 0.0,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": 0.0,
+      "discounted_detachable_net_cash_yi": 0.0,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": 384.72,
+      "discounted_cash_profit_yi": 0.0,
+      "revenue_yi": 402.56,
+      "gross_profit_yi": 41.73,
+      "parent_net_profit_yi": 10.16,
+      "gross_margin_pct": 10.37,
+      "net_margin_pct": 2.52,
+      "forecast_dividend_yield_pct": 0.92,
+      "risk_level": "未分级",
+      "business_summary": "阿特斯主要向全球客户销售光伏组件和储能系统，并辅以光伏系统与建造合同，利润取决于出货量、售价、制造成本、关税和产能利用率。",
+      "core_judgement": "普通经营口径适用，但没有识别出可从经营中安全剥离的净现金：现金及理财既有约30.16亿元受限，又需匹配约179亿元融资负债、供应链周转和扩产。2025年经营自由现金流仅2.63亿元，且持续经营净利润为-9.88亿元、经营现金流改善部分来自回款和政府补贴，因此不把单年自由现金流资本化，折后可持续现金利润取0；回本年和市值/现金利润均不成立。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/688472.SH/"
     }
   ]
 }
