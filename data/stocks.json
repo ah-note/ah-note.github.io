@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 01:34:55 +08:00",
+  "built_at": "2026-08-01 01:37:46 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -24037,6 +24037,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/601020.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "300662.SZ",
+      "name": "科锐国际",
+      "raw_name": "科锐国际",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 39.85,
+      "pe_ttm": 11.46,
+      "owner_earnback_years": 55.01,
+      "owner_earnback_rate_pct": 1.82,
+      "market_profit_payback_years": 54.17,
+      "market_cash_profit_yield_pct": 1.85,
+      "discounted_detachable_net_cash_yi": -0.61,
+      "discounted_net_cash_to_market_cap_pct": -1.54,
+      "operating_business_price_yi": 40.46,
+      "discounted_cash_profit_yi": 0.74,
+      "revenue_yi": 145.4,
+      "gross_profit_yi": 8.53,
+      "parent_net_profit_yi": 3.14,
+      "gross_margin_pct": 5.87,
+      "net_margin_pct": 2.16,
+      "forecast_dividend_yield_pct": 1.14,
+      "risk_level": "未分级",
+      "business_summary": "为企业提供灵活用工、猎头和招聘流程外包，并以技术平台提高人才匹配和交付效率。",
+      "core_judgement": "按2026-07-31市值39.85亿元，货币资金仅按50%计入可剥离价值并全额扣除短期及长期借款，折后净现金为-0.61亿元；以2025年经营现金流减资本开支得到0.92亿元自由现金流，再打八折为0.74亿元可持续现金利润，经营业务购买价约40.46亿元，回本约55.0年。该结果远慢于PE所暗示的回本速度，核心原因是2025归母利润含较多非经常收益且应收扩张使现金转化偏弱；若回款改善，单年现金流口径可能低估持续能力。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/300662.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
