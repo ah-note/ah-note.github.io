@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 03:01:21 +08:00",
+  "built_at": "2026-08-01 03:03:12 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -12753,6 +12753,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/300693.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "300993.SZ",
+      "name": "玉马科技",
+      "raw_name": "玉马科技",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 29.89,
+      "pe_ttm": 20.41,
+      "owner_earnback_years": 22.11,
+      "owner_earnback_rate_pct": 4.52,
+      "market_profit_payback_years": 23.91,
+      "market_cash_profit_yield_pct": 4.18,
+      "discounted_detachable_net_cash_yi": 2.26,
+      "discounted_net_cash_to_market_cap_pct": 7.55,
+      "operating_business_price_yi": 27.63,
+      "discounted_cash_profit_yi": 1.25,
+      "revenue_yi": 7.45,
+      "gross_profit_yi": 2.89,
+      "parent_net_profit_yi": 1.49,
+      "gross_margin_pct": 38.73,
+      "net_margin_pct": 19.96,
+      "forecast_dividend_yield_pct": 2.03,
+      "risk_level": "未分级",
+      "business_summary": "玉马科技把纱线等原料织造、涂层和后整理成功能性遮阳面料，直销给全球遮阳成品商，利润主要来自遮光、可调光和阳光面料的产品性能与规模制造。",
+      "core_judgement": "以2026年7月31日29.89亿元市值计，扣除折后可剥离净现金2.26亿元后，经营业务购买价约27.63亿元；按1.25亿元折后可持续现金利润，经营业务静态回本约22.1年，未扣现金的市值/现金利润约23.9倍。该口径不代表预测：若2025年的存货扩张和扩产投入不能形成增长，或出口毛利继续下滑，现金利润会低于估计；反之扩产结束后资本开支回落，单年自由现金流会改善。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/300993.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
