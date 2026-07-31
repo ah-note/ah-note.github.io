@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 17:57:03 +08:00",
+  "built_at": "2026-07-31 17:57:32 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -13962,6 +13962,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/001872.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "603979.SH",
+      "name": "金诚信",
+      "raw_name": "金诚信",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 457.99,
+      "pe_ttm": 18.19,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 138.94,
+      "gross_profit_yi": 46.99,
+      "parent_net_profit_yi": 23.39,
+      "gross_margin_pct": 33.82,
+      "net_margin_pct": 16.83,
+      "forecast_dividend_yield_pct": 0.9,
+      "risk_level": "未分级",
+      "business_summary": "以地下矿山工程建设和采矿运营为基础，并通过自有铜矿、磷矿等资源开发获取矿产品利润的国际化矿业公司。",
+      "core_judgement": "普通控股回本口径不适用，故折后可剥离净现金、折后现金利润、经营业务购买价及回本年全部保持null。控股视角应把公司拆成两套现金流：矿服按订单质量、回款、应收和合同资产减值及设备投入评估；自有矿山按储量与矿山寿命、铜磷量价、单位成本、税费、维持性和扩建资本开支及债务服务评估。2025年经营现金流43.77亿元和简化经营自由现金流29.49亿元表现强，但单年受铜价、产量释放和建设节奏影响，不能直接资本化为可持续可分配利润。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/603979.SH/"
     }
   ]
 }
