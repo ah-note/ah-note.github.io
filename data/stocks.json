@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 18:24:57 +08:00",
+  "built_at": "2026-07-31 18:26:06 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -14799,6 +14799,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002267.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "600461.SH",
+      "name": "洪城环境",
+      "raw_name": "洪城环境",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 117.76,
+      "pe_ttm": 10.0,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 74.86,
+      "gross_profit_yi": 25.56,
+      "parent_net_profit_yi": 11.93,
+      "gross_margin_pct": 34.15,
+      "net_margin_pct": 15.94,
+      "forecast_dividend_yield_pct": 5.09,
+      "risk_level": "未分级",
+      "business_summary": "以南昌供水和燃气特许经营、江西省污水处理龙头运营网络为底盘，并经营固废处置及配套工程，通过长期公共服务收费获得现金流。",
+      "core_judgement": "普通‘市值减折后净现金/现金利润’公式不适用。控股视角应逐项目预测剩余特许经营期内的处理量或销量、收费价格、运营成本、维护与扩建资本开支、税费和债务服务，并计入到期移交及大修义务后折现。年报未汇总披露逐项目剩余期限，故不伪造普通回本年或专项项目净现值。作为可观察锚点，2025年经营现金流19.10亿元、购建长期资产现金10.44亿元、简化经营自由现金流8.66亿元，分红预案5.997亿元；这些不等同于可持续可分配现金利润。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/600461.SH/"
     }
   ]
 }
