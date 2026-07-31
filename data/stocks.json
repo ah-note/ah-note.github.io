@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 19:23:15 +08:00",
+  "built_at": "2026-07-31 19:24:05 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -13094,6 +13094,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/300130.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "300218.SZ",
+      "name": "安利股份",
+      "raw_name": "安利股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 25.73,
+      "pe_ttm": 28.42,
+      "owner_earnback_years": 25.87,
+      "owner_earnback_rate_pct": 3.87,
+      "market_profit_payback_years": 28.54,
+      "market_cash_profit_yield_pct": 3.5,
+      "discounted_detachable_net_cash_yi": 2.41,
+      "discounted_net_cash_to_market_cap_pct": 9.37,
+      "operating_business_price_yi": 23.32,
+      "discounted_cash_profit_yi": 0.9,
+      "revenue_yi": 22.72,
+      "gross_profit_yi": 5.35,
+      "parent_net_profit_yi": 1.31,
+      "gross_margin_pct": 23.53,
+      "net_margin_pct": 5.78,
+      "forecast_dividend_yield_pct": 2.19,
+      "risk_level": "未分级",
+      "business_summary": "安利股份以直销和订单驱动方式，为鞋材、家居、汽车内饰、电子产品等品牌及其代工厂提供定制化生态功能性聚氨酯合成革与复合材料。",
+      "core_judgement": "按市值25.73亿元，货币资金扣保证金后仅按80%计入、结构性存款按95%计入、逾期信托按0计入，并全额扣除2.9568亿元有息债务，得到折后可剥离净现金2.4118亿元。以2025年经营自由现金流1.0017亿元再折减10%得到折后可持续现金利润0.9015亿元，经营业务购买价23.3182亿元，对应约25.87年回本；市值/现金利润约28.54倍。该口径显示价格并不低，且结论对2025年偏弱现金利润能否恢复、现金实际需留存多少高度敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/300218.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
