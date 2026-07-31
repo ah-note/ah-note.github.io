@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 19:25:53 +08:00",
+  "built_at": "2026-07-31 19:28:43 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -14613,6 +14613,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600352.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "002264.SZ",
+      "name": "新 华 都",
+      "raw_name": "新 华 都",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 47.0,
+      "pe_ttm": 29.36,
+      "owner_earnback_years": 32.82,
+      "owner_earnback_rate_pct": 3.05,
+      "market_profit_payback_years": 33.47,
+      "market_cash_profit_yield_pct": 2.99,
+      "discounted_detachable_net_cash_yi": 0.91,
+      "discounted_net_cash_to_market_cap_pct": 1.95,
+      "operating_business_price_yi": 46.09,
+      "discounted_cash_profit_yi": 1.4,
+      "revenue_yi": 31.87,
+      "gross_profit_yi": 7.72,
+      "parent_net_profit_yi": 1.69,
+      "gross_margin_pct": 24.21,
+      "net_margin_pct": 5.32,
+      "forecast_dividend_yield_pct": 3.02,
+      "risk_level": "未分级",
+      "business_summary": "以久爱致和为主体，为酒类、日化、美护、母婴等品牌提供线上经销、直播/即时零售、定制产品和数字营销的一站式电商运营。",
+      "core_judgement": "按47亿元市值，扣除约0.91亿元折后可剥离净现金后，相当于以46.09亿元购买经营业务；以1.40亿元折后可持续可分配现金利润计，回本约32.8年。该数字对利润折扣高度敏感，且2025年经营现金流包含应收、预付及票据保证金回落带来的周转释放，不直接年化。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/002264.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
