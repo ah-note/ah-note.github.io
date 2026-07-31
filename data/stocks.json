@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 05:23:07 +08:00",
+  "built_at": "2026-08-01 05:25:39 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -33399,6 +33399,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/301305.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "600982.SH",
+      "name": "宁波能源",
+      "raw_name": "宁波能源",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 56.22,
+      "pe_ttm": 14.87,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 37.87,
+      "gross_profit_yi": 7.35,
+      "parent_net_profit_yi": 3.48,
+      "gross_margin_pct": 19.41,
+      "net_margin_pct": 9.19,
+      "forecast_dividend_yield_pct": 3.38,
+      "risk_level": "未分级",
+      "business_summary": "以工业园区蒸汽和电力为经营底盘，同时经营新能源项目、融资租赁和能源产业股权投资的宁波市属能源平台。",
+      "core_judgement": "普通控股回本口径不适用：集团净负债高，现金与融资租赁投放、能源项目建设及债务服务绑定；融资租赁资产和联营股权又是生意本身，不能当作可剥离现金。应改看三组现金来源与约束：实体能源业务在维持性资本开支后的现金流、融资租赁资产的信用损失与融资利差、联营企业分红回流；并把可续期债和少数股东权益纳入资本约束。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/600982.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
