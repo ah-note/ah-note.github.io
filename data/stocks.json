@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 19:07:56 +08:00",
+  "built_at": "2026-07-31 19:10:06 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -12691,6 +12691,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600268.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "301589.SZ",
+      "name": "诺瓦星云",
+      "raw_name": "诺瓦星云",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 127.82,
+      "pe_ttm": 22.0,
+      "owner_earnback_years": 25.3,
+      "owner_earnback_rate_pct": 3.95,
+      "market_profit_payback_years": 25.56,
+      "market_cash_profit_yield_pct": 3.91,
+      "discounted_detachable_net_cash_yi": 1.34,
+      "discounted_net_cash_to_market_cap_pct": 1.05,
+      "operating_business_price_yi": 126.48,
+      "discounted_cash_profit_yi": 5.0,
+      "revenue_yi": 35.1,
+      "gross_profit_yi": 20.23,
+      "parent_net_profit_yi": 5.88,
+      "gross_margin_pct": 57.62,
+      "net_margin_pct": 16.75,
+      "forecast_dividend_yield_pct": 0.63,
+      "risk_level": "未分级",
+      "business_summary": "以自研视频与显示控制算法为核心，向LED显示产业链销售控制系统、视频处理系统及云端信息发布管理软硬件。",
+      "core_judgement": "按2026-07-31市值127.82亿元，扣除折后可剥离净现金1.34亿元，经营业务购买价约126.48亿元。折后可持续现金利润取5.00亿元，低于2025年归母净利5.88亿元及经营自由现金流5.78亿元，以吸收应收增长、存货减值和单年营运资金释放波动；对应回本约25.30年。这是测算而非买卖建议。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/301589.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
