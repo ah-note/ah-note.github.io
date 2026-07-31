@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 03:32:01 +08:00",
+  "built_at": "2026-08-01 03:32:31 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -21960,6 +21960,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/601899.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "601689.SH",
+      "name": "拓普集团",
+      "raw_name": "拓普集团",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 810.53,
+      "pe_ttm": 29.31,
+      "owner_earnback_years": 34.31,
+      "owner_earnback_rate_pct": 2.91,
+      "market_profit_payback_years": 34.49,
+      "market_cash_profit_yield_pct": 2.9,
+      "discounted_detachable_net_cash_yi": 4.19,
+      "discounted_net_cash_to_market_cap_pct": 0.52,
+      "operating_business_price_yi": 806.34,
+      "discounted_cash_profit_yi": 23.5,
+      "revenue_yi": 295.81,
+      "gross_profit_yi": 57.47,
+      "parent_net_profit_yi": 27.79,
+      "gross_margin_pct": 19.43,
+      "net_margin_pct": 9.39,
+      "forecast_dividend_yield_pct": 1.05,
+      "risk_level": "未分级",
+      "business_summary": "面向国内外新能源及传统整车厂的平台型汽车零部件供应商，以内饰、底盘、减震、汽车电子和热管理等多产品线扩大单车配套价值。",
+      "core_judgement": "按2026-07-31市值810.53亿元，折后可剥离净现金仅4.19亿元，经营业务购买价约806.34亿元。现金利润以2025年扣非归母净利润26.11亿元为起点，因前五大客户占收入65.79%、毛利率下降且行业/扩产具有周期性再折价10%，得到23.50亿元；对应经营业务回本约34.31年，市值/现金利润约34.49倍。该结果不是预测或买卖建议；若维持性资本开支显著高于折旧摊销，真实可分配现金利润会更低。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/601689.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
