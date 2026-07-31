@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 21:20:16 +08:00",
+  "built_at": "2026-07-31 21:20:45 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -9157,6 +9157,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603036.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "600285.SH",
+      "name": "羚锐制药",
+      "raw_name": "羚锐制药",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 130.66,
+      "pe_ttm": 16.56,
+      "owner_earnback_years": 19.61,
+      "owner_earnback_rate_pct": 5.1,
+      "market_profit_payback_years": 21.42,
+      "market_cash_profit_yield_pct": 4.67,
+      "discounted_detachable_net_cash_yi": 11.06,
+      "discounted_net_cash_to_market_cap_pct": 8.47,
+      "operating_business_price_yi": 119.6,
+      "discounted_cash_profit_yi": 6.1,
+      "revenue_yi": 38.53,
+      "gross_profit_yi": 30.84,
+      "parent_net_profit_yi": 7.6,
+      "gross_margin_pct": 80.03,
+      "net_margin_pct": 19.71,
+      "forecast_dividend_yield_pct": 4.77,
+      "risk_level": "未分级",
+      "business_summary": "以通络祛痛膏和“两只老虎”等高毛利外用贴膏为基本盘，通过零售经分销、医院处方渠道和品牌推广变现，并以银谷制药的鼻喷剂等扩充品类。",
+      "core_judgement": "以2026-07-31市值为分子，对2025年末资金按流动性折价、扣除融资负债及估值日前已实施的2025年度现金分红后，折后可剥离净现金约11.06亿元；对扣非利润与2025年自由现金流交叉约束，取6.10亿元可持续可分配现金利润。经营业务购买价约119.60亿元，对应约19.61年回本；市值/现金利润约21.42倍。该口径不含增长价值，并受单年营运资金波动、并购整合和跨期市值/财报错配影响。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/600285.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
