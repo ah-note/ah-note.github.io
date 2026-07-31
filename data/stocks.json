@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 04:25:57 +08:00",
+  "built_at": "2026-08-01 04:26:47 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -6181,6 +6181,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/688236.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "000596.SZ",
+      "name": "古井贡酒",
+      "raw_name": "古井贡酒",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 491.65,
+      "pe_ttm": 17.4,
+      "owner_earnback_years": 15.97,
+      "owner_earnback_rate_pct": 6.26,
+      "market_profit_payback_years": 19.79,
+      "market_cash_profit_yield_pct": 5.05,
+      "discounted_detachable_net_cash_yi": 94.89,
+      "discounted_net_cash_to_market_cap_pct": 19.3,
+      "operating_business_price_yi": 396.76,
+      "discounted_cash_profit_yi": 24.84,
+      "revenue_yi": 188.32,
+      "gross_profit_yi": 149.25,
+      "parent_net_profit_yi": 35.49,
+      "gross_margin_pct": 79.26,
+      "net_margin_pct": 18.85,
+      "forecast_dividend_yield_pct": 3.66,
+      "risk_level": "未分级",
+      "business_summary": "以古井贡酒年份原浆为核心、通过经销商为主的渠道销售白酒，品牌溢价和区域渠道能力贡献主要利润。",
+      "core_judgement": "按2026年7月31日491.65亿元市值，现金等价物先打八折再扣除5.06亿元借款类负债，得到折后可剥离净现金94.89亿元；以2025年归母净利润的70%作为折后可持续可分配现金利润24.84亿元，经营业务购买价396.76亿元，对应约15.97年回本。70%折扣反映2025年收入、利润和经营现金流大降、第四季度亏损及资本开支尚高；该结果是审慎情景，不是目标价或买卖建议。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/000596.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
