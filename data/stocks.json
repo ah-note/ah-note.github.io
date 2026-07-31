@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 20:18:50 +08:00",
+  "built_at": "2026-07-31 20:19:19 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -14303,6 +14303,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/300132.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "605169.SH",
+      "name": "洪通燃气",
+      "raw_name": "洪通燃气",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 27.72,
+      "pe_ttm": 26.8,
+      "owner_earnback_years": 26.8,
+      "owner_earnback_rate_pct": 3.73,
+      "market_profit_payback_years": 30.8,
+      "market_cash_profit_yield_pct": 3.25,
+      "discounted_detachable_net_cash_yi": 3.6,
+      "discounted_net_cash_to_market_cap_pct": 12.97,
+      "operating_business_price_yi": 24.12,
+      "discounted_cash_profit_yi": 0.9,
+      "revenue_yi": 31.27,
+      "gross_profit_yi": 3.63,
+      "parent_net_profit_yi": 1.22,
+      "gross_margin_pct": 11.61,
+      "net_margin_pct": 3.89,
+      "forecast_dividend_yield_pct": 2.0,
+      "risk_level": "未分级",
+      "business_summary": "新疆区域LNG/CNG一体化运营商，以LNG重卡燃料销售为收入主体，同时经营CNG、居民和工商业管道气及入户安装。",
+      "core_judgement": "以市值27.72亿元扣除折后可剥离净现金3.596亿元，经营业务购买价约24.12亿元；以折后可持续可分配现金利润0.90亿元计，静态回本约26.8年。该数字不是项目DCF，关键依赖LNG价差、销量、维护资本开支和2亿元经营现金缓冲是否足够。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/605169.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
