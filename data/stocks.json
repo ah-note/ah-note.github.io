@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 04:58:16 +08:00",
+  "built_at": "2026-08-01 04:59:06 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -15915,6 +15915,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/601339.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "600251.SH",
+      "name": "冠农股份",
+      "raw_name": "冠农股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 71.87,
+      "pe_ttm": 15.81,
+      "owner_earnback_years": 24.49,
+      "owner_earnback_rate_pct": 4.08,
+      "market_profit_payback_years": 20.2,
+      "market_cash_profit_yield_pct": 4.95,
+      "discounted_detachable_net_cash_yi": -15.25,
+      "discounted_net_cash_to_market_cap_pct": -21.22,
+      "operating_business_price_yi": 87.12,
+      "discounted_cash_profit_yi": 3.56,
+      "revenue_yi": 25.15,
+      "gross_profit_yi": 2.21,
+      "parent_net_profit_yi": 3.48,
+      "gross_margin_pct": 8.78,
+      "net_margin_pct": 13.86,
+      "forecast_dividend_yield_pct": 1.73,
+      "risk_level": "未分级",
+      "business_summary": "以新疆番茄、棉花及棉籽油脂、甜菜糖的采购加工销售和仓储为主，同时依靠国投罗钾、开都河水电股权分红稳定利润与现金。",
+      "core_judgement": "可随时支付现金7.52亿元减有息借款及租赁负债22.77亿元，折后可剥离净现金为-15.25亿元；长期股权投资、受限资金、存货和仓单均不当现金。现金利润以经营现金流1.26亿元减资本开支0.99亿元、加联营企业实际宣告股利4.48亿元得到4.74亿元，再对农产品价格、库存和仓单波动打75折为3.56亿元。市值口径经营业务购买价87.12亿元，约24.49年回本；市值/现金利润约20.20倍。结论高度依赖联营企业持续分红。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/600251.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
