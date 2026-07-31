@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 23:46:01 +08:00",
+  "built_at": "2026-07-31 23:46:30 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -20596,6 +20596,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/688581.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "600056.SH",
+      "name": "中国医药",
+      "raw_name": "中国医药",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 141.81,
+      "pe_ttm": 29.37,
+      "owner_earnback_years": 37.71,
+      "owner_earnback_rate_pct": 2.65,
+      "market_profit_payback_years": 31.51,
+      "market_cash_profit_yield_pct": 3.17,
+      "discounted_detachable_net_cash_yi": -27.87,
+      "discounted_net_cash_to_market_cap_pct": -19.66,
+      "operating_business_price_yi": 169.68,
+      "discounted_cash_profit_yi": 4.5,
+      "revenue_yi": 353.62,
+      "gross_profit_yi": 37.14,
+      "parent_net_profit_yi": 4.73,
+      "gross_margin_pct": 10.5,
+      "net_margin_pct": 1.34,
+      "forecast_dividend_yield_pct": 1.0,
+      "risk_level": "未分级",
+      "business_summary": "以医药商业分销为收入底盘，以制剂与原料药制造提供较高毛利，并经营国际贸易和大健康电商。",
+      "core_judgement": "现金及类现金按账面值计入后，仍不足覆盖年报附注列示的62.60亿元融资负债，折后可剥离净现金为-27.87亿元。可持续现金利润以2025年经营自由现金流10.93亿元为起点，扣除少数股东经济份额及营运资金正常化缓冲后取4.50亿元。对应经营业务购买价169.68亿元、回本约37.7年；该数值对回款和利润正常化高度敏感，不是确定回收期。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/600056.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
