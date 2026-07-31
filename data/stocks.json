@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 15:29:24 +08:00",
+  "built_at": "2026-07-31 15:30:32 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -5437,6 +5437,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/001218.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "601002.SH",
+      "name": "晋亿实业",
+      "raw_name": "晋亿实业",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 46.1,
+      "pe_ttm": 17.96,
+      "owner_earnback_years": 16.93,
+      "owner_earnback_rate_pct": 5.91,
+      "market_profit_payback_years": 20.95,
+      "market_cash_profit_yield_pct": 4.77,
+      "discounted_detachable_net_cash_yi": 8.86,
+      "discounted_net_cash_to_market_cap_pct": 19.22,
+      "operating_business_price_yi": 37.24,
+      "discounted_cash_profit_yi": 2.2,
+      "revenue_yi": 23.36,
+      "gross_profit_yi": 5.92,
+      "parent_net_profit_yi": 2.42,
+      "gross_margin_pct": 25.32,
+      "net_margin_pct": 10.37,
+      "forecast_dividend_yield_pct": 1.66,
+      "risk_level": "未分级",
+      "business_summary": "以钢材为主要原料，规模化生产并直销/经销工业紧固件及铁路扣件，利润主要来自紧固件制造的材料价差、工艺与规模效率。",
+      "core_judgement": "按2026-07-31市值46.10亿元，货币资金九折、交易性金融资产九五折后得到可剥离净现金8.86亿元；未扣应付票据和应付账款，因为它们与原料采购和营运资本相匹配，亦未把应收、存货和长期股权投资当作可剥离现金。经营业务购买价约37.24亿元。可持续现金利润取2.20亿元，较2025年扣非归母净利润2.354亿元折减6.5%，也低于经营自由现金流2.829亿元；对应经营业务回本约16.93年，整家公司市值/现金利润约20.95倍。该结果并不算短回本，且高度依赖2025年毛利...",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/601002.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
