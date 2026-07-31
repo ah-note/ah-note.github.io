@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 04:23:36 +08:00",
+  "built_at": "2026-08-01 04:24:06 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -26920,6 +26920,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/300861.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "688036.SH",
+      "name": "传音控股",
+      "raw_name": "传音控股",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 749.19,
+      "pe_ttm": 26.84,
+      "owner_earnback_years": 54.57,
+      "owner_earnback_rate_pct": 1.83,
+      "market_profit_payback_years": 63.95,
+      "market_cash_profit_yield_pct": 1.56,
+      "discounted_detachable_net_cash_yi": 109.98,
+      "discounted_net_cash_to_market_cap_pct": 14.68,
+      "operating_business_price_yi": 639.21,
+      "discounted_cash_profit_yi": 11.71,
+      "revenue_yi": 655.91,
+      "gross_profit_yi": 125.61,
+      "parent_net_profit_yi": 25.81,
+      "gross_margin_pct": 19.15,
+      "net_margin_pct": 3.93,
+      "forecast_dividend_yield_pct": 2.6,
+      "risk_level": "未分级",
+      "business_summary": "传音通过TECNO、itel、Infinix等品牌，依托新兴市场本地化产品、经销网络和供应链规模销售手机，并以移动互联网及AIoT扩展用户价值。",
+      "core_judgement": "在749.19亿元市值下，折后可剥离净现金约109.98亿元，经营业务购买价约639.21亿元。以约11.71亿元折后可持续可分配现金利润估算，经营业务回本约54.6年，市值/现金利润约64.0倍。该结果是对2025年利润与现金转化偏弱、存储成本上涨及持续投入作保守归一化后的控股回本测算；毛利恢复或营运资金回流会缩短回本，反之亦然。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/688036.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
