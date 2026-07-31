@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 18:45:24 +08:00",
+  "built_at": "2026-07-31 18:47:53 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -11358,6 +11358,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/300994.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "600406.SH",
+      "name": "国电南瑞",
+      "raw_name": "国电南瑞",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 1942.88,
+      "pe_ttm": 23.35,
+      "owner_earnback_years": 23.33,
+      "owner_earnback_rate_pct": 4.29,
+      "market_profit_payback_years": 25.91,
+      "market_cash_profit_yield_pct": 3.86,
+      "discounted_detachable_net_cash_yi": 193.43,
+      "discounted_net_cash_to_market_cap_pct": 9.96,
+      "operating_business_price_yi": 1749.45,
+      "discounted_cash_profit_yi": 75.0,
+      "revenue_yi": 662.29,
+      "gross_profit_yi": 171.12,
+      "parent_net_profit_yi": 82.79,
+      "gross_margin_pct": 25.84,
+      "net_margin_pct": 12.5,
+      "forecast_dividend_yield_pct": 2.56,
+      "risk_level": "未分级",
+      "business_summary": "向电网及能源、工业客户按订单交付电力自动化控制软硬件、系统集成和全生命周期服务。",
+      "core_judgement": "按2026-07-31市值1942.88亿元，扣除折后可剥离净现金193.43亿元后，经营业务购买价1749.45亿元；以75亿元折后可持续可分配现金利润计，控股回本约23.33年，未扣现金的市值/现金利润约25.91倍。该结果对理财资产流动性、项目周转所需现金和未来利润稳定性敏感，不等同于目标价或买卖建议。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/600406.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
