@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 17:25:03 +08:00",
+  "built_at": "2026-07-31 17:26:12 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -8010,6 +8010,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600351.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "000338.SZ",
+      "name": "潍柴动力",
+      "raw_name": "潍柴动力",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 2395.93,
+      "pe_ttm": 21.19,
+      "owner_earnback_years": 19.57,
+      "owner_earnback_rate_pct": 5.11,
+      "market_profit_payback_years": 19.57,
+      "market_cash_profit_yield_pct": 5.11,
+      "discounted_detachable_net_cash_yi": 0.0,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": 2395.93,
+      "discounted_cash_profit_yi": 122.4,
+      "revenue_yi": 2318.09,
+      "gross_profit_yi": 497.82,
+      "parent_net_profit_yi": 109.31,
+      "gross_margin_pct": 21.48,
+      "net_margin_pct": 4.72,
+      "forecast_dividend_yield_pct": 2.65,
+      "risk_level": "未分级",
+      "business_summary": "以重型动力总成和商用车产业链为根基，同时经营凯傲智慧物流、农业装备及快速增长的发电能源设备的全球化装备集团。",
+      "core_judgement": "按合并口径，未受限货币资金与结构性存款合计约718.25亿元，但公司披露有息负债558.38亿元，另有受限现金、制造营运资金及少数股东约束；审慎口径不确认可从市值中扣除的净现金。2025年经营自由现金流218.85亿元，按归母净利润占合并净利润79.90%归属化后为174.86亿元，再对周期、营运资金释放和维持性资本开支口径给予30%折扣，得到可持续可分配现金利润122.40亿元。由此经营业务购买价等于市值2395.93亿元，静态回本约19.57年；这是压力测试口径，不是收益...",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/000338.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
