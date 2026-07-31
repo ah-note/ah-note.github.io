@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 16:31:19 +08:00",
+  "built_at": "2026-07-31 16:31:48 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -6119,6 +6119,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/01900.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "601311.SH",
+      "name": "骆驼股份",
+      "raw_name": "骆驼股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 94.44,
+      "pe_ttm": 12.42,
+      "owner_earnback_years": 17.17,
+      "owner_earnback_rate_pct": 5.83,
+      "market_profit_payback_years": 18.16,
+      "market_cash_profit_yield_pct": 5.51,
+      "discounted_detachable_net_cash_yi": 5.17,
+      "discounted_net_cash_to_market_cap_pct": 5.48,
+      "operating_business_price_yi": 89.27,
+      "discounted_cash_profit_yi": 5.2,
+      "revenue_yi": 163.03,
+      "gross_profit_yi": 24.54,
+      "parent_net_profit_yi": 8.38,
+      "gross_margin_pct": 15.05,
+      "net_margin_pct": 5.14,
+      "forecast_dividend_yield_pct": 4.47,
+      "risk_level": "未分级",
+      "business_summary": "公司以汽车低压铅酸电池为利润基本盘，并用全国经销/配套渠道和废旧电池回收—再生铅体系形成销售、回收与原料循环，低压锂电是快速增长的新业务。",
+      "core_judgement": "按2026-07-31市值94.44亿元，扣除折后可剥离净现金5.17亿元后，经营业务购买价约89.27亿元。以5.20亿元折后可持续可分配现金利润估算，经营业务静态回本约17.17年，市值/现金利润约18.16倍。该口径未给长期股权和战略金融投资任何可剥离价值，也没有把8.38亿元表观归母利润全额持续化；结论对再生铅亏损改善、非经常收益消退和营运资金波动敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/601311.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
