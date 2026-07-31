@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 04:21:26 +08:00",
+  "built_at": "2026-08-01 04:22:17 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -12505,6 +12505,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/301283.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "603235.SH",
+      "name": "天新药业",
+      "raw_name": "天新药业",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 104.54,
+      "pe_ttm": 20.1,
+      "owner_earnback_years": 21.74,
+      "owner_earnback_rate_pct": 4.6,
+      "market_profit_payback_years": 23.67,
+      "market_cash_profit_yield_pct": 4.22,
+      "discounted_detachable_net_cash_yi": 8.51,
+      "discounted_net_cash_to_market_cap_pct": 8.14,
+      "operating_business_price_yi": 96.03,
+      "discounted_cash_profit_yi": 4.42,
+      "revenue_yi": 23.45,
+      "gross_profit_yi": 9.92,
+      "parent_net_profit_yi": 5.92,
+      "gross_margin_pct": 42.31,
+      "net_margin_pct": 25.23,
+      "forecast_dividend_yield_pct": 2.29,
+      "risk_level": "未分级",
+      "business_summary": "以规模化化学合成生产维生素B族为利润核心，同时拓展其他维生素和精细化工品，面向境内外食品、饲料及医药客户销售。",
+      "core_judgement": "按2026年7月31日104.54亿元市值，货币资金保留20%扩产及营运折扣并全额扣除有息和租赁负债后，折后可剥离净现金约8.51亿元；经营业务购买价约96.03亿元。以2025年归母净利润为起点，扣除政府补助、理财及公允价值收益、净利息收益的税后影响，再对维持性资本开支与维生素周期波动保留15%安全折扣，折后可持续现金利润约4.42亿元，对应经营业务回本约21.7年、市值/现金利润约23.7倍。该估计不是当年自由现金流：扩产资本开支导致2025年经营自由现金流仅0.49亿元...",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/603235.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
