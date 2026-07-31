@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 15:26:46 +08:00",
+  "built_at": "2026-07-31 15:27:35 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -8413,6 +8413,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/605599.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "600803.SH",
+      "name": "新奥股份",
+      "raw_name": "新奥股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 542.69,
+      "pe_ttm": 12.45,
+      "owner_earnback_years": 30.97,
+      "owner_earnback_rate_pct": 3.23,
+      "market_profit_payback_years": 20.48,
+      "market_cash_profit_yield_pct": 4.88,
+      "discounted_detachable_net_cash_yi": -277.92,
+      "discounted_net_cash_to_market_cap_pct": -51.21,
+      "operating_business_price_yi": 820.61,
+      "discounted_cash_profit_yi": 26.5,
+      "revenue_yi": 1314.57,
+      "gross_profit_yi": 182.96,
+      "parent_net_profit_yi": 46.81,
+      "gross_margin_pct": 13.92,
+      "net_margin_pct": 3.56,
+      "forecast_dividend_yield_pct": 5.47,
+      "risk_level": "未分级",
+      "business_summary": "以城市燃气零售为基本盘，连接上游海内外气源、舟山LNG接收站、批发与交易，并向工程安装、综合能源和家庭服务延伸的天然气全产业链运营商。",
+      "core_judgement": "按2026-07-31市值542.69亿元，资金端仅把185.67亿元非受限资金的30%计作可剥离价值，并全额扣除333.62亿元借贷，得到折后可剥离净现金-277.92亿元；经营业务购买价因此为820.61亿元。2025年合并经营自由现金流60.29亿元，先按归母净利润占合并净利润46.89%估算股东归属约28.27亿元，再因资本开支周期、少数股东归属和套期波动折至26.50亿元。对应经营业务回本约30.97年，市值/现金利润约20.48倍。该结果是保守控股口径，不是目标价...",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/600803.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
