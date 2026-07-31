@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 02:46:05 +08:00",
+  "built_at": "2026-08-01 02:48:16 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -25866,6 +25866,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603239.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "603885.SH",
+      "name": "吉祥航空",
+      "raw_name": "吉祥航空",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 236.2,
+      "pe_ttm": 20.81,
+      "owner_earnback_years": 73.78,
+      "owner_earnback_rate_pct": 1.36,
+      "market_profit_payback_years": 32.93,
+      "market_cash_profit_yield_pct": 3.04,
+      "discounted_detachable_net_cash_yi": -292.99,
+      "discounted_net_cash_to_market_cap_pct": -124.04,
+      "operating_business_price_yi": 529.19,
+      "discounted_cash_profit_yi": 7.17,
+      "revenue_yi": 224.99,
+      "gross_profit_yi": 28.01,
+      "parent_net_profit_yi": 10.4,
+      "gross_margin_pct": 12.45,
+      "net_margin_pct": 4.62,
+      "forecast_dividend_yield_pct": 1.8,
+      "risk_level": "未分级",
+      "business_summary": "以上海为主基地、广州九元航空为低成本补充的双品牌航空公司，主要靠客票收入覆盖航油、租赁折旧、人工和起降等高固定成本。",
+      "core_judgement": "按货币资金80%、中国东航等权益投资50%、其他金融资产50%折价，并全额扣除带息债务，折后可剥离净现金为负约293.00亿元。以扣非归母利润8.97亿元为基准、结合扣除租赁付款与资本开支后的约9.01亿元现金校验，再打八折得到约7.17亿元可持续可分配现金利润；对应经营业务购买价约529.20亿元，控股回本约73.8年。该结果高度依赖航空周期、租赁与未来飞机资本开支，不是静态清算价值。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/603885.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
