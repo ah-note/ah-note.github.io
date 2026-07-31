@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 18:02:00 +08:00",
+  "built_at": "2026-07-31 18:03:09 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -11017,6 +11017,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/000888.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "603237.SH",
+      "name": "五芳斋",
+      "raw_name": "五芳斋",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 27.77,
+      "pe_ttm": 25.35,
+      "owner_earnback_years": 24.0,
+      "owner_earnback_rate_pct": 4.17,
+      "market_profit_payback_years": 27.77,
+      "market_cash_profit_yield_pct": 3.6,
+      "discounted_detachable_net_cash_yi": 3.77,
+      "discounted_net_cash_to_market_cap_pct": 13.58,
+      "operating_business_price_yi": 24.0,
+      "discounted_cash_profit_yi": 1.0,
+      "revenue_yi": 22.42,
+      "gross_profit_yi": 8.3,
+      "parent_net_profit_yi": 1.22,
+      "gross_margin_pct": 37.03,
+      "net_margin_pct": 5.42,
+      "forecast_dividend_yield_pct": 3.4,
+      "risk_level": "未分级",
+      "business_summary": "以五芳斋老字号品牌销售粽子等节令食品，并通过经销、电商、商超和连锁门店触达消费者，同时经营中式快餐。",
+      "core_judgement": "以27.77亿元市值扣除3.77亿元折后可剥离净现金，经营业务购买价约24.00亿元；以1.00亿元折后可持续可分配现金利润计算约24.0年回本。现金利润以2025年经营现金流为起点，扣除约0.153亿元营运资本净释放、0.858亿元资本开支和0.612亿元租赁付款后约1.008亿元，再取整下调至1.00亿元。该口径是静态经营回本测算，不是目标价或买卖建议。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/603237.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
