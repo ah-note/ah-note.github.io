@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 00:12:51 +08:00",
+  "built_at": "2026-08-01 00:14:42 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -21681,6 +21681,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600681.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "300592.SZ",
+      "name": "华凯易佰",
+      "raw_name": "华凯易佰",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 51.45,
+      "pe_ttm": 22.05,
+      "owner_earnback_years": 43.22,
+      "owner_earnback_rate_pct": 2.31,
+      "market_profit_payback_years": 44.12,
+      "market_cash_profit_yield_pct": 2.27,
+      "discounted_detachable_net_cash_yi": 1.05,
+      "discounted_net_cash_to_market_cap_pct": 2.04,
+      "operating_business_price_yi": 50.4,
+      "discounted_cash_profit_yi": 1.17,
+      "revenue_yi": 91.33,
+      "gross_profit_yi": 30.52,
+      "parent_net_profit_yi": 1.47,
+      "gross_margin_pct": 33.42,
+      "net_margin_pct": 1.61,
+      "forecast_dividend_yield_pct": 1.87,
+      "risk_level": "未分级",
+      "business_summary": "以中国供应链采购商品，通过Amazon等海外电商平台向境外消费者销售的跨境出口零售商，并提供亿迈跨境综合服务。",
+      "core_judgement": "按输入市值51.45亿元，折后可剥离净现金约1.05亿元，经营业务购买价约50.40亿元。可持续现金利润以2025年扣非归母净利润1.372亿元为起点，因平台集中、库存减值和2025现金流含大额去库存释放而按85%折价为1.166亿元；对应经营业务回本约43.2年，市值/现金利润约44.1倍。该口径不是预测，也不把一次性库存释放当作永久盈利。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/300592.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
