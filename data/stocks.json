@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 21:04:52 +08:00",
+  "built_at": "2026-07-31 21:05:42 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -15574,6 +15574,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603266.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "603281.SH",
+      "name": "江瀚新材",
+      "raw_name": "江瀚新材",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 103.21,
+      "pe_ttm": 24.28,
+      "owner_earnback_years": 28.11,
+      "owner_earnback_rate_pct": 3.56,
+      "market_profit_payback_years": 38.25,
+      "market_cash_profit_yield_pct": 2.61,
+      "discounted_detachable_net_cash_yi": 27.36,
+      "discounted_net_cash_to_market_cap_pct": 26.5,
+      "operating_business_price_yi": 75.85,
+      "discounted_cash_profit_yi": 2.7,
+      "revenue_yi": 18.58,
+      "gross_profit_yi": 5.06,
+      "parent_net_profit_yi": 4.18,
+      "gross_margin_pct": 27.22,
+      "net_margin_pct": 22.51,
+      "forecast_dividend_yield_pct": 3.52,
+      "risk_level": "未分级",
+      "business_summary": "江瀚新材通过自制中间体并生产、直销或经销两百多种功能性硅烷，赚取配方工艺、质量认证、完整产业链和规模交付形成的制造价差。",
+      "core_judgement": "按2026-07-31市值103.21亿元，折后可剥离净现金约27.36亿元，占市值26.5%；经营业务购买价约75.85亿元。以经营现金流扣除全部资本开支后再打95折，现金利润约2.70亿元，对应经营业务回本28.1年、市值/现金利润38.2倍。口径保守扣除扩产支出，但不假设产品价格反弹。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/603281.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
