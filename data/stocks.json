@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 17:24:33 +08:00",
+  "built_at": "2026-07-31 17:25:03 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -8134,6 +8134,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603368.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "688334.SH",
+      "name": "西高院",
+      "raw_name": "西高院",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 57.97,
+      "pe_ttm": 22.99,
+      "owner_earnback_years": 19.67,
+      "owner_earnback_rate_pct": 5.08,
+      "market_profit_payback_years": 26.35,
+      "market_cash_profit_yield_pct": 3.8,
+      "discounted_detachable_net_cash_yi": 14.7,
+      "discounted_net_cash_to_market_cap_pct": 25.36,
+      "operating_business_price_yi": 43.27,
+      "discounted_cash_profit_yi": 2.2,
+      "revenue_yi": 8.68,
+      "gross_profit_yi": 4.73,
+      "parent_net_profit_yi": 2.49,
+      "gross_margin_pct": 54.47,
+      "net_margin_pct": 28.66,
+      "forecast_dividend_yield_pct": 2.38,
+      "risk_level": "未分级",
+      "business_summary": "为输配电设备制造商、电网企业等客户提供从低压到交直流特高压的检验检测、计量、认证与技术咨询，核心收入来自出具具有资质和公信力的检测报告。",
+      "core_judgement": "按2026-07-31市值57.97亿元，账面资金经流动性、受限/募投属性和履约义务折价，并扣除融资性负债后，估算可剥离净现金14.70亿元；经营业务隐含购买价43.27亿元。以剔除存款相关收益后、取整并留有小幅经营波动余量的2.20亿元可持续可分配现金利润计，经营业务回本约19.67年；若不扣净现金，市值对应现金利润约26.35年。该结果对募投资金最终用途、合同负债履约成本和维持性资本开支敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/688334.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
