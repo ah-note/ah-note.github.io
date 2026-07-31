@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 19:58:45 +08:00",
+  "built_at": "2026-07-31 19:59:54 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -13063,6 +13063,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603339.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "000526.SZ",
+      "name": "学大教育",
+      "raw_name": "学大教育",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 43.54,
+      "pe_ttm": 20.54,
+      "owner_earnback_years": 25.05,
+      "owner_earnback_rate_pct": 3.99,
+      "market_profit_payback_years": 27.75,
+      "market_cash_profit_yield_pct": 3.6,
+      "discounted_detachable_net_cash_yi": 4.24,
+      "discounted_net_cash_to_market_cap_pct": 9.74,
+      "operating_business_price_yi": 39.3,
+      "discounted_cash_profit_yi": 1.57,
+      "revenue_yi": 32.27,
+      "gross_profit_yi": 10.8,
+      "parent_net_profit_yi": 1.95,
+      "gross_margin_pct": 33.46,
+      "net_margin_pct": 6.05,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "以直营网点为主向学生和家长收取预付课时费，提供个性化辅导、全日制及职业教育服务，收入随课时消耗确认。",
+      "core_judgement": "按43.54亿元市值，折后可剥离净现金约4.24亿元，经营业务购买价约39.30亿元；以扣非归母利润1.743亿元再打九折得到1.569亿元持续可分配现金利润，静态经营业务回本约25.05年，市值/现金利润约27.75倍。该口径比报表自由现金流更保守，因为经营现金流受预收课时增长影响，而租赁付款中2.611亿元列在筹资现金流。当前母公司仍有9.269亿元未弥补亏损，法定现金分红能力为零，回本数字不等于近期可实际分配现金。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/000526.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
