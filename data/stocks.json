@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 21:52:50 +08:00",
+  "built_at": "2026-07-31 21:53:39 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -17899,6 +17899,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600182.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "301015.SZ",
+      "name": "百洋医药",
+      "raw_name": "百洋医药",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 118.32,
+      "pe_ttm": 23.04,
+      "owner_earnback_years": 33.22,
+      "owner_earnback_rate_pct": 3.01,
+      "market_profit_payback_years": 29.58,
+      "market_cash_profit_yield_pct": 3.38,
+      "discounted_detachable_net_cash_yi": -14.56,
+      "discounted_net_cash_to_market_cap_pct": -12.31,
+      "operating_business_price_yi": 132.88,
+      "discounted_cash_profit_yi": 4.0,
+      "revenue_yi": 75.07,
+      "gross_profit_yi": 28.13,
+      "parent_net_profit_yi": 4.75,
+      "gross_margin_pct": 37.47,
+      "net_margin_pct": 6.32,
+      "forecast_dividend_yield_pct": 2.54,
+      "risk_level": "未分级",
+      "business_summary": "以迪巧、甘纤乐、泌特等医药健康品牌的全渠道商业化为利润核心，并向药品研发生产和创新药械产业化延伸。",
+      "core_judgement": "以市值118.32亿元计，现金及现金等价物19.2394亿元减融资负债33.7996亿元，折后可剥离净现金为-14.5601亿元；权益与长期投资不作现金扣减。2025年经营自由现金流6.4552亿元中，应收减少和经营应付增加贡献约2.1200亿元，剔除后约4.3352亿元；再考虑利润下滑、第四季度归母微亏及创新投入，将可持续现金利润折至4.00亿元。经营业务购买价132.88亿元，回本约33.22年；未考虑税务、控制权溢价、收购融资成本和未来增长。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/301015.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
