@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 19:14:44 +08:00",
+  "built_at": "2026-07-31 19:15:33 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -13931,6 +13931,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002852.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "300750.SZ",
+      "name": "宁德时代",
+      "raw_name": "宁德时代",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 18423.8,
+      "pe_ttm": 21.68,
+      "owner_earnback_years": 29.41,
+      "owner_earnback_rate_pct": 3.4,
+      "market_profit_payback_years": 31.73,
+      "market_cash_profit_yield_pct": 3.15,
+      "discounted_detachable_net_cash_yi": 1350.87,
+      "discounted_net_cash_to_market_cap_pct": 7.33,
+      "operating_business_price_yi": 17072.93,
+      "discounted_cash_profit_yi": 580.57,
+      "revenue_yi": 4237.02,
+      "gross_profit_yi": 1113.19,
+      "parent_net_profit_yi": 722.01,
+      "gross_margin_pct": 26.27,
+      "net_margin_pct": 17.04,
+      "forecast_dividend_yield_pct": 1.71,
+      "risk_level": "未分级",
+      "business_summary": "宁德时代以规模化研发制造动力与储能电池系统获利，并向电池材料回收、换电和零碳场景延伸。",
+      "core_judgement": "以2026-07-31市值18423.8亿元计，折后可剥离净现金1350.87亿元仅覆盖市值7.33%；买下经营业务的隐含价格约17072.93亿元。以2025年扣非归母净利润645.08亿元为可持续利润基准并再打九折，折后现金利润580.57亿元，经营业务静态回本约29.41年，未考虑增长、衰退、资金时间价值或未来再投资。该数字说明当前定价主要依赖未来持续增长和竞争优势，而非现有现金资产或单年现金利润快速回本。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/300750.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
