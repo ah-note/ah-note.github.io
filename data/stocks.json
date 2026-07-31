@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 22:07:13 +08:00",
+  "built_at": "2026-07-31 22:09:04 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -8940,6 +8940,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002545.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "603391.SH",
+      "name": "力聚热能",
+      "raw_name": "力聚热能",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 45.85,
+      "pe_ttm": 23.39,
+      "owner_earnback_years": 19.29,
+      "owner_earnback_rate_pct": 5.18,
+      "market_profit_payback_years": 25.47,
+      "market_cash_profit_yield_pct": 3.93,
+      "discounted_detachable_net_cash_yi": 11.12,
+      "discounted_net_cash_to_market_cap_pct": 24.25,
+      "operating_business_price_yi": 34.73,
+      "discounted_cash_profit_yi": 1.8,
+      "revenue_yi": 11.38,
+      "gross_profit_yi": 4.55,
+      "parent_net_profit_yi": 2.26,
+      "gross_margin_pct": 40.01,
+      "net_margin_pct": 19.85,
+      "forecast_dividend_yield_pct": 2.98,
+      "risk_level": "未分级",
+      "business_summary": "力聚热能向供暖及食品、医药、纺织等工业客户直销定制化高效低氮工业锅炉，并通过维保和合同能源管理获得少量后续收入。",
+      "core_judgement": "按45.85亿元市值，折后可剥离净现金约11.12亿元后，经营业务购买价约34.73亿元；以1.80亿元折后可持续可分配现金利润计，经营业务回本约19.3年，未扣现金的市值/现金利润约25.5倍。该结果依赖大额存单最终可释放、当前扩产资本开支回落及扣非盈利可持续三个判断。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/603391.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
