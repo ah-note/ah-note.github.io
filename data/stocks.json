@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 22:58:22 +08:00",
+  "built_at": "2026-07-31 22:59:19 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -14923,6 +14923,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/300130.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "603298.SH",
+      "name": "杭叉集团",
+      "raw_name": "杭叉集团",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 368.84,
+      "pe_ttm": 16.53,
+      "owner_earnback_years": 25.86,
+      "owner_earnback_rate_pct": 3.87,
+      "market_profit_payback_years": 28.37,
+      "market_cash_profit_yield_pct": 3.52,
+      "discounted_detachable_net_cash_yi": 32.67,
+      "discounted_net_cash_to_market_cap_pct": 8.86,
+      "operating_business_price_yi": 336.17,
+      "discounted_cash_profit_yi": 13.0,
+      "revenue_yi": 177.39,
+      "gross_profit_yi": 43.96,
+      "parent_net_profit_yi": 21.91,
+      "gross_margin_pct": 24.78,
+      "net_margin_pct": 12.35,
+      "forecast_dividend_yield_pct": 2.13,
+      "risk_level": "未分级",
+      "business_summary": "杭叉集团研发、制造并通过境内外直营网点销售叉车及配件，同时向智能物流系统和租赁服务延伸。",
+      "core_judgement": "按2026-07-31市值368.84亿元，扣除折后可剥离净现金32.67亿元后，经营业务购买价约336.17亿元；以审慎归一化后的可持续可分配现金利润13.00亿元计，控股回本约25.86年。该数字对长期股权投资30%折价和现金利润归一化最敏感，不等同于股价预测。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/603298.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
