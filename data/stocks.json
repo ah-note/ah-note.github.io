@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 03:49:14 +08:00",
+  "built_at": "2026-08-01 03:51:26 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -23572,6 +23572,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/605580.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "002458.SZ",
+      "name": "益生股份",
+      "raw_name": "益生股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 123.51,
+      "pe_ttm": 26.46,
+      "owner_earnback_years": 37.44,
+      "owner_earnback_rate_pct": 2.67,
+      "market_profit_payback_years": 35.29,
+      "market_cash_profit_yield_pct": 2.83,
+      "discounted_detachable_net_cash_yi": -7.52,
+      "discounted_net_cash_to_market_cap_pct": -6.09,
+      "operating_business_price_yi": 131.03,
+      "discounted_cash_profit_yi": 3.5,
+      "revenue_yi": 29.52,
+      "gross_profit_yi": 5.24,
+      "parent_net_profit_yi": 1.65,
+      "gross_margin_pct": 17.76,
+      "net_margin_pct": 5.6,
+      "forecast_dividend_yield_pct": 1.32,
+      "risk_level": "未分级",
+      "business_summary": "公司处于白羽肉鸡产业链最上游，以进口祖代种鸡扩繁并销售父母代和商品代鸡苗为核心，同时经营种猪、乳品和养殖设备。",
+      "core_judgement": "以2023-2025年归母净利润均值约4.03亿元反映一个有限的跨周期样本，再折减至3.50亿元，低于该均值且高于2025年低谷利润；2025年自由现金流2.49亿元未直接上调利润，因为折旧、生物资产更新与扩产支出使单年现金流不可简单年化。货币资金按100%计入，但扣除短期借款、一年内到期非流动负债、长期借款、租赁负债及长期应付款后，净现金为负7.52亿元，因此经营业务购买价高于市值。对应约37.44年回本，仅是控股口径的情景测算，不是确定预测。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/002458.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
