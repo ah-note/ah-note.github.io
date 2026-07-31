@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 16:49:59 +08:00",
+  "built_at": "2026-07-31 16:50:27 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -9002,6 +9002,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002949.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "002004.SZ",
+      "name": "华邦健康",
+      "raw_name": "华邦健康",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 87.12,
+      "pe_ttm": 12.74,
+      "owner_earnback_years": 22.46,
+      "owner_earnback_rate_pct": 4.45,
+      "market_profit_payback_years": 14.52,
+      "market_cash_profit_yield_pct": 6.89,
+      "discounted_detachable_net_cash_yi": -47.67,
+      "discounted_net_cash_to_market_cap_pct": -54.71,
+      "operating_business_price_yi": 134.79,
+      "discounted_cash_profit_yi": 6.0,
+      "revenue_yi": 115.12,
+      "gross_profit_yi": 42.51,
+      "parent_net_profit_yi": 7.13,
+      "gross_margin_pct": 36.92,
+      "net_margin_pct": 6.2,
+      "forecast_dividend_yield_pct": 5.66,
+      "risk_level": "未分级",
+      "business_summary": "以皮肤药为高毛利核心，同时控股经营农化新材料、玉龙雪山旅游和民营医疗的多元产业集团。",
+      "core_judgement": "按控股视角，合并口径高流动性资金先因受限资金、少数股东及子公司治理约束打七折，再全额扣除有息及类有息融资，得到折后可剥离净现金为负47.67亿元；因此不是净现金覆盖型资产。以2025年扣非归母净利润6.43亿元为锚，并结合14.58亿元经营自由现金流对利润含金量的支持，将可持续可分配现金利润保守取6.00亿元。市值口径约14.52年，计入负净现金后的经营业务购买价口径约22.46年；该结果对农化周期、医疗亏损、少数股东分配和资本开支高度敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/002004.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
