@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 15:46:44 +08:00",
+  "built_at": "2026-07-31 15:47:33 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -6026,6 +6026,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002959.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "002275.SZ",
+      "name": "桂林三金",
+      "raw_name": "桂林三金",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 77.97,
+      "pe_ttm": 17.22,
+      "owner_earnback_years": 17.55,
+      "owner_earnback_rate_pct": 5.7,
+      "market_profit_payback_years": 20.52,
+      "market_cash_profit_yield_pct": 4.87,
+      "discounted_detachable_net_cash_yi": 11.26,
+      "discounted_net_cash_to_market_cap_pct": 14.45,
+      "operating_business_price_yi": 66.71,
+      "discounted_cash_profit_yi": 3.8,
+      "revenue_yi": 20.46,
+      "gross_profit_yi": 15.55,
+      "parent_net_profit_yi": 4.33,
+      "gross_margin_pct": 76.03,
+      "net_margin_pct": 21.17,
+      "forecast_dividend_yield_pct": 2.26,
+      "risk_level": "未分级",
+      "business_summary": "以三金片和西瓜霜系列为核心，通过全国OTC与处方药营销网络销售高毛利中成药，并以化药、生物药CDMO及大健康业务作为扩展。",
+      "core_judgement": "按77.97亿元市值，扣除折后可剥离净现金11.26亿元后，相当于以66.71亿元购买经营业务；用3.80亿元折后可持续可分配现金利润计算，经营业务回本约17.6年，市值/现金利润约20.5倍。该口径是静态压力测试，不代表实际并购可立即抽走资金，也不构成收益承诺。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/002275.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
