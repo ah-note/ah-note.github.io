@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 17:45:30 +08:00",
+  "built_at": "2026-07-31 17:46:19 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -13621,6 +13621,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002375.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "600163.SH",
+      "name": "中闽能源",
+      "raw_name": "中闽能源",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 101.43,
+      "pe_ttm": 21.73,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 16.07,
+      "gross_profit_yi": 8.74,
+      "parent_net_profit_yi": 5.22,
+      "gross_margin_pct": 54.4,
+      "net_margin_pct": 32.45,
+      "forecast_dividend_yield_pct": 0.56,
+      "risk_level": "未分级",
+      "business_summary": "公司运营约99.93万千瓦新能源发电资产，把风能等转成电力并通过电网与电力市场售出，利润主要来自福建风电项目。",
+      "core_judgement": "普通控股回本口径不适用。虽然期末货币资金20.04亿元且2025年经营现金流20.06亿元，但现金增长主要来自以前年度电价补贴应收回款，且发电资产、收费权质押应收、项目债务和未来资本开支彼此匹配，不能把现金全额从市值中剥离，也不能把单年补贴回款当作可持续现金利润。应改用分项目剩余现金流模型：按剩余运营期预测上网电量×电价，扣运营维护、税、维护/更新资本开支、项目债务本息、少数股东分流及弃置费用，再判断可上划和可分配现金。年报未提供逐项目剩余运营期与完整未来资本开支计划，故不伪...",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/600163.SH/"
     }
   ]
 }
