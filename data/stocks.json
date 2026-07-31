@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 23:58:40 +08:00",
+  "built_at": "2026-07-31 23:59:50 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -18736,6 +18736,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603726.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "300690.SZ",
+      "name": "双一科技",
+      "raw_name": "双一科技",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 35.05,
+      "pe_ttm": 23.26,
+      "owner_earnback_years": 31.27,
+      "owner_earnback_rate_pct": 3.2,
+      "market_profit_payback_years": 35.05,
+      "market_cash_profit_yield_pct": 2.85,
+      "discounted_detachable_net_cash_yi": 3.78,
+      "discounted_net_cash_to_market_cap_pct": 10.79,
+      "operating_business_price_yi": 31.27,
+      "discounted_cash_profit_yi": 1.0,
+      "revenue_yi": 10.08,
+      "gross_profit_yi": 2.78,
+      "parent_net_profit_yi": 1.6,
+      "gross_margin_pct": 27.59,
+      "net_margin_pct": 15.85,
+      "forecast_dividend_yield_pct": 1.83,
+      "risk_level": "未分级",
+      "business_summary": "为风电主机、叶片、车辆及其他工业客户定制生产树脂基复合材料部件和非金属模具。",
+      "core_judgement": "按2026-07-31市值35.05亿元，货币资金仅按70%、交易性金融资产按90%计入，并全额扣除有息及租赁负债，得到折后可剥离净现金3.782亿元；经营业务购买价约31.268亿元。现金利润采用1.00亿元：低于2025年扣非归母净利1.394亿元，也略高于当年经营自由现金流0.901亿元，考虑2025年资本开支较2024年异常抬升，取两者之间的审慎、可持续估计。由此经营业务回本约31.3年，含现金的市值/现金利润约35.1倍；结论对维持性资本开支和现金实际受限程度高度敏...",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/300690.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
