@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 00:48:04 +08:00",
+  "built_at": "2026-08-01 00:48:53 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -22332,6 +22332,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/301129.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "605117.SH",
+      "name": "德业股份",
+      "raw_name": "德业股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 1060.73,
+      "pe_ttm": 29.04,
+      "owner_earnback_years": 43.07,
+      "owner_earnback_rate_pct": 2.32,
+      "market_profit_payback_years": 43.66,
+      "market_cash_profit_yield_pct": 2.29,
+      "discounted_detachable_net_cash_yi": 14.44,
+      "discounted_net_cash_to_market_cap_pct": 1.36,
+      "operating_business_price_yi": 1046.29,
+      "discounted_cash_profit_yi": 24.29,
+      "revenue_yi": 122.24,
+      "gross_profit_yi": 46.61,
+      "parent_net_profit_yi": 31.71,
+      "gross_margin_pct": 38.13,
+      "net_margin_pct": 25.94,
+      "forecast_dividend_yield_pct": 2.58,
+      "risk_level": "未分级",
+      "business_summary": "德业股份通过全球渠道销售储能逆变器、储能电池包和光伏逆变器，并以除湿机、太阳能空调等环境电器补充收入。",
+      "core_judgement": "按2026-07-31市值1060.73亿元，扣除折后可剥离净现金14.44亿元后，经营业务购买价约1046.29亿元；以折后可持续现金利润24.29亿元计，静态回本约43.1年。该结果对海外储能需求、储能电池包毛利率和扩产资本开支高度敏感，只是控股视角的静态压力测试。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/605117.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
