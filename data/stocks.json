@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 17:13:28 +08:00",
+  "built_at": "2026-07-31 17:14:17 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -9529,6 +9529,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/301330.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "601369.SH",
+      "name": "陕鼓动力",
+      "raw_name": "陕鼓动力",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 164.25,
+      "pe_ttm": 23.74,
+      "owner_earnback_years": 22.5,
+      "owner_earnback_rate_pct": 4.44,
+      "market_profit_payback_years": 34.39,
+      "market_cash_profit_yield_pct": 2.91,
+      "discounted_detachable_net_cash_yi": 56.79,
+      "discounted_net_cash_to_market_cap_pct": 34.58,
+      "operating_business_price_yi": 107.46,
+      "discounted_cash_profit_yi": 4.78,
+      "revenue_yi": 94.22,
+      "gross_profit_yi": 18.59,
+      "parent_net_profit_yi": 7.48,
+      "gross_margin_pct": 19.74,
+      "net_margin_pct": 7.94,
+      "forecast_dividend_yield_pct": 3.25,
+      "risk_level": "未分级",
+      "business_summary": "为冶金、石化和能源客户提供透平设备、工业服务及工业气体运营的一体化方案。",
+      "core_judgement": "市值164.25亿元扣折后净现金56.79亿元，经营业务价107.46亿元。归母利润剔除配对资金收益并再打九折，现金利润4.78亿元，与经营自由现金流4.65亿元接近；经营业务回本约22.5年，未扣现金为34.4年。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/601369.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
