@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 19:24:34 +08:00",
+  "built_at": "2026-07-31 19:25:24 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -12040,6 +12040,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600273.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "300978.SZ",
+      "name": "东箭科技",
+      "raw_name": "东箭科技",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 35.51,
+      "pe_ttm": 28.47,
+      "owner_earnback_years": 23.82,
+      "owner_earnback_rate_pct": 4.2,
+      "market_profit_payback_years": 25.6,
+      "market_cash_profit_yield_pct": 3.91,
+      "discounted_detachable_net_cash_yi": 2.46,
+      "discounted_net_cash_to_market_cap_pct": 6.93,
+      "operating_business_price_yi": 33.05,
+      "discounted_cash_profit_yi": 1.39,
+      "revenue_yi": 20.34,
+      "gross_profit_yi": 5.85,
+      "parent_net_profit_yi": 1.42,
+      "gross_margin_pct": 28.75,
+      "net_margin_pct": 7.0,
+      "forecast_dividend_yield_pct": 3.57,
+      "risk_level": "未分级",
+      "business_summary": "为主机厂和汽车后市场提供汽车外饰、承载防护、智能座舱及户外改装产品，靠研发制造、前装配套和海内外品牌渠道赚钱。",
+      "core_judgement": "以2026-07-31市值35.51亿元计，先扣除折后可剥离净现金2.46亿元，经营业务购买价约33.05亿元；以折后可持续现金利润1.387亿元计，约23.8年回本。该数字不是收益承诺，核心敏感项是国内后装能否止跌、海外关税成本、前装客户价格压力以及营运资金释放是否可重复。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/300978.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
