@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 20:52:49 +08:00",
+  "built_at": "2026-07-31 20:54:46 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -16752,6 +16752,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002299.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "002611.SZ",
+      "name": "东方精工",
+      "raw_name": "东方精工",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 194.28,
+      "pe_ttm": 4.65,
+      "owner_earnback_years": 35.12,
+      "owner_earnback_rate_pct": 2.85,
+      "market_profit_payback_years": 38.86,
+      "market_cash_profit_yield_pct": 2.57,
+      "discounted_detachable_net_cash_yi": 18.66,
+      "discounted_net_cash_to_market_cap_pct": 9.61,
+      "operating_business_price_yi": 175.62,
+      "discounted_cash_profit_yi": 5.0,
+      "revenue_yi": 52.29,
+      "gross_profit_yi": 14.31,
+      "parent_net_profit_yi": 7.25,
+      "gross_margin_pct": 27.36,
+      "net_margin_pct": 13.87,
+      "forecast_dividend_yield_pct": 1.08,
+      "risk_level": "未分级",
+      "business_summary": "公司向全球纸包装厂销售瓦楞纸板生产线、纸箱印刷设备及配套服务，并通过百胜动力销售舷外机和通机，利润主体来自海外中高端包装装备。",
+      "core_judgement": "以194.28亿元市值减去18.66亿元折后可剥离净现金，经营业务购买价约175.62亿元；以5.00亿元折后可持续现金利润计，回本约35.1年。该口径明显高于输入PE TTM所暗示的水平，原因是PE包含滚动期利润且可能受投资/处置收益影响，而本口径剔除证券投资波动并对营运资金改善作保守处理。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/002611.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
