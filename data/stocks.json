@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 21:10:12 +08:00",
+  "built_at": "2026-07-31 21:12:02 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -11172,6 +11172,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002236.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "301376.SZ",
+      "name": "致欧科技",
+      "raw_name": "致欧科技",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 73.29,
+      "pe_ttm": 24.42,
+      "owner_earnback_years": 21.98,
+      "owner_earnback_rate_pct": 4.55,
+      "market_profit_payback_years": 26.18,
+      "market_cash_profit_yield_pct": 3.82,
+      "discounted_detachable_net_cash_yi": 11.75,
+      "discounted_net_cash_to_market_cap_pct": 16.03,
+      "operating_business_price_yi": 61.54,
+      "discounted_cash_profit_yi": 2.8,
+      "revenue_yi": 87.01,
+      "gross_profit_yi": 30.0,
+      "parent_net_profit_yi": 3.36,
+      "gross_margin_pct": 34.48,
+      "net_margin_pct": 3.86,
+      "forecast_dividend_yield_pct": 1.09,
+      "risk_level": "未分级",
+      "business_summary": "面向欧美消费者，以SONGMICS、VASAGLE、FEANDREA等自有品牌，通过亚马逊等平台、独立站和线下零售销售平价、易安装的家具家居及宠物用品。",
+      "core_judgement": "按2026-07-31市值73.29亿元，折后可剥离净现金11.75亿元后，经营业务购买价约61.54亿元；以2.80亿元折后可持续可分配现金利润计，静态回本约21.98年。该口径没有把票据推动的24.70亿元经营现金流直接资本化，而以3.19亿元扣非归母利润为锚再折价，结果仍依赖海外仓租赁、B2B应收和关税汇率环境。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/301376.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
