@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 19:05:17 +08:00",
+  "built_at": "2026-07-31 19:06:07 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -11978,6 +11978,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002452.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "300320.SZ",
+      "name": "海达股份",
+      "raw_name": "海达股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 49.42,
+      "pe_ttm": 20.4,
+      "owner_earnback_years": 23.88,
+      "owner_earnback_rate_pct": 4.19,
+      "market_profit_payback_years": 23.53,
+      "market_cash_profit_yield_pct": 4.25,
+      "discounted_detachable_net_cash_yi": -0.72,
+      "discounted_net_cash_to_market_cap_pct": -1.45,
+      "operating_business_price_yi": 50.14,
+      "discounted_cash_profit_yi": 2.1,
+      "revenue_yi": 35.98,
+      "gross_profit_yi": 6.78,
+      "parent_net_profit_yi": 2.32,
+      "gross_margin_pct": 18.84,
+      "net_margin_pct": 6.46,
+      "forecast_dividend_yield_pct": 0.61,
+      "risk_level": "未分级",
+      "business_summary": "以橡胶密封、减振部件为核心，向汽车、轨道交通、建筑和航运客户配套，并经营汽车天窗导轨等轻量化铝型材的多行业零部件制造商。",
+      "core_judgement": "折后资金类资产约1.825亿元，低于全部有息融资负债约2.543亿元，得到折后可剥离净现金-0.718亿元；按2026-07-31市值49.42亿元，经营业务购买价约50.14亿元。以2.10亿元审慎可持续可分配现金利润计，经营业务回本约23.9年，未考虑增长、税务、控制权溢价及收购融资成本。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/300320.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
