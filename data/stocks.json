@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 04:42:46 +08:00",
+  "built_at": "2026-08-01 04:43:16 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -10397,6 +10397,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002372.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "603855.SH",
+      "name": "华荣股份",
+      "raw_name": "华荣股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 55.32,
+      "pe_ttm": 15.89,
+      "owner_earnback_years": 19.76,
+      "owner_earnback_rate_pct": 5.06,
+      "market_profit_payback_years": 19.76,
+      "market_cash_profit_yield_pct": 5.06,
+      "discounted_detachable_net_cash_yi": 0.0,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": 55.32,
+      "discounted_cash_profit_yi": 2.8,
+      "revenue_yi": 32.18,
+      "gross_profit_yi": 16.46,
+      "parent_net_profit_yi": 3.7,
+      "gross_margin_pct": 51.15,
+      "net_margin_pct": 11.49,
+      "forecast_dividend_yield_pct": 6.04,
+      "risk_level": "未分级",
+      "business_summary": "向石油化工、煤化工、矿山及海外高危工业客户销售防爆电器和智能安全系统，并经营专业照明与已主动收缩的新能源EPC。",
+      "core_judgement": "以2026年7月31日市值55.32亿元计，年末现金先扣除2026年7月已支付股息3.344亿元和年末有息债务2.596亿元，再考虑受限资金、营运资金需求与应收回款风险后，没有足够把握认定存在可剥离净现金，折后取0。可持续可分配现金利润取2.80亿元：低于2025年扣非归母净利润3.54亿元，也低于剔除应付票据/应付账款集中偿付扰动后的约3亿元自由现金流能力。由此经营业务购买价仍为55.32亿元，回本约19.76年；这不是收益承诺，若应收减值或防爆主业利润下滑，年限会延长。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/603855.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
