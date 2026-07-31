@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 19:39:31 +08:00",
+  "built_at": "2026-07-31 19:40:00 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -17000,6 +17000,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/601816.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "301058.SZ",
+      "name": "中粮科工",
+      "raw_name": "中粮科工",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 42.76,
+      "pe_ttm": 18.33,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 30.63,
+      "gross_profit_yi": 7.04,
+      "parent_net_profit_yi": 2.33,
+      "gross_margin_pct": 22.99,
+      "net_margin_pct": 7.61,
+      "forecast_dividend_yield_pct": 1.8,
+      "risk_level": "未分级",
+      "business_summary": "为粮油、冷链和食品加工客户提供设计咨询、机电工程系统交付及粮机装备的一体化工程技术服务商。",
+      "core_judgement": "普通控股回本口径不适用。虽然期末货币资金与交易性金融资产合计约21.97亿元、显性借款较少，但8.46亿元合同负债对应未完成履约义务，13.10亿元应付账款对应采购和分包结算，且约1.67亿元货币资金受限；应收、合同资产及履约成本又占用大量项目资金。应采用工程项目专项模型，持续跟踪新签合同质量、在手项目进度、回款、减值、经营现金流与分红，而不应给出净现金折扣后的普通回本年数。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/301058.SZ/"
     }
   ]
 }
