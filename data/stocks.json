@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 02:19:48 +08:00",
+  "built_at": "2026-08-01 02:20:17 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -24781,6 +24781,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600528.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "688278.SH",
+      "name": "特宝生物",
+      "raw_name": "特宝生物",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 237.85,
+      "pe_ttm": 23.47,
+      "owner_earnback_years": 54.04,
+      "owner_earnback_rate_pct": 1.85,
+      "market_profit_payback_years": 55.85,
+      "market_cash_profit_yield_pct": 1.79,
+      "discounted_detachable_net_cash_yi": 7.67,
+      "discounted_net_cash_to_market_cap_pct": 3.22,
+      "operating_business_price_yi": 230.18,
+      "discounted_cash_profit_yi": 4.26,
+      "revenue_yi": 36.96,
+      "gross_profit_yi": 34.36,
+      "parent_net_profit_yi": 10.31,
+      "gross_margin_pct": 92.96,
+      "net_margin_pct": 27.9,
+      "forecast_dividend_yield_pct": 1.06,
+      "risk_level": "未分级",
+      "business_summary": "特宝生物以派格宾为核心，通过自建学术推广团队、医药经销配送和生物药生产，赚取慢性乙肝等免疫代谢疾病创新药的高毛利。",
+      "core_judgement": "按2026-07-31市值，先扣除折后可剥离净现金7.67亿元，经营业务购买价约230.18亿元。2025年经营现金流扣资本开支得到4.73亿元自由现金流，再打九折为4.26亿元，静态回本约54.0年；市值/折后现金利润约55.8倍。该结果远高于23.47倍PE，核心原因是应收与存货扩张、资本开支使当期利润尚未充分转化为自由现金。若增长期营运资金占用回落，单年口径可能低估未来现金利润；若高投入和占款持续，则该差异具有经济意义。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/688278.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
