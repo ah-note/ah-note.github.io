@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 23:14:38 +08:00",
+  "built_at": "2026-07-31 23:15:28 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -23014,6 +23014,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600796.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "601199.SH",
+      "name": "江南水务",
+      "raw_name": "江南水务",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 51.9,
+      "pe_ttm": 14.39,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 14.58,
+      "gross_profit_yi": 5.65,
+      "parent_net_profit_yi": 3.7,
+      "gross_margin_pct": 38.71,
+      "net_margin_pct": 25.35,
+      "forecast_dividend_yield_pct": 1.62,
+      "risk_level": "未分级",
+      "business_summary": "公司在江阴以30年特许经营权运营城乡一体化供水，同时承接本地供排水工程、污水处理和管网运维。",
+      "core_judgement": "普通控股回本口径不适用。供水特许经营权、水厂和管网是收费能力载体，货币资金还需支持维护资本开支、工程营运资金和债务服务；应改用剩余特许经营期内的供售水量与水价、产销差、维护资本开支、工程回款、债务服务和可分红现金流模型。本次未取得逐年剩余收费期项目现金流预测，因此不伪造专项回本年数。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/601199.SH/"
     }
   ]
 }
