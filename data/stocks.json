@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 21:29:53 +08:00",
+  "built_at": "2026-07-31 21:30:23 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -16721,6 +16721,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/300971.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "300896.SZ",
+      "name": "爱美客",
+      "raw_name": "爱美客",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 332.7,
+      "pe_ttm": 29.04,
+      "owner_earnback_years": 29.84,
+      "owner_earnback_rate_pct": 3.35,
+      "market_profit_payback_years": 33.93,
+      "market_cash_profit_yield_pct": 2.95,
+      "discounted_detachable_net_cash_yi": 40.14,
+      "discounted_net_cash_to_market_cap_pct": 12.07,
+      "operating_business_price_yi": 292.56,
+      "discounted_cash_profit_yi": 9.8,
+      "revenue_yi": 24.53,
+      "gross_profit_yi": 22.74,
+      "parent_net_profit_yi": 12.91,
+      "gross_margin_pct": 92.7,
+      "net_margin_pct": 52.64,
+      "forecast_dividend_yield_pct": 1.81,
+      "risk_level": "未分级",
+      "business_summary": "爱美客研发并销售高毛利的医美注射材料和药品，主要通过直销与经销向医疗美容机构供货，利润依赖产品注册、差异化定价及医生与渠道覆盖。",
+      "core_judgement": "按2026-07-31市值332.70亿元，折后可剥离净现金40.14亿元，经营业务购买价292.56亿元；以2025年经营自由现金流11.54亿元再打85%可持续折扣得到9.80亿元，经营业务约29.84年回本，市值约33.93倍现金利润。该数字高度依赖2025年是否接近利润低谷，不能等同于确定回收期。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/300896.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
