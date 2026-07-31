@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 20:20:17 +08:00",
+  "built_at": "2026-07-31 20:21:07 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -15977,6 +15977,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002264.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "600182.SH",
+      "name": "S佳通",
+      "raw_name": "S佳通",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 43.83,
+      "pe_ttm": 19.84,
+      "owner_earnback_years": 33.15,
+      "owner_earnback_rate_pct": 3.02,
+      "market_profit_payback_years": 33.15,
+      "market_cash_profit_yield_pct": 3.02,
+      "discounted_detachable_net_cash_yi": 0.0,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": 43.83,
+      "discounted_cash_profit_yi": 1.32,
+      "revenue_yi": 48.45,
+      "gross_profit_yi": 9.33,
+      "parent_net_profit_yi": 1.97,
+      "gross_margin_pct": 19.26,
+      "net_margin_pct": 4.07,
+      "forecast_dividend_yield_pct": 4.42,
+      "risk_level": "未分级",
+      "business_summary": "依托佳通集团品牌、技术和全球销售网络，由持股51%的福建佳通生产并销售半钢、全钢子午线汽车轮胎。",
+      "core_judgement": "年末货币资金5.97亿元低于约8.01亿元有息融资负债，且应收账款18.76亿元、存货6.02亿元需要周转，因此不扣除可剥离净现金。以经营现金流减资本开支得到合并经营自由现金流2.88亿元，按上市公司对核心经营子公司福建佳通51%持股折算为1.47亿元，再因销售几乎全部依赖关联方网络及股改/治理不确定性折扣10%，得到折后可持续现金利润1.32亿元；按43.83亿元市值计算约33.2年。该数字是保守、可复核的控股回本估算，不是收益承诺。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/600182.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
