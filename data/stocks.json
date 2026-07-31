@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 05:09:41 +08:00",
+  "built_at": "2026-08-01 05:10:11 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -22673,6 +22673,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002832.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "603275.SH",
+      "name": "众辰科技",
+      "raw_name": "众辰科技",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 52.46,
+      "pe_ttm": 28.94,
+      "owner_earnback_years": 33.52,
+      "owner_earnback_rate_pct": 2.98,
+      "market_profit_payback_years": 52.46,
+      "market_cash_profit_yield_pct": 1.91,
+      "discounted_detachable_net_cash_yi": 18.94,
+      "discounted_net_cash_to_market_cap_pct": 36.1,
+      "operating_business_price_yi": 33.52,
+      "discounted_cash_profit_yi": 1.0,
+      "revenue_yi": 7.29,
+      "gross_profit_yi": 2.76,
+      "parent_net_profit_yi": 1.79,
+      "gross_margin_pct": 37.83,
+      "net_margin_pct": 24.63,
+      "forecast_dividend_yield_pct": 0.34,
+      "risk_level": "未分级",
+      "business_summary": "向工业设备厂商和终端客户销售变频器、伺服系统及减速器，靠研发、成本控制和直销/经销网络赚取自动化部件差价。",
+      "core_judgement": "市值52.46亿元，折后可剥离净现金约18.94亿元，隐含经营业务购买价约33.52亿元。可持续现金利润采用1.00亿元，低于归母净利1.79亿元和经营现金流1.07亿元，因剔除资金收益并给应收、票据和库存占用留缓冲；经营业务回本约33.5年，未扣现金的市值/现金利润52.5倍。结果依赖理财可剥离性及现金利润假设，不是确定回收期。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/603275.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
