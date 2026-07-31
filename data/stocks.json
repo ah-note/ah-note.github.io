@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 21:14:48 +08:00",
+  "built_at": "2026-07-31 21:15:37 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -9157,6 +9157,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603036.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "600660.SH",
+      "name": "福耀玻璃",
+      "raw_name": "福耀玻璃",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 1534.79,
+      "pe_ttm": 17.06,
+      "owner_earnback_years": 19.61,
+      "owner_earnback_rate_pct": 5.1,
+      "market_profit_payback_years": 19.43,
+      "market_cash_profit_yield_pct": 5.15,
+      "discounted_detachable_net_cash_yi": -14.35,
+      "discounted_net_cash_to_market_cap_pct": -0.94,
+      "operating_business_price_yi": 1549.14,
+      "discounted_cash_profit_yi": 79.0,
+      "revenue_yi": 457.87,
+      "gross_profit_yi": 170.65,
+      "parent_net_profit_yi": 93.12,
+      "gross_margin_pct": 37.27,
+      "net_margin_pct": 20.34,
+      "forecast_dividend_yield_pct": 3.57,
+      "risk_level": "未分级",
+      "business_summary": "为全球整车厂和售后市场设计、制造并就近供应汽车安全玻璃，以自制汽车级浮法玻璃、全球产能和高附加值智能玻璃提升价值量。",
+      "core_judgement": "现金按80%折价后不足以覆盖年报披露的168.54亿元有息债务，因此没有可从市值中扣除的折后净现金。现金利润以全口径自由现金流为底，仅加回年报明确扩产项目资本开支的一半并取整，避免把扩产支出全部当维持性或全部加回。回本结果对资本开支分类高度敏感：全额扣资本开支约26.30年，明确扩产支出全额加回约15.58年，中性口径19.61年。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/600660.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
