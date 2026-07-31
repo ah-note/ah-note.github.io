@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 15:45:27 +08:00",
+  "built_at": "2026-07-31 15:45:56 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -5096,6 +5096,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/688267.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "603307.SH",
+      "name": "扬州金泉",
+      "raw_name": "扬州金泉",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 22.46,
+      "pe_ttm": 20.1,
+      "owner_earnback_years": 15.96,
+      "owner_earnback_rate_pct": 6.27,
+      "market_profit_payback_years": 27.29,
+      "market_cash_profit_yield_pct": 3.66,
+      "discounted_detachable_net_cash_yi": 9.33,
+      "discounted_net_cash_to_market_cap_pct": 41.53,
+      "operating_business_price_yi": 13.13,
+      "discounted_cash_profit_yi": 0.82,
+      "revenue_yi": 8.49,
+      "gross_profit_yi": 2.02,
+      "parent_net_profit_yi": 1.09,
+      "gross_margin_pct": 23.78,
+      "net_margin_pct": 12.86,
+      "forecast_dividend_yield_pct": 3.03,
+      "risk_level": "未分级",
+      "business_summary": "以ODM/OEM方式为全球户外品牌直销生产帐篷、睡袋、户外服装和背包的出口型制造商。",
+      "core_judgement": "以22.46亿元市值减去9.33亿元折后可剥离净现金，隐含经营业务购买价约13.13亿元；以2025年经营现金流减资本开支得到的8229.84万元作为审慎现金利润基准，静态回本约15.96年，未扣净现金的市值/现金利润约27.29年。该口径不是收益预测：2025年毛利率下降、汇率损失增加，且单年营运资本与资本开支会波动；若理财资产折价更深或未来现金利润低于基准，回本期将延长。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/603307.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
