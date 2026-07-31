@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 22:04:54 +08:00",
+  "built_at": "2026-07-31 22:05:23 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -9684,6 +9684,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002351.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "603328.SH",
+      "name": "依顿电子",
+      "raw_name": "依顿电子",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 95.55,
+      "pe_ttm": 24.68,
+      "owner_earnback_years": 20.4,
+      "owner_earnback_rate_pct": 4.9,
+      "market_profit_payback_years": 24.93,
+      "market_cash_profit_yield_pct": 4.01,
+      "discounted_detachable_net_cash_yi": 17.35,
+      "discounted_net_cash_to_market_cap_pct": 18.16,
+      "operating_business_price_yi": 78.2,
+      "discounted_cash_profit_yi": 3.83,
+      "revenue_yi": 40.25,
+      "gross_profit_yi": 8.93,
+      "parent_net_profit_yi": 4.66,
+      "gross_margin_pct": 22.18,
+      "net_margin_pct": 11.57,
+      "forecast_dividend_yield_pct": 1.76,
+      "risk_level": "未分级",
+      "business_summary": "向汽车电子、计算通信、工控医疗等客户直销高精度、高密度双层及多层PCB，靠制造良率、工艺能力、客户认证和规模效率赚取加工毛利。",
+      "core_judgement": "以95.55亿元市值买下公司，先扣除折后可剥离净现金17.35亿元，经营业务价格约78.20亿元。可持续可分配现金利润按扣非利润为起点，加回折旧摊销，再扣除以2024年资本开支近似的维护性资本开支，约3.83亿元；对应经营业务回本约20.4年，未扣净现金的市值/现金利润约24.9倍。该估算对泰国基地实际维护资本开支、营运资金需求和PCB毛利率高度敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/603328.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
