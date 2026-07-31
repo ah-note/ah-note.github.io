@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 18:29:14 +08:00",
+  "built_at": "2026-07-31 18:30:23 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -7731,6 +7731,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600761.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "002296.SZ",
+      "name": "辉煌科技",
+      "raw_name": "辉煌科技",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 34.63,
+      "pe_ttm": 20.3,
+      "owner_earnback_years": 18.77,
+      "owner_earnback_rate_pct": 5.33,
+      "market_profit_payback_years": 24.87,
+      "market_cash_profit_yield_pct": 4.02,
+      "discounted_detachable_net_cash_yi": 8.48,
+      "discounted_net_cash_to_market_cap_pct": 24.5,
+      "operating_business_price_yi": 26.15,
+      "discounted_cash_profit_yi": 1.39,
+      "revenue_yi": 8.79,
+      "gross_profit_yi": 5.27,
+      "parent_net_profit_yi": 1.87,
+      "gross_margin_pct": 59.95,
+      "net_margin_pct": 21.3,
+      "forecast_dividend_yield_pct": 1.46,
+      "risk_level": "未分级",
+      "business_summary": "为国铁、城轨及地方铁路客户提供信号集中监测、综合监控、运营管理、信号基础设备和运维信息化系统，靠项目直销、交付验收和后续运维形成收入。",
+      "core_judgement": "按2026年7月31日市值34.63亿元，扣除折后可剥离净现金8.48亿元后，经营业务价格约26.15亿元；以2025年经营自由现金流再打九折所得1.39亿元作为可持续可分配现金利润，经营业务回本约18.8年，未扣现金的市值/现金利润约24.9倍。该结果对项目回款和收入验收节奏高度敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/002296.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
