@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 15:40:24 +08:00",
+  "built_at": "2026-07-31 15:40:52 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -9994,6 +9994,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/601827.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "601512.SH",
+      "name": "中新集团",
+      "raw_name": "中新集团",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 119.46,
+      "pe_ttm": 13.04,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 32.14,
+      "gross_profit_yi": 14.22,
+      "parent_net_profit_yi": 10.56,
+      "gross_margin_pct": 44.24,
+      "net_margin_pct": 32.85,
+      "forecast_dividend_yield_pct": 2.66,
+      "risk_level": "未分级",
+      "business_summary": "以苏州工业园区经验做产城融合园区开发运营，同时经营产业投资和光伏、公用事业等绿色业务。",
+      "core_judgement": "普通回本口径不适用。应分别做园区项目清算、产业投资底层可实现价值与退出折扣、绿色公用维护资本开支和债务服务后现金流分析。统一年报不足以可靠拆分项目级受限现金和待交付成本，故不输出伪精确回本年。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/601512.SH/"
     }
   ]
 }
