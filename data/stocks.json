@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 02:06:33 +08:00",
+  "built_at": "2026-08-01 02:09:04 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -28005,6 +28005,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600720.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "600177.SH",
+      "name": "雅戈尔",
+      "raw_name": "雅戈尔",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 357.39,
+      "pe_ttm": 13.93,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 115.82,
+      "gross_profit_yi": 53.17,
+      "parent_net_profit_yi": 24.47,
+      "gross_margin_pct": 45.9,
+      "net_margin_pct": 21.13,
+      "forecast_dividend_yield_pct": 5.58,
+      "risk_level": "未分级",
+      "business_summary": "以品牌服装制造零售为主业，同时持有以宁波银行为核心的大额股权投资，并逐步收缩地产开发。",
+      "core_judgement": "普通控股回本口径不适用。公司是服装、收缩中的地产与大型股权投资并存的平台：权益法利润不等于当期可分配现金，地产现金又对应存货、合同负债与项目融资。应分别估算底层投资价值及可上收分红、服装主业可持续自由现金流、地产净清算价值，再扣除各板块债务和控股折价。现有披露不足以可靠拆分，故不伪造普通回本数字。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/600177.SH/"
     }
   ]
 }
