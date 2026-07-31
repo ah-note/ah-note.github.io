@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 03:20:27 +08:00",
+  "built_at": "2026-08-01 03:21:17 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -23572,6 +23572,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603725.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "600026.SH",
+      "name": "中远海能",
+      "raw_name": "中远海能",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 915.33,
+      "pe_ttm": 16.64,
+      "owner_earnback_years": 37.89,
+      "owner_earnback_rate_pct": 2.64,
+      "market_profit_payback_years": 30.51,
+      "market_cash_profit_yield_pct": 3.28,
+      "discounted_detachable_net_cash_yi": -221.45,
+      "discounted_net_cash_to_market_cap_pct": -24.19,
+      "operating_business_price_yi": 1136.78,
+      "discounted_cash_profit_yi": 30.0,
+      "revenue_yi": 238.92,
+      "gross_profit_yi": 62.42,
+      "parent_net_profit_yi": 40.37,
+      "gross_margin_pct": 26.13,
+      "net_margin_pct": 16.9,
+      "forecast_dividend_yield_pct": 2.27,
+      "risk_level": "未分级",
+      "business_summary": "以自有和租入船队为国内外石油公司、炼厂、贸易商及LNG项目客户运输原油、成品油、LNG、LPG和化学品，利润主要由油轮运价与LNG长期项目共同驱动。",
+      "core_judgement": "以2026-07-31市值915.33亿元计，折后可剥离净现金为负221.45亿元，因此经营业务购买价反而升至1136.78亿元。折后可持续现金利润取30亿元：低于2025年归母净利40.37亿元，也高于单年全口径自由现金流17.54亿元，反映船舶处置收益、周期运价、少数股东以及船队维护更新资本开支的折扣。对应经营业务回本约37.9年，市值/现金利润约30.5倍；这是压力测试数字，不是预测或目标价。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/600026.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
