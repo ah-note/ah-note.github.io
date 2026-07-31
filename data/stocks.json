@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 01:43:57 +08:00",
+  "built_at": "2026-08-01 01:44:27 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -27323,6 +27323,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603105.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "600011.SH",
+      "name": "华能国际",
+      "raw_name": "华能国际",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 1125.55,
+      "pe_ttm": 8.09,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 2292.88,
+      "gross_profit_yi": 422.97,
+      "parent_net_profit_yi": 144.1,
+      "gross_margin_pct": 18.45,
+      "net_margin_pct": 6.28,
+      "forecast_dividend_yield_pct": 5.58,
+      "risk_level": "未分级",
+      "business_summary": "以境内大型燃煤电厂为基本盘、加速扩张风光装机，并在新加坡和巴基斯坦经营电力资产的综合发电运营商。",
+      "core_judgement": "普通控股回本口径不适用。货币资金不能脱离持续建设、营运周转和债务服务单独剥离；固定资产及在建项目需要长期维护和扩张投入；合并利润与现金流还要在少数股东、永续债持有人和普通股股东之间分配。应改用分电源项目现金流模型，基于剩余运营期、量价、燃料与碳成本、维护资本开支、债务服务及普通股归属比例估值。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/600011.SH/"
     }
   ]
 }
