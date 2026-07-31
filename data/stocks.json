@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 17:58:01 +08:00",
+  "built_at": "2026-07-31 18:01:31 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -4569,6 +4569,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600179.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "601877.SH",
+      "name": "正泰电器",
+      "raw_name": "正泰电器",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 541.97,
+      "pe_ttm": 11.77,
+      "owner_earnback_years": 14.96,
+      "owner_earnback_rate_pct": 6.68,
+      "market_profit_payback_years": 14.96,
+      "market_cash_profit_yield_pct": 6.68,
+      "discounted_detachable_net_cash_yi": 0.0,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": 541.97,
+      "discounted_cash_profit_yi": 36.23,
+      "revenue_yi": 591.45,
+      "gross_profit_yi": 153.79,
+      "parent_net_profit_yi": 45.01,
+      "gross_margin_pct": 26.0,
+      "net_margin_pct": 7.61,
+      "forecast_dividend_yield_pct": 2.36,
+      "risk_level": "未分级",
+      "business_summary": "以正泰品牌和渠道销售低压电器，同时开发、建设、出售和运营户用及集中式光伏电站，并销售逆变器与储能系统。",
+      "core_judgement": "按2026-07-31市值541.97亿元，保守不给项目绑定现金任何市值抵扣；以归母净利润45.01亿元减非经常性损益4.76亿元得到归母扣非约40.26亿元，再打九折为36.23亿元可持续可分配现金利润。由此经营业务购买价仍为541.97亿元，静态回本约14.96年。该数字不是目标价，也不等于当年自由现金流；最大敏感项是光伏经营负债、项目融资及少数股东权益对应利润的可持续性。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/601877.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
