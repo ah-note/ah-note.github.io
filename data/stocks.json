@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 22:45:25 +08:00",
+  "built_at": "2026-07-31 22:45:55 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -15047,6 +15047,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/688155.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "600267.SH",
+      "name": "海正药业",
+      "raw_name": "海正药业",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 136.79,
+      "pe_ttm": 19.48,
+      "owner_earnback_years": 25.98,
+      "owner_earnback_rate_pct": 3.85,
+      "market_profit_payback_years": 22.8,
+      "market_cash_profit_yield_pct": 4.39,
+      "discounted_detachable_net_cash_yi": -19.1,
+      "discounted_net_cash_to_market_cap_pct": -13.96,
+      "operating_business_price_yi": 155.89,
+      "discounted_cash_profit_yi": 6.0,
+      "revenue_yi": 105.5,
+      "gross_profit_yi": 47.3,
+      "parent_net_profit_yi": 5.41,
+      "gross_margin_pct": 44.83,
+      "net_margin_pct": 5.13,
+      "forecast_dividend_yield_pct": 1.78,
+      "risk_level": "未分级",
+      "business_summary": "海正药业以自产化学制剂和原料药为盈利核心，同时经营动物药、进口药推广及低毛利医药经销，靠产品组合、医院/药店渠道、原料药制剂一体化和合规产能赚钱。",
+      "core_judgement": "按2026-07-31市值136.79亿元，折后可剥离净现金为-19.10亿元，等价于经营业务购买价155.89亿元；以6.00亿元折后可持续可分配现金利润计，经营业务回本约25.98年，市值/现金利润约22.80倍。该口径显示债务而非净现金抬高了经营资产价格；结论高度依赖扣非利润能否维持、重资产产线的维护资本开支以及省医药剥离后的利润结构。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/600267.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
