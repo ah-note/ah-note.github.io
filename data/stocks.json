@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 18:13:35 +08:00",
+  "built_at": "2026-07-31 18:14:44 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -11172,6 +11172,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600273.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "301048.SZ",
+      "name": "金鹰重工",
+      "raw_name": "金鹰重工",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 47.31,
+      "pe_ttm": 22.1,
+      "owner_earnback_years": 23.85,
+      "owner_earnback_rate_pct": 4.19,
+      "market_profit_payback_years": 26.03,
+      "market_cash_profit_yield_pct": 3.84,
+      "discounted_detachable_net_cash_yi": 3.97,
+      "discounted_net_cash_to_market_cap_pct": 8.4,
+      "operating_business_price_yi": 43.34,
+      "discounted_cash_profit_yi": 1.82,
+      "revenue_yi": 32.0,
+      "gross_profit_yi": 5.41,
+      "parent_net_profit_yi": 2.02,
+      "gross_margin_pct": 16.92,
+      "net_margin_pct": 6.31,
+      "forecast_dividend_yield_pct": 1.21,
+      "risk_level": "未分级",
+      "business_summary": "面向国铁和城市轨交客户，直销定制化养路机械、轨道车辆、接触网作业车，并提供维修与配件服务。",
+      "core_judgement": "以现金及现金等价物扣除短期借款和租赁类债务得净现金7.95亿元，再因应收、存货和国铁客户集中仅认可50%，折后可剥离净现金3.97亿元；以归母净利润下调10%得到1.82亿元可持续可分配现金利润。对应经营业务购买价43.34亿元，回本约23.85年。该数值是保守口径的可比结果，不代表现金可立即全部分配。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/301048.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
