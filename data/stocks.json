@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 20:03:14 +08:00",
+  "built_at": "2026-07-31 20:03:43 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -7514,6 +7514,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002020.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "002950.SZ",
+      "name": "奥美医疗",
+      "raw_name": "奥美医疗",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 58.39,
+      "pe_ttm": 21.52,
+      "owner_earnback_years": 18.34,
+      "owner_earnback_rate_pct": 5.45,
+      "market_profit_payback_years": 18.25,
+      "market_cash_profit_yield_pct": 5.48,
+      "discounted_detachable_net_cash_yi": -0.3,
+      "discounted_net_cash_to_market_cap_pct": -0.51,
+      "operating_business_price_yi": 58.69,
+      "discounted_cash_profit_yi": 3.2,
+      "revenue_yi": 36.72,
+      "gross_profit_yi": 10.5,
+      "parent_net_profit_yi": 2.49,
+      "gross_margin_pct": 28.61,
+      "net_margin_pct": 6.78,
+      "forecast_dividend_yield_pct": 1.54,
+      "risk_level": "未分级",
+      "business_summary": "以出口为主、全产业链制造的医用敷料和一次性医疗耗材供应商，利润核心仍是外科与伤口护理。",
+      "core_judgement": "按市值58.39亿元，保守折后资金不足以覆盖有息及租赁负债，经营业务购买价约58.69亿元。可持续可分配现金利润取3.20亿元，低于2025年经营自由现金流4.57亿元，保留周转、维护资本开支和周期缓冲；回本约18.34年。此为估算而非承诺。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/002950.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
