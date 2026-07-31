@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 16:00:04 +08:00",
+  "built_at": "2026-07-31 16:00:32 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -6522,6 +6522,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002911.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "000933.SZ",
+      "name": "神火股份",
+      "raw_name": "神火股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 585.19,
+      "pe_ttm": 8.5,
+      "owner_earnback_years": 18.29,
+      "owner_earnback_rate_pct": 5.47,
+      "market_profit_payback_years": 18.29,
+      "market_cash_profit_yield_pct": 5.47,
+      "discounted_detachable_net_cash_yi": 0.0,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": 585.19,
+      "discounted_cash_profit_yi": 32.0,
+      "revenue_yi": 412.41,
+      "gross_profit_yi": 96.33,
+      "parent_net_profit_yi": 40.05,
+      "gross_margin_pct": 23.36,
+      "net_margin_pct": 9.71,
+      "forecast_dividend_yield_pct": 3.05,
+      "risk_level": "未分级",
+      "business_summary": "公司以新疆、云南低成本能源区的电解铝为主要利润引擎，同时经营河南煤矿和铝箔加工，赚取铝价/煤价与氧化铝、电力、采掘成本之间的周期价差。",
+      "core_judgement": "账面货币资金30.17亿元中约14.91亿元受限，现金等价物仅15.27亿元，而融资负债约108.63亿元，因此可剥离净现金按0处理。2025年经营自由现金流78.82亿元明显高于归母净利润40.05亿元，但其中包含折旧摊销、营运资本释放且业务处于商品周期；以归母扣非利润40.75亿元为起点，扣除周期与维持资本开支安全垫并考虑少数股东分流，取折后可持续可分配现金利润32亿元。按输入市值计算，经营业务购买价585.19亿元，静态回本约18.29年。该数字不是盈利预测，最敏感变量...",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/000933.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
