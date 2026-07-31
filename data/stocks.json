@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 05:31:11 +08:00",
+  "built_at": "2026-08-01 05:33:02 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -29710,6 +29710,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/000603.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "002842.SZ",
+      "name": "翔鹭钨业",
+      "raw_name": "翔鹭钨业",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 97.82,
+      "pe_ttm": 25.35,
+      "owner_earnback_years": 128.45,
+      "owner_earnback_rate_pct": 0.78,
+      "market_profit_payback_years": 120.91,
+      "market_cash_profit_yield_pct": 0.83,
+      "discounted_detachable_net_cash_yi": -6.1,
+      "discounted_net_cash_to_market_cap_pct": -6.24,
+      "operating_business_price_yi": 103.92,
+      "discounted_cash_profit_yi": 0.81,
+      "revenue_yi": 24.09,
+      "gross_profit_yi": 3.46,
+      "parent_net_profit_yi": 1.44,
+      "gross_margin_pct": 14.36,
+      "net_margin_pct": 5.97,
+      "forecast_dividend_yield_pct": 0.46,
+      "risk_level": "未分级",
+      "business_summary": "翔鹭钨业采购并部分自供钨资源，将其加工成钨粉、碳化钨粉、硬质合金和光伏切割钨丝，主要通过直销赚取材料加工与产品升级价差。",
+      "core_judgement": "以可自由支配现金2.873亿元减计息融资8.976亿元，折后可剥离净现金为-6.103亿元；2025年扣非归母利润1.348亿元因连续两年亏损、钨价周期和营运资金占用按60%保留，得到折后可持续现金利润0.809亿元。按输入市值计算，经营业务购买价103.923亿元，对应约128.45年回本；该结果主要说明当前市值对周期高位利润的延续要求很高，不是收益承诺。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/002842.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
