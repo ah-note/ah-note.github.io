@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 03:18:36 +08:00",
+  "built_at": "2026-08-01 03:20:27 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -26641,6 +26641,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/300596.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "603969.SH",
+      "name": "银龙股份",
+      "raw_name": "银龙股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 62.84,
+      "pe_ttm": 17.38,
+      "owner_earnback_years": 84.85,
+      "owner_earnback_rate_pct": 1.18,
+      "market_profit_payback_years": 76.37,
+      "market_cash_profit_yield_pct": 1.31,
+      "discounted_detachable_net_cash_yi": -6.98,
+      "discounted_net_cash_to_market_cap_pct": -11.1,
+      "operating_business_price_yi": 69.82,
+      "discounted_cash_profit_yi": 0.82,
+      "revenue_yi": 32.06,
+      "gross_profit_yi": 8.02,
+      "parent_net_profit_yi": 3.66,
+      "gross_margin_pct": 25.0,
+      "net_margin_pct": 11.4,
+      "forecast_dividend_yield_pct": 0.97,
+      "risk_level": "未分级",
+      "business_summary": "公司向铁路、桥梁、水利、风电等基建客户销售预应力钢丝/钢绞线，并以轨道板、配套服务和智能装备贡献更高毛利。",
+      "core_judgement": "市值62.84亿元并不能先扣除净现金：可动用现金及折后交易性金融资产合计约2.41亿元，而有息及租赁负债约9.38亿元，形成约6.98亿元折后净负债，故经营业务购买价约69.82亿元。现金利润以2025年经营自由现金流1.029亿元为锚，再因过去两年经营现金流为负、应收与存货继续扩张折减20%，得到0.823亿元；对应控股回本约84.85年。该数字是保守情景，不是预测；若回款和营运资金恢复，分母会明显提高，反之仍可能下降。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/603969.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
