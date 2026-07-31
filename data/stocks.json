@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 02:35:24 +08:00",
+  "built_at": "2026-08-01 02:35:53 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -25153,6 +25153,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/300861.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "002880.SZ",
+      "name": "卫光生物",
+      "raw_name": "卫光生物",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 45.04,
+      "pe_ttm": 19.29,
+      "owner_earnback_years": 54.58,
+      "owner_earnback_rate_pct": 1.83,
+      "market_profit_payback_years": 54.58,
+      "market_cash_profit_yield_pct": 1.83,
+      "discounted_detachable_net_cash_yi": 0.0,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": 45.04,
+      "discounted_cash_profit_yi": 0.83,
+      "revenue_yi": 12.67,
+      "gross_profit_yi": 4.99,
+      "parent_net_profit_yi": 2.46,
+      "gross_margin_pct": 39.36,
+      "net_margin_pct": 19.45,
+      "forecast_dividend_yield_pct": 1.01,
+      "risk_level": "未分级",
+      "business_summary": "用自有浆站采集的血浆生产白蛋白、免疫球蛋白和凝血因子，主要经销至医疗机构，并经营生命科学园租赁。",
+      "core_judgement": "资金低于有息债务，净现金按0。由经营现金流2.63亿元扣除以折旧近似的维护资本开支1.45亿元，再留1500万元补助及营运资金缓冲，并整体折价20%，得到0.83亿元；回本约54.6年。维护资本开支无法精确拆分，此为审慎情景。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/002880.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
