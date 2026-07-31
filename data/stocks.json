@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 18:56:42 +08:00",
+  "built_at": "2026-07-31 18:58:12 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -13187,6 +13187,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600104.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "003027.SZ",
+      "name": "同兴科技",
+      "raw_name": "同兴科技",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 20.05,
+      "pe_ttm": 28.35,
+      "owner_earnback_years": 27.39,
+      "owner_earnback_rate_pct": 3.65,
+      "market_profit_payback_years": 33.42,
+      "market_cash_profit_yield_pct": 2.99,
+      "discounted_detachable_net_cash_yi": 3.61,
+      "discounted_net_cash_to_market_cap_pct": 18.03,
+      "operating_business_price_yi": 16.44,
+      "discounted_cash_profit_yi": 0.6,
+      "revenue_yi": 7.24,
+      "gross_profit_yi": 1.87,
+      "parent_net_profit_yi": 0.74,
+      "gross_margin_pct": 25.84,
+      "net_margin_pct": 10.22,
+      "forecast_dividend_yield_pct": 1.93,
+      "risk_level": "未分级",
+      "business_summary": "为钢铁、焦化、建材、造纸等非电行业客户总包烟气治理工程并销售低温SCR脱硝催化剂，CCUS和钠电材料尚处培育期。",
+      "core_judgement": "按非受限银行存款全额、委托理财95%并扣除全部有息借款，折后可剥离净现金3.61亿元；以扣非归母利润为锚并对项目回款及利润波动留出缓冲，现金利润取6000万元。经营业务购买价16.44亿元，对应约27.4年回本。2025年自由现金流受回款加速和供应商账期延长推动，不宜直接外推。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/003027.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
