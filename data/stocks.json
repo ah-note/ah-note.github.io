@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 01:29:05 +08:00",
+  "built_at": "2026-08-01 01:29:35 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -23944,6 +23944,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/300771.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "002010.SZ",
+      "name": "传化智联",
+      "raw_name": "传化智联",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 132.67,
+      "pe_ttm": 20.13,
+      "owner_earnback_years": 57.95,
+      "owner_earnback_rate_pct": 1.73,
+      "market_profit_payback_years": 33.17,
+      "market_cash_profit_yield_pct": 3.01,
+      "discounted_detachable_net_cash_yi": -99.12,
+      "discounted_net_cash_to_market_cap_pct": -74.71,
+      "operating_business_price_yi": 231.79,
+      "discounted_cash_profit_yi": 4.0,
+      "revenue_yi": 250.84,
+      "gross_profit_yi": 37.62,
+      "parent_net_profit_yi": 5.9,
+      "gross_margin_pct": 15.0,
+      "net_margin_pct": 2.35,
+      "forecast_dividend_yield_pct": 3.13,
+      "risk_level": "未分级",
+      "business_summary": "以纺织化学品和合成橡胶赚制造利润，以全国公路港出租运营和供应链/网络货运服务连接货主、物流企业与司机。",
+      "core_judgement": "按非受限货币资金35.78亿元减全部融资性负债134.90亿元，折后可剥离净现金为-99.12亿元；市值加净债务后经营业务购买价为231.79亿元。可持续现金利润取4.00亿元，略低于2025年扣非归母净利润4.08亿元且低于经营自由现金流4.83亿元，对应控股回本约57.95年；即便不扣净债务，市值/现金利润也为33.17年。口径显示价格并不由富余现金支撑，判断高度依赖公路港资产持续出租、化学业务盈利及应收减值回落。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/002010.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
