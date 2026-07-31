@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 01:17:55 +08:00",
+  "built_at": "2026-08-01 01:18:44 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -26548,6 +26548,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/000089.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "002346.SZ",
+      "name": "柘中股份",
+      "raw_name": "柘中股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 74.01,
+      "pe_ttm": 26.54,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 8.48,
+      "gross_profit_yi": 2.19,
+      "parent_net_profit_yi": 4.25,
+      "gross_margin_pct": 25.83,
+      "net_margin_pct": 50.19,
+      "forecast_dividend_yield_pct": 2.83,
+      "risk_level": "未分级",
+      "business_summary": "公司一边按项目定制并销售35kV以下成套配电柜，一边用自有资金持有直投股权和私募基金，当前资产与利润已明显受投资组合主导。",
+      "core_judgement": "普通控股回本口径不适用：约三分之二资产是长期股权和以公允价值计量的非流动金融资产，不能与货币资金等同，也不能脱离底层项目、退出期限、税负和少数合伙人份额直接折价后扣减市值。应采用分部加总模型：单独估算开关设备业务的规范化经营现金利润，再对每项直投和基金穿透估值、扣除潜在税负与负债，并检查分红路径。现有公开年报不足以对全部基金底层资产给出可靠穿透净值，故不产出普通回本年。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/002346.SZ/"
     }
   ]
 }
