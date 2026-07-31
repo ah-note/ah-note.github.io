@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 20:35:05 +08:00",
+  "built_at": "2026-07-31 20:35:34 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -9405,6 +9405,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002120.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "600600.SH",
+      "name": "青岛啤酒",
+      "raw_name": "青岛啤酒",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 771.04,
+      "pe_ttm": 16.48,
+      "owner_earnback_years": 20.44,
+      "owner_earnback_rate_pct": 4.89,
+      "market_profit_payback_years": 24.09,
+      "market_cash_profit_yield_pct": 4.15,
+      "discounted_detachable_net_cash_yi": 117.08,
+      "discounted_net_cash_to_market_cap_pct": 15.18,
+      "operating_business_price_yi": 653.96,
+      "discounted_cash_profit_yi": 32.0,
+      "revenue_yi": 324.73,
+      "gross_profit_yi": 135.88,
+      "parent_net_profit_yi": 45.88,
+      "gross_margin_pct": 41.84,
+      "net_margin_pct": 14.13,
+      "forecast_dividend_yield_pct": 4.16,
+      "risk_level": "未分级",
+      "business_summary": "以青岛啤酒品牌和全国渠道销售啤酒，通过销量、产品结构升级与成本效率赚取品牌制造利润。",
+      "core_judgement": "以771.04亿元市值扣除117.08亿元折后可剥离净现金，经营业务购买价约653.96亿元；除以32亿元折后可持续可分配现金利润，静态回本约20.44年。32亿元是介于2025年经营自由现金流23.39亿元与扣非归母净利润41.30亿元之间的审慎归一值；若预收货款波动不能回归或维持性资本开支更高，回本期会更长。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/600600.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
