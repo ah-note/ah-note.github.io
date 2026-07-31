@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 17:02:49 +08:00",
+  "built_at": "2026-07-31 17:05:04 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -8940,6 +8940,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/601000.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "000672.SZ",
+      "name": "上峰材料",
+      "raw_name": "上峰材料",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 127.86,
+      "pe_ttm": 21.69,
+      "owner_earnback_years": 21.5,
+      "owner_earnback_rate_pct": 4.65,
+      "market_profit_payback_years": 23.25,
+      "market_cash_profit_yield_pct": 4.3,
+      "discounted_detachable_net_cash_yi": 9.6,
+      "discounted_net_cash_to_market_cap_pct": 7.51,
+      "operating_business_price_yi": 118.26,
+      "discounted_cash_profit_yi": 5.5,
+      "revenue_yi": 46.92,
+      "gross_profit_yi": 13.56,
+      "parent_net_profit_yi": 6.38,
+      "gross_margin_pct": 28.89,
+      "net_margin_pct": 13.59,
+      "forecast_dividend_yield_pct": 3.58,
+      "risk_level": "未分级",
+      "business_summary": "以华东、西北和西南区域的水泥熟料、水泥及骨料生产销售为核心，并用环保、新能源和股权投资拓展利润来源的区域性建材企业。",
+      "core_judgement": "按2026-07-31市值127.86亿元，扣除折后可剥离净现金9.60亿元后，经营业务购买价约118.26亿元；以折后可持续可分配现金利润5.50亿元计，静态回本约21.5年。该结果对水泥周期、维护性资本开支以及投资资产变现折扣敏感，不代表确定回收期。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/000672.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
