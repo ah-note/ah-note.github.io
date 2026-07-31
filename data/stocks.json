@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 23:55:51 +08:00",
+  "built_at": "2026-07-31 23:56:21 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -10924,6 +10924,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600261.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "601088.SH",
+      "name": "中国神华",
+      "raw_name": "中国神华",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 9658.31,
+      "pe_ttm": 18.73,
+      "owner_earnback_years": 21.09,
+      "owner_earnback_rate_pct": 4.74,
+      "market_profit_payback_years": 21.1,
+      "market_cash_profit_yield_pct": 4.74,
+      "discounted_detachable_net_cash_yi": 5.55,
+      "discounted_net_cash_to_market_cap_pct": 0.06,
+      "operating_business_price_yi": 9652.75,
+      "discounted_cash_profit_yi": 457.74,
+      "revenue_yi": 2949.16,
+      "gross_profit_yi": 1034.51,
+      "parent_net_profit_yi": 528.49,
+      "gross_margin_pct": 35.08,
+      "net_margin_pct": 17.92,
+      "forecast_dividend_yield_pct": 4.33,
+      "risk_level": "未分级",
+      "business_summary": "以低成本自产动力煤为利润核心，用自有铁路港口航运完成外运，并将部分煤转化为电力和煤化工产品的一体化能源运营商。",
+      "core_judgement": "按2026年7月31日9658.31亿元市值，折后净现金几乎不能降低经营资产购买价；以估算的457.74亿元可持续现金利润计，经营业务约21.1年回本。结果对维护性资本开支占比和煤价周期高度敏感，不是确定收益承诺。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/601088.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
