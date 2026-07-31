@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 03:08:13 +08:00",
+  "built_at": "2026-08-01 03:09:44 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -22890,6 +22890,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603008.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "301353.SZ",
+      "name": "普莱得",
+      "raw_name": "普莱得",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 20.37,
+      "pe_ttm": 29.23,
+      "owner_earnback_years": 37.15,
+      "owner_earnback_rate_pct": 2.69,
+      "market_profit_payback_years": 43.7,
+      "market_cash_profit_yield_pct": 2.29,
+      "discounted_detachable_net_cash_yi": 3.06,
+      "discounted_net_cash_to_market_cap_pct": 15.0,
+      "operating_business_price_yi": 17.31,
+      "discounted_cash_profit_yi": 0.47,
+      "revenue_yi": 9.31,
+      "gross_profit_yi": 2.52,
+      "parent_net_profit_yi": 0.73,
+      "gross_margin_pct": 27.07,
+      "net_margin_pct": 7.82,
+      "forecast_dividend_yield_pct": 2.36,
+      "risk_level": "未分级",
+      "business_summary": "面向全球品牌商、零售商和终端渠道研发制造电动工具，以ODM规模制造为基础，并逐步提高自有品牌业务占比。",
+      "core_judgement": "按2026年7月31日20.37亿元市值，资金资产折后并扣除融资负债得到3.06亿元可剥离净现金，经营业务购买价约17.31亿元。以扣非归母净利润为起点，再因近两年资本开支和营运资金占用较高折价20%，折后可持续可分配现金利润约0.47亿元，对应经营业务回本约37.1年；这是情景估算，不代表未来一定可实现。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/301353.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
