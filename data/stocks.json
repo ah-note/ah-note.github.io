@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 20:03:43 +08:00",
+  "built_at": "2026-07-31 20:04:52 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -16101,6 +16101,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/300358.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "601177.SH",
+      "name": "杭齿前进",
+      "raw_name": "杭齿前进",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 52.11,
+      "pe_ttm": 19.84,
+      "owner_earnback_years": 43.98,
+      "owner_earnback_rate_pct": 2.27,
+      "market_profit_payback_years": 47.37,
+      "market_cash_profit_yield_pct": 2.11,
+      "discounted_detachable_net_cash_yi": 3.74,
+      "discounted_net_cash_to_market_cap_pct": 7.17,
+      "operating_business_price_yi": 48.37,
+      "discounted_cash_profit_yi": 1.1,
+      "revenue_yi": 23.99,
+      "gross_profit_yi": 4.63,
+      "parent_net_profit_yi": 2.54,
+      "gross_margin_pct": 19.3,
+      "net_margin_pct": 10.57,
+      "forecast_dividend_yield_pct": 0.55,
+      "risk_level": "未分级",
+      "business_summary": "以订单式、小批量制造船用齿轮箱、工程机械变速箱及风电/工业传动设备，同时持有一笔对利润影响很大的萧山农商银行少数股权。",
+      "core_judgement": "在5%控股权取得口径下，先将期末现金等价物、90%计入的交易性金融资产和按50%折价的萧山农商银行股权相加，再扣除有息债务，得到折后可剥离净现金3.74亿元。制造主业2025年自由现金流2.49亿元受应付项目增加3.60亿元显著抬高；归母净利又含1.86亿元权益法投资收益。综合扣非利润、实际投资分红、折旧摊销、资本开支及营运资金波动，保守归一化可持续可分配现金利润为1.10亿元。对应经营业务购买价48.37亿元、回本约44.0年；该结果对银行股权折价与现金利润归一化高度敏感...",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/601177.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
