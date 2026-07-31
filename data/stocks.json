@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 23:14:08 +08:00",
+  "built_at": "2026-07-31 23:14:38 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -19542,6 +19542,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/001696.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "300416.SZ",
+      "name": "苏试试验",
+      "raw_name": "苏试试验",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 73.38,
+      "pe_ttm": 27.22,
+      "owner_earnback_years": 35.55,
+      "owner_earnback_rate_pct": 2.81,
+      "market_profit_payback_years": 33.11,
+      "market_cash_profit_yield_pct": 3.02,
+      "discounted_detachable_net_cash_yi": -5.39,
+      "discounted_net_cash_to_market_cap_pct": -7.35,
+      "operating_business_price_yi": 78.77,
+      "discounted_cash_profit_yi": 2.22,
+      "revenue_yi": 22.48,
+      "gross_profit_yi": 9.39,
+      "parent_net_profit_yi": 2.57,
+      "gross_margin_pct": 41.76,
+      "net_margin_pct": 11.45,
+      "forecast_dividend_yield_pct": 1.04,
+      "risk_level": "未分级",
+      "business_summary": "公司向工业客户销售环境与可靠性试验设备，并用自营实验室提供环境可靠性、芯片验证分析及电子电气测试服务。",
+      "core_judgement": "按2026-07-31市值73.38亿元，现金及等价物九折、受限资金不计价值，并全额扣除有息借款及租赁负债后，折后可剥离净现金为负5.39亿元，因此经营业务购买价约78.77亿元。可持续现金利润以2025年扣非归母净利2.462亿元为基准再折10%至2.216亿元；虽然2025经营自由现金流为2.955亿元，但其受四季度集中回款和营运资金变化影响，不将全部单年现金改善永久化。对应经营业务回本约35.5年，市值/现金利润约33.1倍；这是静态控股口径，不含增长价值，也不是买卖建...",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/300416.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
