@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 16:46:32 +08:00",
+  "built_at": "2026-07-31 16:47:01 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -11947,6 +11947,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600874.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "600642.SH",
+      "name": "申能股份",
+      "raw_name": "申能股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 411.1,
+      "pe_ttm": 10.85,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 280.29,
+      "gross_profit_yi": 63.23,
+      "parent_net_profit_yi": 40.13,
+      "gross_margin_pct": 22.56,
+      "net_margin_pct": 14.32,
+      "forecast_dividend_yield_pct": 5.48,
+      "risk_level": "未分级",
+      "business_summary": "以上海及长三角为基本盘，运营煤电、气电、风光发电与上海天然气高压主干管网，并以参股发电/抽蓄项目贡献投资收益的综合能源基础设施公司。",
+      "core_judgement": "普通控股回本口径不适用，所有普通排序数字保持null。应按煤电、气电、风电、光伏、油气管输和参股项目逐项预测剩余运营现金流，扣除维护/扩张资本开支、项目债务服务、租赁付款、税费及少数股东分流后，再与市值比较。2025年经营现金流86.96亿元、购建长期资产支出50.65亿元，只能说明当年现金覆盖尚可，不能替代全周期项目估值。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/600642.SH/"
     }
   ]
 }
