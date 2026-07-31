@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 22:35:15 +08:00",
+  "built_at": "2026-07-31 22:35:44 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -18488,6 +18488,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/688410.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "603205.SH",
+      "name": "健尔康",
+      "raw_name": "健尔康",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 32.23,
+      "pe_ttm": 29.27,
+      "owner_earnback_years": 32.57,
+      "owner_earnback_rate_pct": 3.07,
+      "market_profit_payback_years": 35.81,
+      "market_cash_profit_yield_pct": 2.79,
+      "discounted_detachable_net_cash_yi": 2.92,
+      "discounted_net_cash_to_market_cap_pct": 9.05,
+      "operating_business_price_yi": 29.31,
+      "discounted_cash_profit_yi": 0.9,
+      "revenue_yi": 10.24,
+      "gross_profit_yi": 2.54,
+      "parent_net_profit_yi": 1.11,
+      "gross_margin_pct": 24.84,
+      "net_margin_pct": 10.88,
+      "forecast_dividend_yield_pct": 1.21,
+      "risk_level": "未分级",
+      "business_summary": "为海外头部医疗耗材品牌商OEM生产医用敷料、手术耗材和消毒卫生用品，以规模制造、质量认证和定制开发赚取制造利润。",
+      "core_judgement": "按输入市值32.23亿元，先排除受限现金、约2.99亿元未投入募集资金和1.50亿元经营现金储备，并扣除租赁负债，得到折后可剥离净现金2.92亿元；以0.90亿元可持续现金利润计，经营业务购买价约29.31亿元、回本约32.6年，市值/现金利润约35.8倍。该口径显示现金垫不厚，结论主要依赖未来经营利润；若越南扩产、关税或大客户变化使现金利润低于0.90亿元，回本期会进一步拉长。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/603205.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
