@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 20:54:46 +08:00",
+  "built_at": "2026-07-31 20:56:16 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -15884,6 +15884,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603758.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "000739.SZ",
+      "name": "普洛药业",
+      "raw_name": "普洛药业",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 233.43,
+      "pe_ttm": 26.19,
+      "owner_earnback_years": 29.67,
+      "owner_earnback_rate_pct": 3.37,
+      "market_profit_payback_years": 31.1,
+      "market_cash_profit_yield_pct": 3.22,
+      "discounted_detachable_net_cash_yi": 10.76,
+      "discounted_net_cash_to_market_cap_pct": 4.61,
+      "operating_business_price_yi": 222.67,
+      "discounted_cash_profit_yi": 7.51,
+      "revenue_yi": 97.84,
+      "gross_profit_yi": 25.79,
+      "parent_net_profit_yi": 8.91,
+      "gross_margin_pct": 26.36,
+      "net_margin_pct": 9.1,
+      "forecast_dividend_yield_pct": 1.15,
+      "risk_level": "未分级",
+      "business_summary": "以特色原料药和中间体制造为规模底盘，向高毛利小分子CDMO和制剂延伸的一体化医药制造服务商。",
+      "core_judgement": "按2026-07-31市值233.43亿元，现金及现金等价物九折后扣除全部有息融资负债，得到折后可剥离净现金10.76亿元；经营业务购买价222.67亿元。以2025年经营自由现金流8.34亿元的90%作为折后可持续现金利润7.51亿元，对应经营业务回本约29.67年、市值/现金利润约31.10倍。该结果依赖单年自由现金流可持续及现金可上划的假设。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/000739.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
