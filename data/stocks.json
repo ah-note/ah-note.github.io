@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 04:29:30 +08:00",
+  "built_at": "2026-08-01 04:30:00 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -17930,6 +17930,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603214.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "688533.SH",
+      "name": "上声电子",
+      "raw_name": "上声电子",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 35.11,
+      "pe_ttm": 19.55,
+      "owner_earnback_years": 26.95,
+      "owner_earnback_rate_pct": 3.71,
+      "market_profit_payback_years": 22.88,
+      "market_cash_profit_yield_pct": 4.37,
+      "discounted_detachable_net_cash_yi": -6.25,
+      "discounted_net_cash_to_market_cap_pct": -17.81,
+      "operating_business_price_yi": 41.36,
+      "discounted_cash_profit_yi": 1.53,
+      "revenue_yi": 30.23,
+      "gross_profit_yi": 6.27,
+      "parent_net_profit_yi": 1.83,
+      "gross_margin_pct": 20.76,
+      "net_margin_pct": 6.04,
+      "forecast_dividend_yield_pct": 1.62,
+      "risk_level": "未分级",
+      "business_summary": "面向汽车前装市场，为整车厂、一级零部件供应商和电声品牌商定制并直销车载扬声器、功放及AVAS的汽车声学零部件制造商。",
+      "core_judgement": "以2026-07-31市值35.11亿元计，资金类资产按80%折价、计息债务按100%扣除后为净负6.254亿元，故经营业务购买价约41.36亿元。可持续现金利润以2025年经营现金流2.855亿元减去固定资产折旧1.150亿元作为维护性资本开支代理，再因毛利下滑、客户集中和新工厂爬坡作10%折扣，得1.535亿元；对应控股回本约27.0年。该值是审慎估算，维护性资本开支并无单独披露，若实际维护需求接近全年资本开支，回本会显著更慢。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/688533.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
