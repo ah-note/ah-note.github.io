@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 03:12:54 +08:00",
+  "built_at": "2026-08-01 03:15:26 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -26672,6 +26672,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002259.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "000950.SZ",
+      "name": "重药控股",
+      "raw_name": "重药控股",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 93.52,
+      "pe_ttm": 21.64,
+      "owner_earnback_years": 132.08,
+      "owner_earnback_rate_pct": 0.76,
+      "market_profit_payback_years": 41.1,
+      "market_cash_profit_yield_pct": 2.43,
+      "discounted_detachable_net_cash_yi": -207.05,
+      "discounted_net_cash_to_market_cap_pct": -221.4,
+      "operating_business_price_yi": 300.57,
+      "discounted_cash_profit_yi": 2.28,
+      "revenue_yi": 824.47,
+      "gross_profit_yi": 59.4,
+      "parent_net_profit_yi": 3.87,
+      "gross_margin_pct": 7.21,
+      "net_margin_pct": 0.47,
+      "forecast_dividend_yield_pct": 1.1,
+      "risk_level": "未分级",
+      "business_summary": "以医院纯销为核心的全国性医药流通商，靠药品和器械采购、配送及渠道服务赚取薄利，并以参股工业药企补充利润。",
+      "core_judgement": "未受限现金等价物按50%计值，再全额扣除有息债务及租赁负债，得折后净现金-207.05亿元。2025年自由现金流4.55亿元再打五折，以反映2024年经营现金流为负、2025年回款集中于四季度和减值压力。经营业务购买价300.57亿元，回本约132.1年；这是压力口径，不是盈利预测。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/000950.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
