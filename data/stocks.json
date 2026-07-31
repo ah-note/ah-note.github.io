@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 20:36:44 +08:00",
+  "built_at": "2026-07-31 20:37:33 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -18674,6 +18674,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/000543.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "601188.SH",
+      "name": "龙江交通",
+      "raw_name": "龙江交通",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 37.47,
+      "pe_ttm": 24.33,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 7.7,
+      "gross_profit_yi": 3.29,
+      "parent_net_profit_yi": 1.68,
+      "gross_margin_pct": 42.73,
+      "net_margin_pct": 21.82,
+      "forecast_dividend_yield_pct": 1.81,
+      "risk_level": "未分级",
+      "business_summary": "以哈大高速收费为现金流底盘，同时经营房地产、水电、出租车及石墨等业务，并持有龙江银行重要少数股权的省属交通平台。",
+      "core_judgement": "普通控股回本口径不适用。收费公路资产和配套债务是生意本身，且年报未明确给出本次研究可直接使用的剩余收费年限；应以分路段剩余收费期内车流量、收费标准、运营养护及资本开支、债务服务后的可分配现金流折现，并对龙江银行股权、水电、房地产等分别估值。故普通折后净现金、现金利润及回本年保持null。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/601188.SH/"
     }
   ]
 }
