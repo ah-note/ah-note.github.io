@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 18:54:52 +08:00",
+  "built_at": "2026-07-31 18:56:42 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -11606,6 +11606,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600835.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "600535.SH",
+      "name": "天士力",
+      "raw_name": "天士力",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 237.84,
+      "pe_ttm": 19.45,
+      "owner_earnback_years": 23.5,
+      "owner_earnback_rate_pct": 4.26,
+      "market_profit_payback_years": 26.43,
+      "market_cash_profit_yield_pct": 3.78,
+      "discounted_detachable_net_cash_yi": 26.36,
+      "discounted_net_cash_to_market_cap_pct": 11.08,
+      "operating_business_price_yi": 211.48,
+      "discounted_cash_profit_yi": 9.0,
+      "revenue_yi": 82.36,
+      "gross_profit_yi": 55.06,
+      "parent_net_profit_yi": 11.05,
+      "gross_margin_pct": 66.85,
+      "net_margin_pct": 13.42,
+      "forecast_dividend_yield_pct": 0.63,
+      "risk_level": "未分级",
+      "business_summary": "以复方丹参滴丸等现代中药为核心，覆盖心血管及代谢、神经/精神、消化领域，并通过自营工业销售和第三方医药商业渠道实现收入。",
+      "core_judgement": "按2026-07-31市值237.84亿元，折后可剥离净现金约26.36亿元，经营业务购买价约211.48亿元；以9.00亿元保守可持续可分配现金利润计，经营业务回本约23.5年，未扣净现金的市值/现金利润约26.4倍。该结果对集采后毛利、销售推广效率、研发投入和营运资金回收高度敏感，不是收益承诺。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/600535.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
