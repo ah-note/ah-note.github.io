@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 21:46:41 +08:00",
+  "built_at": "2026-07-31 21:47:51 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -17341,6 +17341,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600803.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "003003.SZ",
+      "name": "天元股份",
+      "raw_name": "天元股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 17.58,
+      "pe_ttm": 29.51,
+      "owner_earnback_years": 31.04,
+      "owner_earnback_rate_pct": 3.22,
+      "market_profit_payback_years": 39.66,
+      "market_cash_profit_yield_pct": 2.52,
+      "discounted_detachable_net_cash_yi": 3.82,
+      "discounted_net_cash_to_market_cap_pct": 21.73,
+      "operating_business_price_yi": 13.76,
+      "discounted_cash_profit_yi": 0.44,
+      "revenue_yi": 10.21,
+      "gross_profit_yi": 2.05,
+      "parent_net_profit_yi": 0.58,
+      "gross_margin_pct": 20.06,
+      "net_margin_pct": 5.7,
+      "forecast_dividend_yield_pct": 1.98,
+      "risk_level": "未分级",
+      "business_summary": "面向快递物流、电商及其他客户销售电子标签、快递袋、封套和缓冲材料，并以跨区域生产配送和一站式品类服务赚取包装制造毛利。",
+      "core_judgement": "按2026-07-31市值17.58亿元，折后可剥离净现金约3.82亿元，经营业务购买价约13.76亿元。以2025年扣非归母净利润为基准再打85折，折后可持续可分配现金利润约4433万元，对应经营业务回本约31.0年、市值/现金利润约39.7倍。2025年自由现金流1.85亿元明显受经营性应付款增加0.90亿元和存货下降影响，不直接年化；该口径显示现金缓冲存在，但经营业务价格相对保守现金利润并不低。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/003003.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
