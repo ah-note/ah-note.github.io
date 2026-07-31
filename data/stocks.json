@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 02:37:04 +08:00",
+  "built_at": "2026-08-01 02:37:54 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -7886,6 +7886,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/601566.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "301552.SZ",
+      "name": "科力装备",
+      "raw_name": "科力装备",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 28.45,
+      "pe_ttm": 19.86,
+      "owner_earnback_years": 17.85,
+      "owner_earnback_rate_pct": 5.6,
+      "market_profit_payback_years": 23.71,
+      "market_cash_profit_yield_pct": 4.22,
+      "discounted_detachable_net_cash_yi": 7.03,
+      "discounted_net_cash_to_market_cap_pct": 24.73,
+      "operating_business_price_yi": 21.42,
+      "discounted_cash_profit_yi": 1.2,
+      "revenue_yi": 6.77,
+      "gross_profit_yi": 2.44,
+      "parent_net_profit_yi": 1.55,
+      "gross_margin_pct": 35.99,
+      "net_margin_pct": 22.92,
+      "forecast_dividend_yield_pct": 5.02,
+      "risk_level": "未分级",
+      "business_summary": "向汽车玻璃厂商和整车厂直销定制化风挡、侧窗和角窗玻璃总成组件，以同步开发、模具工艺、规模制造和及时交付赚取零部件毛利。",
+      "core_judgement": "以2026-07-31市值28.45亿元，扣除折后可剥离净现金7.03亿元后，经营业务购买价约21.42亿元；用1.20亿元折后可持续可分配现金利润估算，经营业务回本约17.85年，市值/现金利润约23.71倍。该口径对募集资金可剥离程度、资本开支正常化和大客户定价压力高度敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/301552.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
