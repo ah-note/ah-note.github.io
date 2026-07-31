@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 20:29:46 +08:00",
+  "built_at": "2026-07-31 20:31:36 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -12846,6 +12846,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/301598.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "300674.SZ",
+      "name": "宇信科技",
+      "raw_name": "宇信科技",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 118.0,
+      "pe_ttm": 28.14,
+      "owner_earnback_years": 24.18,
+      "owner_earnback_rate_pct": 4.14,
+      "market_profit_payback_years": 31.05,
+      "market_cash_profit_yield_pct": 3.22,
+      "discounted_detachable_net_cash_yi": 26.11,
+      "discounted_net_cash_to_market_cap_pct": 22.13,
+      "operating_business_price_yi": 91.89,
+      "discounted_cash_profit_yi": 3.8,
+      "revenue_yi": 36.23,
+      "gross_profit_yi": 11.63,
+      "parent_net_profit_yi": 4.32,
+      "gross_margin_pct": 32.1,
+      "net_margin_pct": 11.92,
+      "forecast_dividend_yield_pct": 1.78,
+      "risk_level": "未分级",
+      "business_summary": "面向银行和非银金融机构提供信贷、核心系统、数据与监管等IT解决方案，以项目开发、实施和服务收费，银行IT解决方案贡献近九成收入。",
+      "core_judgement": "按输入市值118亿元，折后可剥离净现金约26.11亿元，占市值22.13%；剩余经营业务购买价约91.89亿元。以3.80亿元折后可持续可分配现金利润估算，经营业务回本约24.18年，未扣现金的市值/现金利润约31.05倍。该口径是保守情景估算，不是目标价；最敏感变量是理财资金的真实可动用性、资本开支常态化水平与项目回款持续性。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/300674.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
