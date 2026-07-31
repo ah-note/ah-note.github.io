@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 21:53:39 +08:00",
+  "built_at": "2026-07-31 21:55:30 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -5065,6 +5065,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600262.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "605080.SH",
+      "name": "浙江自然",
+      "raw_name": "浙江自然",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 27.56,
+      "pe_ttm": 16.49,
+      "owner_earnback_years": 15.19,
+      "owner_earnback_rate_pct": 6.58,
+      "market_profit_payback_years": 21.41,
+      "market_cash_profit_yield_pct": 4.67,
+      "discounted_detachable_net_cash_yi": 8.0,
+      "discounted_net_cash_to_market_cap_pct": 29.04,
+      "operating_business_price_yi": 19.56,
+      "discounted_cash_profit_yi": 1.29,
+      "revenue_yi": 10.24,
+      "gross_profit_yi": 3.31,
+      "parent_net_profit_yi": 1.91,
+      "gross_margin_pct": 32.3,
+      "net_margin_pct": 18.7,
+      "forecast_dividend_yield_pct": 0.73,
+      "risk_level": "未分级",
+      "business_summary": "为全球户外品牌以OEM/ODM方式制造充气床垫、保温箱包等产品，靠垂直一体化材料与熔接工艺、客户协同和海外产能赚取制造利润。",
+      "core_judgement": "按输入市值27.56亿元，折后可剥离净现金约8.00亿元，经营业务购买价约19.56亿元；以扣非归母净利1.430亿元为起点再打九折，折后可持续现金利润约1.287亿元，对应经营业务约15.19年回本、市值约21.41倍现金利润。这不是分红承诺：2025年经营自由现金流仅0.650亿元，扩产资本开支、理财收益波动和低派息率都限制即时可分配性。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/605080.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
