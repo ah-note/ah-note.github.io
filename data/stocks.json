@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 21:32:22 +08:00",
+  "built_at": "2026-07-31 21:34:12 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -17186,6 +17186,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002204.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "603711.SH",
+      "name": "香飘飘",
+      "raw_name": "香飘飘",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 46.24,
+      "pe_ttm": 22.3,
+      "owner_earnback_years": 31.4,
+      "owner_earnback_rate_pct": 3.18,
+      "market_profit_payback_years": 40.56,
+      "market_cash_profit_yield_pct": 2.47,
+      "discounted_detachable_net_cash_yi": 10.45,
+      "discounted_net_cash_to_market_cap_pct": 22.59,
+      "operating_business_price_yi": 35.79,
+      "discounted_cash_profit_yi": 1.14,
+      "revenue_yi": 29.26,
+      "gross_profit_yi": 10.86,
+      "parent_net_profit_yi": 0.95,
+      "gross_margin_pct": 37.14,
+      "net_margin_pct": 3.26,
+      "forecast_dividend_yield_pct": 0.63,
+      "risk_level": "未分级",
+      "business_summary": "以香飘飘杯装冲泡奶茶为利润核心，并用Meco果汁茶、兰芳园等即饮产品拓展第二曲线，主要通过买断式经销网络销售。",
+      "core_judgement": "按2026-07-31市值46.24亿元，折后可剥离净现金约10.45亿元，经营业务隐含购买价约35.79亿元。可持续可分配现金利润取1.14亿元：以2025年扣非归母净利0.711亿元为起点，加回折旧摊销约1.85亿元、扣除资本开支0.957亿元，再剔除净资金收益并对冲泡业务下滑、低产能利用率作约20%安全折价。对应经营业务回本约31.4年，整体现价/现金利润约40.6倍；结果对现金保留比例和利润恢复高度敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/603711.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
