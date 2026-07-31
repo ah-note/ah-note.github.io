@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 02:14:36 +08:00",
+  "built_at": "2026-08-01 02:17:48 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -9405,6 +9405,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002545.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "002469.SZ",
+      "name": "三维化学",
+      "raw_name": "三维化学",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 37.18,
+      "pe_ttm": 27.75,
+      "owner_earnback_years": 19.23,
+      "owner_earnback_rate_pct": 5.2,
+      "market_profit_payback_years": 29.42,
+      "market_cash_profit_yield_pct": 3.4,
+      "discounted_detachable_net_cash_yi": 12.88,
+      "discounted_net_cash_to_market_cap_pct": 34.64,
+      "operating_business_price_yi": 24.3,
+      "discounted_cash_profit_yi": 1.26,
+      "revenue_yi": 25.97,
+      "gross_profit_yi": 4.24,
+      "parent_net_profit_yi": 1.86,
+      "gross_margin_pct": 16.32,
+      "net_margin_pct": 7.18,
+      "forecast_dividend_yield_pct": 5.24,
+      "risk_level": "未分级",
+      "business_summary": "三维化学以硫磺回收等化工石化工程服务为技术入口，同时生产醛醇酸酯、残液加工产品和硫化物催化剂，靠工程项目毛利、化工价差及催化剂销售赚钱。",
+      "core_judgement": "按2026-07-31市值37.18亿元，扣除折后可剥离净现金12.88亿元后，经营业务购买价约24.30亿元。现金利润以归母净利润为起点，剔除与已扣除资金资产对应的税后投资收益，再对工程回款波动、化工周期和少数股东亏损给予20%稳健折扣，得到1.264亿元；对应经营业务回本约19.2年，未扣净现金的市值/现金利润约29.4年。该结果高度依赖存单可剥离性和现金利润折扣，不能视为确定回收期。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/002469.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
