@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 18:43:10 +08:00",
+  "built_at": "2026-07-31 18:44:26 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -13559,6 +13559,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002299.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "000858.SZ",
+      "name": "五 粮 液",
+      "raw_name": "五 粮 液",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 3038.91,
+      "pe_ttm": 24.12,
+      "owner_earnback_years": 35.64,
+      "owner_earnback_rate_pct": 2.81,
+      "market_profit_payback_years": 43.09,
+      "market_cash_profit_yield_pct": 2.32,
+      "discounted_detachable_net_cash_yi": 525.13,
+      "discounted_net_cash_to_market_cap_pct": 17.28,
+      "operating_business_price_yi": 2513.78,
+      "discounted_cash_profit_yi": 70.53,
+      "revenue_yi": 405.29,
+      "gross_profit_yi": 314.27,
+      "parent_net_profit_yi": 89.54,
+      "gross_margin_pct": 77.54,
+      "net_margin_pct": 22.09,
+      "forecast_dividend_yield_pct": 3.29,
+      "risk_level": "未分级",
+      "business_summary": "以五粮液高端浓香白酒为核心，自主生产，经销与直销并行并以先款后货为主，利润主要来自品牌定价与高毛利核心产品。",
+      "core_judgement": "按3038.91亿元市值，先从现金及现金等价物扣除经营必要现金、监管商品款、应付股利、2025年度拟派股利及租赁负债，再对剩余现金打八折，得到折后可剥离净现金525.13亿元。2025年收现和自由现金流显著高于利润，但年报明确调整部分收入确认且形成巨额监管商品款，故不直接资本化自由现金流；以扣非归母净利润88.16亿元再打八折，得到70.53亿元折后可持续现金利润。由此经营业务购买价2513.78亿元，回本约35.64年；该数字高度依赖收入确认调整后利润是否代表新常态。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/000858.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
