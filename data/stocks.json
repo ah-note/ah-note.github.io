@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 00:56:56 +08:00",
+  "built_at": "2026-08-01 00:58:07 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -7359,6 +7359,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002412.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "002867.SZ",
+      "name": "周大生",
+      "raw_name": "周大生",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 139.16,
+      "pe_ttm": 12.16,
+      "owner_earnback_years": 17.32,
+      "owner_earnback_rate_pct": 5.77,
+      "market_profit_payback_years": 17.39,
+      "market_cash_profit_yield_pct": 5.75,
+      "discounted_detachable_net_cash_yi": 0.57,
+      "discounted_net_cash_to_market_cap_pct": 0.41,
+      "operating_business_price_yi": 138.59,
+      "discounted_cash_profit_yi": 8.0,
+      "revenue_yi": 88.15,
+      "gross_profit_yi": 27.64,
+      "parent_net_profit_yi": 11.03,
+      "gross_margin_pct": 31.35,
+      "net_margin_pct": 12.52,
+      "forecast_dividend_yield_pct": 5.07,
+      "risk_level": "未分级",
+      "business_summary": "以周大生品牌通过加盟、自营和电商销售黄金及镶嵌珠宝，并向加盟商收取品牌使用费和管理服务费。",
+      "core_judgement": "按2026-07-31市值139.16亿元，先从货币资金8.08亿元中扣除5.50亿元短期借款，再保留2亿元必要经营现金，仅认定0.57亿元为折后可剥离净现金；经营业务购买价约138.59亿元。可持续可分配现金利润取8亿元，低于2025年归母净利润11.03亿元，反映当年自由现金流仅3.54亿元、库存增加7.30亿元及黄金价格和渠道转换带来的现金波动。对应经营业务回本约17.32年，市值/现金利润17.40倍；这是审慎估算而非预测确定值。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/002867.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
