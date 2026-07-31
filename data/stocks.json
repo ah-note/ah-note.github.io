@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 23:36:21 +08:00",
+  "built_at": "2026-07-31 23:36:51 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -20007,6 +20007,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/000858.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "001376.SZ",
+      "name": "百通能源",
+      "raw_name": "百通能源",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 51.71,
+      "pe_ttm": 26.91,
+      "owner_earnback_years": 35.69,
+      "owner_earnback_rate_pct": 2.8,
+      "market_profit_payback_years": 35.94,
+      "market_cash_profit_yield_pct": 2.78,
+      "discounted_detachable_net_cash_yi": 0.36,
+      "discounted_net_cash_to_market_cap_pct": 0.69,
+      "operating_business_price_yi": 51.35,
+      "discounted_cash_profit_yi": 1.44,
+      "revenue_yi": 10.69,
+      "gross_profit_yi": 3.57,
+      "parent_net_profit_yi": 2.0,
+      "gross_margin_pct": 33.38,
+      "net_margin_pct": 18.73,
+      "forecast_dividend_yield_pct": 0.89,
+      "risk_level": "未分级",
+      "business_summary": "百通能源在多个县区工业园区建设并运营锅炉、热电联产机组和供热管网，向园区工业客户直销蒸汽，并把联产电力卖给国家电网。",
+      "core_judgement": "账面净现金约1.31亿元，但公司为重资产园区供热运营商且仍有扩建安排，按货币资金80%计入、融资及租赁债务100%扣除后，仅确认0.36亿元折后可剥离净现金。2025年经营自由现金流1.60亿元，再按90%确认可持续可分配现金利润1.44亿元。按51.71亿元市值计算，经营业务购买价约51.35亿元，静态回本约35.7年；该口径未假设增长，也未把1000万元非核心股权投资计作现金。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/001376.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
