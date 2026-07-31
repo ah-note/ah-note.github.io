@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 02:35:53 +08:00",
+  "built_at": "2026-08-01 02:37:04 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -6491,6 +6491,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603987.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "002128.SZ",
+      "name": "电投能源",
+      "raw_name": "电投能源",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 840.4,
+      "pe_ttm": 14.34,
+      "owner_earnback_years": 16.36,
+      "owner_earnback_rate_pct": 6.11,
+      "market_profit_payback_years": 15.43,
+      "market_cash_profit_yield_pct": 6.48,
+      "discounted_detachable_net_cash_yi": -50.72,
+      "discounted_net_cash_to_market_cap_pct": -6.03,
+      "operating_business_price_yi": 891.12,
+      "discounted_cash_profit_yi": 54.48,
+      "revenue_yi": 301.15,
+      "gross_profit_yi": 110.93,
+      "parent_net_profit_yi": 54.19,
+      "gross_margin_pct": 36.83,
+      "net_margin_pct": 17.99,
+      "forecast_dividend_yield_pct": 3.47,
+      "risk_level": "未分级",
+      "business_summary": "以4800万吨/年露天煤矿为资源底座，把煤转成电、再以自备电和绿电生产电解铝，同时运营外售火电与风光电站的一体化能源公司。",
+      "core_judgement": "按2026-07-31市值840.40亿元，80%折算现金及现金等价物并全额扣除明确有息借款后，折后可剥离净现金为-50.72亿元，说明没有净现金垫。2025年经营现金流92.07亿元减2026年计划投资23.98亿元得基础现金利润68.09亿元，再因煤、铝、电价和利用小时周期性折价20%，得到54.48亿元。经营业务购买价891.12亿元，对应约16.36年回本；这是静态控股测算，不含资产注入、项目超支或商品价格再定价。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/002128.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
