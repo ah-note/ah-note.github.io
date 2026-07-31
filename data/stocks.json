@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 01:49:34 +08:00",
+  "built_at": "2026-08-01 01:50:23 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -13931,6 +13931,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/000425.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "002835.SZ",
+      "name": "同为股份",
+      "raw_name": "同为股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 25.97,
+      "pe_ttm": 22.57,
+      "owner_earnback_years": 23.52,
+      "owner_earnback_rate_pct": 4.25,
+      "market_profit_payback_years": 28.65,
+      "market_cash_profit_yield_pct": 3.49,
+      "discounted_detachable_net_cash_yi": 4.65,
+      "discounted_net_cash_to_market_cap_pct": 17.91,
+      "operating_business_price_yi": 21.32,
+      "discounted_cash_profit_yi": 0.91,
+      "revenue_yi": 11.14,
+      "gross_profit_yi": 4.78,
+      "parent_net_profit_yi": 1.39,
+      "gross_margin_pct": 42.91,
+      "net_margin_pct": 12.51,
+      "forecast_dividend_yield_pct": 2.36,
+      "risk_level": "未分级",
+      "business_summary": "公司以中国研发和制造为基础，向全球品牌分销商及大型集成商经销前后端安防视频监控产品和解决方案，收入约97%来自境外。",
+      "core_judgement": "以市值25.97亿元减折后可剥离净现金4.65亿元，经营业务购买价约21.32亿元。2025年经营现金流1.14亿元减资本开支7343万元仅余4058万元，但当年存货、经营应收与经营应付合计造成约6014万元净营运资金流出；将这一波动归一化后自由现金流约1.007亿元，再按90%折减为9065万元。对应经营业务回本约23.5年、市值/现金利润约28.6倍。该结果高度依赖库存能否消化及现金是否真正可分配，属于解释性估算而非确定收益。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/002835.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
