@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 04:04:48 +08:00",
+  "built_at": "2026-08-01 04:08:01 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -20751,6 +20751,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/300015.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "002871.SZ",
+      "name": "伟隆股份",
+      "raw_name": "伟隆股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 38.76,
+      "pe_ttm": 29.53,
+      "owner_earnback_years": 31.11,
+      "owner_earnback_rate_pct": 3.21,
+      "market_profit_payback_years": 35.24,
+      "market_cash_profit_yield_pct": 2.84,
+      "discounted_detachable_net_cash_yi": 4.54,
+      "discounted_net_cash_to_market_cap_pct": 11.7,
+      "operating_business_price_yi": 34.22,
+      "discounted_cash_profit_yi": 1.1,
+      "revenue_yi": 6.7,
+      "gross_profit_yi": 2.75,
+      "parent_net_profit_yi": 1.34,
+      "gross_margin_pct": 41.1,
+      "net_margin_pct": 20.03,
+      "forecast_dividend_yield_pct": 2.59,
+      "risk_level": "未分级",
+      "business_summary": "伟隆股份以自有品牌和经销渠道向国内外市政给排水、消防、燃气、暖通及数据中心客户销售阀门和配件，并通过铸造与加工一体化赚取制造毛利。",
+      "core_judgement": "以2026年7月31日市值38.76亿元计，扣除折后可剥离净现金4.54亿元后，经营业务购买价约34.22亿元；以折后可持续可分配现金利润1.10亿元计，经营业务回本约31.1年，市值/现金利润约35.2倍。现金折扣已排除募集资金专款并为营运、海外资金与理财变现留出余量；利润折扣以2025年扣非归母利润为基准，未把扩产高峰下偏低的当期自由现金流直接永久化。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/002871.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
