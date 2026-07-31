@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 16:12:57 +08:00",
+  "built_at": "2026-07-31 16:13:46 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -8041,6 +8041,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600261.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "603345.SH",
+      "name": "安井食品",
+      "raw_name": "安井食品",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 297.26,
+      "pe_ttm": 19.46,
+      "owner_earnback_years": 21.32,
+      "owner_earnback_rate_pct": 4.69,
+      "market_profit_payback_years": 25.85,
+      "market_cash_profit_yield_pct": 3.87,
+      "discounted_detachable_net_cash_yi": 52.12,
+      "discounted_net_cash_to_market_cap_pct": 17.53,
+      "operating_business_price_yi": 245.14,
+      "discounted_cash_profit_yi": 11.5,
+      "revenue_yi": 161.93,
+      "gross_profit_yi": 34.98,
+      "parent_net_profit_yi": 13.59,
+      "gross_margin_pct": 21.6,
+      "net_margin_pct": 8.39,
+      "forecast_dividend_yield_pct": 2.71,
+      "risk_level": "未分级",
+      "business_summary": "安井食品通过全国工厂与冷链供应链生产鱼丸、肉丸、小龙虾菜肴、面点等速冻食品，主要经经销商触达餐饮和家庭消费，以规模采购、制造效率、产品组合和全渠道覆盖赚取毛利。",
+      "core_judgement": "按2026-07-31市值297.26亿元，折后可剥离净现金52.12亿元后，经营业务购买价约245.14亿元。以折后可持续可分配现金利润11.50亿元计，经营业务回本约21.3年；不扣净现金的市值/现金利润约25.8倍。该数字是控股视角的静态口径，不含增长价值，也不代表现金可立即全部分出；若扩产、收购或原料库存继续占用募资现金，实际可剥离金额会更低。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/603345.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
