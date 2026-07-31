@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 00:32:10 +08:00",
+  "built_at": "2026-08-01 00:33:00 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -25246,6 +25246,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600886.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "600236.SH",
+      "name": "桂冠电力",
+      "raw_name": "桂冠电力",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 848.93,
+      "pe_ttm": 22.05,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 103.93,
+      "gross_profit_yi": 56.1,
+      "parent_net_profit_yi": 32.8,
+      "gross_margin_pct": 53.98,
+      "net_margin_pct": 31.56,
+      "forecast_dividend_yield_pct": 2.72,
+      "risk_level": "未分级",
+      "business_summary": "桂冠电力以红水河梯级水电为利润核心，同时运营火电、风电和光伏，将上网电量按核准、长协或市场化电价售给电网和电力用户。",
+      "core_judgement": "普通控股回本口径不适用：现金并非闲置可剥离资产，电站固定资产、在建工程、收费权质押与约248.73亿元短期借款、长期借款、债券、一年内到期非流动负债及租赁负债共同形成发电业务。应改用分电源或分项目的剩余现金流模型，明确剩余寿命/许可期、长期电价和发电量、维护资本开支、税费、少数股东分流及债务服务后再判断回本。本报告不伪造普通回本年数。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/600236.SH/"
     }
   ]
 }
