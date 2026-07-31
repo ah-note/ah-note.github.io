@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 05:04:57 +08:00",
+  "built_at": "2026-08-01 05:06:29 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -16411,6 +16411,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/688633.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "603596.SH",
+      "name": "伯特利",
+      "raw_name": "伯特利",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 235.36,
+      "pe_ttm": 18.0,
+      "owner_earnback_years": 25.02,
+      "owner_earnback_rate_pct": 4.0,
+      "market_profit_payback_years": 27.02,
+      "market_cash_profit_yield_pct": 3.7,
+      "discounted_detachable_net_cash_yi": 17.39,
+      "discounted_net_cash_to_market_cap_pct": 7.39,
+      "operating_business_price_yi": 217.97,
+      "discounted_cash_profit_yi": 8.71,
+      "revenue_yi": 120.14,
+      "gross_profit_yi": 23.6,
+      "parent_net_profit_yi": 13.09,
+      "gross_margin_pct": 19.65,
+      "net_margin_pct": 10.9,
+      "forecast_dividend_yield_pct": 0.98,
+      "risk_level": "未分级",
+      "business_summary": "伯特利向整车厂销售机械制动、机械转向和智能电控底盘零部件，2025年增长主要由智能电控产品放量驱动。",
+      "core_judgement": "按输入市值235.36亿元，扣除折后可剥离净现金17.39亿元后，经营业务购买价217.97亿元。现金利润不直接采用当年0.82亿元自由现金流：2025年处于扩产和营运资金快速增长期；以归母净利润13.09亿元，加回折旧摊销3.54亿元，扣除估计维护资本开支4.71亿元（当年资本开支的60%）及正常化营运资金投入1.04亿元（收入增量的5%），得到约10.88亿元基准，再打八折为8.71亿元。对应经营业务回本约25.0年、市值/现金利润约27.0倍；结果对维护资本开支和营运资...",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/603596.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
