@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 18:16:23 +08:00",
+  "built_at": "2026-07-31 18:17:32 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -11079,6 +11079,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600835.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "000425.SZ",
+      "name": "徐工机械",
+      "raw_name": "徐工机械",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 1055.18,
+      "pe_ttm": 16.01,
+      "owner_earnback_years": 23.51,
+      "owner_earnback_rate_pct": 4.25,
+      "market_profit_payback_years": 18.95,
+      "market_cash_profit_yield_pct": 5.28,
+      "discounted_detachable_net_cash_yi": -253.89,
+      "discounted_net_cash_to_market_cap_pct": -24.06,
+      "operating_business_price_yi": 1309.07,
+      "discounted_cash_profit_yi": 55.68,
+      "revenue_yi": 1008.23,
+      "gross_profit_yi": 227.94,
+      "parent_net_profit_yi": 65.72,
+      "gross_margin_pct": 22.61,
+      "net_margin_pct": 6.52,
+      "forecast_dividend_yield_pct": 2.23,
+      "risk_level": "未分级",
+      "business_summary": "徐工机械靠向国内外基建、矿山和工业客户销售起重、土方、矿业、道路及高空作业等工程机械，并以备件、服务和融资支持促成设备销售。",
+      "core_judgement": "以172.83亿元现金及现金等价物扣除426.71亿元融资债务，折后可剥离净现金为-253.89亿元；应收、存货及长期投资均不作为现金。以2025年扣非归母净利润65.50亿元为利润起点，因工程机械周期、应收减值与库存上升统一打85折，得到55.68亿元可持续可分配现金利润。对应经营业务购买价1309.07亿元，回本约23.51年；这是静态控股口径，不是目标价或收益承诺。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/000425.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
