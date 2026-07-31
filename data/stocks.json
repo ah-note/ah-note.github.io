@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 15:20:04 +08:00",
+  "built_at": "2026-07-31 15:21:53 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -5654,6 +5654,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603153.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "000792.SZ",
+      "name": "盐湖股份",
+      "raw_name": "盐湖股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 1455.71,
+      "pe_ttm": 14.11,
+      "owner_earnback_years": 17.45,
+      "owner_earnback_rate_pct": 5.73,
+      "market_profit_payback_years": 19.41,
+      "market_cash_profit_yield_pct": 5.15,
+      "discounted_detachable_net_cash_yi": 146.69,
+      "discounted_net_cash_to_market_cap_pct": 10.08,
+      "operating_business_price_yi": 1309.02,
+      "discounted_cash_profit_yi": 75.0,
+      "revenue_yi": 155.01,
+      "gross_profit_yi": 89.68,
+      "parent_net_profit_yi": 84.76,
+      "gross_margin_pct": 57.86,
+      "net_margin_pct": 54.68,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "依托察尔汗和一里坪盐湖卤水，以钾肥保供为收入与利润底盘，并用提钾后老卤生产碳酸锂。",
+      "core_judgement": "以1455.71亿元市值扣除146.69亿元折后可剥离净现金，经营业务购买价约1309.02亿元；以75亿元折后可持续可分配现金利润计，静态回本约17.45年，未扣现金的市值/现金利润约19.41倍。该结果高度依赖钾锂价格、关联财务公司存款可回收性、未来扩产资本开支及五矿盐湖并表后的真实现金贡献，不是收益承诺。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/000792.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
