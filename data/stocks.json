@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 16:46:04 +08:00",
+  "built_at": "2026-07-31 16:46:32 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -5065,6 +5065,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00966.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "002293.SZ",
+      "name": "罗莱生活",
+      "raw_name": "罗莱生活",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 91.42,
+      "pe_ttm": 16.49,
+      "owner_earnback_years": 15.81,
+      "owner_earnback_rate_pct": 6.33,
+      "market_profit_payback_years": 19.84,
+      "market_cash_profit_yield_pct": 5.04,
+      "discounted_detachable_net_cash_yi": 18.58,
+      "discounted_net_cash_to_market_cap_pct": 20.32,
+      "operating_business_price_yi": 72.84,
+      "discounted_cash_profit_yi": 4.61,
+      "revenue_yi": 48.39,
+      "gross_profit_yi": 24.45,
+      "parent_net_profit_yi": 5.2,
+      "gross_margin_pct": 50.53,
+      "net_margin_pct": 10.74,
+      "forecast_dividend_yield_pct": 5.66,
+      "risk_level": "未分级",
+      "business_summary": "以罗莱等品牌销售床品家纺为核心、线上直营与线下加盟/直营并行，并经营规模较小且亏损的美国家具业务。",
+      "core_judgement": "按2026-07-31市值91.42亿元，折后可剥离净现金18.58亿元后，经营业务隐含购买价72.84亿元；以2025年扣非归母净利润4.61亿元作为折后可持续可分配现金利润，经营业务回本约15.81年，市值/现金利润约19.84倍。该口径未把2025年8.53亿元自由现金流全部外推，因为其中约3.48亿元来自经营性应收减少和应付增加；也未将存货、应收、固定资产、商誉当作可剥离现金。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/002293.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
