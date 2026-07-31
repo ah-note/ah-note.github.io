@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 04:18:34 +08:00",
+  "built_at": "2026-08-01 04:21:26 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -31818,6 +31818,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/688472.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "000591.SZ",
+      "name": "太阳能",
+      "raw_name": "太阳能",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 176.5,
+      "pe_ttm": 24.61,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 49.57,
+      "gross_profit_yi": 23.09,
+      "parent_net_profit_yi": 8.23,
+      "gross_margin_pct": 46.59,
+      "net_margin_pct": 16.59,
+      "forecast_dividend_yield_pct": 1.69,
+      "risk_level": "未分级",
+      "business_summary": "以自持光伏电站售电为核心、光伏组件制造为辅，通过重资产建设运营和电网结算获取收入的央企新能源平台。",
+      "core_judgement": "普通控股回本口径不适用。账面资金只有22.78亿元，而融资与租赁负债约242.57亿元，且两者都嵌入电站投资运营；2025年经营现金流41.33亿元又包含以前年度国补集中回收，不能直接当作当年可持续现金利润。应改按存量电站逐项目或分组测算剩余运营期内售电量、电价、限电、运维税费、维护资本开支及债务服务后的股东现金流，并单独评估115.34亿元补贴应收的回收时点。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/000591.SZ/"
     }
   ]
 }
