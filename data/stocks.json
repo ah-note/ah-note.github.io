@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 05:25:39 +08:00",
+  "built_at": "2026-08-01 05:27:50 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -29679,6 +29679,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/000950.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "003013.SZ",
+      "name": "地铁设计",
+      "raw_name": "地铁设计",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 76.12,
+      "pe_ttm": 15.84,
+      "owner_earnback_years": 149.16,
+      "owner_earnback_rate_pct": 0.67,
+      "market_profit_payback_years": 152.24,
+      "market_cash_profit_yield_pct": 0.66,
+      "discounted_detachable_net_cash_yi": 1.54,
+      "discounted_net_cash_to_market_cap_pct": 2.02,
+      "operating_business_price_yi": 74.58,
+      "discounted_cash_profit_yi": 0.5,
+      "revenue_yi": 25.66,
+      "gross_profit_yi": 9.89,
+      "parent_net_profit_yi": 4.66,
+      "gross_margin_pct": 38.57,
+      "net_margin_pct": 18.15,
+      "forecast_dividend_yield_pct": 1.88,
+      "risk_level": "未分级",
+      "business_summary": "以城市轨道交通勘察设计为核心、向轨道和市政业主按项目提供全过程技术服务的专业设计院。",
+      "core_judgement": "按2026-07-31市值76.12亿元，账面现金仅在剔除受限资金后按70%折价，并全额扣除有息借款及租赁债务，折后可剥离净现金约1.54亿元。现金利润没有采用4.66亿元归母净利：2023-2025三年经营现金流合计仅约3.01亿元、年均约1.00亿元，且仍需维护性资本开支；据此将可持续可分配现金利润保守取整为0.50亿元。对应经营业务购买价74.58亿元、回本约149.2年。该数字不是精确预测，而是对长期低现金转化的压力测试；若合同资产集中回收，回本会显著缩短，反之分红可...",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/003013.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
