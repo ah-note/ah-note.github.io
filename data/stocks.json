@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 05:16:44 +08:00",
+  "built_at": "2026-08-01 05:17:13 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -14520,6 +14520,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/688569.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "000157.SZ",
+      "name": "中联重科",
+      "raw_name": "中联重科",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 659.88,
+      "pe_ttm": 15.23,
+      "owner_earnback_years": 23.24,
+      "owner_earnback_rate_pct": 4.3,
+      "market_profit_payback_years": 23.24,
+      "market_cash_profit_yield_pct": 4.3,
+      "discounted_detachable_net_cash_yi": 0.0,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": 659.88,
+      "discounted_cash_profit_yi": 28.4,
+      "revenue_yi": 521.07,
+      "gross_profit_yi": 146.1,
+      "parent_net_profit_yi": 48.58,
+      "gross_margin_pct": 28.04,
+      "net_margin_pct": 9.32,
+      "forecast_dividend_yield_pct": 2.62,
+      "risk_level": "未分级",
+      "business_summary": "以起重、混凝土、土方和高空作业机械为核心，依靠全球直营渠道、制造规模和客户信用方案销售高价值装备，并延伸至农机、矿机及少量金融服务。",
+      "core_judgement": "按2026-07-31市值659.88亿元，保守不给净现金扣减。2025年经营现金流48.74亿元，扣除当年全部资本开支46.55亿元后自由现金流仅2.19亿元；考虑数智园等扩产投入，用约13.3亿元折旧摊销近似维护性资本开支，得到约35.5亿元基础现金利润，再为营运资金、信用销售和周期波动保留约20%折扣，取28.4亿元。对应经营业务购买价659.88亿元，静态回本约23.24年。这是透明假设下的控股测算，不是盈利预测。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/000157.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
