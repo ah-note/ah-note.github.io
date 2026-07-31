@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 19:49:12 +08:00",
+  "built_at": "2026-07-31 19:50:21 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -14830,6 +14830,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600988.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "688358.SH",
+      "name": "祥生医疗",
+      "raw_name": "祥生医疗",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 31.23,
+      "pe_ttm": 25.83,
+      "owner_earnback_years": 30.04,
+      "owner_earnback_rate_pct": 3.33,
+      "market_profit_payback_years": 39.61,
+      "market_cash_profit_yield_pct": 2.52,
+      "discounted_detachable_net_cash_yi": 7.54,
+      "discounted_net_cash_to_market_cap_pct": 24.15,
+      "operating_business_price_yi": 23.69,
+      "discounted_cash_profit_yi": 0.79,
+      "revenue_yi": 4.36,
+      "gross_profit_yi": 2.58,
+      "parent_net_profit_yi": 1.16,
+      "gross_margin_pct": 59.1,
+      "net_margin_pct": 26.73,
+      "forecast_dividend_yield_pct": 3.16,
+      "risk_level": "未分级",
+      "business_summary": "以经销为主、深度依赖海外市场的超声医学影像设备厂商，利润核心来自高毛利彩超硬件及自研技术平台。",
+      "core_judgement": "以2026-07-31市值31.23亿元，扣除折后可剥离净现金7.54亿元后，经营业务隐含购买价23.69亿元；以折后可持续现金利润0.788亿元计算，经营业务约30.0年回本，未扣现金的市值约39.6倍现金利润。该数字对境外现金可调度性和2025年下滑是否持续非常敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/688358.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
