@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 01:54:54 +08:00",
+  "built_at": "2026-08-01 01:55:44 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -24595,6 +24595,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002010.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "300547.SZ",
+      "name": "川环科技",
+      "raw_name": "川环科技",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 50.21,
+      "pe_ttm": 25.48,
+      "owner_earnback_years": 58.29,
+      "owner_earnback_rate_pct": 1.72,
+      "market_profit_payback_years": 60.25,
+      "market_cash_profit_yield_pct": 1.66,
+      "discounted_detachable_net_cash_yi": 1.64,
+      "discounted_net_cash_to_market_cap_pct": 3.26,
+      "operating_business_price_yi": 48.57,
+      "discounted_cash_profit_yi": 0.83,
+      "revenue_yi": 15.23,
+      "gross_profit_yi": 3.49,
+      "parent_net_profit_yi": 2.04,
+      "gross_margin_pct": 22.94,
+      "net_margin_pct": 13.4,
+      "forecast_dividend_yield_pct": 1.19,
+      "risk_level": "未分级",
+      "business_summary": "面向汽车、摩托车整车厂直销燃油与冷却等橡塑管路总成，并把同类流体管路能力延伸至储能和数据中心液冷。",
+      "core_judgement": "以2026-07-31输入市值50.21亿元，扣除折后可剥离净现金1.64亿元后，经营业务购买价48.57亿元。现金利润以2025年经营自由现金流0.926亿元为基础，再按90%折算为0.833亿元，反映当年经营现金流同比下降48.68%、显著低于归母利润且营运资金占用偏高。对应控股回本约58.3年，市值/现金利润约60.3倍。该结果是基于单年低现金转化的保守压力口径，不等于未来预测；若票据、应收和存货回落，回本会缩短，反之则可能更长。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/300547.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
