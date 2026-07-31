@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 03:03:12 +08:00",
+  "built_at": "2026-08-01 03:04:43 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -23355,6 +23355,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603725.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "300695.SZ",
+      "name": "兆丰股份",
+      "raw_name": "兆丰股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 45.9,
+      "pe_ttm": 15.18,
+      "owner_earnback_years": 37.91,
+      "owner_earnback_rate_pct": 2.64,
+      "market_profit_payback_years": 57.38,
+      "market_cash_profit_yield_pct": 1.74,
+      "discounted_detachable_net_cash_yi": 15.57,
+      "discounted_net_cash_to_market_cap_pct": 33.93,
+      "operating_business_price_yi": 30.33,
+      "discounted_cash_profit_yi": 0.8,
+      "revenue_yi": 7.05,
+      "gross_profit_yi": 1.99,
+      "parent_net_profit_yi": 3.5,
+      "gross_margin_pct": 28.16,
+      "net_margin_pct": 49.68,
+      "forecast_dividend_yield_pct": 0.33,
+      "risk_level": "未分级",
+      "business_summary": "以轮毂轴承单元为绝对核心的汽车底盘精密零部件制造商，兼做分离轴承、商用车底盘零件及小规模汽车电子产品。",
+      "core_judgement": "按2026年7月31日市值45.90亿元，折后可剥离净现金约15.57亿元，经营业务购买价约30.33亿元。可持续可分配现金利润取0.80亿元：低于2025年扣非归母净利润0.951亿元，也低于经营现金流1.292亿元，用于反映维持性资本开支和营运资金波动。由此经营业务回本约37.9年，市值/现金利润约57.4年。该结果不把2025年2.653亿元基金公允价值增值当作持续经营利润。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/300695.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
