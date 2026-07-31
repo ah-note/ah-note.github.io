@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 19:15:33 +08:00",
+  "built_at": "2026-07-31 19:16:02 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -13466,6 +13466,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00247.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "603214.SH",
+      "name": "爱婴室",
+      "raw_name": "爱婴室",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 17.79,
+      "pe_ttm": 21.35,
+      "owner_earnback_years": 26.9,
+      "owner_earnback_rate_pct": 3.72,
+      "market_profit_payback_years": 30.64,
+      "market_cash_profit_yield_pct": 3.26,
+      "discounted_detachable_net_cash_yi": 2.17,
+      "discounted_net_cash_to_market_cap_pct": 12.19,
+      "operating_business_price_yi": 15.62,
+      "discounted_cash_profit_yi": 0.58,
+      "revenue_yi": 37.82,
+      "gross_profit_yi": 9.91,
+      "parent_net_profit_yi": 0.81,
+      "gross_margin_pct": 26.21,
+      "net_margin_pct": 2.15,
+      "forecast_dividend_yield_pct": 1.97,
+      "risk_level": "未分级",
+      "business_summary": "以直营网点和电商向家庭销售奶粉、食品、用品、棉纺及玩具，并以供应商促销推广服务贡献高毛利的母婴零售商。",
+      "core_judgement": "按市值17.79亿元，现金按80%折价后全额扣除2.083亿元短借，折后可剥离净现金2.168亿元；经营业务隐含购买价15.622亿元。以2025年扣非归母净利润5,806.94万元作为保守可持续可分配现金利润，经营业务约26.9年回本，整体市值约30.6倍现金利润。没有把去库存释放的营运资金当作永久利润，也未给并购商誉和长期投资变现价值；结果对扣非利润恢复及新店成熟速度高度敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/603214.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
