@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 19:19:01 +08:00",
+  "built_at": "2026-07-31 19:19:50 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -5716,6 +5716,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002648.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "603326.SH",
+      "name": "我乐家居",
+      "raw_name": "我乐家居",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 19.44,
+      "pe_ttm": 13.57,
+      "owner_earnback_years": 16.07,
+      "owner_earnback_rate_pct": 6.22,
+      "market_profit_payback_years": 19.44,
+      "market_cash_profit_yield_pct": 5.14,
+      "discounted_detachable_net_cash_yi": 3.37,
+      "discounted_net_cash_to_market_cap_pct": 17.34,
+      "operating_business_price_yi": 16.07,
+      "discounted_cash_profit_yi": 1.0,
+      "revenue_yi": 14.51,
+      "gross_profit_yi": 6.72,
+      "parent_net_profit_yi": 1.74,
+      "gross_margin_pct": 46.3,
+      "net_margin_pct": 12.02,
+      "forecast_dividend_yield_pct": 4.1,
+      "risk_level": "未分级",
+      "business_summary": "以经销零售为主，为中高端家庭提供整体厨柜和全屋定制的一站式设计、柔性制造、交付安装服务。",
+      "core_judgement": "以2026-07-31市值19.44亿元，扣除折后可剥离净现金3.37亿元后，经营业务购买价约16.07亿元。2025年扣非归母净利1.50亿元，但经营自由现金流仅0.80亿元，且合同负债大幅下降；取1.00亿元作为折后可持续可分配现金利润，经营业务静态回本约16.1年，未扣净现金的市值/现金利润为19.44倍。该数值是保守情景估计，不是承诺。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/603326.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
