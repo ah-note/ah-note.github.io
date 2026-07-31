@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 05:19:45 +08:00",
+  "built_at": "2026-08-01 05:22:17 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -28377,6 +28377,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002430.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "300866.SZ",
+      "name": "安克创新",
+      "raw_name": "安克创新",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 715.7,
+      "pe_ttm": 28.39,
+      "owner_earnback_years": 59.34,
+      "owner_earnback_rate_pct": 1.69,
+      "market_profit_payback_years": 62.92,
+      "market_cash_profit_yield_pct": 1.59,
+      "discounted_detachable_net_cash_yi": 40.67,
+      "discounted_net_cash_to_market_cap_pct": 5.68,
+      "operating_business_price_yi": 675.03,
+      "discounted_cash_profit_yi": 11.38,
+      "revenue_yi": 305.14,
+      "gross_profit_yi": 137.51,
+      "parent_net_profit_yi": 25.45,
+      "gross_margin_pct": 45.07,
+      "net_margin_pct": 8.34,
+      "forecast_dividend_yield_pct": 1.27,
+      "risk_level": "未分级",
+      "business_summary": "以Anker、eufy、soundcore和Nebula等自有品牌，面向全球消费者销售充电储能、智能家居与智能影音硬件。",
+      "core_judgement": "按715.70亿元市值，扣除40.67亿元折后可剥离净现金后，经营业务购买价约675.03亿元；以11.38亿元折后可持续现金利润计，经营业务回本约59.34年，市值/现金利润约62.92倍。2025年因库存与经营性应收占用，自由现金流仅1.16亿元，故用2023—2025三年平均经营现金流减平均资本开支并再折价10%，但库存能否正常去化仍会显著改变结果。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/300866.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
