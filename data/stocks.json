@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 00:05:03 +08:00",
+  "built_at": "2026-08-01 00:05:59 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -17992,6 +17992,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/001328.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "301181.SZ",
+      "name": "标榜股份",
+      "raw_name": "标榜股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 30.67,
+      "pe_ttm": 27.1,
+      "owner_earnback_years": 29.83,
+      "owner_earnback_rate_pct": 3.35,
+      "market_profit_payback_years": 43.55,
+      "market_cash_profit_yield_pct": 2.3,
+      "discounted_detachable_net_cash_yi": 9.66,
+      "discounted_net_cash_to_market_cap_pct": 31.49,
+      "operating_business_price_yi": 21.01,
+      "discounted_cash_profit_yi": 0.7,
+      "revenue_yi": 5.49,
+      "gross_profit_yi": 1.77,
+      "parent_net_profit_yi": 1.19,
+      "gross_margin_pct": 32.22,
+      "net_margin_pct": 21.61,
+      "forecast_dividend_yield_pct": 1.88,
+      "risk_level": "未分级",
+      "business_summary": "面向整车厂及一级供应商直销汽车动力与冷却系统尼龙管路、连接件，靠车型定点后的批量配套、材料加工和工艺能力赚钱。",
+      "core_judgement": "按输入市值30.67亿元，折后可剥离净现金9.66亿元后，经营业务购买价约21.01亿元；以折后可持续现金利润0.704亿元计，经营业务静态回本约29.8年，若不扣现金则约43.5年。该结果对现金折扣、未来扩产开支和客户订单持续性敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/301181.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
