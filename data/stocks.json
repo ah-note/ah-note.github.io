@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 21:26:13 +08:00",
+  "built_at": "2026-07-31 21:29:24 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -17589,6 +17589,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002611.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "600862.SH",
+      "name": "中航高科",
+      "raw_name": "中航高科",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 261.75,
+      "pe_ttm": 28.33,
+      "owner_earnback_years": 35.42,
+      "owner_earnback_rate_pct": 2.82,
+      "market_profit_payback_years": 37.39,
+      "market_cash_profit_yield_pct": 2.67,
+      "discounted_detachable_net_cash_yi": 13.8,
+      "discounted_net_cash_to_market_cap_pct": 5.27,
+      "operating_business_price_yi": 247.95,
+      "discounted_cash_profit_yi": 7.0,
+      "revenue_yi": 50.08,
+      "gross_profit_yi": 18.83,
+      "parent_net_profit_yi": 10.31,
+      "gross_margin_pct": 37.6,
+      "net_margin_pct": 20.58,
+      "forecast_dividend_yield_pct": 1.18,
+      "risk_level": "未分级",
+      "business_summary": "公司主要向国内航空产业客户供应高性能树脂、预浸料、蜂窝芯材、复合材料结构件及航空刹车材料，利润高度集中在航空新材料。",
+      "core_judgement": "按输入市值261.75亿元，货币资金以75%计入并全额扣除租赁类负债，折后可剥离净现金约13.80亿元；经营业务购买价约247.95亿元。可持续现金利润取7.00亿元，低于2025年归母净利润10.31亿元和自由现金流9.47亿元，用于吸收2024年自由现金流仅约3.40亿元、军品结算节奏及应收存货占用波动。对应经营业务回本约35.42年，未扣现金的市值/现金利润约37.39倍。该结果是保守经营资产回本测算，不是目标价或买卖建议。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/600862.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
