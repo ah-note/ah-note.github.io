@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 21:29:24 +08:00",
+  "built_at": "2026-07-31 21:29:53 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -20162,6 +20162,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600483.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "600661.SH",
+      "name": "昂立教育",
+      "raw_name": "昂立教育",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 24.96,
+      "pe_ttm": 25.51,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": 0.0,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": 0.0,
+      "discounted_detachable_net_cash_yi": 0.0,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": 24.96,
+      "discounted_cash_profit_yi": 0.0,
+      "revenue_yi": 13.73,
+      "gross_profit_yi": 6.61,
+      "parent_net_profit_yi": 0.87,
+      "gross_margin_pct": 48.18,
+      "net_margin_pct": 6.31,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "以上海为核心，通过直营校区和学校合作向青少儿、高中、职业/成人及国际教育客户提供培训和运营服务，并向银发教育与文旅延伸。",
+      "core_judgement": "普通经营公司框架适用，但2025年无法证明存在正的可持续可分配现金利润。账面现金600,456,788.80元几乎被合同负债593,824,575.12元覆盖；经营现金流又受预收学费增加推动，且租赁付款列入筹资现金流。归母净利润中82,355,413.00元为非经常性损益，扣非归母净利润仅4,214,816.88元。因此折后可剥离净现金和折后可持续现金利润均按0元处理，经营业务购买价等于市值，回本年与市值/现金利润不成立。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/600661.SH/"
     }
   ]
 }
