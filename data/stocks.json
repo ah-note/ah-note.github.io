@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 20:41:02 +08:00",
+  "built_at": "2026-07-31 20:42:12 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -18798,6 +18798,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/000885.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "002039.SZ",
+      "name": "黔源电力",
+      "raw_name": "黔源电力",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 85.0,
+      "pe_ttm": 13.33,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 32.85,
+      "gross_profit_yi": 18.47,
+      "parent_net_profit_yi": 6.0,
+      "gross_margin_pct": 56.21,
+      "net_margin_pct": 18.27,
+      "forecast_dividend_yield_pct": 2.46,
+      "risk_level": "未分级",
+      "business_summary": "在贵州北盘江、芙蓉江和三岔河流域运营梯级水电站并配套光伏电站，主要把自然来水转化为向贵州电网销售的电量。",
+      "core_judgement": "普通控股回本口径不适用，所有普通排序字段保持null。2025年经营现金流和自由现金流来自丰水年且属于含少数股东的合并口径；评估控股回本应建立分电站、归属权益口径的多年情景现金流模型，用多年平均来水和电量、合同/市场电价、维持性资本开支、所得税、债务本息及剩余运营期折现。当前年报未给出逐站剩余运营年限和多年标准化维持性资本开支，不能可靠产出专项回本年数。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/002039.SZ/"
     }
   ]
 }
