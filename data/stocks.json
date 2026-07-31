@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 04:52:51 +08:00",
+  "built_at": "2026-08-01 04:54:21 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -10552,6 +10552,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/601686.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "002533.SZ",
+      "name": "金杯电工",
+      "raw_name": "金杯电工",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 83.74,
+      "pe_ttm": 13.5,
+      "owner_earnback_years": 20.11,
+      "owner_earnback_rate_pct": 4.97,
+      "market_profit_payback_years": 20.93,
+      "market_cash_profit_yield_pct": 4.78,
+      "discounted_detachable_net_cash_yi": 3.28,
+      "discounted_net_cash_to_market_cap_pct": 3.92,
+      "operating_business_price_yi": 80.46,
+      "discounted_cash_profit_yi": 4.0,
+      "revenue_yi": 203.21,
+      "gross_profit_yi": 20.79,
+      "parent_net_profit_yi": 6.0,
+      "gross_margin_pct": 10.23,
+      "net_margin_pct": 2.95,
+      "forecast_dividend_yield_pct": 3.91,
+      "risk_level": "未分级",
+      "business_summary": "金杯电工以铜铝为主要原料，制造并销售扁电磁线和电线电缆，靠区域品牌、经销网络、规模交付及特高压、新能源汽车等高要求产品获得薄利。",
+      "core_judgement": "按2026-07-31约83.74亿元市值，先以期末现金及现金等价物19.89亿元和银行理财0.139亿元，扣除短期借款、长期借款（含一年内到期部分）及租赁负债约13.46亿元，得到约6.57亿元偿债后现金余量；考虑应收、存货扩大和现金季节性，仅认可50%，折后可剥离净现金3.28亿元。现金利润从扣非归母净利润5.25亿元出发，扣除营运资本持续占用和资本开支高于折旧的压力，保守取4.00亿元。由此经营业务购买价80.46亿元，回本约20.1年。该口径对营运资本能否稳定回收高度...",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/002533.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
