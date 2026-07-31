@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 03:56:35 +08:00",
+  "built_at": "2026-08-01 03:57:05 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -26672,6 +26672,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002054.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "600549.SH",
+      "name": "厦门钨业",
+      "raw_name": "厦门钨业",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 750.13,
+      "pe_ttm": 24.73,
+      "owner_earnback_years": 56.62,
+      "owner_earnback_rate_pct": 1.77,
+      "market_profit_payback_years": 52.56,
+      "market_cash_profit_yield_pct": 1.9,
+      "discounted_detachable_net_cash_yi": -58.04,
+      "discounted_net_cash_to_market_cap_pct": -7.74,
+      "operating_business_price_yi": 808.17,
+      "discounted_cash_profit_yi": 14.27,
+      "revenue_yi": 462.65,
+      "gross_profit_yi": 82.8,
+      "parent_net_profit_yi": 23.09,
+      "gross_margin_pct": 17.9,
+      "net_margin_pct": 4.99,
+      "forecast_dividend_yield_pct": 1.24,
+      "risk_level": "未分级",
+      "business_summary": "厦门钨业以钨钼深加工为主要利润支柱，同时经营稀土深加工和锂电正极材料，向工业客户按订单直接销售中间材料与工具。",
+      "core_judgement": "市值750.13亿元，折后可剥离净现金为负58.04亿元，经营业务购买价808.17亿元。现金利润以扣非归母净利润21.90亿元与经营自由现金流9.82亿元的均值为基础再打九折，得14.27亿元；经营业务回本约56.62年，市值/现金利润约52.56倍。这是保守情景测算，不是目标价。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/600549.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
