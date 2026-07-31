@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 18:17:32 +08:00",
+  "built_at": "2026-07-31 18:18:41 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -11978,6 +11978,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/000682.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "000920.SZ",
+      "name": "沃顿科技",
+      "raw_name": "沃顿科技",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 51.33,
+      "pe_ttm": 23.31,
+      "owner_earnback_years": 26.12,
+      "owner_earnback_rate_pct": 3.83,
+      "market_profit_payback_years": 30.15,
+      "market_cash_profit_yield_pct": 3.32,
+      "discounted_detachable_net_cash_yi": 6.87,
+      "discounted_net_cash_to_market_cap_pct": 13.38,
+      "operating_business_price_yi": 44.46,
+      "discounted_cash_profit_yi": 1.7,
+      "revenue_yi": 20.21,
+      "gross_profit_yi": 7.56,
+      "parent_net_profit_yi": 2.21,
+      "gross_margin_pct": 37.42,
+      "net_margin_pct": 10.91,
+      "forecast_dividend_yield_pct": 1.51,
+      "risk_level": "未分级",
+      "business_summary": "以反渗透/纳滤/超滤膜元件为利润核心，同时经营植物纤维床垫材料和膜分离工程的制造型公司。",
+      "core_judgement": "按输入市值51.33亿元，扣除折后可剥离净现金6.87亿元后，经营业务购买价44.46亿元；以折后可持续现金利润1.70亿元计，经营业务静态回本约26.1年，市值对应现金利润约30.1倍。未计少数股东子公司现金、受限资金和长期权益投资；不是目标价或买卖建议。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/000920.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
