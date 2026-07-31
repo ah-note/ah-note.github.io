@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 01:24:33 +08:00",
+  "built_at": "2026-08-01 01:25:03 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -20100,6 +20100,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/300003.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "601231.SH",
+      "name": "环旭电子",
+      "raw_name": "环旭电子",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 537.51,
+      "pe_ttm": 26.38,
+      "owner_earnback_years": 32.41,
+      "owner_earnback_rate_pct": 3.09,
+      "market_profit_payback_years": 34.68,
+      "market_cash_profit_yield_pct": 2.88,
+      "discounted_detachable_net_cash_yi": 35.09,
+      "discounted_net_cash_to_market_cap_pct": 6.53,
+      "operating_business_price_yi": 502.42,
+      "discounted_cash_profit_yi": 15.5,
+      "revenue_yi": 591.95,
+      "gross_profit_yi": 56.15,
+      "parent_net_profit_yi": 18.53,
+      "gross_margin_pct": 9.49,
+      "net_margin_pct": 3.13,
+      "forecast_dividend_yield_pct": 1.9,
+      "risk_level": "未分级",
+      "business_summary": "为全球品牌客户提供SiP微小化模组及通讯、消费电子、工业、云端存储、汽车和医疗电子产品的设计、采购、制造与测试服务。",
+      "core_judgement": "按537.51亿元市值，现金与资金类投资折价后扣除全部有息及租赁负债，得到折后可剥离净现金35.09亿元；经营业务购买价502.42亿元。以15.50亿元折后可持续可分配现金利润计，经营业务回本约32.4年，市值/现金利润约34.7倍。该数字不是预测或买卖建议，最敏感变量是客户需求、毛利率、营运资金和维持性资本开支。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/601231.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
