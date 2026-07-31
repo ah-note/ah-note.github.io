@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 17:47:07 +08:00",
+  "built_at": "2026-07-31 17:48:56 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -13683,6 +13683,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600163.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "001872.SZ",
+      "name": "招商港口",
+      "raw_name": "招商港口",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 542.35,
+      "pe_ttm": 11.66,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 172.46,
+      "gross_profit_yi": 75.9,
+      "parent_net_profit_yi": 46.11,
+      "gross_margin_pct": 44.01,
+      "net_margin_pct": 26.74,
+      "forecast_dividend_yield_pct": 3.66,
+      "risk_level": "未分级",
+      "business_summary": "通过控股运营和参股投资全球港口，向船公司及货主收取装卸、堆存和物流服务费，并分享联营港口利润。",
+      "core_judgement": "普通控股回本口径不适用。应按底层港口逐项估算剩余经营期内的量价、维护资本开支、债务服务和可上划分红，再按持股比例与少数股东权益归属汇总；联营权益还需考虑治理与分红路径。缺少逐项目剩余经营权、资本开支和上划现金流数据，故不输出普通净现金、现金利润、经营业务价格或回本年。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/001872.SZ/"
     }
   ]
 }
