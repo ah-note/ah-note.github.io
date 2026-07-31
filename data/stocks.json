@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 04:52:21 +08:00",
+  "built_at": "2026-08-01 04:52:51 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -25339,6 +25339,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002534.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "603283.SH",
+      "name": "赛腾股份",
+      "raw_name": "赛腾股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 138.44,
+      "pe_ttm": 27.27,
+      "owner_earnback_years": 41.22,
+      "owner_earnback_rate_pct": 2.43,
+      "market_profit_payback_years": 39.55,
+      "market_cash_profit_yield_pct": 2.53,
+      "discounted_detachable_net_cash_yi": -5.81,
+      "discounted_net_cash_to_market_cap_pct": -4.2,
+      "operating_business_price_yi": 144.25,
+      "discounted_cash_profit_yi": 3.5,
+      "revenue_yi": 33.86,
+      "gross_profit_yi": 15.24,
+      "parent_net_profit_yi": 4.85,
+      "gross_margin_pct": 45.02,
+      "net_margin_pct": 14.33,
+      "forecast_dividend_yield_pct": 1.06,
+      "risk_level": "未分级",
+      "business_summary": "为消费电子和半导体客户定制自动化生产、检测设备及夹治具，收入主要在设备交付并通过客户验收后确认。",
+      "core_judgement": "按控股视角，公司没有可从市值中扣除的净现金，反而有约5.81亿元折后净债务需加回经营业务购买价。将2025年4.85亿元归母利润下调至3.50亿元现金利润，主要反映2025年自由现金流仅0.51亿元、应收及项目存货占用大且2024年经营现金流为负。对应经营业务购买价约144.25亿元，回本约41.2年；这是审慎情景估算，不是目标价。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/603283.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
