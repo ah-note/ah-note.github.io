@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 04:57:05 +08:00",
+  "built_at": "2026-08-01 04:58:16 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -29245,6 +29245,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/688336.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "600531.SH",
+      "name": "豫光金铅",
+      "raw_name": "豫光金铅",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 141.48,
+      "pe_ttm": 15.61,
+      "owner_earnback_years": 235.22,
+      "owner_earnback_rate_pct": 0.43,
+      "market_profit_payback_years": 135.04,
+      "market_cash_profit_yield_pct": 0.74,
+      "discounted_detachable_net_cash_yi": -104.95,
+      "discounted_net_cash_to_market_cap_pct": -74.18,
+      "operating_business_price_yi": 246.43,
+      "discounted_cash_profit_yi": 1.05,
+      "revenue_yi": 495.54,
+      "gross_profit_yi": 25.42,
+      "parent_net_profit_yi": 8.6,
+      "gross_margin_pct": 5.13,
+      "net_margin_pct": 1.74,
+      "forecast_dividend_yield_pct": 1.84,
+      "risk_level": "未分级",
+      "business_summary": "以外购铅铜及贵金属原料和再生资源为主，靠规模冶炼、综合回收金银锌硫酸等副产品及加工效率赚取薄利的多金属冶炼商。",
+      "core_judgement": "按2026-07-31市值141.48亿元，先以现金及现金等价物16.78亿元和折价50%的小额长期投资，扣除融资负债122.22亿元，得到折后可剥离净现金-104.95亿元；经营业务购买价因此为246.43亿元。现金利润采用2025年经营现金流5.10亿元减资本开支4.05亿元后的1.05亿元，不把利润表8.60亿元直接视为可分配现金。对应控股回本约235.2年、市值/现金利润约135.0倍。该数字揭示2025年现金转化与杠杆约束，不是稳定预测：金属价格、库存周期和项目资本...",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/600531.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
