@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 18:49:52 +08:00",
+  "built_at": "2026-07-31 18:51:27 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -11761,6 +11761,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/301048.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "603699.SH",
+      "name": "纽威股份",
+      "raw_name": "纽威股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 347.56,
+      "pe_ttm": 20.65,
+      "owner_earnback_years": 23.85,
+      "owner_earnback_rate_pct": 4.19,
+      "market_profit_payback_years": 24.48,
+      "market_cash_profit_yield_pct": 4.08,
+      "discounted_detachable_net_cash_yi": 9.06,
+      "discounted_net_cash_to_market_cap_pct": 2.61,
+      "operating_business_price_yi": 338.5,
+      "discounted_cash_profit_yi": 14.2,
+      "revenue_yi": 77.68,
+      "gross_profit_yi": 30.51,
+      "parent_net_profit_yi": 16.01,
+      "gross_margin_pct": 39.28,
+      "net_margin_pct": 20.61,
+      "forecast_dividend_yield_pct": 2.3,
+      "risk_level": "未分级",
+      "business_summary": "面向全球能源与流程工业客户，按项目研发制造高端工业阀门及零件，利润核心来自高毛利直销阀门和外销。",
+      "core_judgement": "以输入市值347.56亿元计，资金折价并扣除有息债务后抵减9.06亿元，经营业务购买价338.50亿元。2025年扣非归母利润15.77亿元再作10%持续性折扣，现金利润14.20亿元，回本约23.85年；未计未来增长、衰退、税务和控制权交易成本。单年自由现金流19.89亿元较强，但不直接外推。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/603699.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
