@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 05:15:33 +08:00",
+  "built_at": "2026-08-01 05:16:44 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -26176,6 +26176,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/605117.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "300415.SZ",
+      "name": "伊之密",
+      "raw_name": "伊之密",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 100.37,
+      "pe_ttm": 14.11,
+      "owner_earnback_years": 43.1,
+      "owner_earnback_rate_pct": 2.32,
+      "market_profit_payback_years": 36.5,
+      "market_cash_profit_yield_pct": 2.74,
+      "discounted_detachable_net_cash_yi": -18.14,
+      "discounted_net_cash_to_market_cap_pct": -18.08,
+      "operating_business_price_yi": 118.51,
+      "discounted_cash_profit_yi": 2.75,
+      "revenue_yi": 60.48,
+      "gross_profit_yi": 19.18,
+      "parent_net_profit_yi": 7.09,
+      "gross_margin_pct": 31.71,
+      "net_margin_pct": 11.72,
+      "forecast_dividend_yield_pct": 2.75,
+      "risk_level": "未分级",
+      "business_summary": "伊之密向汽车、3C、家电、包装、医疗等制造客户销售注塑机、压铸机和橡胶注射机，并通过工艺、自动化和全球服务获取设备利润。",
+      "core_judgement": "市值100.37亿元减去折后可剥离净现金负18.14亿元，相当于以118.51亿元购买经营业务。折后可持续现金利润取2.75亿元：以扣非归母利润6.96亿元为起点，但考虑2025年经营现金流仅4.47亿元、维护性资本开支以折旧摊销约1.70亿元为近似，并对营运资金持续占用和扩产执行留出余量。该口径对应经营业务回本约43.1年；它不是盈利预测，而是对当前现金转化能力的保守标准化。2025年实际全部资本开支4.15亿元后自由现金流仅0.32亿元，若扩产不能带来后续现金回收，本口径...",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/300415.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
