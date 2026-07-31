@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 01:25:03 +08:00",
+  "built_at": "2026-08-01 01:26:13 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -18302,6 +18302,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/601567.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "301233.SZ",
+      "name": "盛帮股份",
+      "raw_name": "盛帮股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 21.95,
+      "pe_ttm": 26.96,
+      "owner_earnback_years": 29.48,
+      "owner_earnback_rate_pct": 3.39,
+      "market_profit_payback_years": 33.77,
+      "market_cash_profit_yield_pct": 2.96,
+      "discounted_detachable_net_cash_yi": 2.79,
+      "discounted_net_cash_to_market_cap_pct": 12.7,
+      "operating_business_price_yi": 19.16,
+      "discounted_cash_profit_yi": 0.65,
+      "revenue_yi": 4.41,
+      "gross_profit_yi": 1.65,
+      "parent_net_profit_yi": 0.87,
+      "gross_margin_pct": 37.32,
+      "net_margin_pct": 19.77,
+      "forecast_dividend_yield_pct": 1.4,
+      "risk_level": "未分级",
+      "business_summary": "为汽车、电气和航空客户定制橡胶密封、绝缘及相关高分子制品，以材料配方、认证和批量交付能力赚取制造利润。",
+      "core_judgement": "按2026-07-31市值21.95亿元，折后可剥离净现金2.79亿元后，经营业务购买价约19.16亿元；以6,500万元折后可持续可分配现金利润估算，经营业务回本约29.5年，未扣现金的市值/现金利润约33.8倍。该结果对募集资金用途、理财可变现性及维持性资本开支假设敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/301233.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
