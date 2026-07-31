@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 21:34:12 +08:00",
+  "built_at": "2026-07-31 21:34:42 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -11854,6 +11854,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/301330.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "603218.SH",
+      "name": "日月股份",
+      "raw_name": "日月股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 104.22,
+      "pe_ttm": 20.14,
+      "owner_earnback_years": 22.49,
+      "owner_earnback_rate_pct": 4.45,
+      "market_profit_payback_years": 29.78,
+      "market_cash_profit_yield_pct": 3.36,
+      "discounted_detachable_net_cash_yi": 25.5,
+      "discounted_net_cash_to_market_cap_pct": 24.47,
+      "operating_business_price_yi": 78.72,
+      "discounted_cash_profit_yi": 3.5,
+      "revenue_yi": 62.56,
+      "gross_profit_yi": 10.59,
+      "parent_net_profit_yi": 5.53,
+      "gross_margin_pct": 16.93,
+      "net_margin_pct": 8.85,
+      "forecast_dividend_yield_pct": 3.76,
+      "risk_level": "未分级",
+      "business_summary": "公司以直销方式向风电等重工装备客户销售大型球墨铸铁件，利润来自规模化铸造与精加工的成本、良率和产能利用效率。",
+      "core_judgement": "按104.22亿元市值，扣除折后可剥离净现金25.50亿元后，经营业务购买价约78.72亿元；以3.50亿元审慎可持续现金利润计，经营业务回本约22.49年，未扣现金的市值/现金利润约29.78倍。该结果对维持性资本开支和营运现金保留额敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/603218.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
