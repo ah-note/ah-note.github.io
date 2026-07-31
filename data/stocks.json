@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 15:23:19 +08:00",
+  "built_at": "2026-07-31 15:24:48 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -5654,6 +5654,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600096.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "002412.SZ",
+      "name": "汉森制药",
+      "raw_name": "汉森制药",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 34.07,
+      "pe_ttm": 15.12,
+      "owner_earnback_years": 17.29,
+      "owner_earnback_rate_pct": 5.78,
+      "market_profit_payback_years": 19.94,
+      "market_cash_profit_yield_pct": 5.02,
+      "discounted_detachable_net_cash_yi": 4.53,
+      "discounted_net_cash_to_market_cap_pct": 13.28,
+      "operating_business_price_yi": 29.54,
+      "discounted_cash_profit_yi": 1.71,
+      "revenue_yi": 10.39,
+      "gross_profit_yi": 8.04,
+      "parent_net_profit_yi": 1.98,
+      "gross_margin_pct": 77.36,
+      "net_margin_pct": 19.07,
+      "forecast_dividend_yield_pct": 4.43,
+      "risk_level": "未分级",
+      "business_summary": "以独家中成药四磨汤口服液和天麻醒脑胶囊为核心，通过医药流通渠道、终端推广和电商销售药品，并持有较大的银行及房地产联营权益。",
+      "core_judgement": "按2026-07-31市值34.07亿元，折后可剥离净现金4.53亿元后，经营业务购买价约29.54亿元。以2025年扣非归母净利润1.899亿元为基准，并因核心产品集中、销售推广依赖及单年现金流改善可能不可完全持续再打九折，折后现金利润约1.709亿元，对应经营业务回本约17.29年；不扣现金的市值/现金利润约19.94倍。该口径未给8.36亿元联营投资任何变现价值，偏保守，但也不代表这些投资没有价值。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/002412.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
