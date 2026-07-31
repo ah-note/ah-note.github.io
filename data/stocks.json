@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 23:46:30 +08:00",
+  "built_at": "2026-07-31 23:48:21 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -10428,6 +10428,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/300595.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "603995.SH",
+      "name": "甬金股份",
+      "raw_name": "甬金股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 73.74,
+      "pe_ttm": 12.93,
+      "owner_earnback_years": 20.81,
+      "owner_earnback_rate_pct": 4.8,
+      "market_profit_payback_years": 14.75,
+      "market_cash_profit_yield_pct": 6.78,
+      "discounted_detachable_net_cash_yi": -30.33,
+      "discounted_net_cash_to_market_cap_pct": -41.13,
+      "operating_business_price_yi": 104.07,
+      "discounted_cash_profit_yi": 5.0,
+      "revenue_yi": 426.46,
+      "gross_profit_yi": 20.82,
+      "parent_net_profit_yi": 5.49,
+      "gross_margin_pct": 4.88,
+      "net_margin_pct": 1.29,
+      "forecast_dividend_yield_pct": 2.47,
+      "risk_level": "未分级",
+      "business_summary": "甬金股份采购热轧不锈钢卷，通过规模化冷轧加工赚取薄加工价差，并向钛材、复合材料和海外产能延伸。",
+      "core_judgement": "按现金及现金等价物12.21亿元全额计入、全部有息负债42.54亿元全额扣除，折后可剥离净现金为负30.33亿元，实际是净债务。2025年经营现金流11.78亿元，扣全部资本开支后自由现金流3.06亿元；考虑当年扩产项目较多，以折旧约5.97亿元代理维持性资本开支，并按归母权益比例折算后得到约4.93亿元，取整折后可持续可分配现金利润5.00亿元。由此经营业务购买价104.07亿元，回本约20.81年；若按全部资本开支，回本会更长。该结果是情景口径而非确定预测。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/603995.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
