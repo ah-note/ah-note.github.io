@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 21:25:44 +08:00",
+  "built_at": "2026-07-31 21:26:13 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -14613,6 +14613,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603707.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "000968.SZ",
+      "name": "蓝焰控股",
+      "raw_name": "蓝焰控股",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 67.24,
+      "pe_ttm": 22.57,
+      "owner_earnback_years": 26.03,
+      "owner_earnback_rate_pct": 3.84,
+      "market_profit_payback_years": 19.21,
+      "market_cash_profit_yield_pct": 5.21,
+      "discounted_detachable_net_cash_yi": -23.87,
+      "discounted_net_cash_to_market_cap_pct": -35.5,
+      "operating_business_price_yi": 91.11,
+      "discounted_cash_profit_yi": 3.5,
+      "revenue_yi": 21.1,
+      "gross_profit_yi": 6.63,
+      "parent_net_profit_yi": 3.35,
+      "gross_margin_pct": 31.41,
+      "net_margin_pct": 15.87,
+      "forecast_dividend_yield_pct": 0.72,
+      "risk_level": "未分级",
+      "business_summary": "在山西煤层气资源区块打井抽采并通过管网、CNG/LNG直销天然气，同时提供煤矿瓦斯治理和气井工程服务。",
+      "core_judgement": "按控股视角，现金及现金等价物10.305亿元全额计入可用资金，并全额扣除34.176亿元融资性负债，得到负23.871亿元折后可剥离净现金，意味着不是净现金公司。2025年经营自由现金流4.520亿元，但其中清洁能源专项资金影响重大、且资源开发需持续资本开支，因此折价取3.50亿元作为可持续可分配现金利润。对应经营业务购买价91.111亿元，回本约26.0年；这是情景估算，不是确定性收益。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/000968.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
