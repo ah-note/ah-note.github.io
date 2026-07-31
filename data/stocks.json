@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 15:32:39 +08:00",
+  "built_at": "2026-07-31 15:34:48 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -7638,6 +7638,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600526.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "301386.SZ",
+      "name": "未来电器",
+      "raw_name": "未来电器",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 26.7,
+      "pe_ttm": 29.09,
+      "owner_earnback_years": 23.35,
+      "owner_earnback_rate_pct": 4.28,
+      "market_profit_payback_years": 38.38,
+      "market_cash_profit_yield_pct": 2.61,
+      "discounted_detachable_net_cash_yi": 10.45,
+      "discounted_net_cash_to_market_cap_pct": 39.16,
+      "operating_business_price_yi": 16.25,
+      "discounted_cash_profit_yi": 0.7,
+      "revenue_yi": 5.45,
+      "gross_profit_yi": 1.53,
+      "parent_net_profit_yi": 0.97,
+      "gross_margin_pct": 27.99,
+      "net_margin_pct": 17.7,
+      "forecast_dividend_yield_pct": 2.62,
+      "risk_level": "未分级",
+      "business_summary": "公司向低压断路器主机厂及部分终端客户销售框架/塑壳断路器附件和智能终端电器，利润来自功能扩展、客户配套关系与智能化产品。",
+      "core_judgement": "按26.70亿元市值计，折后可剥离净现金约10.45亿元，占市值39.16%；剩余经营业务购买价约16.25亿元。以扣非归母净利润7729.68万元为起点再折九成，折后现金利润6965.71万元，经营业务回本约23.35年，整家公司市值/现金利润约38.38年。最敏感假设是现金可剥离比例、客户集中和智能终端增长持续性。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/301386.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
