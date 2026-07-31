@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 23:44:11 +08:00",
+  "built_at": "2026-07-31 23:46:01 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -18209,6 +18209,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603128.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "301020.SZ",
+      "name": "密封科技",
+      "raw_name": "密封科技",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 26.88,
+      "pe_ttm": 29.31,
+      "owner_earnback_years": 30.4,
+      "owner_earnback_rate_pct": 3.29,
+      "market_profit_payback_years": 37.25,
+      "market_cash_profit_yield_pct": 2.68,
+      "discounted_detachable_net_cash_yi": 4.94,
+      "discounted_net_cash_to_market_cap_pct": 18.38,
+      "operating_business_price_yi": 21.94,
+      "discounted_cash_profit_yi": 0.72,
+      "revenue_yi": 5.62,
+      "gross_profit_yi": 1.74,
+      "parent_net_profit_yi": 0.89,
+      "gross_margin_pct": 30.97,
+      "net_margin_pct": 15.76,
+      "forecast_dividend_yield_pct": 0.98,
+      "risk_level": "未分级",
+      "business_summary": "公司以同步研发和认证配套切入柴油机及商用车主机厂，靠密封垫片、隔热罩及密封材料的规模制造与质量保证赚取产品毛利。",
+      "core_judgement": "按输入市值26.88亿元，先保留1亿元随时可用现金作为营运缓冲，再将其余活期现金与定期存款按90%、结构性存款按85%折价，并全额扣除产品质量保证预计负债，得到折后可剥离净现金4.94亿元。以2025年经营现金流扣除估计维护资本开支2,000万元后再打九折，得到折后可持续现金利润7,216.78万元；经营业务购买价21.94亿元，对应约30.4年回本，未扣现金的市值/现金利润约37.25倍。维护资本开支与周期折扣属于估计，若未来扩产投入长期高于折旧或主机客户需求走弱，实际回本...",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/301020.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
