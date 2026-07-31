@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 21:59:09 +08:00",
+  "built_at": "2026-07-31 22:00:38 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -17558,6 +17558,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603726.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "002683.SZ",
+      "name": "广东宏大",
+      "raw_name": "广东宏大",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 211.55,
+      "pe_ttm": 21.87,
+      "owner_earnback_years": 31.29,
+      "owner_earnback_rate_pct": 3.2,
+      "market_profit_payback_years": 24.89,
+      "market_cash_profit_yield_pct": 4.02,
+      "discounted_detachable_net_cash_yi": -54.44,
+      "discounted_net_cash_to_market_cap_pct": -25.74,
+      "operating_business_price_yi": 265.99,
+      "discounted_cash_profit_yi": 8.5,
+      "revenue_yi": 203.69,
+      "gross_profit_yi": 42.53,
+      "parent_net_profit_yi": 9.57,
+      "gross_margin_pct": 20.88,
+      "net_margin_pct": 4.7,
+      "forecast_dividend_yield_pct": 1.6,
+      "risk_level": "未分级",
+      "business_summary": "以矿山工程总包为收入主体，向上游延伸民爆器材，并叠加防务装备和雪峰科技带来的能化业务的综合产业集团。",
+      "core_judgement": "按可随时支付现金100%、交易性金融资产90%，再全额扣除短期借款、一年内到期负债、长期借款及租赁负债，折后可剥离净现金为-54.44亿元，即经营业务购买价高于市值。以2025年归母净利润9.57亿元为锚，考虑并购首年、矿服回款波动、少数股东归属和资本开支后，将可持续可分配现金利润审慎取8.50亿元；对应经营业务回本约31.29年，市值/现金利润约24.89倍。该结果是口径测算，不是确定预测。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/002683.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
