@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 17:33:56 +08:00",
+  "built_at": "2026-07-31 17:35:05 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -9157,6 +9157,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002315.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "003025.SZ",
+      "name": "思进智能",
+      "raw_name": "思进智能",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 33.34,
+      "pe_ttm": 21.74,
+      "owner_earnback_years": 20.98,
+      "owner_earnback_rate_pct": 4.77,
+      "market_profit_payback_years": 23.04,
+      "market_cash_profit_yield_pct": 4.34,
+      "discounted_detachable_net_cash_yi": 2.98,
+      "discounted_net_cash_to_market_cap_pct": 8.95,
+      "operating_business_price_yi": 30.36,
+      "discounted_cash_profit_yi": 1.45,
+      "revenue_yi": 7.34,
+      "gross_profit_yi": 2.8,
+      "parent_net_profit_yi": 1.55,
+      "gross_margin_pct": 38.14,
+      "net_margin_pct": 21.06,
+      "forecast_dividend_yield_pct": 1.7,
+      "risk_level": "未分级",
+      "business_summary": "公司直销多工位智能冷成形装备，帮助紧固件及汽车等零部件厂商以少切削方式批量成形金属零件，利润主要来自冷成形设备整机。",
+      "core_judgement": "以2026-07-31市值33.34亿元计，先从年末资金中扣除受限保证金、1亿元必要营运现金和已披露的5653.07万元现金分红，再对结构性存款按95%计入，得到折后可剥离净现金2.9839亿元；经营业务购买价30.3561亿元。可持续现金利润以2025归母净利为锚，剔除随可剥离资金一起拿走的税后利息及理财收益，约1.4468亿元，对应普通控股回本约20.98年。该数字是静态经营资产回本测算，不是收益承诺。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/003025.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
