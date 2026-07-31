@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 15:42:09 +08:00",
+  "built_at": "2026-07-31 15:42:38 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -8196,6 +8196,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603444.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "002056.SZ",
+      "name": "横店东磁",
+      "raw_name": "横店东磁",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 344.21,
+      "pe_ttm": 19.35,
+      "owner_earnback_years": 25.47,
+      "owner_earnback_rate_pct": 3.93,
+      "market_profit_payback_years": 23.66,
+      "market_cash_profit_yield_pct": 4.23,
+      "discounted_detachable_net_cash_yi": -26.34,
+      "discounted_net_cash_to_market_cap_pct": -7.65,
+      "operating_business_price_yi": 370.55,
+      "discounted_cash_profit_yi": 14.55,
+      "revenue_yi": 225.86,
+      "gross_profit_yi": 40.24,
+      "parent_net_profit_yi": 18.51,
+      "gross_margin_pct": 17.82,
+      "net_margin_pct": 8.2,
+      "forecast_dividend_yield_pct": 2.79,
+      "risk_level": "未分级",
+      "business_summary": "公司以光伏电池组件为收入主体，以磁性材料及器件贡献更高毛利，并经营小动力圆柱锂电池，依靠制造规模、供应链和差异化产品向海内外客户销售。",
+      "core_judgement": "按2026-07-31市值344.21亿元，现金等价物低于25%经营现金流出形成的必要现金基准，其他货币资金又多为非现金等价物，因此可剥离现金按0计；扣除有息融资及租赁负债后，折后可剥离净现金为-26.34亿元。以2025年经营自由现金流18.29亿元为起点，剔除营运资本净释放2.13亿元后再打九折，折后可持续现金利润14.55亿元。经营业务购买价370.55亿元，对应回本约25.47年；该结果高度依赖光伏周期、维持资本开支和营运资本假设。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/002056.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
