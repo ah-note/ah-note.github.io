@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 20:57:46 +08:00",
+  "built_at": "2026-07-31 20:58:36 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -11482,6 +11482,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002949.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "603658.SH",
+      "name": "安图生物",
+      "raw_name": "安图生物",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 192.11,
+      "pe_ttm": 18.57,
+      "owner_earnback_years": 22.4,
+      "owner_earnback_rate_pct": 4.46,
+      "market_profit_payback_years": 27.44,
+      "market_cash_profit_yield_pct": 3.64,
+      "discounted_detachable_net_cash_yi": 35.33,
+      "discounted_net_cash_to_market_cap_pct": 18.39,
+      "operating_business_price_yi": 156.78,
+      "discounted_cash_profit_yi": 7.0,
+      "revenue_yi": 42.26,
+      "gross_profit_yi": 27.74,
+      "parent_net_profit_yi": 10.68,
+      "gross_margin_pct": 65.64,
+      "net_margin_pct": 25.27,
+      "forecast_dividend_yield_pct": 3.9,
+      "risk_level": "未分级",
+      "business_summary": "安图生物向医院和医学实验室提供体外诊断试剂、仪器与实验室自动化方案，核心经济性是先铺设/销售设备和渠道，再持续销售高毛利试剂与服务。",
+      "core_judgement": "按2026年7月31日市值192.11亿元，折后可剥离净现金35.33亿元，经营业务购买价约156.78亿元。以7.00亿元折后可持续可分配现金利润计，经营业务回本约22.4年；若不扣净现金，市值/现金利润约27.4倍。该口径低于2025年经营自由现金流7.37亿元，已为收入、利润下降及研发资本化留出折扣，但仍依赖理财确属低风险可回收、资本开支回落以及集采后利润不继续下滑。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/603658.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
