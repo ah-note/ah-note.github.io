@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 19:04:49 +08:00",
+  "built_at": "2026-07-31 19:05:17 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -13466,6 +13466,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002454.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "300457.SZ",
+      "name": "赢合科技",
+      "raw_name": "赢合科技",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 132.84,
+      "pe_ttm": 22.71,
+      "owner_earnback_years": 27.59,
+      "owner_earnback_rate_pct": 3.62,
+      "market_profit_payback_years": 28.88,
+      "market_cash_profit_yield_pct": 3.46,
+      "discounted_detachable_net_cash_yi": 5.91,
+      "discounted_net_cash_to_market_cap_pct": 4.45,
+      "operating_business_price_yi": 126.93,
+      "discounted_cash_profit_yi": 4.6,
+      "revenue_yi": 94.45,
+      "gross_profit_yi": 23.02,
+      "parent_net_profit_yi": 5.38,
+      "gross_margin_pct": 24.37,
+      "net_margin_pct": 5.7,
+      "forecast_dividend_yield_pct": 0.41,
+      "risk_level": "未分级",
+      "business_summary": "公司直销锂电池前中段自动化设备，并通过控股子公司斯科尔向海外销售自有品牌电子烟；2025年锂电设备贡献约75%的分部收入，电子烟却贡献约72%的分部营业利润。",
+      "core_judgement": "以132.84亿元市值减去5.91亿元折后可剥离净现金，经营业务购买价约126.93亿元；以4.60亿元折后可持续、归母口径现金利润估算，经营业务回本约27.6年，未扣现金的市值/现金利润约28.9倍。这里的主要不确定性不是公式，而是设备项目营运资金能否随验收释放、电子烟少数股东利润归属，以及2025年毛利率下滑后的利润基准能否持续。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/300457.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
