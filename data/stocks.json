@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 17:40:22 +08:00",
+  "built_at": "2026-07-31 17:41:51 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -10986,6 +10986,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603339.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "600268.SH",
+      "name": "国电南自",
+      "raw_name": "国电南自",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 113.85,
+      "pe_ttm": 23.12,
+      "owner_earnback_years": 25.29,
+      "owner_earnback_rate_pct": 3.95,
+      "market_profit_payback_years": 27.94,
+      "market_cash_profit_yield_pct": 3.58,
+      "discounted_detachable_net_cash_yi": 10.81,
+      "discounted_net_cash_to_market_cap_pct": 9.5,
+      "operating_business_price_yi": 103.04,
+      "discounted_cash_profit_yi": 4.07,
+      "revenue_yi": 96.44,
+      "gross_profit_yi": 25.36,
+      "parent_net_profit_yi": 4.8,
+      "gross_margin_pct": 26.29,
+      "net_margin_pct": 4.98,
+      "forecast_dividend_yield_pct": 1.78,
+      "risk_level": "未分级",
+      "business_summary": "为电网、发电企业、轨道交通及工业客户提供继电保护、自动化控制、数字能源与系统集成方案，收入主要靠设备和技术项目的直销交付。",
+      "core_judgement": "以2026-07-31市值113.85亿元计，先将年末现金及现金等价物28.999亿元按50%计入，再全额扣除3.689亿元有息债务及租赁负债，得到折后可剥离净现金10.811亿元；经营业务购买价约103.04亿元。以2025年扣非归母净利润4.527亿元为基准，再因高应收、客户集中及项目估计给予10%持续性折扣，折后现金利润4.074亿元，对应经营业务回本约25.29年、市值/现金利润约27.94倍。这是保守假设下的可排序估算，不代表现金可立即分配，也不是收益承诺。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/600268.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
