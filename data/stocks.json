@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 04:55:54 +08:00",
+  "built_at": "2026-08-01 04:57:05 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -24905,6 +24905,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603227.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "003033.SZ",
+      "name": "征和工业",
+      "raw_name": "征和工业",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 45.39,
+      "pe_ttm": 29.43,
+      "owner_earnback_years": 39.19,
+      "owner_earnback_rate_pct": 2.55,
+      "market_profit_payback_years": 37.41,
+      "market_cash_profit_yield_pct": 2.67,
+      "discounted_detachable_net_cash_yi": -2.16,
+      "discounted_net_cash_to_market_cap_pct": -4.76,
+      "operating_business_price_yi": 47.55,
+      "discounted_cash_profit_yi": 1.21,
+      "revenue_yi": 19.32,
+      "gross_profit_yi": 4.42,
+      "parent_net_profit_yi": 1.75,
+      "gross_margin_pct": 22.87,
+      "net_margin_pct": 9.06,
+      "forecast_dividend_yield_pct": 0.9,
+      "risk_level": "未分级",
+      "business_summary": "征和工业以钢材为主要原料，自制核心工序并通过主机厂配套、OEM和售后经销销售车辆、农机及工业设备链系统。",
+      "core_judgement": "以2026年7月31日市值45.39亿元计，80%折后货币资金减全部融资及租赁负债后为负2.16亿元，经营业务购买价升至47.55亿元。可持续可分配现金利润以2025年扣非归母净利润1.4273亿元为锚并折价15%至1.2132亿元，对应经营业务回本约39.2年、市值/现金利润约37.4倍。该口径已排除主要非经常损益并为扩产期资本需求留出余量，但并不预测增长，也不代表买卖建议。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/003033.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
