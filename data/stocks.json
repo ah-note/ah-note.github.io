@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 20:58:36 +08:00",
+  "built_at": "2026-07-31 20:59:05 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -13094,6 +13094,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/301598.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "603059.SH",
+      "name": "倍加洁",
+      "raw_name": "倍加洁",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 24.15,
+      "pe_ttm": 19.8,
+      "owner_earnback_years": 24.15,
+      "owner_earnback_rate_pct": 4.14,
+      "market_profit_payback_years": 24.15,
+      "market_cash_profit_yield_pct": 4.14,
+      "discounted_detachable_net_cash_yi": 0.0,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": 24.15,
+      "discounted_cash_profit_yi": 1.0,
+      "revenue_yi": 15.35,
+      "gross_profit_yi": 3.95,
+      "parent_net_profit_yi": 1.15,
+      "gross_margin_pct": 25.75,
+      "net_margin_pct": 7.48,
+      "forecast_dividend_yield_pct": 1.46,
+      "risk_level": "未分级",
+      "business_summary": "以ODM/OEM制造为底盘，向国内外客户销售牙刷、牙膏、湿巾等个人护理产品，并通过善恩康拓展益生菌原料和终端产品。",
+      "core_judgement": "折后资金资产约1.406亿元，但有息借款约5.351亿元，并另有1.587亿元承诺收购少数股权义务，折后净额为负，因此可剥离净现金按0计而不以负数抬高经营业务购买价。以2025年经营自由现金流1.232亿元为起点，考虑营运资本波动、未来资本开支和单年恢复性，折后可持续可分配现金利润取1.00亿元。按24.15亿元市值，经营业务购买价仍为24.15亿元，静态回本约24.15年。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/603059.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
