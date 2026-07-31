@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 21:47:51 +08:00",
+  "built_at": "2026-07-31 21:49:41 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -17713,6 +17713,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603648.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "603606.SH",
+      "name": "东方电缆",
+      "raw_name": "东方电缆",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 334.79,
+      "pe_ttm": 24.58,
+      "owner_earnback_years": 32.39,
+      "owner_earnback_rate_pct": 3.09,
+      "market_profit_payback_years": 33.48,
+      "market_cash_profit_yield_pct": 2.99,
+      "discounted_detachable_net_cash_yi": 10.85,
+      "discounted_net_cash_to_market_cap_pct": 3.24,
+      "operating_business_price_yi": 323.94,
+      "discounted_cash_profit_yi": 10.0,
+      "revenue_yi": 108.43,
+      "gross_profit_yi": 23.97,
+      "parent_net_profit_yi": 12.71,
+      "gross_margin_pct": 22.11,
+      "net_margin_pct": 11.73,
+      "forecast_dividend_yield_pct": 1.15,
+      "risk_level": "未分级",
+      "business_summary": "向电网、海上风电和海洋能源客户直销海陆高压电缆，并以设计、制造、敷设和运维一体化能力赚取高端海缆及工程利润。",
+      "core_judgement": "账面可随时支付现金扣除全部有息及租赁债务后净现金约21.69亿元；考虑存货与订单规模陡增、合同负债对应履约义务以及南北基地建设需求，仅按50%计为折后可剥离净现金。可持续可分配现金利润以近三年归母净利润均值10.93亿元为锚，结合2025年扣非净利12.54亿元和经营自由现金流11.74亿元，保守取10亿元。按输入市值，扣除折后净现金后的经营业务价格约323.94亿元，对应约32.39年；这是静态控股回本测算，不是收益承诺或买卖判断。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/603606.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
