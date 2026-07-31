@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 23:50:30 +08:00",
+  "built_at": "2026-07-31 23:51:41 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -19170,6 +19170,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/605277.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "300012.SZ",
+      "name": "华测检测",
+      "raw_name": "华测检测",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 242.16,
+      "pe_ttm": 22.88,
+      "owner_earnback_years": 32.48,
+      "owner_earnback_rate_pct": 3.08,
+      "market_profit_payback_years": 33.96,
+      "market_cash_profit_yield_pct": 2.94,
+      "discounted_detachable_net_cash_yi": 10.51,
+      "discounted_net_cash_to_market_cap_pct": 4.34,
+      "operating_business_price_yi": 231.65,
+      "discounted_cash_profit_yi": 7.13,
+      "revenue_yi": 66.21,
+      "gross_profit_yi": 32.19,
+      "parent_net_profit_yi": 10.16,
+      "gross_margin_pct": 48.62,
+      "net_margin_pct": 15.35,
+      "forecast_dividend_yield_pct": 1.04,
+      "risk_level": "未分级",
+      "business_summary": "以自建和并购形成的全球实验室与资质网络，为企业和政府客户提供检测、检验、认证、计量及技术服务并按项目收费。",
+      "core_judgement": "按2026-07-31输入市值242.16亿元，货币资金按80%、交易性金融资产按90%折价，并全额扣除短期及长期借款，得到折后可剥离净现金10.51亿元；经营业务购买价231.65亿元。以2025年经营现金流减购建长期资产现金支出的7.13亿元作为保守的可持续可分配现金利润代理，经营业务回本约32.5年，市值/现金利润约34.0倍。该口径未把应收账款、实验室设备、联营投资或商誉当现金，也未假定增长性资本开支可以立即停掉。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/300012.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
