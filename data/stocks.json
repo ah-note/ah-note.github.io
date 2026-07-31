@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 02:09:54 +08:00",
+  "built_at": "2026-08-01 02:11:05 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -25029,6 +25029,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/300532.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "002998.SZ",
+      "name": "优彩资源",
+      "raw_name": "优彩资源",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 26.15,
+      "pe_ttm": 27.78,
+      "owner_earnback_years": 67.57,
+      "owner_earnback_rate_pct": 1.48,
+      "market_profit_payback_years": 69.93,
+      "market_cash_profit_yield_pct": 1.43,
+      "discounted_detachable_net_cash_yi": 0.88,
+      "discounted_net_cash_to_market_cap_pct": 3.38,
+      "operating_business_price_yi": 25.27,
+      "discounted_cash_profit_yi": 0.37,
+      "revenue_yi": 27.18,
+      "gross_profit_yi": 2.13,
+      "parent_net_profit_yi": 0.52,
+      "gross_margin_pct": 7.84,
+      "net_margin_pct": 1.92,
+      "forecast_dividend_yield_pct": 2.29,
+      "risk_level": "未分级",
+      "business_summary": "以PTA、乙二醇和回收PET为原料，直营销售低熔点及再生有色涤纶短纤维的资产密集型化纤制造商。",
+      "core_judgement": "以货币资金100%、交易性金融资产90%折价，扣除可转债账面余额后，折后可剥离净现金仅0.884亿元；以扣非归母净利润4674万元作为维持性资本开支大体抵消折旧后的现金利润基准，再打八折得3739万元。对应经营业务购买价25.27亿元、回本约67.6年。2025年账面自由现金流2.10亿元主要受存货下降1.65亿元拉动，不宜直接年化。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/002998.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
