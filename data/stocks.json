@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 23:10:56 +08:00",
+  "built_at": "2026-07-31 23:14:08 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -19294,6 +19294,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/300354.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "000989.SZ",
+      "name": "九芝堂",
+      "raw_name": "九芝堂",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 76.78,
+      "pe_ttm": 28.33,
+      "owner_earnback_years": 34.74,
+      "owner_earnback_rate_pct": 2.88,
+      "market_profit_payback_years": 38.39,
+      "market_cash_profit_yield_pct": 2.6,
+      "discounted_detachable_net_cash_yi": 7.31,
+      "discounted_net_cash_to_market_cap_pct": 9.52,
+      "operating_business_price_yi": 69.47,
+      "discounted_cash_profit_yi": 2.0,
+      "revenue_yi": 22.29,
+      "gross_profit_yi": 13.36,
+      "parent_net_profit_yi": 2.23,
+      "gross_margin_pct": 59.93,
+      "net_margin_pct": 9.99,
+      "forecast_dividend_yield_pct": 3.31,
+      "risk_level": "未分级",
+      "business_summary": "以九芝堂老字号品牌和友搏药业疏血通等产品，通过自营与代理渠道销售OTC、处方中成药，并向多肽原料药与制剂延伸。",
+      "core_judgement": "以76.78亿元市值减去7.31亿元折后可剥离净现金，经营业务购买价约69.47亿元；用2.00亿元折后可持续可分配现金利润回本约34.74年。该口径已保守处理理财、收入下滑、少数股东分享和单年营运资金释放，不等于未来利润承诺。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/000989.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
