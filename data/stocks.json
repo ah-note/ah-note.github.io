@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 15:17:18 +08:00",
+  "built_at": "2026-07-31 15:17:47 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -6491,6 +6491,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603508.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "603036.SH",
+      "name": "如通股份",
+      "raw_name": "如通股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 24.21,
+      "pe_ttm": 24.28,
+      "owner_earnback_years": 19.61,
+      "owner_earnback_rate_pct": 5.1,
+      "market_profit_payback_years": 28.73,
+      "market_cash_profit_yield_pct": 3.48,
+      "discounted_detachable_net_cash_yi": 7.69,
+      "discounted_net_cash_to_market_cap_pct": 31.76,
+      "operating_business_price_yi": 16.52,
+      "discounted_cash_profit_yi": 0.84,
+      "revenue_yi": 4.37,
+      "gross_profit_yi": 1.99,
+      "parent_net_profit_yi": 1.05,
+      "gross_margin_pct": 45.62,
+      "net_margin_pct": 24.06,
+      "forecast_dividend_yield_pct": 1.87,
+      "risk_level": "未分级",
+      "business_summary": "向国内外油服、油气田和装备厂商直销钻修井用提升、卡持、旋扣设备，并以自动化装备和轨交制动盘拓展增量。",
+      "core_judgement": "货币资金九折、交易性金融资产八折并扣除短期借款，折后净现金约7.69亿元；经营业务购买价约16.52亿元。扣非归母净利再打九折得到现金利润约8427万元，对应经营业务回本19.61年、市值/现金利润28.73倍。2025年高自由现金流含回款和营运资金释放，未直接年化；现金可剥离程度仍是分析估算。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/603036.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
