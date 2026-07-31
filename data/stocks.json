@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 05:27:50 +08:00",
+  "built_at": "2026-08-01 05:28:40 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -28997,6 +28997,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603613.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "605333.SH",
+      "name": "沪光股份",
+      "raw_name": "沪光股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 80.74,
+      "pe_ttm": 19.3,
+      "owner_earnback_years": 76.87,
+      "owner_earnback_rate_pct": 1.3,
+      "market_profit_payback_years": 67.42,
+      "market_cash_profit_yield_pct": 1.48,
+      "discounted_detachable_net_cash_yi": -11.31,
+      "discounted_net_cash_to_market_cap_pct": -14.01,
+      "operating_business_price_yi": 92.05,
+      "discounted_cash_profit_yi": 1.2,
+      "revenue_yi": 84.9,
+      "gross_profit_yi": 12.18,
+      "parent_net_profit_yi": 4.81,
+      "gross_margin_pct": 14.35,
+      "net_margin_pct": 5.67,
+      "forecast_dividend_yield_pct": 1.15,
+      "risk_level": "未分级",
+      "business_summary": "沪光股份为整车厂同步开发并直销汽车高低压成套线束及连接器，靠项目定点、量产爬坡和规模制造获得收入，但客户集中、人工与铜材成本及营运资本占用决定利润含金量。",
+      "core_judgement": "受限货币资金不作为可剥离现金；可动用现金、理财、大额存单和长期股权投资折后约8.18亿元，低于含租赁负债在内的有息债务约19.49亿元，折后净现金为负11.31亿元。可持续现金利润以2024-2025两年平均经营现金流扣2025年折旧近似维护资本开支，再打八折，约1.20亿元；经营业务购买价约92.05亿元，回本约76.9年。该口径高度依赖营运资本回收和维护资本开支估计。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/605333.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
