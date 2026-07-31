@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 16:44:06 +08:00",
+  "built_at": "2026-07-31 16:45:35 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -7142,6 +7142,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/601728.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "600993.SH",
+      "name": "马应龙",
+      "raw_name": "马应龙",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 107.03,
+      "pe_ttm": 18.13,
+      "owner_earnback_years": 18.76,
+      "owner_earnback_rate_pct": 5.33,
+      "market_profit_payback_years": 24.72,
+      "market_cash_profit_yield_pct": 4.05,
+      "discounted_detachable_net_cash_yi": 25.81,
+      "discounted_net_cash_to_market_cap_pct": 24.11,
+      "operating_business_price_yi": 81.22,
+      "discounted_cash_profit_yi": 4.33,
+      "revenue_yi": 38.67,
+      "gross_profit_yi": 19.02,
+      "parent_net_profit_yi": 5.81,
+      "gross_margin_pct": 49.19,
+      "net_margin_pct": 15.04,
+      "forecast_dividend_yield_pct": 2.82,
+      "risk_level": "未分级",
+      "business_summary": "马应龙以治痔中成药和老字号品牌赚取高毛利工业利润，并以医药商业、肛肠医疗服务及眼部/皮肤大健康业务延伸渠道和用户场景。",
+      "core_judgement": "以107.03亿元市值扣除25.81亿元折后可剥离净现金，经营业务购买价约81.22亿元；以2025年经营自由现金流4.81亿元再打九折得到4.33亿元可持续现金利润，经营业务静态回本约18.76年，未扣现金的市值/现金利润为24.72倍。该结果依赖2025年现金转化可持续且现金确能由股东支配，不是预测承诺。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/600993.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
