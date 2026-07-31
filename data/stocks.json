@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 20:10:52 +08:00",
+  "built_at": "2026-07-31 20:13:02 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -14427,6 +14427,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/300760.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "688517.SH",
+      "name": "金冠电气",
+      "raw_name": "金冠电气",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 20.21,
+      "pe_ttm": 26.57,
+      "owner_earnback_years": 27.18,
+      "owner_earnback_rate_pct": 3.68,
+      "market_profit_payback_years": 31.91,
+      "market_cash_profit_yield_pct": 3.13,
+      "discounted_detachable_net_cash_yi": 2.99,
+      "discounted_net_cash_to_market_cap_pct": 14.8,
+      "operating_business_price_yi": 17.22,
+      "discounted_cash_profit_yi": 0.63,
+      "revenue_yi": 7.3,
+      "gross_profit_yi": 2.07,
+      "parent_net_profit_yi": 0.81,
+      "gross_margin_pct": 28.39,
+      "net_margin_pct": 11.07,
+      "forecast_dividend_yield_pct": 3.26,
+      "risk_level": "未分级",
+      "business_summary": "公司以直销和招投标方式向电网、铁路、发电及工矿客户销售避雷器和配网设备，避雷器是收入与毛利的核心。",
+      "core_judgement": "以20.21亿元市值减去2.990亿元折后可剥离净现金，经营业务购买价约17.220亿元；以2025年经营自由现金流7038.17万元再打九折为可持续可分配现金利润6334.36万元，对应经营业务回本约27.18年，未扣净现金的市值/现金利润约31.91倍。该口径没有给应收款、存货或固定资产残值，且把2025年偏高资本开支全部扣除，偏保守；但单年自由现金流也存在营运资金和资本开支波动，不能视为确定年金。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/688517.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
