@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 16:28:52 +08:00",
+  "built_at": "2026-07-31 16:29:21 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -8568,6 +8568,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002236.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "002687.SZ",
+      "name": "乔治白",
+      "raw_name": "乔治白",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 23.83,
+      "pe_ttm": 29.41,
+      "owner_earnback_years": 22.22,
+      "owner_earnback_rate_pct": 4.5,
+      "market_profit_payback_years": 31.58,
+      "market_cash_profit_yield_pct": 3.17,
+      "discounted_detachable_net_cash_yi": 7.06,
+      "discounted_net_cash_to_market_cap_pct": 29.65,
+      "operating_business_price_yi": 16.77,
+      "discounted_cash_profit_yi": 0.75,
+      "revenue_yi": 12.6,
+      "gross_profit_yi": 5.88,
+      "parent_net_profit_yi": 0.85,
+      "gross_margin_pct": 46.69,
+      "net_margin_pct": 6.78,
+      "forecast_dividend_yield_pct": 1.73,
+      "risk_level": "未分级",
+      "business_summary": "乔治白以投标方式向企事业单位销售中高端商务职业装，并通过招投标等方式经营校服，利润主要来自设计、采购、自产与直营交付形成的服装毛利。",
+      "core_judgement": "以2026-07-31市值23.83亿元计，折后可剥离净现金约7.06亿元，经营业务购买价约16.77亿元；以折后持续现金利润7546万元计，经营业务回本约22.2年，未扣现金的市值/现金利润约31.6倍。该数字是控股口径估算，不是盈利预测；最大敏感项是营运资金保留比例、理财可变现性和毛利率能否稳定。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/002687.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
