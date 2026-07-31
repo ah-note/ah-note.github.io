@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 16:29:50 +08:00",
+  "built_at": "2026-07-31 16:31:19 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -10335,6 +10335,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/300773.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "000906.SZ",
+      "name": "浙商中拓",
+      "raw_name": "浙商中拓",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 38.61,
+      "pe_ttm": 17.77,
+      "owner_earnback_years": 41.52,
+      "owner_earnback_rate_pct": 2.41,
+      "market_profit_payback_years": 41.52,
+      "market_cash_profit_yield_pct": 2.41,
+      "discounted_detachable_net_cash_yi": 0.0,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": 38.61,
+      "discounted_cash_profit_yi": 0.93,
+      "revenue_yi": 2355.02,
+      "gross_profit_yi": 21.99,
+      "parent_net_profit_yi": 2.23,
+      "gross_margin_pct": 0.93,
+      "net_margin_pct": 0.09,
+      "forecast_dividend_yield_pct": 2.39,
+      "risk_level": "未分级",
+      "business_summary": "为基建和制造业客户组织黑色、有色、能化、新能源等大宗商品的采购、库存、物流、加工、产业金融和价格管理，以极薄毛利赚取规模化供应链服务与基差收益。",
+      "core_judgement": "以2026-07-31市值38.61亿元计算。受限资金、短借和债券以及供应链必要营运资金使可剥离净现金按0计；持续现金利润谨慎采用公司披露的将常态套保损益加回后的归母扣非净利润0.93亿元。由此经营业务购买价仍为38.61亿元，静态回本约41.5年。该数字高度依赖0.93亿元能否跨周期持续；2025年归母净利润2.23亿元和自由现金流4.44亿元均不直接替代该保守分母。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/000906.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
