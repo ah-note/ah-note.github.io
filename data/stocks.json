@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 17:39:24 +08:00",
+  "built_at": "2026-07-31 17:39:53 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -9188,6 +9188,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/003025.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "600031.SH",
+      "name": "三一重工",
+      "raw_name": "三一重工",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 1894.17,
+      "pe_ttm": 22.5,
+      "owner_earnback_years": 20.99,
+      "owner_earnback_rate_pct": 4.76,
+      "market_profit_payback_years": 23.37,
+      "market_cash_profit_yield_pct": 4.28,
+      "discounted_detachable_net_cash_yi": 193.39,
+      "discounted_net_cash_to_market_cap_pct": 10.21,
+      "operating_business_price_yi": 1700.78,
+      "discounted_cash_profit_yi": 81.04,
+      "revenue_yi": 892.31,
+      "gross_profit_yi": 245.71,
+      "parent_net_profit_yi": 84.08,
+      "gross_margin_pct": 27.54,
+      "net_margin_pct": 9.42,
+      "forecast_dividend_yield_pct": 2.25,
+      "risk_level": "未分级",
+      "business_summary": "三一重工通过全球渠道销售挖掘、混凝土、起重、桩工和路面机械，并以维修服务和客户融资配套促成设备成交。",
+      "core_judgement": "以2026-07-31总市值1,894.17亿元计，折后可剥离净现金约193.39亿元，经营业务购买价约1,700.78亿元。可持续现金利润以2025年扣非归母利润82.21亿元为底，加折旧摊销、扣资本开支后再作10%周期与信用折扣，得到81.04亿元；对应经营业务回本约20.99年，未计未来增长或衰退。2025年经营自由现金流172.04亿元受金融业务净放款减少及应付款大增推动，不直接年化。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/600031.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
