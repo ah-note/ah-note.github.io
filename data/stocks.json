@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 20:13:31 +08:00",
+  "built_at": "2026-07-31 20:14:00 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -11482,6 +11482,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/300824.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "300970.SZ",
+      "name": "华绿生物",
+      "raw_name": "华绿生物",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 25.72,
+      "pe_ttm": 11.77,
+      "owner_earnback_years": 22.75,
+      "owner_earnback_rate_pct": 4.39,
+      "market_profit_payback_years": 21.43,
+      "market_cash_profit_yield_pct": 4.67,
+      "discounted_detachable_net_cash_yi": -1.58,
+      "discounted_net_cash_to_market_cap_pct": -6.16,
+      "operating_business_price_yi": 27.3,
+      "discounted_cash_profit_yi": 1.2,
+      "revenue_yi": 12.92,
+      "gross_profit_yi": 2.08,
+      "parent_net_profit_yi": 1.1,
+      "gross_margin_pct": 16.1,
+      "net_margin_pct": 8.54,
+      "forecast_dividend_yield_pct": 2.34,
+      "risk_level": "未分级",
+      "business_summary": "以工厂化方式全年生产金针菇、真姬菇、鹿茸菇等鲜品食用菌，主要通过区域经销商买断销售。",
+      "core_judgement": "按2026-07-31市值25.72亿元，货币资金仅按70%计入可剥离价值，并扣除有息借款和租赁负债后为负1.58亿元，因此经营业务购买价约27.30亿元。2025年经营自由现金流2.22亿元处于量价齐升、行业修复年份，不能直接长期化；将可持续可分配现金利润折至1.20亿元后，经营业务回本约22.8年，市值/现金利润约21.4倍。该结果对食用菌价格周期、维持性资本开支和现金折扣高度敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/300970.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
