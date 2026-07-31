@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 01:03:30 +08:00",
+  "built_at": "2026-08-01 01:03:59 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -15574,6 +15574,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/000700.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "600563.SH",
+      "name": "法拉电子",
+      "raw_name": "法拉电子",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 308.56,
+      "pe_ttm": 25.81,
+      "owner_earnback_years": 25.54,
+      "owner_earnback_rate_pct": 3.91,
+      "market_profit_payback_years": 27.68,
+      "market_cash_profit_yield_pct": 3.61,
+      "discounted_detachable_net_cash_yi": 23.78,
+      "discounted_net_cash_to_market_cap_pct": 7.71,
+      "operating_business_price_yi": 284.78,
+      "discounted_cash_profit_yi": 11.15,
+      "revenue_yi": 53.27,
+      "gross_profit_yi": 17.11,
+      "parent_net_profit_yi": 11.92,
+      "gross_margin_pct": 32.12,
+      "net_margin_pct": 22.38,
+      "forecast_dividend_yield_pct": 1.68,
+      "risk_level": "未分级",
+      "business_summary": "法拉电子向新能源、数据中心、电网、轨交、工控和消费电子客户销售薄膜电容器，利润核心来自高可靠薄膜电容的规模制造与材料、设备协同能力。",
+      "core_judgement": "按2026年7月31日308.56亿元市值，先扣除约23.78亿元折后可剥离净现金，经营业务购买价约284.78亿元；再以约11.15亿元折后可持续现金利润估算，静态回本约25.5年。该口径不是盈利预测：2025年总资本开支5.45亿元含扩产建设，若未来维护资本开支显著高于折旧、毛利率继续下滑或金融收益不可持续，真实回本会更久；反之扩产形成新增利润则会缩短。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/600563.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
