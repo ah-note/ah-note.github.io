@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 01:26:13 +08:00",
+  "built_at": "2026-08-01 01:29:05 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -15419,6 +15419,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002444.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "601958.SH",
+      "name": "金钼股份",
+      "raw_name": "金钼股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 674.36,
+      "pe_ttm": 19.2,
+      "owner_earnback_years": 25.17,
+      "owner_earnback_rate_pct": 3.97,
+      "market_profit_payback_years": 26.97,
+      "market_cash_profit_yield_pct": 3.71,
+      "discounted_detachable_net_cash_yi": 45.13,
+      "discounted_net_cash_to_market_cap_pct": 6.69,
+      "operating_business_price_yi": 629.23,
+      "discounted_cash_profit_yi": 25.0,
+      "revenue_yi": 138.34,
+      "gross_profit_yi": 56.9,
+      "parent_net_profit_yi": 31.55,
+      "gross_margin_pct": 41.13,
+      "net_margin_pct": 22.8,
+      "forecast_dividend_yield_pct": 1.91,
+      "risk_level": "未分级",
+      "business_summary": "依托金堆城、汝阳东沟等钼矿资源，做采选—冶炼—化工—金属深加工一体化，并向钢铁、化工和高端材料客户销售钼炉料、钼化工及钼金属产品。",
+      "core_judgement": "以2026-07-31市值674.36亿元计，先对年末可动用银行存款按80%、大额可转让存单按90%折价，扣除租赁负债，并扣除估值日前已支付或已公告的金沙钼业股权收购17.31亿元、合资冶炼项目认缴5.10亿元和金沙钼业拟增资7.82亿元，得到折后可剥离净现金45.13亿元。现金利润以三年归母利润约30亿元的中枢为锚，考虑钼价周期、2025年经营现金流明显低于利润以及维持资本开支，折为25亿元。由此经营业务购买价629.23亿元，回本约25.17年；这只是控股口径的压力测试...",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/601958.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
