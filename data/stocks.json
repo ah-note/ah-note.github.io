@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 16:31:48 +08:00",
+  "built_at": "2026-07-31 16:34:38 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -7266,6 +7266,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603167.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "603387.SH",
+      "name": "基蛋生物",
+      "raw_name": "基蛋生物",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 44.83,
+      "pe_ttm": 19.27,
+      "owner_earnback_years": 18.92,
+      "owner_earnback_rate_pct": 5.28,
+      "market_profit_payback_years": 27.08,
+      "market_cash_profit_yield_pct": 3.69,
+      "discounted_detachable_net_cash_yi": 13.5,
+      "discounted_net_cash_to_market_cap_pct": 30.12,
+      "operating_business_price_yi": 31.33,
+      "discounted_cash_profit_yi": 1.66,
+      "revenue_yi": 10.52,
+      "gross_profit_yi": 7.34,
+      "parent_net_profit_yi": 2.21,
+      "gross_margin_pct": 69.79,
+      "net_margin_pct": 20.98,
+      "forecast_dividend_yield_pct": 1.7,
+      "risk_level": "未分级",
+      "business_summary": "向医院、检验机构及经销商销售POCT、化学发光等体外诊断试剂与配套仪器，以高毛利试剂消耗和装机后的持续检测需求赚钱。",
+      "core_judgement": "按市值44.83亿元，扣除折后可剥离净现金13.50亿元后，经营业务购买价约31.33亿元；以2025年扣非归母净利润1.839亿元再打九折作为折后可持续现金利润1.655亿元，对应经营业务回本约18.9年，未扣现金的市值/现金利润约27.1倍。2025年自由现金流2.42亿元高于该利润口径，但收入仍下滑且景川诊断治理事件使保守折扣必要；这是一项口径化估算，不是确定回收承诺。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/603387.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
