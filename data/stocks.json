@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 04:17:35 +08:00",
+  "built_at": "2026-08-01 04:18:05 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -15543,6 +15543,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002043.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "605337.SH",
+      "name": "李子园",
+      "raw_name": "李子园",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 37.22,
+      "pe_ttm": 20.27,
+      "owner_earnback_years": 24.34,
+      "owner_earnback_rate_pct": 4.11,
+      "market_profit_payback_years": 24.81,
+      "market_cash_profit_yield_pct": 4.03,
+      "discounted_detachable_net_cash_yi": 0.7,
+      "discounted_net_cash_to_market_cap_pct": 1.89,
+      "operating_business_price_yi": 36.52,
+      "discounted_cash_profit_yi": 1.5,
+      "revenue_yi": 12.96,
+      "gross_profit_yi": 5.09,
+      "parent_net_profit_yi": 1.96,
+      "gross_margin_pct": 39.28,
+      "net_margin_pct": 15.15,
+      "forecast_dividend_yield_pct": 4.84,
+      "risk_level": "未分级",
+      "business_summary": "李子园以甜牛奶乳饮料为绝对主力，通过全国经销商和电商销售，在约39%的产品毛利率中承担渠道推广、管理与扩产投入后赚取利润和现金。",
+      "core_judgement": "按2026年7月31日市值37.22亿元，折后可剥离净现金约0.70亿元，经营业务购买价约36.52亿元。以1.50亿元折后可持续现金利润计，经营业务回本约24.34年，未扣净现金的市值/现金利润约24.81倍。该结果依赖销量下滑能否止稳、宁夏扩产后维护性资本开支能否回落，以及质押存单最终可释放；它不是收益承诺。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/605337.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
