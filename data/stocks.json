@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 19:17:52 +08:00",
+  "built_at": "2026-07-31 19:19:01 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -10707,6 +10707,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002033.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "300693.SZ",
+      "name": "盛弘股份",
+      "raw_name": "盛弘股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 108.04,
+      "pe_ttm": 22.12,
+      "owner_earnback_years": 22.11,
+      "owner_earnback_rate_pct": 4.52,
+      "market_profit_payback_years": 24.01,
+      "market_cash_profit_yield_pct": 4.17,
+      "discounted_detachable_net_cash_yi": 8.56,
+      "discounted_net_cash_to_market_cap_pct": 7.92,
+      "operating_business_price_yi": 99.48,
+      "discounted_cash_profit_yi": 4.5,
+      "revenue_yi": 34.63,
+      "gross_profit_yi": 13.32,
+      "parent_net_profit_yi": 4.76,
+      "gross_margin_pct": 38.47,
+      "net_margin_pct": 13.75,
+      "forecast_dividend_yield_pct": 1.44,
+      "risk_level": "未分级",
+      "business_summary": "公司把电力电子变换与控制技术做成工业配套电源、充换电设备、储能变流设备和电池检测设备，主要靠设备销售及解决方案获得毛利。",
+      "core_judgement": "以输入市值108.04亿元，扣除折后可剥离净现金8.56亿元，经营业务购买价约99.48亿元；以折后可持续可分配现金利润4.50亿元计，静态回本约22.1年。该口径是控股视角的保守估算：现金留出经营缓冲，受限资金折半，长期定期存单九折，全部有息及租赁债务全额扣除；现金利润低于2025年自由现金流，以吸收回款波动、应收与存货占用及扩产资本开支的不确定性。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/300693.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
