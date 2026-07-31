@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 20:13:02 +08:00",
+  "built_at": "2026-07-31 20:13:31 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -14055,6 +14055,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/300841.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "605099.SH",
+      "name": "共创草坪",
+      "raw_name": "共创草坪",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 132.53,
+      "pe_ttm": 18.6,
+      "owner_earnback_years": 26.3,
+      "owner_earnback_rate_pct": 3.8,
+      "market_profit_payback_years": 27.76,
+      "market_cash_profit_yield_pct": 3.6,
+      "discounted_detachable_net_cash_yi": 6.96,
+      "discounted_net_cash_to_market_cap_pct": 5.25,
+      "operating_business_price_yi": 125.57,
+      "discounted_cash_profit_yi": 4.77,
+      "revenue_yi": 32.91,
+      "gross_profit_yi": 11.26,
+      "parent_net_profit_yi": 6.68,
+      "gross_margin_pct": 34.22,
+      "net_margin_pct": 20.29,
+      "forecast_dividend_yield_pct": 2.52,
+      "risk_level": "未分级",
+      "business_summary": "共创草坪以中国和越南产能向全球批发/直销人造草坪，休闲草贡献约七成收入，利润主要来自规模制造、原料采购、产品认证和海外渠道。",
+      "core_judgement": "按2026-07-31市值132.53亿元，折后可剥离净现金6.96亿元，仅覆盖市值5.25%；扣除后经营业务购买价125.57亿元。以2025年经营自由现金流5.30亿元再打九折得到4.77亿元可持续可分配现金利润，对应经营业务回本约26.30年、市值/现金利润约27.76倍。该口径是静态控股测算，不是回报承诺；原材料低位、汇率、扩产资本开支和营运资金变化均可能显著改变分母。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/605099.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
