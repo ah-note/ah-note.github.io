@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 02:25:10 +08:00",
+  "built_at": "2026-08-01 02:30:03 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -22239,6 +22239,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002170.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "301613.SZ",
+      "name": "新铝时代",
+      "raw_name": "新铝时代",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 53.67,
+      "pe_ttm": 22.82,
+      "owner_earnback_years": 36.36,
+      "owner_earnback_rate_pct": 2.75,
+      "market_profit_payback_years": 31.58,
+      "market_cash_profit_yield_pct": 3.17,
+      "discounted_detachable_net_cash_yi": -8.12,
+      "discounted_net_cash_to_market_cap_pct": -15.13,
+      "operating_business_price_yi": 61.79,
+      "discounted_cash_profit_yi": 1.7,
+      "revenue_yi": 30.61,
+      "gross_profit_yi": 5.44,
+      "parent_net_profit_yi": 2.3,
+      "gross_margin_pct": 17.76,
+      "net_margin_pct": 7.52,
+      "forecast_dividend_yield_pct": 1.88,
+      "risk_level": "未分级",
+      "business_summary": "为新能源汽车厂商和动力电池厂商设计并量产铝合金电池盒箱体，以直销、寄售结算和规模制造赚取加工与工艺利润。",
+      "core_judgement": "按2026-07-31市值53.67亿元，折后可剥离净现金为负8.12亿元，等于买下经营业务还需承接净融资负债，经营业务购买价约61.79亿元。现金利润从2025年扣非归母利润2.124亿元出发，再因毛利率下降、客户集中、营运资金波动和高资本开支折减20%，得到1.700亿元；对应控股回本约36.36年，市值/现金利润约31.58倍。该数字是保守情景化口径，不是盈利预测或目标价。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/301613.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
