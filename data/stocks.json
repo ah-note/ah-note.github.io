@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 17:26:12 +08:00",
+  "built_at": "2026-07-31 17:28:21 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -3267,6 +3267,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603111.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "002705.SZ",
+      "name": "新宝股份",
+      "raw_name": "新宝股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 95.88,
+      "pe_ttm": 11.53,
+      "owner_earnback_years": 13.02,
+      "owner_earnback_rate_pct": 7.68,
+      "market_profit_payback_years": 15.95,
+      "market_cash_profit_yield_pct": 6.27,
+      "discounted_detachable_net_cash_yi": 17.62,
+      "discounted_net_cash_to_market_cap_pct": 18.38,
+      "operating_business_price_yi": 78.26,
+      "discounted_cash_profit_yi": 6.01,
+      "revenue_yi": 161.92,
+      "gross_profit_yi": 33.69,
+      "parent_net_profit_yi": 9.99,
+      "gross_margin_pct": 20.81,
+      "net_margin_pct": 6.17,
+      "forecast_dividend_yield_pct": 3.78,
+      "risk_level": "未分级",
+      "business_summary": "以研发和规模制造能力为海外品牌提供小家电ODM/OEM，同时运营摩飞、东菱、百胜图等国内自主品牌。",
+      "core_judgement": "按95.88亿元市值，折后可剥离净现金约17.62亿元，经营业务隐含购买价约78.26亿元。折后可持续现金利润取归母净利润八折7.99亿元与经营现金流减维护性资本开支6.01亿元孰低，采用6.01亿元；据此经营业务约13.02年回本，未扣现金的市值/现金利润约15.95倍。该结果是稳态估算，不是承诺；印尼爬坡、出口需求、汇率和实际维护性资本开支会改变结果。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/002705.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
