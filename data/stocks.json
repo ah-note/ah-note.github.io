@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 04:36:03 +08:00",
+  "built_at": "2026-08-01 04:36:33 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -15481,6 +15481,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/300628.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "603612.SH",
+      "name": "索通发展",
+      "raw_name": "索通发展",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 84.78,
+      "pe_ttm": 11.96,
+      "owner_earnback_years": 24.1,
+      "owner_earnback_rate_pct": 4.15,
+      "market_profit_payback_years": 13.04,
+      "market_cash_profit_yield_pct": 7.67,
+      "discounted_detachable_net_cash_yi": -71.89,
+      "discounted_net_cash_to_market_cap_pct": -84.8,
+      "operating_business_price_yi": 156.67,
+      "discounted_cash_profit_yi": 6.5,
+      "revenue_yi": 176.93,
+      "gross_profit_yi": 24.74,
+      "parent_net_profit_yi": 7.47,
+      "gross_margin_pct": 13.98,
+      "net_margin_pct": 4.22,
+      "forecast_dividend_yield_pct": 1.93,
+      "risk_level": "未分级",
+      "business_summary": "以石油焦和煤沥青为主要原料，为电解铝客户规模化生产预焙阳极，并拓展锂电负极材料与薄膜电容器。",
+      "core_judgement": "市值本身约为归一化现金利润的13.0倍，但公司为净负债结构；扣除全部有息债务后，经营业务隐含购买价约156.67亿元，对应约24.1年。650百万元现金利润是研究估计：以2025年归母净利为锚，考虑折旧高于当年资本开支、但同时对周期高位、营运资金占用、少数股东分流和持续扩产作保守折减。2025年实际经营自由现金流仅64.84百万元，说明该估计并非当期可直接分配现金。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/603612.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
