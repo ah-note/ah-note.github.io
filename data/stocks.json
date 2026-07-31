@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 23:36:51 +08:00",
+  "built_at": "2026-07-31 23:37:40 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -23665,6 +23665,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/601200.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "600603.SH",
+      "name": "广汇物流",
+      "raw_name": "广汇物流",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 51.62,
+      "pe_ttm": 29.39,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 27.08,
+      "gross_profit_yi": 9.86,
+      "parent_net_profit_yi": 3.68,
+      "gross_margin_pct": 36.39,
+      "net_margin_pct": 13.59,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "以红淖铁路为核心、连接新疆煤源与兰新/临哈出疆通道，按运量和协商运价收取能源物流服务费，同时建设下游储配基地并处置存量地产。",
+      "core_judgement": "普通控股回本口径不适用：核心铁路、配套基地及其资金和债务共同构成收费权业务，不能把账面现金简单剥离，也不能把单年经营现金流在扣除当期资本开支后直接视为可持续可分配利润。控股视角应跟踪红淖铁路运量与单位运价、维护和复线扩能资本开支、剩余项目付款、利息与本金偿付，以及存量地产和征收资产回款后能否真正上划分配。2025年红淖铁路运量增长27%至2872万吨，但能源物流毛利率下降12.87个百分点至32.44%，且财务费用3.95亿元；这些指标尚不足以形成统一可排序的普通回本年数。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/600603.SH/"
     }
   ]
 }
