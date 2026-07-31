@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 23:48:21 +08:00",
+  "built_at": "2026-07-31 23:49:11 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -9126,6 +9126,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/601216.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "000997.SZ",
+      "name": "新 大 陆",
+      "raw_name": "新 大 陆",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 187.83,
+      "pe_ttm": 19.15,
+      "owner_earnback_years": 19.4,
+      "owner_earnback_rate_pct": 5.16,
+      "market_profit_payback_years": 23.48,
+      "market_cash_profit_yield_pct": 4.26,
+      "discounted_detachable_net_cash_yi": 32.65,
+      "discounted_net_cash_to_market_cap_pct": 17.38,
+      "operating_business_price_yi": 155.18,
+      "discounted_cash_profit_yi": 8.0,
+      "revenue_yi": 87.58,
+      "gross_profit_yi": 31.77,
+      "parent_net_profit_yi": 10.11,
+      "gross_margin_pct": 36.29,
+      "net_margin_pct": 11.54,
+      "forecast_dividend_yield_pct": 1.33,
+      "risk_level": "未分级",
+      "business_summary": "以支付终端、条码/机器视觉识别设备为硬件入口，以银行卡收单、商户运营增值服务和运营商软件服务持续收费的数字商业服务商。",
+      "core_judgement": "按2026-07-31市值187.83亿元，折后可剥离净现金32.65亿元，经营业务购买价155.18亿元。可持续可分配现金利润取8.00亿元：以归母净利润10.11亿元为锚，考虑0.81亿元资本开支、2025年经营现金流仅4.93亿元且受贷款投放和营运资金波动影响，再留出约1.30亿元审慎折减。由此经营业务回本约19.40年，市值/现金利润约23.48倍。该结果对支付清分资金可动用性和现金利润正常化高度敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/000997.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
