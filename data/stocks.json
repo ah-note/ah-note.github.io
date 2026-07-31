@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 22:00:38 +08:00",
+  "built_at": "2026-07-31 22:02:49 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -16163,6 +16163,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603897.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "002085.SZ",
+      "name": "万丰奥威",
+      "raw_name": "万丰奥威",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 225.07,
+      "pe_ttm": 23.56,
+      "owner_earnback_years": 28.13,
+      "owner_earnback_rate_pct": 3.55,
+      "market_profit_payback_years": 28.13,
+      "market_cash_profit_yield_pct": 3.55,
+      "discounted_detachable_net_cash_yi": 0.0,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": 225.07,
+      "discounted_cash_profit_yi": 8.0,
+      "revenue_yi": 159.87,
+      "gross_profit_yi": 27.11,
+      "parent_net_profit_yi": 9.87,
+      "gross_margin_pct": 16.96,
+      "net_margin_pct": 6.18,
+      "forecast_dividend_yield_pct": 1.42,
+      "risk_level": "未分级",
+      "business_summary": "公司以汽车/摩托车铝镁合金轻量化零部件为收入主体，并经营全球通用飞机研发、整机销售和服务。",
+      "core_judgement": "货币资金20.26亿元低于计息借款及租赁负债约46.02亿元，且资金分散于全球制造与飞机业务，因此不确认可剥离净现金。2025年经营自由现金流约9.02亿元，归母净利润9.87亿元，但其他收益1.41亿元、营业外净收益1.01亿元主要不可持续，同时飞机研发资本化2.46亿元同比大增。综合利润与现金流，审慎取8.00亿元可持续可分配现金利润；按225.07亿元市值，经营业务购买价不扣现金，静态回本约28.13年。这是经营资产回本测算，不是收益承诺。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/002085.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
