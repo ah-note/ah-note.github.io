@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-07-31 16:00:32 +08:00",
+  "built_at": "2026-07-31 16:01:21 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -7452,6 +7452,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603966.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "603697.SH",
+      "name": "有友食品",
+      "raw_name": "有友食品",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 42.56,
+      "pe_ttm": 21.17,
+      "owner_earnback_years": 20.5,
+      "owner_earnback_rate_pct": 4.88,
+      "market_profit_payback_years": 28.05,
+      "market_cash_profit_yield_pct": 3.56,
+      "discounted_detachable_net_cash_yi": 11.46,
+      "discounted_net_cash_to_market_cap_pct": 26.93,
+      "operating_business_price_yi": 31.1,
+      "discounted_cash_profit_yi": 1.52,
+      "revenue_yi": 15.89,
+      "gross_profit_yi": 4.09,
+      "parent_net_profit_yi": 1.86,
+      "gross_margin_pct": 25.73,
+      "net_margin_pct": 11.68,
+      "forecast_dividend_yield_pct": 4.22,
+      "risk_level": "未分级",
+      "business_summary": "以泡椒凤爪为核心，通过自有生产与全国线下经销/直营渠道销售泡卤肉制品，并用品牌、配方、供应链和渠道覆盖赚取产品毛利。",
+      "core_judgement": "按2026-07-31市值42.56亿元，扣除折后可剥离净现金11.46亿元后，经营业务购买价约31.10亿元；以折后可持续现金利润1.517亿元计，经营业务回本约20.50年，未扣现金的市值/现金利润约28.05年。该结果高度依赖理财产品可收回性、2025年增长后的利润能否维持，以及资本开支是否代表长期维护水平。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/603697.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
