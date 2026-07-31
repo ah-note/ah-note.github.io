@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 02:54:48 +08:00",
+  "built_at": "2026-08-01 02:58:41 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -15016,6 +15016,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002817.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "002461.SZ",
+      "name": "珠江啤酒",
+      "raw_name": "珠江啤酒",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 196.76,
+      "pe_ttm": 21.25,
+      "owner_earnback_years": 24.17,
+      "owner_earnback_rate_pct": 4.14,
+      "market_profit_payback_years": 30.27,
+      "market_cash_profit_yield_pct": 3.3,
+      "discounted_detachable_net_cash_yi": 39.68,
+      "discounted_net_cash_to_market_cap_pct": 20.16,
+      "operating_business_price_yi": 157.08,
+      "discounted_cash_profit_yi": 6.5,
+      "revenue_yi": 58.78,
+      "gross_profit_yi": 28.41,
+      "parent_net_profit_yi": 9.04,
+      "gross_margin_pct": 48.33,
+      "net_margin_pct": 15.38,
+      "forecast_dividend_yield_pct": 2.14,
+      "risk_level": "未分级",
+      "business_summary": "以华南为核心、通过经销商现款现货销售纯生等啤酒，并靠产品高档化和品牌渠道提升单位收入与毛利。",
+      "core_judgement": "按2026-07-31市值196.76亿元，扣除折后可剥离净现金39.68亿元后，经营业务购买价约157.08亿元；以折后可持续可分配现金利润6.50亿元计，经营业务回本约24.17年，未扣现金的市值/现金利润约30.27倍。该结果对定期存款可动用程度、琶醍等项目未来资本开支和高档化利润持续性敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/002461.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
