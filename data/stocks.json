@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-01 01:20:15 +08:00",
+  "built_at": "2026-08-01 01:22:12 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -23541,6 +23541,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/688097.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "300797.SZ",
+      "name": "钢研纳克",
+      "raw_name": "钢研纳克",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 45.77,
+      "pe_ttm": 28.04,
+      "owner_earnback_years": 48.31,
+      "owner_earnback_rate_pct": 2.07,
+      "market_profit_payback_years": 48.02,
+      "market_cash_profit_yield_pct": 2.08,
+      "discounted_detachable_net_cash_yi": -0.28,
+      "discounted_net_cash_to_market_cap_pct": -0.61,
+      "operating_business_price_yi": 46.05,
+      "discounted_cash_profit_yi": 0.95,
+      "revenue_yi": 11.78,
+      "gross_profit_yi": 5.67,
+      "parent_net_profit_yi": 1.56,
+      "gross_margin_pct": 48.13,
+      "net_margin_pct": 13.22,
+      "forecast_dividend_yield_pct": 1.08,
+      "risk_level": "未分级",
+      "business_summary": "以金属材料检测为核心，向客户同时销售检测服务、材料分析仪器、标准物质和腐蚀防护方案的国家级技术平台型企业。",
+      "core_judgement": "以2026-07-31市值45.77亿元计，非受限货币资金仅按50%计值并扣除1.73亿元有息及类融资负债，折后可剥离净现金为-0.28亿元；经营业务购买价约46.05亿元。可持续可分配现金利润取2025年自由现金流1.06亿元与扣非归母利润1.10亿元孰低后再打九折，为0.95亿元，对应经营业务回本约48.3年、市值/现金利润约48.0倍。该结果说明当前价格主要依赖未来利润增长与资本开支下降，而不是现有现金利润快速回本。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/300797.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
