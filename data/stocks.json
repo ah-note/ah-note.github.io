@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 15:27:05 +08:00",
+  "built_at": "2026-08-03 15:27:56 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -5719,6 +5719,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600258.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00300.HK",
+      "name": "MIDEA GROUP",
+      "raw_name": "MIDEA GROUP",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 6519.28,
+      "pe_ttm": 15.58,
+      "owner_earnback_years": 11.98,
+      "owner_earnback_rate_pct": 8.34,
+      "market_profit_payback_years": 15.27,
+      "market_cash_profit_yield_pct": 6.55,
+      "discounted_detachable_net_cash_yi": 1403.02,
+      "discounted_net_cash_to_market_cap_pct": 21.52,
+      "operating_business_price_yi": 5116.26,
+      "discounted_cash_profit_yi": 426.94,
+      "revenue_yi": 4564.52,
+      "gross_profit_yi": 1204.62,
+      "parent_net_profit_yi": 439.45,
+      "gross_margin_pct": 26.39,
+      "net_margin_pct": 9.63,
+      "forecast_dividend_yield_pct": 4.96,
+      "risk_level": "未分级",
+      "business_summary": "以家用空调、冰洗和厨电等智能家居为现金牛，同时向楼宇科技、工业技术、机器人自动化等企业级解决方案扩张的全球制造集团。",
+      "core_judgement": "按2026-07-31约6519.28亿元市值，扣除折后可剥离净现金1403.02亿元后，经营业务购买价约5116.26亿元；以折后可持续现金利润426.94亿元计，约12.0年回收经营业务购买价，若不扣净现金则约15.3年。该结果对资金可剥离比例、资本开支周期和未来现金流稳定性敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00300.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
