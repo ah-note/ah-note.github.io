@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 13:17:12 +08:00",
+  "built_at": "2026-08-03 13:17:43 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -1740,6 +1740,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00113.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00398.HK",
+      "name": "ORIENTAL WATCH",
+      "raw_name": "ORIENTAL WATCH",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 13.79,
+      "pe_ttm": 8.9,
+      "owner_earnback_years": 5.08,
+      "owner_earnback_rate_pct": 19.69,
+      "market_profit_payback_years": 8.33,
+      "market_cash_profit_yield_pct": 12.01,
+      "discounted_detachable_net_cash_yi": 5.38,
+      "discounted_net_cash_to_market_cap_pct": 39.03,
+      "operating_business_price_yi": 8.41,
+      "discounted_cash_profit_yi": 1.66,
+      "revenue_yi": 31.74,
+      "gross_profit_yi": 9.99,
+      "parent_net_profit_yi": 1.84,
+      "gross_margin_pct": 31.47,
+      "net_margin_pct": 5.81,
+      "forecast_dividend_yield_pct": 12.06,
+      "risk_level": "未分级",
+      "business_summary": "在香港、澳门、中国内地和台湾经营奢侈腕表门店及网店，靠品牌供货关系、门店渠道和库存周转赚取零售毛利。",
+      "core_judgement": "普通经营口径适用。按市值13.79亿元，现金按70%计入且不把应收贷款、证券投资和库存当现金，折后可剥离净现金5.38亿元；以剔除一次性门店资产减值后的2.25亿港元调整利润为起点，再取80%并按0.92换算，持续现金利润1.656亿元。由此经营业务购买价8.41亿元、约5.08年回本；这是静态控股口径，不是预测或买卖建议。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00398.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
