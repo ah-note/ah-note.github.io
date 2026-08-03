@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 15:13:10 +08:00",
+  "built_at": "2026-08-03 15:14:42 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -10555,6 +10555,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603338.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01187.HK",
+      "name": "COFOE MEDICAL",
+      "raw_name": "COFOE MEDICAL",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 69.33,
+      "pe_ttm": 19.59,
+      "owner_earnback_years": 16.62,
+      "owner_earnback_rate_pct": 6.02,
+      "market_profit_payback_years": 22.88,
+      "market_cash_profit_yield_pct": 4.37,
+      "discounted_detachable_net_cash_yi": 18.98,
+      "discounted_net_cash_to_market_cap_pct": 27.38,
+      "operating_business_price_yi": 50.34,
+      "discounted_cash_profit_yi": 3.03,
+      "revenue_yi": 33.87,
+      "gross_profit_yi": 17.52,
+      "parent_net_profit_yi": 3.72,
+      "gross_margin_pct": 51.71,
+      "net_margin_pct": 10.97,
+      "forecast_dividend_yield_pct": 3.55,
+      "risk_level": "未分级",
+      "business_summary": "可孚医疗以自有品牌为主，通过电商、直营网点、药房和经销商销售家用医疗器械，并以听力服务门店及OEM/ODM补充增长。",
+      "core_judgement": "以2026-07-31市值69.325亿元计，扣除折后可剥离净现金18.982亿元后，经营业务购买价约50.343亿元；折后可持续可分配现金利润约3.030亿元，对应经营业务回本约16.6年，未扣现金的市值/现金利润约22.9倍。该数字高度依赖上市募资尚未使用、理财可变现性和2025利润可持续性，不是目标价或买卖建议。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01187.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
