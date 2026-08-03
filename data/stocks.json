@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 14:28:12 +08:00",
+  "built_at": "2026-08-03 14:30:44 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -3332,6 +3332,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600741.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00098.HK",
+      "name": "XINGFA ALUM",
+      "raw_name": "XINGFA ALUM",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 22.98,
+      "pe_ttm": 3.82,
+      "owner_earnback_years": 8.22,
+      "owner_earnback_rate_pct": 12.16,
+      "market_profit_payback_years": 5.74,
+      "market_cash_profit_yield_pct": 17.41,
+      "discounted_detachable_net_cash_yi": -9.91,
+      "discounted_net_cash_to_market_cap_pct": -43.14,
+      "operating_business_price_yi": 32.89,
+      "discounted_cash_profit_yi": 4.0,
+      "revenue_yi": 207.01,
+      "gross_profit_yi": 13.01,
+      "parent_net_profit_yi": 6.32,
+      "gross_margin_pct": 6.29,
+      "net_margin_pct": 3.05,
+      "forecast_dividend_yield_pct": 8.25,
+      "risk_level": "未分级",
+      "business_summary": "中国领先的铝型材制造商之一，以建筑型材为收入主体，并快速拓展汽车、光伏等非建筑工业型材。",
+      "core_judgement": "按控股口径，将现金及现金等价物按70%、定期存款按80%、抵押存款按0%计入，并全额扣除借款和租赁负债，折后可剥离净现金为负9.91亿元。因此市值低并不等于净现金覆盖；实际经营业务购买价约32.89亿元。考虑2025年自由现金流3.09亿元、营运资金变动前现金流及利润波动，以4.00亿元作为折后可持续可分配现金利润，回本约8.2年。该数值是保守情景估算，不是确定预测。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00098.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
