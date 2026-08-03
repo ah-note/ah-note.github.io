@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 11:31:09 +08:00",
+  "built_at": "2026-08-03 11:33:21 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -15357,6 +15357,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/000157.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "920069.BJ",
+      "name": "普昂医疗",
+      "raw_name": "普昂医疗",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 17.86,
+      "pe_ttm": 18.35,
+      "owner_earnback_years": 23.29,
+      "owner_earnback_rate_pct": 4.29,
+      "market_profit_payback_years": 23.48,
+      "market_cash_profit_yield_pct": 4.26,
+      "discounted_detachable_net_cash_yi": 0.15,
+      "discounted_net_cash_to_market_cap_pct": 0.83,
+      "operating_business_price_yi": 17.71,
+      "discounted_cash_profit_yi": 0.76,
+      "revenue_yi": 3.82,
+      "gross_profit_yi": 1.99,
+      "parent_net_profit_yi": 0.9,
+      "gross_margin_pct": 52.03,
+      "net_margin_pct": 23.49,
+      "forecast_dividend_yield_pct": 1.51,
+      "risk_level": "未分级",
+      "business_summary": "以ODM为主、外销为主的一次性穿刺输注医疗耗材制造商，核心利润来自高毛利的胰岛素笔针。",
+      "core_judgement": "按2026-07-31市值17.86亿元，扣除2025年末折后可剥离净现金0.148亿元后，经营业务购买价17.71亿元；以2025年扣非归母利润为锚并折减10%得到可持续可分配现金利润0.761亿元，静态回本约23.3年。2026年IPO净募资1.655亿元均有募投用途，不视为可剥离现金；报告期与估值时点错配使该口径偏保守但不具实时资产负债精度。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/920069.BJ/"
     },
     {
       "schema_version": "stock-research-result-v1",
