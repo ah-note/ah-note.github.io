@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 14:39:42 +08:00",
+  "built_at": "2026-08-03 14:42:56 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -2677,6 +2677,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00071.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01024.HK",
+      "name": "KUAISHOU-W",
+      "raw_name": "KUAISHOU-W",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 1626.62,
+      "pe_ttm": 9.17,
+      "owner_earnback_years": 6.8,
+      "owner_earnback_rate_pct": 14.71,
+      "market_profit_payback_years": 13.82,
+      "market_cash_profit_yield_pct": 7.24,
+      "discounted_detachable_net_cash_yi": 826.42,
+      "discounted_net_cash_to_market_cap_pct": 50.81,
+      "operating_business_price_yi": 800.2,
+      "discounted_cash_profit_yi": 117.74,
+      "revenue_yi": 1427.76,
+      "gross_profit_yi": 785.49,
+      "parent_net_profit_yi": 186.17,
+      "gross_margin_pct": 55.02,
+      "net_margin_pct": 13.04,
+      "forecast_dividend_yield_pct": 2.78,
+      "risk_level": "未分级",
+      "business_summary": "快手以短视频和直播社区聚集用户时长，再通过广告、直播分成、电商交易服务及可灵AI变现。",
+      "core_judgement": "现金及存款按100%、理财按85%、上市投资按70%、非上市投资与受限现金按0%，再全额扣除借款，折后净现金826.42亿元。现金利润取经营现金流减全部资本开支117.74亿元。静态经营业务回本约6.80年；若AI资本开支持续高位或资金上划受约束，实际更慢。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01024.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
