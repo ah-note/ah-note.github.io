@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 11:55:16 +08:00",
+  "built_at": "2026-08-03 11:55:46 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -16783,6 +16783,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603612.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "920950.BJ",
+      "name": "迅安科技",
+      "raw_name": "迅安科技",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 9.32,
+      "pe_ttm": 23.33,
+      "owner_earnback_years": 24.14,
+      "owner_earnback_rate_pct": 4.14,
+      "market_profit_payback_years": 28.59,
+      "market_cash_profit_yield_pct": 3.5,
+      "discounted_detachable_net_cash_yi": 1.45,
+      "discounted_net_cash_to_market_cap_pct": 15.56,
+      "operating_business_price_yi": 7.87,
+      "discounted_cash_profit_yi": 0.33,
+      "revenue_yi": 1.9,
+      "gross_profit_yi": 0.78,
+      "parent_net_profit_yi": 0.42,
+      "gross_margin_pct": 41.03,
+      "net_margin_pct": 22.34,
+      "forecast_dividend_yield_pct": 2.83,
+      "risk_level": "未分级",
+      "business_summary": "面向欧美为主的工业客户，以ODM直销方式销售自动变光电焊防护面罩及电动送风过滤式呼吸器的智能个体防护装备制造商。",
+      "core_judgement": "按2026-07-31市值9.32亿元，折后可剥离净现金约1.45亿元，隐含经营业务购买价约7.87亿元。2025年归母净利润剔除老厂区处置收益的估算税后影响后，可持续现金利润约3260万元；折旧摊销约1026万元与维护性资本开支假设相抵。由此经营业务回本约24.1年，市值/现金利润约28.6倍。该结果依赖一次性收益税率和维护性资本开支假设，不是确定回收期。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/920950.BJ/"
     },
     {
       "schema_version": "stock-research-result-v1",
