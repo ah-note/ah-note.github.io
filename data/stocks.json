@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 14:02:24 +08:00",
+  "built_at": "2026-08-03 14:02:54 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -3549,6 +3549,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600511.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01060.HK",
+      "name": "大麦娱乐",
+      "raw_name": "大麦娱乐",
+      "market": "HK",
+      "period": "2026-03-31",
+      "currency": "CNY",
+      "market_cap_yi": 134.1,
+      "pe_ttm": 19.52,
+      "owner_earnback_years": 9.34,
+      "owner_earnback_rate_pct": 10.7,
+      "market_profit_payback_years": 33.53,
+      "market_cash_profit_yield_pct": 2.98,
+      "discounted_detachable_net_cash_yi": 96.74,
+      "discounted_net_cash_to_market_cap_pct": 72.14,
+      "operating_business_price_yi": 37.37,
+      "discounted_cash_profit_yi": 4.0,
+      "revenue_yi": 80.24,
+      "gross_profit_yi": 27.65,
+      "parent_net_profit_yi": 7.05,
+      "gross_margin_pct": 34.46,
+      "net_margin_pct": 8.79,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "以大麦票务和现场娱乐为入口，向上游内容制作、IP商品化、电影及剧集制作延伸的综合文娱平台。",
+      "core_judgement": "折后可剥离净现金约96.74亿元，占市值72.1%；扣除后经营业务价格约37.37亿元。以4.00亿元保守可持续可分配现金利润估算，经营业务回本约9.34年；但全市值/现金利润为33.53倍。4亿元显著低于当年7.05亿元归母利润和7.46亿元调整后EBITA，主要是剔除净财务收益和投资处置/公允价值收益，并对内容业务波动、营运资金反转及维护投入留出缓冲。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01060.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
