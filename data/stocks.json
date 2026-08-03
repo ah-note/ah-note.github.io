@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 18:10:56 +08:00",
+  "built_at": "2026-08-03 18:11:27 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -45647,6 +45647,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00006.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00586.HK",
+      "name": "CONCH VENTURE",
+      "raw_name": "CONCH VENTURE",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 136.13,
+      "pe_ttm": 6.37,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 65.48,
+      "gross_profit_yi": 22.72,
+      "parent_net_profit_yi": 22.45,
+      "gross_margin_pct": 34.7,
+      "net_margin_pct": 34.29,
+      "forecast_dividend_yield_pct": 4.82,
+      "risk_level": "未分级",
+      "business_summary": "公司以垃圾焚烧发电和BOT运营为并表主业，同时持有海螺集团49%权益；账面利润主要由海螺水泥相关联营收益驱动。",
+      "core_judgement": "普通控股回本口径不适用。公司现金仅26.55亿元，而银行贷款、票据和租赁负债合计约289.80亿元；这些债务主要对应垃圾焚烧经营权和运营资产，不能与现金简单净额后从市值扣除。另一方面，398.30亿元联营权益贡献15.21亿元账面利润，但本年仅收到3.90亿元联营股息。应采用分部估值/现金流模型：BOT资产按剩余16至45年特许期的处理量、电价/垃圾处置费、维护资本开支和债务服务折现；海螺集团权益按底层净资产、盈利和实际分红路径折价；新能源等亏损业务单独处理。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00586.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
