@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 15:00:48 +08:00",
+  "built_at": "2026-08-03 15:01:19 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -6401,6 +6401,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603661.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01368.HK",
+      "name": "XTEP INT'L",
+      "raw_name": "XTEP INT'L",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 91.55,
+      "pe_ttm": 7.01,
+      "owner_earnback_years": 13.05,
+      "owner_earnback_rate_pct": 7.66,
+      "market_profit_payback_years": 15.06,
+      "market_cash_profit_yield_pct": 6.64,
+      "discounted_detachable_net_cash_yi": 12.25,
+      "discounted_net_cash_to_market_cap_pct": 13.38,
+      "operating_business_price_yi": 79.29,
+      "discounted_cash_profit_yi": 6.08,
+      "revenue_yi": 141.51,
+      "gross_profit_yi": 60.63,
+      "parent_net_profit_yi": 13.72,
+      "gross_margin_pct": 42.85,
+      "net_margin_pct": 9.69,
+      "forecast_dividend_yield_pct": 7.49,
+      "risk_level": "未分级",
+      "business_summary": "以特步主品牌面向大众跑步市场，并以Saucony和Merrell切入专业跑步与户外的中国运动鞋服集团。",
+      "core_judgement": "按2026年7月31日市值91.55亿元，现金等价物按90%、定期与质押存款按80%折价，并全额扣除银行借款和可转债，得到折后可剥离净现金12.25亿元；2025年经营现金流扣资本开支后为6.75亿元，再按90%折为6.08亿元。由此经营业务购买价约79.29亿元、静态回本约13.0年。该结果对单年营运资金波动高度敏感，且未把金融投资、应收或库存当成可剥离现金。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01368.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
