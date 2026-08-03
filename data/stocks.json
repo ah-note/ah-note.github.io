@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 12:35:57 +08:00",
+  "built_at": "2026-08-03 12:38:09 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -1558,6 +1558,37 @@
         "高风险"
       ],
       "detail_url": "reports/002091.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00917.HK",
+      "name": "趣致集团",
+      "raw_name": "QUNABOX GROUP",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 19.1,
+      "pe_ttm": 7.02,
+      "owner_earnback_years": 6.55,
+      "owner_earnback_rate_pct": 15.27,
+      "market_profit_payback_years": 10.72,
+      "market_cash_profit_yield_pct": 9.33,
+      "discounted_detachable_net_cash_yi": 7.43,
+      "discounted_net_cash_to_market_cap_pct": 38.89,
+      "operating_business_price_yi": 11.67,
+      "discounted_cash_profit_yi": 1.78,
+      "revenue_yi": 16.63,
+      "gross_profit_yi": 9.53,
+      "parent_net_profit_yi": 2.86,
+      "gross_margin_pct": 57.31,
+      "net_margin_pct": 17.18,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "趣致集团通过分布在消费场景的AI互动终端，为品牌商提供体验式营销，并辅以自动售货商品销售和IT/软件开发。",
+      "core_judgement": "以2026年7月31日市值19.10亿元计，现金按75%、上市股票按50%折价，并全额扣除银行借款及租赁负债，得到折后可剥离净现金7.43亿元；归母利润剔除金融资产公允价值收益、利息、股息和政府补助的估算税后影响后，再因仅有两年现金流历史及应收账款风险打八折，得到可持续现金利润1.78亿元。对应经营业务购买价11.67亿元，静态回本约6.55年；这是保守情景估算，不等于现金可立即分配。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00917.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
