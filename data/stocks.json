@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 17:47:41 +08:00",
+  "built_at": "2026-08-03 17:48:31 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -17995,6 +17995,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/601598.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00867.HK",
+      "name": "CMS",
+      "raw_name": "CMS",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 249.51,
+      "pe_ttm": 17.59,
+      "owner_earnback_years": 21.59,
+      "owner_earnback_rate_pct": 4.63,
+      "market_profit_payback_years": 22.68,
+      "market_cash_profit_yield_pct": 4.41,
+      "discounted_detachable_net_cash_yi": 12.01,
+      "discounted_net_cash_to_market_cap_pct": 4.81,
+      "operating_business_price_yi": 237.5,
+      "discounted_cash_profit_yi": 11.0,
+      "revenue_yi": 82.12,
+      "gross_profit_yi": 58.72,
+      "parent_net_profit_yi": 14.89,
+      "gross_margin_pct": 71.5,
+      "net_margin_pct": 18.13,
+      "forecast_dividend_yield_pct": 2.83,
+      "risk_level": "未分级",
+      "business_summary": "CMS以引进合作、自研和产业投资获得药品及管线，再借覆盖医院、零售和数字渠道的商业化平台实现销售与推广收入。",
+      "core_judgement": "普通经营公司口径适用，但剥离和现金利润均采取审慎假设。按2026-07-31市值，扣除折后可剥离净现金后经营业务价格约237.50亿元，以11亿元折后可持续可分配现金利润计，静态回本约21.6年；若不扣现金，市值/现金利润约22.7倍。这不是回报承诺，最敏感变量是回款、持续产品权利投入、研发强度及创新产品商业化。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00867.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
