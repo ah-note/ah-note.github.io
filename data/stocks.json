@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 15:51:18 +08:00",
+  "built_at": "2026-08-03 15:53:09 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -41958,6 +41958,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/01288.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00737.HK",
+      "name": "湾区发展",
+      "raw_name": "湾区发展",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 52.17,
+      "pe_ttm": 11.71,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 7.86,
+      "gross_profit_yi": 3.07,
+      "parent_net_profit_yi": 4.68,
+      "gross_margin_pct": 39.07,
+      "net_margin_pct": 59.45,
+      "forecast_dividend_yield_pct": 8.96,
+      "risk_level": "未分级",
+      "business_summary": "在粤港澳大湾区投资、建设和运营收费高速，以沿江高速深圳段的合并通行费和广深高速、广珠西线联营收益为主要利润，并参与沿线土地开发。",
+      "core_judgement": "普通控股回本公式不适用。合并现金与结构性/定期存款合计约17.75亿元，但合并银行借款48.28亿元，且主要利润来自有自身资产负债和扩建义务的联营收费公路；应按各项目剩余收费期内的通行费、维护及扩建资本开支、债务服务和可上划分红估值。2025年联营现金分红净额2.891亿元，归母利润4.675亿元，提供了派息基础，但不能据此把利润永久资本化。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00737.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
