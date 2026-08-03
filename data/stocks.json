@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 11:58:28 +08:00",
+  "built_at": "2026-08-03 12:00:20 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -15605,6 +15605,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600406.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "920007.BJ",
+      "name": "酉立智能",
+      "raw_name": "酉立智能",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 16.34,
+      "pe_ttm": 22.5,
+      "owner_earnback_years": 23.33,
+      "owner_earnback_rate_pct": 4.29,
+      "market_profit_payback_years": 23.97,
+      "market_cash_profit_yield_pct": 4.17,
+      "discounted_detachable_net_cash_yi": 0.44,
+      "discounted_net_cash_to_market_cap_pct": 2.69,
+      "operating_business_price_yi": 15.9,
+      "discounted_cash_profit_yi": 0.68,
+      "revenue_yi": 10.31,
+      "gross_profit_yi": 1.56,
+      "parent_net_profit_yi": 0.91,
+      "gross_margin_pct": 15.16,
+      "net_margin_pct": 8.87,
+      "forecast_dividend_yield_pct": 0.6,
+      "risk_level": "未分级",
+      "business_summary": "酉立智能以直销方式为全球光伏跟踪支架厂商生产定制化核心金属零部件，收入高度依赖少数海外大客户。",
+      "core_judgement": "按2026-07-31市值16.34亿元，扣除折后可剥离净现金0.439亿元，经营业务购买价约15.90亿元；以折后可持续现金利润0.682亿元计，静态回本约23.3年。该数字不是预测或目标价，核心敏感项是募投资金实际可用性、客户集中、毛利率及营运资金回收。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/920007.BJ/"
     },
     {
       "schema_version": "stock-research-result-v1",
