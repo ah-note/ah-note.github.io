@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 10:36:58 +08:00",
+  "built_at": "2026-08-03 10:37:28 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -6460,6 +6460,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002032.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "920191.BJ",
+      "name": "瑞尔竞达",
+      "raw_name": "瑞尔竞达",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 15.66,
+      "pe_ttm": 16.48,
+      "owner_earnback_years": 16.12,
+      "owner_earnback_rate_pct": 6.2,
+      "market_profit_payback_years": 19.07,
+      "market_cash_profit_yield_pct": 5.24,
+      "discounted_detachable_net_cash_yi": 2.42,
+      "discounted_net_cash_to_market_cap_pct": 15.44,
+      "operating_business_price_yi": 13.24,
+      "discounted_cash_profit_yi": 0.82,
+      "revenue_yi": 4.78,
+      "gross_profit_yi": 1.86,
+      "parent_net_profit_yi": 0.93,
+      "gross_margin_pct": 38.89,
+      "net_margin_pct": 19.39,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "为国内外钢铁企业的炼铁高炉提供长寿技术方案、关键耐火材料及现场服务，收入主要来自炮泥等功能性消耗材料和高炉本体内衬。",
+      "core_judgement": "按2026-07-31市值15.66亿元，扣除2025年末折后可剥离净现金2.42亿元后，经营业务购买价约13.24亿元；以折后可持续现金利润8213万元计，经营业务约16.1年回本，市值/现金利润约19.1倍。该口径不是收益承诺；估值日与报表日之间发生IPO，募集资金有明确项目用途，未当作可剥离现金，但时点错配仍需结合后续财报复核。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/920191.BJ/"
     },
     {
       "schema_version": "stock-research-result-v1",
