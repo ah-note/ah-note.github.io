@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 15:45:11 +08:00",
+  "built_at": "2026-08-03 15:47:44 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -3266,6 +3266,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00752.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00517.HK",
+      "name": "COSCO SHIP INTL",
+      "raw_name": "COSCO SHIP INTL",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 64.92,
+      "pe_ttm": 11.37,
+      "owner_earnback_years": 7.6,
+      "owner_earnback_rate_pct": 13.16,
+      "market_profit_payback_years": 18.15,
+      "market_cash_profit_yield_pct": 5.51,
+      "discounted_detachable_net_cash_yi": 37.75,
+      "discounted_net_cash_to_market_cap_pct": 58.14,
+      "operating_business_price_yi": 27.17,
+      "discounted_cash_profit_yi": 3.58,
+      "revenue_yi": 31.9,
+      "gross_profit_yi": 7.7,
+      "parent_net_profit_yi": 6.64,
+      "gross_margin_pct": 24.14,
+      "net_margin_pct": 20.81,
+      "forecast_dividend_yield_pct": 10.11,
+      "risk_level": "未分级",
+      "business_summary": "依托中远海运集团船队和客户网络，销售船舶涂料、船用设备与备件，并提供船舶买卖代理、保险经纪和智能航运服务，同时持有高盈利涂料合营企业和大额存款。",
+      "core_judgement": "按2026-07-31汇率统一折成人民币。现金端从年末HK$58.17亿起，剔除受限存款、预留HK$5亿营运资金、扣除年末已宣派但未入账的末期及特别股息HK$4.25亿，对余额打九折并扣租赁负债，得到折后可剥离净现金约人民币37.75亿元。利润端不用含利息的归母利润，而以经营现金流加实际收到的合营/联营及FVOCI股息、减资本开支后再打八折，得到人民币3.58亿元。对应经营业务购买价约人民币27.17亿元，回本约7.60年；不扣现金的市值/现金利润为18.15倍。该口径依赖2...",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00517.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
