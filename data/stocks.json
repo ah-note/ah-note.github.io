@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 17:05:06 +08:00",
+  "built_at": "2026-08-03 17:05:37 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -43880,6 +43880,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/01110.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00012.HK",
+      "name": "HENDERSON LAND",
+      "raw_name": "HENDERSON LAND",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 1182.87,
+      "pe_ttm": 24.32,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 232.5,
+      "gross_profit_yi": 74.19,
+      "parent_net_profit_yi": 51.06,
+      "gross_margin_pct": 31.91,
+      "net_margin_pct": 21.96,
+      "forecast_dividend_yield_pct": 4.66,
+      "risk_level": "未分级",
+      "business_summary": "恒基地产以香港住宅开发销售为周期性利润来源，以香港及内地投资物业收租和香港中华煤气等联营权益提供较稳定收益。",
+      "core_judgement": "普通控股回本口径不适用。地产开发的现金、存货、预售合同负债和债务共同服务于项目清算与交付，投资物业和联营权益又承担持续收租/分红功能，不能以市值减账面现金再除自由现金流。控股视角应改看净债务602.19亿港元及18.7%净负债率、795.00亿港元存货去化、109.15亿港元待确认预售收入、租赁税前净收入61.76亿港元、资本承担与股息覆盖。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00012.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
