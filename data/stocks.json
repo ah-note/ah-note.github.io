@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 14:19:16 +08:00",
+  "built_at": "2026-08-03 14:20:28 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -3952,6 +3952,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600987.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00999.HK",
+      "name": "小菜园",
+      "raw_name": "小菜园",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 75.77,
+      "pe_ttm": 11.12,
+      "owner_earnback_years": 9.96,
+      "owner_earnback_rate_pct": 10.04,
+      "market_profit_payback_years": 12.18,
+      "market_cash_profit_yield_pct": 8.21,
+      "discounted_detachable_net_cash_yi": 13.81,
+      "discounted_net_cash_to_market_cap_pct": 18.22,
+      "operating_business_price_yi": 61.97,
+      "discounted_cash_profit_yi": 6.22,
+      "revenue_yi": 53.45,
+      "gross_profit_yi": 37.63,
+      "parent_net_profit_yi": 7.15,
+      "gross_margin_pct": 70.4,
+      "net_margin_pct": 13.38,
+      "forecast_dividend_yield_pct": 6.59,
+      "risk_level": "未分级",
+      "business_summary": "以亲民价格提供家常中式菜的全国直营连锁餐饮企业，收入约61%来自堂食、39%来自外卖。",
+      "core_judgement": "按2026年7月31日市值，现金和定存按100%、公允价值理财按90%计入并扣除银行借款，折后可剥离净现金约13.81亿元；归母利润剔除理财未实现公允价值收益、加回小额经营资产减值后，再因同店销售下降9.4%打九折，得到约6.22亿元可持续现金利润。由此经营业务购买价约61.97亿元，静态回本约10.0年。该结果依赖理财可变现、门店扩张资本开支可收缩以及同店下滑不继续恶化，不是确定性结论。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00999.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
