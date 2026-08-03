@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 13:19:31 +08:00",
+  "built_at": "2026-08-03 13:21:44 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -3301,6 +3301,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/01073.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00321.HK",
+      "name": "TEXWINCA HOLD",
+      "raw_name": "TEXWINCA HOLD",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 13.43,
+      "pe_ttm": 9.72,
+      "owner_earnback_years": 10.09,
+      "owner_earnback_rate_pct": 9.91,
+      "market_profit_payback_years": 10.4,
+      "market_cash_profit_yield_pct": 9.62,
+      "discounted_detachable_net_cash_yi": 0.4,
+      "discounted_net_cash_to_market_cap_pct": 2.97,
+      "operating_business_price_yi": 13.03,
+      "discounted_cash_profit_yi": 1.29,
+      "revenue_yi": 51.54,
+      "gross_profit_yi": 12.18,
+      "parent_net_profit_yi": 1.07,
+      "gross_margin_pct": 23.63,
+      "net_margin_pct": 2.08,
+      "forecast_dividend_yield_pct": 1.9,
+      "risk_level": "未分级",
+      "business_summary": "德永佳是一家以针织面料、棉纱及成衣生产整染为盈利核心，并经营休闲服饰零售分销的纵向纺织服装集团。",
+      "core_judgement": "现金仅取80%，再全额扣银行借款和租赁负债，折后可剥离净现金约0.40亿元。可持续现金利润取1.40亿港元：以剔除土地征收收益和投资物业估值波动后的核心盈利为起点，加回折旧并扣实际资本开支，同时显著低于受去库存推动的当年自由现金流。经营业务购买价约13.03亿元，静态回本约10.1年；这是情景估算。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00321.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
