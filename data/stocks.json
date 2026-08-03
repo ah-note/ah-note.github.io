@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 13:30:14 +08:00",
+  "built_at": "2026-08-03 13:31:46 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -3301,6 +3301,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600861.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01184.HK",
+      "name": "S.A.S. DRAGON",
+      "raw_name": "S.A.S. DRAGON",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 41.08,
+      "pe_ttm": 8.58,
+      "owner_earnback_years": 9.78,
+      "owner_earnback_rate_pct": 10.23,
+      "market_profit_payback_years": 10.69,
+      "market_cash_profit_yield_pct": 9.35,
+      "discounted_detachable_net_cash_yi": 3.52,
+      "discounted_net_cash_to_market_cap_pct": 8.58,
+      "operating_business_price_yi": 37.56,
+      "discounted_cash_profit_yi": 3.84,
+      "revenue_yi": 275.81,
+      "gross_profit_yi": 12.02,
+      "parent_net_profit_yi": 5.03,
+      "gross_margin_pct": 4.36,
+      "net_margin_pct": 1.82,
+      "forecast_dividend_yield_pct": 5.5,
+      "risk_level": "未分级",
+      "business_summary": "面向大中华区品牌手机、消费电子、计算机与网络客户提供电子元器件和半导体选型、设计及供应链分销服务，并辅以LED、商用设备和物业业务。",
+      "core_judgement": "按2025年末港元兑人民币0.90322折算。现金仅按80%、流动FVTPL按50%计入，质押存款不计，银行借款全额扣除，得到折后可剥离净现金约3.52亿元；利润先剔除存货拨备转回和金融资产公允价值收益、加回投资物业公允价值损失的税后影响，再对半导体周期、低毛利和客户集中打85%折扣，得到折后现金利润约3.84亿元。以2026-07-31市值计算，经营业务购买价约37.56亿元，回本约9.78年。该数字是情景化控股口径，不是公司承诺或买卖结论。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01184.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
