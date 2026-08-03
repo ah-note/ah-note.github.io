@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 11:17:49 +08:00",
+  "built_at": "2026-08-03 11:18:40 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -33656,8 +33656,8 @@
       "market": "A",
       "period": "2025-12-31",
       "currency": "CNY",
-      "market_cap_yi": 297.73,
-      "pe_ttm": 18.66,
+      "market_cap_yi": 304.42,
+      "pe_ttm": 19.08,
       "owner_earnback_years": null,
       "owner_earnback_rate_pct": null,
       "market_profit_payback_years": null,
@@ -33671,7 +33671,7 @@
       "parent_net_profit_yi": 18.01,
       "gross_margin_pct": 64.51,
       "net_margin_pct": 40.3,
-      "forecast_dividend_yield_pct": 4.24,
+      "forecast_dividend_yield_pct": 4.15,
       "risk_level": "未分级",
       "business_summary": "运营佛开、广珠东和广惠等广东高速公路，以通行费为核心收入，并通过参股路产和金融股权取得投资收益。",
       "core_judgement": "普通控股回本口径不适用。应建立逐路产剩余收费期现金流模型：以车流量和收费标准形成收入，扣除付现运营养护、税费、维持性及扩建资本开支、债务本息和少数股东分配，再加可上划的参股公司分红。年报未完整披露各核心路产剩余收费期、逐项目未来资本开支与债务偿还计划，不能可靠计算专项回本年限。",
