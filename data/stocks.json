@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 17:46:50 +08:00",
+  "built_at": "2026-08-03 17:47:41 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -45027,6 +45027,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00081.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00806.HK",
+      "name": "VALUE PARTNERS",
+      "raw_name": "VALUE PARTNERS",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 33.47,
+      "pe_ttm": 5.83,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 8.28,
+      "gross_profit_yi": 5.47,
+      "parent_net_profit_yi": 6.0,
+      "gross_margin_pct": 66.03,
+      "net_margin_pct": 72.41,
+      "forecast_dividend_yield_pct": 2.7,
+      "risk_level": "未分级",
+      "business_summary": "一家以亚洲主动资管为核心、靠管理费和表现费收费，同时以自有资本持有种子基金及房地产投资的资管平台。",
+      "core_judgement": "普通控股回本公式不适用：货币市场工具中多数按FVTPL计量且具有重大影响，证券及基金投资含种子资本，受监管实体还需维持资本；年报没有母公司、经营子公司与受监管资本的精细现金权属拆分。应改看AUM与净流入、管理费基盘、表现费和自营投资收益的周期性、可分配资本及实际分红。普通折后净现金、现金利润、经营业务购买价和回本年均保持null。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00806.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
