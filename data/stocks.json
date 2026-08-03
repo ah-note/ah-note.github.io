@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 11:46:39 +08:00",
+  "built_at": "2026-08-03 11:48:11 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -21867,6 +21867,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600754.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "920982.BJ",
+      "name": "锦波生物",
+      "raw_name": "锦波生物",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 153.04,
+      "pe_ttm": 24.52,
+      "owner_earnback_years": 29.53,
+      "owner_earnback_rate_pct": 3.39,
+      "market_profit_payback_years": 30.1,
+      "market_cash_profit_yield_pct": 3.32,
+      "discounted_detachable_net_cash_yi": 2.88,
+      "discounted_net_cash_to_market_cap_pct": 1.88,
+      "operating_business_price_yi": 150.16,
+      "discounted_cash_profit_yi": 5.08,
+      "revenue_yi": 15.95,
+      "gross_profit_yi": 14.23,
+      "parent_net_profit_yi": 6.52,
+      "gross_margin_pct": 89.21,
+      "net_margin_pct": 40.88,
+      "forecast_dividend_yield_pct": 0.38,
+      "risk_level": "未分级",
+      "business_summary": "以A型重组人源化胶原蛋白为材料平台，主要靠高毛利医美植入级医疗器械赚钱，并向功能性护肤品和原料延伸。",
+      "core_judgement": "按2026年7月31日153.04亿元市值，扣除2.883亿元折后可剥离净现金后，经营业务购买价约150.16亿元；以扣非归母净利润打八折得到5.084亿元折后可持续现金利润，对应控股回本约29.5年，未扣现金的市值/现金利润约30.1倍。该结果不代表未来承诺，关键敏感项是医美植入产品盈利持续性、销售投入、应收存货占用及扩产后的维护资本开支。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/920982.BJ/"
     },
     {
       "schema_version": "stock-research-result-v1",
