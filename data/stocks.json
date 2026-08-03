@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 15:50:27 +08:00",
+  "built_at": "2026-08-03 15:51:18 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -36595,6 +36595,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600531.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00854.HK",
+      "name": "WILLAS-ARRAY",
+      "raw_name": "WILLAS-ARRAY",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 4.52,
+      "pe_ttm": 10.31,
+      "owner_earnback_years": 252.93,
+      "owner_earnback_rate_pct": 0.4,
+      "market_profit_payback_years": 129.64,
+      "market_cash_profit_yield_pct": 0.77,
+      "discounted_detachable_net_cash_yi": -4.3,
+      "discounted_net_cash_to_market_cap_pct": -95.1,
+      "operating_business_price_yi": 8.82,
+      "discounted_cash_profit_yi": 0.03,
+      "revenue_yi": 21.34,
+      "gross_profit_yi": 1.98,
+      "parent_net_profit_yi": 0.46,
+      "gross_margin_pct": 9.27,
+      "net_margin_pct": 2.16,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "向中国内地、香港及台湾客户分销电子元器件，并提供小规模EMS制造服务，靠供应商授权、选型服务、库存与授信周转赚取薄毛利。",
+      "core_judgement": "普通经营模型适用，但公司是净负债而非净现金：现金全额计入、非上市股权和投资物业不计入、全部计息债务扣除后，折后可剥离净现金约为负4.30亿元。2025年报表利润受到存货拨备转回、应收减值转回和所得税抵免明显增厚；剔除这些项目后，以调整后税前利润加折旧减资本开支估算的可持续现金利润仅约349万元。由此普通控股回本约253年，市值/现金利润约130倍；该数字高度依赖毛利率能否在不靠拨备转回的情况下持续，因此不能用10.31倍PE直接推断便宜。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00854.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
