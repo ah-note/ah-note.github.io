@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 11:54:46 +08:00",
+  "built_at": "2026-08-03 11:55:16 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -28067,6 +28067,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603993.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "300488.SZ",
+      "name": "恒锋工具",
+      "raw_name": "恒锋工具",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 54.12,
+      "pe_ttm": 29.63,
+      "owner_earnback_years": 42.02,
+      "owner_earnback_rate_pct": 2.38,
+      "market_profit_payback_years": 42.98,
+      "market_cash_profit_yield_pct": 2.33,
+      "discounted_detachable_net_cash_yi": 1.21,
+      "discounted_net_cash_to_market_cap_pct": 2.24,
+      "operating_business_price_yi": 52.91,
+      "discounted_cash_profit_yi": 1.26,
+      "revenue_yi": 7.13,
+      "gross_profit_yi": 3.19,
+      "parent_net_profit_yi": 1.69,
+      "gross_margin_pct": 44.67,
+      "net_margin_pct": 23.76,
+      "forecast_dividend_yield_pct": 0.7,
+      "risk_level": "未分级",
+      "business_summary": "向汽车零部件、航空航天、燃机和机器人等高端制造客户销售精密复杂刃量具、高效刀具，并提供修磨、工艺和检测服务。",
+      "core_judgement": "市值54.12亿元下，折后净现金约1.21亿元（市值2.24%），经营业务隐含价格52.91亿元；以扣非归母利润再打九折，静态回本约42.0年。已全扣短借和可转债，未把应收、存货、设备及长期投资当现金。扩产期维持性资本开支无法精确拆分，结论对利润持续性和未来资本开支敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/300488.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
