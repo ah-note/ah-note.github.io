@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 17:20:33 +08:00",
+  "built_at": "2026-08-03 17:21:24 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -44283,6 +44283,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00542.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01052.HK",
+      "name": "越秀交通基建",
+      "raw_name": "越秀交通基建",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 53.55,
+      "pe_ttm": 10.55,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 43.31,
+      "gross_profit_yi": 19.1,
+      "parent_net_profit_yi": 5.33,
+      "gross_margin_pct": 44.09,
+      "net_margin_pct": 12.31,
+      "forecast_dividend_yield_pct": 6.99,
+      "risk_level": "未分级",
+      "business_summary": "持有并运营中国多省收费公路，以车辆通行费换取有限收费期内现金流，并通过收购和改扩建延续资产组合。",
+      "core_judgement": "普通控股回本公式不适用。公司现金、债务和收费权共同构成有限期项目融资结构，不能把现金简单扣除市值，也不能把单年自由现金流永续化。控股视角应逐项目估算至收费期届满的通行费现金流，扣除维护与扩建资本开支、税、利息、到期债务及少数股东分配后折现；尤其关注2028至2032年先后到期的汕头海湾大桥、虎门大桥、苍郁高速、广州西二环和北二环，以及北二环扩建后收费期延长尚待审批。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01052.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
