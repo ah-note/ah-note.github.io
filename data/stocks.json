@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 17:51:24 +08:00",
+  "built_at": "2026-08-03 17:52:15 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -36905,6 +36905,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603590.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00103.HK",
+      "name": "SHOUGANG CENT",
+      "raw_name": "SHOUGANG CENT",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 7.4,
+      "pe_ttm": 15.86,
+      "owner_earnback_years": 64.15,
+      "owner_earnback_rate_pct": 1.56,
+      "market_profit_payback_years": 64.15,
+      "market_cash_profit_yield_pct": 1.56,
+      "discounted_detachable_net_cash_yi": 0.0,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": 7.4,
+      "discounted_cash_profit_yi": 0.12,
+      "revenue_yi": 22.04,
+      "gross_profit_yi": 3.38,
+      "parent_net_profit_yi": 0.49,
+      "gross_margin_pct": 15.33,
+      "net_margin_pct": 2.24,
+      "forecast_dividend_yield_pct": 4.98,
+      "risk_level": "未分级",
+      "business_summary": "首佳科技以嘉兴和滕州基地向轮胎厂销售子午线轮胎用钢帘线，并辅以切割钢丝、胶管钢丝及少量物业租赁。",
+      "core_judgement": "普通制造业模型适用，但2025年现金加抵押存款低于计息借款，且集团正扩产，所以可剥离净现金取零。现金利润以经营现金流扣除设备、设备预付款和无形资产投入后的经营自由现金流为基准，再按80%折算；该口径得到约64.1年，仅说明当年扩产现金流相对市值偏弱，不等于稳态盈利必然需要64年回收。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00103.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
