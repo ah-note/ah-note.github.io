@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 12:49:27 +08:00",
+  "built_at": "2026-08-03 12:49:57 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -1089,6 +1089,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00236.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00280.HK",
+      "name": "KING FOOK HOLD",
+      "raw_name": "KING FOOK HOLD",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 4.77,
+      "pe_ttm": 5.45,
+      "owner_earnback_years": 3.12,
+      "owner_earnback_rate_pct": 32.1,
+      "market_profit_payback_years": 7.66,
+      "market_cash_profit_yield_pct": 13.05,
+      "discounted_detachable_net_cash_yi": 2.83,
+      "discounted_net_cash_to_market_cap_pct": 59.33,
+      "operating_business_price_yi": 1.94,
+      "discounted_cash_profit_yi": 0.62,
+      "revenue_yi": 8.18,
+      "gross_profit_yi": 2.53,
+      "parent_net_profit_yi": 0.81,
+      "gross_margin_pct": 31.0,
+      "net_margin_pct": 9.96,
+      "forecast_dividend_yield_pct": 5.28,
+      "risk_level": "未分级",
+      "business_summary": "景福集团主要在香港以实体门店向本地顾客销售黄金饰品、珠宝、金条和高端钟表，利润来自商品毛利扣除门店、人力和营销成本。",
+      "core_judgement": "按2025-03-31人民币中间价折算，市值扣除折后可剥离净现金后，经营业务购买价约1.94亿元；以6750万港元、即约6229万元人民币的折后可持续现金利润计，经营业务回本约3.12年，整个市值对应现金利润约7.66年。该数字依赖现金确实可分配、存货无需额外补充及利润能维持，不能等同于清算价值。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00280.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
