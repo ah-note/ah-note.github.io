@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 11:16:39 +08:00",
+  "built_at": "2026-08-03 11:17:49 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -19201,6 +19201,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002752.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "001285.SZ",
+      "name": "瑞立科密",
+      "raw_name": "瑞立科密",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 74.61,
+      "pe_ttm": 21.3,
+      "owner_earnback_years": 26.55,
+      "owner_earnback_rate_pct": 3.77,
+      "market_profit_payback_years": 31.87,
+      "market_cash_profit_yield_pct": 3.14,
+      "discounted_detachable_net_cash_yi": 12.47,
+      "discounted_net_cash_to_market_cap_pct": 16.71,
+      "operating_business_price_yi": 62.14,
+      "discounted_cash_profit_yi": 2.34,
+      "revenue_yi": 23.93,
+      "gross_profit_yi": 7.01,
+      "parent_net_profit_yi": 3.33,
+      "gross_margin_pct": 29.29,
+      "net_margin_pct": 13.92,
+      "forecast_dividend_yield_pct": 1.34,
+      "risk_level": "未分级",
+      "business_summary": "面向汽车前装市场销售商用车主动安全与智能底盘电子系统，并经营铝合金精密压铸件。",
+      "core_judgement": "按2026-07-31市值74.61亿元，扣除折后可剥离净现金12.47亿元后，经营业务购买价约62.14亿元；以2024—2025两年经营自由现金流均值2.60亿元再折价10%所得2.34亿元作为可持续现金利润，经营业务静态回本约26.5年，市值/现金利润约31.9倍。该结果对募投资金可剥离比例及应收、存货周转高度敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/001285.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
