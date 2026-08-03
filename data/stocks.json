@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 12:34:05 +08:00",
+  "built_at": "2026-08-03 12:35:57 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -1213,6 +1213,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600551.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01200.HK",
+      "name": "MIDLAND HOLDING",
+      "raw_name": "MIDLAND HOLDING",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 13.94,
+      "pe_ttm": 3.83,
+      "owner_earnback_years": 4.48,
+      "owner_earnback_rate_pct": 22.32,
+      "market_profit_payback_years": 6.33,
+      "market_cash_profit_yield_pct": 15.81,
+      "discounted_detachable_net_cash_yi": 4.07,
+      "discounted_net_cash_to_market_cap_pct": 29.17,
+      "operating_business_price_yi": 9.87,
+      "discounted_cash_profit_yi": 2.2,
+      "revenue_yi": 50.48,
+      "gross_profit_yi": 31.4,
+      "parent_net_profit_yi": 3.88,
+      "gross_margin_pct": 62.21,
+      "net_margin_pct": 7.69,
+      "forecast_dividend_yield_pct": 4.25,
+      "risk_level": "未分级",
+      "business_summary": "以美联物业和香港置业品牌撮合香港住宅买卖及租赁并收取代理费，利润取决于成交活跃度、市场份额、分佣与门店人效。",
+      "core_judgement": "按市值CNY1.394bn，扣除折后可剥离净现金CNY406.6m后，经营业务购买价约CNY987.3m；以折后可持续可分配现金利润CNY220.3m计，静态回本约4.48年。该数字不是预测或买卖建议：2025利润处于香港住宅市场复苏期，若成交量、市场份额或佣金竞争逆转，分母会明显下降。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01200.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
