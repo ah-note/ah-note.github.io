@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 11:12:46 +08:00",
+  "built_at": "2026-08-03 11:15:18 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -22642,6 +22642,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600803.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "920896.BJ",
+      "name": "旺成科技",
+      "raw_name": "旺成科技",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 12.14,
+      "pe_ttm": 19.74,
+      "owner_earnback_years": 30.99,
+      "owner_earnback_rate_pct": 3.23,
+      "market_profit_payback_years": 32.83,
+      "market_cash_profit_yield_pct": 3.05,
+      "discounted_detachable_net_cash_yi": 0.68,
+      "discounted_net_cash_to_market_cap_pct": 5.58,
+      "operating_business_price_yi": 11.46,
+      "discounted_cash_profit_yi": 0.37,
+      "revenue_yi": 4.47,
+      "gross_profit_yi": 1.15,
+      "parent_net_profit_yi": 0.61,
+      "gross_margin_pct": 25.73,
+      "net_margin_pct": 13.72,
+      "forecast_dividend_yield_pct": 2.5,
+      "risk_level": "未分级",
+      "business_summary": "为摩托车、汽车（含新能源汽车）、全地形车和农机等客户提供齿轮、离合器及其他传动零部件的精密制造商。",
+      "core_judgement": "以2026-07-31市值12.14亿元计，经营业务购买价约11.46亿元。现金端只计不受限现金等价物的80%和理财的90%，再全额扣有息债务；利润端以2025年经营自由现金流4109.3万元为起点再打九折，得到3698.3万元。对应经营业务回本约31.0年、市值/现金利润约32.8倍。该口径反映2025年扩产期实际现金支出，若未来资本开支回落或增长不能持续，结果会分别改善或恶化。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/920896.BJ/"
     },
     {
       "schema_version": "stock-research-result-v1",
