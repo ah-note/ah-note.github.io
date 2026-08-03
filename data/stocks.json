@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 17:27:54 +08:00",
+  "built_at": "2026-08-03 17:28:25 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -44500,6 +44500,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/01375.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00605.HK",
+      "name": "C FIN SERVICES",
+      "raw_name": "C FIN SERVICES",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 1.39,
+      "pe_ttm": 2.52,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 0.93,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 0.64,
+      "gross_margin_pct": null,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "以自有及借入资金在内地一线城市和香港开展房产抵押、小额及典当贷款，并于2025年新增小规模教育服务。",
+      "core_judgement": "普通控股回本口径不适用。现金、贷款应收款、借款及贷款应付款共同组成放贷资金循环，不能把现金全额视作可剥离资产，也不能用会计净利润直接代表可持续可分配现金。应改看贷款组合质量、ECL覆盖、逾期与抵押物回收、融资成本和期限、经常性税前盈利、ROE及实际分红。2025年归母利润主要受约人民币0.78亿元贷款及利息应付款转回和约人民币0.52亿元税项转回支持，不能据此把2.52倍PE理解为稳定回本年数。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00605.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
