@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 13:56:49 +08:00",
+  "built_at": "2026-08-03 13:58:00 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -2646,6 +2646,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/01126.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00151.HK",
+      "name": "WANT WANT CHINA",
+      "raw_name": "WANT WANT CHINA",
+      "market": "HK",
+      "period": "2025-03-31",
+      "currency": "CNY",
+      "market_cap_yi": 342.71,
+      "pe_ttm": 9.17,
+      "owner_earnback_years": 7.02,
+      "owner_earnback_rate_pct": 14.24,
+      "market_profit_payback_years": 9.72,
+      "market_cash_profit_yield_pct": 10.29,
+      "discounted_detachable_net_cash_yi": 95.03,
+      "discounted_net_cash_to_market_cap_pct": 27.73,
+      "operating_business_price_yi": 247.68,
+      "discounted_cash_profit_yi": 35.27,
+      "revenue_yi": 235.11,
+      "gross_profit_yi": 111.89,
+      "parent_net_profit_yi": 43.36,
+      "gross_margin_pct": 47.59,
+      "net_margin_pct": 18.44,
+      "forecast_dividend_yield_pct": 5.07,
+      "risk_level": "未分级",
+      "business_summary": "以旺旺品牌向经销商、零售渠道及线上消费者销售米果、乳品饮料和休闲食品，靠品牌、全国分销网络和规模化生产赚取消费品毛利。",
+      "core_judgement": "以2026-07-31市值342.71亿元计，将财报日154.38亿元银行资金按90%计入，再全额扣除41.55亿元借款和2.36亿元租赁负债，折后可剥离净现金95.03亿元，经营业务隐含购买价247.68亿元。现金利润采用经营现金流扣资本开支35.27亿元，静态回本约7.02年；这是控股视角敏感性测算，不代表现金可立即汇出或利润不变。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00151.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
