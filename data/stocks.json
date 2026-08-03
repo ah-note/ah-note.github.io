@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 10:48:47 +08:00",
+  "built_at": "2026-08-03 10:52:41 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -21526,6 +21526,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002970.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "920027.BJ",
+      "name": "交大铁发",
+      "raw_name": "交大铁发",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 11.63,
+      "pe_ttm": 23.13,
+      "owner_earnback_years": 30.0,
+      "owner_earnback_rate_pct": 3.33,
+      "market_profit_payback_years": 32.86,
+      "market_cash_profit_yield_pct": 3.04,
+      "discounted_detachable_net_cash_yi": 1.01,
+      "discounted_net_cash_to_market_cap_pct": 8.69,
+      "operating_business_price_yi": 10.62,
+      "discounted_cash_profit_yi": 0.35,
+      "revenue_yi": 3.64,
+      "gross_profit_yi": 1.34,
+      "parent_net_profit_yi": 0.44,
+      "gross_margin_pct": 36.74,
+      "net_margin_pct": 12.16,
+      "forecast_dividend_yield_pct": 1.02,
+      "risk_level": "未分级",
+      "business_summary": "向国铁集团、中国中铁、中国铁建等客户直销轨道交通安全监测产品、铁路信息系统、新材料，并提供测绘与运维服务，靠技术方案、项目交付和验收确认收入。",
+      "core_judgement": "按2026年7月31日11.63亿元市值，折后可剥离净现金约1.01亿元，仅覆盖市值8.69%；经营业务购买价约10.62亿元。以2025年归母净利润八折作为折后可持续现金利润约3539万元，经营业务回本约30.0年，市值/现金利润约32.9倍。该结果比直接采用2025年自由现金流更保守，因为当年经营现金流受应付账款增加和项目回款节奏明显抬升；同时募集资金已有用途，不能全额当作可分配现金。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/920027.BJ/"
     },
     {
       "schema_version": "stock-research-result-v1",
