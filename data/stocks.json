@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 12:29:40 +08:00",
+  "built_at": "2026-08-03 12:33:34 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -155,6 +155,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/01260.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00623.HK",
+      "name": "GOLDENBRIDGE GP",
+      "raw_name": "GOLDENBRIDGE GP",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 7.38,
+      "pe_ttm": 9.68,
+      "owner_earnback_years": -7.88,
+      "owner_earnback_rate_pct": -12.69,
+      "market_profit_payback_years": 22.86,
+      "market_cash_profit_yield_pct": 4.37,
+      "discounted_detachable_net_cash_yi": 9.93,
+      "discounted_net_cash_to_market_cap_pct": 134.47,
+      "operating_business_price_yi": -2.54,
+      "discounted_cash_profit_yi": 0.32,
+      "revenue_yi": 3.82,
+      "gross_profit_yi": 1.36,
+      "parent_net_profit_yi": 0.8,
+      "gross_margin_pct": 35.67,
+      "net_margin_pct": 20.94,
+      "forecast_dividend_yield_pct": 6.17,
+      "risk_level": "未分级",
+      "business_summary": "公司以电视广告资源代理、整合传播和数字内容营销赚取服务毛利，同时出租北京写字楼，并把大量资产配置于存款和股权投资。",
+      "core_judgement": "按逐项折价，可剥离资产净值约9.93亿元，高于7.38亿元市值，公式得到负经营业务购买价及负回本年。负数不代表实际可即时套利：证券价格、投资物业折价、境内利润汇出税、战略持有和2026年资本配置变化都可能侵蚀差额。若完全不计证券及投资物业，仅九折现金和存款再扣现有负债及潜在汇出税，净额约4.44亿元，经营业务隐含价仍约2.94亿元；以2025经营自由现金流计约9.1年。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00623.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
