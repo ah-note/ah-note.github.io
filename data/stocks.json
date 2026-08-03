@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 13:43:10 +08:00",
+  "built_at": "2026-08-03 13:43:40 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -2863,6 +2863,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/01161.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01153.HK",
+      "name": "佳源服务",
+      "raw_name": "佳源服务",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 2.34,
+      "pe_ttm": 1.91,
+      "owner_earnback_years": 7.81,
+      "owner_earnback_rate_pct": 12.81,
+      "market_profit_payback_years": 7.81,
+      "market_cash_profit_yield_pct": 12.81,
+      "discounted_detachable_net_cash_yi": 0.0,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": 2.34,
+      "discounted_cash_profit_yi": 0.3,
+      "revenue_yi": 8.21,
+      "gross_profit_yi": 2.31,
+      "parent_net_profit_yi": 1.29,
+      "gross_margin_pct": 28.16,
+      "net_margin_pct": 15.71,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "佳源服务向中国住宅及其他物业项目收取物业管理费，提供清洁、安保、绿化、维修，并辅以开发商及社区增值服务。",
+      "core_judgement": "普通经营模型适用，但截至2025年末公司净流动负债1.777亿元、归母权益为负，且审计师提示持续经营重大不确定性；因此3,392.7万元现金等价物全部保留给经营、税款与历史事项，折后可剥离净现金按零。持续现金利润以经营现金流3,559.6万元扣除物业设备及软件资本开支335.4万元后的经营自由现金流3,224.2万元为锚，再折至3,000万元，避免把1.093亿元担保拨备转回当成可持续利润。以输入市值计算，经营业务购买价约2.342亿元，静态回本约7.81年；该数字高度依赖应...",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01153.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
