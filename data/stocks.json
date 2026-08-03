@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 13:26:20 +08:00",
+  "built_at": "2026-08-03 13:28:12 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -8881,6 +8881,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/601002.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00150.HK",
+      "name": "HYPEBEAST",
+      "raw_name": "HYPEBEAST",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 2.72,
+      "pe_ttm": 18.0,
+      "owner_earnback_years": 16.95,
+      "owner_earnback_rate_pct": 5.9,
+      "market_profit_payback_years": 29.47,
+      "market_cash_profit_yield_pct": 3.39,
+      "discounted_detachable_net_cash_yi": 1.16,
+      "discounted_net_cash_to_market_cap_pct": 42.49,
+      "operating_business_price_yi": 1.56,
+      "discounted_cash_profit_yi": 0.09,
+      "revenue_yi": 6.15,
+      "gross_profit_yi": 2.47,
+      "parent_net_profit_yi": -0.19,
+      "gross_margin_pct": 40.14,
+      "net_margin_pct": -3.16,
+      "forecast_dividend_yield_pct": 4.45,
+      "risk_level": "未分级",
+      "business_summary": "以 HYPEBEAST 文化媒体流量和品牌影响力承接广告/创意项目，并辅以第三方潮流商品的线上线下零售。",
+      "core_judgement": "按FY2025资产负债表，将现金及三个月以上定存打九折，扣除全部租赁负债及约一个月现金经营成本HK$50m的必要营运缓冲，折后可剥离净现金约人民币1.16亿元。持续现金利润不采用FY2025表面自由现金流，因为其主要受库存和应收释放推动；以调整后经营现金流为起点，再因年度亏损、1H2026收入及毛利下滑而折半取HK$10m。由此经营业务购买价约人民币1.56亿元，回本约16.9年；该数字高度依赖广告业务恢复和营运资金不再反向占用。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00150.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
