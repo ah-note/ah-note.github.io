@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 13:10:14 +08:00",
+  "built_at": "2026-08-03 13:11:57 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -2460,6 +2460,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603187.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01161.HK",
+      "name": "WATER OASIS GP",
+      "raw_name": "WATER OASIS GP",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 7.73,
+      "pe_ttm": 11.06,
+      "owner_earnback_years": 7.75,
+      "owner_earnback_rate_pct": 12.9,
+      "market_profit_payback_years": 7.75,
+      "market_cash_profit_yield_pct": 12.9,
+      "discounted_detachable_net_cash_yi": 0.0,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": 7.73,
+      "discounted_cash_profit_yi": 1.0,
+      "revenue_yi": 8.98,
+      "gross_profit_yi": 4.2,
+      "parent_net_profit_yi": 0.74,
+      "gross_margin_pct": 46.78,
+      "net_margin_pct": 8.28,
+      "forecast_dividend_yield_pct": 6.04,
+      "risk_level": "未分级",
+      "business_summary": "以香港为核心，通过 Oasis 等品牌美容院、水疗和医美中心销售预付疗程，辅以护肤品零售。",
+      "core_judgement": "年末约6.83亿元人民币现金同时对应约6.12亿元客户预付合同负债及租赁、应付、税务义务，且为净流动负债，故不扣减市值。可持续现金利润以租赁后、维护资本开支后并去除营运资金顺风的约1.25亿元人民币为基准，再折扣20%至约0.997亿元；静态回本约7.75年。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01161.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
