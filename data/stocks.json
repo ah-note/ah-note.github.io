@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 17:04:36 +08:00",
+  "built_at": "2026-08-03 17:05:06 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -43849,6 +43849,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00548.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01110.HK",
+      "name": "金活医药集团",
+      "raw_name": "金活医药集团",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 2.2,
+      "pe_ttm": 20.43,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": 0.0,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": 0.0,
+      "discounted_detachable_net_cash_yi": 0.0,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": 2.2,
+      "discounted_cash_profit_yi": 0.0,
+      "revenue_yi": 9.17,
+      "gross_profit_yi": 2.48,
+      "parent_net_profit_yi": 0.11,
+      "gross_margin_pct": 27.02,
+      "net_margin_pct": 1.23,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "集团在中国内地及香港分销品牌进口医药和保健品，并通过东迪欣制造销售电疗、物疗及一般医疗检查设备。",
+      "core_judgement": "普通经营模型适用，但现金2.644亿元不足覆盖银行借款4.144亿元及租赁负债0.195亿元，故折后可剥离净现金按零计。2025年归母净利润仅1,128万元，低于全年资本开支4,884万元；合并经营现金流8,456万元又主要由仅持股55%的东迪欣贡献9,230万元，无法证明稳定、全额归属于母公司股东的可分配现金利润。基于证据保守把折后可持续现金利润置零，因此回本年和市值/现金利润不计算。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01110.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
