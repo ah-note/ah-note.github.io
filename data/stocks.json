@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 17:49:22 +08:00",
+  "built_at": "2026-08-03 17:50:13 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -14306,6 +14306,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002441.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00040.HK",
+      "name": "GOLD PEAK",
+      "raw_name": "GOLD PEAK",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 5.36,
+      "pe_ttm": 19.11,
+      "owner_earnback_years": 18.9,
+      "owner_earnback_rate_pct": 5.29,
+      "market_profit_payback_years": 18.9,
+      "market_cash_profit_yield_pct": 5.29,
+      "discounted_detachable_net_cash_yi": 0.0,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": 5.36,
+      "discounted_cash_profit_yi": 0.28,
+      "revenue_yi": 63.92,
+      "gross_profit_yi": 18.81,
+      "parent_net_profit_yi": 0.28,
+      "gross_margin_pct": 29.43,
+      "net_margin_pct": 0.44,
+      "forecast_dividend_yield_pct": 3.86,
+      "risk_level": "未分级",
+      "business_summary": "金山科技通过控股子公司制造和销售消费电池、充电电池，以及KEF、Celestion等品牌的电子与声学产品。",
+      "core_judgement": "现金约11.22亿元人民币，但计息借款及租赁负债合计约33.34亿元，故不确认可剥离净现金。集团经营自由现金流约4.03亿元显著高于归母利润，但集团约52.6%的权益属于少数股东，且现金需服务债务和营运资金，不能全部归属于上市公司股东；因此以FY2025归母净利润约0.283亿元作为保守的可持续可分配现金利润代理。该口径对应约18.9年静态回本，仅为可比较数字，并不证明未来利润可持续。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00040.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
