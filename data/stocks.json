@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 15:22:51 +08:00",
+  "built_at": "2026-08-03 15:23:22 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -11020,6 +11020,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603043.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00648.HK",
+      "name": "SOFTMEDX",
+      "raw_name": "SOFTMEDX",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 0.64,
+      "pe_ttm": 10.63,
+      "owner_earnback_years": 17.06,
+      "owner_earnback_rate_pct": 5.86,
+      "market_profit_payback_years": 17.06,
+      "market_cash_profit_yield_pct": 5.86,
+      "discounted_detachable_net_cash_yi": 0.0,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": 0.64,
+      "discounted_cash_profit_yi": 0.04,
+      "revenue_yi": 0.63,
+      "gross_profit_yi": 0.21,
+      "parent_net_profit_yi": 0.06,
+      "gross_margin_pct": 33.11,
+      "net_margin_pct": 10.18,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "在香港代理并分销医疗及健康设备、耗材并提供配套支持服务的小型医疗流通商。",
+      "core_judgement": "现金低于借款及租赁负债，故不确认可剥离净现金。以2025经营现金流减资本开支为起点，对小规模、供应商集中和营运资金波动打75%折扣，得到现金利润人民币3.73m，对应约17.1年。公司无可供分派储备，测算不等于现实可分红现金。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00648.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
