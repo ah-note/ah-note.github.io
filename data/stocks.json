@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 15:26:35 +08:00",
+  "built_at": "2026-08-03 15:27:05 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -4293,6 +4293,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/000921.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00528.HK",
+      "name": "KINGDOM HOLDING",
+      "raw_name": "KINGDOM HOLDING",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 6.83,
+      "pe_ttm": 11.49,
+      "owner_earnback_years": 9.75,
+      "owner_earnback_rate_pct": 10.26,
+      "market_profit_payback_years": 9.75,
+      "market_cash_profit_yield_pct": 10.26,
+      "discounted_detachable_net_cash_yi": 0.0,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": 6.83,
+      "discounted_cash_profit_yi": 0.7,
+      "revenue_yi": 26.77,
+      "gross_profit_yi": 2.68,
+      "parent_net_profit_yi": 0.62,
+      "gross_margin_pct": 10.0,
+      "net_margin_pct": 2.33,
+      "forecast_dividend_yield_pct": 5.0,
+      "risk_level": "未分级",
+      "business_summary": "中国领先的纯亚麻纱出口制造商，以进口欧洲亚麻纤维在中国及埃塞俄比亚纺纱，再向中国和全球纺织服装客户销售。",
+      "core_judgement": "普通制造业口径适用，但账面现金不能从市值中扣除：现金及存款6.14亿元低于计息借款7.72亿元，且其中0.52亿元已质押。以2021—2025年归母利润均值约0.89亿元为周期锚，考虑2024年亏损、2025年毛利恢复仍依赖价格反弹，以及埃及扩产资金需求，将可持续可分配现金利润折至0.70亿元。对应经营业务购买价约6.83亿元，静态回本约9.75年；这是归一化判断，不是承诺，且未计未来增长或衰退。2025年7.02亿元经营现金流主要来自去库存、应收下降和应付增加，不可直接年化...",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00528.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
