@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 15:58:42 +08:00",
+  "built_at": "2026-08-03 15:59:53 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -14244,6 +14244,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/601216.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00631.HK",
+      "name": "SANY INT'L",
+      "raw_name": "SANY INT'L",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 210.28,
+      "pe_ttm": 12.41,
+      "owner_earnback_years": 19.39,
+      "owner_earnback_rate_pct": 5.16,
+      "market_profit_payback_years": 17.52,
+      "market_cash_profit_yield_pct": 5.71,
+      "discounted_detachable_net_cash_yi": -22.42,
+      "discounted_net_cash_to_market_cap_pct": -10.66,
+      "operating_business_price_yi": 232.7,
+      "discounted_cash_profit_yi": 12.0,
+      "revenue_yi": 243.34,
+      "gross_profit_yi": 54.24,
+      "parent_net_profit_yi": 17.79,
+      "gross_margin_pct": 22.29,
+      "net_margin_pct": 7.31,
+      "forecast_dividend_yield_pct": 5.53,
+      "risk_level": "未分级",
+      "business_summary": "三一国际向矿山、港口、油气及新能源客户销售成套装备和解决方案，利润主要由矿山与物流设备贡献。",
+      "core_judgement": "现金等价物全额、流动理财九折、质押存款及长期投资不计，再全额扣有息借款，得负22.42亿元折后净现金。2025经营自由现金流约11.82亿元，取12亿元为可持续现金利润。经营业务购买价232.70亿元，回本约19.39年；对营运资本、成长性资本开支和新兴业务亏损敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00631.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
