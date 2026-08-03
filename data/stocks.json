@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 16:26:30 +08:00",
+  "built_at": "2026-08-03 16:28:02 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -42857,6 +42857,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00222.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00995.HK",
+      "name": "安徽皖通高速公路",
+      "raw_name": "安徽皖通高速公路",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 230.19,
+      "pe_ttm": 12.87,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 67.22,
+      "gross_profit_yi": 29.91,
+      "parent_net_profit_yi": 18.77,
+      "gross_margin_pct": 44.51,
+      "net_margin_pct": 27.93,
+      "forecast_dividend_yield_pct": 4.9,
+      "risk_level": "未分级",
+      "business_summary": "安徽省收费公路运营平台，通过持有、建设和收购路产，向过往车辆收费，并提供少量公路代管和服务区租赁等服务。",
+      "core_judgement": "普通控股回本公式不适用。收费权是有期限、需持续养护并可能扩建的经营资产，现金同时服务于总借款146.25亿元及项目资本开支，不能从市值中简单剥离。应改用逐路段剩余收费期现金流模型：预测车流与收费标准，扣除运营税费、维持性养护、扩建资本金、利息与偿债，再评估可分配现金和终值。年报未在本次可复用资料中提供完整逐路段剩余期限及维持性资本开支拆分，故不伪造专项回本年。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00995.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
