@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 13:07:52 +08:00",
+  "built_at": "2026-08-03 13:09:44 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -2460,6 +2460,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603187.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01203.HK",
+      "name": "粤海广南（集团）有限公司",
+      "raw_name": "粤海广南（集团）有限公司",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 5.08,
+      "pe_ttm": 5.29,
+      "owner_earnback_years": 8.03,
+      "owner_earnback_rate_pct": 12.46,
+      "market_profit_payback_years": 8.83,
+      "market_cash_profit_yield_pct": 11.33,
+      "discounted_detachable_net_cash_yi": 0.46,
+      "discounted_net_cash_to_market_cap_pct": 9.08,
+      "operating_business_price_yi": 4.61,
+      "discounted_cash_profit_yi": 0.57,
+      "revenue_yi": 109.65,
+      "gross_profit_yi": 4.91,
+      "parent_net_profit_yi": 1.01,
+      "gross_margin_pct": 4.47,
+      "net_margin_pct": 0.92,
+      "forecast_dividend_yield_pct": 5.98,
+      "risk_level": "未分级",
+      "business_summary": "以鲜活食品供应和屠宰为收入主体，以马口铁制造贡献第二利润支柱，并持有少量出租物业的广东省属控股经营集团。",
+      "core_judgement": "普通口径适用，但账面净现金只约0.921亿元人民币，且企业有3.167亿港元资本承诺、食品与马口铁均需大量营运资金，因此仅按50%计入可剥离现金。现金利润以2023至2025年归母利润均值为基线，再因2025食品利润下滑、应收减值增加及2026年一季度转亏折减40%。得到经营业务购买价约4.615亿元、回本约8.0年；这是压力口径估算，不是确定回收期。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01203.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
