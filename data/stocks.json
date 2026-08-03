@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 14:21:59 +08:00",
+  "built_at": "2026-08-03 14:23:51 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -39571,6 +39571,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00417.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00440.HK",
+      "name": "大新金融集团",
+      "raw_name": "大新金融集团",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 137.08,
+      "pe_ttm": 7.75,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 74.8,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 18.61,
+      "gross_margin_pct": null,
+      "net_margin_pct": 24.88,
+      "forecast_dividend_yield_pct": 5.43,
+      "risk_level": "未分级",
+      "business_summary": "以香港大新银行为核心，覆盖香港、澳门及内地存贷款、财富与财资业务，并兼营一般保险及控股层投资的银行主导金融集团。",
+      "core_judgement": "普通净现金回本不适用：存款、贷款、证券组合和流动性资产共同构成受监管银行经营体系。应改看约0.40倍市净率、3.12%信贷减值贷款率、18.8%普通股权一级资本充足率、盈利结构和约40%派息率；这些专项指标不等同普通回本年数。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00440.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
