@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 11:05:20 +08:00",
+  "built_at": "2026-08-03 11:05:50 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -13156,6 +13156,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/001207.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "920547.BJ",
+      "name": "无锡晶海",
+      "raw_name": "无锡晶海",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 14.07,
+      "pe_ttm": 22.09,
+      "owner_earnback_years": 21.68,
+      "owner_earnback_rate_pct": 4.61,
+      "market_profit_payback_years": 25.58,
+      "market_cash_profit_yield_pct": 3.91,
+      "discounted_detachable_net_cash_yi": 2.14,
+      "discounted_net_cash_to_market_cap_pct": 15.24,
+      "operating_business_price_yi": 11.93,
+      "discounted_cash_profit_yi": 0.55,
+      "revenue_yi": 4.05,
+      "gross_profit_yi": 1.25,
+      "parent_net_profit_yi": 0.63,
+      "gross_margin_pct": 30.73,
+      "net_margin_pct": 15.55,
+      "forecast_dividend_yield_pct": 1.1,
+      "risk_level": "未分级",
+      "business_summary": "生产并销售医药级为主的氨基酸原料，同时向食品营养品和高毛利培养基应用延伸。",
+      "core_judgement": "按2026-07-31市值14.07亿元，扣除折后可剥离净现金2.1447亿元后，经营业务购买价约11.9253亿元；以折后可持续现金利润5500万元计算，控股回本约21.7年，不扣净现金的市值/现金利润约25.6倍。未对未来增长赋值，新厂爬坡、折旧及维护资本开支可能显著改变结果。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/920547.BJ/"
     },
     {
       "schema_version": "stock-research-result-v1",
