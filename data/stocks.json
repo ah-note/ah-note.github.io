@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 15:38:45 +08:00",
+  "built_at": "2026-08-03 15:40:57 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -29465,6 +29465,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/688580.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01277.HK",
+      "name": "KINETIC DEV",
+      "raw_name": "KINETIC DEV",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 125.03,
+      "pe_ttm": 14.65,
+      "owner_earnback_years": 35.03,
+      "owner_earnback_rate_pct": 2.85,
+      "market_profit_payback_years": 32.94,
+      "market_cash_profit_yield_pct": 3.04,
+      "discounted_detachable_net_cash_yi": -7.9,
+      "discounted_net_cash_to_market_cap_pct": -6.32,
+      "operating_business_price_yi": 132.93,
+      "discounted_cash_profit_yi": 3.8,
+      "revenue_yi": 52.93,
+      "gross_profit_yi": 20.3,
+      "parent_net_profit_yi": 8.96,
+      "gross_margin_pct": 38.36,
+      "net_margin_pct": 16.92,
+      "forecast_dividend_yield_pct": 6.64,
+      "risk_level": "未分级",
+      "business_summary": "以大饭铺煤矿为成熟现金来源，向宁夏焦煤矿扩产，并兼营地产、物业管理及少量多元业务的煤炭集团。",
+      "core_judgement": "按普通经营企业口径，现金8,158.6万元全额计入、银行贷款8.72亿元全额扣除，形成负的可剥离净现金7.90亿元。现金利润暂以2025年经营现金流11.04亿元减管理层披露资本开支7.24亿元，得3.80亿元；该年受煤价下行、新矿试运行、地产存货减值与营运资金波动共同影响，只能视为保守的单年代理值。由此经营业务购买价约132.93亿元，回本约35.03年；该数字对煤价周期和扩产资本开支高度敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01277.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
