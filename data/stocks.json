@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 14:10:32 +08:00",
+  "built_at": "2026-08-03 14:11:50 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -2894,6 +2894,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/01066.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00525.HK",
+      "name": "广深铁路",
+      "raw_name": "广深铁路",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 139.55,
+      "pe_ttm": 10.28,
+      "owner_earnback_years": 7.51,
+      "owner_earnback_rate_pct": 13.32,
+      "market_profit_payback_years": 8.32,
+      "market_cash_profit_yield_pct": 12.01,
+      "discounted_detachable_net_cash_yi": 13.74,
+      "discounted_net_cash_to_market_cap_pct": 9.85,
+      "operating_business_price_yi": 125.81,
+      "discounted_cash_profit_yi": 16.76,
+      "revenue_yi": 286.86,
+      "gross_profit_yi": 16.16,
+      "parent_net_profit_yi": 14.26,
+      "gross_margin_pct": 5.64,
+      "net_margin_pct": 4.97,
+      "forecast_dividend_yield_pct": 4.57,
+      "risk_level": "未分级",
+      "business_summary": "经营珠三角及跨线铁路客货运输，并为其他铁路公司提供受托运输和路网结算服务。",
+      "core_judgement": "现金先扣租赁负债再仅计50%；现金利润采用2024-2025两年自由现金流均值并折减20%，以降低单年资本开支偏低影响。结果是比较口径，不代表现金可立即抽走。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00525.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
