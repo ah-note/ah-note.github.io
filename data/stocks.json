@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 11:28:17 +08:00",
+  "built_at": "2026-08-03 11:28:47 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -27757,6 +27757,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600681.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "603293.SH",
+      "name": "埃泰克",
+      "raw_name": "埃泰克",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 64.81,
+      "pe_ttm": 25.68,
+      "owner_earnback_years": 42.39,
+      "owner_earnback_rate_pct": 2.36,
+      "market_profit_payback_years": 44.78,
+      "market_cash_profit_yield_pct": 2.23,
+      "discounted_detachable_net_cash_yi": 3.46,
+      "discounted_net_cash_to_market_cap_pct": 5.33,
+      "operating_business_price_yi": 61.35,
+      "discounted_cash_profit_yi": 1.45,
+      "revenue_yi": 36.09,
+      "gross_profit_yi": 6.33,
+      "parent_net_profit_yi": 2.46,
+      "gross_margin_pct": 17.54,
+      "net_margin_pct": 6.81,
+      "forecast_dividend_yield_pct": 0.57,
+      "risk_level": "未分级",
+      "business_summary": "面向自主品牌整车厂研发并量产车身域、智能座舱域等汽车电子控制与显示产品，以前装直销和项目定点形成收入。",
+      "core_judgement": "按2026-07-31市值64.81亿元，先从2025年末现金等价物5.333亿元扣除有息及租赁负债0.395亿元，再对净额按70%计入可剥离价值，得到折后净现金3.456亿元。2025年经营自由现金流约1.703亿元，再按85%折为可持续可分配现金利润1.447亿元。由此经营业务购买价约61.35亿元，回本约42.4年；该结果显示估值主要依赖未来增长与利润率维持，而非现有现金利润快速回本。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/603293.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
