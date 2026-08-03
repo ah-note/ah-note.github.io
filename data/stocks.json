@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 12:12:59 +08:00",
+  "built_at": "2026-08-03 12:14:36 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -2895,6 +2895,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603367.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00418.HK",
+      "name": "FOUNDER HOLD",
+      "raw_name": "FOUNDER HOLD",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 6.35,
+      "pe_ttm": 24.76,
+      "owner_earnback_years": 11.53,
+      "owner_earnback_rate_pct": 8.67,
+      "market_profit_payback_years": 36.65,
+      "market_cash_profit_yield_pct": 2.73,
+      "discounted_detachable_net_cash_yi": 4.35,
+      "discounted_net_cash_to_market_cap_pct": 68.54,
+      "operating_business_price_yi": 2.0,
+      "discounted_cash_profit_yi": 0.17,
+      "revenue_yi": 8.19,
+      "gross_profit_yi": 4.06,
+      "parent_net_profit_yi": 0.27,
+      "gross_margin_pct": 49.51,
+      "net_margin_pct": 3.29,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "以方正字库、出版传媒软件和高速喷墨印刷软硬件及系统集成为核心，收入主要来自中国内地项目交付，另持有少量收租物业。",
+      "core_judgement": "普通经营模型适用。未质押现金及定期存款按70%计入，再全额扣除约一个月收入的营运现金和租赁负债，得到折后可剥离净现金约4.35亿元。2025经营自由现金流约2,888万元，再按60%保留率估算可持续可分配现金利润约1,733万元；经营业务购买价约2.00亿元，对应约11.5年回本。若不扣现金，市值/现金利润约36.7倍。该结果高度依赖现金能否由境内子公司持续上提及政府补助能否延续。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00418.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
