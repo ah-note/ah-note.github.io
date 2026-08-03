@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 11:27:27 +08:00",
+  "built_at": "2026-08-03 11:28:17 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -28532,6 +28532,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/688778.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "920541.BJ",
+      "name": "铁大科技",
+      "raw_name": "铁大科技",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 13.1,
+      "pe_ttm": 17.74,
+      "owner_earnback_years": 44.55,
+      "owner_earnback_rate_pct": 2.24,
+      "market_profit_payback_years": 45.82,
+      "market_cash_profit_yield_pct": 2.18,
+      "discounted_detachable_net_cash_yi": 0.36,
+      "discounted_net_cash_to_market_cap_pct": 2.76,
+      "operating_business_price_yi": 12.74,
+      "discounted_cash_profit_yi": 0.29,
+      "revenue_yi": 3.39,
+      "gross_profit_yi": 1.62,
+      "parent_net_profit_yi": 0.71,
+      "gross_margin_pct": 47.81,
+      "net_margin_pct": 20.82,
+      "forecast_dividend_yield_pct": 2.09,
+      "risk_level": "未分级",
+      "business_summary": "面向国铁和城市轨道交通客户销售设备监测、雷电防护和电务器材等通信信号产品，并提供设计研发、装备制造与工程安装服务。",
+      "core_judgement": "按2026-07-31市值，50%折算货币资金并全额扣除一年内到期负债，折后可剥离净现金约3610万元；以2025年经营现金流减全部资本开支后再折减10%作为现金利润，经营业务购买价约12.74亿元，对应回本约44.6年。该口径保守但更贴近应收、存货占用较重的现实；若回款恶化或机器人投资继续占款，实际可分配现金会更低。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/920541.BJ/"
     },
     {
       "schema_version": "stock-research-result-v1",
