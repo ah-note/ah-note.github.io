@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 10:47:57 +08:00",
+  "built_at": "2026-08-03 10:48:47 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -15543,6 +15543,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/000690.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "920346.BJ",
+      "name": "威贸电子",
+      "raw_name": "威贸电子",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 12.1,
+      "pe_ttm": 25.76,
+      "owner_earnback_years": 23.67,
+      "owner_earnback_rate_pct": 4.22,
+      "market_profit_payback_years": 28.81,
+      "market_cash_profit_yield_pct": 3.47,
+      "discounted_detachable_net_cash_yi": 2.16,
+      "discounted_net_cash_to_market_cap_pct": 17.84,
+      "operating_business_price_yi": 9.94,
+      "discounted_cash_profit_yi": 0.42,
+      "revenue_yi": 2.88,
+      "gross_profit_yi": 0.86,
+      "parent_net_profit_yi": 0.48,
+      "gross_margin_pct": 29.9,
+      "net_margin_pct": 16.82,
+      "forecast_dividend_yield_pct": 2.27,
+      "risk_level": "未分级",
+      "business_summary": "面向智能家电、汽车及工业设备客户，按小批量、多品种模式定制生产线束和注塑集成组件的一站式电子连接控制制造商。",
+      "core_judgement": "以12.10亿元市值买下公司，保守折算后可剥离净现金约2.159亿元，经营业务隐含购买价约9.941亿元；以4200万元可持续可分配现金利润计，经营业务回本约23.7年，整家公司市值/现金利润约28.8倍。该数字未计增长，也不代表现金可立即全部分走。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/920346.BJ/"
     },
     {
       "schema_version": "stock-research-result-v1",
