@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 16:03:27 +08:00",
+  "built_at": "2026-08-03 16:04:59 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -12198,6 +12198,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/601965.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00788.HK",
+      "name": "CHINA TOWER",
+      "raw_name": "CHINA TOWER",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 1518.74,
+      "pe_ttm": 13.71,
+      "owner_earnback_years": 17.68,
+      "owner_earnback_rate_pct": 5.66,
+      "market_profit_payback_years": 11.08,
+      "market_cash_profit_yield_pct": 9.02,
+      "discounted_detachable_net_cash_yi": -904.6,
+      "discounted_net_cash_to_market_cap_pct": -59.56,
+      "operating_business_price_yi": 2423.34,
+      "discounted_cash_profit_yi": 137.05,
+      "revenue_yi": 1004.11,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 116.3,
+      "gross_margin_pct": null,
+      "net_margin_pct": 11.58,
+      "forecast_dividend_yield_pct": 5.27,
+      "risk_level": "未分级",
+      "business_summary": "中国铁塔运营全国共享通信基础设施，以站址空间、机房电源、室分覆盖及配套维护向三大运营商收费，并把站址、电力与运维网络延伸到智联和能源服务。",
+      "core_judgement": "公司没有可剥离净现金：年末现金人民币123.12亿元全部按零可剥离计，而借款674.34亿元和租赁负债230.26亿元全额计入控股负担，因此折后可剥离净现金为负904.60亿元。现金利润从经营现金流561.16亿元扣除资本开支294.86亿元和租赁负债现金付款105.06亿元，再按15%折价，得到137.054亿元。按输入市值，连同净债务购买经营资产的回本期约17.7年；若只看市值/现金利润约11.1倍。该结果对更新资本开支、应收回款及租赁续约高度敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00788.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
