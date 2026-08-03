@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 17:52:15 +08:00",
+  "built_at": "2026-08-03 17:54:48 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -45213,6 +45213,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/01038.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00900.HK",
+      "name": "AEON CREDIT",
+      "raw_name": "AEON CREDIT",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 31.7,
+      "pe_ttm": 7.87,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 16.46,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 3.75,
+      "gross_margin_pct": null,
+      "net_margin_pct": 22.76,
+      "forecast_dividend_yield_pct": 7.11,
+      "risk_level": "未分级",
+      "business_summary": "香港消费金融公司，以无抵押信用卡和个人贷款赚取利差，辅以收单及保险手续费。",
+      "core_judgement": "普通控股回本不适用。借款和权益共同支撑贷款组合，现金属于流动性储备，贷款也不是闲置资产。应看账面价值折价、ROE、资金与信用成本、Stage 3、拨备、杠杆和分红；普通回本字段保持null。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00900.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
