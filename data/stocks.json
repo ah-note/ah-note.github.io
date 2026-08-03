@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 11:48:11 +08:00",
+  "built_at": "2026-08-03 11:48:41 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -31291,6 +31291,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002553.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "002192.SZ",
+      "name": "融捷股份",
+      "raw_name": "融捷股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 159.74,
+      "pe_ttm": 29.76,
+      "owner_earnback_years": 72.59,
+      "owner_earnback_rate_pct": 1.38,
+      "market_profit_payback_years": 78.77,
+      "market_cash_profit_yield_pct": 1.27,
+      "discounted_detachable_net_cash_yi": 12.54,
+      "discounted_net_cash_to_market_cap_pct": 7.85,
+      "operating_business_price_yi": 147.2,
+      "discounted_cash_profit_yi": 2.03,
+      "revenue_yi": 8.4,
+      "gross_profit_yi": 4.3,
+      "parent_net_profit_yi": 2.79,
+      "gross_margin_pct": 51.18,
+      "net_margin_pct": 33.17,
+      "forecast_dividend_yield_pct": 0.36,
+      "risk_level": "未分级",
+      "business_summary": "公司以康定甲基卡自有锂辉石矿采选和直销锂精矿为利润核心，辅以锂盐加工、联营锂盐收益及锂电后段设备。",
+      "core_judgement": "按2026-07-31市值159.74亿元，扣除折后可剥离净现金12.54亿元后，经营业务购买价147.20亿元。持续现金利润以2025年扣非归母净利润2.535亿元为基准，假设折旧摊销大体覆盖维持性资本开支，并因锂价周期、委外选矿成本和单年利润不可直接外推再打八折，得到2.028亿元；对应经营业务回本约72.6年，未体现明显的控股回本便宜度。实际经营自由现金流仅0.462亿元，因当年2.643亿元资本开支主要投向扩产项目，说明当期可直接分配现金受成长投入约束。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/002192.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
