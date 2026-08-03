@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 18:08:43 +08:00",
+  "built_at": "2026-08-03 18:10:56 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -36967,6 +36967,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/000960.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00763.HK",
+      "name": "ZTE",
+      "raw_name": "ZTE",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 1023.06,
+      "pe_ttm": 19.12,
+      "owner_earnback_years": 60.71,
+      "owner_earnback_rate_pct": 1.65,
+      "market_profit_payback_years": 60.71,
+      "market_cash_profit_yield_pct": 1.65,
+      "discounted_detachable_net_cash_yi": 0.0,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": 1023.06,
+      "discounted_cash_profit_yi": 16.85,
+      "revenue_yi": 1338.95,
+      "gross_profit_yi": 405.04,
+      "parent_net_profit_yi": 56.18,
+      "gross_margin_pct": 30.25,
+      "net_margin_pct": 4.2,
+      "forecast_dividend_yield_pct": 1.92,
+      "risk_level": "未分级",
+      "business_summary": "中兴通讯向电信运营商、政企客户和消费者销售网络设备、服务器与存储、数据中心方案及智能终端，核心高毛利仍来自运营商网络，2025年增长则主要由低毛利算力硬件驱动。",
+      "core_judgement": "普通经营模型适用，但账面类现金同时对应约650.5亿元有息融资、470.2亿元存货及较大的项目周转需求；折后流动金融资产扣债后仍不足以在不伤害经营的前提下确认为可剥离净现金，因此按0计。现金利润以2025年扣非归母净利润33.704亿元为起点，鉴于经营现金流仅39.19亿元、资本开支38.93亿元、经营自由现金流近零，暂按50%折扣为16.852亿元。由此回本约60.7年；这是保守的单年压力口径，不是预测或目标价。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00763.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
