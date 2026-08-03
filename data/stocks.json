@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 16:41:07 +08:00",
+  "built_at": "2026-08-03 16:45:23 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -43291,6 +43291,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/01240.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00991.HK",
+      "name": "DATANG POWER",
+      "raw_name": "DATANG POWER",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 401.22,
+      "pe_ttm": 5.59,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 1212.55,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 75.39,
+      "gross_margin_pct": null,
+      "net_margin_pct": 6.22,
+      "forecast_dividend_yield_pct": 6.83,
+      "risk_level": "未分级",
+      "business_summary": "在全国20个省区运营火电、水电、风电和光伏机组，向电网公司销售电力并供应热力，利润主要由上网电量、电价、煤耗煤价和融资成本共同决定。",
+      "core_judgement": "普通控股回本口径不适用。公司现金与巨额项目债务、运营电源资产和持续建设资本开支相互匹配，不能把现金折价后从市值中扣除，也不能用单年利润直接当作可持续可分配现金。应改看装机与发电量、电价和燃料成本、经营现金流覆盖资本开支及债务服务、归母普通股利润和分红。故所有普通回本排序数字保持null。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00991.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
