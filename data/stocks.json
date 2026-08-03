@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 18:07:52 +08:00",
+  "built_at": "2026-08-03 18:08:43 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -12601,6 +12601,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002275.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00512.HK",
+      "name": "GRAND PHARMA",
+      "raw_name": "GRAND PHARMA",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 157.57,
+      "pe_ttm": 14.76,
+      "owner_earnback_years": 17.61,
+      "owner_earnback_rate_pct": 5.68,
+      "market_profit_payback_years": 17.61,
+      "market_cash_profit_yield_pct": 5.68,
+      "discounted_detachable_net_cash_yi": 0.0,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": 157.57,
+      "discounted_cash_profit_yi": 8.95,
+      "revenue_yi": 110.34,
+      "gross_profit_yi": 60.91,
+      "parent_net_profit_yi": 11.15,
+      "gross_margin_pct": 55.2,
+      "net_margin_pct": 10.1,
+      "forecast_dividend_yield_pct": 3.37,
+      "risk_level": "未分级",
+      "business_summary": "以处方药与高壁垒创新产品为利润核心，同时经营心脑血管介入器械和氨基酸，依靠研发引进、生产、医院准入与学术推广实现销售。",
+      "core_judgement": "按2026-07-31市值人民币157.57亿元，现金及高流动金融资产折价后仍不足覆盖有息债务，故可剥离净现金取零，经营业务购买价等于市值。现金利润以2025年经营现金流为起点，扣除按折旧摊销近似的正常化维护性投入后再作10%审慎折扣，得到人民币8.95亿元，对应约17.6年回本。若把当年全部物业设备及无形资产购买均视为持续必需投入，当年自由现金流仅约人民币1.14亿元，回本结论会显著恶化。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00512.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
