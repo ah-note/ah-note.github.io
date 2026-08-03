@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 10:26:14 +08:00",
+  "built_at": "2026-08-03 10:28:45 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -11699,6 +11699,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002349.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "920837.BJ",
+      "name": "华原股份",
+      "raw_name": "华原股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 14.81,
+      "pe_ttm": 18.46,
+      "owner_earnback_years": 20.86,
+      "owner_earnback_rate_pct": 4.79,
+      "market_profit_payback_years": 22.91,
+      "market_cash_profit_yield_pct": 4.36,
+      "discounted_detachable_net_cash_yi": 1.33,
+      "discounted_net_cash_to_market_cap_pct": 8.98,
+      "operating_business_price_yi": 13.48,
+      "discounted_cash_profit_yi": 0.65,
+      "revenue_yi": 6.04,
+      "gross_profit_yi": 1.72,
+      "parent_net_profit_yi": 0.75,
+      "gross_margin_pct": 28.49,
+      "net_margin_pct": 12.44,
+      "forecast_dividend_yield_pct": 2.66,
+      "risk_level": "未分级",
+      "business_summary": "为商用车、发动机、工程机械及工业设备客户提供液体和气体过滤产品、过滤系统方案及售后替换件。",
+      "core_judgement": "以2026年7月31日市值14.81亿元为起点；2025年末可随时支付现金3.406亿元仅按80%计入，再扣除1亿元短期借款和年后实施的3944.53万元现金股利，得到折后可剥离净现金1.330亿元。可持续现金利润以2025年扣非归母净利润7181.41万元为锚，因单一关联客户收入占45.04%、经营现金流受票据贴现和营运资金释放影响，再打9折至6463.27万元。经营业务购买价13.480亿元，对应约20.86年回本；这是静态、税前交易费用口径，不是收益承诺。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/920837.BJ/"
     },
     {
       "schema_version": "stock-research-result-v1",
