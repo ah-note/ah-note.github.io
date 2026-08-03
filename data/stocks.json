@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 14:44:17 +08:00",
+  "built_at": "2026-08-03 14:44:48 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -15639,6 +15639,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603355.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00306.HK",
+      "name": "KWOON CHUNG BUS",
+      "raw_name": "KWOON CHUNG BUS",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 11.2,
+      "pe_ttm": 5.37,
+      "owner_earnback_years": 21.13,
+      "owner_earnback_rate_pct": 4.73,
+      "market_profit_payback_years": 11.2,
+      "market_cash_profit_yield_pct": 8.93,
+      "discounted_detachable_net_cash_yi": -9.93,
+      "discounted_net_cash_to_market_cap_pct": -88.7,
+      "operating_business_price_yi": 21.13,
+      "discounted_cash_profit_yi": 1.0,
+      "revenue_yi": 23.53,
+      "gross_profit_yi": 6.16,
+      "parent_net_profit_yi": 1.18,
+      "gross_margin_pct": 26.16,
+      "net_margin_pct": 5.03,
+      "forecast_dividend_yield_pct": 1.58,
+      "risk_level": "未分级",
+      "business_summary": "冠忠巴士以约1,874辆巴士及轿车、客运牌照和景区资产，向香港本地、跨境旅客、酒店与企业客户提供非专营巴士、轿车、专营巴士及内地旅游运输服务。",
+      "core_judgement": "按HKD1=CNY0.93折算，非受限现金及高流动性投资折后合计约4.82亿元，扣除约14.75亿元银行借款后，折后可剥离净现金为-9.93亿元。以2025财年归母利润1.18亿元、经营自由现金流1.42亿元为锚，考虑单年旅游及跨境复苏、应收增长和持续车队资本开支，折后可持续可分配现金利润取1.00亿元。于是经营业务购买价约21.13亿元，对应约21.1年；未扣净负债的市值/现金利润约11.2年。该结果对复苏持续性、更新性资本开支和债务成本高度敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00306.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
