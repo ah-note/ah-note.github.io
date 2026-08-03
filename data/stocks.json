@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 13:34:38 +08:00",
+  "built_at": "2026-08-03 13:35:09 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -3611,6 +3611,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/300533.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00536.HK",
+      "name": "TRADELINK",
+      "raw_name": "TRADELINK",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 7.88,
+      "pe_ttm": 10.9,
+      "owner_earnback_years": 10.2,
+      "owner_earnback_rate_pct": 9.8,
+      "market_profit_payback_years": 14.43,
+      "market_cash_profit_yield_pct": 6.93,
+      "discounted_detachable_net_cash_yi": 2.31,
+      "discounted_net_cash_to_market_cap_pct": 29.29,
+      "operating_business_price_yi": 5.57,
+      "discounted_cash_profit_yi": 0.55,
+      "revenue_yi": 2.33,
+      "gross_profit_yi": 2.13,
+      "parent_net_profit_yi": 0.77,
+      "gross_margin_pct": 91.56,
+      "net_margin_pct": 33.25,
+      "forecast_dividend_yield_pct": 9.47,
+      "risk_level": "未分级",
+      "business_summary": "为香港贸易及物流客户提供政府电子报关/贸易文件传输，并向公私营机构销售数字证书、身份认证、供应链及支付科技方案。",
+      "core_judgement": "按普通经营公司口径：银行存款及现金先扣除全部负债，再额外保留港币5,000万元经营及T+投入缓冲，得到折后可剥离净现金约人民币2.31亿元；以2025年经营自由现金流再打九折作为可持续现金利润，经营业务购买价对应约10.2年回本。该结果高度依赖现金缓冲和2025年利润可持续性的主观假设，不是确定回收期。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00536.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
