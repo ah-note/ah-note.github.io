@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 15:47:44 +08:00",
+  "built_at": "2026-08-03 15:48:35 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -41834,6 +41834,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/01199.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01221.HK",
+      "name": "SINO HOTELS",
+      "raw_name": "SINO HOTELS",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 15.97,
+      "pe_ttm": 17.97,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 0.58,
+      "gross_profit_yi": 0.35,
+      "parent_net_profit_yi": 0.47,
+      "gross_margin_pct": 60.28,
+      "net_margin_pct": 80.67,
+      "forecast_dividend_yield_pct": 2.02,
+      "risk_level": "未分级",
+      "business_summary": "持有并经营/出租香港City Garden Hotel，并通过联营权益分享Conrad Hong Kong和The Royal Pacific Hotel & Towers盈利，同时配置大额存款及酒店业金融资产。",
+      "core_judgement": "普通回本口径不适用。市值低于账面存款余额，但不能据此机械得出负经营业务价格：集团利润中存款利息占比高，大额联营酒店权益与长期金融资产的现金回流受分红和治理约束，City Garden的土地使用权及酒店资产又与四年期经营安排绑定。应采用分部资产净值折价、联营分红穿透、酒店正常化经营现金流和资本配置模型。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01221.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
