@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 11:05:50 +08:00",
+  "built_at": "2026-08-03 11:06:20 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -2368,6 +2368,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/601919.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "920703.BJ",
+      "name": "广厦环能",
+      "raw_name": "广厦环能",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 14.54,
+      "pe_ttm": 18.72,
+      "owner_earnback_years": 10.45,
+      "owner_earnback_rate_pct": 9.57,
+      "market_profit_payback_years": 20.57,
+      "market_cash_profit_yield_pct": 4.86,
+      "discounted_detachable_net_cash_yi": 7.15,
+      "discounted_net_cash_to_market_cap_pct": 49.19,
+      "operating_business_price_yi": 7.39,
+      "discounted_cash_profit_yi": 0.71,
+      "revenue_yi": 3.68,
+      "gross_profit_yi": 1.57,
+      "parent_net_profit_yi": 0.91,
+      "gross_margin_pct": 42.56,
+      "net_margin_pct": 24.6,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "公司为炼化、煤化工和化工新材料项目提供定制化高效换热器，依靠强化传热设计、制造与项目交付能力赚取设备毛利。",
+      "core_judgement": "按2026年7月31日14.54亿元市值，现金等价物按100%、7.25亿元定期存款按85%、保证金按0%，再全额扣除融资及租赁负债，得到折后可剥离净现金7.15亿元；经营业务隐含购买价7.39亿元。以扣非归母净利7852.62万元为基础，再因2025年收入大降、客户集中和项目波动打九折，折后可持续现金利润7067.36万元，对应经营业务回本约10.45年、市值/现金利润约20.57年。这是控股口径估算，不等同于现金可立即分派：定期存款中包含募集资金和期限约束，且产能项目尚需...",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/920703.BJ/"
     },
     {
       "schema_version": "stock-research-result-v1",
