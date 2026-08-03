@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 12:43:43 +08:00",
+  "built_at": "2026-08-03 12:44:13 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -1213,6 +1213,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00710.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00104.HK",
+      "name": "ASIA COMM HOLD",
+      "raw_name": "ASIA COMM HOLD",
+      "market": "HK",
+      "period": "2025-03-31",
+      "currency": "CNY",
+      "market_cap_yi": 1.54,
+      "pe_ttm": 4.54,
+      "owner_earnback_years": 3.93,
+      "owner_earnback_rate_pct": 25.44,
+      "market_profit_payback_years": 3.93,
+      "market_cash_profit_yield_pct": 25.44,
+      "discounted_detachable_net_cash_yi": 0.0,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": 1.54,
+      "discounted_cash_profit_yi": 0.39,
+      "revenue_yi": 6.63,
+      "gross_profit_yi": 2.17,
+      "parent_net_profit_yi": 0.23,
+      "gross_margin_pct": 32.78,
+      "net_margin_pct": 3.45,
+      "forecast_dividend_yield_pct": 12.11,
+      "risk_level": "未分级",
+      "business_summary": "在中国内地经营五家高端钟表门店，以零售差价赚钱，并以香港、瑞士及英国投资物业获取少量租金。",
+      "core_judgement": "普通经营口径适用，但现金主要位于内地且集团同时承担有抵押银行借款；按现金70%折价后不足覆盖银行借款，因此可剥离净现金取零。可持续现金利润先以约60,000千港元的正常化利润为基准，再打七折至42,000千港元（折合人民币39,236,432元），对应回本约3.93年。该数字对门店盈利、税负、供应商关系和现金汇出高度敏感，不是确定收益。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00104.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
