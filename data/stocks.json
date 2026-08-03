@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 16:12:58 +08:00",
+  "built_at": "2026-08-03 16:14:50 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -5874,6 +5874,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002483.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00838.HK",
+      "name": "EVA HOLDINGS",
+      "raw_name": "EVA HOLDINGS",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 10.31,
+      "pe_ttm": 5.66,
+      "owner_earnback_years": 11.74,
+      "owner_earnback_rate_pct": 8.52,
+      "market_profit_payback_years": 6.68,
+      "market_cash_profit_yield_pct": 14.96,
+      "discounted_detachable_net_cash_yi": -7.81,
+      "discounted_net_cash_to_market_cap_pct": -75.71,
+      "operating_business_price_yi": 18.12,
+      "discounted_cash_profit_yi": 1.54,
+      "revenue_yi": 52.2,
+      "gross_profit_yi": 11.66,
+      "parent_net_profit_yi": 2.12,
+      "gross_margin_pct": 22.34,
+      "net_margin_pct": 4.06,
+      "forecast_dividend_yield_pct": 6.16,
+      "risk_level": "未分级",
+      "business_summary": "为OA设备、汽车及ICT客户提供从模具设计到精密零部件和整机装配的一站式D-EMS制造服务。",
+      "core_judgement": "现金折后扣除银行和租赁负债，得到约负7.81亿元人民币，故企业价值高于股权市值。2024、2025经营自由现金流均值约2.06亿元人民币，再打75折得到约1.54亿元可持续现金利润；市值/现金利润6.68倍，含净债务的经营业务购买价回本约11.74年。结论对扩产资本开支能否回落高度敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00838.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
