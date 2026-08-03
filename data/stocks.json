@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 14:02:54 +08:00",
+  "built_at": "2026-08-03 14:03:45 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -5254,6 +5254,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/000848.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00639.HK",
+      "name": "SHOUGANG RES",
+      "raw_name": "SHOUGANG RES",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 104.68,
+      "pe_ttm": 19.24,
+      "owner_earnback_years": 12.73,
+      "owner_earnback_rate_pct": 7.85,
+      "market_profit_payback_years": 26.67,
+      "market_cash_profit_yield_pct": 3.75,
+      "discounted_detachable_net_cash_yi": 54.71,
+      "discounted_net_cash_to_market_cap_pct": 52.27,
+      "operating_business_price_yi": 49.97,
+      "discounted_cash_profit_yi": 3.92,
+      "revenue_yi": 46.77,
+      "gross_profit_yi": 10.03,
+      "parent_net_profit_yi": 5.85,
+      "gross_margin_pct": 21.44,
+      "net_margin_pct": 12.51,
+      "forecast_dividend_yield_pct": 5.25,
+      "risk_level": "未分级",
+      "business_summary": "在山西柳林经营三座合计525万吨核准年产能的焦煤矿和洗煤厂，并开展煤炭贸易，向钢铁及焦化相关客户销售精焦煤。",
+      "core_judgement": "普通经营公司口径适用。自由资金按80%、FVOCI金融资产按50%、受限存款按0%计入，扣租赁负债后按89.40%归母权益比例折算；现金利润以2025年经营现金流减资本开支为基础，同样折归母并打85折。煤价和煤质高度周期化，12.7年是可复核基准而非确定回收期。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00639.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
