@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 18:17:14 +08:00",
+  "built_at": "2026-08-03 18:18:46 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -1833,6 +1833,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00833.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00184.HK",
+      "name": "KECK SENG INV",
+      "raw_name": "KECK SENG INV",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 6.73,
+      "pe_ttm": 3.04,
+      "owner_earnback_years": 4.66,
+      "owner_earnback_rate_pct": 21.44,
+      "market_profit_payback_years": 4.66,
+      "market_cash_profit_yield_pct": 21.44,
+      "discounted_detachable_net_cash_yi": 0.0,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": 6.73,
+      "discounted_cash_profit_yi": 1.44,
+      "revenue_yi": 14.63,
+      "gross_profit_yi": 13.32,
+      "parent_net_profit_yi": 2.33,
+      "gross_margin_pct": 91.07,
+      "net_margin_pct": 15.93,
+      "forecast_dividend_yield_pct": 5.49,
+      "risk_level": "未分级",
+      "business_summary": "经营美国、越南、中国及日本酒店并持有澳门出租物业，以客房、餐饮、老虎机及租金收费赚钱。",
+      "core_judgement": "按控股口径，现金先打八折，再全额扣除银行及股东类融资后为负，因此可剥离净现金取零；经营业务购买价等于市值。可持续现金利润以经营现金流扣除约等于折旧的维持性资本开支，再按归母利润占合并利润76.16%归属化，约1.44亿元人民币；对应静态回本约4.66年。该数字对维持性资本开支、酒店周期和少数股东归属假设高度敏感，不是收益承诺。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00184.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
