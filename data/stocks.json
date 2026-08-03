@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 17:57:19 +08:00",
+  "built_at": "2026-08-03 17:58:10 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -1120,6 +1120,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00887.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00703.HK",
+      "name": "FUTURE BRIGHT",
+      "raw_name": "FUTURE BRIGHT",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 0.59,
+      "pe_ttm": 14.7,
+      "owner_earnback_years": 2.36,
+      "owner_earnback_rate_pct": 42.3,
+      "market_profit_payback_years": 2.36,
+      "market_cash_profit_yield_pct": 42.3,
+      "discounted_detachable_net_cash_yi": 0.0,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": 0.59,
+      "discounted_cash_profit_yi": 0.25,
+      "revenue_yi": 4.42,
+      "gross_profit_yi": 3.32,
+      "parent_net_profit_yi": 0.04,
+      "gross_margin_pct": 75.17,
+      "net_margin_pct": 0.94,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "以澳门和香港餐厅、美食广场及食品手信赚取消费收入，并由澳门投资物业提供租金的区域餐饮集团。",
+      "core_judgement": "普通口径适用，但没有可剥离净现金：现金及受限存款远低于计息借款、关联方垫款及租赁负债。经营现金流需扣除列在融资现金流中的租赁本金和利息，再扣资本开支；以2025年调整后现金利润人民币3537万元为基数，并因单年波动、餐饮周期与高杠杆打七折，得到折后现金利润人民币2476万元。按输入市值计算约2.36年，但该数字不等于安全边际，核心不确定性是债务再融资、物业抵押和现金利润可持续性。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00703.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
