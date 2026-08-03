@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 14:37:50 +08:00",
+  "built_at": "2026-08-03 14:39:42 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -3859,6 +3859,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/01060.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00220.HK",
+      "name": "U-PRESID CHINA",
+      "raw_name": "U-PRESID CHINA",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 280.18,
+      "pe_ttm": 14.35,
+      "owner_earnback_years": 9.37,
+      "owner_earnback_rate_pct": 10.68,
+      "market_profit_payback_years": 14.06,
+      "market_cash_profit_yield_pct": 7.11,
+      "discounted_detachable_net_cash_yi": 93.48,
+      "discounted_net_cash_to_market_cap_pct": 33.37,
+      "operating_business_price_yi": 186.7,
+      "discounted_cash_profit_yi": 19.93,
+      "revenue_yi": 317.14,
+      "gross_profit_yi": 105.29,
+      "parent_net_profit_yi": 20.5,
+      "gross_margin_pct": 33.2,
+      "net_margin_pct": 6.46,
+      "forecast_dividend_yield_pct": 7.32,
+      "risk_level": "未分级",
+      "business_summary": "统一企业中国主要在中国生产并通过经销商及现代零售、电商渠道销售即饮饮料和方便面，利润来自品牌、产品组合、规模生产及渠道效率。",
+      "core_judgement": "以2026-07-31市值280.18亿元计，现金及各类存款折价后扣除银行借款和租赁负债，得到可剥离净现金93.48亿元；经营业务购买价186.70亿元。以2025年经营现金流扣资本开支后的20.98亿元为基础再打95折，现金利润为19.93亿元，对应经营业务约9.37年回本、市值约14.06倍现金利润。该口径假设定存可逐步释放且2025现金转化可持续，不等同于清算价值。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00220.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
