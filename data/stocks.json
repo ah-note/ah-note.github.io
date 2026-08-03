@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 16:24:38 +08:00",
+  "built_at": "2026-08-03 16:26:30 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -42826,6 +42826,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00335.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00222.HK",
+      "name": "MIN XIN HOLD",
+      "raw_name": "MIN XIN HOLD",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 15.47,
+      "pe_ttm": 15.03,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 2.3,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 1.08,
+      "gross_margin_pct": null,
+      "net_margin_pct": 46.82,
+      "forecast_dividend_yield_pct": 2.78,
+      "risk_level": "未分级",
+      "business_summary": "以厦门国际银行联营权益为核心、同时经营港澳一般保险并持有战略投资和出租物业的金融混合控股平台。",
+      "core_judgement": "普通控股回本口径不适用：集团利润中82.1%来自厦门国际银行，权益法利润并不等于上市平台当期收到现金；年报还披露厦门国际银行尚未恢复向公司支付现金股息。应改看约0.21倍市净率所反映的控股平台折价是否足以覆盖银行资产质量、资本与分红上划约束，以及短债再融资风险。2025年集团ROE约1.48%，拟派息覆盖约2.50倍，但单年恢复派息不能证明可持续现金回报。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00222.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
