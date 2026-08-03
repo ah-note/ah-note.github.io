@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 12:38:09 +08:00",
+  "built_at": "2026-08-03 12:38:39 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -1337,6 +1337,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00113.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01397.HK",
+      "name": "碧瑶绿色集团",
+      "raw_name": "BAGUIO GREEN",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 3.25,
+      "pe_ttm": 3.88,
+      "owner_earnback_years": 5.29,
+      "owner_earnback_rate_pct": 18.9,
+      "market_profit_payback_years": 6.03,
+      "market_cash_profit_yield_pct": 16.57,
+      "discounted_detachable_net_cash_yi": 0.4,
+      "discounted_net_cash_to_market_cap_pct": 12.34,
+      "operating_business_price_yi": 2.85,
+      "discounted_cash_profit_yi": 0.54,
+      "revenue_yi": 21.94,
+      "gross_profit_yi": 2.09,
+      "parent_net_profit_yi": 0.88,
+      "gross_margin_pct": 9.51,
+      "net_margin_pct": 4.01,
+      "forecast_dividend_yield_pct": 8.09,
+      "risk_level": "未分级",
+      "business_summary": "香港综合环境服务承包商，以政府及准政府客户的清洁合约为收入主体，并提供废物回收、园艺绿化和虫害管理。",
+      "core_judgement": "按控股口径，现金及短存仅计50%，寿险资产计50%，已质押存款计零，再全额扣银行借款和租赁负债，折后可剥离净现金约人民币40.08百万元。可持续利润先把2025年HK$80.278m的剔除处置收益、公允价值收益和补助后利润，与2024年HK$53.856m利润及近两年现金流对照，取HK$70m中枢，再按合同集中、订单下降、资本开支及上收摩擦折15%，得到人民币53.84百万元。由此经营业务购买价约人民币284.81百万元，约5.29年；不含净现金的市值/现金利润约6.03倍...",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01397.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
