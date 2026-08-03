@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 10:23:11 +08:00",
+  "built_at": "2026-08-03 10:23:41 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -5933,6 +5933,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00966.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "688089.SH",
+      "name": "嘉必优",
+      "raw_name": "嘉必优",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 12.14,
+      "pe_ttm": 22.0,
+      "owner_earnback_years": 15.78,
+      "owner_earnback_rate_pct": 6.34,
+      "market_profit_payback_years": 17.34,
+      "market_cash_profit_yield_pct": 5.77,
+      "discounted_detachable_net_cash_yi": 1.09,
+      "discounted_net_cash_to_market_cap_pct": 9.0,
+      "operating_business_price_yi": 11.05,
+      "discounted_cash_profit_yi": 0.7,
+      "revenue_yi": 5.63,
+      "gross_profit_yi": 2.69,
+      "parent_net_profit_yi": 1.44,
+      "gross_margin_pct": 47.7,
+      "net_margin_pct": 25.52,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "以微生物发酵制造ARA、DHA等高附加值营养素，主要卖给婴幼儿配方食品及营养健康客户。",
+      "core_judgement": "按2026年7月31日市值12.14亿元，现金与定期存款折价并全额扣除有息负债后，经营业务购买价约11.05亿元。2025年经营自由现金流1.26亿元，但其经营现金流受应收回落显著增厚，且2026年海外监管冲击已使经营显著承压，故仅取7000万元压力化可持续现金利润；对应经营业务回本约15.8年、市值/现金利润约17.3倍。这是压力情景估计，不是2026年业绩预测。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/688089.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
