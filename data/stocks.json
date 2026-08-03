@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 14:49:22 +08:00",
+  "built_at": "2026-08-03 14:50:19 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -2584,6 +2584,37 @@
         "高风险"
       ],
       "detail_url": "reports/002091.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00690.HK",
+      "name": "UNI-BIO GROUP",
+      "raw_name": "UNI-BIO GROUP",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 3.38,
+      "pe_ttm": 4.86,
+      "owner_earnback_years": 6.35,
+      "owner_earnback_rate_pct": 15.74,
+      "market_profit_payback_years": 6.72,
+      "market_cash_profit_yield_pct": 14.89,
+      "discounted_detachable_net_cash_yi": 0.18,
+      "discounted_net_cash_to_market_cap_pct": 5.45,
+      "operating_business_price_yi": 3.2,
+      "discounted_cash_profit_yi": 0.5,
+      "revenue_yi": 5.3,
+      "gross_profit_yi": 4.41,
+      "parent_net_profit_yi": 0.84,
+      "gross_margin_pct": 83.17,
+      "net_margin_pct": 15.92,
+      "forecast_dividend_yield_pct": 4.79,
+      "risk_level": "未分级",
+      "business_summary": "一家在中国内地研发、生产并主要通过直销及商业渠道销售生物药和高价值仿制药的盈利型生物制药公司。",
+      "core_judgement": "按普通经营公司口径，市值扣除折后可剥离净现金后，经营业务购买价约3.20亿元人民币；以折后可持续可分配现金利润约0.504亿元计，静态回本约6.35年。该数值是情景估算而非预测：现金仅按70%计入并扣除全部银行与租赁债务；现金利润以2025归母净利和经营自由现金流均值再打85折，以反映新厂资本开支、2026研发费用率拟升至不低于9%及营销投入的不确定性。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00690.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
