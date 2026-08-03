@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 14:05:57 +08:00",
+  "built_at": "2026-08-03 14:06:48 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -39199,6 +39199,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00077.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01395.HK",
+      "name": "ELL ENV",
+      "raw_name": "ELL ENV",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 1.11,
+      "pe_ttm": 6.03,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 1.51,
+      "gross_profit_yi": 0.7,
+      "parent_net_profit_yi": 0.19,
+      "gross_margin_pct": 46.2,
+      "net_margin_pct": 12.77,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "以BOT方式运营江苏如皋污水处理设施和印尼生物质电厂，并经营木颗粒及信息技术服务的环境项目运营商。",
+      "core_judgement": "普通净现金控股回本口径不适用：现金与受限存款需支撑BOT项目，服务特许权应收款对应未来收费而非可剥离金融资产，负债中又有项目借款和关联方融资。应改按各项目剩余期限、保底付款/处理量与上网电量、维护资本开支、利息及本金偿付后的股东可分配现金折现分析；现有披露不足以可靠构建逐项目现金流估值。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01395.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
