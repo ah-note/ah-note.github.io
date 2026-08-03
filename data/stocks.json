@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 13:16:01 +08:00",
+  "built_at": "2026-08-03 13:17:12 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -1430,6 +1430,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600551.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00819.HK",
+      "name": "TIANNENG POWER",
+      "raw_name": "TIANNENG POWER",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 49.02,
+      "pe_ttm": 3.58,
+      "owner_earnback_years": 4.01,
+      "owner_earnback_rate_pct": 24.91,
+      "market_profit_payback_years": 4.01,
+      "market_cash_profit_yield_pct": 24.91,
+      "discounted_detachable_net_cash_yi": 0.0,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": 49.02,
+      "discounted_cash_profit_yi": 12.21,
+      "revenue_yi": 537.99,
+      "gross_profit_yi": 52.8,
+      "parent_net_profit_yi": 14.37,
+      "gross_margin_pct": 9.81,
+      "net_margin_pct": 2.67,
+      "forecast_dividend_yield_pct": 7.31,
+      "risk_level": "未分级",
+      "business_summary": "以轻型电动车用铅酸动力电池为核心、渠道和回收闭环为支撑，并向锂电、储能及海外制造扩展的电池集团。",
+      "core_judgement": "按控股视角，现金及等价物、定期存款和九折结构性银行存款合计仍不足覆盖全部借款，故不从市值扣除净现金；受限/质押存款完全排除。以2025年归母净利润14.368亿元为起点作15%周期与现金转换折扣，得到折后可持续现金利润12.212亿元。静态回本约4.01年，但这不是无风险回报：2025年经营现金流受应付款增加39.84亿元显著推高，且集团约14.9%权益属于少数股东。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00819.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
