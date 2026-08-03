@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 16:02:16 +08:00",
+  "built_at": "2026-08-03 16:03:27 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -2580,6 +2580,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/01022.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01205.HK",
+      "name": "CITIC RESOURCES",
+      "raw_name": "CITIC RESOURCES",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 31.1,
+      "pe_ttm": 21.18,
+      "owner_earnback_years": 6.2,
+      "owner_earnback_rate_pct": 16.13,
+      "market_profit_payback_years": 17.18,
+      "market_cash_profit_yield_pct": 5.82,
+      "discounted_detachable_net_cash_yi": 19.88,
+      "discounted_net_cash_to_market_cap_pct": 63.93,
+      "operating_business_price_yi": 11.22,
+      "discounted_cash_profit_yi": 1.81,
+      "revenue_yi": 135.41,
+      "gross_profit_yi": 3.98,
+      "parent_net_profit_yi": 1.54,
+      "gross_margin_pct": 2.94,
+      "net_margin_pct": 1.14,
+      "forecast_dividend_yield_pct": 5.94,
+      "risk_level": "未分级",
+      "business_summary": "中信资源以油田生产为主要经营利润源，以油品贸易做规模，以澳洲铝冶炼和煤矿补充利润，并持有哈萨克斯坦油气合营及Alcoa上市股权。",
+      "core_judgement": "以2025年末资产负债表为静态起点：现金等价物按100%、关联财务公司存款按90%、Alcoa上市股权按70%计入，受弃置义务约束的长期存款不计入，并全额扣除银行及其他借款和租赁负债，得到折后可剥离净资产约19.88亿元。可持续现金利润取1.81亿元，低于2025年经营自由现金流3.33亿元，意在扣除2025年营运资金释放、Alcoa股息及商品周期波动，并贴近但略高于2025年归母利润1.54亿元。由此经营业务购买价约11.22亿元，静态回本约6.2年；未扣除控股治理、跨境调...",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01205.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
