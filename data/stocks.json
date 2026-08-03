@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 13:23:37 +08:00",
+  "built_at": "2026-08-03 13:24:48 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -1960,6 +1960,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00696.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00411.HK",
+      "name": "LAM SOON (HK)",
+      "raw_name": "LAM SOON (HK)",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 19.94,
+      "pe_ttm": 8.84,
+      "owner_earnback_years": 5.86,
+      "owner_earnback_rate_pct": 17.07,
+      "market_profit_payback_years": 15.35,
+      "market_cash_profit_yield_pct": 6.51,
+      "discounted_detachable_net_cash_yi": 12.34,
+      "discounted_net_cash_to_market_cap_pct": 61.85,
+      "operating_business_price_yi": 7.61,
+      "discounted_cash_profit_yi": 1.3,
+      "revenue_yi": 41.82,
+      "gross_profit_yi": 9.69,
+      "parent_net_profit_yi": 2.62,
+      "gross_margin_pct": 23.17,
+      "net_margin_pct": 6.27,
+      "forecast_dividend_yield_pct": 5.07,
+      "risk_level": "未分级",
+      "business_summary": "在中国内地及香港制造和销售面粉、食用油、特种油脂与清洁用品，以品牌、渠道、采购和生产效率赚取产品价差。",
+      "core_judgement": "折算市值约19.94亿元；现金按75%计入并全额扣租赁负债，折后可剥离净现金约12.34亿元，经营业务购买价约7.61亿元。可持续现金利润按HK$150m（约1.30亿元）估计，低于FY2025自由现金流HK$169.9m，以防原料红利回吐及下半年利润走弱；经营业务回本约5.86年，市值/现金利润约15.35倍。结果对假设敏感，不是清算价值。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00411.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
