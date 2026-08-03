@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 12:14:36 +08:00",
+  "built_at": "2026-08-03 12:15:07 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -31,6 +31,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/000521.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00420.HK",
+      "name": "FOUNTAIN SET",
+      "raw_name": "FOUNTAIN SET",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 5.91,
+      "pe_ttm": 10.65,
+      "owner_earnback_years": -10.45,
+      "owner_earnback_rate_pct": -9.57,
+      "market_profit_payback_years": 14.85,
+      "market_cash_profit_yield_pct": 6.73,
+      "discounted_detachable_net_cash_yi": 10.07,
+      "discounted_net_cash_to_market_cap_pct": 170.38,
+      "operating_business_price_yi": -4.16,
+      "discounted_cash_profit_yi": 0.4,
+      "revenue_yi": 37.43,
+      "gross_profit_yi": 5.06,
+      "parent_net_profit_yi": 0.65,
+      "gross_margin_pct": 13.52,
+      "net_margin_pct": 1.72,
+      "forecast_dividend_yield_pct": 10.69,
+      "risk_level": "未分级",
+      "business_summary": "一家为国际服装品牌和零售商生产针织色布、纱及成衣的垂直一体化纺织制造商。",
+      "core_judgement": "折后可剥离净现金约人民币10.07亿元，高于约5.91亿元市值，公式中的经营业务购买价为负、回本年为-10.45年；负数不是正常经营回本速度，而是折后现金覆盖市值后的剩余。若只按折后持续现金利润看，市值约为14.85倍。结论最敏感于集团现金能否由海外及含少数股东子公司无约束上翻，以及人民币约0.40亿元的持续现金利润估计。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00420.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
