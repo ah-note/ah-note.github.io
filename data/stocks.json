@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 12:55:12 +08:00",
+  "built_at": "2026-08-03 12:55:42 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -37463,6 +37463,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00687.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01226.HK",
+      "name": "中國投融資集團有限公司（01226.HK）",
+      "raw_name": "中國投融資集團有限公司（01226.HK）",
+      "market": "HK",
+      "period": "2026-03-31",
+      "currency": "CNY",
+      "market_cap_yi": 3.12,
+      "pe_ttm": 2.6,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 0.04,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 1.23,
+      "gross_margin_pct": null,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "一家以自有资金持有和买卖香港上市股票、非上市股权及公司债券的封闭式投资公司，收益取决于组合价格、处置和利息股息，而非券商客户业务。",
+      "core_judgement": "普通控股回本口径不适用。公司的上市股权、非上市股权和债权投资是产生收益的核心经营资产，而非可无损剥离的闲置资金；本年归母利润约80%来自上市股权未实现公允价值收益，不能作为稳定可分配现金利润。控股视角应比较市值与经审慎折价的投资组合净值，并持续观察组合集中度、债券信用、已实现回款、费用和实际分红。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01226.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
