@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 15:06:24 +08:00",
+  "built_at": "2026-08-03 15:07:15 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -9129,6 +9129,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00175.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00467.HK",
+      "name": "联合能源集团（00467.HK）",
+      "raw_name": "联合能源集团（00467.HK）",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 80.06,
+      "pe_ttm": 8.33,
+      "owner_earnback_years": 15.49,
+      "owner_earnback_rate_pct": 6.45,
+      "market_profit_payback_years": 12.13,
+      "market_cash_profit_yield_pct": 8.24,
+      "discounted_detachable_net_cash_yi": -22.19,
+      "discounted_net_cash_to_market_cap_pct": -27.72,
+      "operating_business_price_yi": 102.25,
+      "discounted_cash_profit_yi": 6.6,
+      "revenue_yi": 175.87,
+      "gross_profit_yi": 30.98,
+      "parent_net_profit_yi": 10.24,
+      "gross_margin_pct": 17.62,
+      "net_margin_pct": 5.82,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "联合能源通过在巴基斯坦、伊拉克和埃及勘探开发并销售油气赚钱，能源贸易贡献近半收入但利润主要仍来自上游生产。",
+      "core_judgement": "按市值约80.06亿元人民币，先仅保留未明确质押现金的70%及上市证券的80%，再全额扣除银行借款和租赁负债，得到折后可剥离净现金约-22.19亿元；经营业务购买价因此约102.25亿元。以2025年经营现金流减实际资本开支的8.25亿元为基准，再折价20%得到约6.60亿元可持续现金利润，对应控股回本约15.5年、市值/现金利润约12.1倍。该测算不是稳定年金：2026年计划资本开支5亿至6.5亿美元，油价、产量、应收回款和开发成功率均可显著改变结果。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00467.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
