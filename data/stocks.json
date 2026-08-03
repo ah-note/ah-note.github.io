@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 14:14:12 +08:00",
+  "built_at": "2026-08-03 14:16:24 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -2894,6 +2894,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/01066.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01316.HK",
+      "name": "NEXTEER（耐世特）",
+      "raw_name": "NEXTEER（耐世特）",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 90.69,
+      "pe_ttm": 13.28,
+      "owner_earnback_years": 7.51,
+      "owner_earnback_rate_pct": 13.31,
+      "market_profit_payback_years": 9.92,
+      "market_cash_profit_yield_pct": 10.08,
+      "discounted_detachable_net_cash_yi": 22.04,
+      "discounted_net_cash_to_market_cap_pct": 24.3,
+      "operating_business_price_yi": 68.65,
+      "discounted_cash_profit_yi": 9.14,
+      "revenue_yi": 322.22,
+      "gross_profit_yi": 36.76,
+      "parent_net_profit_yi": 7.17,
+      "gross_margin_pct": 11.41,
+      "net_margin_pct": 2.23,
+      "forecast_dividend_yield_pct": 3.57,
+      "risk_level": "未分级",
+      "business_summary": "面向全球整车厂销售转向与传动运动控制系统，其中电动助力转向是绝对主力。",
+      "core_judgement": "以2026-07-31市值90.69亿元，2025年末现金35.19亿元按80%计入，再全额扣除借款3.50亿元和租赁负债2.62亿元，折后可剥离净现金22.04亿元；经营现金流28.46亿元扣除有形、无形和使用权资产投入18.41亿元后自由现金流约10.06亿元，再保守取持续现金利润9.14亿元。对应经营业务购买价68.65亿元、约7.5年回本；这是静态压力测试，不是预测或买卖建议。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01316.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
