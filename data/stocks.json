@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 14:44:48 +08:00",
+  "built_at": "2026-08-03 14:45:38 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -1058,6 +1058,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/08512.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00038.HK",
+      "name": "FIRST TRACTOR",
+      "raw_name": "FIRST TRACTOR",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 85.65,
+      "pe_ttm": 11.07,
+      "owner_earnback_years": 1.95,
+      "owner_earnback_rate_pct": 51.37,
+      "market_profit_payback_years": 13.94,
+      "market_cash_profit_yield_pct": 7.17,
+      "discounted_detachable_net_cash_yi": 73.69,
+      "discounted_net_cash_to_market_cap_pct": 86.04,
+      "operating_business_price_yi": 11.96,
+      "discounted_cash_profit_yi": 6.14,
+      "revenue_yi": 108.23,
+      "gross_profit_yi": 16.39,
+      "parent_net_profit_yi": 8.12,
+      "gross_margin_pct": 15.15,
+      "net_margin_pct": 7.5,
+      "forecast_dividend_yield_pct": 3.49,
+      "risk_level": "未分级",
+      "business_summary": "一拖股份以东方红/YTO品牌销售中大型拖拉机、核心零部件和非道路柴油机，靠整机与自制核心部件、全国经销服务网络及产品升级赚取制造业毛利。",
+      "core_judgement": "以2026-07-31市值85.65亿元计，资金类资产分层折价并扣除借款和租赁负债后为73.69亿元，隐含经营业务购买价11.96亿元。2025年经营自由现金流7.23亿元，再保守折减15%得到可持续可分配现金利润6.14亿元，对应经营业务回本约1.95年、全市值/现金利润约13.94倍。这个低经营业务价格高度依赖大额存单确属可支配、交易性金融资产可按折价变现，以及2025现金利润可持续；不是清算价值承诺。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00038.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
