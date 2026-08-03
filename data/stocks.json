@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 10:37:28 +08:00",
+  "built_at": "2026-08-03 10:39:20 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -16845,6 +16845,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603519.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "001221.SZ",
+      "name": "悍高集团",
+      "raw_name": "悍高集团",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 159.68,
+      "pe_ttm": 22.29,
+      "owner_earnback_years": 24.82,
+      "owner_earnback_rate_pct": 4.03,
+      "market_profit_payback_years": 26.44,
+      "market_cash_profit_yield_pct": 3.78,
+      "discounted_detachable_net_cash_yi": 9.77,
+      "discounted_net_cash_to_market_cap_pct": 6.12,
+      "operating_business_price_yi": 149.91,
+      "discounted_cash_profit_yi": 6.04,
+      "revenue_yi": 35.95,
+      "gross_profit_yi": 13.37,
+      "parent_net_profit_yi": 7.04,
+      "gross_margin_pct": 37.2,
+      "net_margin_pct": 19.57,
+      "forecast_dividend_yield_pct": 1.33,
+      "risk_level": "未分级",
+      "business_summary": "以悍高品牌销售收纳、基础及厨卫五金，并配套户外家具，通过线下经销、云商、电商、直销和出口赚取设计品牌、渠道覆盖与规模制造的价差。",
+      "core_judgement": "按2026-07-31市值159.68亿元，折后可剥离净现金9.77亿元，仅抵扣市值6.12%；经营业务购买价149.91亿元。折后可持续可分配现金利润6.04亿元，对应经营业务回本约24.82年、市值/现金利润约26.44倍。该口径已对IPO资金用途、扩产承诺、2025高增长和增长性资本开支作折扣，仍不是清算价值或未来承诺。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/001221.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
