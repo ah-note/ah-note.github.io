@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 14:31:15 +08:00",
+  "built_at": "2026-08-03 14:32:26 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -3704,6 +3704,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00609.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00728.HK",
+      "name": "CHINA TELECOM",
+      "raw_name": "CHINA TELECOM",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 3731.5,
+      "pe_ttm": 11.81,
+      "owner_earnback_years": 9.12,
+      "owner_earnback_rate_pct": 10.97,
+      "market_profit_payback_years": 9.28,
+      "market_cash_profit_yield_pct": 10.78,
+      "discounted_detachable_net_cash_yi": 64.45,
+      "discounted_net_cash_to_market_cap_pct": 1.73,
+      "operating_business_price_yi": 3667.05,
+      "discounted_cash_profit_yi": 402.3,
+      "revenue_yi": 5295.59,
+      "gross_profit_yi": 4928.4,
+      "parent_net_profit_yi": 331.85,
+      "gross_margin_pct": 93.07,
+      "net_margin_pct": 6.27,
+      "forecast_dividend_yield_pct": 6.67,
+      "risk_level": "未分级",
+      "business_summary": "中国电信依托全国移动、宽带、云网和算力基础设施，向个人、家庭及政企客户按月或按项目收取通信与数字化服务费。",
+      "core_judgement": "按2026-07-31市值3731.50亿元，现金、短期存款及流动金融资产只计50%，并全额扣除有息债务和租赁负债，得到折后可剥离净现金64.45亿元。以公司披露自由现金流447亿元为基础再打九折，折后可持续现金利润402.30亿元，对应经营业务购买价3667.05亿元、静态回本约9.12年。该结果依赖当前资本开支下降后自由现金流可持续，不能视为确定回收期。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00728.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
