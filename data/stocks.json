@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 11:48:41 +08:00",
+  "built_at": "2026-08-03 11:49:11 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -23913,6 +23913,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600489.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "920037.BJ",
+      "name": "广信科技",
+      "raw_name": "广信科技",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 52.45,
+      "pe_ttm": 24.82,
+      "owner_earnback_years": 32.34,
+      "owner_earnback_rate_pct": 3.09,
+      "market_profit_payback_years": 33.87,
+      "market_cash_profit_yield_pct": 2.95,
+      "discounted_detachable_net_cash_yi": 2.37,
+      "discounted_net_cash_to_market_cap_pct": 4.52,
+      "operating_business_price_yi": 50.08,
+      "discounted_cash_profit_yi": 1.55,
+      "revenue_yi": 7.96,
+      "gross_profit_yi": 3.1,
+      "parent_net_profit_yi": 1.98,
+      "gross_margin_pct": 38.99,
+      "net_margin_pct": 24.87,
+      "forecast_dividend_yield_pct": 1.14,
+      "risk_level": "未分级",
+      "business_summary": "以针叶木浆生产变压器等输变电设备用绝缘板材和深加工成型件，主要直销大中型变压器厂。",
+      "core_judgement": "市值52.45亿元，折后净现金2.37亿元仅占4.52%；经营业务价约50.08亿元。以扣非归母净利193547356.14元为起点，对高景气、原料周期及扩产现金需求折价20%，折后现金利润1.55亿元，经营业务回本约32.34年；为情景测算而非预测。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/920037.BJ/"
     },
     {
       "schema_version": "stock-research-result-v1",
