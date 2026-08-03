@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 17:58:10 +08:00",
+  "built_at": "2026-08-03 18:00:02 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -45337,6 +45337,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00813.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01257.HK",
+      "name": "CEB GREENTECH",
+      "raw_name": "CEB GREENTECH",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 13.51,
+      "pe_ttm": 13.88,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 60.78,
+      "gross_profit_yi": 14.25,
+      "parent_net_profit_yi": 1.02,
+      "gross_margin_pct": 23.45,
+      "net_margin_pct": 1.68,
+      "forecast_dividend_yield_pct": 7.74,
+      "risk_level": "未分级",
+      "business_summary": "在中国内地投资并运营生物质发电、危废固废处理和新能源等环保项目，以长期项目运营费、电力销售及政府服务特许安排回收投资。",
+      "core_judgement": "普通回本口径不适用。现金仅约20.6亿元人民币，而计息借款约166.1亿元；无形资产、合约资产和大量应收本质上是长期项目收费权、政府服务费及电价补贴请求权，且部分已为借款作抵押。应改看项目剩余收费期、应收回款、维护资本开支、债务偿付和可持续分红。2025年经营自由现金流表面强劲，但包含营运资金释放，不能直接视作可持续可分配现金利润。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01257.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
