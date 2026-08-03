@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 11:23:23 +08:00",
+  "built_at": "2026-08-03 11:26:16 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -13590,6 +13590,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/300453.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "001312.SZ",
+      "name": "福恩股份",
+      "raw_name": "福恩股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 41.42,
+      "pe_ttm": 17.88,
+      "owner_earnback_years": 21.87,
+      "owner_earnback_rate_pct": 4.57,
+      "market_profit_payback_years": 24.36,
+      "market_cash_profit_yield_pct": 4.1,
+      "discounted_detachable_net_cash_yi": 4.25,
+      "discounted_net_cash_to_market_cap_pct": 10.26,
+      "operating_business_price_yi": 37.17,
+      "discounted_cash_profit_yi": 1.7,
+      "revenue_yi": 17.2,
+      "gross_profit_yi": 4.63,
+      "parent_net_profit_yi": 2.3,
+      "gross_margin_pct": 26.92,
+      "net_margin_pct": 13.39,
+      "forecast_dividend_yield_pct": 1.13,
+      "risk_level": "未分级",
+      "business_summary": "为国内外服装品牌供应再生环保面料，以再生涤粘混纺面料为核心，通过纺纱—织造—染色—后整理一体化和直销订单获利。",
+      "core_judgement": "按2026年7月31日41.42亿元市值，折后可剥离净现金约4.248亿元，经营业务购买价约37.172亿元；以折后可持续现金利润1.70亿元计，经营业务回本约21.9年，未扣现金的市值/现金利润约24.4倍。该数字依赖现金可剥离比例及维护资本开支估计，不是确定回收期。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/001312.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
