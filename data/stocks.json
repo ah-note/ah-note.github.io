@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 12:54:11 +08:00",
+  "built_at": "2026-08-03 12:54:42 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -1995,6 +1995,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00725.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00146.HK",
+      "name": "TAI PING CARPET",
+      "raw_name": "TAI PING CARPET",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 2.61,
+      "pe_ttm": 6.93,
+      "owner_earnback_years": 7.1,
+      "owner_earnback_rate_pct": 14.09,
+      "market_profit_payback_years": 7.96,
+      "market_cash_profit_yield_pct": 12.57,
+      "discounted_detachable_net_cash_yi": 0.28,
+      "discounted_net_cash_to_market_cap_pct": 10.78,
+      "operating_business_price_yi": 2.33,
+      "discounted_cash_profit_yi": 0.33,
+      "revenue_yi": 6.0,
+      "gross_profit_yi": 3.66,
+      "parent_net_profit_yi": 0.4,
+      "gross_margin_pct": 60.97,
+      "net_margin_pct": 6.65,
+      "forecast_dividend_yield_pct": 8.89,
+      "risk_level": "未分级",
+      "business_summary": "以自有设计和制造能力，为全球豪宅、豪华酒店、精品零售、游艇及私人飞机等客户提供高端定制地毯。",
+      "core_judgement": "按普通经营公司口径适用。以2025-12-31现金及一年内定存HK$272.748m，扣除全部租赁负债HK$121.871m和HK$120m营运现金储备，只把余下HK$30.877m视作可剥离净现金；可持续现金利润取HK$36m，低于FY2025归母利润HK$43.78m及租赁付款后自由现金流约HK$51.95m，也略低于2025年下半年利润年化约HK$39.37m。按统一换算1 HKD=0.9113 CNY，经营业务购买价约2.329亿元，回本约7.10年；这是情景测算，不...",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00146.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
