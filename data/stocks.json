@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 14:06:48 +08:00",
+  "built_at": "2026-08-03 14:09:00 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -5471,6 +5471,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/301039.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01361.HK",
+      "name": "361 DEGREES",
+      "raw_name": "361 DEGREES",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 87.09,
+      "pe_ttm": 6.99,
+      "owner_earnback_years": 12.91,
+      "owner_earnback_rate_pct": 7.74,
+      "market_profit_payback_years": 18.28,
+      "market_cash_profit_yield_pct": 5.47,
+      "discounted_detachable_net_cash_yi": 25.56,
+      "discounted_net_cash_to_market_cap_pct": 29.35,
+      "operating_business_price_yi": 61.53,
+      "discounted_cash_profit_yi": 4.76,
+      "revenue_yi": 111.46,
+      "gross_profit_yi": 46.29,
+      "parent_net_profit_yi": 13.09,
+      "gross_margin_pct": 41.53,
+      "net_margin_pct": 11.74,
+      "forecast_dividend_yield_pct": 6.76,
+      "risk_level": "未分级",
+      "business_summary": "361°以大众价位的专业运动鞋服为核心，通过区域经销网络和快速增长的电商渠道销售，利润主要来自成人鞋服及成长较快的儿童鞋类。",
+      "core_judgement": "普通口径适用，但结果对现金可剥离比例和营运资金占用高度敏感。按现金70%可剥离、银行及租赁负债全额扣除，折后净现金25.56亿元；以2025年经营自由现金流5.29亿元再打九折为可持续现金利润4.76亿元，对应经营业务购买价61.53亿元、回本约12.9年。2024年自由现金流为负，故该数字是审慎估算而非稳定事实。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01361.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
