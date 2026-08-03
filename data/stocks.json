@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 10:42:42 +08:00",
+  "built_at": "2026-08-03 10:45:35 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -16628,6 +16628,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603062.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "603406.SH",
+      "name": "天富龙",
+      "raw_name": "天富龙",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 109.28,
+      "pe_ttm": 25.36,
+      "owner_earnback_years": 24.63,
+      "owner_earnback_rate_pct": 4.06,
+      "market_profit_payback_years": 27.32,
+      "market_cash_profit_yield_pct": 3.66,
+      "discounted_detachable_net_cash_yi": 10.75,
+      "discounted_net_cash_to_market_cap_pct": 9.83,
+      "operating_business_price_yi": 98.53,
+      "discounted_cash_profit_yi": 4.0,
+      "revenue_yi": 35.03,
+      "gross_profit_yi": 6.25,
+      "parent_net_profit_yi": 4.42,
+      "gross_margin_pct": 17.85,
+      "net_margin_pct": 12.62,
+      "forecast_dividend_yield_pct": 2.75,
+      "risk_level": "未分级",
+      "business_summary": "公司把废弃PET及聚酯原料加工成定制化的再生有色涤纶短纤维和差别化复合纤维，直销给汽车内饰、健康护理、家纺和建筑工程等产业链客户。",
+      "core_judgement": "按2026-07-31市值109.28亿元，折后可剥离净现金10.75亿元后，经营业务购买价约98.53亿元；以4.00亿元折后可持续可分配现金利润计，静态回本约24.63年。该口径不是承诺：现金含IPO募集资金且越南扩产正在投入，利润也受聚酯价差、政府补助和资本开支周期影响。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/603406.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
