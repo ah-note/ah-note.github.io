@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 16:08:33 +08:00",
+  "built_at": "2026-08-03 16:09:44 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -7269,6 +7269,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/920003.BJ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00664.HK",
+      "name": "铜师傅",
+      "raw_name": "铜师傅",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 7.72,
+      "pe_ttm": 16.94,
+      "owner_earnback_years": 13.46,
+      "owner_earnback_rate_pct": 7.43,
+      "market_profit_payback_years": 15.44,
+      "market_cash_profit_yield_pct": 6.48,
+      "discounted_detachable_net_cash_yi": 0.99,
+      "discounted_net_cash_to_market_cap_pct": 12.84,
+      "operating_business_price_yi": 6.73,
+      "discounted_cash_profit_yi": 0.5,
+      "revenue_yi": 6.17,
+      "gross_profit_yi": 2.08,
+      "parent_net_profit_yi": 0.48,
+      "gross_margin_pct": 33.67,
+      "net_margin_pct": 7.75,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "公司把自主设计和IP授权转化为以铜摆件为主的文创工艺品，主要面向中国消费者在线直销，并以自产、外协和线下门店补充履约。",
+      "core_judgement": "按2025年末资金结构，现金与定存按100%、两类结构性存款按90%，再扣除租赁负债，折后可剥离净现金约9908万元。可持续现金利润取5000万元：从剔除一次性上市费用后的净利6806万元出发，考虑2025年经营现金转化偏弱、库存与应收扩张以及资本开支上升后下调。由此经营业务购买价约6.73亿元，静态回本约13.46年。2026年上市净募资约3.90亿港元全部有明确扩张用途，且不在2025年末报表内，本测算不把它当可剥离现金；该处理偏保守且造成估值时点与报表时点错配，是本结论...",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00664.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
