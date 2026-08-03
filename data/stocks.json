@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 13:59:52 +08:00",
+  "built_at": "2026-08-03 14:02:24 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -1678,6 +1678,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00833.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00839.HK",
+      "name": "CHINA EDU GROUP",
+      "raw_name": "CHINA EDU GROUP",
+      "market": "HK",
+      "period": "2025-08-31",
+      "currency": "CNY",
+      "market_cap_yi": 45.77,
+      "pe_ttm": 4.96,
+      "owner_earnback_years": 4.67,
+      "owner_earnback_rate_pct": 21.41,
+      "market_profit_payback_years": 4.67,
+      "market_cash_profit_yield_pct": 21.41,
+      "discounted_detachable_net_cash_yi": 0.0,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": 45.77,
+      "discounted_cash_profit_yi": 9.8,
+      "revenue_yi": 73.63,
+      "gross_profit_yi": 39.26,
+      "parent_net_profit_yi": 9.77,
+      "gross_margin_pct": 53.32,
+      "net_margin_pct": 13.27,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "运营中国为主、兼有澳大利亚和英国学校的民办高等及职业教育集团，主要靠学生预付学费、住宿费和校园配套服务收费。",
+      "core_judgement": "现金储备67.44亿元低于有息债务102.33亿元，且学费预收和校园资本开支对流动性有现实占用，因此不给任何可剥离净现金抵扣。以经营现金流38.85亿元减年度资本开支26.60亿元得到12.25亿元经营自由现金流，再打八折至9.80亿元，覆盖资本开支周期及维持性/扩张性拆分不清的不确定性。按输入市值，经营业务购买价45.77亿元，对应约4.67年；这是控股口径的情景数，不是确定回收期。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00839.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
