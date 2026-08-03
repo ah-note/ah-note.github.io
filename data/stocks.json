@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 14:17:55 +08:00",
+  "built_at": "2026-08-03 14:18:46 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -2832,6 +2832,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600420.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01099.HK",
+      "name": "国药控股",
+      "raw_name": "国药控股",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 466.6,
+      "pe_ttm": 6.85,
+      "owner_earnback_years": 7.18,
+      "owner_earnback_rate_pct": 13.93,
+      "market_profit_payback_years": 7.18,
+      "market_cash_profit_yield_pct": 13.93,
+      "discounted_detachable_net_cash_yi": 0.0,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": 466.6,
+      "discounted_cash_profit_yi": 65.0,
+      "revenue_yi": 5751.68,
+      "gross_profit_yi": 416.72,
+      "parent_net_profit_yi": 71.55,
+      "gross_margin_pct": 7.25,
+      "net_margin_pct": 1.24,
+      "forecast_dividend_yield_pct": 4.61,
+      "risk_level": "未分级",
+      "business_summary": "国药控股用全国分销与物流网络把药品、医疗器械从厂家送到医院、药店和基层机构，并通过零售药房直达消费者，赚取低毛利、高周转的供应链服务利润。",
+      "core_judgement": "按2026-07-31市值约466.60亿元、可剥离净现金为0、折后可持续归母现金利润65亿元计算，经营业务购买价约466.60亿元，静态回本约7.18年。65亿元低于2025年归母净利润71.55亿元，也显著低于当年经营自由现金流125.34亿元，意在为应收周转继续拉长、营运资金波动和少数股东利益留出余量。这是控股静态口径，不是预测或目标价。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01099.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
