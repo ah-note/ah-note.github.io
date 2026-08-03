@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 11:10:14 +08:00",
+  "built_at": "2026-08-03 11:10:44 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -23944,6 +23944,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/601952.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "920035.BJ",
+      "name": "精创电气",
+      "raw_name": "精创电气",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 16.27,
+      "pe_ttm": 26.39,
+      "owner_earnback_years": 33.26,
+      "owner_earnback_rate_pct": 3.01,
+      "market_profit_payback_years": 36.95,
+      "market_cash_profit_yield_pct": 2.71,
+      "discounted_detachable_net_cash_yi": 1.63,
+      "discounted_net_cash_to_market_cap_pct": 10.0,
+      "operating_business_price_yi": 14.64,
+      "discounted_cash_profit_yi": 0.44,
+      "revenue_yi": 5.51,
+      "gross_profit_yi": 2.59,
+      "parent_net_profit_yi": 0.59,
+      "gross_margin_pct": 47.08,
+      "net_margin_pct": 10.78,
+      "forecast_dividend_yield_pct": 1.78,
+      "risk_level": "未分级",
+      "business_summary": "精创电气向全球冷链、制冷暖通和环境检测客户销售温控器、监测记录仪与检测仪器，并以少量物联网云服务增强产品黏性。",
+      "core_judgement": "按输入市值16.27亿元，先将不受限现金及现金等价物3.393亿元按50%折算，再全额扣除692.18万元租赁负债，得到折后可剥离净现金1.627亿元。50%折扣反映其中约1.45亿元来自IPO净募资、公司仍有募投建设及正常周转需求，不能视为立即可分配。现金利润采用2025年经营现金流6041.03万元减资本开支1638.18万元后的4402.85万元，不对营运资本占用作乐观回拨。由此经营业务购买价14.643亿元，回本约33.26年；不扣现金的市值/现金利润约36.95倍...",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/920035.BJ/"
     },
     {
       "schema_version": "stock-research-result-v1",
