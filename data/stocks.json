@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 17:48:31 +08:00",
+  "built_at": "2026-08-03 17:49:22 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -5781,6 +5781,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/000715.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00546.HK",
+      "name": "FUFENG GROUP",
+      "raw_name": "FUFENG GROUP",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 111.74,
+      "pe_ttm": 4.76,
+      "owner_earnback_years": 11.28,
+      "owner_earnback_rate_pct": 8.87,
+      "market_profit_payback_years": 6.98,
+      "market_cash_profit_yield_pct": 14.32,
+      "discounted_detachable_net_cash_yi": -68.73,
+      "discounted_net_cash_to_market_cap_pct": -61.51,
+      "operating_business_price_yi": 180.47,
+      "discounted_cash_profit_yi": 16.0,
+      "revenue_yi": 278.79,
+      "gross_profit_yi": 54.82,
+      "parent_net_profit_yi": 24.65,
+      "gross_margin_pct": 19.66,
+      "net_margin_pct": 8.84,
+      "forecast_dividend_yield_pct": 9.88,
+      "risk_level": "未分级",
+      "business_summary": "以玉米深加工和发酵产能生产味精、动物营养氨基酸、高端氨基酸及黄原胶，利润来自规模制造、原料与能源成本和产品价差。",
+      "core_judgement": "按80%折算非受限现金并全额扣除借款后，折后可剥离净现金为负68.73亿元，故经营业务购买价高于市值。持续现金利润取16亿元：以2025年经营现金流29.11亿元为起点，扣约13亿元维护性资本开支的保守估计；2025年报告资本开支26.71亿元包含哈萨克斯坦及扩产投入，单年自由现金流仅2.41亿元，不宜机械外推。按此口径经营业务约11.28年回本；该结果对产品周期和维护资本开支假设敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00546.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
