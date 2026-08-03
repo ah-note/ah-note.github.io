@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 17:44:37 +08:00",
+  "built_at": "2026-08-03 17:46:50 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -44996,6 +44996,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00200.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00081.HK",
+      "name": "中国海外宏洋集团",
+      "raw_name": "中国海外宏洋集团",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 75.02,
+      "pe_ttm": 25.85,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 368.74,
+      "gross_profit_yi": 32.01,
+      "parent_net_profit_yi": 3.05,
+      "gross_margin_pct": 8.68,
+      "net_margin_pct": 0.83,
+      "forecast_dividend_yield_pct": 1.5,
+      "risk_level": "未分级",
+      "business_summary": "依托中国海外品牌，在中国内地中等城市开发和销售住宅，并持有少量商场、写字楼、酒店等收租物业。",
+      "core_judgement": "普通控股回本公式不适用。268.65亿元现金低于389.07亿元有息债务，且现金、711.21亿元开发存货和200.76亿元预售款共同承担拿地、施工及交付义务。应改用项目清算模型：逐城评估存货可售货值与减值、受限资金、剩余建安及税费、预售交付义务、净债务和合作项目权益，再判断可分配剩余现金；现有合并年报不足以可靠产出普通回本年。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00081.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
