@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 11:15:18 +08:00",
+  "built_at": "2026-08-03 11:16:09 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -21650,6 +21650,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/301491.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "920119.BJ",
+      "name": "美德乐",
+      "raw_name": "美德乐",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 47.03,
+      "pe_ttm": 16.87,
+      "owner_earnback_years": 29.7,
+      "owner_earnback_rate_pct": 3.37,
+      "market_profit_payback_years": 31.35,
+      "market_cash_profit_yield_pct": 3.19,
+      "discounted_detachable_net_cash_yi": 2.48,
+      "discounted_net_cash_to_market_cap_pct": 5.27,
+      "operating_business_price_yi": 44.55,
+      "discounted_cash_profit_yi": 1.5,
+      "revenue_yi": 13.69,
+      "gross_profit_yi": 4.94,
+      "parent_net_profit_yi": 2.71,
+      "gross_margin_pct": 36.09,
+      "net_margin_pct": 19.82,
+      "forecast_dividend_yield_pct": 0.77,
+      "risk_level": "未分级",
+      "business_summary": "面向新能源电池、汽车零部件等制造业客户直销高精度及通用模块化输送系统，并销售工业组件，核心收入来自定制化生产物流设备的设计、制造和交付。",
+      "core_judgement": "按2026-07-31市值47.03亿元，先将2025年末可随时使用现金、结构性存款/理财和国债逆回购合计约5.03亿元按50%折价，再扣除租赁负债，得到折后可剥离净现金2.48亿元。折扣反映10.21亿元合同负债、项目交付及扩产营运资金约束；2026年IPO净募资6.08亿元有募投用途，未计入。可持续现金利润取1.50亿元，略低于2025年经营自由现金流1.52亿元，显著低于归母净利2.71亿元。由此经营业务购买价44.55亿元，静态控股回本约29.7年；若直接按市值除现金...",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/920119.BJ/"
     },
     {
       "schema_version": "stock-research-result-v1",
