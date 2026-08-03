@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 14:34:17 +08:00",
+  "built_at": "2026-08-03 14:35:08 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -6122,6 +6122,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/000333.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01378.HK",
+      "name": "CHINAHONGQIAO",
+      "raw_name": "CHINAHONGQIAO",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 2073.05,
+      "pe_ttm": 9.62,
+      "owner_earnback_years": 13.16,
+      "owner_earnback_rate_pct": 7.6,
+      "market_profit_payback_years": 11.45,
+      "market_cash_profit_yield_pct": 8.74,
+      "discounted_detachable_net_cash_yi": -309.62,
+      "discounted_net_cash_to_market_cap_pct": -14.94,
+      "operating_business_price_yi": 2382.67,
+      "discounted_cash_profit_yi": 181.09,
+      "revenue_yi": 1623.54,
+      "gross_profit_yi": 415.05,
+      "parent_net_profit_yi": 226.36,
+      "gross_margin_pct": 25.56,
+      "net_margin_pct": 13.94,
+      "forecast_dividend_yield_pct": 6.86,
+      "risk_level": "未分级",
+      "business_summary": "中国宏桥以铝土矿资源和自备/绿电能力为基础，纵向一体化生产并销售氧化铝、铝合金及深加工铝产品，利润核心取决于铝价与矿石、氧化铝、能源成本之间的价差。",
+      "core_judgement": "以2026年7月31日市值2073.05亿元计，折后资金资产444.91亿元不足以覆盖融资及租赁负债754.53亿元，折后可剥离净现金为-309.62亿元，故经营业务购买价为2382.67亿元。2025年经营自由现金流283.39亿元高于归母净利润226.36亿元；为避免把强铝价周期与营运资金释放永久化，以归母净利润为上限并打八折，得到折后可持续现金利润181.09亿元。对应经营业务回本约13.16年，市值/现金利润约11.45倍。该口径是保守情景估算，不是确定预测。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01378.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
