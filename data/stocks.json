@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 16:04:59 +08:00",
+  "built_at": "2026-08-03 16:05:30 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -42299,6 +42299,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00579.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00023.HK",
+      "name": "BANK OF E ASIA",
+      "raw_name": "BANK OF E ASIA",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 379.43,
+      "pe_ttm": 12.6,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 188.73,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 31.43,
+      "gross_margin_pct": null,
+      "net_margin_pct": 16.66,
+      "forecast_dividend_yield_pct": 3.81,
+      "risk_level": "未分级",
+      "business_summary": "一家以香港为基地、覆盖内地及海外市场的综合银行，靠存贷款息差为核心，并以财富管理、保险分销、交易及其他手续费收入补充盈利。",
+      "core_judgement": "普通控股回本口径不适用。银行的现金、同业资产、贷款和证券投资由客户存款、同业资金、存款证和资本共同支持，并受流动性及资本监管约束，不能从市值中作为可剥离净现金扣除。控股视角应改看约0.40倍市净率（仅辅助观察）、3.1% ROE、1.90%净息差、2.69%减值贷款率、24.7%普通股权一级资本比率以及分红可持续性。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00023.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
