@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 15:07:15 +08:00",
+  "built_at": "2026-08-03 15:08:46 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -3266,6 +3266,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00752.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01373.HK",
+      "name": "IH RETAIL",
+      "raw_name": "IH RETAIL",
+      "market": "HK",
+      "period": "2025-04-30",
+      "currency": "CNY",
+      "market_cap_yi": 4.23,
+      "pe_ttm": 10.89,
+      "owner_earnback_years": 7.63,
+      "owner_earnback_rate_pct": 13.11,
+      "market_profit_payback_years": 13.85,
+      "market_cash_profit_yield_pct": 7.22,
+      "discounted_detachable_net_cash_yi": 1.9,
+      "discounted_net_cash_to_market_cap_pct": 44.96,
+      "operating_business_price_yi": 2.33,
+      "discounted_cash_profit_yi": 0.31,
+      "revenue_yi": 23.55,
+      "gross_profit_yi": 10.83,
+      "parent_net_profit_yi": 0.44,
+      "gross_margin_pct": 46.0,
+      "net_margin_pct": 1.88,
+      "forecast_dividend_yield_pct": 7.07,
+      "risk_level": "未分级",
+      "business_summary": "以日本城等品牌经营大众价位家居用品、个人护理、食品及家庭快消品零售网络，主要靠港澳门店的商品进销差价赚钱。",
+      "core_judgement": "按期末现金打八折并扣除银行借款及少数股东贷款，折后可剥离净现金约1.90亿元；现金利润从归母净利出发，加回折旧摊销、扣除资本开支及门店租赁本金，再剔除政府补助并打九折，约0.31亿元。由此经营业务购买价约2.33亿元，对应约7.6年回本。该结果高度依赖租赁付款正常化与利润能否稳定，不能把报表经营自由现金流3.32亿元直接当作可分配现金。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01373.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
