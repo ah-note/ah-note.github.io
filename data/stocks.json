@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 12:19:49 +08:00",
+  "built_at": "2026-08-03 12:20:20 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -372,6 +372,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00380.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01289.HK",
+      "name": "盛力达科技",
+      "raw_name": "盛力达科技",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 2.26,
+      "pe_ttm": 7.01,
+      "owner_earnback_years": -3.9,
+      "owner_earnback_rate_pct": -25.66,
+      "market_profit_payback_years": 13.02,
+      "market_cash_profit_yield_pct": 7.68,
+      "discounted_detachable_net_cash_yi": 2.93,
+      "discounted_net_cash_to_market_cap_pct": 129.93,
+      "operating_business_price_yi": -0.68,
+      "discounted_cash_profit_yi": 0.17,
+      "revenue_yi": 1.84,
+      "gross_profit_yi": 0.54,
+      "parent_net_profit_yi": 0.34,
+      "gross_margin_pct": 29.29,
+      "net_margin_pct": 18.33,
+      "forecast_dividend_yield_pct": 9.07,
+      "risk_level": "未分级",
+      "business_summary": "为轮胎钢帘线等钢丝制品制造商提供电镀黄铜生产线、其他生产线及单机设备，以项目验收确认绝大部分收入。",
+      "core_judgement": "现金等价物按100%、短期定存按80%、订单担保受限现金按0%计，折后可剥离资金2.933亿元，高于输入市值，经营业务购买价为负；但公司仍需为存货、应收和订单履约保留营运资金。可持续现金利润以归母净利扣除减值拨回的估算税后影响后再打八折，取1733.3万元，市值/现金利润约13.0倍。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01289.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
