@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 17:33:17 +08:00",
+  "built_at": "2026-08-03 17:33:48 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -44624,6 +44624,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00019.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00010.HK",
+      "name": "HANG LUNG GROUP",
+      "raw_name": "HANG LUNG GROUP",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 161.89,
+      "pe_ttm": 13.74,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 95.66,
+      "gross_profit_yi": 62.8,
+      "parent_net_profit_yi": 12.65,
+      "gross_margin_pct": 65.63,
+      "net_margin_pct": 13.22,
+      "forecast_dividend_yield_pct": 6.62,
+      "risk_level": "未分级",
+      "business_summary": "通过控股恒隆地产及持有香港物业，经营中国内地与香港的高端商场、写字楼和住宅租赁，并辅以酒店及少量物业销售。",
+      "core_judgement": "普通控股回本公式不适用：集团现金不是独立于物业持有和开发债务的可剥离资金，合并利润及现金流又有36.3%的权益归少数股东。应改看核心底层资产的权益价值、净债务、租赁利润与利息覆盖、恒隆地产向集团的分红路径及控股折价；因此所有普通回本排序字段保持null。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00010.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
