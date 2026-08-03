@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 12:45:04 +08:00",
+  "built_at": "2026-08-03 12:47:36 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -1868,6 +1868,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00071.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00725.HK",
+      "name": "恒都集团",
+      "raw_name": "PERENNIAL INT'L",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 1.55,
+      "pe_ttm": 6.7,
+      "owner_earnback_years": 6.92,
+      "owner_earnback_rate_pct": 14.44,
+      "market_profit_payback_years": 8.71,
+      "market_cash_profit_yield_pct": 11.49,
+      "discounted_detachable_net_cash_yi": 0.32,
+      "discounted_net_cash_to_market_cap_pct": 20.48,
+      "operating_business_price_yi": 1.23,
+      "discounted_cash_profit_yi": 0.18,
+      "revenue_yi": 3.42,
+      "gross_profit_yi": 1.02,
+      "parent_net_profit_yi": 0.27,
+      "gross_margin_pct": 29.7,
+      "net_margin_pct": 7.88,
+      "forecast_dividend_yield_pct": 6.64,
+      "risk_level": "未分级",
+      "business_summary": "为美国等市场客户制造和销售线束、电源线、电缆、电线及相关塑料树脂的小型出口制造商。",
+      "core_judgement": "按一致币种计算，市值扣除折后可剥离净现金后，相当于以约6.92年折后持续现金利润购买经营业务；不扣现金则为约8.71年。这个口径依赖两项保守判断：保留HK$40m必要营运现金，且三年归母利润中位数再打八折。它不是清算价值或收益承诺，客户集中、美国需求与跨境资金限制均可能改变结果。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00725.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
