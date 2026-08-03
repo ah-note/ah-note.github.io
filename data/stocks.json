@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 17:25:20 +08:00",
+  "built_at": "2026-08-03 17:26:11 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -35541,6 +35541,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/000737.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01138.HK",
+      "name": "COSCO SHIP ENGY",
+      "raw_name": "COSCO SHIP ENGY",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 654.73,
+      "pe_ttm": 17.03,
+      "owner_earnback_years": 51.65,
+      "owner_earnback_rate_pct": 1.94,
+      "market_profit_payback_years": 51.65,
+      "market_cash_profit_yield_pct": 1.94,
+      "discounted_detachable_net_cash_yi": 0.0,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": 654.73,
+      "discounted_cash_profit_yi": 12.68,
+      "revenue_yi": 237.01,
+      "gross_profit_yi": 61.07,
+      "parent_net_profit_yi": 40.37,
+      "gross_margin_pct": 25.77,
+      "net_margin_pct": 17.03,
+      "forecast_dividend_yield_pct": 3.17,
+      "risk_level": "未分级",
+      "business_summary": "以自有、控制及合作船队为能源客户提供全球和中国沿海油品运输，并通过长期期租运营LNG船，运费与租船费构成收入。",
+      "core_judgement": "年末现金及银行存款144.22亿元低于有息借款、其他贷款和租赁负债合计354.33亿元，且另有158.89亿元已签约造船承诺，因此不确认可剥离净现金。折后可持续现金利润取2024与2025年经营现金流减全部固定资产购置支出的两年均值12.68亿元；按2026年7月31日市值计算，经营业务购买价654.73亿元，静态回本约51.7年。该数字保守地把扩张船队支出也当作必要资本开支，但仍显示当前市值并非依靠年末现金即可回收；结论对油运周期、维持性资本开支拆分和新船投产回报高度敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01138.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
