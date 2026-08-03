@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 11:34:31 +08:00",
+  "built_at": "2026-08-03 11:35:48 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -12722,6 +12722,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002727.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "920260.BJ",
+      "name": "中寰股份",
+      "raw_name": "中寰股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 8.12,
+      "pe_ttm": 25.05,
+      "owner_earnback_years": 21.15,
+      "owner_earnback_rate_pct": 4.73,
+      "market_profit_payback_years": 25.94,
+      "market_cash_profit_yield_pct": 3.85,
+      "discounted_detachable_net_cash_yi": 1.5,
+      "discounted_net_cash_to_market_cap_pct": 18.47,
+      "operating_business_price_yi": 6.62,
+      "discounted_cash_profit_yi": 0.31,
+      "revenue_yi": 3.08,
+      "gross_profit_yi": 0.96,
+      "parent_net_profit_yi": 0.42,
+      "gross_margin_pct": 31.22,
+      "net_margin_pct": 13.66,
+      "forecast_dividend_yield_pct": 2.55,
+      "risk_level": "未分级",
+      "business_summary": "为天然气采集和输配客户定制并直销阀门执行机构、井口安全控制系统与橇装设备，以设备销售为主、售后维保为辅。",
+      "core_judgement": "以8.12亿元市值扣除1.499亿元折后可剥离净现金后，经营业务购买价约6.621亿元；按折后可持续可分配现金利润3130万元计，经营业务回本约21.2年，市值/现金利润约25.9倍。该口径已排除受限资金和未使用募集资金，并因2025年回款转弱、未来产能建设需要，对扣非利润打八折；它是控股经济测算，不是收益承诺。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/920260.BJ/"
     },
     {
       "schema_version": "stock-research-result-v1",
