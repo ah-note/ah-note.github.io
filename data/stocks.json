@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 13:18:19 +08:00",
+  "built_at": "2026-08-03 13:19:31 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -34084,6 +34084,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/02598.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01180.HK",
+      "name": "PARADISE ENT",
+      "raw_name": "PARADISE ENT",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 9.05,
+      "pe_ttm": 7.43,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": 0.0,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": 0.0,
+      "discounted_detachable_net_cash_yi": 1.3,
+      "discounted_net_cash_to_market_cap_pct": 14.4,
+      "operating_business_price_yi": 7.75,
+      "discounted_cash_profit_yi": 0.0,
+      "revenue_yi": 7.54,
+      "gross_profit_yi": 4.03,
+      "parent_net_profit_yi": 1.28,
+      "gross_margin_pct": 53.53,
+      "net_margin_pct": 16.96,
+      "forecast_dividend_yield_pct": 10.5,
+      "risk_level": "未分级",
+      "business_summary": "向澳门及海外赌场销售、安装和租赁现场多游戏等电子博彩设备与系统，并以赌场运营经验提供顾问服务；原金碧汇彩娱乐场管理业务已终止。",
+      "core_judgement": "普通模型适用，但2025年归母利润约92%来自12月已终止的赌场管理业务；该业务贡献的现金流不可持续。存续业务归母利润仅HK$10.925m，且由披露的总经营现金流减已终止业务贡献推算，存续业务经营现金流约为负HK$10.358m。新赌场顾问服务仅贡献一个月HK$1.452m收入，证据不足以形成正的可持续可分配现金利润。因此只给出折后净现金，不给回本年、市值/现金利润和经营业务购买价；这不是断言存续业务没有价值，而是拒绝用已终止利润作分母。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01180.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
