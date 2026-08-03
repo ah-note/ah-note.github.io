@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 16:14:50 +08:00",
+  "built_at": "2026-08-03 16:16:22 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -20475,6 +20475,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600273.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01318.HK",
+      "name": "MAO GEPING",
+      "raw_name": "MAO GEPING",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 247.75,
+      "pe_ttm": 21.6,
+      "owner_earnback_years": 23.8,
+      "owner_earnback_rate_pct": 4.2,
+      "market_profit_payback_years": 27.19,
+      "market_cash_profit_yield_pct": 3.68,
+      "discounted_detachable_net_cash_yi": 30.91,
+      "discounted_net_cash_to_market_cap_pct": 12.47,
+      "operating_business_price_yi": 216.85,
+      "discounted_cash_profit_yi": 9.11,
+      "revenue_yi": 50.5,
+      "gross_profit_yi": 42.54,
+      "parent_net_profit_yi": 12.04,
+      "gross_margin_pct": 84.22,
+      "net_margin_pct": 23.84,
+      "forecast_dividend_yield_pct": 1.98,
+      "risk_level": "未分级",
+      "business_summary": "以MAOGEPING高端美妆品牌为核心，通过百货专柜体验服务与线上直营销售彩妆、护肤和香氛，并以化妆培训强化专业心智。",
+      "core_judgement": "按2026年7月31日市值247.75亿元，现金及定期存款按90%折后可剥离净现金为30.91亿元，经营业务购买价216.85亿元。以2025年经营现金流减资本开支10.12亿元，再留10%持续性折扣，现金利润9.11亿元，对应经营业务回本约23.8年、市值/现金利润约27.2倍。该口径反映当前价格隐含对品牌增长持续性的较高要求，不构成目标价或买卖建议。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01318.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
