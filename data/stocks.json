@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 14:45:38 +08:00",
+  "built_at": "2026-08-03 14:48:31 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -10431,6 +10431,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/001323.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01147.HK",
+      "name": "EDENSOFT",
+      "raw_name": "EDENSOFT",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 2.18,
+      "pe_ttm": 22.01,
+      "owner_earnback_years": 16.99,
+      "owner_earnback_rate_pct": 5.89,
+      "market_profit_payback_years": 25.66,
+      "market_cash_profit_yield_pct": 3.9,
+      "discounted_detachable_net_cash_yi": 0.74,
+      "discounted_net_cash_to_market_cap_pct": 33.81,
+      "operating_business_price_yi": 1.44,
+      "discounted_cash_profit_yi": 0.09,
+      "revenue_yi": 8.78,
+      "gross_profit_yi": 1.07,
+      "parent_net_profit_yi": 0.1,
+      "gross_margin_pct": 12.14,
+      "net_margin_pct": 1.19,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "面向中国内地企业销售软硬件及相关服务，并提供IT实施支持、云平台设计和企业AI应用，以项目交付、维护服务及云/AI解决方案收费。",
+      "core_judgement": "按输入市值2.181亿元，先将未受限现金按80%计入、再扣除全部租赁负债，得到折后可剥离净现金7374.76万元；经营业务隐含购买价1.444亿元。可持续可分配现金利润取850万元，低于2025年归母利润1040.5万元，原因是收入下滑、应收减值上升，且6197.5万元经营现金流主要来自库存释放，不能直接年化。由此普通控股回本约17.0年，市值/现金利润约25.7倍；这是口径计算，不是收益保证。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01147.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
