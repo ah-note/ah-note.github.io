@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 18:00:33 +08:00",
+  "built_at": "2026-08-03 18:02:05 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -45492,6 +45492,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002541.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01171.HK",
+      "name": "YANKUANG ENERGY",
+      "raw_name": "YANKUANG ENERGY",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 1024.08,
+      "pe_ttm": 11.75,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": -2.26,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": -5.28,
+      "discounted_detachable_net_cash_yi": -1370.71,
+      "discounted_net_cash_to_market_cap_pct": -133.85,
+      "operating_business_price_yi": 2394.78,
+      "discounted_cash_profit_yi": -54.12,
+      "revenue_yi": 1333.41,
+      "gross_profit_yi": 336.44,
+      "parent_net_profit_yi": 85.25,
+      "gross_margin_pct": 25.23,
+      "net_margin_pct": 6.39,
+      "forecast_dividend_yield_pct": 4.9,
+      "risk_level": "未分级",
+      "business_summary": "以中国和澳大利亚煤矿为核心，向电力、冶金、化工及贸易客户销售煤炭，并延伸至煤化工、智慧物流、发电和装备制造。",
+      "core_judgement": "普通经营公司口径适用，但仅将未受限现金按90%计入并全额扣除借款、租赁负债和永续证券后为净负债。2025年经营现金流166.40亿元低于资本开支220.52亿元，自由现金流为-54.12亿元，不能形成正的回本分母；回本年和市值/现金利润不计算。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01171.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
