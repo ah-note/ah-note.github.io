@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 14:30:44 +08:00",
+  "built_at": "2026-08-03 14:31:15 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -5347,6 +5347,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/605259.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01308.HK",
+      "name": "SITC",
+      "raw_name": "SITC",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 920.96,
+      "pe_ttm": 11.25,
+      "owner_earnback_years": 12.48,
+      "owner_earnback_rate_pct": 8.01,
+      "market_profit_payback_years": 12.71,
+      "market_cash_profit_yield_pct": 7.87,
+      "discounted_detachable_net_cash_yi": 16.62,
+      "discounted_net_cash_to_market_cap_pct": 1.8,
+      "operating_business_price_yi": 904.34,
+      "discounted_cash_profit_yi": 72.45,
+      "revenue_yi": 243.69,
+      "gross_profit_yi": 93.61,
+      "parent_net_profit_yi": 87.35,
+      "gross_margin_pct": 38.41,
+      "net_margin_pct": 35.84,
+      "forecast_dividend_yield_pct": 6.09,
+      "risk_level": "未分级",
+      "business_summary": "海丰国际以亚洲近洋高频集装箱航线为核心，配套货代、船代、堆场和仓储，把区域贸易量、运价及船队周转效率转化为现金利润。",
+      "core_judgement": "按2026年7月31日市值，资金资产经折扣并扣除借款、租赁负债和未付股息后仅约16.62亿元，占市值1.80%；以2025年经营自由现金流再打八折作为周期化现金利润约72.45亿元，经营业务购买价约904.34亿元，对应约12.48年回本。该结果不是稳定年金估值：2025年受红海绕航、港口拥堵和较强运价支持，若航线恢复或新增运力压低运价，实际回本会延长。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01308.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
