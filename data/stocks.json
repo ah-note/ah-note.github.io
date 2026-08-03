@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 11:22:23 +08:00",
+  "built_at": "2026-08-03 11:22:54 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -19294,6 +19294,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002782.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "920663.BJ",
+      "name": "明阳科技",
+      "raw_name": "明阳科技",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 16.63,
+      "pe_ttm": 19.0,
+      "owner_earnback_years": 26.56,
+      "owner_earnback_rate_pct": 3.77,
+      "market_profit_payback_years": 27.72,
+      "market_cash_profit_yield_pct": 3.61,
+      "discounted_detachable_net_cash_yi": 0.69,
+      "discounted_net_cash_to_market_cap_pct": 4.18,
+      "operating_business_price_yi": 15.94,
+      "discounted_cash_profit_yi": 0.6,
+      "revenue_yi": 3.89,
+      "gross_profit_yi": 1.59,
+      "parent_net_profit_yi": 0.85,
+      "gross_margin_pct": 40.79,
+      "net_margin_pct": 21.94,
+      "forecast_dividend_yield_pct": 3.01,
+      "risk_level": "未分级",
+      "business_summary": "为汽车座椅系统及其他机械电子客户批量制造自润滑轴承、传力杆、粉末冶金/注射成形零件和调节机构总成件。",
+      "core_judgement": "按2026年7月31日16.63亿元市值，货币资金保守按50%、结构性存款按95%折价，期末无有息借款，得到折后可剥离净现金0.695亿元；市值扣除后经营业务价格15.94亿元。2025年报经营自由现金流0.488亿元受到应收与存货扩张影响，而归母净利润0.854亿元、经营现金流0.789亿元；考虑客户年降、毛利率下滑、扩产资本开支和营运资金波动，将可持续可分配现金利润折至0.60亿元，对应经营业务回本约26.6年、市值/现金利润约27.7倍。这是敏感的主观归一化，不是确定承...",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/920663.BJ/"
     },
     {
       "schema_version": "stock-research-result-v1",
