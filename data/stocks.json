@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 10:59:56 +08:00",
+  "built_at": "2026-08-03 11:00:26 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -17744,6 +17744,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603181.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "920188.BJ",
+      "name": "悦龙科技",
+      "raw_name": "悦龙科技",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 17.88,
+      "pe_ttm": 18.32,
+      "owner_earnback_years": 25.3,
+      "owner_earnback_rate_pct": 3.95,
+      "market_profit_payback_years": 29.43,
+      "market_cash_profit_yield_pct": 3.4,
+      "discounted_detachable_net_cash_yi": 2.51,
+      "discounted_net_cash_to_market_cap_pct": 14.03,
+      "operating_business_price_yi": 15.37,
+      "discounted_cash_profit_yi": 0.61,
+      "revenue_yi": 2.89,
+      "gross_profit_yi": 1.68,
+      "parent_net_profit_yi": 0.9,
+      "gross_margin_pct": 58.05,
+      "net_margin_pct": 31.28,
+      "forecast_dividend_yield_pct": 2.32,
+      "risk_level": "未分级",
+      "business_summary": "为海洋工程、陆地油气开采和工业场景提供定制化高性能柔性软管，利润主要来自高毛利油气柔性管道。",
+      "core_judgement": "按2025年末，将未受限现金100%计入、交易性金融资产按95%、其他权益工具按50%，扣除租赁相关负债，折后净现金2.508亿元；2025年经营自由现金流0.675亿元再折减10%，折后现金利润0.608亿元。以17.88亿元市值计，经营业务价15.372亿元，对应约25.3年回本；市值/现金利润29.4倍。未加入2026年IPO募集资金，且单年现金流尚需更长历史验证。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/920188.BJ/"
     },
     {
       "schema_version": "stock-research-result-v1",
