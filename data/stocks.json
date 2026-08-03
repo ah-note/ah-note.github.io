@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 11:20:11 +08:00",
+  "built_at": "2026-08-03 11:22:23 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -23758,6 +23758,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002746.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "001233.SZ",
+      "name": "海安集团",
+      "raw_name": "海安集团",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 81.75,
+      "pe_ttm": 17.39,
+      "owner_earnback_years": 32.43,
+      "owner_earnback_rate_pct": 3.08,
+      "market_profit_payback_years": 32.7,
+      "market_cash_profit_yield_pct": 3.06,
+      "discounted_detachable_net_cash_yi": 0.67,
+      "discounted_net_cash_to_market_cap_pct": 0.82,
+      "operating_business_price_yi": 81.08,
+      "discounted_cash_profit_yi": 2.5,
+      "revenue_yi": 22.32,
+      "gross_profit_yi": 9.87,
+      "parent_net_profit_yi": 5.6,
+      "gross_margin_pct": 44.23,
+      "net_margin_pct": 25.07,
+      "forecast_dividend_yield_pct": 4.55,
+      "risk_level": "未分级",
+      "business_summary": "以全钢巨型工程机械子午线轮胎销售为主，并用矿山现场轮胎运营管理延伸至安装、维护、维修和运行分析。",
+      "core_judgement": "排除有明确用途的募集资金及非现金等价货币资金，剩余现金按80%计，再扣除有息及租赁负债和应付股利，折后可剥离净现金约0.67亿元。可持续现金利润取2.50亿元，低于扣非净利5.35亿元，以单年自由现金流1.87亿元和近三年经营现金流均值约4.84亿元共同约束。经营业务购买价约81.08亿元，回本约32.43年；结论对募投回报、应收回款和资本开支敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/001233.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
