@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 11:26:16 +08:00",
+  "built_at": "2026-08-03 11:27:27 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -24905,6 +24905,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/601880.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "920060.BJ",
+      "name": "万源通",
+      "raw_name": "万源通",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 32.25,
+      "pe_ttm": 28.11,
+      "owner_earnback_years": 34.47,
+      "owner_earnback_rate_pct": 2.9,
+      "market_profit_payback_years": 35.83,
+      "market_cash_profit_yield_pct": 2.79,
+      "discounted_detachable_net_cash_yi": 1.23,
+      "discounted_net_cash_to_market_cap_pct": 3.81,
+      "operating_business_price_yi": 31.02,
+      "discounted_cash_profit_yi": 0.9,
+      "revenue_yi": 11.8,
+      "gross_profit_yi": 2.38,
+      "parent_net_profit_yi": 1.25,
+      "gross_margin_pct": 20.15,
+      "net_margin_pct": 10.57,
+      "forecast_dividend_yield_pct": 2.36,
+      "risk_level": "未分级",
+      "business_summary": "万源通为汽车电子、家电、工控等客户生产单面、双面和多层印制电路板，利润主要来自多层板等较高附加值产品的制造价差。",
+      "core_judgement": "按2026-07-31市值32.25亿元，折后可剥离净现金1.23亿元仅占市值3.81%；以0.90亿元折后可持续可分配现金利润计，经营业务购买价31.02亿元，对应约34.47年回本。该口径保守折价募集资金理财，并低于2025年0.95亿元经营自由现金流取整，反映扩产和营运资金波动；不是盈利预测或目标价。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/920060.BJ/"
     },
     {
       "schema_version": "stock-research-result-v1",
