@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 11:11:34 +08:00",
+  "built_at": "2026-08-03 11:12:46 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -27509,6 +27509,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/688513.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "688516.SH",
+      "name": "奥特维",
+      "raw_name": "奥特维",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 119.29,
+      "pe_ttm": 29.99,
+      "owner_earnback_years": 42.64,
+      "owner_earnback_rate_pct": 2.35,
+      "market_profit_payback_years": 39.76,
+      "market_cash_profit_yield_pct": 2.51,
+      "discounted_detachable_net_cash_yi": -8.62,
+      "discounted_net_cash_to_market_cap_pct": -7.22,
+      "operating_business_price_yi": 127.91,
+      "discounted_cash_profit_yi": 3.0,
+      "revenue_yi": 63.97,
+      "gross_profit_yi": 20.5,
+      "parent_net_profit_yi": 4.45,
+      "gross_margin_pct": 32.04,
+      "net_margin_pct": 6.95,
+      "forecast_dividend_yield_pct": 2.11,
+      "risk_level": "未分级",
+      "business_summary": "奥特维向光伏、锂电/储能和半导体客户销售需现场安装验收的高端自动化设备，并靠备件与改造服务获得更高毛利的后市场收入。",
+      "core_judgement": "按2026-07-31市值119.29亿元，折后可剥离净现金为-8.62亿元，经营业务购买价约127.91亿元；以3.00亿元折后可持续可分配现金利润估算，经营业务回本约42.64年，市值/现金利润约39.76倍。该数字不是预测或买卖建议，最大敏感项是客户回款、发出商品验收和新业务放量。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/688516.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
