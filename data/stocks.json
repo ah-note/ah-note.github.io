@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 14:43:47 +08:00",
+  "built_at": "2026-08-03 14:44:17 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -3173,6 +3173,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00752.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00315.HK",
+      "name": "SMARTONE TELE",
+      "raw_name": "SMARTONE TELE",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 46.41,
+      "pe_ttm": 11.26,
+      "owner_earnback_years": 7.75,
+      "owner_earnback_rate_pct": 12.9,
+      "market_profit_payback_years": 9.54,
+      "market_cash_profit_yield_pct": 10.48,
+      "discounted_detachable_net_cash_yi": 8.7,
+      "discounted_net_cash_to_market_cap_pct": 18.74,
+      "operating_business_price_yi": 37.71,
+      "discounted_cash_profit_yi": 4.86,
+      "revenue_yi": 57.09,
+      "gross_profit_yi": 37.04,
+      "parent_net_profit_yi": 4.37,
+      "gross_margin_pct": 64.87,
+      "net_margin_pct": 7.66,
+      "forecast_dividend_yield_pct": 6.93,
+      "risk_level": "未分级",
+      "business_summary": "香港移动通信运营商，以月费移动服务和5G家居宽带形成经常性服务收入，同时销售手机配件，并向企业提供5G及物联网方案。",
+      "core_judgement": "按控股口径，现金只按50%计入可剥离价值并扣除银行借款；可持续现金利润从经营现金流依次扣除固定资产采购、频谱付款和租赁本金，再打八折。由此经营业务购买价约37.71亿元，回本约7.75年。该结果高度依赖未来网络投资、频谱续期付款和32港仙分红能否维持，不等同于投资建议。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00315.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
