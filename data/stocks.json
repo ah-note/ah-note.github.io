@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 16:57:37 +08:00",
+  "built_at": "2026-08-03 16:58:28 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -43663,6 +43663,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00002.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00005.HK",
+      "name": "HSBC HOLDINGS",
+      "raw_name": "HSBC HOLDINGS",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 24865.04,
+      "pe_ttm": 17.6,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 4798.84,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 1566.37,
+      "gross_margin_pct": null,
+      "net_margin_pct": 32.64,
+      "forecast_dividend_yield_pct": 3.65,
+      "risk_level": "未分级",
+      "business_summary": "汇丰以香港和英国存款银行为根基，向跨境企业和富裕客户提供贷款、支付、交易、财富管理与保险服务，靠利差、手续费和市场业务收益赚钱。",
+      "core_judgement": "普通控股回本口径不适用：银行的现金、证券和贷款由客户存款、市场融资、保险负债及监管资本共同支撑，无法作为可剥离净现金从市值中扣除；经营现金流也受存贷款和交易头寸变动支配，不代表可持续可分配现金利润。控股视角应改看RoTE相对资本成本、CET1资本缓冲、资产质量和可持续分红。本结果因此将全部普通回本排序字段保持为null。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00005.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
