@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 13:13:15 +08:00",
+  "built_at": "2026-08-03 13:13:45 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -2115,6 +2115,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/01022.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01100.HK",
+      "name": "飞达帽业控股有限公司",
+      "raw_name": "飞达帽业控股有限公司",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 5.35,
+      "pe_ttm": 5.25,
+      "owner_earnback_years": 6.21,
+      "owner_earnback_rate_pct": 16.09,
+      "market_profit_payback_years": 6.51,
+      "market_cash_profit_yield_pct": 15.37,
+      "discounted_detachable_net_cash_yi": 0.24,
+      "discounted_net_cash_to_market_cap_pct": 4.49,
+      "operating_business_price_yi": 5.11,
+      "discounted_cash_profit_yi": 0.82,
+      "revenue_yi": 15.62,
+      "gross_profit_yi": 4.83,
+      "parent_net_profit_yi": 1.09,
+      "gross_margin_pct": 30.94,
+      "net_margin_pct": 6.96,
+      "forecast_dividend_yield_pct": 6.62,
+      "risk_level": "未分级",
+      "business_summary": "为美国和欧洲客户设计、制造及分销帽饰、箱包和配件；制造网络贡献主要利润，持牌品牌贸易平台扩大销售但仍亏损。",
+      "core_judgement": "普通经营公司口径适用。折后可剥离净现金仅占市值约4.5%，结论主要取决于制造利润持续性、贸易亏损收窄及扩产后的资本开支。折后经营业务购买价约需6.2年回收；这是情景化控股口径，不是收益承诺。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01100.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
