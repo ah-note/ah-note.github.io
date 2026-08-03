@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 16:06:41 +08:00",
+  "built_at": "2026-08-03 16:08:33 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -42361,6 +42361,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00023.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00688.HK",
+      "name": "CHINA OVERSEAS",
+      "raw_name": "CHINA OVERSEAS",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 1272.09,
+      "pe_ttm": 10.52,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 1680.89,
+      "gross_profit_yi": 260.64,
+      "parent_net_profit_yi": 126.91,
+      "gross_margin_pct": 15.51,
+      "net_margin_pct": 7.55,
+      "forecast_dividend_yield_pct": 3.96,
+      "risk_level": "未分级",
+      "business_summary": "以住宅开发销售为主、持有商业物业收租为辅的央企地产开发商，利润主要取决于核心城市项目去化、结转毛利和土地成本。",
+      "core_judgement": "普通控股回本口径不适用：现金和存货与预售交付、项目建设及2473.754亿元有息债务绑定，不能把现金折价后直接从市值扣除；经营现金流又受到拿地、销售回款和预售款波动显著影响，单年现金利润也不具普通消费/制造企业的可持续可分配含义。控股视角应改看项目清算价值、存货减值与去化、受限资金、净债务、合同负债交付、租金覆盖利息及持续分红能力。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00688.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
