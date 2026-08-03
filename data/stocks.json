@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 11:10:44 +08:00",
+  "built_at": "2026-08-03 11:11:34 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -18209,6 +18209,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/920160.BJ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "920086.BJ",
+      "name": "科马材料",
+      "raw_name": "科马材料",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 17.87,
+      "pe_ttm": 19.76,
+      "owner_earnback_years": 25.74,
+      "owner_earnback_rate_pct": 3.88,
+      "market_profit_payback_years": 28.82,
+      "market_cash_profit_yield_pct": 3.47,
+      "discounted_detachable_net_cash_yi": 1.91,
+      "discounted_net_cash_to_market_cap_pct": 10.68,
+      "operating_business_price_yi": 15.96,
+      "discounted_cash_profit_yi": 0.62,
+      "revenue_yi": 2.76,
+      "gross_profit_yi": 1.38,
+      "parent_net_profit_yi": 0.9,
+      "gross_margin_pct": 50.11,
+      "net_margin_pct": 32.48,
+      "forecast_dividend_yield_pct": 2.34,
+      "risk_level": "未分级",
+      "business_summary": "向汽车离合器及变速器零部件厂商直销传动摩擦材料，2025年绝大部分收入和利润来自高毛利干式摩擦片。",
+      "core_judgement": "按2026-07-31市值，扣除审慎折后的可剥离净现金后，经营业务隐含购买价约15.96亿元；以6200万元正常化可持续可分配现金利润计，经营业务回本约25.7年，市值与现金利润之比约28.8倍。结果主要受募投资金30%折扣与正常化资本投入判断影响；这是控股回本测算，不是目标价或买卖结论。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/920086.BJ/"
     },
     {
       "schema_version": "stock-research-result-v1",
