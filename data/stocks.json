@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 12:49:57 +08:00",
+  "built_at": "2026-08-03 12:54:11 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -1089,6 +1089,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00236.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00921.HK",
+      "name": "海信家电",
+      "raw_name": "海信家电",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 280.22,
+      "pe_ttm": 9.23,
+      "owner_earnback_years": 3.1,
+      "owner_earnback_rate_pct": 32.21,
+      "market_profit_payback_years": 12.73,
+      "market_cash_profit_yield_pct": 7.85,
+      "discounted_detachable_net_cash_yi": 211.91,
+      "discounted_net_cash_to_market_cap_pct": 75.62,
+      "operating_business_price_yi": 68.31,
+      "discounted_cash_profit_yi": 22.0,
+      "revenue_yi": 879.28,
+      "gross_profit_yi": 187.38,
+      "parent_net_profit_yi": 31.87,
+      "gross_margin_pct": 21.31,
+      "net_margin_pct": 3.62,
+      "forecast_dividend_yield_pct": 6.25,
+      "risk_level": "未分级",
+      "business_summary": "以海信、容声、科龙及日立等品牌在境内外研发、制造和销售暖通空调、冰箱、洗衣机及相关家电，并拓展汽车热管理。",
+      "core_judgement": "普通经营公司口径适用。剔除受限资金后，现金按100%、理财按70%、定存按90%计入并全额扣贷款；以2025年扣非归母利润再折10%估算可持续现金利润。静态经营业务回本约3.10年，但理财安全可变现性、子公司资金上收和维持经营所需现金是关键不确定性。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00921.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
