@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 12:05:03 +08:00",
+  "built_at": "2026-08-03 12:05:54 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -779,6 +779,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/08512.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01358.HK",
+      "name": "PW MEDTECH",
+      "raw_name": "PW MEDTECH",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 12.45,
+      "pe_ttm": 13.85,
+      "owner_earnback_years": 2.81,
+      "owner_earnback_rate_pct": 35.63,
+      "market_profit_payback_years": 16.24,
+      "market_cash_profit_yield_pct": 6.16,
+      "discounted_detachable_net_cash_yi": 10.3,
+      "discounted_net_cash_to_market_cap_pct": 82.72,
+      "operating_business_price_yi": 2.15,
+      "discounted_cash_profit_yi": 0.77,
+      "revenue_yi": 8.24,
+      "gross_profit_yi": 4.07,
+      "parent_net_profit_yi": 0.94,
+      "gross_margin_pct": 49.48,
+      "net_margin_pct": 11.46,
+      "forecast_dividend_yield_pct": 6.77,
+      "risk_level": "未分级",
+      "business_summary": "公司向经销商和医院销售输液器、透析器/血液净化设备及再生医用生物材料，2025年利润核心来自血液净化。",
+      "core_judgement": "按保守折扣，折后可剥离净现金约10.30亿元，市值扣除后经营业务价格约2.15亿元；折后可持续归母现金利润约0.77亿元，对应经营业务约2.81年回本、市值约16.24年现金利润。这里的低经营业务价格高度依赖现金确属可分配、少数股东归属和贷款顺利回收，不能把账面18.03亿元现金全额直接扣市值。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01358.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
