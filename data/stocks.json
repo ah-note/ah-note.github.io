@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 17:33:48 +08:00",
+  "built_at": "2026-08-03 17:34:39 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -35882,6 +35882,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600338.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01286.HK",
+      "name": "IMPRO PRECISION",
+      "raw_name": "IMPRO PRECISION",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 121.79,
+      "pe_ttm": 19.49,
+      "owner_earnback_years": 54.19,
+      "owner_earnback_rate_pct": 1.85,
+      "market_profit_payback_years": 48.12,
+      "market_cash_profit_yield_pct": 2.08,
+      "discounted_detachable_net_cash_yi": -15.37,
+      "discounted_net_cash_to_market_cap_pct": -12.62,
+      "operating_business_price_yi": 137.16,
+      "discounted_cash_profit_yi": 2.53,
+      "revenue_yi": 45.8,
+      "gross_profit_yi": 12.58,
+      "parent_net_profit_yi": 6.53,
+      "gross_margin_pct": 27.48,
+      "net_margin_pct": 14.25,
+      "forecast_dividend_yield_pct": 2.23,
+      "risk_level": "未分级",
+      "business_summary": "为全球工业客户制造高精度、高复杂度关键金属零部件，收入来自投资铸造、精密机加工、砂型铸造和表面处理。",
+      "core_judgement": "以2025年末现金减全部有息债务得到负15.37亿元折后净现金，因此经营业务购买价为市值加净债务约137.16亿元。现金利润采用公司披露的自由现金流2.53亿元人民币，回本约54.2年。该口径很保守且受墨西哥扩产周期影响：若扩产资本开支不能下降或新产能不能形成现金，回本不会改善；若扩产完成后自由现金流恢复，当前回本年会高估长期年数。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01286.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
