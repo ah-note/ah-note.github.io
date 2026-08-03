@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 10:20:20 +08:00",
+  "built_at": "2026-08-03 10:21:31 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -7979,6 +7979,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/000778.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "920159.BJ",
+      "name": "农大科技",
+      "raw_name": "农大科技",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 21.55,
+      "pe_ttm": 15.12,
+      "owner_earnback_years": 17.73,
+      "owner_earnback_rate_pct": 5.64,
+      "market_profit_payback_years": 18.51,
+      "market_cash_profit_yield_pct": 5.4,
+      "discounted_detachable_net_cash_yi": 0.91,
+      "discounted_net_cash_to_market_cap_pct": 4.2,
+      "operating_business_price_yi": 20.64,
+      "discounted_cash_profit_yi": 1.16,
+      "revenue_yi": 23.5,
+      "gross_profit_yi": 3.99,
+      "parent_net_profit_yi": 1.42,
+      "gross_margin_pct": 16.97,
+      "net_margin_pct": 6.06,
+      "forecast_dividend_yield_pct": 2.82,
+      "risk_level": "未分级",
+      "business_summary": "以腐植酸技术为特色，通过经销、直销和邮政渠道销售新型肥料及肥料中间体的生产商。",
+      "core_judgement": "按2026-07-31市值21.55亿元，先从可随时支付现金2.2338亿元中保留0.80亿元必要经营现金，再全额扣除0.5285亿元有息债务，得到折后可剥离净现金0.9053亿元。现金利润以2023-2025年扣非归母净利润中位数1.3700亿元为基准，因毛利率回落、营运资金季节波动且维持性资本开支未直接披露，按85%折为1.1645亿元；对应经营业务购买价20.6447亿元、约17.73年回本。该数是审慎情景测算，不是承诺或目标价。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/920159.BJ/"
     },
     {
       "schema_version": "stock-research-result-v1",
