@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 11:49:11 +08:00",
+  "built_at": "2026-08-03 11:50:22 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -29772,6 +29772,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002125.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "920689.BJ",
+      "name": "克莱特",
+      "raw_name": "克莱特",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 14.41,
+      "pe_ttm": 25.44,
+      "owner_earnback_years": 49.51,
+      "owner_earnback_rate_pct": 2.02,
+      "market_profit_payback_years": 48.03,
+      "market_cash_profit_yield_pct": 2.08,
+      "discounted_detachable_net_cash_yi": -0.44,
+      "discounted_net_cash_to_market_cap_pct": -3.07,
+      "operating_business_price_yi": 14.85,
+      "discounted_cash_profit_yi": 0.3,
+      "revenue_yi": 5.87,
+      "gross_profit_yi": 1.65,
+      "parent_net_profit_yi": 0.55,
+      "gross_margin_pct": 28.17,
+      "net_margin_pct": 9.37,
+      "forecast_dividend_yield_pct": 2.55,
+      "risk_level": "未分级",
+      "business_summary": "为轨道交通、能源核电、海工舰船等中高端装备提供定制化通风机、冷却系统及检修服务的专用设备制造商。",
+      "core_judgement": "按输入市值14.41亿元，货币资金打九折后仍不足覆盖全部借款和租赁负债，折后可剥离净现金为-4,418万元，经营业务购买价约14.85亿元。以3,000万元折后可持续可分配现金利润计算，经营业务回本约49.5年，市值/现金利润约48.0倍；主要不确定性在维护性资本开支及营运资金占用，不能据此作确定性结论。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/920689.BJ/"
     },
     {
       "schema_version": "stock-research-result-v1",
