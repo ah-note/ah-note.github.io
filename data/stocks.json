@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 14:11:50 +08:00",
+  "built_at": "2026-08-03 14:12:41 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -39416,6 +39416,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002541.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00658.HK",
+      "name": "中国高速传动（C TRANSMISSION）",
+      "raw_name": "中国高速传动（C TRANSMISSION）",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 16.18,
+      "pe_ttm": 8.04,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": 0.0,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": 0.0,
+      "discounted_detachable_net_cash_yi": -37.02,
+      "discounted_net_cash_to_market_cap_pct": -228.85,
+      "operating_business_price_yi": 53.2,
+      "discounted_cash_profit_yi": 0.0,
+      "revenue_yi": 197.34,
+      "gross_profit_yi": 42.73,
+      "parent_net_profit_yi": 2.11,
+      "gross_margin_pct": 21.65,
+      "net_margin_pct": 1.07,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "以风电齿轮箱为核心的重型机械传动设备制造商，收入几乎全部来自风电及工业齿轮，但上市母公司的经济权益和现金取得受核心非全资子公司治理约束。",
+      "core_judgement": "以现金及现金等价物56.44亿元减全部借款93.46亿元，折后可剥离净现金为负37.02亿元；质押存款不计入可剥离现金。虽然2025年合并经营自由现金流约20.75亿元，但归母净利润仅2.11亿元、核心子公司贡献约98%收入且控制依赖可终止的一致行动协议，年报又存在审计保留意见和历史巨额减值事项，无法把合并自由现金流可靠视为母公司股东可持续可分配现金。因此本次折后现金利润记0，普通回本年和市值/现金利润不计算；这不是盈利为零，而是可分配口径证据不足。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00658.HK/"
     }
   ]
 }
