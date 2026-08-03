@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 14:26:20 +08:00",
+  "built_at": "2026-08-03 14:28:12 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -2925,6 +2925,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600894.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00780.HK",
+      "name": "同程旅行",
+      "raw_name": "同程旅行",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 289.23,
+      "pe_ttm": 12.81,
+      "owner_earnback_years": 7.31,
+      "owner_earnback_rate_pct": 13.67,
+      "market_profit_payback_years": 9.04,
+      "market_cash_profit_yield_pct": 11.06,
+      "discounted_detachable_net_cash_yi": 55.18,
+      "discounted_net_cash_to_market_cap_pct": 19.08,
+      "operating_business_price_yi": 234.04,
+      "discounted_cash_profit_yi": 32.0,
+      "revenue_yi": 193.96,
+      "gross_profit_yi": 128.58,
+      "parent_net_profit_yi": 23.71,
+      "gross_margin_pct": 66.29,
+      "net_margin_pct": 12.23,
+      "forecast_dividend_yield_pct": 1.87,
+      "risk_level": "未分级",
+      "business_summary": "同程旅行通过腾讯生态、自有应用和网站连接旅行者与酒店、铁路、航空及旅游供应商，核心赚取住宿预订佣金和交通票务服务收入，并向酒店管理及线下旅游延伸。",
+      "core_judgement": "按2026年7月31日市值289.23亿元，现金90%、短期投资80%、可识别长期金融投资50%折价，并全额扣除借款与租赁负债后，可剥离净现金约55.18亿元；经营业务隐含购买价约234.04亿元。以经营自由现金流37.47亿元为锚，考虑营运资金波动、股权激励和旅游周期后取32亿元可持续可分配现金利润，对应经营业务回本约7.31年、市值/现金利润约9.04倍。这是情景估算，不是承诺或买卖建议。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00780.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
