@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 10:33:46 +08:00",
+  "built_at": "2026-08-03 10:34:57 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -7173,6 +7173,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/300230.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "920180.BJ",
+      "name": "爱得科技",
+      "raw_name": "爱得科技",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 13.73,
+      "pe_ttm": 18.53,
+      "owner_earnback_years": 16.82,
+      "owner_earnback_rate_pct": 5.95,
+      "market_profit_payback_years": 21.12,
+      "market_cash_profit_yield_pct": 4.73,
+      "discounted_detachable_net_cash_yi": 2.8,
+      "discounted_net_cash_to_market_cap_pct": 20.37,
+      "operating_business_price_yi": 10.93,
+      "discounted_cash_profit_yi": 0.65,
+      "revenue_yi": 3.02,
+      "gross_profit_yi": 1.78,
+      "parent_net_profit_yi": 0.78,
+      "gross_margin_pct": 58.9,
+      "net_margin_pct": 25.78,
+      "forecast_dividend_yield_pct": 2.58,
+      "risk_level": "未分级",
+      "business_summary": "以自产创伤、脊柱、运动医学等骨科植入耗材为利润核心，通过经销网络进入医院，并以产品矩阵和集采中标量换增长。",
+      "core_judgement": "以非受限现金90%、银行理财95%折算，并保留3000万元经营缓冲；2026年IPO净募资1.97亿元因全部对应扩产、研发和营销项目，不作为可剥离现金。现金利润6500万元介于扣非归母利润7009万元与经营自由现金流5832万元之间。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/920180.BJ/"
     },
     {
       "schema_version": "stock-research-result-v1",
