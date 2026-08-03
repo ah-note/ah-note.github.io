@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 16:22:56 +08:00",
+  "built_at": "2026-08-03 16:23:27 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -8633,6 +8633,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/300515.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00341.HK",
+      "name": "大家樂集團（Café de Coral）",
+      "raw_name": "大家樂集團（Café de Coral）",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 27.69,
+      "pe_ttm": 19.62,
+      "owner_earnback_years": 14.64,
+      "owner_earnback_rate_pct": 6.83,
+      "market_profit_payback_years": 16.63,
+      "market_cash_profit_yield_pct": 6.01,
+      "discounted_detachable_net_cash_yi": 3.32,
+      "discounted_net_cash_to_market_cap_pct": 11.99,
+      "operating_business_price_yi": 24.37,
+      "discounted_cash_profit_yi": 1.67,
+      "revenue_yi": 79.26,
+      "gross_profit_yi": 8.26,
+      "parent_net_profit_yi": 2.15,
+      "gross_margin_pct": 10.42,
+      "net_margin_pct": 2.72,
+      "forecast_dividend_yield_pct": 7.77,
+      "risk_level": "未分级",
+      "business_summary": "以香港大众化速食为核心、辅以休闲餐饮、机构膳食及华南门店网络的直营连锁餐饮集团。",
+      "core_judgement": "按HKD/CNY=0.925统一折算。现金先全额扣除银行借款和HK$300百万经营周转金，再对余额打八折，得到折后可剥离净现金约人民币3.32亿元。可持续现金利润采用HK$180百万：低于FY2024/25归母利润HK$232.7百万，接近FY2025/26归母利润HK$164.1百万并考虑下半年恢复；租赁付款已作为经营必要现金成本看待。由此经营业务购买价约24.37亿元，回本约14.6年。该结果是情景化控股口径，不是目标价。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00341.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
