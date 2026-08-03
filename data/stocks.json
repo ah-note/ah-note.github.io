@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 12:16:38 +08:00",
+  "built_at": "2026-08-03 12:17:08 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -717,6 +717,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00366.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00210.HK",
+      "name": "达芙妮国际",
+      "raw_name": "DAPHNE INT'L",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 5.45,
+      "pe_ttm": 4.91,
+      "owner_earnback_years": 1.16,
+      "owner_earnback_rate_pct": 86.09,
+      "market_profit_payback_years": 5.95,
+      "market_cash_profit_yield_pct": 16.8,
+      "discounted_detachable_net_cash_yi": 4.38,
+      "discounted_net_cash_to_market_cap_pct": 80.49,
+      "operating_business_price_yi": 1.06,
+      "discounted_cash_profit_yi": 0.91,
+      "revenue_yi": 3.64,
+      "gross_profit_yi": 1.91,
+      "parent_net_profit_yi": 1.17,
+      "gross_margin_pct": 52.46,
+      "net_margin_pct": 32.07,
+      "forecast_dividend_yield_pct": 6.53,
+      "risk_level": "未分级",
+      "business_summary": "达芙妮以品牌授权和向加盟商批发女鞋为主，少量直营试店，并以自有投资物业收租补充利润与现金流。",
+      "core_judgement": "内地现金和定存按70%、境外资金按100%、可交易大额存单按80%计入，得到折后可剥离净现金4.384亿元。现金利润取2023至2025年经营自由现金流均值，剔除随现金剥离而消失的利息收入后再打85%持续性折扣。市值扣现金后的经营业务购买价约1.063亿元，对应约1.16年；这不是清算价值，且投资物业及租金业务仍留在经营业务内。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00210.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
