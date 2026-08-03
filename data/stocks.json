@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 12:55:42 +08:00",
+  "built_at": "2026-08-03 12:58:55 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -1867,6 +1867,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/601811.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01022.HK",
+      "name": "FEIYU",
+      "raw_name": "FEIYU",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 6.02,
+      "pe_ttm": 6.0,
+      "owner_earnback_years": 6.05,
+      "owner_earnback_rate_pct": 16.54,
+      "market_profit_payback_years": 8.6,
+      "market_cash_profit_yield_pct": 11.63,
+      "discounted_detachable_net_cash_yi": 1.79,
+      "discounted_net_cash_to_market_cap_pct": 29.7,
+      "operating_business_price_yi": 4.23,
+      "discounted_cash_profit_yi": 0.7,
+      "revenue_yi": 8.1,
+      "gross_profit_yi": 7.44,
+      "parent_net_profit_yi": 1.05,
+      "gross_margin_pct": 91.82,
+      "net_margin_pct": 13.0,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "飞鱼科技通过自研及运营HTML5、移动、PC等网络游戏，主要靠玩家购买虚拟道具和增值服务变现，2025年利润主要由《一步两步》爆发带动。",
+      "core_judgement": "按2026年7月31日市值约6.02亿元，折后可剥离净现金约1.79亿元，经营业务购买价约4.23亿元。2025年经营自由现金流1.35亿元，但收入与利润高度依赖单款HTML5爆款，故仅取7000万元作为折后可持续可分配现金利润；对应经营业务回本约6.05年、市值/现金利润约8.60倍。这是情景化控股口径，不是对未来利润的确定预测。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01022.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
