@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 12:24:36 +08:00",
+  "built_at": "2026-08-03 12:27:49 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -1465,6 +1465,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600583.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00071.HK",
+      "name": "MIRAMAR HOTEL",
+      "raw_name": "MIRAMAR HOTEL",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 59.26,
+      "pe_ttm": 10.17,
+      "owner_earnback_years": 6.78,
+      "owner_earnback_rate_pct": 14.74,
+      "market_profit_payback_years": 16.4,
+      "market_cash_profit_yield_pct": 6.1,
+      "discounted_detachable_net_cash_yi": 34.76,
+      "discounted_net_cash_to_market_cap_pct": 58.65,
+      "operating_business_price_yi": 24.5,
+      "discounted_cash_profit_yi": 3.61,
+      "revenue_yi": 23.32,
+      "gross_profit_yi": 7.87,
+      "parent_net_profit_yi": 6.12,
+      "gross_margin_pct": 33.73,
+      "net_margin_pct": 26.24,
+      "forecast_dividend_yield_pct": 5.58,
+      "risk_level": "未分级",
+      "business_summary": "美丽华以香港尖沙咀投资物业收租为利润底盘，同时直营两家酒店、餐厅及旅行社；旅行社贡献最大收入，物业出租贡献绝大部分EBITDA。",
+      "core_judgement": "以年末现金打八折后再扣除全部账面负债，得到折后可剥离净现金约34.76亿元；不把投资物业或金融投资计入。可持续现金利润以2025年基础归母利润为起点，剔除现金利息依赖、考虑经常性维护资本开支和旅行/酒店周期后取HK$4.00亿（人民币3.61亿元）。据此经营业务购买价约24.50亿元、静态回本约6.8年。该口径高度依赖现金折扣和正常化利润，且没有给投资物业单独变现价值。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00071.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
