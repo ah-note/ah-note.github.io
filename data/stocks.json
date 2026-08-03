@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 15:02:10 +08:00",
+  "built_at": "2026-08-03 15:04:22 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -1988,6 +1988,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00398.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01245.HK",
+      "name": "NIRAKU",
+      "raw_name": "NIRAKU",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 1.89,
+      "pe_ttm": 2.11,
+      "owner_earnback_years": 5.13,
+      "owner_earnback_rate_pct": 19.49,
+      "market_profit_payback_years": 5.13,
+      "market_cash_profit_yield_pct": 19.49,
+      "discounted_detachable_net_cash_yi": 0.0,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": 1.89,
+      "discounted_cash_profit_yi": 0.37,
+      "revenue_yi": 13.69,
+      "gross_profit_yi": 3.3,
+      "parent_net_profit_yi": 0.29,
+      "gross_margin_pct": 24.11,
+      "net_margin_pct": 2.14,
+      "forecast_dividend_yield_pct": 6.41,
+      "risk_level": "未分级",
+      "business_summary": "NIRAKU 在日本经营49家弹珠机及老虎机厅，以玩家投入减派彩后的净额为核心收入，并以游艺厅、酒店和餐饮作补充。",
+      "core_judgement": "账面现金及存款折人民币5.52亿元，高于银行借款约0.76亿元，但现金要支撑约3.00亿元经营现金流规模、设备更新、租赁偿付和短期债务；按现金70%折价后不足覆盖借款，因此不计可剥离净现金。现金利润从经营现金流扣除物业设备及无形资产资本开支，再扣除被列在融资活动的租赁本金，得到约5271万元，进一步按70%折为3690万元；以1.893亿元市值计，普通控股回本约5.13年。该数字对租赁续约、设备更新强度和派彩率高度敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01245.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
