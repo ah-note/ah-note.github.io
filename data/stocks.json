@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 11:18:40 +08:00",
+  "built_at": "2026-08-03 11:20:11 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -11079,6 +11079,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002533.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "920651.BJ",
+      "name": "天罡股份",
+      "raw_name": "天罡股份",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 14.03,
+      "pe_ttm": 18.36,
+      "owner_earnback_years": 20.16,
+      "owner_earnback_rate_pct": 4.96,
+      "market_profit_payback_years": 23.38,
+      "market_cash_profit_yield_pct": 4.28,
+      "discounted_detachable_net_cash_yi": 1.94,
+      "discounted_net_cash_to_market_cap_pct": 13.79,
+      "operating_business_price_yi": 12.09,
+      "discounted_cash_profit_yi": 0.6,
+      "revenue_yi": 3.52,
+      "gross_profit_yi": 1.6,
+      "parent_net_profit_yi": 0.77,
+      "gross_margin_pct": 45.51,
+      "net_margin_pct": 21.81,
+      "forecast_dividend_yield_pct": 3.04,
+      "risk_level": "未分级",
+      "business_summary": "面向热力和水务公司销售超声波计量仪表、智能调控终端及软硬件一体化节能解决方案。",
+      "core_judgement": "按2026-07-31市值14.03亿元，扣除折后可剥离净现金1.935亿元后，经营业务购买价约12.09亿元；以6,000万元折后可持续可分配现金利润计，经营业务回本约20.2年，未扣现金的市值/现金利润约23.4倍。该结果依赖理财定存可回收、募投资金约束和维持性资本开支判断，不是收益承诺。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/920651.BJ/"
     },
     {
       "schema_version": "stock-research-result-v1",
