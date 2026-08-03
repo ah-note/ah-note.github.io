@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 14:25:02 +08:00",
+  "built_at": "2026-08-03 14:26:20 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -3766,6 +3766,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600729.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00709.HK",
+      "name": "GIORDANO INT'L",
+      "raw_name": "GIORDANO INT'L",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 19.47,
+      "pe_ttm": 10.43,
+      "owner_earnback_years": 9.68,
+      "owner_earnback_rate_pct": 10.33,
+      "market_profit_payback_years": 12.46,
+      "market_cash_profit_yield_pct": 8.03,
+      "discounted_detachable_net_cash_yi": 4.35,
+      "discounted_net_cash_to_market_cap_pct": 22.32,
+      "operating_business_price_yi": 15.12,
+      "discounted_cash_profit_yi": 1.56,
+      "revenue_yi": 34.81,
+      "gross_profit_yi": 19.41,
+      "parent_net_profit_yi": 1.96,
+      "gross_margin_pct": 55.76,
+      "net_margin_pct": 5.63,
+      "forecast_dividend_yield_pct": 10.42,
+      "risk_level": "未分级",
+      "business_summary": "佐丹奴通过亚洲及海湾地区的直营门店、电商和加盟批发销售大众休闲服装，利润主要取决于品牌吸引力、商品毛利和门店效率。",
+      "core_judgement": "以2026年7月31日市值计，先将年末现金按70%计入并全额扣除银行贷款，折后可剥离净现金约4.35亿元，占市值22.3%；再以剔除一次性物业出售收益后的2025年归母利润约1.56亿元作为折后可持续现金利润，经营业务购买价约15.12亿元，对应约9.68年回本。该数字是静态控股口径，不是收益承诺；若品牌重塑费用、库存占用或门店租赁现金支出持续上升，实际回本会更慢。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00709.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
