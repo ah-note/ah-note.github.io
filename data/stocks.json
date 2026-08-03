@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 14:03:45 +08:00",
+  "built_at": "2026-08-03 14:05:57 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -3611,6 +3611,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600729.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00288.HK",
+      "name": "WH GROUP",
+      "raw_name": "WH GROUP",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 932.7,
+      "pe_ttm": 8.89,
+      "owner_earnback_years": 9.72,
+      "owner_earnback_rate_pct": 10.29,
+      "market_profit_payback_years": 9.27,
+      "market_cash_profit_yield_pct": 10.79,
+      "discounted_detachable_net_cash_yi": -45.72,
+      "discounted_net_cash_to_market_cap_pct": -4.9,
+      "operating_business_price_yi": 978.42,
+      "discounted_cash_profit_yi": 100.65,
+      "revenue_yi": 1969.89,
+      "gross_profit_yi": 350.53,
+      "parent_net_profit_yi": 110.14,
+      "gross_margin_pct": 17.79,
+      "net_margin_pct": 5.59,
+      "forecast_dividend_yield_pct": 7.55,
+      "risk_level": "未分级",
+      "business_summary": "万洲国际在中国、北美和欧洲经营生猪养殖屠宰、猪肉销售和品牌包装肉制品，包装肉贡献绝大部分分部利润。",
+      "core_judgement": "普通经营口径适用。现金和短期理财折价后仍不足覆盖借款及租赁负债，经营业务购买价高于市值。以剔除生物资产公允价值影响后的归母利润US$1,591m为起点，再作10%周期与可分配性折扣，静态控股回本约9.72年；这是经营持续和利润可上收的估算，不是保证。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00288.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
