@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 16:33:59 +08:00",
+  "built_at": "2026-08-03 16:35:31 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -30302,6 +30302,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/688580.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01115.HK",
+      "name": "5100 XIZANG（5100 藏冰川）",
+      "raw_name": "5100 XIZANG（5100 藏冰川）",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 20.58,
+      "pe_ttm": 25.05,
+      "owner_earnback_years": 34.95,
+      "owner_earnback_rate_pct": 2.86,
+      "market_profit_payback_years": 34.3,
+      "market_cash_profit_yield_pct": 2.92,
+      "discounted_detachable_net_cash_yi": -0.39,
+      "discounted_net_cash_to_market_cap_pct": -1.9,
+      "operating_business_price_yi": 20.97,
+      "discounted_cash_profit_yi": 0.6,
+      "revenue_yi": 3.58,
+      "gross_profit_yi": 1.79,
+      "parent_net_profit_yi": 0.86,
+      "gross_margin_pct": 50.05,
+      "net_margin_pct": 24.09,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "公司以西藏水源生产和销售高端瓶装水，并生产销售啤酒，同时通过授权、批发和分销获得收入。",
+      "core_judgement": "普通经营模型适用，但账面类资金资产不能按面值扣市值：现金按80%，大额无抵押第三方贷款按35%，FVTPL及衍生金融资产按30%，再全额扣除银行借款、可转债及租赁负债，得到折后可剥离净现金为负约3,908万元。可持续可分配现金利润以2025年经营自由现金流8,913万元为起点，考虑其中利息收入依赖被折价的贷款资产、政府补助和汇兑等非核心项目，同时参考水与啤酒分部盈利改善，保守取6,000万元。对应经营业务购买价约20.97亿元、回本约34.9年；该结果高度依赖2025年扭亏是...",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01115.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
