@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 17:55:20 +08:00",
+  "built_at": "2026-08-03 17:57:19 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -45368,6 +45368,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002541.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "00825.HK",
+      "name": "NWDS CHINA",
+      "raw_name": "NWDS CHINA",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 3.92,
+      "pe_ttm": 18.01,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": -7.91,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": -20.02,
+      "discounted_detachable_net_cash_yi": -5.99,
+      "discounted_net_cash_to_market_cap_pct": -152.98,
+      "operating_business_price_yi": 9.91,
+      "discounted_cash_profit_yi": -0.78,
+      "revenue_yi": 10.8,
+      "gross_profit_yi": 8.47,
+      "parent_net_profit_yi": 0.23,
+      "gross_margin_pct": 78.45,
+      "net_margin_pct": 2.14,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "在中国内地经营百货/购物中心，以专柜佣金、直营商品销售、场内出租及自有投资物业租金赚钱。",
+      "core_judgement": "普通经营公司口径适用，但不是正向回本：FY2025年末资金约人民币6.78亿元，扣有息借款约人民币12.77亿元后为净债务约人民币5.99亿元。经营现金流扣资本开支后虽为正，再扣租入门店的租赁本金后约为负人民币0.78亿元；若再计租赁利息及借款利息，缺口更大。因此现金利润分母不成立，回本年及市值/现金利润为null。投资物业是租金业务核心经营资产，不并入可剥离现金。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00825.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
