@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 18:02:05 +08:00",
+  "built_at": "2026-08-03 18:03:16 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -23885,6 +23885,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603500.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01057.HK",
+      "name": "ZHEJIANG SHIBAO",
+      "raw_name": "ZHEJIANG SHIBAO",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 27.81,
+      "pe_ttm": 16.18,
+      "owner_earnback_years": 25.92,
+      "owner_earnback_rate_pct": 3.86,
+      "market_profit_payback_years": 27.81,
+      "market_cash_profit_yield_pct": 3.6,
+      "discounted_detachable_net_cash_yi": 1.89,
+      "discounted_net_cash_to_market_cap_pct": 6.79,
+      "operating_business_price_yi": 25.92,
+      "discounted_cash_profit_yi": 1.0,
+      "revenue_yi": 35.49,
+      "gross_profit_yi": 6.58,
+      "parent_net_profit_yi": 1.81,
+      "gross_margin_pct": 18.54,
+      "net_margin_pct": 5.09,
+      "forecast_dividend_yield_pct": 1.77,
+      "risk_level": "未分级",
+      "business_summary": "浙江世宝是面向整车厂直接配套的汽车转向系统及关键零部件制造商，增长主要来自电动化、智能化转向产品放量。",
+      "core_judgement": "按2026年7月31日市值，现金及现金等价物全额、交易性金融资产八折计入，并扣除全部有息债务及租赁负债，得到折后可剥离净现金1.89亿元；对2025年扣非归母利润1.55亿元留出0.55亿元审慎储备后，折后可持续现金利润取1.00亿元。对应经营业务购买价25.92亿元，经营业务回本约25.9年，市值/现金利润约27.8倍。该口径显著受扩产资本开支和现金转化假设影响。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01057.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
