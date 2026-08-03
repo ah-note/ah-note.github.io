@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-03 10:39:20 +08:00",
+  "built_at": "2026-08-03 10:40:30 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -14241,6 +14241,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/601018.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "920768.BJ",
+      "name": "拾比佰",
+      "raw_name": "拾比佰",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 10.47,
+      "pe_ttm": 17.83,
+      "owner_earnback_years": 22.58,
+      "owner_earnback_rate_pct": 4.43,
+      "market_profit_payback_years": 20.94,
+      "market_cash_profit_yield_pct": 4.78,
+      "discounted_detachable_net_cash_yi": -0.82,
+      "discounted_net_cash_to_market_cap_pct": -7.82,
+      "operating_business_price_yi": 11.29,
+      "discounted_cash_profit_yi": 0.5,
+      "revenue_yi": 18.26,
+      "gross_profit_yi": 1.91,
+      "parent_net_profit_yi": 0.54,
+      "gross_margin_pct": 10.46,
+      "net_margin_pct": 2.96,
+      "forecast_dividend_yield_pct": 1.59,
+      "risk_level": "未分级",
+      "business_summary": "拾比佰向家电品牌商和OEM厂商供应PCM、VCM金属外观复合板，依靠辊涂加工、双基地交付和规模采购赚取薄加工价差。",
+      "core_judgement": "按市值10.47亿元，非受限现金及理财4275.24万元扣有息债务1.246亿元后为净债务8184.90万元，经营业务购买价约11.29亿元。以5000万元保守现金利润计，经营业务回本约22.58年，市值/现金利润20.94倍；前提是2025盈利修复大体持续且营运资金不再大幅吞噬现金。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/920768.BJ/"
     },
     {
       "schema_version": "stock-research-result-v1",
