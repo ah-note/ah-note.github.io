@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 14:03:01 +08:00",
+  "built_at": "2026-08-04 14:04:34 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -51506,6 +51506,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/01637.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "06060.HK",
+      "name": "众安在线",
+      "raw_name": "众安在线",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 159.29,
+      "pe_ttm": 15.18,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 334.85,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 11.02,
+      "gross_margin_pct": null,
+      "net_margin_pct": 3.29,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "众安在线通过自营渠道和互联网生态伙伴销售健康、数字生活、汽车及消费金融相关财险，以承保盈余和保险资金投资收益为主要利润来源，并以权益法持有境外科技与数字银行平台。",
+      "core_judgement": "普通控股回本口径不适用：保险投资资产与保单履约义务、监管资本和融资结构相匹配，不能折价后直接从市值扣除；经营现金流也受保费收取、赔付时点和投资买卖影响，不能当作普通自由现金流。控股视角应改看综合成本率及其稳定性、投资收益率、ROE、偿付能力资本、合营投资减值和实际分红。按2026-08-03市值约159.29亿元，市净率约0.63倍、相对2025归母净利约14.5倍仅作专项观察，不替代普通回本年。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/06060.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
