@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 21:43:28 +08:00",
+  "built_at": "2026-08-04 21:44:21 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -14926,6 +14926,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/02192.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "09699.HK",
+      "name": "SF INTRA-CITY",
+      "raw_name": "SF INTRA-CITY",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 66.7,
+      "pe_ttm": 25.21,
+      "owner_earnback_years": 12.6,
+      "owner_earnback_rate_pct": 7.94,
+      "market_profit_payback_years": 20.39,
+      "market_cash_profit_yield_pct": 4.91,
+      "discounted_detachable_net_cash_yi": 25.47,
+      "discounted_net_cash_to_market_cap_pct": 38.18,
+      "operating_business_price_yi": 41.23,
+      "discounted_cash_profit_yi": 3.27,
+      "revenue_yi": 228.99,
+      "gross_profit_yi": 14.45,
+      "parent_net_profit_yi": 2.78,
+      "gross_margin_pct": 6.31,
+      "net_margin_pct": 1.21,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "以众包骑手和数字化调度网络，为商家、消费者及物流公司提供同城即时与最后一公里配送，并从每单配送服务费中赚取薄利。",
+      "core_judgement": "按现金100%、流动结构性存款95%、扣除租赁负债且不把应收款或非流动股权投资当作可剥离资金，折后净现金约25.47亿元；以2025年经营现金流减资本开支3.27亿元作为折后可持续可分配现金利润，市值扣净现金后的经营业务价格约41.23亿元，对应约12.6年回本。该口径建立在2025年现金转化可持续、营运资金不显著恶化且结构性存款可按接近账面退出的假设上。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/09699.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
