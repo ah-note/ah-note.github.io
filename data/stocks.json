@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 03:59:44 +08:00",
+  "built_at": "2026-08-05 04:00:36 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -40966,6 +40966,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002993.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "CVCO",
+      "name": "Cavco Industries, Inc. - Common Stock",
+      "raw_name": "Cavco Industries, Inc. - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 284.51,
+      "pe_ttm": 23.8,
+      "owner_earnback_years": 25.97,
+      "owner_earnback_rate_pct": 3.85,
+      "market_profit_payback_years": 27.95,
+      "market_cash_profit_yield_pct": 3.58,
+      "discounted_detachable_net_cash_yi": 20.16,
+      "discounted_net_cash_to_market_cap_pct": 7.09,
+      "operating_business_price_yi": 264.35,
+      "discounted_cash_profit_yi": 10.18,
+      "revenue_yi": 145.11,
+      "gross_profit_yi": 33.52,
+      "parent_net_profit_yi": 12.31,
+      "gross_margin_pct": 23.1,
+      "net_margin_pct": 8.49,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "Cavco以流水线方式制造并通过经销商和自营门店销售工厂建造住房，同时用按揭与保险服务辅助成交。",
+      "core_judgement": "按7.20人民币/美元统一换算；现金按80%、可交易投资按70%折算，排除受限现金及金融服务贷款，并全额扣除租赁负债。FY2025经营自由现金流再打九折作为可持续可分配现金利润。折后净现金仅覆盖市值7.1%，经营业务购买价对应约26.0年回本，估值并未因账上现金显著变便宜。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/CVCO/"
     },
     {
       "schema_version": "stock-research-result-v1",
