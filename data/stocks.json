@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 14:54:36 +08:00",
+  "built_at": "2026-08-04 14:55:07 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -5773,6 +5773,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/02539.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "02317.HK",
+      "name": "味丹国际（控股）有限公司",
+      "raw_name": "味丹国际（控股）有限公司",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 9.3,
+      "pe_ttm": 8.15,
+      "owner_earnback_years": 6.19,
+      "owner_earnback_rate_pct": 16.14,
+      "market_profit_payback_years": 8.48,
+      "market_cash_profit_yield_pct": 11.79,
+      "discounted_detachable_net_cash_yi": 2.51,
+      "discounted_net_cash_to_market_cap_pct": 26.98,
+      "operating_business_price_yi": 6.79,
+      "discounted_cash_profit_yi": 1.1,
+      "revenue_yi": 26.77,
+      "gross_profit_yi": 4.75,
+      "parent_net_profit_yi": 1.22,
+      "gross_margin_pct": 17.74,
+      "net_margin_pct": 4.55,
+      "forecast_dividend_yield_pct": 13.1,
+      "risk_level": "未分级",
+      "business_summary": "以越南为核心生产与销售基地，将木薯、糖蜜等原料加工成味精调味料、淀粉糖、特化产品，并拓展咖啡豆供应链业务。",
+      "core_judgement": "按输入市值9.301亿元，现金及短期存款折价后扣除银行及租赁负债，折后可剥离净现金约2.509亿元；经营业务隐含购买价约6.792亿元。以2025归母净利为基准打九折得到可持续可分配现金利润约1.096亿元，对应经营业务回本约6.19年、市值/现金利润约8.48倍。该数字是基于一年数据的审慎估算，不是确定回报；存货占用、需求与原料周期会显著改变结果。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/02317.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
