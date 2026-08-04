@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 17:02:49 +08:00",
+  "built_at": "2026-08-04 17:03:21 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -9036,6 +9036,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/01766.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01846.HK",
+      "name": "EUROEYES",
+      "raw_name": "EUROEYES",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 6.69,
+      "pe_ttm": 14.28,
+      "owner_earnback_years": 9.24,
+      "owner_earnback_rate_pct": 10.83,
+      "market_profit_payback_years": 9.24,
+      "market_cash_profit_yield_pct": 10.83,
+      "discounted_detachable_net_cash_yi": 0.0,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": 6.69,
+      "discounted_cash_profit_yi": 0.72,
+      "revenue_yi": 7.2,
+      "gross_profit_yi": 2.93,
+      "parent_net_profit_yi": 0.49,
+      "gross_margin_pct": 40.74,
+      "net_margin_pct": 6.84,
+      "forecast_dividend_yield_pct": 1.91,
+      "risk_level": "未分级",
+      "business_summary": "在德国、中国、英国、丹麦、瑞士及收购后的荷兰运营高端屈光眼科诊所，向自费患者提供老花与近视矫正手术。",
+      "core_judgement": "按FYEO收购后扩大集团备考：经营现金流剔除一次性交易费后约2.52亿元，扣设备/无形资产购置约0.77亿元及租赁本金约0.84亿元，基础现金利润约0.91亿元；再打八折得0.72亿元。备考现金低于借款、租赁、或有对价及赎回负债，可剥离净现金取零，回本约9.24年。此为压力测试，不是预测。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01846.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
