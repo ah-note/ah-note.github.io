@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 01:57:12 +08:00",
+  "built_at": "2026-08-05 01:58:34 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -41555,6 +41555,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603332.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "02361.HK",
+      "name": "SINOHEALTH TECH",
+      "raw_name": "SINOHEALTH TECH",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 18.73,
+      "pe_ttm": 21.05,
+      "owner_earnback_years": 27.89,
+      "owner_earnback_rate_pct": 3.59,
+      "market_profit_payback_years": 35.25,
+      "market_cash_profit_yield_pct": 2.84,
+      "discounted_detachable_net_cash_yi": 3.91,
+      "discounted_net_cash_to_market_cap_pct": 20.89,
+      "operating_business_price_yi": 14.82,
+      "discounted_cash_profit_yi": 0.53,
+      "revenue_yi": 4.19,
+      "gross_profit_yi": 2.49,
+      "parent_net_profit_yi": 0.93,
+      "gross_margin_pct": 59.43,
+      "net_margin_pct": 22.3,
+      "forecast_dividend_yield_pct": 1.49,
+      "risk_level": "未分级",
+      "business_summary": "以医疗健康产业数据为底座，向药企、零售药房等客户销售研究、营销、SaaS/API和行业活动服务。",
+      "core_judgement": "以现金及未质押定存按80%计、可随时赎回理财按50%计，并全额扣除总负债，得到折后可剥离净现金3.913亿元。现金利润以2025年经营现金流减设备及无形资产投入后的自由现金流6,642.4万元为基准，再按80%折扣至5,313.9万元，以覆盖应收增长、现金流年度波动和AI投入不确定性。按输入市值，扣除折后净现金后的经营业务价格约14.82亿元，对应约27.9年；不扣现金的市值/折后现金利润约35.3倍。该数字是统一假设下的控股回本测算，不是目标价。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/02361.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
