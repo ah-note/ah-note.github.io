@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 14:34:26 +08:00",
+  "built_at": "2026-08-04 14:34:58 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -25063,6 +25063,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002835.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "TBPH",
+      "name": "Theravance Biopharma, Inc. - Ordinary Shares",
+      "raw_name": "Theravance Biopharma, Inc. - Ordinary Shares",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 58.97,
+      "pe_ttm": 7.56,
+      "owner_earnback_years": 23.53,
+      "owner_earnback_rate_pct": 4.25,
+      "market_profit_payback_years": 31.49,
+      "market_cash_profit_yield_pct": 3.18,
+      "discounted_detachable_net_cash_yi": 14.89,
+      "discounted_net_cash_to_market_cap_pct": 25.25,
+      "operating_business_price_yi": 44.07,
+      "discounted_cash_profit_yi": 1.87,
+      "revenue_yi": 7.52,
+      "gross_profit_yi": 7.52,
+      "parent_net_profit_yi": 7.41,
+      "gross_margin_pct": 100.0,
+      "net_margin_pct": 98.54,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "以YUPELRI慢阻肺雾化吸入药的合作利润分成为核心、并保留有限销售里程碑的轻资产生物制药权益公司。",
+      "core_judgement": "以2026年3月末3.947亿美元现金及证券为较新流动性起点，并100%扣除当期全部1.817亿美元负债，得到折后可剥离净现金约14.89亿元。持续现金利润不采用2025年报表净利或经营现金流，而以YUPELRI 2025合作分成收入0.750亿美元为基底，扣除2025费用经公司预计每年0.70亿美元削减后的费用，再按21%税率估算，得到约1.87亿元。由此经营业务购买价约44.07亿元、经营回本约23.5年；该数字对费用削减兑现和YUPELRI增长高度敏感，且截至估值日公司...",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/TBPH/"
     },
     {
       "schema_version": "stock-research-result-v1",
