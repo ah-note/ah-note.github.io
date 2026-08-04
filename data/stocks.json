@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 18:08:02 +08:00",
+  "built_at": "2026-08-04 18:09:15 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -22087,6 +22087,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002154.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "ZM",
+      "name": "Zoom Communications, Inc. - Class A Common Stock",
+      "raw_name": "Zoom Communications, Inc. - Class A Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 1900.97,
+      "pe_ttm": 14.15,
+      "owner_earnback_years": 18.85,
+      "owner_earnback_rate_pct": 5.31,
+      "market_profit_payback_years": 25.95,
+      "market_cash_profit_yield_pct": 3.85,
+      "discounted_detachable_net_cash_yi": 520.04,
+      "discounted_net_cash_to_market_cap_pct": 27.36,
+      "operating_business_price_yi": 1380.93,
+      "discounted_cash_profit_yi": 73.27,
+      "revenue_yi": 340.72,
+      "gross_profit_yi": 262.41,
+      "parent_net_profit_yi": 132.97,
+      "gross_margin_pct": 77.02,
+      "net_margin_pct": 39.03,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "Zoom 以云端订阅方式销售 AI 优先的员工协作与客户体验软件，靠高毛利经常性订阅和较低资本开支产生现金。",
+      "core_judgement": "以2026-08-03市值计，折后可剥离净现金约占市值27.4%；扣除这部分后，经营业务购买价约1381亿元。以FY2026自由现金流减股权激励、再打九折所得约73.3亿元可持续现金利润计，经营业务静态回本约18.8年，未扣现金的市值/现金利润约25.9倍。该口径未计入约110亿元战略投资的潜在价值，较保守；但也假定当前现金生成能力可持续。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/ZM/"
     },
     {
       "schema_version": "stock-research-result-v1",
