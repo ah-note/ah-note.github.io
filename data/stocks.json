@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 22:20:44 +08:00",
+  "built_at": "2026-08-04 22:21:37 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -24071,6 +24071,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002588.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "AOS",
+      "name": "A. O. Smith Corporation (NYSE: AOS)",
+      "raw_name": "A. O. Smith Corporation (NYSE: AOS)",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 551.46,
+      "pe_ttm": 16.75,
+      "owner_earnback_years": 17.8,
+      "owner_earnback_rate_pct": 5.62,
+      "market_profit_payback_years": 16.69,
+      "market_cash_profit_yield_pct": 5.99,
+      "discounted_detachable_net_cash_yi": -36.56,
+      "discounted_net_cash_to_market_cap_pct": -6.63,
+      "operating_business_price_yi": 588.02,
+      "discounted_cash_profit_yi": 33.04,
+      "revenue_yi": 267.85,
+      "gross_profit_yi": 104.02,
+      "parent_net_profit_yi": 38.2,
+      "gross_margin_pct": 38.83,
+      "net_margin_pct": 14.26,
+      "forecast_dividend_yield_pct": 2.59,
+      "risk_level": "未分级",
+      "business_summary": "A. O. Smith以北美热水器为利润核心，同时经营锅炉和水处理产品，并在中国、印度及欧洲销售。",
+      "core_judgement": "以2026-08-03市值551.46亿元，扣除折后可剥离净现金-36.56亿元（即加回净负债）后，经营业务购买价588.02亿元；以2026年自由现金流指引下限5.25亿美元再打九折所得33.04亿元现金利润计，约17.80年回本。该数字包含Leonard Valve收购贷款及其进入2026指引后的现金流，但尚无完整2026年报，属于保守备考口径而非确定预测。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/AOS/"
     },
     {
       "schema_version": "stock-research-result-v1",
