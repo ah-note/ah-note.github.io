@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 05:14:16 +08:00",
+  "built_at": "2026-08-05 05:14:48 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -77515,6 +77515,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/BBDC/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "DVN",
+      "name": "Devon Energy Corporation Common Stock",
+      "raw_name": "Devon Energy Corporation Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 3512.54,
+      "pe_ttm": 12.57,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 1234.1,
+      "gross_profit_yi": 573.39,
+      "parent_net_profit_yi": 189.7,
+      "gross_margin_pct": 46.46,
+      "net_margin_pct": 15.37,
+      "forecast_dividend_yield_pct": 3.0,
+      "risk_level": "未分级",
+      "business_summary": "在美国多盆地开发油气资源、把地下储量转化为原油天然气销量和自由现金流的独立上游生产商。",
+      "core_judgement": "普通上游经营公司回本框架原则上适用，但本次不产出排序数字：3512.54亿元市值日期为合并完成后，而2025年报现金、债务及自由现金流仅为合并前Devon。直接相减或相除会混用两个公司边界。油气公司的维持性资本开支还需按产量递减和储量替代进一步校准。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/DVN/"
     },
     {
       "schema_version": "stock-research-result-v1",
