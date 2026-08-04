@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 16:33:45 +08:00",
+  "built_at": "2026-08-04 16:34:38 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -13190,6 +13190,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/920003.BJ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01621.HK",
+      "name": "VICO INTL HLDGS",
+      "raw_name": "VICO INTL HLDGS",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 1.72,
+      "pe_ttm": 12.48,
+      "owner_earnback_years": 13.4,
+      "owner_earnback_rate_pct": 7.47,
+      "market_profit_payback_years": 16.61,
+      "market_cash_profit_yield_pct": 6.02,
+      "discounted_detachable_net_cash_yi": 0.33,
+      "discounted_net_cash_to_market_cap_pct": 19.35,
+      "operating_business_price_yi": 1.39,
+      "discounted_cash_profit_yi": 0.1,
+      "revenue_yi": 14.4,
+      "gross_profit_yi": 0.43,
+      "parent_net_profit_yi": 0.12,
+      "gross_margin_pct": 2.97,
+      "net_margin_pct": 0.8,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "在香港分销柴油及润滑油，并以油站网络的购油价差提供车队卡服务。",
+      "core_judgement": "按2025-03-31的0.9323人民币/港元换算，对现金打九折、定存打九五折并全额扣除银行债务及租赁负债，得到折后可剥离净现金约人民币3330万元。2025经营现金流因应收及其他应收款减少约2690万港元而被显著抬高，不直接外推；以归母净利打九折作为折后可持续现金利润。对应经营业务购买价约人民币1.388亿元，静态回本约13.4年；这是口径测算，不是确定收益或买卖建议。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01621.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
