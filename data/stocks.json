@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 23:53:27 +08:00",
+  "built_at": "2026-08-04 23:56:04 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -19793,6 +19793,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/TDW/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "SBH",
+      "name": "Sally Beauty Holdings, Inc. (Name to be changed from Sally Holdings, Inc.) Common Stock",
+      "raw_name": "Sally Beauty Holdings, Inc. (Name to be changed from Sally Holdings, Inc.) Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 96.38,
+      "pe_ttm": 8.27,
+      "owner_earnback_years": 15.02,
+      "owner_earnback_rate_pct": 6.66,
+      "market_profit_payback_years": 9.48,
+      "market_cash_profit_yield_pct": 10.55,
+      "discounted_detachable_net_cash_yi": -56.26,
+      "discounted_net_cash_to_market_cap_pct": -58.37,
+      "operating_business_price_yi": 152.64,
+      "discounted_cash_profit_yi": 10.16,
+      "revenue_yi": 263.13,
+      "gross_profit_yi": 135.83,
+      "parent_net_profit_yi": 13.92,
+      "gross_margin_pct": 51.62,
+      "net_margin_pct": 5.29,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "通过Sally Beauty向大众及沙龙专业人士零售专业美容用品，并通过BSG向持牌美容专业人士独家分销。",
+      "core_judgement": "按7.1089人民币/美元换算，50%期末现金减全部有息债务后，折后可剥离净现金为-56.26亿元；因此经营业务购买价为152.64亿元。FY2023-2025经营自由现金流平均约11.29亿元，因2025年库存释放且门店投资仍在进行，再折价10%得到可持续现金利润10.16亿元，对应控股回本约15.0年；未计利息债务时的市值/现金利润为9.5倍。该口径不是收益承诺。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/SBH/"
     },
     {
       "schema_version": "stock-research-result-v1",
