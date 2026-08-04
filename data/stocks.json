@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 23:15:19 +08:00",
+  "built_at": "2026-08-04 23:18:36 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -66789,6 +66789,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/BVFL/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "FRME",
+      "name": "First Merchants Corporation - Common Stock",
+      "raw_name": "First Merchants Corporation - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 181.09,
+      "pe_ttm": 13.87,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": null,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 16.11,
+      "gross_margin_pct": null,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": 3.68,
+      "risk_level": "未分级",
+      "business_summary": "以美国印第安纳州为核心的区域银行控股公司，用存款发放贷款和配置证券赚取净息差，并收取财富管理、银行卡和按揭等手续费。",
+      "core_judgement": "普通控股回本口径不适用：银行不能在不破坏流动性、资本充足和牌照经营的情况下剥离所谓净现金。替代观察为市值/2025年末普通股权益约1.03倍、市值/2025归母净利润约11.24倍，并结合净息差3.29%、CET1 11.70%、不良资产率0.38%、拨备率1.42%和分红能力；这些解释性倍数不进入普通回本排序。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/FRME/"
     },
     {
       "schema_version": "stock-research-result-v1",
