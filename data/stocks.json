@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 01:34:53 +08:00",
+  "built_at": "2026-08-05 01:37:29 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -71005,6 +71005,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/HBT/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "HWBK",
+      "name": "Hawthorn Bancshares, Inc. - Common Stock",
+      "raw_name": "Hawthorn Bancshares, Inc. - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 18.16,
+      "pe_ttm": 10.62,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": null,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 1.67,
+      "gross_margin_pct": null,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": 2.24,
+      "risk_level": "未分级",
+      "business_summary": "一家以密苏里州社区银行为核心、向个人和中小企业吸收存款并发放商业及房地产贷款，同时提供财富管理的区域银行控股公司。",
+      "core_judgement": "普通控股回本模型不适用。银行的现金、证券、贷款、客户存款和借款共同构成受监管的经营资产负债，不能将现金减负债后从市值剥离，也不能用经营现金流替代可分配利润。控股视角应结合约1.49倍市净率、10.62倍输入PE、14.95% ROE、3.89%净息差、资产质量、资本充足率和约2.24%预测分红率判断。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/HWBK/"
     },
     {
       "schema_version": "stock-research-result-v1",
