@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 15:15:17 +08:00",
+  "built_at": "2026-08-04 15:16:50 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -6862,6 +6862,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00780.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01585.HK",
+      "name": "YADEA",
+      "raw_name": "YADEA",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 286.26,
+      "pe_ttm": 10.32,
+      "owner_earnback_years": 7.43,
+      "owner_earnback_rate_pct": 13.47,
+      "market_profit_payback_years": 12.45,
+      "market_cash_profit_yield_pct": 8.03,
+      "discounted_detachable_net_cash_yi": 115.47,
+      "discounted_net_cash_to_market_cap_pct": 40.34,
+      "operating_business_price_yi": 170.79,
+      "discounted_cash_profit_yi": 23.0,
+      "revenue_yi": 370.08,
+      "gross_profit_yi": 70.71,
+      "parent_net_profit_yi": 29.12,
+      "gross_margin_pct": 19.11,
+      "net_margin_pct": 7.87,
+      "forecast_dividend_yield_pct": 5.08,
+      "risk_level": "未分级",
+      "business_summary": "雅迪通过广泛经销网络销售电动自行车、踏板车、电池及配件，并以品牌、产品组合和供应链垂直整合获取利润。",
+      "core_judgement": "按现金100%、定期存款95%、低风险银行理财及结构性存款85%，扣除银行借款及政府融资，估算折后可剥离净现金115.47亿元；不把43.60亿元质押存款视为可拿走现金。可持续现金利润取23亿元，低于2025年归母净利与当年自由现金流，以剔除理财公允价值收益并避免把应付票据扩张带来的现金流一次性收益资本化。由此经营业务购买价170.79亿元，约7.43年回本；该结果高度依赖2025年毛利率改善能否持续。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01585.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
