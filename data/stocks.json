@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 20:00:38 +08:00",
+  "built_at": "2026-08-04 20:02:12 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -16011,6 +16011,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002011.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01701.HK",
+      "name": "TU YI HLDG",
+      "raw_name": "TU YI HLDG",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 0.62,
+      "pe_ttm": 7.62,
+      "owner_earnback_years": 13.7,
+      "owner_earnback_rate_pct": 7.3,
+      "market_profit_payback_years": 13.7,
+      "market_cash_profit_yield_pct": 7.3,
+      "discounted_detachable_net_cash_yi": 0.0,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": 0.62,
+      "discounted_cash_profit_yi": 0.05,
+      "revenue_yi": 3.17,
+      "gross_profit_yi": 0.68,
+      "parent_net_profit_yi": 0.09,
+      "gross_margin_pct": 21.34,
+      "net_margin_pct": 2.69,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "以日本一日游和出境旅行团为流量入口，并用自有酒店、巴士、餐饮和免税店承接游客在日本的地接消费。",
+      "core_judgement": "普通经营模型适用，但2025年末现金及保证金合计4,107.1万元，低于银行借款与租赁负债合计5,198.0万元，且旅游、酒店与车队仍需营运资金，因此折后可剥离净现金取零。2025年经营现金流减购置固定资产后的自由现金流为565.3万元；考虑这只是业务恢复扩张中的单年数据、车队资本开支的维护与增长成分难以精确拆分，按80%折为452.24万元。以输入市值计算，经营业务购买价约6,194万元，静态回本约13.7年；该数字不含未来增长，也不代表收益承诺。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01701.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
