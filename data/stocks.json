@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 00:13:38 +08:00",
+  "built_at": "2026-08-05 00:15:53 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -40842,6 +40842,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/605507.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "SMCI",
+      "name": "Super Micro Computer, Inc. - Common Stock",
+      "raw_name": "Super Micro Computer, Inc. - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 1239.69,
+      "pe_ttm": 14.95,
+      "owner_earnback_years": 28.86,
+      "owner_earnback_rate_pct": 3.47,
+      "market_profit_payback_years": 28.86,
+      "market_cash_profit_yield_pct": 3.47,
+      "discounted_detachable_net_cash_yi": 0.0,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": 1239.69,
+      "discounted_cash_profit_yi": 42.96,
+      "revenue_yi": 1573.2,
+      "gross_profit_yi": 173.98,
+      "parent_net_profit_yi": 75.1,
+      "gross_margin_pct": 11.06,
+      "net_margin_pct": 4.77,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "为云服务商、企业和AI数据中心设计、集成并交付服务器、存储、液冷及整机柜方案，靠快速导入新芯片和模块化工程赚取偏薄的硬件集成毛利。",
+      "core_judgement": "不扣任何净现金：FY2025年末现金仅比可转债多约37.6亿元，到2025-12-31现金已低于债务且营运资金占用激增。可持续现金利润从FY2025归母净利润约75.1亿元出发，扣股权激励经济成本、资本开支与折旧差额，并为毛利率降至半年7.2%及现金流波动留缓冲，取42.96亿元。经营业务购买价约1239.69亿元，静态回本约28.9年；这是压力调整比较口径，不是预测。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/SMCI/"
     },
     {
       "schema_version": "stock-research-result-v1",
