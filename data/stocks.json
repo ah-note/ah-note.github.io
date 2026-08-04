@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 14:17:26 +08:00",
+  "built_at": "2026-08-04 14:18:18 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -51909,6 +51909,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/DGICB/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "02789.HK",
+      "name": "YUANDA CHINA",
+      "raw_name": "YUANDA CHINA",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 9.13,
+      "pe_ttm": 2.72,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 28.15,
+      "gross_profit_yi": 7.34,
+      "parent_net_profit_yi": 3.53,
+      "gross_margin_pct": 26.08,
+      "net_margin_pct": 12.53,
+      "forecast_dividend_yield_pct": 30.08,
+      "risk_level": "未分级",
+      "business_summary": "远大中国为国内外大型建筑项目提供幕墙系统的设计、采购、生产、销售与安装，以工程进度确认收入，盈利取决于项目获取、成本控制、交付和最终回款。",
+      "core_judgement": "普通控股回本口径不适用。公司现金与受限存款、应收及合同资产、合同负债、供应商应付和短期借款共同支撑项目履约；若强行以现金减债会忽略施工垫资、履约保证、历史坏账和到期融资。控股视角应改看在手订单转化质量、项目毛利（扣除信用损失后）、应收与合同资产回款、减值变化、自由现金流、短债覆盖及真实分红兑现。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/02789.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
