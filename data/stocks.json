@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 21:09:42 +08:00",
+  "built_at": "2026-08-04 21:10:13 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -63348,6 +63348,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/PRG/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "AX",
+      "name": "Axos Financial, Inc. Common Stock",
+      "raw_name": "Axos Financial, Inc. Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 389.27,
+      "pe_ttm": 11.96,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": null,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 30.99,
+      "gross_margin_pct": null,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "美国数字银行，以存款融资发放住宅、商业地产、工商业和消费贷款赚息差，并以证券清算、托管和财富管理赚取费用与利息。",
+      "core_judgement": "普通回本公式不适用于银行。按输入市值与FY2025权益约为1.99倍市净率；应结合17.30% ROE、4.90%净息差、0.71%不良资产率、1.36%贷款拨备率、12.52% CET1和资本返还判断。PE不等于可分配现金回本年。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/AX/"
     },
     {
       "schema_version": "stock-research-result-v1",
