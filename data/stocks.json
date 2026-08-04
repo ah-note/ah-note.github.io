@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 05:18:09 +08:00",
+  "built_at": "2026-08-05 05:19:52 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -77794,6 +77794,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/02368.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "08425.HK",
+      "name": "HING MING HLDGS",
+      "raw_name": "HING MING HLDGS",
+      "market": "HK",
+      "period": "2025-03-31",
+      "currency": "CNY",
+      "market_cap_yi": 0.29,
+      "pe_ttm": 10.71,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": 0.0,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": 0.0,
+      "discounted_detachable_net_cash_yi": -0.37,
+      "discounted_net_cash_to_market_cap_pct": -127.42,
+      "operating_business_price_yi": 0.66,
+      "discounted_cash_profit_yi": 0.0,
+      "revenue_yi": 0.98,
+      "gross_profit_yi": 0.21,
+      "parent_net_profit_yi": -0.23,
+      "gross_margin_pct": 21.61,
+      "net_margin_pct": -23.29,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "兴铭控股在香港出租塔吊等建筑设备，并提供安装、拆卸、检验维护及少量设备零件贸易。",
+      "core_judgement": "普通经营公司口径适用，但2025财年经营自由现金流约为负人民币2702万元，且公司未披露可可靠区分的维持性与增长性资本开支。即便用折旧近似维持性资本开支，经营现金流减折旧仅约人民币130万元，仍不足以支持稳定可分配现金利润；因此从严将折后可持续现金利润记为0，回本年和市值/现金利润不计算。现金减有息借款及租赁负债后为负，经营业务购买价高于市值。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/08425.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
