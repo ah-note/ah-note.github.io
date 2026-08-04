@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 05:24:55 +08:00",
+  "built_at": "2026-08-05 05:25:27 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -34115,6 +34115,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/300910.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "EQNR",
+      "name": "Equinor ASA",
+      "raw_name": "Equinor ASA",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 6589.77,
+      "pe_ttm": 11.14,
+      "owner_earnback_years": 21.42,
+      "owner_earnback_rate_pct": 4.67,
+      "market_profit_payback_years": 18.45,
+      "market_cash_profit_yield_pct": 5.42,
+      "discounted_detachable_net_cash_yi": -1059.97,
+      "discounted_net_cash_to_market_cap_pct": -16.09,
+      "operating_business_price_yi": 7649.73,
+      "discounted_cash_profit_yi": 357.14,
+      "revenue_yi": 7604.47,
+      "gross_profit_yi": 3664.16,
+      "parent_net_profit_yi": 360.22,
+      "gross_margin_pct": 48.18,
+      "net_margin_pct": 4.74,
+      "forecast_dividend_yield_pct": 4.23,
+      "risk_level": "未分级",
+      "business_summary": "挪威国家控股67%的综合能源公司，以挪威大陆架低成本油气生产为利润核心，配套全球营销中游，并投入国际油气、海上风电及低碳项目。",
+      "core_judgement": "按2026-08-03市值，现金全额计入、流动金融投资按80%计入，并全额扣除计息债务及租赁负债后，折后可剥离净现金为负人民币1059.97亿元，故经营业务购买价高于市值。2025年经营现金流减全部资本开支为人民币426.93亿元；考虑油气价格周期、营运资金波动和持续开发需求，将可持续可分配现金利润压至50亿美元（人民币357.15亿元）。对应经营业务约21.4年回本，市值/现金利润约18.5倍。这是静态控股口径，不是目标价；油气价格、税率和维持产量所需资本开支会显著改变结果...",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/EQNR/"
     },
     {
       "schema_version": "stock-research-result-v1",
