@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 01:32:48 +08:00",
+  "built_at": "2026-08-05 01:34:22 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -70943,6 +70943,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/MGYR/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "HBT",
+      "name": "HBT Financial, Inc. (NASDAQ: HBT)",
+      "raw_name": "HBT Financial, Inc. (NASDAQ: HBT)",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 87.95,
+      "pe_ttm": 15.25,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 17.04,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 5.53,
+      "gross_margin_pct": null,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": 2.8,
+      "risk_level": "未分级",
+      "business_summary": "一家以伊利诺伊州、爱荷华州东部及圣路易斯郊区社区客户为主的存贷款银行，利润核心是低成本存款与贷款/证券收益之间的利差。",
+      "core_judgement": "普通控股回本口径不适用于银行：存款不是可与现金简单净额化的外部融资，贷款和证券也不是可无损剥离的闲置资产。应改看资产质量、净息差、监管资本、ROA/ROE、账面价值倍数和可持续分红。按输入市值与2025年末权益粗算约1.99倍账面价值、2.26倍有形账面价值，但2026年CNB收购后资本和股本已变化，这两个倍数只作时点桥接。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/HBT/"
     },
     {
       "schema_version": "stock-research-result-v1",
