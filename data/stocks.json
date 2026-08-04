@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 15:24:41 +08:00",
+  "built_at": "2026-08-04 15:29:18 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -8571,6 +8571,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00303.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "NUS",
+      "name": "Nu Skin Enterprises, Inc. Common Stock",
+      "raw_name": "Nu Skin Enterprises, Inc. Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 17.0,
+      "pe_ttm": 4.81,
+      "owner_earnback_years": 9.3,
+      "owner_earnback_rate_pct": 10.75,
+      "market_profit_payback_years": 6.48,
+      "market_cash_profit_yield_pct": 15.43,
+      "discounted_detachable_net_cash_yi": -7.41,
+      "discounted_net_cash_to_market_cap_pct": -43.56,
+      "operating_business_price_yi": 24.41,
+      "discounted_cash_profit_yi": 2.62,
+      "revenue_yi": 105.88,
+      "gross_profit_yi": 73.53,
+      "parent_net_profit_yi": 11.42,
+      "gross_margin_pct": 69.45,
+      "net_margin_pct": 10.79,
+      "forecast_dividend_yield_pct": 5.03,
+      "risk_level": "未分级",
+      "business_summary": "以独立销售人员和社交渠道向全球消费者销售高毛利美容、营养补充剂及美容设备，并以Rhyz制造与消费业务补充供应链和收入。",
+      "core_judgement": "按2025年经营现金流扣资本开支得到经营自由现金流，再因收入连续下滑及2026年资本开支指引上升而折价20%，得到折后持续现金利润2.624亿元。现金只按50%、流动投资按80%，再全额扣除有息债务后，折后可剥离净现金为负7.407亿元；因此经营业务购买价约24.41亿元，回本约9.3年。该口径比输入PE更能反映Mavely一次性出售收益不可持续，但仍高度依赖收入和渠道人数能否止跌。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/NUS/"
     },
     {
       "schema_version": "stock-research-result-v1",
