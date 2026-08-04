@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 16:16:19 +08:00",
+  "built_at": "2026-08-04 16:17:18 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -13934,6 +13934,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603886.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "FSM",
+      "name": "Fortuna Mining Corp. Common Shares",
+      "raw_name": "Fortuna Mining Corp. Common Shares",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 172.34,
+      "pe_ttm": 7.81,
+      "owner_earnback_years": 14.2,
+      "owner_earnback_rate_pct": 7.04,
+      "market_profit_payback_years": 14.65,
+      "market_cash_profit_yield_pct": 6.83,
+      "discounted_detachable_net_cash_yi": 5.32,
+      "discounted_net_cash_to_market_cap_pct": 3.09,
+      "operating_business_price_yi": 167.01,
+      "discounted_cash_profit_yi": 11.76,
+      "revenue_yi": 67.52,
+      "gross_profit_yi": 33.29,
+      "parent_net_profit_yi": 19.23,
+      "gross_margin_pct": 49.3,
+      "net_margin_pct": 28.48,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "Fortuna经营阿根廷Lindero、科特迪瓦Seguela和秘鲁Caylloma三座矿山，销售黄金及银铅锌产品，并以塞内加尔Diamba Sud作为下一增长项目。",
+      "core_judgement": "以2026-08-03市值计算，扣除折后可剥离净现金后经营业务价格约167.0亿元；以折后持续现金利润约11.76亿元计，静态回本约14.2年。该结果不是矿山净现值：它假设当前三矿的长期产量、储量补充和资本开支能维持，并已将2025年持续经营自由现金流打五折以缓冲高金价、矿山耗竭和Diamba Sud资金需求；金属价格或矿山寿命变化会显著改变结果。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/FSM/"
     },
     {
       "schema_version": "stock-research-result-v1",
