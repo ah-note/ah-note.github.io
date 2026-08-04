@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 17:49:43 +08:00",
+  "built_at": "2026-08-04 17:52:18 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -3755,6 +3755,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/01995.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "09690.HK",
+      "name": "TUHU-W",
+      "raw_name": "TUHU-W",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 86.18,
+      "pe_ttm": 21.52,
+      "owner_earnback_years": 4.08,
+      "owner_earnback_rate_pct": 24.5,
+      "market_profit_payback_years": 14.36,
+      "market_cash_profit_yield_pct": 6.96,
+      "discounted_detachable_net_cash_yi": 61.69,
+      "discounted_net_cash_to_market_cap_pct": 71.59,
+      "operating_business_price_yi": 24.49,
+      "discounted_cash_profit_yi": 6.0,
+      "revenue_yi": 164.62,
+      "gross_profit_yi": 39.68,
+      "parent_net_profit_yi": 4.2,
+      "gross_margin_pct": 24.1,
+      "net_margin_pct": 2.55,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "途虎通过线上平台获客和标准化供应链，把轮胎、保养及其他汽车服务交付到以加盟为主的工场店网络，并从商品服务、汽配分销、加盟及广告收费中赚钱。",
+      "core_judgement": "按2026-08-03市值86.18亿元，扣除折后可剥离净现金61.69亿元后，经营业务隐含购买价24.49亿元；以6.00亿元折后可持续现金利润计，经营业务回本约4.08年，整体市值/现金利润约14.36倍。该结果高度依赖理财可变现性、经营所需最低现金和6亿元利润可持续性，不能理解为确定可分配或清算价值。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/09690.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
