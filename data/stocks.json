@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 15:18:33 +08:00",
+  "built_at": "2026-08-04 15:19:04 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -53397,6 +53397,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/BGY/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "02671.HK",
+      "name": "USAS BUILDING（美联股份）",
+      "raw_name": "USAS BUILDING（美联股份）",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 4.25,
+      "pe_ttm": 6.8,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 22.94,
+      "gross_profit_yi": 2.3,
+      "parent_net_profit_yi": 0.66,
+      "gross_margin_pct": 10.03,
+      "net_margin_pct": 2.86,
+      "forecast_dividend_yield_pct": 10.49,
+      "risk_level": "未分级",
+      "business_summary": "为工业厂房等项目提供预制钢结构建筑系统的设计、构件供应与施工分包，并经营专业工程总包和工业环保装备。",
+      "core_judgement": "普通控股回本口径不适用。工程施工的现金、合同资产、应收、应付和借款共同服务项目履约与结算，不能把年末现金简单扣除市值。应改看项目毛利、合同资产回收及减值、营运资金变化、经营现金流跨周期稳定性、短债覆盖和分红能力。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/02671.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
