@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 19:58:45 +08:00",
+  "built_at": "2026-08-04 20:00:38 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -20227,6 +20227,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/000612.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "UG",
+      "name": "United-Guardian, Inc. - Common Stock",
+      "raw_name": "United-Guardian, Inc. - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 2.19,
+      "pe_ttm": 13.56,
+      "owner_earnback_years": 16.29,
+      "owner_earnback_rate_pct": 6.14,
+      "market_profit_payback_years": 21.74,
+      "market_cash_profit_yield_pct": 4.6,
+      "discounted_detachable_net_cash_yi": 0.55,
+      "discounted_net_cash_to_market_cap_pct": 25.06,
+      "operating_business_price_yi": 1.64,
+      "discounted_cash_profit_yi": 0.1,
+      "revenue_yi": 0.74,
+      "gross_profit_yi": 0.36,
+      "parent_net_profit_yi": 0.15,
+      "gross_margin_pct": 48.75,
+      "net_margin_pct": 19.97,
+      "forecast_dividend_yield_pct": 7.39,
+      "risk_level": "未分级",
+      "business_summary": "一家规模很小、无债务的美国特种水凝胶与泌尿药品制造商，利润集中于 Lubrajel 原料、Renacidin 处方药和医用润滑剂。",
+      "core_judgement": "市值扣除折后可剥离净现金约5477万元后，经营业务隐含购买价约1.638亿元；以剔除投资收益并对2025年经营自由现金流再打九折后的可持续现金利润约1005万元计算，经营业务回本约16.3年，含全部市值约21.7年。该口径依赖2025年现金利润能持续，且最大化妆品原料分销商去库存不再恶化。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/UG/"
     },
     {
       "schema_version": "stock-research-result-v1",
