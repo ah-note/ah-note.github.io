@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 00:38:59 +08:00",
+  "built_at": "2026-08-05 00:40:33 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -14709,6 +14709,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/01836.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "GLOB",
+      "name": "Globant S.A. Common Shares",
+      "raw_name": "Globant S.A. Common Shares",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 106.64,
+      "pe_ttm": 14.88,
+      "owner_earnback_years": 12.24,
+      "owner_earnback_rate_pct": 8.17,
+      "market_profit_payback_years": 11.2,
+      "market_cash_profit_yield_pct": 8.93,
+      "discounted_detachable_net_cash_yi": -9.95,
+      "discounted_net_cash_to_market_cap_pct": -9.33,
+      "operating_business_price_yi": 116.59,
+      "discounted_cash_profit_yi": 9.52,
+      "revenue_yi": 171.87,
+      "gross_profit_yi": 60.16,
+      "parent_net_profit_yi": 7.21,
+      "gross_margin_pct": 35.0,
+      "net_margin_pct": 4.19,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "Globant 以全球工程师和设计人才为核心，为大型企业提供数字化转型、软件开发、体验设计及 AI 解决方案，并按项目、时间材料或订阅式服务收费。",
+      "core_judgement": "按 2025-12-31 的 1 美元=7.0010 元折算，现金按 90%、短期投资按 80%，再全额扣除借款，折后可剥离净现金为负 9.95 亿元。持续现金利润取经营现金流减有形及无形资本开支，再扣除股份支付，约 9.52 亿元；不对 5199 万美元优化费用作加回。输入市值对应经营业务购买价约 116.59 亿元，静态回本约 12.24 年；该数字依赖 2025 年现金流可持续且股份支付扣减足够反映稀释。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/GLOB/"
     },
     {
       "schema_version": "stock-research-result-v1",
