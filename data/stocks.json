@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 04:02:11 +08:00",
+  "built_at": "2026-08-05 04:03:46 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -75345,6 +75345,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/INTR/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "ASB",
+      "name": "Associated Banc-Corp Common Stock",
+      "raw_name": "Associated Banc-Corp Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 393.25,
+      "pe_ttm": 10.8,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": null,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 32.4,
+      "gross_margin_pct": null,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": 2.83,
+      "risk_level": "未分级",
+      "business_summary": "美国中西部区域银行，以客户存款为主要资金来源，向商业、商业地产和消费者投放贷款，并赚取净利息收入及财富管理、资本市场等手续费。",
+      "core_judgement": "普通控股回本口径不适用。银行的现金、贷款、证券、客户存款与批发融资均是受监管的经营资产负债，不能计算‘市值减折后净现金/现金利润’。应改看净息差、信用成本、资产质量、CET1、普通股账面价值及可持续分红。2025年专项指标为净息差3.03%、非应计贷款率0.32%、贷款损失准备/贷款1.35%、CET1 10.49%。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/ASB/"
     },
     {
       "schema_version": "stock-research-result-v1",
