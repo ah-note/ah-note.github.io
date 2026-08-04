@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 20:13:58 +08:00",
+  "built_at": "2026-08-04 20:14:50 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -47786,6 +47786,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002998.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "FRSH",
+      "name": "Freshworks Inc. - Class A Common Stock",
+      "raw_name": "Freshworks Inc. - Class A Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 211.81,
+      "pe_ttm": 18.61,
+      "owner_earnback_years": 69.38,
+      "owner_earnback_rate_pct": 1.44,
+      "market_profit_payback_years": 89.13,
+      "market_cash_profit_yield_pct": 1.12,
+      "discounted_detachable_net_cash_yi": 46.95,
+      "discounted_net_cash_to_market_cap_pct": 22.16,
+      "operating_business_price_yi": 164.87,
+      "discounted_cash_profit_yi": 2.38,
+      "revenue_yi": 58.66,
+      "gross_profit_yi": 49.84,
+      "parent_net_profit_yi": 12.85,
+      "gross_margin_pct": 84.96,
+      "net_margin_pct": 21.9,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "Freshworks向全球企业销售易部署的AI客服与IT服务管理软件，主要靠按期订阅收费。",
+      "core_judgement": "按2025年末1美元=6.9931元人民币换算。现金按90%、可交易证券按95%计入，并全额扣除租赁负债；受限现金不计。现金利润从经营自由现金流出发，扣除股权激励这一真实股东经济成本，并剔除与可剥离资金相关的利息及其他收益。由此经营业务购买价约164.87亿元，折后可持续现金利润约2.38亿元，静态回本约69.4年。该结果高度依赖对股权激励和资金收益的处理，不能把18.6倍输入PE直接等同于经营业务回本年。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/FRSH/"
     },
     {
       "schema_version": "stock-research-result-v1",
