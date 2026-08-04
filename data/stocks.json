@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 05:40:29 +08:00",
+  "built_at": "2026-08-05 05:41:01 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -49398,6 +49398,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/TMDX/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "INTU",
+      "name": "Intuit Inc. - Common Stock",
+      "raw_name": "Intuit Inc. - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 5834.11,
+      "pe_ttm": 19.27,
+      "owner_earnback_years": 33.13,
+      "owner_earnback_rate_pct": 3.02,
+      "market_profit_payback_years": 31.95,
+      "market_cash_profit_yield_pct": 3.13,
+      "discounted_detachable_net_cash_yi": -216.12,
+      "discounted_net_cash_to_market_cap_pct": -3.7,
+      "operating_business_price_yi": 6050.23,
+      "discounted_cash_profit_yi": 182.61,
+      "revenue_yi": 1355.87,
+      "gross_profit_yi": 1078.81,
+      "parent_net_profit_yi": 278.58,
+      "gross_margin_pct": 79.57,
+      "net_margin_pct": 20.55,
+      "forecast_dividend_yield_pct": 1.65,
+      "risk_level": "未分级",
+      "business_summary": "Intuit用QuickBooks、TurboTax、Mailchimp、Credit Karma和专业税务软件，把中小企业财务管理、报税和个人金融匹配做成以订阅和服务为主的平台。",
+      "core_judgement": "按FY2025年末资金结构，现金及投资经折扣后不足以覆盖有息债务，折后可剥离净现金为负216.1亿元；以三年调整后现金利润中位数再打九折，折后可持续现金利润为182.6亿元。输入市值对应经营业务购买价6050.2亿元，控股回本约33.1年。该结果高度依赖把股权激励和贷款净投放视作股东真实成本，且市场快照晚于年报一年。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/INTU/"
     },
     {
       "schema_version": "stock-research-result-v1",
