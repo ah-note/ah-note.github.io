@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 15:47:50 +08:00",
+  "built_at": "2026-08-04 15:49:02 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -44407,6 +44407,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/01180.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "PD",
+      "name": "PagerDuty, Inc. Common Stock",
+      "raw_name": "PagerDuty, Inc. Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 55.06,
+      "pe_ttm": 5.11,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": 0.0,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": 0.0,
+      "discounted_detachable_net_cash_yi": 1.92,
+      "discounted_net_cash_to_market_cap_pct": 3.49,
+      "operating_business_price_yi": 53.14,
+      "discounted_cash_profit_yi": 0.0,
+      "revenue_yi": 33.66,
+      "gross_profit_yi": 27.92,
+      "parent_net_profit_yi": -3.08,
+      "gross_margin_pct": 82.96,
+      "net_margin_pct": -9.14,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "PagerDuty向企业销售按席位或用量收费的数字运营管理SaaS，帮助技术团队发现、响应并自动化处理关键事件。",
+      "core_judgement": "折后可剥离净现金约1.92亿元，仅占市值3.5%。FY2025自由现金流约7.81亿元，但股权激励约9.09亿元；把维持股东份额所需的股权补偿视为经济成本后，可持续可分配现金利润不为正。因此经营业务购买价虽可计算，回本年和市值/现金利润没有经济意义，保持null。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/PD/"
     },
     {
       "schema_version": "stock-research-result-v1",
