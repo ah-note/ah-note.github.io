@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 22:20:13 +08:00",
+  "built_at": "2026-08-04 22:20:44 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -13655,6 +13655,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/300770.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "FHI",
+      "name": "Federated Hermes, Inc. Common Stock",
+      "raw_name": "Federated Hermes, Inc. Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 307.15,
+      "pe_ttm": 11.14,
+      "owner_earnback_years": 11.66,
+      "owner_earnback_rate_pct": 8.58,
+      "market_profit_payback_years": 11.87,
+      "market_cash_profit_yield_pct": 8.42,
+      "discounted_detachable_net_cash_yi": 5.41,
+      "discounted_net_cash_to_market_cap_pct": 1.76,
+      "operating_business_price_yi": 301.74,
+      "discounted_cash_profit_yi": 25.88,
+      "revenue_yi": 129.42,
+      "gross_profit_yi": 129.42,
+      "parent_net_profit_yi": 28.99,
+      "gross_margin_pct": 100.0,
+      "net_margin_pct": 22.4,
+      "forecast_dividend_yield_pct": 2.64,
+      "risk_level": "未分级",
+      "business_summary": "以货币市场基金为规模底座、向机构和金融中介按管理资产规模收取顾问及行政服务费的全球主动资产管理平台。",
+      "core_judgement": "现金5.82542亿美元扣3.48369亿美元长期债务及1.568亿美元基金种子/VIE缓冲后，可剥离净现金0.77373亿美元（5.41亿元）。可持续现金利润取3.60亿美元（25.88亿元），以4.03299亿美元归母净利为锚，剔除税后投资收益并留周期缓冲。经营业务购买价301.74亿元，静态回本约11.66年；不是收益承诺。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/FHI/"
     },
     {
       "schema_version": "stock-research-result-v1",
