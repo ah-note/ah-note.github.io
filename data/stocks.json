@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 04:40:36 +08:00",
+  "built_at": "2026-08-05 04:41:09 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -30054,6 +30054,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/000338.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "SFM",
+      "name": "Sprouts Farmers Market, Inc. - Common Stock",
+      "raw_name": "Sprouts Farmers Market, Inc. - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 548.44,
+      "pe_ttm": 16.67,
+      "owner_earnback_years": 19.58,
+      "owner_earnback_rate_pct": 5.11,
+      "market_profit_payback_years": 19.69,
+      "market_cash_profit_yield_pct": 5.08,
+      "discounted_detachable_net_cash_yi": 3.15,
+      "discounted_net_cash_to_market_cap_pct": 0.57,
+      "operating_business_price_yi": 545.29,
+      "discounted_cash_profit_yi": 27.86,
+      "revenue_yi": 616.99,
+      "gross_profit_yi": 239.36,
+      "parent_net_profit_yi": 36.69,
+      "gross_margin_pct": 38.8,
+      "net_margin_pct": 5.95,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "Sprouts以477家较小型门店向健康导向消费者销售精选天然、有机和差异化食品，靠同店增长、新店扩张、商品毛利与门店效率赚钱。",
+      "core_judgement": "按2025年末最近可得美联储汇率折算，现金仅取50%后再全额扣除融资义务，折后可剥离净现金约3.15亿元，仅占市值0.57%；2025年经营自由现金流再按85%折扣得到约27.86亿元可持续现金利润。由此经营业务购买价约545.29亿元，静态回本约19.58年。该数字依赖2025年毛利率和同店增长能否维持，不等同于未来承诺。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/SFM/"
     },
     {
       "schema_version": "stock-research-result-v1",
