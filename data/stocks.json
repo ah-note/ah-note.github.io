@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 18:29:41 +08:00",
+  "built_at": "2026-08-04 18:31:01 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -58698,6 +58698,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/02282.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "KNSL",
+      "name": "Kinsale Capital Group, Inc. Common Stock",
+      "raw_name": "Kinsale Capital Group, Inc. Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 547.85,
+      "pe_ttm": 14.47,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 131.72,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 35.4,
+      "gross_margin_pct": null,
+      "net_margin_pct": 26.87,
+      "forecast_dividend_yield_pct": 0.3,
+      "risk_level": "未分级",
+      "business_summary": "通过独立经纪人承保美国标准险企不愿或难以定价的E&S财产与责任风险，以选险定价、低费用运营和浮存金投资共同赚钱。",
+      "core_judgement": "普通控股回本口径不适用。50.27亿美元投资资产主要承接保险浮存金，与28.91亿美元未决赔款准备金、8.60亿美元未赚保费及监管资本要求绑定；应改看承保利润和综合成本率能否跨周期维持、准备金是否充分、投资组合质量与收益、法定资本余量以及保险子公司向控股公司的分红能力。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/KNSL/"
     },
     {
       "schema_version": "stock-research-result-v1",
