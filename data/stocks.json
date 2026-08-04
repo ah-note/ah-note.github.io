@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 14:11:47 +08:00",
+  "built_at": "2026-08-04 14:12:38 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -4998,6 +4998,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00696.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01571.HK",
+      "name": "信邦控股",
+      "raw_name": "信邦控股",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 34.0,
+      "pe_ttm": 6.74,
+      "owner_earnback_years": 5.8,
+      "owner_earnback_rate_pct": 17.25,
+      "market_profit_payback_years": 6.42,
+      "market_cash_profit_yield_pct": 15.57,
+      "discounted_detachable_net_cash_yi": 3.31,
+      "discounted_net_cash_to_market_cap_pct": 9.73,
+      "operating_business_price_yi": 30.69,
+      "discounted_cash_profit_yi": 5.29,
+      "revenue_yi": 31.53,
+      "gross_profit_yi": 10.55,
+      "parent_net_profit_yi": 5.29,
+      "gross_margin_pct": 33.46,
+      "net_margin_pct": 16.79,
+      "forecast_dividend_yield_pct": 13.16,
+      "risk_level": "未分级",
+      "business_summary": "为全球汽车整车厂和一级供应商制造电镀、喷涂、注塑及装配的内外饰表面装饰零部件，并以中国、墨西哥和马来西亚区域化产能交付。",
+      "core_judgement": "普通经营口径适用。为避免把海外运营、营运周转和扩产所需现金误当成可拿走资金，仅将年末非质押现金按50%计入，并全额扣除租赁负债和已签未拨备资本承诺，得到折后可剥离净现金3.309亿元。可持续可分配现金利润取2025年归母净利润5.293亿元：经营现金流和扣资本开支后的现金流虽更高，但其中包含墨西哥增值税退款增加及股息预提税减少，不据此上调。由此经营业务购买价30.688亿元，静态回本约5.80年；这是控股静态测算，不是预测或买卖建议。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01571.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
