@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 15:42:20 +08:00",
+  "built_at": "2026-08-04 15:44:13 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -10865,6 +10865,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/02566.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "02528.HK",
+      "name": "尚晋国际控股",
+      "raw_name": "尚晋国际控股",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 2.89,
+      "pe_ttm": 5.83,
+      "owner_earnback_years": 11.61,
+      "owner_earnback_rate_pct": 8.61,
+      "market_profit_payback_years": 10.5,
+      "market_cash_profit_yield_pct": 9.53,
+      "discounted_detachable_net_cash_yi": -0.31,
+      "discounted_net_cash_to_market_cap_pct": -10.61,
+      "operating_business_price_yi": 3.2,
+      "discounted_cash_profit_yi": 0.28,
+      "revenue_yi": 7.99,
+      "gross_profit_yi": 3.8,
+      "parent_net_profit_yi": 0.53,
+      "gross_margin_pct": 47.57,
+      "net_margin_pct": 6.63,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "在大中华区经营国际品牌单品牌及多品牌门店，并按门店营业额抽成提供管理服务，澳门是当前收入与改善的核心。",
+      "core_judgement": "按控股口径，未质押现金和定期存款不足以覆盖银行借款及控股股东/关联方贷款，折后可剥离净现金为负；经营业务购买价因此高于市值。可持续现金利润取3,000万港元并换算为人民币，明显低于2025年归母利润：2025年包含处置固定资产及提前终止租赁收益，且过去四年中三年亏损，门店收缩后的稳态尚未证实。由此估算回本约11.6年，是情景值而非确定事实。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/02528.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
