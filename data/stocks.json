@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 18:34:27 +08:00",
+  "built_at": "2026-08-04 18:35:19 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -5742,6 +5742,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/000550.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "02279.HK",
+      "name": "YONGHE MEDICAL",
+      "raw_name": "YONGHE MEDICAL",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 11.03,
+      "pe_ttm": 15.7,
+      "owner_earnback_years": 5.92,
+      "owner_earnback_rate_pct": 16.89,
+      "market_profit_payback_years": 10.31,
+      "market_cash_profit_yield_pct": 9.7,
+      "discounted_detachable_net_cash_yi": 4.7,
+      "discounted_net_cash_to_market_cap_pct": 42.59,
+      "operating_business_price_yi": 6.33,
+      "discounted_cash_profit_yi": 1.07,
+      "revenue_yi": 18.08,
+      "gross_profit_yi": 11.94,
+      "parent_net_profit_yi": 0.74,
+      "gross_margin_pct": 66.04,
+      "net_margin_pct": 4.08,
+      "forecast_dividend_yield_pct": 3.63,
+      "risk_level": "未分级",
+      "business_summary": "以全国连锁医疗机构向个人消费者提供植发手术和医疗养固服务，收入主要来自一次性植发收费及预付养固疗程。",
+      "core_judgement": "按市值11.03亿元减折后可剥离净现金4.70亿元，经营业务价格约6.33亿元；以折后持续现金利润1.07亿元计，静态回本约5.9年。该口径不是预测或买卖建议：2025年是连续亏损后首次扭亏，收入基本持平，现金利润对门店租赁付款、营销效率及客单价高度敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/02279.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
