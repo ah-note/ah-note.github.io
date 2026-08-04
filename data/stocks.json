@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 13:56:09 +08:00",
+  "built_at": "2026-08-04 13:59:04 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -51320,6 +51320,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/02628.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "UVE",
+      "name": "UNIVERSAL INSURANCE HOLDINGS INC Common Stock",
+      "raw_name": "UNIVERSAL INSURANCE HOLDINGS INC Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 82.09,
+      "pe_ttm": 5.74,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 115.28,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 13.15,
+      "gross_margin_pct": null,
+      "net_margin_pct": 11.41,
+      "forecast_dividend_yield_pct": 1.57,
+      "risk_level": "未分级",
+      "business_summary": "以佛州为核心、覆盖19州的住宅房主财产险集团，通过独立代理与线上渠道收保费，并赚取承保、投资及保险服务收入。",
+      "core_judgement": "普通控股回本口径不适用：现金与投资资产为承保负债、灾害赔付、再保险结算及法定资本提供支持，不能从市值中机械扣除；2025年利润和经营现金流还显著受无重大飓风及再保险回收时点影响。应改看跨周期综合成本率、准备金发展、投资收益、法定资本余量和保险子公司向母公司的可分配能力。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/UVE/"
     },
     {
       "schema_version": "stock-research-result-v1",
