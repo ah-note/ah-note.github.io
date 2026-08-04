@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 12:57:11 +08:00",
+  "built_at": "2026-08-04 12:58:43 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -49646,6 +49646,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/03822.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "SLDE",
+      "name": "Slide Insurance Holdings, Inc. - Common Stock",
+      "raw_name": "Slide Insurance Holdings, Inc. - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 157.41,
+      "pe_ttm": 4.82,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 80.77,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 31.02,
+      "gross_margin_pct": null,
+      "net_margin_pct": 38.41,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "Slide 通过独立代理与直销渠道承保美国大西洋沿岸、尤其佛州的住宅财产风险，以保费减去赔款、再保险和运营费用后的承保利润，加上投资收益赚钱。",
+      "core_judgement": "普通控股回本口径不适用。现金和固定收益投资需要覆盖未赚保费、赔款准备金、再保险义务和监管资本，不能从市值中作为可剥离净现金扣除；经营现金流也受保费预收、未赚保费增长和赔款时点显著影响，不能直接等同可分配现金利润。应改看跨周期综合成本率、巨灾及再保险后的盈利、准备金发展、法定资本充足度和保险子公司向控股公司的可分红能力。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/SLDE/"
     },
     {
       "schema_version": "stock-research-result-v1",
