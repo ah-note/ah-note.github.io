@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 23:52:34 +08:00",
+  "built_at": "2026-08-04 23:53:27 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -67905,6 +67905,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/02378.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "PUK",
+      "name": "Prudential plc ADR (PUK)",
+      "raw_name": "Prudential plc ADR (PUK)",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 2539.74,
+      "pe_ttm": 9.86,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": null,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 284.14,
+      "gross_margin_pct": null,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": 1.91,
+      "risk_level": "未分级",
+      "business_summary": "通过亚洲和非洲的代理人、银行保险及数字渠道销售人寿、健康保障和储蓄产品，并以Eastspring经营资产管理。",
+      "core_judgement": "普通控股回本口径不适用：保险投资资产与保单负债、准备金及监管资本相互绑定。控股视角应改看经营自由盈余生成（2025年30.59亿美元）、TEV权益（378.03亿美元）、自由盈余率（221%）、GWS股东资本覆盖率（262%）及其转化为分红和回购的能力。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/PUK/"
     },
     {
       "schema_version": "stock-research-result-v1",
