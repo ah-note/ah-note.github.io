@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 18:53:32 +08:00",
+  "built_at": "2026-08-04 18:54:24 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -18553,6 +18553,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603518.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "02285.HK",
+      "name": "CHERVON",
+      "raw_name": "CHERVON",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 82.62,
+      "pe_ttm": 12.64,
+      "owner_earnback_years": 15.76,
+      "owner_earnback_rate_pct": 6.34,
+      "market_profit_payback_years": 16.38,
+      "market_cash_profit_yield_pct": 6.1,
+      "discounted_detachable_net_cash_yi": 3.12,
+      "discounted_net_cash_to_market_cap_pct": 3.78,
+      "operating_business_price_yi": 79.5,
+      "discounted_cash_profit_yi": 5.04,
+      "revenue_yi": 116.27,
+      "gross_profit_yi": 38.28,
+      "parent_net_profit_yi": 6.97,
+      "gross_margin_pct": 32.92,
+      "net_margin_pct": 6.0,
+      "forecast_dividend_yield_pct": 2.53,
+      "risk_level": "未分级",
+      "business_summary": "以EGO、FLEX、SKIL、DEVON等品牌及ODM业务研发、制造并销售锂电户外动力设备和电动工具，收入主要来自北美零售及专业渠道。",
+      "core_judgement": "以非受限现金九折后全额扣除银行及租赁负债，并额外保留营运资金垫，折后可剥离净现金约3.12亿元，仅占市值3.8%；以剔除处置收益后的调整净利润再打九折作为可持续现金利润，普通控股回本约15.8年。2025年自由现金流很强，但主要伴随存货下降，未直接年化为常态利润。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/02285.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
