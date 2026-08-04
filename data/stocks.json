@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 03:47:36 +08:00",
+  "built_at": "2026-08-05 03:48:50 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -16321,6 +16321,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600060.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "CENT",
+      "name": "Central Garden & Pet Company - Common Stock",
+      "raw_name": "Central Garden & Pet Company - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 181.77,
+      "pe_ttm": 15.65,
+      "owner_earnback_years": 12.83,
+      "owner_earnback_rate_pct": 7.79,
+      "market_profit_payback_years": 11.1,
+      "market_cash_profit_yield_pct": 9.01,
+      "discounted_detachable_net_cash_yi": -28.35,
+      "discounted_net_cash_to_market_cap_pct": -15.6,
+      "operating_business_price_yi": 210.12,
+      "discounted_cash_profit_yi": 16.37,
+      "revenue_yi": 223.19,
+      "gross_profit_yi": 71.14,
+      "parent_net_profit_yi": 11.62,
+      "gross_margin_pct": 31.87,
+      "net_margin_pct": 5.2,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "一家面向美国零售渠道、兼具品牌制造与第三方分销的宠物用品和园艺消费品公司。",
+      "core_judgement": "按2026-08-03输入市值181.77亿元，90%折后普通现金减全部有息债务得到-28.35亿元，即存在净债务而非可扣减净现金；经营业务购买价因此为210.12亿元。FY2025经营自由现金流为20.76亿元人民币，先扣除未体现为现金流出的股权激励，再按85%计入以覆盖销量、天气、商品成本和营运资金波动，得到折后可持续现金利润16.37亿元，对应经营业务回本约12.83年、市值/现金利润约11.10倍。这是机械控股口径，不是收益承诺。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/CENT/"
     },
     {
       "schema_version": "stock-research-result-v1",
