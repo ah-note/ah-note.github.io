@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 22:26:38 +08:00",
+  "built_at": "2026-08-04 22:29:13 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -17995,6 +17995,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603886.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "KFY",
+      "name": "Korn Ferry Common Stock",
+      "raw_name": "Korn Ferry Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 282.34,
+      "pe_ttm": 15.76,
+      "owner_earnback_years": 14.18,
+      "owner_earnback_rate_pct": 7.05,
+      "market_profit_payback_years": 15.24,
+      "market_cash_profit_yield_pct": 6.56,
+      "discounted_detachable_net_cash_yi": 19.67,
+      "discounted_net_cash_to_market_cap_pct": 6.97,
+      "operating_business_price_yi": 262.67,
+      "discounted_cash_profit_yi": 18.53,
+      "revenue_yi": 201.47,
+      "gross_profit_yi": 50.13,
+      "parent_net_profit_yi": 17.95,
+      "gross_margin_pct": 24.88,
+      "net_margin_pct": 8.91,
+      "forecast_dividend_yield_pct": 2.89,
+      "risk_level": "未分级",
+      "business_summary": "为全球企业提供组织与人才咨询、数字化人才工具、高管猎聘、专业招聘/临时用工和招聘流程外包，核心投入是顾问人才、客户关系与知识产权。",
+      "core_judgement": "以FY2025为基础，先从现金及证券中剔除递延薪酬信托和应计奖金对应金额，再全额扣长期债务，得到折后可剥离净现金约19.67亿元。可持续现金利润以经营自由现金流22.03亿元为起点，扣除股权激励约3.50亿元的经济成本，得到18.53亿元。按2026-08-03市值计算，经营业务购买价约262.67亿元，静态回本约14.18年；这是基准化经营口径，不是未来业绩保证。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/KFY/"
     },
     {
       "schema_version": "stock-research-result-v1",
