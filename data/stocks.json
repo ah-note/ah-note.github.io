@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 13:19:14 +08:00",
+  "built_at": "2026-08-04 13:21:27 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -5560,6 +5560,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600420.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "09885.HK",
+      "name": "药师帮",
+      "raw_name": "药师帮",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 18.69,
+      "pe_ttm": 12.83,
+      "owner_earnback_years": 7.18,
+      "owner_earnback_rate_pct": 13.93,
+      "market_profit_payback_years": 9.34,
+      "market_cash_profit_yield_pct": 10.7,
+      "discounted_detachable_net_cash_yi": 4.34,
+      "discounted_net_cash_to_market_cap_pct": 23.2,
+      "operating_business_price_yi": 14.35,
+      "discounted_cash_profit_yi": 2.0,
+      "revenue_yi": 209.7,
+      "gross_profit_yi": 23.07,
+      "parent_net_profit_yi": 1.53,
+      "gross_margin_pct": 11.0,
+      "net_margin_pct": 0.73,
+      "forecast_dividend_yield_pct": 4.01,
+      "risk_level": "未分级",
+      "business_summary": "面向中国院外药店和基层医疗机构的医药B2B平台，以自营批发贡献规模、平台佣金和自有品牌贡献更高毛利。",
+      "core_judgement": "按2026年8月3日市值，扣除保守折算的可剥离净现金后，经营业务隐含购买价约14.35亿元；以2.00亿元归一化可持续可分配现金利润计，静态回本约7.18年。该结果不是承诺：2025年经营现金流6.38亿元主要由应付款增加9.30亿元支撑，不能直接视为可持续利润；现金折扣还对票据保证金和日常流动性作了较大保留。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/09885.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
