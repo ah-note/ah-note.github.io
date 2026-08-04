@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 17:34:15 +08:00",
+  "built_at": "2026-08-04 17:36:49 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -57055,6 +57055,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/02318.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01658.HK",
+      "name": "PSBC",
+      "raw_name": "PSBC",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 5305.37,
+      "pe_ttm": 6.37,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 3558.66,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 874.04,
+      "gross_margin_pct": null,
+      "net_margin_pct": 24.56,
+      "forecast_dividend_yield_pct": 4.94,
+      "risk_level": "未分级",
+      "business_summary": "依托约4万个网点和6.81亿个人客户吸收低成本存款，再把资金投向零售、三农、小微、公司贷款及债券投资，赚取利差并收取财富管理等手续费。",
+      "core_judgement": "普通控股回本口径不适用。银行的存款、贷款、债券投资、央行准备金和同业头寸共同构成经营资产负债表；可分配能力受信用损失、CET1资本和监管要求约束。控股视角应改看净息差、ROE、资产质量、资本缓冲和普通股分红率。本结果因此不计算折后净现金、现金利润、经营业务购买价及回本年。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01658.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
