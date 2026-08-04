@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 11:18:27 +08:00",
+  "built_at": "2026-08-04 11:19:39 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -46639,6 +46639,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/08193.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "06066.HK",
+      "name": "中信建投证券",
+      "raw_name": "中信建投证券",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 785.42,
+      "pe_ttm": 8.74,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 349.85,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 94.39,
+      "gross_margin_pct": null,
+      "net_margin_pct": 26.98,
+      "forecast_dividend_yield_pct": 3.36,
+      "risk_level": "未分级",
+      "business_summary": "中信建投证券依靠牌照、资本和客户网络，为个人与机构提供证券经纪与财富管理、投行承销、交易及机构服务和资产管理，并从手续费、利息及自营投资中获利。",
+      "core_judgement": "普通控股回本口径不适用。券商的现金、客户资金、自营证券、回购和债券融资共同构成受监管的经营资产负债，不能计算可剥离净现金；经营现金流也会随交易资产和回购融资大幅波动，不能直接视为可分配现金利润。控股视角应改看跨周期ROE、盈利构成、净资本与风险指标以及分红覆盖。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/06066.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
