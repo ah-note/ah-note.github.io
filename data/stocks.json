@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 14:36:48 +08:00",
+  "built_at": "2026-08-04 14:41:04 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -7017,6 +7017,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/02510.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01515.HK",
+      "name": "CR MEDICAL",
+      "raw_name": "CR MEDICAL",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 29.0,
+      "pe_ttm": 6.14,
+      "owner_earnback_years": 7.89,
+      "owner_earnback_rate_pct": 12.67,
+      "market_profit_payback_years": 7.89,
+      "market_cash_profit_yield_pct": 12.67,
+      "discounted_detachable_net_cash_yi": 0.0,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": 29.0,
+      "discounted_cash_profit_yi": 3.67,
+      "revenue_yi": 91.76,
+      "gross_profit_yi": 14.41,
+      "parent_net_profit_yi": 4.96,
+      "gross_margin_pct": 15.7,
+      "net_margin_pct": 5.4,
+      "forecast_dividend_yield_pct": 5.99,
+      "risk_level": "未分级",
+      "business_summary": "华润医疗通过自有医院向患者提供门急诊、住院和体检服务，并向参股及IOT/OT医院收取管理、供应链及其他服务收入。",
+      "core_judgement": "普通经营公司口径适用，但账面资金不等于可剥离资金。现金及受限存款10.31亿元低于银行借款、租赁负债和职工福利义务合计约12.27亿元，且集团净流动负债15.77亿元，故折后可剥离净现金取零。可持续现金利润从归母净利润出发，剔除燕化案一次性补偿的估算税后归母影响，再考虑折旧摊销与资本开支差额及少数股东权益，取约3.67亿元；据此经营业务购买价约29.00亿元，静态回本约7.9年。该结果对医保控费、资本开支和非营利医院利润可分配性高度敏感，不是确定现金回收承诺。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01515.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
