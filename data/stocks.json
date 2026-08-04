@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 23:57:18 +08:00",
+  "built_at": "2026-08-04 23:57:50 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -7761,6 +7761,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00517.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "02290.HK",
+      "name": "LUNG FUNG GROUP",
+      "raw_name": "LUNG FUNG GROUP",
+      "market": "HK",
+      "period": "2026-03-31",
+      "currency": "CNY",
+      "market_cap_yi": 15.83,
+      "pe_ttm": 6.84,
+      "owner_earnback_years": 7.61,
+      "owner_earnback_rate_pct": 13.13,
+      "market_profit_payback_years": 7.61,
+      "market_cash_profit_yield_pct": 13.13,
+      "discounted_detachable_net_cash_yi": 0.0,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": 15.83,
+      "discounted_cash_profit_yi": 2.08,
+      "revenue_yi": 28.3,
+      "gross_profit_yi": 8.77,
+      "parent_net_profit_yi": 2.32,
+      "gross_margin_pct": 30.98,
+      "net_margin_pct": 8.21,
+      "forecast_dividend_yield_pct": 8.21,
+      "risk_level": "未分级",
+      "business_summary": "以龙丰品牌在香港经营31家门店，主售美妆、健康、药品及日用消费品，靠门店扩张、选品价差和自有品牌贡献增长。",
+      "core_judgement": "按输入市值约15.83亿元人民币、可剥离净现金计零、核心净利润折算后再打八折，经营业务购买价约15.83亿元，对应约7.61年。该数是可比较的保守估算，不是确定回收期；完整经营现金流量表尚未披露，不能证明利润已等额转化为可分配现金。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/02290.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
