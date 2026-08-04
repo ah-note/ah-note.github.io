@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 05:29:57 +08:00",
+  "built_at": "2026-08-05 05:30:49 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -78011,6 +78011,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/CASS/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "SF",
+      "name": "Stifel Financial Corporation Common Stock",
+      "raw_name": "Stifel Financial Corporation Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 848.11,
+      "pe_ttm": 14.83,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 397.45,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 46.47,
+      "gross_margin_pct": null,
+      "net_margin_pct": 11.69,
+      "forecast_dividend_yield_pct": 1.74,
+      "risk_level": "未分级",
+      "business_summary": "以约 5,519 亿美元客户资产为基础收取财富管理和资管费用，同时经营投行、机构交易及以客户存款支持的银行贷款业务。",
+      "core_judgement": "普通控股回本口径不适用：账面现金及可变现证券与客户存款、回购、交易和银行监管资本相匹配，不能从市值中机械扣除；经营现金流也受交易头寸和客户往来变化影响。控股视角应改看财富管理与机构业务的税前盈利、CET1/净资本余量、贷款损失吸收能力及可持续普通股分红。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/SF/"
     },
     {
       "schema_version": "stock-research-result-v1",
