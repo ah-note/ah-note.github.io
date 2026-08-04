@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 23:04:09 +08:00",
+  "built_at": "2026-08-04 23:07:26 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -17375,6 +17375,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/08400.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "UFPI",
+      "name": "UFP Industries, Inc. - Common Stock",
+      "raw_name": "UFP Industries, Inc. - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 330.59,
+      "pe_ttm": 19.8,
+      "owner_earnback_years": 13.82,
+      "owner_earnback_rate_pct": 7.24,
+      "market_profit_payback_years": 15.21,
+      "market_cash_profit_yield_pct": 6.57,
+      "discounted_detachable_net_cash_yi": 30.2,
+      "discounted_net_cash_to_market_cap_pct": 9.14,
+      "operating_business_price_yi": 300.39,
+      "discounted_cash_profit_yi": 21.73,
+      "revenue_yi": 436.1,
+      "gross_profit_yi": 73.15,
+      "parent_net_profit_yi": 20.42,
+      "gross_margin_pct": 16.77,
+      "net_margin_pct": 4.66,
+      "forecast_dividend_yield_pct": 1.7,
+      "risk_level": "未分级",
+      "business_summary": "把木材、木塑复合材料及其他原料加工成家装零售品、工业包装和建筑构件，并通过分布式工厂与采购物流网络赚取增值加工和服务利润。",
+      "core_judgement": "按1美元=6.90元人民币统一换算。现金按70%、短期证券按80%计值，再全额扣除债务，得到约30.20亿元折后可剥离净现金。可持续现金利润取3.15亿美元（21.74亿元），高于2025年自由现金流2.76亿美元但接近2025年归母净利2.96亿美元，并显著低于2023年周期高位自由现金流；该口径隐含营运资金正常化但不假设利润回到高点。扣除折后净现金后经营业务价格约300.39亿元，对应约13.82年回本；全市值/现金利润约15.21倍。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/UFPI/"
     },
     {
       "schema_version": "stock-research-result-v1",
