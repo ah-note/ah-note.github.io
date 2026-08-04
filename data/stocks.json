@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 01:25:01 +08:00",
+  "built_at": "2026-08-05 01:25:33 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -18987,6 +18987,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/REPX/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "PBH",
+      "name": "Prestige Consumer Healthcare Inc. Common Stock",
+      "raw_name": "Prestige Consumer Healthcare Inc. Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 160.54,
+      "pe_ttm": 12.84,
+      "owner_earnback_years": 14.26,
+      "owner_earnback_rate_pct": 7.01,
+      "market_profit_payback_years": 9.89,
+      "market_cash_profit_yield_pct": 10.11,
+      "discounted_detachable_net_cash_yi": -70.96,
+      "discounted_net_cash_to_market_cap_pct": -44.2,
+      "operating_business_price_yi": 231.5,
+      "discounted_cash_profit_yi": 16.24,
+      "revenue_yi": 78.91,
+      "gross_profit_yi": 44.28,
+      "parent_net_profit_yi": 13.33,
+      "gross_margin_pct": 56.12,
+      "net_margin_pct": 16.9,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "收购并运营细分OTC健康品牌，通过北美和国际零售、电商渠道销售，靠品牌定价、渠道覆盖和轻资产外包制造赚取毛利。",
+      "core_judgement": "市值约160.54亿元，但现金减长期债务净额及融资租赁后为负70.96亿元，等价于控股者需以约231.50亿元承担股权和净融资义务来取得经营业务。TTM经营自由现金流约19.10亿元，考虑收入下滑、眼科产品供应短缺、营运资本波动和品牌维护需要后按85%计为约16.24亿元可持续可分配现金利润，对应经营业务回本约14.26年；未考虑收购控制权溢价、交易税费或债务提前偿还成本。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/PBH/"
     },
     {
       "schema_version": "stock-research-result-v1",
