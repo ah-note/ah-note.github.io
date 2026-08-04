@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 18:25:02 +08:00",
+  "built_at": "2026-08-04 18:26:35 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -58574,6 +58574,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/06058.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "02282.HK",
+      "name": "MGM CHINA",
+      "raw_name": "MGM CHINA",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 367.46,
+      "pe_ttm": 8.42,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 314.21,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 45.84,
+      "gross_margin_pct": null,
+      "net_margin_pct": 14.59,
+      "forecast_dividend_yield_pct": 6.23,
+      "risk_level": "未分级",
+      "business_summary": "依靠澳门两座综合度假村和截至2032年的博彩批给权，以高毛利的大众及高端大众赌台业务为核心，并以酒店、餐饮、零售和娱乐引流。",
+      "core_judgement": "普通控股回本公式不适用：批给权截至2032年，物业和现金需服务经营、投资承诺与净债务，不能把现金从市值中剥离，也不应把单年自由现金流外推为永续现金利润。应改看剩余批给期内经营现金流、必要资本开支、承诺投资、利息与本金偿付后的可分配现金。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/02282.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
