@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 18:33:56 +08:00",
+  "built_at": "2026-08-04 18:34:27 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -13128,6 +13128,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/RIGL/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "02382.HK",
+      "name": "SUNNY OPTICAL",
+      "raw_name": "SUNNY OPTICAL",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 515.17,
+      "pe_ttm": 11.66,
+      "owner_earnback_years": 12.37,
+      "owner_earnback_rate_pct": 8.08,
+      "market_profit_payback_years": 18.18,
+      "market_cash_profit_yield_pct": 5.5,
+      "discounted_detachable_net_cash_yi": 164.65,
+      "discounted_net_cash_to_market_cap_pct": 31.96,
+      "operating_business_price_yi": 350.52,
+      "discounted_cash_profit_yi": 28.34,
+      "revenue_yi": 432.29,
+      "gross_profit_yi": 85.16,
+      "parent_net_profit_yi": 46.39,
+      "gross_margin_pct": 19.7,
+      "net_margin_pct": 10.73,
+      "forecast_dividend_yield_pct": 2.25,
+      "risk_level": "未分级",
+      "business_summary": "以精密光学研发和规模制造能力，为手机、汽车、XR及泛IoT客户供应镜头、摄像模组与相关光学产品。",
+      "core_judgement": "按2026-08-03市值，折后可剥离净现金约164.65亿元，约占市值32.0%；扣除后经营业务购买价约350.52亿元。以2025年经营自由现金流31.48亿元再打九折得到可持续现金利润28.34亿元，对应经营业务回本约12.37年，市值/现金利润约18.18年。该口径将银行理财折价、完全剔除抵押存款，并不计入联营股权；但单年营运资本、扩产资本开支和产品周期仍会令结果波动。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/02382.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
