@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 20:40:59 +08:00",
+  "built_at": "2026-08-04 20:41:30 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -21777,6 +21777,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603566.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "02657.HK",
+      "name": "FOREST CABIN",
+      "raw_name": "FOREST CABIN",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 59.05,
+      "pe_ttm": 17.2,
+      "owner_earnback_years": 17.08,
+      "owner_earnback_rate_pct": 5.86,
+      "market_profit_payback_years": 20.89,
+      "market_cash_profit_yield_pct": 4.79,
+      "discounted_detachable_net_cash_yi": 10.79,
+      "discounted_net_cash_to_market_cap_pct": 18.28,
+      "operating_business_price_yi": 48.26,
+      "discounted_cash_profit_yi": 2.83,
+      "revenue_yi": 24.5,
+      "gross_profit_yi": 20.09,
+      "parent_net_profit_yi": 3.6,
+      "gross_margin_pct": 82.01,
+      "net_margin_pct": 14.71,
+      "forecast_dividend_yield_pct": 2.28,
+      "risk_level": "未分级",
+      "business_summary": "林清轩以山茶花精华油为核心，通过电商直营和全国门店销售高端国货抗皱护肤品，利润来自高产品毛利扣除大额获客推广、人员和门店费用后的余额。",
+      "core_judgement": "以2026-08-03市值59.05亿元为买价。年末现金含上市募资，故仅按80%计入可剥离价值，再全额扣除银行借款和租赁负债，得到折后净现金10.79亿元；以经营现金流减购置固定资产及无形资产得到3.33亿元经营自由现金流，再因增长期推广依赖、存货上升和后续扩张资本需求折减15%，得到折后可持续现金利润2.83亿元。对应经营业务购买价48.26亿元、回本约17.1年；该数字是保守口径估算，不是承诺或目标价。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/02657.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
