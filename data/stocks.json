@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 19:41:48 +08:00",
+  "built_at": "2026-08-04 19:42:40 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -27109,6 +27109,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002404.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01650.HK",
+      "name": "HYGIEIA GROUP",
+      "raw_name": "HYGIEIA GROUP",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 2.41,
+      "pe_ttm": 17.38,
+      "owner_earnback_years": 21.24,
+      "owner_earnback_rate_pct": 4.71,
+      "market_profit_payback_years": 26.46,
+      "market_cash_profit_yield_pct": 3.78,
+      "discounted_detachable_net_cash_yi": 0.48,
+      "discounted_net_cash_to_market_cap_pct": 19.74,
+      "operating_business_price_yi": 1.93,
+      "discounted_cash_profit_yi": 0.09,
+      "revenue_yi": 4.4,
+      "gross_profit_yi": 0.74,
+      "parent_net_profit_yi": 0.15,
+      "gross_margin_pct": 16.84,
+      "net_margin_pct": 3.3,
+      "forecast_dividend_yield_pct": 4.53,
+      "risk_level": "未分级",
+      "business_summary": "在新加坡和泰国以合约方式为公共及私营场所提供劳动密集型日常清洁服务。",
+      "core_judgement": "按控股口径，仅把现金按70%、定期存款按90%计入，剔除质押存款，并全额扣除借款和租赁负债，得到折后可剥离净现金约4,756万元。现金利润以经营现金流减PPE资本开支及租赁本金后再打九折，约910万元。按输入市值，经营业务购买价约1.933亿元，回本约21.2年；该数高度依赖政府就业补助、应收回款和控股公司从营运子公司上划现金的能力。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01650.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
