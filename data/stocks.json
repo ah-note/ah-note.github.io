@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 02:17:39 +08:00",
+  "built_at": "2026-08-05 02:18:11 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -29186,6 +29186,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/EXEL/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "CWCO",
+      "name": "Consolidated Water Co. Ltd. - Ordinary Shares",
+      "raw_name": "Consolidated Water Co. Ltd. - Ordinary Shares",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 31.53,
+      "pe_ttm": 26.79,
+      "owner_earnback_years": 19.56,
+      "owner_earnback_rate_pct": 5.11,
+      "market_profit_payback_years": 24.37,
+      "market_cash_profit_yield_pct": 4.1,
+      "discounted_detachable_net_cash_yi": 6.22,
+      "discounted_net_cash_to_market_cap_pct": 19.74,
+      "operating_business_price_yi": 25.3,
+      "discounted_cash_profit_yi": 1.29,
+      "revenue_yi": 9.49,
+      "gross_profit_yi": 3.48,
+      "parent_net_profit_yi": 1.32,
+      "gross_margin_pct": 36.63,
+      "net_margin_pct": 13.88,
+      "forecast_dividend_yield_pct": 2.04,
+      "risk_level": "未分级",
+      "business_summary": "在加勒比以许可和长期政府合同生产、销售淡化水，并在美国及加勒比为第三方设计建造、运营水处理设施和制造专用设备。",
+      "core_judgement": "按2025-12-31的7.1875人民币/美元统一换算。现金按70%折价并扣除全部有息债务，得到折后可剥离净现金约6.22亿元；可持续可分配现金利润取1800万美元（约1.294亿元），低于2025年报告自由现金流，因为剔除了应收、库存和合同负债释放带来的约1420万美元周转贡献，并覆盖约854万美元年度资本开支。按输入市值，经营业务购买价约25.30亿元，对应约19.6年；全市值/现金利润约24.4倍。这是静态控股回本解释，不是目标价或买卖建议。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/CWCO/"
     },
     {
       "schema_version": "stock-research-result-v1",
