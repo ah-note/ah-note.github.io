@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 21:05:21 +08:00",
+  "built_at": "2026-08-04 21:08:17 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -63224,6 +63224,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/PHM/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "BANR",
+      "name": "Banner Corporation - Common Stock",
+      "raw_name": "Banner Corporation - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 161.47,
+      "pe_ttm": 11.62,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 46.44,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 13.73,
+      "gross_margin_pct": null,
+      "net_margin_pct": 29.57,
+      "forecast_dividend_yield_pct": 3.09,
+      "risk_level": "未分级",
+      "business_summary": "一家以美国西部六州为主要市场、通过客户存款为商业地产、企业、小微、住宅和消费贷款提供资金，并赚取净利息差及账户/按揭服务费的地区性商业银行控股公司。",
+      "core_judgement": "普通控股回本口径不适用：银行的现金、证券、贷款与客户存款共同构成受监管的经营资产负债，无法合理拆出可剥离净现金，经营现金流和资本开支也不能代表可分配自由现金流。控股视角应改看 2025 年 3.96% 税当量净息差、1.21% ROA、10.51% ROE、0.31% 不良资产率、351% 拨备覆盖、12.81% CET1、约 1.18 倍账面价值和约 1.46 倍有形账面价值，以及监管资本约束下的分红。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/BANR/"
     },
     {
       "schema_version": "stock-research-result-v1",
