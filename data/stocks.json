@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 21:21:08 +08:00",
+  "built_at": "2026-08-04 21:24:24 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -22149,6 +22149,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603043.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "02367.HK",
+      "name": "GIANT BIOGENE",
+      "raw_name": "GIANT BIOGENE",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 277.3,
+      "pe_ttm": 15.2,
+      "owner_earnback_years": 17.06,
+      "owner_earnback_rate_pct": 5.86,
+      "market_profit_payback_years": 22.79,
+      "market_cash_profit_yield_pct": 4.39,
+      "discounted_detachable_net_cash_yi": 69.77,
+      "discounted_net_cash_to_market_cap_pct": 25.16,
+      "operating_business_price_yi": 207.53,
+      "discounted_cash_profit_yi": 12.17,
+      "revenue_yi": 55.19,
+      "gross_profit_yi": 44.33,
+      "parent_net_profit_yi": 19.15,
+      "gross_margin_pct": 80.34,
+      "net_margin_pct": 34.7,
+      "forecast_dividend_yield_pct": 4.65,
+      "risk_level": "未分级",
+      "business_summary": "以重组胶原等生物活性材料为底层技术，通过可复美、可丽金等品牌向消费者和医疗/零售渠道销售专业皮肤护理产品。",
+      "core_judgement": "现金按100%、银行等机构发行的理财产品按80%计入，并扣除全部负债；现金利润以2025年经营自由现金流为基准再打九折，以反映收入停滞、毛利率下滑及营销投入压力。该口径得到约17.1年经营业务回本期；这是静态控股测算，不是目标价。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/02367.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
