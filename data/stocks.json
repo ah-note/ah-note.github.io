@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 11:51:29 +08:00",
+  "built_at": "2026-08-04 11:53:29 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -1120,6 +1120,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/06626.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "02348.HK",
+      "name": "DAWNRAYS PHARMA",
+      "raw_name": "DAWNRAYS PHARMA",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 13.41,
+      "pe_ttm": 6.58,
+      "owner_earnback_years": 0.0,
+      "owner_earnback_rate_pct": 29665.25,
+      "market_profit_payback_years": 8.27,
+      "market_cash_profit_yield_pct": 12.09,
+      "discounted_detachable_net_cash_yi": 13.41,
+      "discounted_net_cash_to_market_cap_pct": 99.96,
+      "operating_business_price_yi": 0.01,
+      "discounted_cash_profit_yi": 1.62,
+      "revenue_yi": 12.31,
+      "gross_profit_yi": 6.12,
+      "parent_net_profit_yi": 2.14,
+      "gross_margin_pct": 49.73,
+      "net_margin_pct": 17.38,
+      "forecast_dividend_yield_pct": 6.27,
+      "risk_level": "未分级",
+      "business_summary": "在中国内地生产并通过医院、连锁药店、基层及线上渠道销售心血管、抗病毒、抗过敏及头孢类药品，以成药为主要利润来源。",
+      "core_judgement": "按输入市值，折后可剥离净现金几乎覆盖全部市值，经营业务购买价接近零，因此机械回本年失去稳定解释力；更有意义的是市值约为折后可持续现金利润的8.27倍。该结论高度依赖现金和结构性存款可上划、可分配及输入市值币种已按协议统一为人民币的前提。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/02348.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
