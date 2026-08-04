@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 03:58:09 +08:00",
+  "built_at": "2026-08-05 03:59:44 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -32689,6 +32689,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600587.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "MCRI",
+      "name": "Monarch Casino & Resort, Inc. - Common Stock",
+      "raw_name": "Monarch Casino & Resort, Inc. - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 148.46,
+      "pe_ttm": 19.7,
+      "owner_earnback_years": 21.05,
+      "owner_earnback_rate_pct": 4.75,
+      "market_profit_payback_years": 21.05,
+      "market_cash_profit_yield_pct": 4.75,
+      "discounted_detachable_net_cash_yi": 0.0,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": 148.46,
+      "discounted_cash_profit_yi": 7.05,
+      "revenue_yi": 39.25,
+      "gross_profit_yi": 21.6,
+      "parent_net_profit_yi": 7.3,
+      "gross_margin_pct": 55.04,
+      "net_margin_pct": 18.6,
+      "forecast_dividend_yield_pct": 1.04,
+      "risk_level": "未分级",
+      "business_summary": "Monarch在内华达州Reno和科罗拉多州Black Hawk自有并经营两座中高端赌场度假村，以博彩净赢额为核心，再用酒店、餐饮和会展拉长客户停留并交叉变现。",
+      "core_judgement": "按市值148.46亿元、折后可剥离净现金为0、折后可持续可分配现金利润7.05亿元计算，经营业务购买价仍为148.46亿元，静态回本约21.05年。该口径已对近三年自由现金流均值打85折，并把年末现金优先留给7,730万美元PCL诉讼应付款和赌场营运储备；它不是收益承诺。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/MCRI/"
     },
     {
       "schema_version": "stock-research-result-v1",
