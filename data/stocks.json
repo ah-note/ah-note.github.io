@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 17:03:53 +08:00",
+  "built_at": "2026-08-04 17:07:49 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -9377,6 +9377,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600729.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "03709.HK",
+      "name": "EEKA FASHION",
+      "raw_name": "EEKA FASHION",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 32.62,
+      "pe_ttm": 8.63,
+      "owner_earnback_years": 9.43,
+      "owner_earnback_rate_pct": 10.6,
+      "market_profit_payback_years": 10.09,
+      "market_cash_profit_yield_pct": 9.91,
+      "discounted_detachable_net_cash_yi": 2.13,
+      "discounted_net_cash_to_market_cap_pct": 6.52,
+      "operating_business_price_yi": 30.49,
+      "discounted_cash_profit_yi": 3.23,
+      "revenue_yi": 62.86,
+      "gross_profit_yi": 48.12,
+      "parent_net_profit_yi": 3.97,
+      "gross_margin_pct": 76.56,
+      "net_margin_pct": 6.32,
+      "forecast_dividend_yield_pct": 6.51,
+      "risk_level": "未分级",
+      "business_summary": "以七个中高端女装品牌，通过中国自营门店为主、电商为辅向消费者销售服装的多品牌零售集团。",
+      "core_judgement": "普通经营公司口径适用，但现金并非全可拿走。现金按50%、流动理财按70%、非流动理财按50%折价，非上市基金及其他金融资产按0计，再全额扣除银行借款，得到折后可剥离净现金2.128亿元。现金利润从税前利润出发，加回折旧摊销，扣现金税、资本开支和门店租赁本金，按归母比例后约3.59亿元；再因收入和利润仍在下滑、库存周转恶化折至3.232亿元。由此经营业务购买价约30.49亿元，静态回本约9.43年；这是情景测算，不是确定回报。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/03709.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
