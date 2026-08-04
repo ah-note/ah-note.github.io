@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 01:54:25 +08:00",
+  "built_at": "2026-08-05 01:55:38 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -37742,6 +37742,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/688558.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01913.HK",
+      "name": "PRADA",
+      "raw_name": "PRADA",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 954.95,
+      "pe_ttm": 14.29,
+      "owner_earnback_years": 24.88,
+      "owner_earnback_rate_pct": 4.02,
+      "market_profit_payback_years": 24.88,
+      "market_cash_profit_yield_pct": 4.02,
+      "discounted_detachable_net_cash_yi": 0.0,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": 954.95,
+      "discounted_cash_profit_yi": 38.38,
+      "revenue_yi": 464.18,
+      "gross_profit_yi": 372.81,
+      "parent_net_profit_yi": 69.16,
+      "gross_margin_pct": 80.32,
+      "net_margin_pct": 14.9,
+      "forecast_dividend_yield_pct": 3.61,
+      "risk_level": "未分级",
+      "business_summary": "PRADA以Prada、Miu Miu及新并入的Versace等奢侈品牌，主要通过全球直营门店和电商按全价销售成衣、皮具、鞋履等，并以批发和眼镜/美妆授权补充收入。",
+      "core_judgement": "2025年末现金约12.62亿欧元，但金融负债约17.32亿欧元，净金融债务约4.66亿欧元，因此可剥离净现金按零计。以公司定义的租赁付款后经营现金流12.02亿欧元减现金资本开支6.11亿欧元，得到基准经营自由现金流5.91亿欧元；再因Versace仅并表一个月、2026H1已显示合并利润率摊薄和净债务上升而折减20%，折后可持续现金利润约4.73亿欧元（按2025平均汇率约38.38亿元人民币）。在所给954.95亿元市值下，经营业务购买价等于市值，静态回本约24.9年...",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01913.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
