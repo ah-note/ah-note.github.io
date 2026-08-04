@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 11:04:21 +08:00",
+  "built_at": "2026-08-04 11:05:33 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -620,6 +620,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/01289.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "WETH",
+      "name": "Wetouch Technology Inc. - Common Stock",
+      "raw_name": "Wetouch Technology Inc. - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 0.94,
+      "pe_ttm": 1.65,
+      "owner_earnback_years": -3.74,
+      "owner_earnback_rate_pct": -26.74,
+      "market_profit_payback_years": 2.41,
+      "market_cash_profit_yield_pct": 41.54,
+      "discounted_detachable_net_cash_yi": 2.41,
+      "discounted_net_cash_to_market_cap_pct": 255.34,
+      "operating_business_price_yi": -1.46,
+      "discounted_cash_profit_yi": 0.39,
+      "revenue_yi": 3.22,
+      "gross_profit_yi": 1.03,
+      "parent_net_profit_yi": 0.51,
+      "gross_margin_pct": 31.84,
+      "net_margin_pct": 15.86,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "在中国研发制造7至42英寸中大尺寸投射电容触摸屏，直销汽车、工业HMI、POS、医疗、金融终端、博彩和彩票设备客户。",
+      "core_judgement": "扣除全部负债和建设承诺后，仅确认境内现金的30%，折后净现金仍为市值2.55倍。负经营业务购买价和负回本年仅表示折后现金覆盖市值，不表示可立即回收；现金长期留存境内、汇出审批、预提税、扩产用途及无分红计划均限制兑现。现金利润以2025净利为基准，扣10%潜在分配税，再对客户集中和行业周期打85折。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/WETH/"
     },
     {
       "schema_version": "stock-research-result-v1",
