@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 01:19:58 +08:00",
+  "built_at": "2026-08-05 01:21:32 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -70602,6 +70602,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/CMTV/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "IIPR",
+      "name": "Innovative Industrial Properties, Inc. (NYSE: IIPR)",
+      "raw_name": "Innovative Industrial Properties, Inc. (NYSE: IIPR)",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 115.07,
+      "pe_ttm": 15.0,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 18.63,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 8.02,
+      "gross_margin_pct": null,
+      "net_margin_pct": 43.03,
+      "forecast_dividend_yield_pct": 13.32,
+      "risk_level": "未分级",
+      "business_summary": "通过售后回租和直接购置持有美国专业工业地产，以长期三净租约向受监管大麻经营者收租，并开始配置生命科学地产相关投资。",
+      "core_judgement": "普通控股回本口径不适用。房地产及配套债务是租赁生意本身，不能把现金减债后简单从市值剥离；GAAP净利润又受房地产折旧显著影响。应改看租金可收性、FFO/AFFO、维持性资本支出、债务成本和分红覆盖。2025年AFFO为205.4百万美元，低于普通股现金分红216.3百万美元，且同比下降约19.8%。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/IIPR/"
     },
     {
       "schema_version": "stock-research-result-v1",
