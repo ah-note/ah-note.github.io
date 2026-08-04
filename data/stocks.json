@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 21:24:24 +08:00",
+  "built_at": "2026-08-04 21:25:17 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -63720,6 +63720,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/COSO/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01763.HK",
+      "name": "中国同辐",
+      "raw_name": "中国同辐",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 44.75,
+      "pe_ttm": 14.35,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": 0.0,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": 0.0,
+      "discounted_detachable_net_cash_yi": 0.0,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": 44.75,
+      "discounted_cash_profit_yi": 0.0,
+      "revenue_yi": 71.88,
+      "gross_profit_yi": 36.22,
+      "parent_net_profit_yi": 3.27,
+      "gross_margin_pct": 50.39,
+      "net_margin_pct": 4.56,
+      "forecast_dividend_yield_pct": 2.2,
+      "risk_level": "未分级",
+      "business_summary": "中国同辐以核药为核心，向医疗机构和工业客户销售放射性药品、放射源与核医疗设备，并提供辐照和核医学整体解决方案。",
+      "core_judgement": "公司是普通经营企业，但2025年现金及银行存款25.91亿元低于银行贷款、公司债及租赁负债合计27.26亿元，且自由现金流为负；因此不确认可剥离净现金，也不把单年会计利润直接视为可持续可分配现金利润，回本年暂不成立。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01763.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
