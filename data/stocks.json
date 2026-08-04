@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 21:03:16 +08:00",
+  "built_at": "2026-08-04 21:03:48 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -21467,6 +21467,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603338.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "PNRG",
+      "name": "PrimeEnergy Resources Corporation - Common Stock",
+      "raw_name": "PrimeEnergy Resources Corporation - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 20.1,
+      "pe_ttm": 20.52,
+      "owner_earnback_years": 16.61,
+      "owner_earnback_rate_pct": 6.02,
+      "market_profit_payback_years": 16.96,
+      "market_cash_profit_yield_pct": 5.9,
+      "discounted_detachable_net_cash_yi": 0.42,
+      "discounted_net_cash_to_market_cap_pct": 2.08,
+      "operating_business_price_yi": 19.68,
+      "discounted_cash_profit_yi": 1.19,
+      "revenue_yi": 13.48,
+      "gross_profit_yi": 9.12,
+      "parent_net_profit_yi": 1.88,
+      "gross_margin_pct": 67.64,
+      "net_margin_pct": 13.92,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "在美国德州和俄克拉荷马持有并参与开发陆上油气井，以出售原油为主要收入，同时经营小规模油田服务。",
+      "core_judgement": "输入市值20.10亿元减折后净现金0.42亿元，等于约19.68亿元经营业务购买价。以2025年经营现金流减全部物业支出所得1.48亿元自由现金流为起点，再对油气价格和资本开支周期打八折至1.19亿元，静态控股回本约16.6年；若按完整市值则约17.0年。该数字不是储量估值，且对油价、产量递减和钻井强度非常敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/PNRG/"
     },
     {
       "schema_version": "stock-research-result-v1",
