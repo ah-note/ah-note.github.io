@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 19:37:22 +08:00",
+  "built_at": "2026-08-04 19:39:44 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -13779,6 +13779,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/BZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "UTMD",
+      "name": "Utah Medical Products, Inc. - Common Stock",
+      "raw_name": "Utah Medical Products, Inc. - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 15.15,
+      "pe_ttm": 21.5,
+      "owner_earnback_years": 12.4,
+      "owner_earnback_rate_pct": 8.06,
+      "market_profit_payback_years": 18.52,
+      "market_cash_profit_yield_pct": 5.4,
+      "discounted_detachable_net_cash_yi": 5.0,
+      "discounted_net_cash_to_market_cap_pct": 33.02,
+      "operating_business_price_yi": 10.15,
+      "discounted_cash_profit_yi": 0.82,
+      "revenue_yi": 2.77,
+      "gross_profit_yi": 1.58,
+      "parent_net_profit_yi": 0.81,
+      "gross_margin_pct": 57.12,
+      "net_margin_pct": 29.3,
+      "forecast_dividend_yield_pct": 1.87,
+      "risk_level": "未分级",
+      "business_summary": "在美国和爱尔兰制造面向妇女、婴儿及重症护理的高毛利专科医疗器械，并通过自营终端渠道、海外经销商和OEM客户全球销售。",
+      "core_judgement": "以年末现金按85%计入并扣除全部负债，折后可剥离净现金约5.00亿元；经营自由现金流剔除与该现金对应的税后利息、当年营运资金释放和股权激励后，可持续现金利润约0.82亿元。输入市值扣净现金后的经营业务价格约10.15亿元，对应约12.4年回本；不扣现金则约18.5年。折扣和可持续性均为判断，不代表现金可强制分配。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/UTMD/"
     },
     {
       "schema_version": "stock-research-result-v1",
