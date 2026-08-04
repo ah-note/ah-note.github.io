@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 22:49:44 +08:00",
+  "built_at": "2026-08-04 22:51:59 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -10958,6 +10958,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600987.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "02313.HK",
+      "name": "SHENZHOU INTL",
+      "raw_name": "SHENZHOU INTL",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 571.97,
+      "pe_ttm": 10.31,
+      "owner_earnback_years": 9.94,
+      "owner_earnback_rate_pct": 10.06,
+      "market_profit_payback_years": 12.71,
+      "market_cash_profit_yield_pct": 7.87,
+      "discounted_detachable_net_cash_yi": 124.82,
+      "discounted_net_cash_to_market_cap_pct": 21.82,
+      "operating_business_price_yi": 447.15,
+      "discounted_cash_profit_yi": 45.0,
+      "revenue_yi": 309.94,
+      "gross_profit_yi": 81.65,
+      "parent_net_profit_yi": 58.25,
+      "gross_margin_pct": 26.35,
+      "net_margin_pct": 18.8,
+      "forecast_dividend_yield_pct": 6.16,
+      "risk_level": "未分级",
+      "business_summary": "为国际品牌提供从面料织造、染整到成衣制造的一体化针织服装代工，产能分布于中国、越南和柬埔寨。",
+      "core_judgement": "按输入市值571.97亿元，扣除折后可剥离净现金124.82亿元后，经营业务购买价447.15亿元。可持续可分配现金利润采用45.00亿元：以归母利润58.25亿元为起点，剔除随资金一并扣除的存款利息和理财公允价值收益税后约9.86亿元，再为扩产爬坡、毛利波动及客户集中留约3.4亿元安全折减。对应经营业务回本约9.94年；若不扣净现金，市值/现金利润约12.71倍。该数是标准化保守估算，不是管理层指引。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/02313.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
