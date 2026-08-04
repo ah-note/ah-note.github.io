@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 16:17:18 +08:00",
+  "built_at": "2026-08-04 16:17:49 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -9098,6 +9098,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/03316.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "09911.HK",
+      "name": "赤子城科技",
+      "raw_name": "赤子城科技",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 100.29,
+      "pe_ttm": 11.27,
+      "owner_earnback_years": 9.58,
+      "owner_earnback_rate_pct": 10.44,
+      "market_profit_payback_years": 11.79,
+      "market_cash_profit_yield_pct": 8.49,
+      "discounted_detachable_net_cash_yi": 18.74,
+      "discounted_net_cash_to_market_cap_pct": 18.69,
+      "operating_business_price_yi": 81.55,
+      "discounted_cash_profit_yi": 8.51,
+      "revenue_yi": 68.89,
+      "gross_profit_yi": 38.47,
+      "parent_net_profit_yi": 9.35,
+      "gross_margin_pct": 55.85,
+      "net_margin_pct": 13.57,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "面向海外市场运营 MICO、YoHo、SUGO、Blued、TopTop 等社交娱乐应用，并以虚拟服务、广告及游戏、短剧、电商等创新业务变现。",
+      "core_judgement": "普通经营公司口径适用。现金及现金等价物和非保本理财按80%计入、定期存款按100%计入，再扣除银行透支、租赁负债及收购少数股权相关应付款，得到折后可剥离净现金18.74亿元。现金利润以归母净利润加折旧摊销、减资本开支后再作15%持续性折价，且不加回股权激励费用，得到8.51亿元。由此经营业务购买价约81.55亿元，静态回本约9.58年；该数字依赖2025年高增长和投放效率能够延续，不是收益承诺。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/09911.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
