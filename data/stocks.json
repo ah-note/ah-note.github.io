@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 21:46:36 +08:00",
+  "built_at": "2026-08-04 21:47:08 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -14771,6 +14771,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/001914.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "02714.HK",
+      "name": "牧原股份（MUYUAN）",
+      "raw_name": "牧原股份（MUYUAN）",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 1671.73,
+      "pe_ttm": 11.33,
+      "owner_earnback_years": 12.53,
+      "owner_earnback_rate_pct": 7.98,
+      "market_profit_payback_years": 12.53,
+      "market_cash_profit_yield_pct": 7.98,
+      "discounted_detachable_net_cash_yi": 0.0,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": 1671.73,
+      "discounted_cash_profit_yi": 133.43,
+      "revenue_yi": 1441.45,
+      "gross_profit_yi": 256.84,
+      "parent_net_profit_yi": 154.87,
+      "gross_margin_pct": 17.82,
+      "net_margin_pct": 10.74,
+      "forecast_dividend_yield_pct": 4.45,
+      "risk_level": "未分级",
+      "business_summary": "中国大型一体化生猪企业，以自繁自养销售生猪为利润核心，并向屠宰、分割肉和饲料供应链延伸。",
+      "core_judgement": "按2026-08-03总市值1671.73亿元计算，2025年经营自由现金流205.27亿元；鉴于猪价周期、疫病和维持性资本开支不确定性，统一折减35%得到133.43亿元可持续可分配现金利润。年末现金及现金等价物127.78亿元远低于短期借款411.55亿元，故不把任何现金作为可剥离净现金。经营业务购买价等于市值，对应约12.53年回本。该数是周期中单年现金流的保守化估计，不是跨周期精确值；且估值日晚于年末并包含H股上市后的资本变化。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/02714.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
