@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 22:43:17 +08:00",
+  "built_at": "2026-08-04 22:43:49 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -65859,6 +65859,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/FNLC/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "FSBW",
+      "name": "FS Bancorp, Inc. - Common Stock",
+      "raw_name": "FS Bancorp, Inc. - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 21.47,
+      "pe_ttm": 9.82,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 10.66,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 2.33,
+      "gross_margin_pct": null,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": 2.83,
+      "risk_level": "未分级",
+      "business_summary": "一家以华盛顿州普吉特海湾为核心、用客户存款为房地产、商业和消费贷款融资，并经营住房按揭发放与出售的小型社区银行控股公司。",
+      "core_judgement": "普通控股回本口径不适用。银行的贷款、证券、存款和批发融资共同形成受监管的经营资产负债表，不能用市值减折后净现金再除自由现金流。更合适的控股视角是：市值约为期末账面权益1.00倍；2025年平均权益回报率约11.1%，净息差4.33%；同时结合不良率、拨备覆盖、资本充足和可持续分红判断回报。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/FSBW/"
     },
     {
       "schema_version": "stock-research-result-v1",
