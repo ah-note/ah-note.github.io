@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 12:36:00 +08:00",
+  "built_at": "2026-08-04 12:36:31 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -2298,6 +2298,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/08033.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "06049.HK",
+      "name": "保利物业",
+      "raw_name": "保利物业",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 133.77,
+      "pe_ttm": 9.06,
+      "owner_earnback_years": 2.65,
+      "owner_earnback_rate_pct": 37.74,
+      "market_profit_payback_years": 9.55,
+      "market_cash_profit_yield_pct": 10.47,
+      "discounted_detachable_net_cash_yi": 96.67,
+      "discounted_net_cash_to_market_cap_pct": 72.27,
+      "operating_business_price_yi": 37.1,
+      "discounted_cash_profit_yi": 14.0,
+      "revenue_yi": 171.26,
+      "gross_profit_yi": 29.85,
+      "parent_net_profit_yi": 15.49,
+      "gross_margin_pct": 17.43,
+      "net_margin_pct": 9.05,
+      "forecast_dividend_yield_pct": 5.8,
+      "risk_level": "未分级",
+      "business_summary": "以基础物业管理费为核心、辅以社区与开发商增值服务的全国性轻资产物业服务商。",
+      "core_judgement": "按输入市值约133.77亿元，折后可剥离净现金约96.67亿元，隐含经营业务购买价约37.10亿元；以折后可持续可分配现金利润14.00亿元计，经营业务回本约2.65年，市值/现金利润约9.55倍。该结果高度依赖现金确属可分配、关联财务公司存款可回收以及利润未因毛利率与应收恶化而下滑。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/06049.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
