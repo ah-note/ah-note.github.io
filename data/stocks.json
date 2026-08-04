@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 13:36:29 +08:00",
+  "built_at": "2026-08-04 13:37:21 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -50762,6 +50762,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/SPNT/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "DGICA",
+      "name": "Donegal Group, Inc. - Class A Common Stock",
+      "raw_name": "Donegal Group, Inc. - Class A Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 49.35,
+      "pe_ttm": 10.28,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 68.74,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 5.58,
+      "gross_margin_pct": null,
+      "net_margin_pct": 8.11,
+      "forecast_dividend_yield_pct": 3.87,
+      "risk_level": "未分级",
+      "business_summary": "通过独立保险代理网络在美国21州承保商业和个人财产意外险，并以保费形成的资金投资固定收益资产赚取投资收益。",
+      "core_judgement": "普通控股回本口径不适用。不能用市值减投资组合或现金后再除以经营现金流，因为投资资产匹配保单准备金、未赚保费和监管资本。应改看承保综合成本率及其周期稳定性、准备金是否充足、投资收益质量、法定资本盈余/RBC余量，以及保险子公司可上划并由控股公司分配的股息。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/DGICA/"
     },
     {
       "schema_version": "stock-research-result-v1",
