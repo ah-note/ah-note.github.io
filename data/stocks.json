@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 19:34:25 +08:00",
+  "built_at": "2026-08-04 19:36:19 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -14709,6 +14709,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603111.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "VALU",
+      "name": "Value Line, Inc. - Common Stock",
+      "raw_name": "Value Line, Inc. - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 21.66,
+      "pe_ttm": 14.87,
+      "owner_earnback_years": 12.99,
+      "owner_earnback_rate_pct": 7.7,
+      "market_profit_payback_years": 16.71,
+      "market_cash_profit_yield_pct": 5.98,
+      "discounted_detachable_net_cash_yi": 4.82,
+      "discounted_net_cash_to_market_cap_pct": 22.26,
+      "operating_business_price_yi": 16.84,
+      "discounted_cash_profit_yi": 1.3,
+      "revenue_yi": 2.53,
+      "gross_profit_yi": 2.09,
+      "parent_net_profit_yi": 1.49,
+      "gross_margin_pct": 82.93,
+      "net_margin_pct": 58.97,
+      "forecast_dividend_yield_pct": 4.06,
+      "risk_level": "未分级",
+      "business_summary": "Value Line向个人与机构出售投资研究订阅和品牌/排名版权，并从管理Value Line共同基金的EAM Trust持续收取合同收入分成和利润分成。",
+      "core_judgement": "以输入市值21.66亿元减去折后可剥离净现金4.82亿元，经营业务隐含购买价约16.84亿元；以折后可持续可分配现金利润1.296亿元计，约13.0年回本。该数字依赖EAM分配持续、证券可变现及出版业务不继续显著恶化，不是收益承诺。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/VALU/"
     },
     {
       "schema_version": "stock-research-result-v1",
