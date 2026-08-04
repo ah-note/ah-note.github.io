@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 01:26:04 +08:00",
+  "built_at": "2026-08-05 01:29:29 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -70788,6 +70788,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/CBU/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "NBHC",
+      "name": "National Bank Holdings Corporation (NYSE: NBHC)",
+      "raw_name": "National Bank Holdings Corporation (NYSE: NBHC)",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 129.8,
+      "pe_ttm": 18.15,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": null,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 7.81,
+      "gross_margin_pct": null,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": 3.19,
+      "risk_level": "未分级",
+      "business_summary": "一家以美国山地西部和中部市场为核心、依靠低成本存款为商业与消费贷款融资并赚取息差及手续费的区域银行控股公司。",
+      "core_judgement": "普通控股回本口径不适用：银行现金、证券、贷款与存款受流动性、资本和存款偿付约束，不能从市值中剥离；应以约1.30倍2025年末账面价值、盈利能力、资产质量、资本余量和分红能力综合判断。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/NBHC/"
     },
     {
       "schema_version": "stock-research-result-v1",
