@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 14:06:28 +08:00",
+  "built_at": "2026-08-04 14:06:59 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -4626,6 +4626,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/01305.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "03978.HK",
+      "name": "BESTSTUDY EDU",
+      "raw_name": "BESTSTUDY EDU",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 23.32,
+      "pe_ttm": 8.12,
+      "owner_earnback_years": 5.23,
+      "owner_earnback_rate_pct": 19.12,
+      "market_profit_payback_years": 9.1,
+      "market_cash_profit_yield_pct": 10.99,
+      "discounted_detachable_net_cash_yi": 9.92,
+      "discounted_net_cash_to_market_cap_pct": 42.54,
+      "operating_business_price_yi": 13.4,
+      "discounted_cash_profit_yi": 2.56,
+      "revenue_yi": 19.04,
+      "gross_profit_yi": 8.64,
+      "parent_net_profit_yi": 3.01,
+      "gross_margin_pct": 45.36,
+      "net_margin_pct": 15.83,
+      "forecast_dividend_yield_pct": 9.05,
+      "risk_level": "未分级",
+      "business_summary": "卓越教育是深耕华南的K-12教育服务商，主要向学生和家长按课程/学期收费，2025年增长主要由综合素养业务拉动。",
+      "core_judgement": "以2026年8月3日市值23.32亿元，减去折后可剥离净资金9.92亿元，经营业务价格约13.40亿元；以2025年归母净利润3.015亿元打85折作为折后可持续可分配现金利润2.562亿元，静态回本约5.23年。该口径不是预测：2025年收入增长72.8%，增长基数、教育监管、扩张所需营运资金及校区租赁均可能使利润回落或现金不可全部剥离。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/03978.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
