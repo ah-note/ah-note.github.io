@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 13:21:58 +08:00",
+  "built_at": "2026-08-04 13:22:49 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -6494,6 +6494,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002758.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01617.HK",
+      "name": "南方通信",
+      "raw_name": "南方通信",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 3.43,
+      "pe_ttm": 11.84,
+      "owner_earnback_years": 8.49,
+      "owner_earnback_rate_pct": 11.77,
+      "market_profit_payback_years": 13.62,
+      "market_cash_profit_yield_pct": 7.34,
+      "discounted_detachable_net_cash_yi": 1.29,
+      "discounted_net_cash_to_market_cap_pct": 37.61,
+      "operating_business_price_yi": 2.14,
+      "discounted_cash_profit_yi": 0.25,
+      "revenue_yi": 4.64,
+      "gross_profit_yi": 1.04,
+      "parent_net_profit_yi": 0.3,
+      "gross_margin_pct": 22.37,
+      "net_margin_pct": 6.55,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "在江苏生产光缆并主要通过电信运营商招标销售，同时经营少量光纤分配设备和彩涂钢板。",
+      "core_judgement": "按保守折扣，市值扣除折后可剥离净现金后，经营业务隐含购买价约2.14亿元；以2023—2025年归母净利润均值约2517万元作为跨周期可持续现金利润锚，静态回本约8.5年，未计税务、交易成本、控制权溢价及未来增长。2025年自由现金流较高主要由应收回收推动，不直接外推；连续多年未派末期股息也说明账面现金不等于可分配现金。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01617.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
