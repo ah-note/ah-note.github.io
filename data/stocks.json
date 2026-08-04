@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 19:25:35 +08:00",
+  "built_at": "2026-08-04 19:27:29 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -20289,6 +20289,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00700.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "VINP",
+      "name": "Vinci Compass Investments Ltd. - Class A Common Shares",
+      "raw_name": "Vinci Compass Investments Ltd. - Class A Common Shares",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 43.59,
+      "pe_ttm": 12.64,
+      "owner_earnback_years": 16.66,
+      "owner_earnback_rate_pct": 6.0,
+      "market_profit_payback_years": 16.61,
+      "market_cash_profit_yield_pct": 6.02,
+      "discounted_detachable_net_cash_yi": -0.14,
+      "discounted_net_cash_to_market_cap_pct": -0.32,
+      "operating_business_price_yi": 43.73,
+      "discounted_cash_profit_yi": 2.62,
+      "revenue_yi": 12.57,
+      "gross_profit_yi": 12.57,
+      "parent_net_profit_yi": 2.8,
+      "gross_margin_pct": 100.0,
+      "net_margin_pct": 22.26,
+      "forecast_dividend_yield_pct": 6.23,
+      "risk_level": "未分级",
+      "business_summary": "面向拉美机构、高净值及零售客户管理多资产策略并提供全球投资解决方案，以AUM管理费为主、业绩报酬和顾问费为辅。",
+      "core_judgement": "按2025年自由现金流扣除股份支付的稀释成本，折后可持续现金利润约2.62亿元；自有投资折价后仍不足覆盖融资性义务，折后可剥离净现金约为负0.14亿元，因此经营业务购买价约43.73亿元，静态回本约16.7年。该口径未给Verde仅并表一个月的潜在全年贡献加分，也未把收购协同当成既成事实。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/VINP/"
     },
     {
       "schema_version": "stock-research-result-v1",
