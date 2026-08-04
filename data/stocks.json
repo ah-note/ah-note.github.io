@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 21:03:48 +08:00",
+  "built_at": "2026-08-04 21:05:21 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -21994,6 +21994,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/01147.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "08281.HK",
+      "name": "CH GOLD CLASSIC",
+      "raw_name": "CH GOLD CLASSIC",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 2.32,
+      "pe_ttm": 23.87,
+      "owner_earnback_years": 17.06,
+      "owner_earnback_rate_pct": 5.86,
+      "market_profit_payback_years": 23.23,
+      "market_cash_profit_yield_pct": 4.31,
+      "discounted_detachable_net_cash_yi": 0.62,
+      "discounted_net_cash_to_market_cap_pct": 26.57,
+      "operating_business_price_yi": 1.71,
+      "discounted_cash_profit_yi": 0.1,
+      "revenue_yi": 2.69,
+      "gross_profit_yi": 1.01,
+      "parent_net_profit_yi": 0.1,
+      "gross_margin_pct": 37.73,
+      "net_margin_pct": 3.8,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "以雪豹等品牌及OEM方式制造销售口腔护理、家居卫生和皮革护理用品，2025年约74%的收入来自家居卫生产品。",
+      "core_judgement": "普通经营公司口径适用。现金按70%计入以覆盖营运资金、境内上划及小市值公司治理折扣，质押存款不计，租赁负债全额扣除；持续现金利润取人民币10百万元，低于2025年经营自由现金流人民币15.934百万元、接近归母净利人民币10.216百万元，以免把单年营运资金释放或偏低资本开支外推。由此经营业务购买价约人民币170.6百万元，回本约17.1年；按整个市值对应现金利润约23.2年。该结果是情景测算，不是确定价值。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/08281.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
