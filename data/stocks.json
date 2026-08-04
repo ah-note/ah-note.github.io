@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 20:28:52 +08:00",
+  "built_at": "2026-08-04 20:31:06 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -62232,6 +62232,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/DHI/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "AIZ",
+      "name": "Assurant, Inc. Common Stock",
+      "raw_name": "Assurant, Inc. Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 933.46,
+      "pe_ttm": 14.3,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 897.81,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 61.14,
+      "gross_margin_pct": null,
+      "net_margin_pct": 6.81,
+      "forecast_dividend_yield_pct": 1.31,
+      "risk_level": "未分级",
+      "business_summary": "借助品牌合作渠道，为联网设备、汽车和住房提供保险、延保、置换及相关服务，从承保/服务利润和投资收益赚钱。",
+      "core_judgement": "普通控股回本口径不适用：保险投资资产匹配未赚保费、赔款准备金和监管资本，经营现金流也受收付时点显著影响。应看分部利润与损失经验、灾害暴露、投资收益、法定资本、子公司上划能力和实际股东回报。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/AIZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
