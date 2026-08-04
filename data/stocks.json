@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 11:36:51 +08:00",
+  "built_at": "2026-08-04 11:38:44 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -47197,6 +47197,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/PFG/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "AMP",
+      "name": "Ameriprise Financial, Inc. Common Stock",
+      "raw_name": "Ameriprise Financial, Inc. Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 3256.06,
+      "pe_ttm": 13.61,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 1361.59,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 256.54,
+      "gross_margin_pct": null,
+      "net_margin_pct": 18.84,
+      "forecast_dividend_yield_pct": 1.37,
+      "risk_level": "未分级",
+      "business_summary": "以逾万名财务顾问为核心获取个人客户资产，同时通过Columbia Threadneedle管理机构与零售资金，并用银行、年金和保险产品赚取利差与风险费。",
+      "core_judgement": "普通控股回本口径不适用：现金、投资和经营现金流均被客户存款、投资证书、保险准备金、独立账户及衍生品抵押品流动显著影响。控股视角应改看收费资产与净流入、调整后经营利润、监管资本、子公司向母公司上划现金及股东回报覆盖。2025年子公司净上划40.61亿美元，调整后经营利润38.58亿美元，现金分红与回购合计约35.03亿美元，显示当年资本回报有经营利润和上划支撑，但不等同于普通公司的可剥离净现金回本年。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/AMP/"
     },
     {
       "schema_version": "stock-research-result-v1",
