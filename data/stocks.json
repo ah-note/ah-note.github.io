@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 20:23:49 +08:00",
+  "built_at": "2026-08-04 20:25:44 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -62077,6 +62077,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/KSPI/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "TBBK",
+      "name": "The Bancorp, Inc. - Common Stock",
+      "raw_name": "The Bancorp, Inc. - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 188.43,
+      "pe_ttm": 12.61,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": null,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 15.99,
+      "gross_margin_pct": null,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "一家无传统网点、以金融科技合作伙伴导入低成本交易存款和支付手续费，再把资金投向特色贷款与证券的美国商业银行。",
+      "core_judgement": "普通控股回本公式不适用于银行：客户存款、贷款和证券是相互匹配的经营资产负债，现金不可简单剥离，经营现金流也受存贷款变动主导。应改看 2025 年净息差 4.31%、ROA 2.54%、ROE 28.90%、不良/非应计贷款、信用损失准备与 CET1；市场 PE 仅作辅助。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/TBBK/"
     },
     {
       "schema_version": "stock-research-result-v1",
