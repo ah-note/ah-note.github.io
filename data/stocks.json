@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 04:31:39 +08:00",
+  "built_at": "2026-08-05 04:32:32 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -76244,6 +76244,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/PEBO/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "RBKB",
+      "name": "Rhinebeck Bancorp, Inc. - Common Stock",
+      "raw_name": "Rhinebeck Bancorp, Inc. - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 12.66,
+      "pe_ttm": 13.48,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": null,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 0.7,
+      "gross_margin_pct": null,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "一家服务纽约州哈德逊河谷及周边县域客户的社区银行，以存款为主要资金来源，靠贷款和证券的利息收益减去资金成本、信用成本及运营费用赚钱。",
+      "core_judgement": "普通控股回本口径不适用：贷款、证券、现金与客户存款共同构成受监管的银行资产负债表，不能把现金扣市值后用自由现金流回本。应改看3.89%的净息差、0.39%的不良贷款率、225.76%的拨备覆盖率、14.40%的总资本率、0.78%的ROA、7.77%的ROE及董事会实际分红政策。2026年7月二次转换新增资本并改变股本，须待转换后报表才能可靠判断资本回报和分红能力。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/RBKB/"
     },
     {
       "schema_version": "stock-research-result-v1",
