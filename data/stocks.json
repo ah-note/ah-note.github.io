@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 11:15:57 +08:00",
+  "built_at": "2026-08-04 11:17:56 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -965,6 +965,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/02080.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01502.HK",
+      "name": "FIN STREET PPT",
+      "raw_name": "FIN STREET PPT",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 6.43,
+      "pe_ttm": 6.29,
+      "owner_earnback_years": -1.13,
+      "owner_earnback_rate_pct": -88.14,
+      "market_profit_payback_years": 5.34,
+      "market_cash_profit_yield_pct": 18.73,
+      "discounted_detachable_net_cash_yi": 7.79,
+      "discounted_net_cash_to_market_cap_pct": 121.26,
+      "operating_business_price_yi": -1.37,
+      "discounted_cash_profit_yi": 1.2,
+      "revenue_yi": 19.99,
+      "gross_profit_yi": 2.84,
+      "parent_net_profit_yi": 1.07,
+      "gross_margin_pct": 14.19,
+      "net_margin_pct": 5.37,
+      "forecast_dividend_yield_pct": 8.43,
+      "risk_level": "未分级",
+      "business_summary": "以商业办公和公共物业见长、并向住宅及全国区域扩张的物业管理服务商，靠包干制基础物管收费为主，社区增值和多元服务为辅。",
+      "core_judgement": "按市值6.426亿元、折后可剥离净现金7.792亿元计，经营业务购买价为负1.366亿元，公式回本年为负1.13年；负数仅表示折后现金已覆盖市值，不代表能立即无摩擦分走现金。集团财务公司存款、境内资金、母公司可供分配储备和物业业务营运资金均构成现实约束。若不扣现金，市值相当于折后可持续现金利润约5.34年。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01502.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
