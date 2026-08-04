@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 13:48:08 +08:00",
+  "built_at": "2026-08-04 13:48:39 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -9532,6 +9532,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00857.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01588.HK",
+      "name": "畅捷通",
+      "raw_name": "畅捷通",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 12.03,
+      "pe_ttm": 15.48,
+      "owner_earnback_years": 12.43,
+      "owner_earnback_rate_pct": 8.05,
+      "market_profit_payback_years": 26.92,
+      "market_cash_profit_yield_pct": 3.71,
+      "discounted_detachable_net_cash_yi": 6.47,
+      "discounted_net_cash_to_market_cap_pct": 53.83,
+      "operating_business_price_yi": 5.55,
+      "discounted_cash_profit_yi": 0.45,
+      "revenue_yi": 10.95,
+      "gross_profit_yi": 7.74,
+      "parent_net_profit_yi": 0.82,
+      "gross_margin_pct": 70.7,
+      "net_margin_pct": 7.45,
+      "forecast_dividend_yield_pct": 6.69,
+      "risk_level": "未分级",
+      "business_summary": "畅捷通向中国小微企业销售财税及经营管理云软件，以预付订阅为核心收费方式，云订阅已贡献69%的收入。",
+      "core_judgement": "按控股口径，账上现金及定期存款先统一按80%计入，再扣除贸易及其他应付款、租赁负债，并按2025年成本率为合同负债预留履约成本，得到折后可剥离净现金约6.47亿元。持续现金利润从归母净利润出发，剔除未上市股权公允价值收益和由被扣除现金产生的利息收入，加回折旧摊销并扣除现金资本开支，得到约4468万元。市值扣除折后净现金后的经营业务价格约5.55亿元，对应约12.43年回本；市值/现金利润约26.92倍。该结论高度依赖80%现金折扣、合同履约成本估算及2025利润可持续性。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01588.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
