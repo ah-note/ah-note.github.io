@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 12:41:27 +08:00",
+  "built_at": "2026-08-04 12:41:58 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -49119,6 +49119,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/WRB/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "UFCS",
+      "name": "United Fire Group, Inc - Common Stock",
+      "raw_name": "United Fire Group, Inc - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 88.92,
+      "pe_ttm": 10.35,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 99.65,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 8.49,
+      "gross_margin_pct": null,
+      "net_margin_pct": 8.52,
+      "forecast_dividend_yield_pct": 1.65,
+      "risk_level": "未分级",
+      "business_summary": "通过独立保险代理网络承保美国商业财产与意外险，以承保利润和保费浮存金投资收益共同赚钱。",
+      "core_judgement": "普通控股回本口径不适用。投资资产和现金支持保险准备金、未赚保费及法定资本，不能从市值中扣除；经营现金流还受保费收取、赔款时点和投资交易影响。应改看承保综合成本率、准备金发展、投资收益率、账面价值/资本、偿付能力以及子公司可上划分红。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/UFCS/"
     },
     {
       "schema_version": "stock-research-result-v1",
