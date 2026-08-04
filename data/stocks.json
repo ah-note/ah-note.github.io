@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 22:55:26 +08:00",
+  "built_at": "2026-08-04 22:57:42 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -27791,6 +27791,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/GPOR/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "OCTV",
+      "name": "Octave Intelligence plc - Class B Ordinary Shares",
+      "raw_name": "Octave Intelligence plc - Class B Ordinary Shares",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 330.4,
+      "pe_ttm": 15.86,
+      "owner_earnback_years": 19.94,
+      "owner_earnback_rate_pct": 5.02,
+      "market_profit_payback_years": 18.19,
+      "market_cash_profit_yield_pct": 5.5,
+      "discounted_detachable_net_cash_yi": -31.62,
+      "discounted_net_cash_to_market_cap_pct": -9.57,
+      "operating_business_price_yi": 362.02,
+      "discounted_cash_profit_yi": 18.16,
+      "revenue_yi": 116.77,
+      "gross_profit_yi": 87.67,
+      "parent_net_profit_yi": 17.69,
+      "gross_margin_pct": 75.08,
+      "net_margin_pct": 15.15,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "向工业、基础设施和公共安全客户销售贯穿设计、建设、运营和保护实体资产的软件平台，订阅和许可收入是主要毛利来源。",
+      "core_judgement": "8000万美元备考现金不足以覆盖5.235亿美元备考债务，折后可剥离净现金为负31.62亿元。2025经营自由现金流22.79亿元；扣备考利息税后影响并乘85%稳健系数后，可持续可分配现金利润约18.16亿元。对应经营业务回本约19.94年、市值/现金利润约18.19倍。该口径是情景估计，易被独立运营成本、软件资本化投入和分拆后资本结构变化推翻。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/OCTV/"
     },
     {
       "schema_version": "stock-research-result-v1",
