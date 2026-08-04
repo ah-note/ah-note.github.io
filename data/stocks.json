@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 03:04:58 +08:00",
+  "built_at": "2026-08-05 03:07:14 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -27543,6 +27543,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600295.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "PLAB",
+      "name": "Photronics, Inc. - Common Stock",
+      "raw_name": "Photronics, Inc. - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 120.52,
+      "pe_ttm": 11.18,
+      "owner_earnback_years": 18.68,
+      "owner_earnback_rate_pct": 5.35,
+      "market_profit_payback_years": 22.84,
+      "market_cash_profit_yield_pct": 4.38,
+      "discounted_detachable_net_cash_yi": 21.96,
+      "discounted_net_cash_to_market_cap_pct": 18.22,
+      "operating_business_price_yi": 98.56,
+      "discounted_cash_profit_yi": 5.28,
+      "revenue_yi": 60.47,
+      "gross_profit_yi": 21.35,
+      "parent_net_profit_yi": 9.71,
+      "gross_margin_pct": 35.3,
+      "net_margin_pct": 16.06,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "Photronics用遍布美欧亚的11座工厂，把客户电路设计制成光掩模，作为晶圆和显示面板曝光转印的高精度母版。",
+      "core_judgement": "按归母权益调整后可归属资金约4.113亿美元，再整体按75%计入，得到折后可剥离净现金约21.96亿元。现金利润以2023-2025年平均经营自由现金流为起点，按同期归母净利润占合并净利润比例归母化，再折减10%反映高资本开支和周期不确定性，约5.28亿元。扣除折后现金后的经营业务购买价约98.56亿元，对应约18.7年回本；若不扣现金，市值约为现金利润22.8倍。该口径是保守情景估计，不是公司指引或确定可分配金额。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/PLAB/"
     },
     {
       "schema_version": "stock-research-result-v1",
