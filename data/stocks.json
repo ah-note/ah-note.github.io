@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 16:36:31 +08:00",
+  "built_at": "2026-08-04 16:37:02 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -16259,6 +16259,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002293.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "08162.HK",
+      "name": "LOCO HK",
+      "raw_name": "LOCO HK",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 5.27,
+      "pe_ttm": 9.43,
+      "owner_earnback_years": 15.81,
+      "owner_earnback_rate_pct": 6.33,
+      "market_profit_payback_years": 16.66,
+      "market_cash_profit_yield_pct": 6.0,
+      "discounted_detachable_net_cash_yi": 0.27,
+      "discounted_net_cash_to_market_cap_pct": 5.09,
+      "operating_business_price_yi": 5.0,
+      "discounted_cash_profit_yi": 0.32,
+      "revenue_yi": 179.2,
+      "gross_profit_yi": 1.05,
+      "parent_net_profit_yi": 0.59,
+      "gross_margin_pct": 0.59,
+      "net_margin_pct": 0.33,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "公司以大宗金属贸易做近200亿港元规模、赚取不足1%的薄差价，同时由成都教育管理服务贡献较稳定利润。",
+      "core_judgement": "按市值5.266亿元，扣除折后可剥离净现金0.268亿元后，经营业务购买价约4.998亿元；以保守归一的可持续可分配现金利润0.316亿元计，回本约15.8年。该数字依赖金属贸易极薄毛利能否维持、教育管理利润能否持续，以及抵押存款和营运资金最终能否释放；2025年3.187亿元自由现金流主要来自应收回落，不可直接视作年度盈利能力。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/08162.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
