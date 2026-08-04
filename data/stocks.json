@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 00:37:38 +08:00",
+  "built_at": "2026-08-05 00:38:59 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -11950,6 +11950,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/03306.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "BWLP",
+      "name": "BW LPG Limited Common Shares",
+      "raw_name": "BW LPG Limited Common Shares",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 231.11,
+      "pe_ttm": 9.48,
+      "owner_earnback_years": 10.32,
+      "owner_earnback_rate_pct": 9.69,
+      "market_profit_payback_years": 10.32,
+      "market_cash_profit_yield_pct": 9.69,
+      "discounted_detachable_net_cash_yi": 0.0,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": 231.11,
+      "discounted_cash_profit_yi": 22.4,
+      "revenue_yi": 250.79,
+      "gross_profit_yi": 50.75,
+      "parent_net_profit_yi": 16.96,
+      "gross_margin_pct": 20.24,
+      "net_margin_pct": 6.76,
+      "forecast_dividend_yield_pct": 6.76,
+      "risk_level": "未分级",
+      "business_summary": "以全球VLGC船队赚取LPG海运运费，并用Product Services采购、交易和交付LPG来提高货源触达与船队利用率。",
+      "core_judgement": "按输入市值约231.11亿元，现金因净债务和运营需求不作可剥离扣减，经营业务购买价仍为231.11亿元。以公司披露的2025年调整后自由现金流5.10亿美元为起点，先按归母利润占集团净利润83.64%归属，再对强周期运价和维护资本开支估计误差折价25%，得到折后可持续现金利润约22.40亿元，对应静态回本约10.32年。这是周期中某一年度基础上的审慎估算，不代表未来每年固定实现。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/BWLP/"
     },
     {
       "schema_version": "stock-research-result-v1",
