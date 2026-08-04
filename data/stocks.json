@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 01:29:29 +08:00",
+  "built_at": "2026-08-05 01:30:01 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -29465,6 +29465,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/02607.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "IDT",
+      "name": "IDT Corporation Class B Common Stock",
+      "raw_name": "IDT Corporation Class B Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 110.52,
+      "pe_ttm": 20.2,
+      "owner_earnback_years": 19.83,
+      "owner_earnback_rate_pct": 5.04,
+      "market_profit_payback_years": 22.34,
+      "market_cash_profit_yield_pct": 4.48,
+      "discounted_detachable_net_cash_yi": 12.44,
+      "discounted_net_cash_to_market_cap_pct": 11.25,
+      "operating_business_price_yi": 98.09,
+      "discounted_cash_profit_yi": 4.95,
+      "revenue_yi": 88.67,
+      "gross_profit_yi": 32.13,
+      "parent_net_profit_yi": 5.48,
+      "gross_margin_pct": 36.23,
+      "net_margin_pct": 6.18,
+      "forecast_dividend_yield_pct": 0.46,
+      "risk_level": "未分级",
+      "business_summary": "以传统国际通信现金流为底座，培育独立零售商POS/支付、跨境汇款和云通信三项增长业务。",
+      "core_judgement": "按市值110.52亿元，扣除折后可剥离净现金12.44亿元后，经营业务购买价约98.09亿元；以折后可持续现金利润4.95亿元计，经营业务回本约19.8年，未扣现金的市值/现金利润约22.3倍。该口径假设增长业务能维持FY2025盈利能力，并已完全排除受限客户资金。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/IDT/"
     },
     {
       "schema_version": "stock-research-result-v1",
