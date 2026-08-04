@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 18:43:45 +08:00",
+  "built_at": "2026-08-04 18:44:17 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -35262,6 +35262,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00241.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "08606.HK",
+      "name": "KINETIX SYSTEMS",
+      "raw_name": "KINETIX SYSTEMS",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 0.6,
+      "pe_ttm": 27.69,
+      "owner_earnback_years": 28.5,
+      "owner_earnback_rate_pct": 3.51,
+      "market_profit_payback_years": 39.83,
+      "market_cash_profit_yield_pct": 2.51,
+      "discounted_detachable_net_cash_yi": 0.17,
+      "discounted_net_cash_to_market_cap_pct": 28.44,
+      "operating_business_price_yi": 0.43,
+      "discounted_cash_profit_yi": 0.01,
+      "revenue_yi": 3.55,
+      "gross_profit_yi": 0.71,
+      "parent_net_profit_yi": 0.02,
+      "gross_margin_pct": 20.0,
+      "net_margin_pct": 0.64,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "为香港公私营客户采购、集成IT基础设施，并提供定制开发及维护支持，以项目合同和服务费赚取软硬件集成与技术人力的毛利。",
+      "core_judgement": "以2025年末1港元=0.90322元人民币换算。现金只按60%计入，以保留项目周转缓冲；人寿保险存款按50%计入，再全额扣除租赁负债及应付非控股股东款。可持续现金利润从归母净利润出发，加回设备及使用权折旧，扣设备资本开支和租赁本金，再因仅一年扭亏、利润率薄及现金流受合同负债波动影响按70%折扣。由此普通经营业务购买价约4272万元、回本约28.5年；该数字是情景估算，不是确定预测。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/08606.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
