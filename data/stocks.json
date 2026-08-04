@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 15:12:00 +08:00",
+  "built_at": "2026-08-04 15:12:31 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -7672,6 +7672,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00831.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "02306.HK",
+      "name": "乐华娱乐集团",
+      "raw_name": "乐华娱乐集团",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 13.5,
+      "pe_ttm": 22.1,
+      "owner_earnback_years": 8.28,
+      "owner_earnback_rate_pct": 12.08,
+      "market_profit_payback_years": 15.56,
+      "market_cash_profit_yield_pct": 6.43,
+      "discounted_detachable_net_cash_yi": 6.32,
+      "discounted_net_cash_to_market_cap_pct": 46.78,
+      "operating_business_price_yi": 7.19,
+      "discounted_cash_profit_yi": 0.87,
+      "revenue_yi": 9.07,
+      "gross_profit_yi": 2.23,
+      "parent_net_profit_yi": 0.64,
+      "gross_margin_pct": 24.61,
+      "net_margin_pct": 7.07,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "以艺人管理为核心，通过商业活动、影视综艺及演出获取收入，并延伸至音乐版权、艺人IP商品和潮流玩具。",
+      "core_judgement": "按控股视角，仅把现金及定期存款按90%计入并全额扣除借款，未上市股权和基金按零计入可剥离现金；以2025年经营自由现金流的80%作为折后可持续现金利润。由此经营业务购买价约7.19亿元、静态回本约8.28年。该结果依赖2025年艺人管理利润率和回款能够持续，不等同于买卖建议。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/02306.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
