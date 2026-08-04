@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 19:28:01 +08:00",
+  "built_at": "2026-08-04 19:29:14 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -60465,6 +60465,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/02691.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "WABC",
+      "name": "Westamerica Bancorporation - Common Stock",
+      "raw_name": "Westamerica Bancorporation - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 93.36,
+      "pe_ttm": 13.28,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 18.05,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 8.12,
+      "gross_margin_pct": null,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": 3.54,
+      "risk_level": "未分级",
+      "business_summary": "以北加州和中加州小企业及个人的低成本存款为资金源，主要配置债券组合并辅以商业、商业地产和消费贷款赚取息差及账户服务费。",
+      "core_judgement": "普通控股回本口径不适用：存款是客户资金，现金、贷款和证券是受监管且需支持流动性与资本要求的经营资产，不能从市值中简单剥离。控股视角应比较盈利/分红能力、资产质量、利率敏感性和资本缓冲。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/WABC/"
     },
     {
       "schema_version": "stock-research-result-v1",
