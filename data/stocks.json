@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 03:03:24 +08:00",
+  "built_at": "2026-08-05 03:04:58 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -30147,6 +30147,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600062.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "MGY",
+      "name": "Magnolia Oil & Gas Corporation Class A Common Stock",
+      "raw_name": "Magnolia Oil & Gas Corporation Class A Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 420.7,
+      "pe_ttm": 14.86,
+      "owner_earnback_years": 19.87,
+      "owner_earnback_rate_pct": 5.03,
+      "market_profit_payback_years": 19.28,
+      "market_cash_profit_yield_pct": 5.19,
+      "discounted_detachable_net_cash_yi": -12.84,
+      "discounted_net_cash_to_market_cap_pct": -3.05,
+      "operating_business_price_yi": 433.55,
+      "discounted_cash_profit_yi": 21.82,
+      "revenue_yi": 93.7,
+      "gross_profit_yi": 70.12,
+      "parent_net_profit_yi": 23.23,
+      "gross_margin_pct": 74.84,
+      "net_margin_pct": 24.79,
+      "forecast_dividend_yield_pct": 2.09,
+      "risk_level": "未分级",
+      "business_summary": "在南得州Eagle Ford与Austin Chalk地层开发并销售原油、天然气和NGL，以两台钻机持续补充递减产量并把剩余现金返还股东。",
+      "core_judgement": "按2025年平均汇率折算：经营现金流减油气资产投入形成29.23亿元经营自由现金流；先扣除1.95亿元股权薪酬，再因无对冲的油气价格周期折减20%，得到折后现金利润约21.82亿元。现金按80%计、长期债务按100%扣，折后净现金为-12.84亿元；以输入市值计算，经营业务购买价约433.55亿元，静态回本约19.9年。该数字不是储量估值或预测，商品价格和维持产量资本开支可显著改变结果。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/MGY/"
     },
     {
       "schema_version": "stock-research-result-v1",
