@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 18:12:31 +08:00",
+  "built_at": "2026-08-04 18:13:02 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -58202,6 +58202,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/BGR/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "NRIM",
+      "name": "Northrim BanCorp Inc - Common Stock",
+      "raw_name": "Northrim BanCorp Inc - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 39.79,
+      "pe_ttm": 8.72,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": null,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 4.52,
+      "gross_margin_pct": null,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": 2.49,
+      "risk_level": "未分级",
+      "business_summary": "以阿拉斯加商业银行为核心，用客户存款支持商业及个人贷款，并叠加住房按揭销售/服务和全国性保理融资收入。",
+      "core_judgement": "普通控股回本口径不适用。客户存款与借款是获取生息资产的经营资金，贷款和证券不能作为可剥离现金扣减市值；应改看市值相对账面净资产和可持续盈利，同时检验净息差、信用损失、资本缓冲及可分红能力。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/NRIM/"
     },
     {
       "schema_version": "stock-research-result-v1",
