@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 15:09:47 +08:00",
+  "built_at": "2026-08-04 15:12:00 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -9315,6 +9315,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00968.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "BOSC",
+      "name": "B.O.S. Better Online Solutions - Ordinary Shares",
+      "raw_name": "B.O.S. Better Online Solutions - Ordinary Shares",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 2.14,
+      "pe_ttm": 9.78,
+      "owner_earnback_years": 10.14,
+      "owner_earnback_rate_pct": 9.86,
+      "market_profit_payback_years": 13.31,
+      "market_cash_profit_yield_pct": 7.51,
+      "discounted_detachable_net_cash_yi": 0.51,
+      "discounted_net_cash_to_market_cap_pct": 23.82,
+      "operating_business_price_yi": 1.63,
+      "discounted_cash_profit_yi": 0.16,
+      "revenue_yi": 3.56,
+      "gross_profit_yi": 0.85,
+      "parent_net_profit_yi": 0.25,
+      "gross_margin_pct": 23.88,
+      "net_margin_pct": 7.14,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "一家以色列小型供应链技术集成商，主要向国防与高科技客户分销机电元件，并提供RFID盘点系统与定制工业机器人。",
+      "core_judgement": "按2025年末附近1美元=7.0358元人民币换算。现金排除受限存款，全额扣除有息借款和租赁负债后再按80%计入，得到折后可剥离净现金约5,099万元。现金利润采用2023–2025年经营现金流减资本开支的三年均值228.6万美元（约1,608万元），以平滑应收、库存和递延收入波动。按输入市值扣除折后净现金，经营业务购买价约1.631亿元，对应约10.1年回本；若不扣现金，市值/现金利润约13.3倍。该结果依赖三年均值能代表未来，且现金可被控股股东有效配置。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/BOSC/"
     },
     {
       "schema_version": "stock-research-result-v1",
