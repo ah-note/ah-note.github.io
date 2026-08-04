@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 03:28:44 +08:00",
+  "built_at": "2026-08-05 03:30:18 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -74291,6 +74291,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/HTB/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "LOB",
+      "name": "Live Oak Bancshares, Inc. Common Stock",
+      "raw_name": "Live Oak Bancshares, Inc. Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 133.67,
+      "pe_ttm": 14.97,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 41.53,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 7.39,
+      "gross_margin_pct": null,
+      "net_margin_pct": 17.8,
+      "forecast_dividend_yield_pct": 0.3,
+      "risk_level": "未分级",
+      "business_summary": "一家以全国性数字渠道吸收存款、向细分行业小企业放贷，并通过出售政府担保贷款份额及持续服务收费补充收入的美国银行控股公司。",
+      "core_judgement": "普通控股回本口径不适用：现金、证券、贷款与客户存款、信用风险和监管资本是同一个银行资产负债体系，不能剥离后扣减市值；经营现金流也会被贷款和存款规模变化扭曲。应改看约1.49倍归母账面权益的市值、盈利能力、净息差、信用成本、不良敞口、CET1资本率与可持续分红。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/LOB/"
     },
     {
       "schema_version": "stock-research-result-v1",
