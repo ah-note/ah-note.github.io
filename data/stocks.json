@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 13:41:17 +08:00",
+  "built_at": "2026-08-04 13:42:09 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -50886,6 +50886,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/DGICA/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "02601.HK",
+      "name": "CPIC",
+      "raw_name": "CPIC",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 2542.5,
+      "pe_ttm": 4.99,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 4351.56,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 535.05,
+      "gross_margin_pct": null,
+      "net_margin_pct": 12.3,
+      "forecast_dividend_yield_pct": 4.35,
+      "risk_level": "未分级",
+      "business_summary": "中国太保通过寿险、财险和健康险承保风险并管理保费形成的长期投资资产，以承保利润、利差和资产管理服务创造股东回报。",
+      "core_judgement": "普通净现金/现金利润回本法不适用于保险集团：金融投资与现金主要支持保险合同负债、理赔、退保和偿付能力资本，不能从市值中直接扣除。替代观察框架为集团内含价值6133.65亿元、寿险新业务价值186.09亿元、财险承保质量、投资收益率、偿付能力和母公司利润向股东分配的能力；这些专项指标不转换成普通回本排序数字。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/02601.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
