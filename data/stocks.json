@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 18:10:07 +08:00",
+  "built_at": "2026-08-04 18:11:19 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -58140,6 +58140,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/CB/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "BGR",
+      "name": "BlackRock Energy and Resources Trust",
+      "raw_name": "BlackRock Energy and Resources Trust",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 28.43,
+      "pe_ttm": 10.47,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": null,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 2.83,
+      "gross_margin_pct": null,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": 7.32,
+      "risk_level": "未分级",
+      "business_summary": "一只主动管理的能源与自然资源封闭式基金，以能源股票的股息、价格变动和证券买卖实现总回报，并按月向份额持有人分配现金。",
+      "core_judgement": "普通控股回本口径不适用。购买 BGR 是按市场价格取得一篮子能源证券的净资产权益，而不是买下一家能把账上证券剥离后继续经营的企业。应比较市场价与同期 NAV、组合质量与集中度、费用、分配覆盖和资本返还来源。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/BGR/"
     },
     {
       "schema_version": "stock-research-result-v1",
