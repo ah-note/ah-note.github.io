@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 13:48:39 +08:00",
+  "built_at": "2026-08-04 13:49:30 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -7858,6 +7858,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00228.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "JL",
+      "name": "J-Long Group Limited - Class A Ordinary Shares",
+      "raw_name": "J-Long Group Limited - Class A Ordinary Shares",
+      "market": "US",
+      "period": "2025-03-31",
+      "currency": "CNY",
+      "market_cap_yi": 1.43,
+      "pe_ttm": 7.52,
+      "owner_earnback_years": 9.83,
+      "owner_earnback_rate_pct": 10.18,
+      "market_profit_payback_years": 13.95,
+      "market_cash_profit_yield_pct": 7.17,
+      "discounted_detachable_net_cash_yi": 0.42,
+      "discounted_net_cash_to_market_cap_pct": 29.55,
+      "operating_business_price_yi": 1.01,
+      "discounted_cash_profit_yi": 0.1,
+      "revenue_yi": 2.81,
+      "gross_profit_yi": 0.81,
+      "parent_net_profit_yi": 0.19,
+      "gross_margin_pct": 28.81,
+      "net_margin_pct": 6.64,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "面向服装品牌、代工厂和采购办事处提供反光及非反光服装辅料方案，以热转印为核心，通过设计、采购、质量控制和外包生产赚取价差。",
+      "core_judgement": "按7.20元/美元换算，期末现金人民币7,681.8万元仅按70%计入，再全额扣除银行借款1,002.1万元和关联方借款144.0万元，得到折后可剥离净现金4,231.1万元。可持续现金利润以FY2025经营利润按当年有效税率税后化后再打75折，约1,026.4万元，避免把应付增加、税款增加和库存释放造成的单年经营现金流高峰永久化。市值扣除折后净现金后的经营业务价格约1.009亿元，对应约9.83年；不扣现金的市值/现金利润约13.95倍。该结果高度依赖利润恢复能否持续及境外...",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/JL/"
     },
     {
       "schema_version": "stock-research-result-v1",
