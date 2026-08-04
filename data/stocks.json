@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 23:50:27 +08:00",
+  "built_at": "2026-08-04 23:51:00 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -13004,6 +13004,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/601900.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "IT",
+      "name": "Gartner, Inc. Common Stock",
+      "raw_name": "Gartner, Inc. Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 682.3,
+      "pe_ttm": 14.92,
+      "owner_earnback_years": 11.01,
+      "owner_earnback_rate_pct": 9.08,
+      "market_profit_payback_years": 9.58,
+      "market_cash_profit_yield_pct": 10.44,
+      "discounted_detachable_net_cash_yi": -101.92,
+      "discounted_net_cash_to_market_cap_pct": -14.94,
+      "operating_business_price_yi": 784.22,
+      "discounted_cash_profit_yi": 71.21,
+      "revenue_yi": 463.19,
+      "gross_profit_yi": 316.79,
+      "parent_net_profit_yi": 51.99,
+      "gross_margin_pct": 68.39,
+      "net_margin_pct": 11.22,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "向企业高管及团队销售可续约的研究订阅、会议席位和定制咨询，核心利润来自高毛利Insights订阅。",
+      "core_judgement": "以输入市值682.30亿元为起点，现金按90%折价后再全额扣除有息债务，得到负101.92亿元的折后可剥离净现金，即净债务需加回经营业务价格；经营业务购买价约784.22亿元。2025经营自由现金流83.78亿元，考虑合同价值增长仅1%、钱包留存率下滑、单年营运资金波动及股权激励稀释后统一取85%，折后可持续现金利润约71.21亿元，对应经营业务回本约11.0年、市值/现金利润约9.6倍。该口径是静态压力测试，不代表未来现金流必然维持。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/IT/"
     },
     {
       "schema_version": "stock-research-result-v1",
