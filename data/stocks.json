@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 19:52:30 +08:00",
+  "built_at": "2026-08-04 19:53:43 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -12880,6 +12880,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/000715.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "AMPH",
+      "name": "Amphastar Pharmaceuticals, Inc. - Common Stock",
+      "raw_name": "Amphastar Pharmaceuticals, Inc. - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 59.33,
+      "pe_ttm": 12.01,
+      "owner_earnback_years": 11.28,
+      "owner_earnback_rate_pct": 8.86,
+      "market_profit_payback_years": 7.96,
+      "market_cash_profit_yield_pct": 12.56,
+      "discounted_detachable_net_cash_yi": -24.76,
+      "discounted_net_cash_to_market_cap_pct": -41.74,
+      "operating_business_price_yi": 84.09,
+      "discounted_cash_profit_yi": 7.45,
+      "revenue_yi": 48.78,
+      "gross_profit_yi": 24.13,
+      "parent_net_profit_yi": 6.65,
+      "gross_margin_pct": 49.46,
+      "net_margin_pct": 13.63,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "以高技术壁垒注射、吸入和鼻用药物为核心，靠自研制造能力与 BAQSIMI 等收购产品向药品批发零售渠道销售的一体化生物制药公司。",
+      "core_judgement": "按现金及短期投资九折、全部有息债务原额扣除，折后可剥离净现金为负24.76亿元，故经营业务购买价高于市值。以2025经营自由现金流为起点，考虑法律和许可一次性支出、股权激励的经济成本及老品竞争缓冲后，折后可持续可分配现金利润取约7.45亿元；对应经营业务约11.28年回本、市值约7.96倍现金利润。该数字不含未来增长价值，也依赖 BAQSIMI 增长与老品价格下滑能大致对冲。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/AMPH/"
     },
     {
       "schema_version": "stock-research-result-v1",
