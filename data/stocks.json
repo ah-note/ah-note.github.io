@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 02:55:34 +08:00",
+  "built_at": "2026-08-05 02:56:27 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -73330,6 +73330,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/OSBC/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "ISBA",
+      "name": "Isabella Bank Corporation - Common stock",
+      "raw_name": "Isabella Bank Corporation - Common stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 20.44,
+      "pe_ttm": 14.6,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 5.52,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 1.33,
+      "gross_margin_pct": null,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": 2.82,
+      "risk_level": "未分级",
+      "business_summary": "一家扎根密歇根中部八县、以本地存款支持商业/农业/地产及个人贷款，并辅以财富管理收费的单一社区银行。",
+      "core_judgement": "普通控股回本口径不适用：贷款、证券、存款和批发融资共同构成银行的生意，而非可拆出的净现金。控股视角应改看约1.26倍市净率（按输入市值与2025年末折算权益）、8.51% ROE、0.88% ROA、3.16%净息差、0.30%不良贷款率、0.89%拨备/贷款、资本充足率和约42.8%的现金分红支付率；这些指标也必须结合2026年并购和潜在增发更新。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/ISBA/"
     },
     {
       "schema_version": "stock-research-result-v1",
