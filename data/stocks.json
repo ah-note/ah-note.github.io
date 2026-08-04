@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 11:46:22 +08:00",
+  "built_at": "2026-08-04 11:48:15 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -39633,6 +39633,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/08080.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "08416.HK",
+      "name": "HM INTL HLDGS",
+      "raw_name": "HM INTL HLDGS",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 0.5,
+      "pe_ttm": 7.43,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": 0.0,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": 0.0,
+      "discounted_detachable_net_cash_yi": 0.37,
+      "discounted_net_cash_to_market_cap_pct": 73.68,
+      "operating_business_price_yi": 0.13,
+      "discounted_cash_profit_yi": 0.0,
+      "revenue_yi": 1.22,
+      "gross_profit_yi": 0.49,
+      "parent_net_profit_yi": 0.07,
+      "gross_margin_pct": 40.02,
+      "net_margin_pct": 5.92,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "为香港上市公司提供财务印刷，并为基金公司和保险公司制作营销材料，同时提供相关设计、IT及语言支持。",
+      "core_judgement": "现金减银行借款后再打五折，反映营运资金、租赁承诺、小市值治理及未来数字化投入约束；但剔除处置、汇兑和既往处置对价后，2025年未证明正的可持续利润，因此回本年与市值/现金利润均不成立。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/08416.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
