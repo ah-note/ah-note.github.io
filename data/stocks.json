@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 23:10:24 +08:00",
+  "built_at": "2026-08-04 23:12:40 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -9873,6 +9873,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/NUS/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "GDDY",
+      "name": "GoDaddy Inc. Class A Common Stock",
+      "raw_name": "GoDaddy Inc. Class A Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 739.28,
+      "pe_ttm": 12.29,
+      "owner_earnback_years": 9.31,
+      "owner_earnback_rate_pct": 10.74,
+      "market_profit_payback_years": 7.25,
+      "market_cash_profit_yield_pct": 13.79,
+      "discounted_detachable_net_cash_yi": -209.56,
+      "discounted_net_cash_to_market_cap_pct": -28.35,
+      "operating_business_price_yi": 948.84,
+      "discounted_cash_profit_yi": 101.92,
+      "revenue_yi": 355.86,
+      "gross_profit_yi": 226.38,
+      "parent_net_profit_yi": 62.89,
+      "gross_margin_pct": 63.61,
+      "net_margin_pct": 17.67,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "GoDaddy向全球小微企业和个人按期收费提供域名、主机、安全、建站、电商、支付和生产力软件，并靠大规模客户续费、交叉销售与预付订阅产生现金。",
+      "core_judgement": "以输入市值739.28亿元为股权购买价。现金按80%折价、债务全额扣除后，折后可剥离净现金为-209.56亿元，因此经营业务购买价升至948.84亿元。2025年经营自由现金流113.24亿元再打九折，得到101.92亿元可持续可分配现金利润，对应控股回本约9.31年；若不扣净债务，市值/现金利润为7.25倍。该结果依赖2025年强现金流能否持续，且递延收入增长带来的预收现金不可被误认为永久性自由资金。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/GDDY/"
     },
     {
       "schema_version": "stock-research-result-v1",
