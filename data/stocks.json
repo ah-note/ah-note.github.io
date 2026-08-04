@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 20:45:19 +08:00",
+  "built_at": "2026-08-04 20:45:51 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -22614,6 +22614,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002275.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "LNN",
+      "name": "Lindsay Corporation Common Stock",
+      "raw_name": "Lindsay Corporation Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 76.04,
+      "pe_ttm": 21.27,
+      "owner_earnback_years": 17.57,
+      "owner_earnback_rate_pct": 5.69,
+      "market_profit_payback_years": 19.12,
+      "market_cash_profit_yield_pct": 5.23,
+      "discounted_detachable_net_cash_yi": 6.15,
+      "discounted_net_cash_to_market_cap_pct": 8.09,
+      "operating_business_price_yi": 69.89,
+      "discounted_cash_profit_yi": 3.98,
+      "revenue_yi": 48.7,
+      "gross_profit_yi": 15.18,
+      "parent_net_profit_yi": 5.33,
+      "gross_margin_pct": 31.16,
+      "net_margin_pct": 10.95,
+      "forecast_dividend_yield_pct": 1.49,
+      "risk_level": "未分级",
+      "business_summary": "Lindsay以Zimmatic等品牌销售农业节水灌溉设备，并以Road Zipper等道路安全产品贡献更高毛利的第二利润支柱。",
+      "core_judgement": "按输入市值约76.04亿元，先以80%计入现金并全额扣除有息债务，得到折后可剥离净现金约6.15亿元；经营业务购买价约69.89亿元。2025年经营自由现金流约6.51亿元，但其受营运资金释放提振，而2026年资本开支指引上升，故以0.65亿美元归一化税后现金利润为基准再折价15%，得到约3.98亿元。对应经营业务回本约17.6年，未扣现金的市值/现金利润约19.1倍。该数字是统一假设下的比较工具，不是预测承诺。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/LNN/"
     },
     {
       "schema_version": "stock-research-result-v1",
