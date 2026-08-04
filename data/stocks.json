@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 14:43:48 +08:00",
+  "built_at": "2026-08-04 14:47:03 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -5932,6 +5932,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00690.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01681.HK",
+      "name": "CONSUN PHARMA",
+      "raw_name": "CONSUN PHARMA",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 100.05,
+      "pe_ttm": 9.74,
+      "owner_earnback_years": 6.38,
+      "owner_earnback_rate_pct": 15.67,
+      "market_profit_payback_years": 10.53,
+      "market_cash_profit_yield_pct": 9.5,
+      "discounted_detachable_net_cash_yi": 39.44,
+      "discounted_net_cash_to_market_cap_pct": 39.42,
+      "operating_business_price_yi": 60.61,
+      "discounted_cash_profit_yi": 9.5,
+      "revenue_yi": 34.17,
+      "gross_profit_yi": 26.67,
+      "parent_net_profit_yi": 10.78,
+      "gross_margin_pct": 78.05,
+      "net_margin_pct": 31.55,
+      "forecast_dividend_yield_pct": 5.49,
+      "risk_level": "未分级",
+      "business_summary": "康臣在中国大陆生产并通过医院及院外渠道销售肾科现代中成药、传统中成药和医用成像对比剂，利润核心来自高毛利肾科产品。",
+      "core_judgement": "市值100.05亿元扣除折后净现金39.44亿元后，经营业务隐含购买价60.61亿元；以折后可持续现金利润9.50亿元计约6.38年回本。前提是理财可兑现、资金可上提且2025年现金转化可持续。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01681.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
