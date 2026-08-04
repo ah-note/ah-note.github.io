@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 13:14:47 +08:00",
+  "built_at": "2026-08-04 13:15:38 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -50142,6 +50142,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/03382.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01433.HK",
+      "name": "常达控股",
+      "raw_name": "CIRTEK HLDGS",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 1.39,
+      "pe_ttm": 2.61,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 2.23,
+      "gross_profit_yi": 1.05,
+      "parent_net_profit_yi": 0.21,
+      "gross_margin_pct": 47.1,
+      "net_margin_pct": 9.43,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "常达控股为服装及消费品客户生产印刷标签、吊牌和相关辅料，靠跨地区制造与交付赚取产品毛利。",
+      "core_judgement": "公司是普通制造业，普通控股回本公式原则上适用；但2025年报、全年现金流及资本开支、调查和审计调整均未完成，现金亦缺少权属与可汇出拆分，无法可靠确定可剥离净现金及可持续现金利润，故不计算回本数字。输入PE仅作行情快照。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01433.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
