@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 03:37:48 +08:00",
+  "built_at": "2026-08-05 03:38:41 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -24505,6 +24505,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00150.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "VZ",
+      "name": "Verizon Communications Inc. Common Stock",
+      "raw_name": "Verizon Communications Inc. Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 13189.5,
+      "pe_ttm": 12.19,
+      "owner_earnback_years": 16.96,
+      "owner_earnback_rate_pct": 5.9,
+      "market_profit_payback_years": 9.64,
+      "market_cash_profit_yield_pct": 10.37,
+      "discounted_detachable_net_cash_yi": -10015.34,
+      "discounted_net_cash_to_market_cap_pct": -75.93,
+      "operating_business_price_yi": 23204.85,
+      "discounted_cash_profit_yi": 1368.0,
+      "revenue_yi": 9949.75,
+      "gross_profit_yi": 5862.67,
+      "parent_net_profit_yi": 1236.53,
+      "gross_margin_pct": 58.92,
+      "net_margin_pct": 12.43,
+      "forecast_dividend_yield_pct": 6.51,
+      "risk_level": "未分级",
+      "business_summary": "以美国全国性无线网络为核心，向个人、企业和政府客户收取移动通信与宽带订阅费，并销售终端设备。",
+      "core_judgement": "以2026-08-03市值约1.319万亿元计，现金与全部有息债务对冲后形成约-1.002万亿元折后净现金，即企业价值式经营业务购买价约2.320万亿元。以190亿美元（约1368亿元）审慎可持续可分配现金利润计，经营业务回本约17.0年；若不扣债务，市值/现金利润约9.6倍。高分红率并不等于低企业价值，债务与持续资本开支是结论核心。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/VZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
