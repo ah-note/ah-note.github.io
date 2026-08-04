@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 17:31:19 +08:00",
+  "built_at": "2026-08-04 17:31:50 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -26644,6 +26644,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/601369.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "09636.HK",
+      "name": "JF SMARTINVEST",
+      "raw_name": "JF SMARTINVEST",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 116.73,
+      "pe_ttm": 13.29,
+      "owner_earnback_years": 22.54,
+      "owner_earnback_rate_pct": 4.44,
+      "market_profit_payback_years": 25.94,
+      "market_cash_profit_yield_pct": 3.86,
+      "discounted_detachable_net_cash_yi": 15.32,
+      "discounted_net_cash_to_market_cap_pct": 13.12,
+      "operating_business_price_yi": 101.42,
+      "discounted_cash_profit_yi": 4.5,
+      "revenue_yi": 34.3,
+      "gross_profit_yi": 28.21,
+      "parent_net_profit_yi": 9.22,
+      "gross_margin_pct": 82.24,
+      "net_margin_pct": 26.87,
+      "forecast_dividend_yield_pct": 1.33,
+      "risk_level": "未分级",
+      "business_summary": "九方智投通过App向中国个人投资者销售固定费率的金融信息软件、投研内容、在线投顾服务及AI终端。",
+      "core_judgement": "普通口径适用，但这是保守情景。可剥离净现金按现金、定存和买入返售100%、FVPL资产80%、受限现金0%，再扣全部负债；合同负债按面值扣除虽保守，但避免将未履约预收款当成自由现金。可持续现金利润取4.50亿元，显著低于2025年9.22亿元净利和7.68亿元经营自由现金流，因为2025年受活跃市场及2.139亿元金融资产公允价值收益抬升，且2023—2024利润明显较低。扣除折后净现金后经营业务价约101.42亿元，对应约22.54年；不扣现金的市值/现金利润约25.94倍...",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/09636.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
