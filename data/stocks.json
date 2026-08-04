@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 03:01:38 +08:00",
+  "built_at": "2026-08-05 03:02:10 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -73485,6 +73485,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/WTFC/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "TSLX",
+      "name": "Sixth Street Specialty Lending, Inc. (TSLX)",
+      "raw_name": "Sixth Street Specialty Lending, Inc. (TSLX)",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 110.03,
+      "pe_ttm": 14.92,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 31.59,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 12.0,
+      "gross_margin_pct": null,
+      "net_margin_pct": 37.97,
+      "forecast_dividend_yield_pct": 11.14,
+      "risk_level": "未分级",
+      "business_summary": "以股本和债务融资，直接向美国中型企业发放以第一留置权为主的高收益贷款，并把净投资收益主要作为股息分配。",
+      "core_judgement": "普通控股回本口径不适用。TSLX 的投资证券、现金与融资负债共同构成 BDC 放贷业务，不能把贷款组合或账面现金当作可剥离净现金。应改看市值/NAV（按输入市值与年末NAV折合约0.97倍）、净投资收益的股息覆盖、非应计投资占比、债务/权益和法定资产覆盖率。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/TSLX/"
     },
     {
       "schema_version": "stock-research-result-v1",
