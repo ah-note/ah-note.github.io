@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 12:21:25 +08:00",
+  "built_at": "2026-08-04 12:21:56 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -4037,6 +4037,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/01022.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "IMPP",
+      "name": "Imperial Petroleum Inc. - Common Shares",
+      "raw_name": "Imperial Petroleum Inc. - Common Shares",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 14.34,
+      "pe_ttm": 2.99,
+      "owner_earnback_years": 6.08,
+      "owner_earnback_rate_pct": 16.46,
+      "market_profit_payback_years": 6.49,
+      "market_cash_profit_yield_pct": 15.41,
+      "discounted_detachable_net_cash_yi": 0.92,
+      "discounted_net_cash_to_market_cap_pct": 6.4,
+      "operating_business_price_yi": 13.42,
+      "discounted_cash_profit_yi": 2.21,
+      "revenue_yi": 11.32,
+      "gross_profit_yi": 4.89,
+      "parent_net_profit_yi": 3.51,
+      "gross_margin_pct": 43.21,
+      "net_margin_pct": 31.04,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "拥有并运营成品油轮、原油轮和干散货船，通过现货航次与期租赚取海运费的无银行债务船东。",
+      "core_judgement": "现金及定期存款先减全部账面负债、已签购船义务和A类优先股清算权，得到约0.92亿元可剥离净现金。经营现金流再扣等额折旧的船舶更新储备、非经营收益、股份支付、优先股股息并作25%周期折扣，得到约2.21亿元可持续现金利润；经营业务购买价约13.42亿元，静态回本约6.08年。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/IMPP/"
     },
     {
       "schema_version": "stock-research-result-v1",
