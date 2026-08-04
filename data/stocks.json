@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 02:38:48 +08:00",
+  "built_at": "2026-08-05 02:42:06 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -37618,6 +37618,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/000400.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "02899.HK",
+      "name": "ZIJIN MINING",
+      "raw_name": "ZIJIN MINING",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 7489.6,
+      "pe_ttm": 15.19,
+      "owner_earnback_years": 24.44,
+      "owner_earnback_rate_pct": 4.09,
+      "market_profit_payback_years": 24.44,
+      "market_cash_profit_yield_pct": 4.09,
+      "discounted_detachable_net_cash_yi": 0.0,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": 7489.6,
+      "discounted_cash_profit_yi": 306.5,
+      "revenue_yi": 3490.79,
+      "gross_profit_yi": 967.9,
+      "parent_net_profit_yi": 517.77,
+      "gross_margin_pct": 27.73,
+      "net_margin_pct": 14.83,
+      "forecast_dividend_yield_pct": 2.13,
+      "risk_level": "未分级",
+      "business_summary": "紫金矿业通过全球矿山获取金、铜、锌、银和锂等资源，采选环节赚取金属价格与单位现金成本之间的资源利润，并以冶炼加工和贸易衔接销售。",
+      "core_judgement": "按输入市值7489.60亿元，货币资金655.77亿元低于有息负债1652.61亿元，折后可剥离净现金取0，经营业务购买价等于市值。2025年经营现金流754.30亿元减总资本开支309.82亿元得经营自由现金流444.47亿元；按归母利润占合并净利润81.13%归属母公司，再对金铜价格处于强势期及维持性/成长性资本开支无法精确拆分打85折，折后可持续现金利润306.50亿元，对应约24.44年。该数字是静态压力测试，不是目标价；金属价格、产量、税费和未来资本开支会显著改变结...",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/02899.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
