@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 02:58:01 +08:00",
+  "built_at": "2026-08-05 02:59:01 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -36595,6 +36595,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002632.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "STZ",
+      "name": "Constellation Brands, Inc. Common Stock",
+      "raw_name": "Constellation Brands, Inc. Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 1501.02,
+      "pe_ttm": 12.4,
+      "owner_earnback_years": 23.73,
+      "owner_earnback_rate_pct": 4.21,
+      "market_profit_payback_years": 15.27,
+      "market_cash_profit_yield_pct": 6.55,
+      "discounted_detachable_net_cash_yi": -832.39,
+      "discounted_net_cash_to_market_cap_pct": -55.46,
+      "operating_business_price_yi": 2333.41,
+      "discounted_cash_profit_yi": 98.32,
+      "revenue_yi": 743.48,
+      "gross_profit_yi": 387.05,
+      "parent_net_profit_yi": -5.93,
+      "gross_margin_pct": 52.06,
+      "net_margin_pct": -0.8,
+      "forecast_dividend_yield_pct": 3.53,
+      "risk_level": "未分级",
+      "business_summary": "以永久美国品牌许可和墨西哥产能为核心，把 Modelo、Corona 等高端进口啤酒经美国分销网络变现，并辅以高端葡萄酒与烈酒。",
+      "core_judgement": "FY2025自由现金流为19.381亿美元，但截至2025年末管理层已将FY2026自由现金流指引下调至13亿至14亿美元。本次取中值13.5亿美元作为折后可持续现金利润。现金按100%计入、有息债务按100%扣除，得到约114.296亿美元净债务；按2025-02-28汇率换算后，经营业务购买价约2333.45亿元，控股回本约23.7年。该口径包含利息后的自由现金流，却又把净债务纳入购买价，偏向企业价值视角且较保守；它不是收益承诺。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/STZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
