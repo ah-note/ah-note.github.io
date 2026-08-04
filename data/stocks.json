@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 13:39:03 +08:00",
+  "built_at": "2026-08-04 13:41:17 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -4874,6 +4874,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/000404.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "CRMD",
+      "name": "CorMedix Inc. - Common Stock",
+      "raw_name": "CorMedix Inc. - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 39.86,
+      "pe_ttm": 3.47,
+      "owner_earnback_years": 5.9,
+      "owner_earnback_rate_pct": 16.94,
+      "market_profit_payback_years": 4.85,
+      "market_cash_profit_yield_pct": 20.6,
+      "discounted_detachable_net_cash_yi": -8.63,
+      "discounted_net_cash_to_market_cap_pct": -21.64,
+      "operating_business_price_yi": 48.49,
+      "discounted_cash_profit_yi": 8.21,
+      "revenue_yi": 21.91,
+      "gross_profit_yi": 19.38,
+      "parent_net_profit_yi": 11.46,
+      "gross_margin_pct": 88.46,
+      "net_margin_pct": 52.31,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "CorMedix以DefenCath导管封管液为核心，并通过2025年收购Melinta扩展为面向医院和诊所的抗感染药商业平台。",
+      "core_judgement": "按2025年末1美元=7.0288元换算。净现金采用90%现金和短期投资，扣除可转债本金、或有对价及租赁负债，结果为负；经营业务购买价因而高于市值。现金利润从营业利润出发，加回无形资产摊销、扣除股权激励与维护资本开支，再按21%规范税率计税。该口径比报表净利润保守，但2025年包含DefenCath快速放量且Melinta仅并表约四个月，5.90年是基于单年基准的估算，不是确定回收期。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/CRMD/"
     },
     {
       "schema_version": "stock-research-result-v1",
