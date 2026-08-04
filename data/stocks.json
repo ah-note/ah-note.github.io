@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 20:06:50 +08:00",
+  "built_at": "2026-08-04 20:07:43 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -54032,19 +54032,19 @@
       "owner_earnback_rate_pct": null,
       "market_profit_payback_years": null,
       "market_cash_profit_yield_pct": null,
-      "discounted_detachable_net_cash_yi": 0.0,
+      "discounted_detachable_net_cash_yi": null,
       "discounted_net_cash_to_market_cap_pct": 0.0,
-      "operating_business_price_yi": 3.79,
+      "operating_business_price_yi": null,
       "discounted_cash_profit_yi": null,
       "revenue_yi": 3.68,
-      "gross_profit_yi": 0.9,
+      "gross_profit_yi": null,
       "parent_net_profit_yi": 0.38,
-      "gross_margin_pct": 24.31,
+      "gross_margin_pct": null,
       "net_margin_pct": 10.41,
       "forecast_dividend_yield_pct": 7.89,
       "risk_level": "未分级",
-      "business_summary": "在浙江运营燃气调峰电厂、供热与电网侧储能，主要向电网公司收取容量和电量电费，并向周边工业客户售热。",
-      "core_judgement": "2025年末现金3.016亿元低于股东贷款与计息借款合计4.144亿元，折后可剥离净现金按零计。2025年经营自由现金流为0.759亿元，但包含年内处置前后不同资产范围；2026年又批准出售德能剩余49%及京兴100%，当前剩余资产的持续现金利润无法由2025年合并报表可靠归一化，故不输出回本年和市值/现金利润。",
+      "business_summary": "在浙江运营天然气调峰电厂、供热和电网侧储能，靠容量电价、电量电价、蒸汽及储能收入覆盖燃气、折旧和融资成本。",
+      "core_judgement": "普通控股回本口径不适用。公司是重资产、受调度与两部制电价影响的天然气电力运营商，现金和债务与电厂运营及资产处置相连；同时2025年处置德能控制权、2026年继续处置德能剩余权益和京兴，使2025年利润与现金流不能代表存续资产。应改看存续装机的容量/电量收益、燃气价差、维护资本开支、债务服务、处置回款及分红覆盖。",
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00090.HK/"
