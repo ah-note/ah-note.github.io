@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 02:19:44 +08:00",
+  "built_at": "2026-08-05 02:21:39 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -72338,6 +72338,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/FULT/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "CZFS",
+      "name": "Citizens Financial Services, Inc. - Common Stock",
+      "raw_name": "Citizens Financial Services, Inc. - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 25.16,
+      "pe_ttm": 9.07,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": null,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 2.57,
+      "gross_margin_pct": null,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": 2.74,
+      "risk_level": "未分级",
+      "business_summary": "一家以 First Citizens Community Bank 为核心、通过吸收社区存款并投放商业、农业、住宅及建筑贷款赚取息差的美国区域性银行控股公司。",
+      "core_judgement": "不适用普通控股回本公式。存款、贷款、证券和借款均是银行经营结构的一部分，不能将现金扣市值或用经营自由现金流计算回本。替代观察框架为市值/账面权益（约1.06倍）、市值/有形普通股权益（约1.43倍）、净息差3.50%、不良与拨备、CBLR 9.54%以及可持续分红。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/CZFS/"
     },
     {
       "schema_version": "stock-research-result-v1",
