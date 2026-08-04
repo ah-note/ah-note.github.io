@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 22:49:12 +08:00",
+  "built_at": "2026-08-04 22:49:44 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -25063,6 +25063,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600750.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "DOCS",
+      "name": "Doximity, Inc. Class A Common Stock",
+      "raw_name": "Doximity, Inc. Class A Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 253.63,
+      "pe_ttm": 21.34,
+      "owner_earnback_years": 18.37,
+      "owner_earnback_rate_pct": 5.44,
+      "market_profit_payback_years": 23.93,
+      "market_cash_profit_yield_pct": 4.18,
+      "discounted_detachable_net_cash_yi": 58.91,
+      "discounted_net_cash_to_market_cap_pct": 23.22,
+      "operating_business_price_yi": 194.73,
+      "discounted_cash_profit_yi": 10.6,
+      "revenue_yi": 40.94,
+      "gross_profit_yi": 36.93,
+      "parent_net_profit_yi": 16.02,
+      "gross_margin_pct": 90.2,
+      "net_margin_pct": 39.13,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "以美国医疗专业人士网络和高频工作流工具聚集医生注意力，再向药企、医疗系统和招聘机构出售数字营销、招聘与工作流订阅。",
+      "core_judgement": "按2026-08-03市值，折后可剥离净现金约占市值23.2%；扣除这部分后，经营业务购买价约194.7亿元。以FY2025自由现金流为起点，扣除股权激励经济成本、剔除现金资产带来的税后利息并再打九折，回本约18.4年；若不扣净现金，市值约为折后现金利润的23.9倍。该结果对股权激励是否视为全部经济成本、现金留存需求及药企营销需求的持续性敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/DOCS/"
     },
     {
       "schema_version": "stock-research-result-v1",
