@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 13:22:49 +08:00",
+  "built_at": "2026-08-04 13:23:40 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -2918,6 +2918,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00280.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "02219.HK",
+      "name": "CHAOJU EYE CARE",
+      "raw_name": "CHAOJU EYE CARE",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 16.26,
+      "pe_ttm": 9.31,
+      "owner_earnback_years": 3.14,
+      "owner_earnback_rate_pct": 31.88,
+      "market_profit_payback_years": 10.16,
+      "market_cash_profit_yield_pct": 9.84,
+      "discounted_detachable_net_cash_yi": 11.24,
+      "discounted_net_cash_to_market_cap_pct": 69.14,
+      "operating_business_price_yi": 5.02,
+      "discounted_cash_profit_yi": 1.6,
+      "revenue_yi": 13.6,
+      "gross_profit_yi": 5.74,
+      "parent_net_profit_yi": 1.83,
+      "gross_margin_pct": 42.19,
+      "net_margin_pct": 13.48,
+      "forecast_dividend_yield_pct": 9.47,
+      "risk_level": "未分级",
+      "business_summary": "以区域医院集群提供眼科诊疗和视光服务，消费眼科与医保相关基础眼科各贡献约一半收入。",
+      "core_judgement": "在保留2亿元运营及在建项目资金、对定期存款和理财分层折价并全额扣除融资及租赁负债后，折后可剥离净现金约11.24亿元；市值扣除后隐含经营业务价格约5.02亿元。以公司调整后净利润1.879亿元再打约15%折扣得到1.60亿元可持续现金利润，经营业务静态回本约3.14年；若不扣净现金，市值/现金利润约10.16倍。该结果对在建项目后续投入、理财可变现性及利润能否稳定高度敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/02219.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
