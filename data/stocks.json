@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 13:15:38 +08:00",
+  "built_at": "2026-08-04 13:16:51 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -4316,6 +4316,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/01397.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01858.HK",
+      "name": "CHUNLI MEDICAL",
+      "raw_name": "CHUNLI MEDICAL",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 29.67,
+      "pe_ttm": 11.43,
+      "owner_earnback_years": 5.37,
+      "owner_earnback_rate_pct": 18.62,
+      "market_profit_payback_years": 12.9,
+      "market_cash_profit_yield_pct": 7.75,
+      "discounted_detachable_net_cash_yi": 17.31,
+      "discounted_net_cash_to_market_cap_pct": 58.35,
+      "operating_business_price_yi": 12.35,
+      "discounted_cash_profit_yi": 2.3,
+      "revenue_yi": 10.46,
+      "gross_profit_yi": 6.91,
+      "parent_net_profit_yi": 2.73,
+      "gross_margin_pct": 66.04,
+      "net_margin_pct": 26.06,
+      "forecast_dividend_yield_pct": 4.64,
+      "risk_level": "未分级",
+      "business_summary": "春立医疗研发、生产并销售人工关节、脊柱、创伤、运动医学等骨科植入耗材，以经销、医院直销/配送及海外销售实现收入。",
+      "core_judgement": "按2026-08-03输入市值29.67亿元，账面现金与低风险理财折价、权益投资更大幅折价，扣除受限资金、租赁义务并预留2.5亿元营运资金后，折后可剥离净现金约17.31亿元；再以2.30亿元折后可持续现金利润计，购买经营业务约需12.35亿元，静态回本约5.37年。该结果依赖2025盈利恢复可持续、理财可变现及2.5亿元营运缓冲足够三项判断，不是清算价值。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01858.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
