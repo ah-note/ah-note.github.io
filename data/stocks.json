@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 13:55:39 +08:00",
+  "built_at": "2026-08-04 13:56:09 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -9284,6 +9284,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00418.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "02566.HK",
+      "name": "JIUYUAN GENE",
+      "raw_name": "JIUYUAN GENE",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 11.08,
+      "pe_ttm": 8.4,
+      "owner_earnback_years": 11.61,
+      "owner_earnback_rate_pct": 8.61,
+      "market_profit_payback_years": 17.18,
+      "market_cash_profit_yield_pct": 5.82,
+      "discounted_detachable_net_cash_yi": 3.59,
+      "discounted_net_cash_to_market_cap_pct": 32.41,
+      "operating_business_price_yi": 7.49,
+      "discounted_cash_profit_yi": 0.64,
+      "revenue_yi": 13.06,
+      "gross_profit_yi": 10.54,
+      "parent_net_profit_yi": 1.38,
+      "gross_margin_pct": 80.69,
+      "net_margin_pct": 10.6,
+      "forecast_dividend_yield_pct": 1.24,
+      "risk_level": "未分级",
+      "business_summary": "九源基因通过向经销商销售骨科骨修复材料、生物药和化学仿制药，并提供少量医药服务赚钱，2025年核心骨科产品骨优导贡献约61%的收入。",
+      "core_judgement": "按2026-08-03市值11.08亿元，资金类资产按80%计入并全额扣除银行借款和租赁负债，折后可剥离净现金3.59亿元，经营业务购买价约7.49亿元。现金利润以2025归母净利加折旧摊销、减全部有形及无形资本开支得8062万元，再折扣20%至6450万元；对应经营业务回本约11.6年、市值/现金利润约17.2倍。该口径已避免把2025年应收回落带来的单年营运资金释放全额外推，但仍对核心产品价格、研发资本化和未来研发强度敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/02566.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
