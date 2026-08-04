@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 13:05:43 +08:00",
+  "built_at": "2026-08-04 13:06:14 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -1244,6 +1244,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/01075.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "08480.HK",
+      "name": "FURNIWEB",
+      "raw_name": "FURNIWEB",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 1.08,
+      "pe_ttm": 2.41,
+      "owner_earnback_years": 0.26,
+      "owner_earnback_rate_pct": 381.26,
+      "market_profit_payback_years": 2.14,
+      "market_cash_profit_yield_pct": 46.78,
+      "discounted_detachable_net_cash_yi": 0.95,
+      "discounted_net_cash_to_market_cap_pct": 87.73,
+      "operating_business_price_yi": 0.13,
+      "discounted_cash_profit_yi": 0.51,
+      "revenue_yi": 4.06,
+      "gross_profit_yi": 1.05,
+      "parent_net_profit_yi": 0.47,
+      "gross_margin_pct": 25.87,
+      "net_margin_pct": 11.59,
+      "forecast_dividend_yield_pct": 12.14,
+      "risk_level": "未分级",
+      "business_summary": "FURNIWEB以马来西亚、越南的弹性纺织带制造为基础，并以新马数据中心等节能工程和维护服务作为主要增长与利润来源。",
+      "core_judgement": "以2025年末现金及存款为起点，剔除受限/质押资金、全部借款及租赁负债，并扣除2026年4月已支付的特别股息，使期末资产与2026年8月市值更可比。2025经营自由现金流再打75折，反映应付款增长、合同资产上升、节能项目波动及汇兑收益不可简单外推。测得经营业务隐含购买价约1325万元、回本约0.26年；该极短年数高度依赖现金真实可剥离及2025现金利润可持续，不能解读为确定性便宜。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/08480.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
