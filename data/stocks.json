@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 23:09:11 +08:00",
+  "built_at": "2026-08-04 23:10:24 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -18925,6 +18925,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00341.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "INCY",
+      "name": "Incyte Corporation - Common Stock",
+      "raw_name": "Incyte Corporation - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 1634.8,
+      "pe_ttm": 15.23,
+      "owner_earnback_years": 14.64,
+      "owner_earnback_rate_pct": 6.83,
+      "market_profit_payback_years": 16.59,
+      "market_cash_profit_yield_pct": 6.03,
+      "discounted_detachable_net_cash_yi": 192.27,
+      "discounted_net_cash_to_market_cap_pct": 11.76,
+      "operating_business_price_yi": 1442.53,
+      "discounted_cash_profit_yi": 98.51,
+      "revenue_yi": 361.73,
+      "gross_profit_yi": 335.55,
+      "parent_net_profit_yi": 90.53,
+      "gross_margin_pct": 92.76,
+      "net_margin_pct": 25.03,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "以Jakafi为现金牛、Opzelura及新上市肿瘤药扩张，并通过海外授权收取版税的研发驱动型生物制药公司。",
+      "core_judgement": "按2026-08-03市值，折后可剥离净现金约192.27亿元，占市值11.8%；扣除后经营业务购买价约1442.53亿元。以归一化现金利润98.51亿元计，经营业务静态回本约14.64年，未扣现金的市值/现金利润约16.59倍。该结果不等于预测：Jakafi 2028年失去独占、管线成败及药价/返利可显著改变分母。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/INCY/"
     },
     {
       "schema_version": "stock-research-result-v1",
