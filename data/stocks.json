@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 18:35:19 +08:00",
+  "built_at": "2026-08-04 18:37:12 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -33588,6 +33588,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/300435.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "CYD",
+      "name": "China Yuchai International Limited Common Stock",
+      "raw_name": "China Yuchai International Limited Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 119.4,
+      "pe_ttm": 22.25,
+      "owner_earnback_years": 27.01,
+      "owner_earnback_rate_pct": 3.7,
+      "market_profit_payback_years": 29.85,
+      "market_cash_profit_yield_pct": 3.35,
+      "discounted_detachable_net_cash_yi": 11.34,
+      "discounted_net_cash_to_market_cap_pct": 9.5,
+      "operating_business_price_yi": 108.05,
+      "discounted_cash_profit_yi": 4.0,
+      "revenue_yi": 246.62,
+      "gross_profit_yi": 40.68,
+      "parent_net_profit_yi": 5.37,
+      "gross_margin_pct": 16.49,
+      "net_margin_pct": 2.18,
+      "forecast_dividend_yield_pct": 1.92,
+      "risk_level": "未分级",
+      "business_summary": "通过持股76.4%的玉柴向卡车、客车、工程农业机械、船舶和发电设备客户销售柴油、燃气及新能源动力总成。",
+      "core_judgement": "先按归母权益占总权益74.29%近似折算合并资金归属，再全额扣除借款和租赁负债，所得37.81亿元仅按30%计为可剥离净现金，反映制造营运资金、少数股东和境内分红路径约束。可持续可分配现金利润取4.00亿元，接近2023-2025归母利润均值3.82亿元，低于2025归母利润5.37亿元。按输入市值，经营业务购买价108.05亿元，对应约27.0年回本；结论对现金可剥离比例和2025高增长能否持续很敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/CYD/"
     },
     {
       "schema_version": "stock-research-result-v1",
