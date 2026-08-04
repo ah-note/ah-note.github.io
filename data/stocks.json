@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 23:57:50 +08:00",
+  "built_at": "2026-08-04 23:58:22 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -24970,6 +24970,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/AOS/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01475.HK",
+      "name": "NISSIN FOODS",
+      "raw_name": "NISSIN FOODS",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 60.16,
+      "pe_ttm": 21.1,
+      "owner_earnback_years": 17.84,
+      "owner_earnback_rate_pct": 5.61,
+      "market_profit_payback_years": 22.29,
+      "market_cash_profit_yield_pct": 4.49,
+      "discounted_detachable_net_cash_yi": 12.01,
+      "discounted_net_cash_to_market_cap_pct": 19.96,
+      "operating_business_price_yi": 48.15,
+      "discounted_cash_profit_yi": 2.7,
+      "revenue_yi": 36.2,
+      "gross_profit_yi": 12.53,
+      "parent_net_profit_yi": 3.0,
+      "gross_margin_pct": 34.62,
+      "net_margin_pct": 8.28,
+      "forecast_dividend_yield_pct": 2.49,
+      "risk_level": "未分级",
+      "business_summary": "日清食品在香港、中国内地及其他亚洲市场生产并销售以出前一丁、合味道等为核心的优质方便面，同时经营冷冻食品、零食饮料及食品分销。",
+      "core_judgement": "按输入市值口径，折后可剥离净现金约占市值20.0%；扣除后经营业务购买价约48.15亿元。可持续现金利润以2025年归母净利润为锚并折减10%，原因是利润同比大增部分来自上年减值低基数，且经营现金流存在营运资金波动；当年经营现金流减现金资本开支仍高于该折后利润。对应经营业务回本约17.8年，未扣净现金的市值/现金利润约22.3倍。该结果是控股口径估算，不是目标价或买卖建议。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01475.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
