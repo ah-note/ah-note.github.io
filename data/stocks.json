@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 04:49:45 +08:00",
+  "built_at": "2026-08-05 04:50:38 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -35479,6 +35479,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/MAS/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "LEGH",
+      "name": "Legacy Housing Corporation - Common Stock",
+      "raw_name": "Legacy Housing Corporation - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 42.14,
+      "pe_ttm": 14.84,
+      "owner_earnback_years": 22.21,
+      "owner_earnback_rate_pct": 4.5,
+      "market_profit_payback_years": 22.21,
+      "market_cash_profit_yield_pct": 4.5,
+      "discounted_detachable_net_cash_yi": 0.0,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": 42.14,
+      "discounted_cash_profit_yi": 1.9,
+      "revenue_yi": 11.57,
+      "gross_profit_yi": 5.48,
+      "parent_net_profit_yi": 2.94,
+      "gross_margin_pct": 47.41,
+      "net_margin_pct": 25.41,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "在美国南部制造、销售并用自有资产负债表融资预制住宅和Tiny Houses，以住宅销售毛利和消费者/社区/经销商贷款利息共同赚钱。",
+      "core_judgement": "以2026-08-03市值约人民币42.14亿元计。现金和贷款簿均留在业务内，折后可剥离净现金取零，因此经营业务购买价等于市值。2025年经营自由现金流约人民币1.98亿元；为吸收贷款簿波动、信贷损失和单年估计误差，再留约人民币0.08亿元缓冲，折后可持续可分配现金利润取人民币1.90亿元，对应控股回本约22.2年。该数字是保守估算，不等于股东实际可收到的现金，也未给予账面贷款资产清算价值。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/LEGH/"
     },
     {
       "schema_version": "stock-research-result-v1",
