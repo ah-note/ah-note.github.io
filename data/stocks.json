@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 02:59:01 +08:00",
+  "built_at": "2026-08-05 03:01:38 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -46515,6 +46515,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002264.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "TMDX",
+      "name": "TransMedics Group, Inc. - Common Stock",
+      "raw_name": "TransMedics Group, Inc. - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 178.43,
+      "pe_ttm": 17.51,
+      "owner_earnback_years": 33.12,
+      "owner_earnback_rate_pct": 3.02,
+      "market_profit_payback_years": 32.81,
+      "market_cash_profit_yield_pct": 3.05,
+      "discounted_detachable_net_cash_yi": -1.69,
+      "discounted_net_cash_to_market_cap_pct": -0.95,
+      "operating_business_price_yi": 180.12,
+      "discounted_cash_profit_yi": 5.44,
+      "revenue_yi": 42.56,
+      "gross_profit_yi": 25.5,
+      "parent_net_profit_yi": 13.38,
+      "gross_margin_pct": 59.92,
+      "net_margin_pct": 31.43,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "以 OCS 常温灌注设备和每例必需的一次性耗材为技术入口，再通过 NOP 打包器官获取、灌注管理及航空/地面运输服务。",
+      "core_judgement": "按 2025 年末现金全额计入、融资债务全额扣除，公司为约 2,403 万美元净债务，因而经营业务购买价略高于市值。持续现金利润从 2025 年经营自由现金流 1.336 亿美元出发，扣除 3,686 万美元股权激励的经济稀释，再因盈利与自由现金流仅新近转正、航空资本开支波动对余额折价 20%，得到约 7,738 万美元（5.44 亿元人民币）。对应控股回本约 33.1 年。该口径不是预测；若 2025 增长和营运资本改善不可持续或扩张资本开支回升，真实回本更长。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/TMDX/"
     },
     {
       "schema_version": "stock-research-result-v1",
