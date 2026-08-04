@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 23:37:32 +08:00",
+  "built_at": "2026-08-04 23:40:08 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -67471,6 +67471,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/BPRN/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "TCBK",
+      "name": "TriCo Bancshares - Common Stock",
+      "raw_name": "TriCo Bancshares - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 124.83,
+      "pe_ttm": 13.8,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 29.31,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 8.5,
+      "gross_margin_pct": null,
+      "net_margin_pct": 29.0,
+      "forecast_dividend_yield_pct": 2.61,
+      "risk_level": "未分级",
+      "business_summary": "以加州社区银行网点和数字渠道吸收个人及企业存款，主要通过商业、地产和零售贷款赚取利差，并辅以账户服务费和财富管理收入。",
+      "core_judgement": "银行普通控股回本口径不适用：不能将现金和证券从市值中扣除，也不能把银行现金流量表机械转成可分配现金利润。应结合市净率/有形市净率、ROE/ROTCE、净息差、资产质量、CET1和派息能力判断。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/TCBK/"
     },
     {
       "schema_version": "stock-research-result-v1",
