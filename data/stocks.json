@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 04:43:58 +08:00",
+  "built_at": "2026-08-05 04:45:32 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -30581,6 +30581,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603855.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "CSL",
+      "name": "Carlisle Companies Incorporated Common Stock",
+      "raw_name": "Carlisle Companies Incorporated Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 964.55,
+      "pe_ttm": 20.4,
+      "owner_earnback_years": 19.76,
+      "owner_earnback_rate_pct": 5.06,
+      "market_profit_payback_years": 17.25,
+      "market_cash_profit_yield_pct": 5.8,
+      "discounted_detachable_net_cash_yi": -140.35,
+      "discounted_net_cash_to_market_cap_pct": -14.55,
+      "operating_business_price_yi": 1104.9,
+      "discounted_cash_profit_yi": 55.91,
+      "revenue_yi": 352.84,
+      "gross_profit_yi": 126.0,
+      "parent_net_profit_yi": 52.06,
+      "gross_margin_pct": 35.71,
+      "net_margin_pct": 14.76,
+      "forecast_dividend_yield_pct": 1.31,
+      "risk_level": "未分级",
+      "business_summary": "Carlisle 向商业建筑为主的客户提供屋面膜材、保温、防水及完整建筑围护系统，利润核心来自高毛利商业屋面翻修与配套系统。",
+      "core_judgement": "以2026-08-03市值计，80%折算现金后仍存在约140.35亿元人民币的负折后净现金，因此经营业务购买价高于市值。2025年经营自由现金流先扣除股权激励的经济成本，再做15%周期与执行折扣，得到约55.91亿元折后可持续现金利润；对应控股回本约19.8年，市值/现金利润约17.3倍。该结果不是收益承诺，最敏感于商业屋面需求、CWT利润修复、原料成本和资本配置。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/CSL/"
     },
     {
       "schema_version": "stock-research-result-v1",
