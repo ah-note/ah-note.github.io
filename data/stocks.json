@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 03:48:50 +08:00",
+  "built_at": "2026-08-05 03:49:43 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -39199,6 +39199,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/001221.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "SNA",
+      "name": "Snap-On Incorporated Common Stock",
+      "raw_name": "Snap-On Incorporated Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 1432.56,
+      "pe_ttm": 20.92,
+      "owner_earnback_years": 24.85,
+      "owner_earnback_rate_pct": 4.02,
+      "market_profit_payback_years": 24.87,
+      "market_cash_profit_yield_pct": 4.02,
+      "discounted_detachable_net_cash_yi": 1.06,
+      "discounted_net_cash_to_market_cap_pct": 0.07,
+      "operating_business_price_yi": 1431.49,
+      "discounted_cash_profit_yi": 57.6,
+      "revenue_yi": 347.28,
+      "gross_profit_yi": 160.66,
+      "parent_net_profit_yi": 68.49,
+      "gross_margin_pct": 46.26,
+      "net_margin_pct": 19.72,
+      "forecast_dividend_yield_pct": 2.38,
+      "risk_level": "未分级",
+      "business_summary": "以移动工具车加盟网络、直销和经销渠道向专业维修技师及关键工业客户销售高端工具、诊断设备和维修信息，并以配套融资增强成交与渠道黏性。",
+      "core_judgement": "经营业务购买价约1431.49亿元；折后可持续现金利润约57.60亿元，对应约24.85年回本。现金折扣后几乎被债务抵消，估值主要依赖持续盈利而非资产垫。该口径是稳态估算，不是收益承诺。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/SNA/"
     },
     {
       "schema_version": "stock-research-result-v1",
