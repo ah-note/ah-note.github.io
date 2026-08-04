@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 01:49:01 +08:00",
+  "built_at": "2026-08-05 01:49:33 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -36533,6 +36533,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/301598.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "PAAS",
+      "name": "Pan American Silver Corp. Common Stock",
+      "raw_name": "Pan American Silver Corp. Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 1225.73,
+      "pe_ttm": 13.6,
+      "owner_earnback_years": 24.06,
+      "owner_earnback_rate_pct": 4.16,
+      "market_profit_payback_years": 24.51,
+      "market_cash_profit_yield_pct": 4.08,
+      "discounted_detachable_net_cash_yi": 22.82,
+      "discounted_net_cash_to_market_cap_pct": 1.86,
+      "operating_business_price_yi": 1202.91,
+      "discounted_cash_profit_yi": 50.0,
+      "revenue_yi": 258.5,
+      "gross_profit_yi": 100.36,
+      "parent_net_profit_yi": 69.86,
+      "gross_margin_pct": 38.82,
+      "net_margin_pct": 27.02,
+      "forecast_dividend_yield_pct": 1.77,
+      "risk_level": "未分级",
+      "business_summary": "一家以美洲多矿山组合开采银、金及伴生金属、并持有Juanicipio 44%权益的贵金属生产商，盈利核心是产量、品位、回收率与金属售价相对全维持成本的价差。",
+      "core_judgement": "按2026-08-03市值1225.73亿元，折后可剥离净现金仅22.82亿元，经营业务购买价约1202.91亿元。以折后可持续可分配现金利润约50.00亿元计，控股回本约24.1年；该结果说明估值主要依赖矿山未来持续产量与金属价格，而不是账上净现金。它是周期折算，不是目标价或买卖结论。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/PAAS/"
     },
     {
       "schema_version": "stock-research-result-v1",
