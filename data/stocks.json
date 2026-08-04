@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 21:51:47 +08:00",
+  "built_at": "2026-08-04 21:54:01 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -64526,6 +64526,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/PKBK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "06069.HK",
+      "name": "SY HOLDINGS",
+      "raw_name": "SY HOLDINGS",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 64.55,
+      "pe_ttm": 14.15,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 9.04,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 4.79,
+      "gross_margin_pct": null,
+      "net_margin_pct": 53.01,
+      "forecast_dividend_yield_pct": 10.51,
+      "risk_level": "未分级",
+      "business_summary": "盛业连接核心企业、中小供应商与资金方，以供应链数据和风控技术收取平台服务费，同时用自有及合作资金提供应收账款融资并赚取息差和再融资收益。",
+      "core_judgement": "普通控股回本口径不适用。供应链资产、质押存款、借款和担保是平台金融业务的经营性资产负债，不能将现金或金融资产简单折价后从市值扣除；经营现金流也受融资资产收缩和结算应付款变化显著影响。应改看平台技术收入占比及增长、归母利润、融资资产收益率与资金成本差、信用损失、杠杆、担保敞口以及分红是否由持续利润覆盖。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/06069.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
