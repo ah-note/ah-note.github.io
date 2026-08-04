@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 15:07:44 +08:00",
+  "built_at": "2026-08-04 15:09:16 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -4998,6 +4998,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/01397.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "VSNT",
+      "name": "Versant Media Group, Inc. (NASDAQ: VSNT)",
+      "raw_name": "Versant Media Group, Inc. (NASDAQ: VSNT)",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 343.64,
+      "pe_ttm": 6.0,
+      "owner_earnback_years": 5.35,
+      "owner_earnback_rate_pct": 18.7,
+      "market_profit_payback_years": 3.68,
+      "market_cash_profit_yield_pct": 27.16,
+      "discounted_detachable_net_cash_yi": -155.32,
+      "discounted_net_cash_to_market_cap_pct": -45.2,
+      "operating_business_price_yi": 498.96,
+      "discounted_cash_profit_yi": 93.32,
+      "revenue_yi": 480.7,
+      "gross_profit_yi": 269.6,
+      "parent_net_profit_yi": 66.84,
+      "gross_margin_pct": 56.09,
+      "net_margin_pct": 13.91,
+      "forecast_dividend_yield_pct": 4.52,
+      "risk_level": "未分级",
+      "business_summary": "以CNBC、MS NOW、USA Network、Golf Channel等电视品牌收取分发费和广告费，并以GolfNow、Fandango等数字平台赚交易及技术服务费。",
+      "core_judgement": "以分拆后约8.39亿美元现金减30亿美元债务，折后可剥离净现金为负155.32亿元；2025经营自由现金流扣除独立运营增量成本、完整年度债务利息并再作15%持续性折减后，现金利润约93.32亿元。由此经营业务购买价约498.96亿元，静态回本约5.35年。该数字不是增长预测，最敏感于线性分发/广告下滑、独立成本和体育版权投入。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/VSNT/"
     },
     {
       "schema_version": "stock-research-result-v1",
