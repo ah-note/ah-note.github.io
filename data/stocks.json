@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 13:27:16 +08:00",
+  "built_at": "2026-08-04 13:27:47 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -5250,6 +5250,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00690.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "06980.HK",
+      "name": "八马茶业",
+      "raw_name": "八马茶业",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 15.68,
+      "pe_ttm": 7.41,
+      "owner_earnback_years": 6.47,
+      "owner_earnback_rate_pct": 15.45,
+      "market_profit_payback_years": 7.13,
+      "market_cash_profit_yield_pct": 14.03,
+      "discounted_detachable_net_cash_yi": 1.44,
+      "discounted_net_cash_to_market_cap_pct": 9.18,
+      "operating_business_price_yi": 14.24,
+      "discounted_cash_profit_yi": 2.2,
+      "revenue_yi": 21.96,
+      "gross_profit_yi": 12.21,
+      "parent_net_profit_yi": 2.22,
+      "gross_margin_pct": 55.58,
+      "net_margin_pct": 10.12,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "以八马为核心品牌，通过加盟为主的全国门店网络和电商渠道销售中高端全品类茶叶，并逐步提高自制产品占比赚取品牌、渠道与制造环节毛利。",
+      "core_judgement": "普通经营公司口径适用。账面银行资金9.89403亿元中，排除有明确用途的IPO净募资3.87924亿元、日常经营最低资金2亿元和受限款0.10294亿元；其余现金按80%计入，再扣除全部租赁负债1.69008亿元，得到折后可剥离净现金1.4394亿元。可持续现金利润取2.20亿元，略低于2025年归母利润2.22251亿元，也低于经营自由现金流2.50464亿元。按输入市值，扣现金后的经营业务购买价约14.24亿元，静态回本约6.47年；这是口径测算，不代表现金一定能被分配或...",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/06980.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
