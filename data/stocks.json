@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 13:00:15 +08:00",
+  "built_at": "2026-08-04 13:01:47 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -3445,6 +3445,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/09878.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "08446.HK",
+      "name": "BRIGHTSTAR TECH",
+      "raw_name": "BRIGHTSTAR TECH",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 0.73,
+      "pe_ttm": 3.25,
+      "owner_earnback_years": 4.16,
+      "owner_earnback_rate_pct": 24.02,
+      "market_profit_payback_years": 4.32,
+      "market_cash_profit_yield_pct": 23.17,
+      "discounted_detachable_net_cash_yi": 0.03,
+      "discounted_net_cash_to_market_cap_pct": 3.54,
+      "operating_business_price_yi": 0.7,
+      "discounted_cash_profit_yi": 0.17,
+      "revenue_yi": 1.5,
+      "gross_profit_yi": 0.73,
+      "parent_net_profit_yi": 0.23,
+      "gross_margin_pct": 48.58,
+      "net_margin_pct": 15.69,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "为香港、澳门及中国内地的演唱会和活动提供视像显示设备、搭建运行与技术支持，收入几乎全部来自固定价项目服务。",
+      "core_judgement": "普通经营模型适用，但结果依赖两项审慎假设：持续经营现金按70%计入并全额扣除银行借款、租赁负债和关联方款；持作出售资产组因重大非控股权益与处置分配不确定而按零计入。现金利润以持续经营归母利润为基准，假设折旧近似维护资本开支，并再打七折。由此回本约4.16年；这不是预测承诺，若真实维护资本开支接近2025年全部设备购置额，现金利润会转负，回本年数失效。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/08446.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
