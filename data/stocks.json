@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 01:40:37 +08:00",
+  "built_at": "2026-08-05 01:41:10 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -28318,6 +28318,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002545.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01817.HK",
+      "name": "慕尚集团",
+      "raw_name": "慕尚集团",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 1.96,
+      "pe_ttm": 6.51,
+      "owner_earnback_years": 19.19,
+      "owner_earnback_rate_pct": 5.21,
+      "market_profit_payback_years": 8.86,
+      "market_cash_profit_yield_pct": 11.29,
+      "discounted_detachable_net_cash_yi": -2.29,
+      "discounted_net_cash_to_market_cap_pct": -116.62,
+      "operating_business_price_yi": 4.25,
+      "discounted_cash_profit_yi": 0.22,
+      "revenue_yi": 20.56,
+      "gross_profit_yi": 10.48,
+      "parent_net_profit_yi": 0.32,
+      "gross_margin_pct": 50.99,
+      "net_margin_pct": 1.54,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "以GXG为核心、通过自营店/合作店/经销商和电商平台销售中青年时尚服装的中国品牌零售集团。",
+      "core_judgement": "按普通经营公司口径，现金及现金等价物1.826亿元对计息借款4.113亿元形成2.287亿元净债务；质押存款用于票据，不计入可剥离现金。以2025年归母净利润3162.4万元为基准，因收入连续承压、线上毛利骤降且经营现金流含去库存和应收下降的一次性释放，仅按70%计入可持续可分配现金利润，即2213.68万元。由此经营业务购买价约4.248亿元，对应约19.2年回本；市值/折后现金利润约8.9倍。结果对利润折扣高度敏感，且并非买卖建议。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01817.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
