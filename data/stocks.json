@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 21:19:32 +08:00",
+  "built_at": "2026-08-04 21:20:05 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -19793,6 +19793,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00175.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "RCMT",
+      "name": "RCM Technologies, Inc. - Common Stock",
+      "raw_name": "RCM Technologies, Inc. - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 13.53,
+      "pe_ttm": 13.34,
+      "owner_earnback_years": 15.49,
+      "owner_earnback_rate_pct": 6.46,
+      "market_profit_payback_years": 13.8,
+      "market_cash_profit_yield_pct": 7.24,
+      "discounted_detachable_net_cash_yi": -1.65,
+      "discounted_net_cash_to_market_cap_pct": -12.2,
+      "operating_business_price_yi": 15.18,
+      "discounted_cash_profit_yi": 0.98,
+      "revenue_yi": 22.96,
+      "gross_profit_yi": 6.32,
+      "parent_net_profit_yi": 1.17,
+      "gross_margin_pct": 27.53,
+      "net_margin_pct": 5.11,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "向美国学校、医疗机构和工业/生命科学客户提供专业人员派遣、工程与数据解决方案，主要按工时收费，也承接固定价项目。",
+      "core_judgement": "按2025年平均汇率7.1875换算：现金全额计入，循环信贷和融资租赁全额扣除，折后可剥离净现金为-1.65亿元；以经营现金流减资本开支再减股份薪酬的稀释成本，折后可持续现金利润约0.98亿元。输入市值13.53亿元对应整体市值/现金利润13.80年；因净债务，经营业务购买价15.18亿元，对应回本约15.49年。该结果依赖2025现金流可持续，不能把单年营运资金波动当作永久改善。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/RCMT/"
     },
     {
       "schema_version": "stock-research-result-v1",
