@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 03:31:52 +08:00",
+  "built_at": "2026-08-05 03:32:25 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -45368,6 +45368,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600529.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "WLDN",
+      "name": "Willdan Group, Inc. - Common Stock",
+      "raw_name": "Willdan Group, Inc. - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 69.88,
+      "pe_ttm": 18.42,
+      "owner_earnback_years": 30.76,
+      "owner_earnback_rate_pct": 3.25,
+      "market_profit_payback_years": 30.39,
+      "market_cash_profit_yield_pct": 3.29,
+      "discounted_detachable_net_cash_yi": -0.85,
+      "discounted_net_cash_to_market_cap_pct": -1.22,
+      "operating_business_price_yi": 70.73,
+      "discounted_cash_profit_yi": 2.3,
+      "revenue_yi": 46.92,
+      "gross_profit_yi": 17.6,
+      "parent_net_profit_yi": 3.62,
+      "gross_margin_pct": 37.51,
+      "net_margin_pct": 7.71,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "Willdan向美国公用事业、政府机构和商业客户提供能源效率项目管理、工程与咨询服务，主要靠专业人力、分包管理和项目执行赚取合同毛利。",
+      "core_judgement": "按期末不受限现金90%计值，并全额扣除借款本金、融资租赁与并购或有对价，折后可剥离净现金为负0.85亿元，故经营业务购买价约70.73亿元。2025年GAAP净利润受1850.9万美元能源效率建筑税收扣除显著抬高；以税前利润按25%常态税率、加回折旧摊销、扣除资本开支得到基准现金利润，再因客户集中、固定价项目估计和并购整合按85%折扣，折后可持续现金利润约2.30亿元。对应经营业务回本约30.8年、市值/现金利润约30.4倍；这是保守的静态控股口径，不是预测或买卖建议。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/WLDN/"
     },
     {
       "schema_version": "stock-research-result-v1",
