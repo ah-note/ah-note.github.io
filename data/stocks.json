@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 05:13:02 +08:00",
+  "built_at": "2026-08-05 05:14:16 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -13593,6 +13593,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/SBC/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "AEO",
+      "name": "American Eagle Outfitters, Inc. Common Stock",
+      "raw_name": "American Eagle Outfitters, Inc. Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 194.27,
+      "pe_ttm": 10.81,
+      "owner_earnback_years": 11.06,
+      "owner_earnback_rate_pct": 9.04,
+      "market_profit_payback_years": 11.54,
+      "market_cash_profit_yield_pct": 8.67,
+      "discounted_detachable_net_cash_yi": 8.05,
+      "discounted_net_cash_to_market_cap_pct": 4.14,
+      "operating_business_price_yi": 186.22,
+      "discounted_cash_profit_yi": 16.84,
+      "revenue_yi": 373.62,
+      "gross_profit_yi": 136.41,
+      "parent_net_profit_yi": 13.37,
+      "gross_margin_pct": 36.51,
+      "net_margin_pct": 3.58,
+      "forecast_dividend_yield_pct": 2.96,
+      "risk_level": "未分级",
+      "business_summary": "以American Eagle牛仔与休闲服和Aerie贴身、休闲及运动服为核心，通过北美门店、电商和海外授权直面消费者的多品牌服装零售商。",
+      "core_judgement": "按6.7352元/美元折算。仅50%期末现金计为可剥离，经营业务购买价约186.2亿元；可持续现金利润取2.50亿美元，低于三年自由现金流均值2.85亿美元。经营业务回本约11.1年，未计增长、交易溢价或整合成本，并非确定回收期。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/AEO/"
     },
     {
       "schema_version": "stock-research-result-v1",
