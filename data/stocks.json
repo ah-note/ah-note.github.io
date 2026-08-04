@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 15:54:21 +08:00",
+  "built_at": "2026-08-04 15:56:14 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -54358,6 +54358,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/BCAT/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "ETOR",
+      "name": "eToro Group Ltd. - Class A Common Shares",
+      "raw_name": "eToro Group Ltd. - Class A Common Shares",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 191.42,
+      "pe_ttm": 14.86,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 972.64,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 15.16,
+      "gross_margin_pct": null,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "面向全球个人投资者的多资产交易平台，通过交易价差/净交易收入、加密资产交易、客户资金利息、换汇及其他服务收费赚钱。",
+      "core_judgement": "普通控股回本口径不适用。eToro 的现金、短期投资、交易对手方往来和加密资产共同支持受监管经纪、清算、客户提款和做市/交易活动；机械地从市值扣除会把生意本身的运营资本当成可剥离资产。应改看净贡献及其构成、资金账户与AUA增长、利息赚息资产、监管资本余量、周期中盈利韧性和实际回购/分红能力。按输入市值约191.42亿元与2025归母净利润约15.16亿元，静态市值/年度利润约12.63倍，仅作规模参照，不是普通现金利润回本年。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/ETOR/"
     },
     {
       "schema_version": "stock-research-result-v1",
