@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 10:59:28 +08:00",
+  "built_at": "2026-08-04 11:00:26 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -46205,6 +46205,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/VOYA/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "UNM",
+      "name": "Unum Group Common Stock",
+      "raw_name": "Unum Group Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 919.83,
+      "pe_ttm": 19.98,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 915.28,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 51.7,
+      "gross_margin_pct": null,
+      "net_margin_pct": 5.65,
+      "forecast_dividend_yield_pct": 2.43,
+      "risk_level": "未分级",
+      "business_summary": "通过雇主渠道销售伤残、寿险、意外、重疾、牙科和视力等职场保障，以保费与投资收益覆盖赔付、准备金变化和费用。",
+      "core_judgement": "普通控股回本口径不适用：投资资产、现金、准备金、保单账户和再保险应共同支持保单义务与监管资本，不能从市值中机械扣除；保险控股视角应改看承保盈利与赔付经验、净投资收益及负债成本、准备金假设、RBC、控股公司流动性和子公司向母公司的可分红能力。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/UNM/"
     },
     {
       "schema_version": "stock-research-result-v1",
