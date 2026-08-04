@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 01:48:29 +08:00",
+  "built_at": "2026-08-05 01:49:01 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -71377,6 +71377,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/FFBC/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "BPOP",
+      "name": "Popular, Inc. - Common Stock",
+      "raw_name": "Popular, Inc. - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 755.11,
+      "pe_ttm": 11.85,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": null,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 58.52,
+      "gross_margin_pct": null,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": 1.84,
+      "risk_level": "未分级",
+      "business_summary": "以波多黎各为核心、兼营美国本土市场的银行控股公司，依靠存款配置贷款和证券赚取净息差，并收取金融服务费用。",
+      "core_judgement": "普通控股回本口径不适用。存款、贷款和证券共同构成银行经营模型，不能计算可剥离净现金、经营业务购买价或自由现金流回本年；应改看NIM、NPL与核销、ACL覆盖、CET1、ROTCE、有形账面价值和资本分配。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/BPOP/"
     },
     {
       "schema_version": "stock-research-result-v1",
