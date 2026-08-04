@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 17:43:42 +08:00",
+  "built_at": "2026-08-04 17:46:57 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -57365,6 +57365,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/RLI/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01669.HK",
+      "name": "GIC GROUP",
+      "raw_name": "GIC GROUP",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 4.51,
+      "pe_ttm": 10.03,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 0.69,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 0.47,
+      "gross_margin_pct": null,
+      "net_margin_pct": 67.67,
+      "forecast_dividend_yield_pct": 4.14,
+      "risk_level": "未分级",
+      "business_summary": "以自有资本在香港发放短期及长期物业抵押贷款，靠贷款利息与资金成本、信用损失及管理费用之间的利差赚钱。",
+      "core_judgement": "普通控股回本口径不适用。公司是非银行物业抵押贷款机构，应收贷款和现金均属于信贷资金池；2025年经营现金流受贷款余额大幅收缩释放现金驱动。控股视角应改看净资产折价、贷款账簿信用质量、LTV、Stage 3敞口、ROE及普通股息可持续性。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01669.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
