@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 11:43:58 +08:00",
+  "built_at": "2026-08-04 11:45:51 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -39726,6 +39726,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/02598.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "09927.HK",
+      "name": "赛力斯",
+      "raw_name": "赛力斯",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 690.87,
+      "pe_ttm": 12.18,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": 0.0,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": 0.0,
+      "discounted_detachable_net_cash_yi": 209.06,
+      "discounted_net_cash_to_market_cap_pct": 30.26,
+      "operating_business_price_yi": 481.8,
+      "discounted_cash_profit_yi": 0.0,
+      "revenue_yi": 1648.88,
+      "gross_profit_yi": 443.24,
+      "parent_net_profit_yi": 59.57,
+      "gross_margin_pct": 26.88,
+      "net_margin_pct": 3.61,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "赛力斯以AITO问界为核心，研发、制造并销售高端智能电动车，利润取决于车型销量、成交价、整车毛利与高额研发和渠道费用之间的平衡。",
+      "core_judgement": "现金端仅将银行结余及现金和定期存款合计526.24亿元按50%计入，并全额扣除借款43.72亿元及租赁负债10.33亿元；受限存款、战略投资和经营资产不计入。由此折后可剥离净现金为209.06亿元，经营业务购买价为481.80亿元。利润端虽可由2025年归母利润加折旧摊销减资本开支得到约65.51亿元的静态现金代理值，但2026年上半年已预告归母亏损15–18亿元，说明该利润不具备可持续性证据，因此折后可持续现金利润取0，回本年和市值/现金利润不计算。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/09927.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
