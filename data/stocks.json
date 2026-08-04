@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 12:43:00 +08:00",
+  "built_at": "2026-08-04 12:46:15 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -1895,6 +1895,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/01538.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "FVRR",
+      "name": "Fiverr International Ltd. Ordinary Shares, no par value",
+      "raw_name": "Fiverr International Ltd. Ordinary Shares, no par value",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 21.66,
+      "pe_ttm": 11.02,
+      "owner_earnback_years": 1.64,
+      "owner_earnback_rate_pct": 60.9,
+      "market_profit_payback_years": 5.81,
+      "market_cash_profit_yield_pct": 17.22,
+      "discounted_detachable_net_cash_yi": 15.54,
+      "discounted_net_cash_to_market_cap_pct": 71.73,
+      "operating_business_price_yi": 6.12,
+      "discounted_cash_profit_yi": 3.73,
+      "revenue_yi": 30.97,
+      "gross_profit_yi": 25.26,
+      "parent_net_profit_yi": 1.51,
+      "gross_margin_pct": 81.57,
+      "net_margin_pct": 4.87,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "Fiverr撮合买家与全球自由职业者完成数字服务交易，并向平台用户销售广告、订阅、软件和金融工具等增值服务。",
+      "core_judgement": "按输入市值，折后可剥离净现金约占市值71.7%；扣除后经营业务购买价约6.12亿元。以2025年经营现金流减资本开支及全部股份支付稀释成本后的现金利润约3.73亿元，静态回本约1.64年。该数字高度依赖2025现金流可持续、股份支付扣除充分以及资金确可剥离，不是收益承诺。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/FVRR/"
     },
     {
       "schema_version": "stock-research-result-v1",
