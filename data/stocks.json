@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 00:10:50 +08:00",
+  "built_at": "2026-08-05 00:13:06 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -18150,6 +18150,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00285.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "SCSC",
+      "name": "ScanSource, Inc. - Common Stock",
+      "raw_name": "ScanSource, Inc. - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 77.65,
+      "pe_ttm": 17.21,
+      "owner_earnback_years": 14.05,
+      "owner_earnback_rate_pct": 7.12,
+      "market_profit_payback_years": 13.17,
+      "market_cash_profit_yield_pct": 7.6,
+      "discounted_detachable_net_cash_yi": -5.23,
+      "discounted_net_cash_to_market_cap_pct": -6.74,
+      "operating_business_price_yi": 82.89,
+      "discounted_cash_profit_yi": 5.9,
+      "revenue_yi": 217.68,
+      "gross_profit_yi": 29.25,
+      "parent_net_profit_yi": 5.12,
+      "gross_margin_pct": 13.44,
+      "net_margin_pct": 2.35,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "连接设备到云的专业技术分销商，以硬件买断转售贡献规模、以Intelisys供应商净佣金贡献高毛利。",
+      "core_judgement": "按FY2025年末1美元兑7.1586元折算。现金只按50%折价计入、债务全额扣除后，可剥离净现金为负5.23亿元；经营业务购买价因此高于市值。可持续现金利润以归母净利润加折旧摊销、减资本开支和股权薪酬估算为5.90亿元，对应经营业务约14.1年回本。该结果对营运资金周期、供应商返利和利润正常化高度敏感，不是确定性预测。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/SCSC/"
     },
     {
       "schema_version": "stock-research-result-v1",
