@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 00:53:28 +08:00",
+  "built_at": "2026-08-05 00:55:51 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -30922,6 +30922,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002928.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "TXT",
+      "name": "Textron Inc. Common Stock",
+      "raw_name": "Textron Inc. Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 989.5,
+      "pe_ttm": 16.06,
+      "owner_earnback_years": 21.02,
+      "owner_earnback_rate_pct": 4.76,
+      "market_profit_payback_years": 18.52,
+      "market_cash_profit_yield_pct": 5.4,
+      "discounted_detachable_net_cash_yi": -133.18,
+      "discounted_net_cash_to_market_cap_pct": -13.46,
+      "operating_business_price_yi": 1122.68,
+      "discounted_cash_profit_yi": 53.42,
+      "revenue_yi": 1063.68,
+      "gross_profit_yi": 193.7,
+      "parent_net_profit_yi": 66.2,
+      "gross_margin_pct": 18.21,
+      "net_margin_pct": 6.22,
+      "forecast_dividend_yield_pct": 0.1,
+      "risk_level": "未分级",
+      "business_summary": "以Cessna/Beechcraft公务机、Bell直升机和军工系统为利润核心，工业产品与附属融资为补充的多元航空制造商。",
+      "core_judgement": "现金不足以覆盖债务，折后可剥离净现金为-133.18亿元。2025经营自由现金流66.77亿元做20%可持续性折扣后为53.42亿元；经营业务购买价1122.68亿元，对应约21.0年回本。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/TXT/"
     },
     {
       "schema_version": "stock-research-result-v1",
