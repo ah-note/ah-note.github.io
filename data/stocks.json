@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 23:30:39 +08:00",
+  "built_at": "2026-08-04 23:32:14 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -15825,6 +15825,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/920029.BJ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "M",
+      "name": "Macy's Inc Common Stock",
+      "raw_name": "Macy's Inc Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 440.55,
+      "pe_ttm": 10.26,
+      "owner_earnback_years": 12.96,
+      "owner_earnback_rate_pct": 7.72,
+      "market_profit_payback_years": 10.56,
+      "market_cash_profit_yield_pct": 9.47,
+      "discounted_detachable_net_cash_yi": -99.76,
+      "discounted_net_cash_to_market_cap_pct": -22.64,
+      "operating_business_price_yi": 540.31,
+      "discounted_cash_profit_yi": 41.71,
+      "revenue_yi": 1572.39,
+      "gross_profit_yi": 634.21,
+      "parent_net_profit_yi": 44.63,
+      "gross_margin_pct": 40.33,
+      "net_margin_pct": 2.84,
+      "forecast_dividend_yield_pct": 3.18,
+      "risk_level": "未分级",
+      "business_summary": "以Macy’s大众百货、Bloomingdale’s高端百货和Bluemercury高端美妆，通过门店与数字渠道赚取商品进销差价，并辅以信用卡分成和零售媒体收入。",
+      "core_judgement": "按财年末现金80%减长期债务，折后可剥离净现金为负99.76亿元，因此经营业务购买价高于市值。以6亿美元（41.71亿元）保守可持续可分配现金利润计，经营业务约13.0年回本，市值约10.6倍现金利润。该结果依赖库存纪律、门店改造与年度资本开支不显著恶化；它不是目标价或买卖建议。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/M/"
     },
     {
       "schema_version": "stock-research-result-v1",
