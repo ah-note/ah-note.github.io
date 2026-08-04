@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 20:47:45 +08:00",
+  "built_at": "2026-08-04 20:48:58 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -26303,6 +26303,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603883.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "XZO",
+      "name": "Exzeo Group, Inc. Common Stock",
+      "raw_name": "Exzeo Group, Inc. Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 95.22,
+      "pe_ttm": 16.51,
+      "owner_earnback_years": 20.28,
+      "owner_earnback_rate_pct": 4.93,
+      "market_profit_payback_years": 22.8,
+      "market_cash_profit_yield_pct": 4.39,
+      "discounted_detachable_net_cash_yi": 10.54,
+      "discounted_net_cash_to_market_cap_pct": 11.07,
+      "operating_business_price_yi": 84.68,
+      "discounted_cash_profit_yi": 4.18,
+      "revenue_yi": 15.17,
+      "gross_profit_yi": 9.16,
+      "parent_net_profit_yi": 5.79,
+      "gross_margin_pct": 60.38,
+      "net_margin_pct": 38.14,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "为财险承保人提供一体化MGA、保单管理、理赔和保险软件平台，主要按管理保费或交易量收费。",
+      "core_judgement": "按2025-12-31美元兑人民币6.9931换算。现金仅按80%计入并扣除全部负债，得到折后可剥离净现金约10.54亿元；现金利润先以归母净利加折旧摊销、减资本开支、剔除税后投资收益得到约5.57亿元，再因98.9%收入来自HCI关联方及2025年新增管理费安排的独立可持续性尚未验证折减25%，得到约4.18亿元。以输入市值扣除折后净现金后，经营业务购买价约84.68亿元，对应回本约20.28年；这是控股口径压力测试，不是目标价或买卖建议。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/XZO/"
     },
     {
       "schema_version": "stock-research-result-v1",
