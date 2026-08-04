@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 13:11:01 +08:00",
+  "built_at": "2026-08-04 13:13:15 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -2298,6 +2298,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/02877.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "03686.HK",
+      "name": "祈福生活服务（CLIFFORDML）",
+      "raw_name": "祈福生活服务（CLIFFORDML）",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 4.81,
+      "pe_ttm": 1.77,
+      "owner_earnback_years": 2.4,
+      "owner_earnback_rate_pct": 41.73,
+      "market_profit_payback_years": 6.99,
+      "market_cash_profit_yield_pct": 14.3,
+      "discounted_detachable_net_cash_yi": 3.16,
+      "discounted_net_cash_to_market_cap_pct": 65.73,
+      "operating_business_price_yi": 1.65,
+      "discounted_cash_profit_yi": 0.69,
+      "revenue_yi": 3.2,
+      "gross_profit_yi": 1.66,
+      "parent_net_profit_yi": 2.85,
+      "gross_margin_pct": 51.92,
+      "net_margin_pct": 88.87,
+      "forecast_dividend_yield_pct": 18.39,
+      "risk_level": "未分级",
+      "business_summary": "在广东以祈福品牌社区为基础，经营物业管理、社区零售、培训、信息技术和生活配套服务，同时将大量闲置资金配置于贵金属。",
+      "core_judgement": "按2025年末资产负债表，将现金及等价物按50%、定存按90%、未分配白银按50%计入并全额扣除租赁负债，折后可剥离净现金约3.16亿元；经营现金流扣资本开支后再打85折得到可持续现金利润0.687亿元。对应经营业务购买价约1.647亿元、回本约2.40年。该结果高度依赖贵金属折价与资金实际可分配性，且2026年已出售白银并持续换仓金银，不能视为确定清算价值。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/03686.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
