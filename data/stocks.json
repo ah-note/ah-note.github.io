@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 03:47:04 +08:00",
+  "built_at": "2026-08-05 03:47:36 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -25807,6 +25807,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/MZTI/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "SAIC",
+      "name": "Science Applications International Corporation - Common Stock",
+      "raw_name": "Science Applications International Corporation - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 334.15,
+      "pe_ttm": 13.16,
+      "owner_earnback_years": 17.49,
+      "owner_earnback_rate_pct": 5.72,
+      "market_profit_payback_years": 11.81,
+      "market_cash_profit_yield_pct": 8.47,
+      "discounted_detachable_net_cash_yi": -160.61,
+      "discounted_net_cash_to_market_cap_pct": -48.06,
+      "operating_business_price_yi": 494.76,
+      "discounted_cash_profit_yi": 28.29,
+      "revenue_yi": 506.0,
+      "gross_profit_yi": 60.76,
+      "parent_net_profit_yi": 24.94,
+      "gross_margin_pct": 12.01,
+      "net_margin_pct": 4.93,
+      "forecast_dividend_yield_pct": 1.36,
+      "risk_level": "未分级",
+      "business_summary": "SAIC主要靠为美国国防、情报和民用政府机构承接技术、工程、系统集成与企业IT服务合同赚钱。",
+      "core_judgement": "市值本身约为保守现金利润的11.8倍，但公司净负债较高；将债务全额扣除现金后，经营业务购买价约494.8亿元，对应约17.5年回本。该口径是静态压力测试，不含增长、利息下降或并购协同，也不构成买卖建议。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/SAIC/"
     },
     {
       "schema_version": "stock-research-result-v1",
