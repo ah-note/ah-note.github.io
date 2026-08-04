@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 00:08:03 +08:00",
+  "built_at": "2026-08-05 00:10:18 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -68401,6 +68401,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/FVCB/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "NKSH",
+      "name": "National Bankshares, Inc. - Common Stock",
+      "raw_name": "National Bankshares, Inc. - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 17.45,
+      "pe_ttm": 12.73,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 3.89,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 1.11,
+      "gross_margin_pct": null,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": 3.84,
+      "risk_level": "未分级",
+      "business_summary": "一家以弗吉尼亚州西南部、西部和中部社区存款为资金、向当地中小企业和个人放贷并配置证券的社区银行控股公司。",
+      "core_judgement": "普通控股回本公式不适用于银行。客户存款、贷款、证券及现金共同承担期限转换、流动性和监管资本功能，不能抽出净现金后把剩余业务单独定价。控股视角应改看市值/账面权益约1.35倍、输入PE TTM 12.73倍，并结合2025年ROA 0.87%、ROE 9.29%、净息差2.66%、不良贷款率0.02%、CET1 16.16%和分红能力判断。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/NKSH/"
     },
     {
       "schema_version": "stock-research-result-v1",
