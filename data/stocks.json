@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 12:00:28 +08:00",
+  "built_at": "2026-08-04 12:01:47 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -2701,6 +2701,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00819.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01995.HK",
+      "name": "永升服务（ES SERVICES）",
+      "raw_name": "永升服务（ES SERVICES）",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 26.53,
+      "pe_ttm": 6.37,
+      "owner_earnback_years": 4.06,
+      "owner_earnback_rate_pct": 24.65,
+      "market_profit_payback_years": 8.75,
+      "market_cash_profit_yield_pct": 11.42,
+      "discounted_detachable_net_cash_yi": 14.23,
+      "discounted_net_cash_to_market_cap_pct": 53.66,
+      "operating_business_price_yi": 12.29,
+      "discounted_cash_profit_yi": 3.03,
+      "revenue_yi": 68.66,
+      "gross_profit_yi": 13.02,
+      "parent_net_profit_yi": 4.37,
+      "gross_margin_pct": 18.96,
+      "net_margin_pct": 6.37,
+      "forecast_dividend_yield_pct": 11.31,
+      "risk_level": "未分级",
+      "business_summary": "永升服务在中国100个城市为住宅和非住宅项目提供基础物业、社区增值、开发商增值及城市服务，核心利润来自按合同持续收费的物业管理。",
+      "core_judgement": "按输入市值26.53亿元，现金仅取50%、FVTPL金融资产仅取30%，并全额扣除借款及租赁负债，得到折后可剥离净现金14.23亿元。2025经营自由现金流4.48亿元先按归母利润占净利润比例归属母公司，再因应收增长、信用减值上升和现金流同比下降折价15%，得到折后可持续可分配现金利润3.03亿元。对应经营业务购买价12.29亿元、约4.06年回本；若完全不给现金折价，结论会明显更乐观，故该数字对现金可剥离性和回款改善高度敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01995.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
