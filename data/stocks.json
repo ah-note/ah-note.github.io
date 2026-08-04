@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 04:45:32 +08:00",
+  "built_at": "2026-08-05 04:46:04 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -28008,6 +28008,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600295.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "GCMG",
+      "name": "GCM Grosvenor Inc. - Class A Common Stock",
+      "raw_name": "GCM Grosvenor Inc. - Class A Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 50.85,
+      "pe_ttm": 24.96,
+      "owner_earnback_years": 18.63,
+      "owner_earnback_rate_pct": 5.37,
+      "market_profit_payback_years": 17.72,
+      "market_cash_profit_yield_pct": 5.64,
+      "discounted_detachable_net_cash_yi": -2.59,
+      "discounted_net_cash_to_market_cap_pct": -5.1,
+      "operating_business_price_yi": 53.45,
+      "discounted_cash_profit_yi": 2.87,
+      "revenue_yi": 40.07,
+      "gross_profit_yi": 40.07,
+      "parent_net_profit_yi": 3.26,
+      "gross_margin_pct": 100.0,
+      "net_margin_pct": 8.14,
+      "forecast_dividend_yield_pct": 4.12,
+      "risk_level": "未分级",
+      "business_summary": "为全球机构及个人投资者配置另类资产，靠约725亿美元收费AUM收管理费，并从投资业绩中收取绩效费和附带权益。",
+      "core_judgement": "按2025年末Class A约30%经济权益口径：现金按80%、归属公司的投资按50%折价，扣除债务后Class A应占折后可剥离净现金为负2.59亿元；以披露的1.663亿美元调整后净利润为起点，按30%归属Class A，再打八折处理激励费波动、调整项和稀释不确定性，得到2.87亿元折后可持续现金利润。市值/现金利润约17.7年，连同负折后净现金后经营业务回本约18.6年；这是口径测算，不是收益承诺。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/GCMG/"
     },
     {
       "schema_version": "stock-research-result-v1",
