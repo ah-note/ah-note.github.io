@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 13:47:17 +08:00",
+  "built_at": "2026-08-04 13:48:08 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -51041,6 +51041,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/HCI/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "HG",
+      "name": "Hamilton Insurance Group, Ltd. Class B Common Shares",
+      "raw_name": "Hamilton Insurance Group, Ltd. Class B Common Shares",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 240.85,
+      "pe_ttm": 5.9,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 208.87,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 41.45,
+      "gross_margin_pct": null,
+      "net_margin_pct": 19.85,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "通过国际与百慕大平台承保全球特种保险和再保险风险，以低于100%的综合成本率赚取承保利润，并投资保费浮存金获取投资回报。",
+      "core_judgement": "普通控股回本模型不适用。保险公司的投资资产主要承接保费浮存金并匹配赔款准备金、未赚保费、再保险结算和监管资本，不能从市值中当作可剥离净现金扣除；经营现金流也受保费与赔款时点影响，不能直接当作可持续可分配现金利润。应改看综合成本率、承保利润、投资收益质量、准备金发展、监管资本余量、账面价值倍数以及子公司向控股公司的法定分红能力。按输入市值与2025年末归母权益换算，市净率约1.19倍，仅作保险专项观察，不是普通回本年。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/HG/"
     },
     {
       "schema_version": "stock-research-result-v1",
