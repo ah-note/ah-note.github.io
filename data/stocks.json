@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 18:45:08 +08:00",
+  "built_at": "2026-08-04 18:45:39 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -12353,6 +12353,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603551.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "08637.HK",
+      "name": "METASURFACE",
+      "raw_name": "METASURFACE",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 4.64,
+      "pe_ttm": 8.84,
+      "owner_earnback_years": 11.24,
+      "owner_earnback_rate_pct": 8.9,
+      "market_profit_payback_years": 19.32,
+      "market_cash_profit_yield_pct": 5.18,
+      "discounted_detachable_net_cash_yi": 1.94,
+      "discounted_net_cash_to_market_cap_pct": 41.85,
+      "operating_business_price_yi": 2.7,
+      "discounted_cash_profit_yi": 0.24,
+      "revenue_yi": 2.59,
+      "gross_profit_yi": 0.96,
+      "parent_net_profit_yi": 0.55,
+      "gross_margin_pct": 37.17,
+      "net_margin_pct": 21.23,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "一家总部位于新加坡、向半导体及航空航天等客户提供按图生产精密机加工和精密焊接零部件的工程服务商。",
+      "core_judgement": "普通经营模型适用。按年末汇率折算，现金取90%、MetaOptics上市股权取50%、扣除银行借款后，折后可剥离净现金约1.943亿元；市值扣除后经营业务购买价约2.700亿元。可持续现金利润从归母利润剔除MetaOptics一次性重估收益，补回汇兑损失并按折旧摊销减资本开支调整，再打75%折扣，约0.240亿元，对应经营业务回本约11.24年。结果高度受MetaOptics股价与利润正常化假设影响。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/08637.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
