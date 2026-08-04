@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 14:12:38 +08:00",
+  "built_at": "2026-08-04 14:16:35 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -4437,6 +4437,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002367.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "HNNA",
+      "name": "Hennessy Advisors, Inc. - Common Stock",
+      "raw_name": "Hennessy Advisors, Inc. - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 5.24,
+      "pe_ttm": 9.27,
+      "owner_earnback_years": 4.78,
+      "owner_earnback_rate_pct": 20.94,
+      "market_profit_payback_years": 7.29,
+      "market_cash_profit_yield_pct": 13.72,
+      "discounted_detachable_net_cash_yi": 1.81,
+      "discounted_net_cash_to_market_cap_pct": 34.49,
+      "operating_business_price_yi": 3.43,
+      "discounted_cash_profit_yi": 0.72,
+      "revenue_yi": 2.53,
+      "gross_profit_yi": 2.24,
+      "parent_net_profit_yi": 0.71,
+      "gross_margin_pct": 88.33,
+      "net_margin_pct": 28.03,
+      "forecast_dividend_yield_pct": 6.43,
+      "risk_level": "未分级",
+      "business_summary": "一家以约45亿美元平均AUM为收费基数、向16只共同基金和1只ETF收取顾问费及股东服务费的小型美国资产管理公司。",
+      "core_judgement": "按输入市值5.242亿元，FY2025现金按90%折价并全额扣除票据债务后，折后可剥离净现金约1.808亿元；经营业务购买价约3.434亿元。折后可持续现金利润约0.719亿元，对应经营业务回本约4.78年、市值/现金利润约7.29倍。这是静态控股口径，不是收益承诺；AUM持续净流出、管理合同减值或资本配置会改变结果。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/HNNA/"
     },
     {
       "schema_version": "stock-research-result-v1",
