@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 03:21:47 +08:00",
+  "built_at": "2026-08-05 03:24:23 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -74105,6 +74105,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/FSUN/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "03328.HK",
+      "name": "BANKCOMM",
+      "raw_name": "BANKCOMM",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 5800.28,
+      "pe_ttm": 6.37,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 2656.0,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 956.22,
+      "gross_margin_pct": null,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": 4.95,
+      "risk_level": "未分级",
+      "business_summary": "交通银行以客户存款和批发融资取得资金，主要投向公司及个人贷款和债券投资，以利差为核心，同时赚取结算、托管、财富管理等手续费。",
+      "core_judgement": "不适用普通经营公司的控股回本公式。银行的现金、央行存款、同业资产、贷款和证券投资均与客户存款、同业融资、存单及资本监管共同构成经营系统，不能视为可剥离净现金；经营现金流也受存贷款规模变动主导。控股视角应改看净息差、资产质量、拨备、资本充足率、ROE与可持续分红。按输入市值与2025年归母净利润的静态比值约6.07倍仅作银行盈利规模参照，不写入普通现金利润排序字段。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/03328.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
