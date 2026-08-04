@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 05:55:38 +08:00",
+  "built_at": "2026-08-05 05:56:52 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -78786,6 +78786,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/USB/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "MCI",
+      "name": "Barings Corporate Investors Common Stock",
+      "raw_name": "Barings Corporate Investors Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 22.93,
+      "pe_ttm": 12.07,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 2.61,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 2.02,
+      "gross_margin_pct": null,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": 10.29,
+      "risk_level": "未分级",
+      "business_summary": "以股东资本和借款投资美国中小企业私募低评级贷款及少量股权，通过利息和资本增值向股东作季度分配的上市封闭式基金。",
+      "core_judgement": "普通控股回本口径不适用。MCI不是用独立经营资产生产利润的普通公司，而是以股东资本和借款持有信用/股权投资的封闭式基金；证券、现金和融资负债共同构成收益组合。应改看市场价相对NAV折溢价、净投资收益对分配的覆盖、信用损失与非应计比例、Level 3估值可信度、杠杆和未出资承诺。2025年末按输入市值与期末NAV折算，市场价约为NAV的93.5%，但两个时点不一致，只作背景，不能作为精确折价。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/MCI/"
     },
     {
       "schema_version": "stock-research-result-v1",
