@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 02:36:10 +08:00",
+  "built_at": "2026-08-05 02:37:02 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -72803,6 +72803,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/JMSB/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "FTF",
+      "name": "Franklin Limited Duration Income Trust Common Shares of Beneficial Interest",
+      "raw_name": "Franklin Limited Duration Income Trust Common Shares of Beneficial Interest",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 15.57,
+      "pe_ttm": 13.6,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": null,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 1.2,
+      "gross_margin_pct": null,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": 13.46,
+      "risk_level": "未分级",
+      "business_summary": "一只以高收益债、浮息企业贷款及按揭/资产支持证券赚取利息，并通过借款杠杆维持高月度分配的主动管理封闭式债券基金。",
+      "core_judgement": "普通控股回本口径不适用：投资证券、现金、应收和信贷额度共同构成封闭式基金的收益与杠杆结构，不能先剥离净现金再给经营业务定价。应改看市价相对NAV折价（按输入市值与2025年末净资产约17.25%）、资产覆盖、组合信用质量、费用和净投资收益对分配的覆盖。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/FTF/"
     },
     {
       "schema_version": "stock-research-result-v1",
