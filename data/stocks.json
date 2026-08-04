@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 01:13:20 +08:00",
+  "built_at": "2026-08-05 01:14:12 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -70354,6 +70354,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/GABC/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "MPB",
+      "name": "Mid Penn Bancorp - Common Stock",
+      "raw_name": "Mid Penn Bancorp - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 65.51,
+      "pe_ttm": 17.43,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": null,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 3.94,
+      "gross_margin_pct": null,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": 2.39,
+      "risk_level": "未分级",
+      "business_summary": "一家以宾夕法尼亚州和新泽西州社区网点吸收存款、向当地企业和个人放贷赚取息差，并辅以信托、保险和按揭手续费的区域银行。",
+      "core_judgement": "普通控股回本口径不适用：存款不能与现金相抵后从市值扣除，贷款和证券也不能视为可剥离资产。控股视角应看盈利对有形净资产和监管资本的回报、信用损失能否受控，以及资本允许的持续分红。按输入市值，市值约为 2025 年末账面权益的 1.15 倍、约为有形账面权益的 1.41 倍；输入 PE TTM 为 17.43 倍，但 2026 年完成两项并购后，历史每股和资本比率不可直接外推。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/MPB/"
     },
     {
       "schema_version": "stock-research-result-v1",
