@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 16:12:11 +08:00",
+  "built_at": "2026-08-04 16:13:03 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -54947,6 +54947,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00825.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "TLIH",
+      "name": "Ten-League International Holdings Limited - Ordinary Shares",
+      "raw_name": "Ten-League International Holdings Limited - Ordinary Shares",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 1.15,
+      "pe_ttm": 3.73,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": 0.0,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": 0.0,
+      "discounted_detachable_net_cash_yi": -1.91,
+      "discounted_net_cash_to_market_cap_pct": -165.99,
+      "operating_business_price_yi": 3.05,
+      "discounted_cash_profit_yi": 0.0,
+      "revenue_yi": 4.16,
+      "gross_profit_yi": 1.02,
+      "parent_net_profit_yi": 0.3,
+      "gross_margin_pct": 24.44,
+      "net_margin_pct": 7.33,
+      "forecast_dividend_yield_pct": 3.98,
+      "risk_level": "未分级",
+      "business_summary": "新加坡重型设备经销与租赁商，主要依靠三一设备销售赚取收入，同时用自有/租赁机队和工程改造服务覆盖港口及基建客户。",
+      "core_judgement": "现金按100%计入、银行借款/租赁负债/关联方应付款按100%扣除后，折后可剥离净现金为负1.91亿元，实际是净债务；故经营业务购买价约3.05亿元。2025年自由现金流为正4928万元，但主要受库存释放6240万元推动；2023、2024年自由现金流分别约负9936万元和负4262万元，三年均值为负。由于无法从现有历史证明正的可持续可分配现金利润，回本年数和市值/现金利润保持null。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/TLIH/"
     },
     {
       "schema_version": "stock-research-result-v1",
