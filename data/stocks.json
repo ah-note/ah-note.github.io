@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 20:14:50 +08:00",
+  "built_at": "2026-08-04 20:16:23 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -13190,6 +13190,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00418.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "ACN",
+      "name": "Accenture plc Class A Ordinary Shares (Ireland)",
+      "raw_name": "Accenture plc Class A Ordinary Shares (Ireland)",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 6851.48,
+      "pe_ttm": 13.24,
+      "owner_earnback_years": 11.53,
+      "owner_earnback_rate_pct": 8.67,
+      "market_profit_payback_years": 11.61,
+      "market_cash_profit_yield_pct": 8.61,
+      "discounted_detachable_net_cash_yi": 46.45,
+      "discounted_net_cash_to_market_cap_pct": 0.68,
+      "operating_business_price_yi": 6805.02,
+      "discounted_cash_profit_yi": 589.95,
+      "revenue_yi": 4877.11,
+      "gross_profit_yi": 1556.48,
+      "parent_net_profit_yi": 537.49,
+      "gross_margin_pct": 31.91,
+      "net_margin_pct": 11.02,
+      "forecast_dividend_yield_pct": 4.13,
+      "risk_level": "未分级",
+      "business_summary": "为全球大型组织提供战略咨询、技术实施与持续托管服务，把人员能力、行业知识和云/AI生态伙伴产品组合成项目与长期运营合同。",
+      "core_judgement": "以FY2025经营自由现金流为起点，先按少数股东权益占比扣除3.24%，再将股权薪酬作为真实股东成本全额扣除，得到折后可持续现金利润约590亿元。现金仅按50%计为可剥离资金，短期投资全额计入，再全额扣除有息债务，折后可剥离净现金约46亿元。由此经营业务购买价约6805亿元，对应约11.53年回本；结论对股权薪酬、并购维持性支出和FY2025营运资本释放的持续性敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/ACN/"
     },
     {
       "schema_version": "stock-research-result-v1",
