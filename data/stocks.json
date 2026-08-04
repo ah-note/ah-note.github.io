@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 00:27:44 +08:00",
+  "built_at": "2026-08-05 00:31:22 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -68990,6 +68990,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/UVSP/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "FBIZ",
+      "name": "First Business Financial Services, Inc. - Common Stock",
+      "raw_name": "First Business Financial Services, Inc. - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 39.62,
+      "pe_ttm": 10.75,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 11.81,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 3.46,
+      "gross_margin_pct": null,
+      "net_margin_pct": 29.32,
+      "forecast_dividend_yield_pct": 2.01,
+      "risk_level": "未分级",
+      "business_summary": "一家聚焦威斯康星州及堪萨斯城都会区中小企业、企业主与高净值客户的商业银行，以贷款存款利差为主、财富管理和专业金融手续费为辅。",
+      "core_judgement": "普通控股回本口径不适用：贷款、证券、现金与客户存款、FHLB融资共同构成受监管银行的经营资产负债，不能抽走现金再以自由现金流回本。控股视角应改看ROAA/ROATCE、净息差、信用成本与不良资产、资本充足率，以及盈利在满足增长和监管资本后能够分红的比例。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/FBIZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
