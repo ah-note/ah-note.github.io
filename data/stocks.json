@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 14:55:07 +08:00",
+  "built_at": "2026-08-04 14:58:01 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -8447,6 +8447,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/01478.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01513.HK",
+      "name": "LIVZON PHARMA",
+      "raw_name": "LIVZON PHARMA",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 200.74,
+      "pe_ttm": 10.42,
+      "owner_earnback_years": 9.49,
+      "owner_earnback_rate_pct": 10.54,
+      "market_profit_payback_years": 11.15,
+      "market_cash_profit_yield_pct": 8.97,
+      "discounted_detachable_net_cash_yi": 29.89,
+      "discounted_net_cash_to_market_cap_pct": 14.89,
+      "operating_business_price_yi": 170.86,
+      "discounted_cash_profit_yi": 18.0,
+      "revenue_yi": 120.2,
+      "gross_profit_yi": 79.21,
+      "parent_net_profit_yi": 20.23,
+      "gross_margin_pct": 65.9,
+      "net_margin_pct": 16.83,
+      "forecast_dividend_yield_pct": 6.33,
+      "risk_level": "未分级",
+      "business_summary": "以化学制剂、原料药和中药制剂为现金与利润主体，并以长效微球、创新生物药和国际化管线寻找增量的综合制药集团。",
+      "core_judgement": "按2026-08-03约200.74亿元市值，先扣除约29.89亿元折后可剥离净现金，经营业务购买价约170.86亿元；以18亿元折后可持续可分配现金利润估算，经营业务回本约9.49年，整家公司市值/现金利润约11.15倍。该口径保留25亿元经营现金，不计18.65亿元受限保证金，并把短期金融资产打八折；利润则低于20.09亿元扣非归母净利，虽有25.71亿元经营自由现金流支持，仍为研发、营运波动和少数股东留出折扣。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01513.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
