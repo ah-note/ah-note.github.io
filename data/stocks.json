@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 04:28:39 +08:00",
+  "built_at": "2026-08-05 04:29:53 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -32069,6 +32069,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603600.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "09987.HK",
+      "name": "YUM CHINA",
+      "raw_name": "YUM CHINA",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 1140.11,
+      "pe_ttm": 18.33,
+      "owner_earnback_years": 20.67,
+      "owner_earnback_rate_pct": 4.84,
+      "market_profit_payback_years": 23.04,
+      "market_cash_profit_yield_pct": 4.34,
+      "discounted_detachable_net_cash_yi": 117.19,
+      "discounted_net_cash_to_market_cap_pct": 10.28,
+      "operating_business_price_yi": 1022.92,
+      "discounted_cash_profit_yi": 49.49,
+      "revenue_yi": 847.91,
+      "gross_profit_yi": 137.07,
+      "parent_net_profit_yi": 66.77,
+      "gross_margin_pct": 16.17,
+      "net_margin_pct": 7.87,
+      "forecast_dividend_yield_pct": 2.53,
+      "risk_level": "未分级",
+      "business_summary": "以肯德基和必胜客为核心，在中国以直营为主、加盟加速扩张的连锁餐饮平台。",
+      "core_judgement": "按2026-08-03市值，先对年末现金、短期投资和长期银行存款作经营占用、流动性及汇出约束折扣，再扣短期借款；以经营自由现金流扣少数股东分配后再打九折，得到折后可持续现金利润约49.49亿元。经营业务购买价约1022.92亿元，对应约20.67年回本；这是静态控股口径，不是目标价，也未假设未来扩店增长。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/09987.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
