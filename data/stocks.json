@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 19:19:26 +08:00",
+  "built_at": "2026-08-04 19:22:08 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -48530,6 +48530,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/01180.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "EDUC",
+      "name": "Educational Development Corporation - Common Stock",
+      "raw_name": "Educational Development Corporation - Common Stock",
+      "market": "US",
+      "period": "2026-02-28",
+      "currency": "CNY",
+      "market_cap_yi": 0.79,
+      "pe_ttm": 5.75,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": -49.22,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": -46.84,
+      "discounted_detachable_net_cash_yi": 0.04,
+      "discounted_net_cash_to_market_cap_pct": 4.83,
+      "operating_business_price_yi": 0.76,
+      "discounted_cash_profit_yi": -0.37,
+      "revenue_yi": 1.57,
+      "gross_profit_yi": 0.93,
+      "parent_net_profit_yi": 0.16,
+      "gross_margin_pct": 59.37,
+      "net_margin_pct": 10.15,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "通过PaperPie独立品牌伙伴直销和EDC Publishing零售批发渠道，销售儿童图书、益智教具及STEAM玩具。",
+      "core_judgement": "期末无银行借款，但现金仅约767万元人民币且主营仍亏损，故只将非受限现金按50%计入可剥离净现金；FY2026自由现金流约1003万元主要由去库存释放4721万元支撑，扣除该暂时性释放后，持续现金利润约为-3718万元。分母不为正，普通控股回本年和市值/现金利润不成立，均保持null。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/EDUC/"
     },
     {
       "schema_version": "stock-research-result-v1",
