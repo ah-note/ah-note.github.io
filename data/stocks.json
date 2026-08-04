@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 05:48:04 +08:00",
+  "built_at": "2026-08-05 05:48:36 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -43415,6 +43415,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603271.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "ALLE",
+      "name": "Allegion plc Ordinary Shares",
+      "raw_name": "Allegion plc Ordinary Shares",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 903.21,
+      "pe_ttm": 20.66,
+      "owner_earnback_years": 26.42,
+      "owner_earnback_rate_pct": 3.79,
+      "market_profit_payback_years": 23.47,
+      "market_cash_profit_yield_pct": 4.26,
+      "discounted_detachable_net_cash_yi": -113.56,
+      "discounted_net_cash_to_market_cap_pct": -12.57,
+      "operating_business_price_yi": 1016.77,
+      "discounted_cash_profit_yi": 38.49,
+      "revenue_yi": 292.34,
+      "gross_profit_yi": 132.13,
+      "parent_net_profit_yi": 46.27,
+      "gross_margin_pct": 45.2,
+      "net_margin_pct": 15.83,
+      "forecast_dividend_yield_pct": 1.51,
+      "risk_level": "未分级",
+      "business_summary": "以Schlage、Von Duprin、LCN等品牌向商业、机构和住宅客户销售机械及电子门锁、门控、自动门、门禁系统与相关软件服务的全球安防产品公司。",
+      "core_judgement": "年末现金按100%计入、总债务全额扣除后，折后可剥离净现金为负113.56亿元，即净债务会把经营业务购买价推高到1016.77亿元。可持续现金利润取2023-2025三年经营自由现金流均值5.95亿美元，再打九折并按2025年平均汇率换算为38.49亿元；对应经营业务回本约26.4年，市值/现金利润约23.5倍。该结果是控股回本测算而非目标价；若收购整合、住宅需求、关税定价或维持性资本开支偏离假设，回本期会变化。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/ALLE/"
     },
     {
       "schema_version": "stock-research-result-v1",
