@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 02:48:33 +08:00",
+  "built_at": "2026-08-05 02:50:28 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -35572,6 +35572,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002532.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "EVTC",
+      "name": "EVERTEC, Inc.",
+      "raw_name": "EVERTEC, Inc.",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 126.57,
+      "pe_ttm": 14.63,
+      "owner_earnback_years": 23.17,
+      "owner_earnback_rate_pct": 4.32,
+      "market_profit_payback_years": 15.31,
+      "market_cash_profit_yield_pct": 6.53,
+      "discounted_detachable_net_cash_yi": -64.95,
+      "discounted_net_cash_to_market_cap_pct": -51.31,
+      "operating_business_price_yi": 191.52,
+      "discounted_cash_profit_yi": 8.26,
+      "revenue_yi": 66.43,
+      "gross_profit_yi": 32.99,
+      "parent_net_profit_yi": 10.09,
+      "gross_margin_pct": 49.65,
+      "net_margin_pct": 15.2,
+      "forecast_dividend_yield_pct": 0.72,
+      "risk_level": "未分级",
+      "business_summary": "为波多黎各及拉美金融机构、商户和政府客户提供支付网络、交易处理、商户收单及核心业务技术服务。",
+      "core_judgement": "折后可剥离净现金为负64.95亿元，说明公司实质是净负债经营，不能用账面现金降低购买价。以2023—2025年平均经营自由现金流减平均股权激励作为可持续可分配现金利润约8.26亿元，经营业务购买价约191.52亿元，对应约23.2年回本；若不扣净债务，市值/现金利润约15.3倍。该口径未将增长并购支出视为日常资本开支，但已把软件投入全额计入资本开支。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/EVTC/"
     },
     {
       "schema_version": "stock-research-result-v1",
