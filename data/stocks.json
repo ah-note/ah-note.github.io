@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 05:56:52 +08:00",
+  "built_at": "2026-08-05 05:58:06 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -31356,6 +31356,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002379.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "WWW",
+      "name": "Wolverine World Wide, Inc. Common Stock",
+      "raw_name": "Wolverine World Wide, Inc. Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 108.88,
+      "pe_ttm": 16.0,
+      "owner_earnback_years": 19.95,
+      "owner_earnback_rate_pct": 5.01,
+      "market_profit_payback_years": 15.84,
+      "market_cash_profit_yield_pct": 6.31,
+      "discounted_detachable_net_cash_yi": -28.25,
+      "discounted_net_cash_to_market_cap_pct": -25.94,
+      "operating_business_price_yi": 137.13,
+      "discounted_cash_profit_yi": 6.87,
+      "revenue_yi": 127.45,
+      "gross_profit_yi": 60.3,
+      "parent_net_profit_yi": 6.51,
+      "gross_margin_pct": 47.31,
+      "net_margin_pct": 5.11,
+      "forecast_dividend_yield_pct": 2.02,
+      "risk_level": "未分级",
+      "business_summary": "以Merrell、Saucony、Sweaty Betty和Wolverine等品牌设计、采购并通过批发、直营及授权渠道销售鞋服，利润主要由户外与跑步品牌驱动。",
+      "core_judgement": "现金14.03亿元全额计入、债务42.28亿元全额扣除，折后可剥离净现金为-28.25亿元。经营业务购买价137.13亿元。以FY2025自由现金流8.53亿元为起点，扣除1.66亿元股权薪酬稀释成本，可持续现金利润约6.87亿元，经营业务回本约19.9年。应收下降释放现金且FY2025多一周，分母仍可能偏乐观。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/WWW/"
     },
     {
       "schema_version": "stock-research-result-v1",
