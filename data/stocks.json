@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 13:28:17 +08:00",
+  "built_at": "2026-08-04 13:29:08 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -36564,6 +36564,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/000411.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "SIGA",
+      "name": "SIGA Technologies, Inc. (NASDAQ: SIGA)",
+      "raw_name": "SIGA Technologies, Inc. (NASDAQ: SIGA)",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 107.51,
+      "pe_ttm": 11.68,
+      "owner_earnback_years": 40.83,
+      "owner_earnback_rate_pct": 2.45,
+      "market_profit_payback_years": 43.86,
+      "market_cash_profit_yield_pct": 2.28,
+      "discounted_detachable_net_cash_yi": 7.43,
+      "discounted_net_cash_to_market_cap_pct": 6.91,
+      "operating_business_price_yi": 100.08,
+      "discounted_cash_profit_yi": 2.45,
+      "revenue_yi": 6.8,
+      "gross_profit_yi": 4.66,
+      "parent_net_profit_yi": 1.67,
+      "gross_margin_pct": 68.59,
+      "net_margin_pct": 24.61,
+      "forecast_dividend_yield_pct": 2.71,
+      "risk_level": "未分级",
+      "business_summary": "SIGA以TPOXX小分子抗病毒药向美国及海外政府销售天花/正痘病毒战略储备用药，并以政府资助推进剂型和适应症研发。",
+      "core_judgement": "以2026-08-03市值折人民币约107.51亿元，现金按80%计入并全额扣除负债后，折后可剥离净现金约7.43亿元，经营业务购买价约100.08亿元。近三年经营自由现金流中位数约3.50亿元，再按70%折为可持续可分配现金利润2.45亿元，经营业务回本约40.8年，市值/现金利润约43.9倍。该结果显示当前价格主要在为未来续约和订单增长付费，而非依赖现有现金与保守正常化现金流快速回本；这是情景化判断，不是目标价。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/SIGA/"
     },
     {
       "schema_version": "stock-research-result-v1",
