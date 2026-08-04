@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 11:06:34 +08:00",
+  "built_at": "2026-08-04 11:09:08 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -1430,6 +1430,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00703.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "03319.HK",
+      "name": "雅生活服务",
+      "raw_name": "雅生活服务",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 21.84,
+      "pe_ttm": 21.85,
+      "owner_earnback_years": 2.67,
+      "owner_earnback_rate_pct": 37.48,
+      "market_profit_payback_years": 4.95,
+      "market_cash_profit_yield_pct": 20.21,
+      "discounted_detachable_net_cash_yi": 10.07,
+      "discounted_net_cash_to_market_cap_pct": 46.09,
+      "operating_business_price_yi": 11.78,
+      "discounted_cash_profit_yi": 4.41,
+      "revenue_yi": 128.92,
+      "gross_profit_yi": 16.77,
+      "parent_net_profit_yi": 1.05,
+      "gross_margin_pct": 13.01,
+      "net_margin_pct": 0.81,
+      "forecast_dividend_yield_pct": 7.92,
+      "risk_level": "未分级",
+      "business_summary": "在中国向住宅及非住宅项目收取物业管理费，并提供社区增值和城市环卫清洁服务。",
+      "core_judgement": "普通经营公司口径适用，但结果高度依赖回款。现金仅按50%计入并全额扣除借款与租赁负债；持续现金利润从经营自由现金流出发，按归母权益比例归属后再折价25%，以反映应收减值、第三方贷款回收及年度波动。该口径下经营业务购买价约11.78亿元、回本约2.67年；这是压力折扣下的可比较估算，不代表现金可立即分配。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/03319.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
