@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 01:11:05 +08:00",
+  "built_at": "2026-08-05 01:13:20 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -7854,6 +7854,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/01373.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "03320.HK",
+      "name": "CHINARES PHARMA",
+      "raw_name": "CHINARES PHARMA",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 262.41,
+      "pe_ttm": 6.81,
+      "owner_earnback_years": 7.63,
+      "owner_earnback_rate_pct": 13.1,
+      "market_profit_payback_years": 7.63,
+      "market_cash_profit_yield_pct": 13.1,
+      "discounted_detachable_net_cash_yi": 0.0,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": 262.41,
+      "discounted_cash_profit_yi": 34.39,
+      "revenue_yi": 2695.74,
+      "gross_profit_yi": 445.08,
+      "parent_net_profit_yi": 40.45,
+      "gross_margin_pct": 16.51,
+      "net_margin_pct": 1.5,
+      "forecast_dividend_yield_pct": 4.64,
+      "risk_level": "未分级",
+      "business_summary": "以全国性医药分销网络承接约八成收入，同时靠中药、化学药、生物药等制造业务贡献更高毛利的综合医药集团。",
+      "core_judgement": "集团资金类资产274.79亿元低于借款及债券711.83亿元，且大量资金、债务和现金流位于非全资子公司；本次不把任何净现金从市值中扣除。以归母净利润40.45亿元为起点，因少数股东结构、并购整合及营运资金波动折价15%，得到可持续可分配现金利润34.39亿元。按输入市值计算，普通控股回本约7.63年；这是保守口径测算，不是分红承诺或买卖建议。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/03320.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
