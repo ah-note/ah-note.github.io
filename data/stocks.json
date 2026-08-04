@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 04:53:26 +08:00",
+  "built_at": "2026-08-05 04:53:58 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -42144,6 +42144,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/01750.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "QGEN",
+      "name": "Qiagen N.V. Common Shares",
+      "raw_name": "Qiagen N.V. Common Shares",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 576.19,
+      "pe_ttm": 21.12,
+      "owner_earnback_years": 26.18,
+      "owner_earnback_rate_pct": 3.82,
+      "market_profit_payback_years": 24.22,
+      "market_cash_profit_yield_pct": 4.13,
+      "discounted_detachable_net_cash_yi": -46.77,
+      "discounted_net_cash_to_market_cap_pct": -8.12,
+      "operating_business_price_yi": 622.96,
+      "discounted_cash_profit_yi": 23.79,
+      "revenue_yi": 146.9,
+      "gross_profit_yi": 91.34,
+      "parent_net_profit_yi": 29.86,
+      "gross_margin_pct": 62.18,
+      "net_margin_pct": 20.33,
+      "forecast_dividend_yield_pct": 0.88,
+      "risk_level": "未分级",
+      "business_summary": "QIAGEN向分子诊断和生命科学客户销售样本制备、诊断、PCR/核酸扩增、基因组学试剂与仪器，约90%收入来自耗材及相关经常性收入。",
+      "core_judgement": "按2026-08-03市值576.19亿元，现金及短投九折后再全额扣债，折后可剥离净现金为-46.77亿元，经营业务购买价升至622.96亿元。三年自由现金流均值扣除三年平均股权激励后再打九折，得到可持续现金利润23.79亿元，对应控股回本约26.2年；这是估算，不是目标价或收益承诺。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/QGEN/"
     },
     {
       "schema_version": "stock-research-result-v1",
