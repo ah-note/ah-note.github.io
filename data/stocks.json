@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 05:04:16 +08:00",
+  "built_at": "2026-08-05 05:05:52 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -26861,6 +26861,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00699.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "ICFI",
+      "name": "ICF International, Inc. - Common Stock",
+      "raw_name": "ICF International, Inc. - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 98.86,
+      "pe_ttm": 17.48,
+      "owner_earnback_years": 18.03,
+      "owner_earnback_rate_pct": 5.55,
+      "market_profit_payback_years": 14.17,
+      "market_cash_profit_yield_pct": 7.06,
+      "discounted_detachable_net_cash_yi": -26.96,
+      "discounted_net_cash_to_market_cap_pct": -27.27,
+      "operating_business_price_yi": 125.82,
+      "discounted_cash_profit_yi": 6.98,
+      "revenue_yi": 127.48,
+      "gross_profit_yi": 47.38,
+      "parent_net_profit_yi": 6.23,
+      "gross_margin_pct": 37.16,
+      "net_margin_pct": 4.89,
+      "forecast_dividend_yield_pct": 0.7,
+      "risk_level": "未分级",
+      "business_summary": "ICF以专业人员和分包网络为政府及商业客户提供能源、环境、健康、数字化与项目实施服务，按工时、固定价或成本补偿合同收费。",
+      "core_judgement": "按1美元=6.8067元人民币换算。现金按100%计入、受限现金按0%计入、有息债务按100%扣除，得到折后可剥离净现金-26.96亿元。2025年经营自由现金流8.18亿元，进一步扣除非现金股权薪酬1.20亿元的经济成本，折后可持续现金利润为6.98亿元。以输入市值98.86亿元计，承担净债务后经营业务购买价125.82亿元，对应约18.0年回本；该数字对美国联邦合同恢复、回款节奏及股权薪酬高度敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/ICFI/"
     },
     {
       "schema_version": "stock-research-result-v1",
