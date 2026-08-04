@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 02:32:19 +08:00",
+  "built_at": "2026-08-05 02:33:32 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -53800,6 +53800,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/920076.BJ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "MGNI",
+      "name": "Magnite, Inc. - Common Stock",
+      "raw_name": "Magnite, Inc. - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 186.52,
+      "pe_ttm": 18.38,
+      "owner_earnback_years": 66.34,
+      "owner_earnback_rate_pct": 1.51,
+      "market_profit_payback_years": 66.27,
+      "market_cash_profit_yield_pct": 1.51,
+      "discounted_detachable_net_cash_yi": -0.19,
+      "discounted_net_cash_to_market_cap_pct": -0.1,
+      "operating_business_price_yi": 186.71,
+      "discounted_cash_profit_yi": 2.81,
+      "revenue_yi": 50.23,
+      "gross_profit_yi": 31.47,
+      "parent_net_profit_yi": 10.17,
+      "gross_margin_pct": 62.66,
+      "net_margin_pct": 20.26,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "为流媒体电视、移动端和桌面端媒体提供程序化广告卖方平台、广告服务器及买卖撮合工具，并从广告交易中收取平台费用。",
+      "core_judgement": "按报告期汇率，现金减有息债务后几乎无净现金，经营业务购买价约等于市值。持续现金利润取0.40亿美元：以0.976亿美元GAAP营业利润加0.537亿美元折旧摊销，扣0.843亿美元全部资本化投入、0.189亿美元利息和约0.08亿美元正常化现金税后取整。该口径保留股权激励作为费用，且不把2025年0.90亿美元一次性递延税收益当作持续利润。由此经营业务回本约66.3年，显示输入市值相对保守现金利润并不便宜；结果对资本开支与正常化税假设敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/MGNI/"
     },
     {
       "schema_version": "stock-research-result-v1",
