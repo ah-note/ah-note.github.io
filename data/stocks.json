@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 13:42:09 +08:00",
+  "built_at": "2026-08-04 13:43:21 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -3786,6 +3786,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/01522.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01896.HK",
+      "name": "MAOYAN ENT",
+      "raw_name": "MAOYAN ENT",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 44.64,
+      "pe_ttm": 8.32,
+      "owner_earnback_years": 4.33,
+      "owner_earnback_rate_pct": 23.09,
+      "market_profit_payback_years": 6.91,
+      "market_cash_profit_yield_pct": 14.48,
+      "discounted_detachable_net_cash_yi": 16.66,
+      "discounted_net_cash_to_market_cap_pct": 37.31,
+      "operating_business_price_yi": 27.99,
+      "discounted_cash_profit_yi": 6.46,
+      "revenue_yi": 46.31,
+      "gross_profit_yi": 20.04,
+      "parent_net_profit_yi": 5.64,
+      "gross_margin_pct": 43.27,
+      "net_margin_pct": 12.17,
+      "forecast_dividend_yield_pct": 5.13,
+      "risk_level": "未分级",
+      "business_summary": "猫眼以电影和现场娱乐票务平台赚取佣金，并向片方提供宣发、发行、出品及广告/IP衍生服务。",
+      "core_judgement": "按市值扣除折后可剥离净现金后，经营业务购买价约27.99亿元；以折后可持续现金利润约6.46亿元计，静态回本约4.33年。该结果依赖2025年利润具有代表性，且不把营运资金释放形成的超额经营现金流长期化。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01896.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
