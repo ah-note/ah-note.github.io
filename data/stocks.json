@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 22:07:44 +08:00",
+  "built_at": "2026-08-04 22:09:17 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -22025,6 +22025,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603100.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "ALV",
+      "name": "Autoliv, Inc. Common Stock",
+      "raw_name": "Autoliv, Inc. Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 608.71,
+      "pe_ttm": 14.54,
+      "owner_earnback_years": 16.54,
+      "owner_earnback_rate_pct": 6.05,
+      "market_profit_payback_years": 13.57,
+      "market_cash_profit_yield_pct": 7.37,
+      "discounted_detachable_net_cash_yi": -133.04,
+      "discounted_net_cash_to_market_cap_pct": -21.86,
+      "operating_business_price_yi": 741.75,
+      "discounted_cash_profit_yi": 44.84,
+      "revenue_yi": 777.33,
+      "gross_profit_yi": 149.07,
+      "parent_net_profit_yi": 52.83,
+      "gross_margin_pct": 19.18,
+      "net_margin_pct": 6.8,
+      "forecast_dividend_yield_pct": 3.07,
+      "risk_level": "未分级",
+      "business_summary": "全球被动汽车安全龙头，向整车厂JIT供应安全气囊、方向盘和安全带，靠全球研发制造网络、质量能力与单车安全配置提升赚钱。",
+      "core_judgement": "以2026-08-03市值608.71亿元为起点，现金按50%折价、全部有息债务扣除后，折后可剥离净现金为-133.04亿元，因而经营业务购买价升至741.75亿元。2025年自由经营现金流52.76亿元再按15%周期与执行折扣，得到44.84亿元可持续可分配现金利润；对应经营业务回本约16.5年，市值/现金利润约13.6倍。该口径对汽车产量、客户补偿、资本开支和现金保留比例敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/ALV/"
     },
     {
       "schema_version": "stock-research-result-v1",
