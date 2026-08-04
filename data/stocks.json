@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 11:55:01 +08:00",
+  "built_at": "2026-08-04 11:55:32 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -1957,6 +1957,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00703.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "02877.HK",
+      "name": "SHINEWAY PHARM",
+      "raw_name": "SHINEWAY PHARM",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 57.31,
+      "pe_ttm": 6.33,
+      "owner_earnback_years": 2.38,
+      "owner_earnback_rate_pct": 41.96,
+      "market_profit_payback_years": 12.74,
+      "market_cash_profit_yield_pct": 7.85,
+      "discounted_detachable_net_cash_yi": 46.58,
+      "discounted_net_cash_to_market_cap_pct": 81.29,
+      "operating_business_price_yi": 10.73,
+      "discounted_cash_profit_yi": 4.5,
+      "revenue_yi": 31.35,
+      "gross_profit_yi": 22.66,
+      "parent_net_profit_yi": 9.5,
+      "gross_margin_pct": 72.28,
+      "net_margin_pct": 30.3,
+      "forecast_dividend_yield_pct": 7.12,
+      "risk_level": "未分级",
+      "business_summary": "在中国生产并通过批发及直销渠道销售中药注射剂、软胶囊、颗粒剂和中药配方颗粒，以处方药为主。",
+      "core_judgement": "按2026年8月市值与2025年末报表匹配时，先扣除年后已支付股息，再对内地现金按70%、银行理财按50%计入可剥离价值，并全额扣借款和租赁负债。持续现金利润取4.50亿元，低于2025年9.50亿元净利及9.74亿元报表自由现金流，因为剔除了资金投资收益和政府补助，并不把应收、存货释放视为永久现金。由此经营业务购买价约10.73亿元、回本约2.38年；该结果对现金折扣和核心利润恢复高度敏感，不是清算价值或收益保证。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/02877.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
