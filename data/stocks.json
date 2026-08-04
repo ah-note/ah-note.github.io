@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 19:58:13 +08:00",
+  "built_at": "2026-08-04 19:58:45 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -21808,6 +21808,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603199.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "LDOS",
+      "name": "Leidos Holdings, Inc. Common Stock",
+      "raw_name": "Leidos Holdings, Inc. Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 981.21,
+      "pe_ttm": 10.57,
+      "owner_earnback_years": 17.34,
+      "owner_earnback_rate_pct": 5.77,
+      "market_profit_payback_years": 12.47,
+      "market_cash_profit_yield_pct": 8.02,
+      "discounted_detachable_net_cash_yi": -382.77,
+      "discounted_net_cash_to_market_cap_pct": -39.01,
+      "operating_business_price_yi": 1363.98,
+      "discounted_cash_profit_yi": 78.66,
+      "revenue_yi": 1107.72,
+      "gross_profit_yi": 199.89,
+      "parent_net_profit_yi": 93.4,
+      "gross_margin_pct": 18.04,
+      "net_margin_pct": 8.43,
+      "forecast_dividend_yield_pct": 1.43,
+      "risk_level": "未分级",
+      "business_summary": "Leidos主要为美国国防、情报、卫生与民用机构提供数字化、工程、系统集成和任务解决方案，以长期政府合同和专业人员交付赚取项目利润。",
+      "core_judgement": "按市值日之前最新披露的2026Q1资本结构，现金4.57亿美元按80%计入、债务63亿美元全额扣除，折后可剥离净现金为负382.77亿元；经营业务购买价因此为1363.98亿元。现金利润从FY2025自由现金流16.25亿美元出发，考虑三年波动与2026经营现金流指引，将常态基准压至14.5亿美元，再扣除0.95亿美元股权激励的所有者成本并施加10%安全折扣，得到78.66亿元人民币；对应经营业务回本约17.34年，市值/现金利润约12.47倍。该估算未计入Entrust新增...",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/LDOS/"
     },
     {
       "schema_version": "stock-research-result-v1",
