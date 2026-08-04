@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 22:12:25 +08:00",
+  "built_at": "2026-08-04 22:12:57 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -23513,6 +23513,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/KGC/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "DDS",
+      "name": "Dillard's, Inc. Common Stock",
+      "raw_name": "Dillard's, Inc. Common Stock",
+      "market": "US",
+      "period": "2026-01-31",
+      "currency": "CNY",
+      "market_cap_yi": 620.02,
+      "pe_ttm": 13.98,
+      "owner_earnback_years": 17.39,
+      "owner_earnback_rate_pct": 5.75,
+      "market_profit_payback_years": 18.3,
+      "market_cash_profit_yield_pct": 5.46,
+      "discounted_detachable_net_cash_yi": 30.87,
+      "discounted_net_cash_to_market_cap_pct": 4.98,
+      "operating_business_price_yi": 589.15,
+      "discounted_cash_profit_yi": 33.88,
+      "revenue_yi": 445.72,
+      "gross_profit_yi": 173.63,
+      "parent_net_profit_yi": 38.72,
+      "gross_margin_pct": 39.5,
+      "net_margin_pct": 8.69,
+      "forecast_dividend_yield_pct": 0.21,
+      "risk_level": "未分级",
+      "business_summary": "Dillard’s以美国南部、西南部和中西部的自有物业百货网络销售服装、美妆和家居商品，并由小型建筑子公司补充收入。",
+      "core_judgement": "市值扣除折后净现金后，经营业务购买价约589.1亿元；按审慎现金利润约33.9亿元，静态回本约17.4年。依赖毛利、库存和资本开支维持近年水平，不是收益承诺。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/DDS/"
     },
     {
       "schema_version": "stock-research-result-v1",
