@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 23:03:16 +08:00",
+  "built_at": "2026-08-04 23:04:09 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -66448,6 +66448,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/01547.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "CCBG",
+      "name": "Capital City Bank Group - Common Stock",
+      "raw_name": "Capital City Bank Group - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 59.9,
+      "pe_ttm": 14.41,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": null,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 4.42,
+      "gross_margin_pct": null,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": 2.22,
+      "risk_level": "未分级",
+      "business_summary": "一家以佛罗里达为核心、靠低成本存款支持贷款和证券投资，并叠加财富管理、按揭及支付手续费收入的社区银行控股公司。",
+      "core_judgement": "普通控股回本口径不适用。存款、现金、贷款和证券是同一银行经营系统，且分配受资本和流动性监管约束。应改看约1.51倍市净率、14.41倍输入PE、4.28%净息差、0.24%不良资产/总资产、18.54% CET1及分红覆盖。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/CCBG/"
     },
     {
       "schema_version": "stock-research-result-v1",
