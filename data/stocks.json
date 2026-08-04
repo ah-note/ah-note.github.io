@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 16:57:40 +08:00",
+  "built_at": "2026-08-04 16:58:12 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -11206,6 +11206,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/601900.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "SBC",
+      "name": "SBC Medical Group Holdings Incorporated - Common Stock",
+      "raw_name": "SBC Medical Group Holdings Incorporated - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 21.18,
+      "pe_ttm": 7.65,
+      "owner_earnback_years": 11.06,
+      "owner_earnback_rate_pct": 9.04,
+      "market_profit_payback_years": 14.07,
+      "market_cash_profit_yield_pct": 7.11,
+      "discounted_detachable_net_cash_yi": 4.53,
+      "discounted_net_cash_to_market_cap_pct": 21.38,
+      "operating_business_price_yi": 16.65,
+      "discounted_cash_profit_yi": 1.51,
+      "revenue_yi": 12.48,
+      "gross_profit_yi": 9.15,
+      "parent_net_profit_yi": 3.66,
+      "gross_margin_pct": 73.32,
+      "net_margin_pct": 29.37,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "以“湘南美容”等品牌为核心，为日本医美诊所提供一整套管理服务，并直接经营部分新加坡和越南诊所。",
+      "core_judgement": "账面现金只按70%计入，并全额扣除银行借款和租赁负债，得到折后可剥离净现金约4.53亿元；现金利润以2025年经营自由现金流为锚再打九折，约1.51亿元。按输入市值，经营业务购买价约16.65亿元，对应约11.1年回本；若不扣净现金，市值/现金利润约14.1倍。该口径的核心约束是关联方收入占比高、两年自由现金流均显著低于净利润，以及现金可能继续用于并购和海外扩张。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/SBC/"
     },
     {
       "schema_version": "stock-research-result-v1",
