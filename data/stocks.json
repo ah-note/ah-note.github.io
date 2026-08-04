@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 04:33:36 +08:00",
+  "built_at": "2026-08-05 04:35:52 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -34084,6 +34084,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/001207.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "02451.HK",
+      "name": "LUYUAN GP HLDG",
+      "raw_name": "LUYUAN GP HLDG",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 43.67,
+      "pe_ttm": 26.19,
+      "owner_earnback_years": 21.62,
+      "owner_earnback_rate_pct": 4.63,
+      "market_profit_payback_years": 24.26,
+      "market_cash_profit_yield_pct": 4.12,
+      "discounted_detachable_net_cash_yi": 4.76,
+      "discounted_net_cash_to_market_cap_pct": 10.91,
+      "operating_business_price_yi": 38.91,
+      "discounted_cash_profit_yi": 1.8,
+      "revenue_yi": 59.07,
+      "gross_profit_yi": 8.14,
+      "parent_net_profit_yi": 1.75,
+      "gross_margin_pct": 13.77,
+      "net_margin_pct": 2.96,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "绿源通过经销商和线上到店渠道销售电动自行车、电动摩托车、随车电池及零部件，以产品升级、制造效率和渠道覆盖赚取薄利。",
+      "core_judgement": "按普通经营公司口径，剔除受限现金、质押存单和经营性票据资产负债，仅将可动用现金、定期存款及未质押大额存单折价，并扣除非票据贴现银行借款，得到折后可剥离净现金约4.77亿元。以1.80亿元保守可持续现金利润估算，经营业务购买价约38.91亿元，对应约21.6年；该数字对扩产资本开支、营运资金回收及未来分红政策高度敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/02451.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
