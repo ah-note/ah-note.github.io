@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 22:09:17 +08:00",
+  "built_at": "2026-08-04 22:10:10 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -10896,6 +10896,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/CTSH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "PXED",
+      "name": "Phoenix Education Partners, Inc. Common Stock",
+      "raw_name": "Phoenix Education Partners, Inc. Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 69.54,
+      "pe_ttm": 13.11,
+      "owner_earnback_years": 9.85,
+      "owner_earnback_rate_pct": 10.16,
+      "market_profit_payback_years": 11.16,
+      "market_cash_profit_yield_pct": 8.96,
+      "discounted_detachable_net_cash_yi": 8.21,
+      "discounted_net_cash_to_market_cap_pct": 11.81,
+      "operating_business_price_yi": 61.33,
+      "discounted_cash_profit_yi": 6.23,
+      "revenue_yi": 71.81,
+      "gross_profit_yi": 40.73,
+      "parent_net_profit_yi": 9.55,
+      "gross_margin_pct": 56.71,
+      "net_margin_pct": 13.29,
+      "forecast_dividend_yield_pct": 3.08,
+      "risk_level": "未分级",
+      "business_summary": "University of Phoenix母公司，主要向美国在职成年人按课程提供规模化在线学历教育，并通过雇主合作渠道招生。",
+      "core_judgement": "折后净现金约占市值11.8%；扣除后经营业务静态回本约9.85年。现金利润以FY2024和FY2025自由现金流均值再打85%折扣，反映应收、学生预收和监管流动性约束；不是增长预测或目标价。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/PXED/"
     },
     {
       "schema_version": "stock-research-result-v1",
