@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 19:27:29 +08:00",
+  "built_at": "2026-08-04 19:28:01 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -60434,6 +60434,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/REFI/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "02691.HK",
+      "name": "NANHUA FUTURES",
+      "raw_name": "NANHUA FUTURES",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 48.38,
+      "pe_ttm": 10.45,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 13.88,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 4.86,
+      "gross_margin_pct": null,
+      "net_margin_pct": 35.05,
+      "forecast_dividend_yield_pct": 1.02,
+      "risk_level": "未分级",
+      "business_summary": "以境内外期货经纪与清算为底盘，赚取手续费和客户资金利差，并通过场外衍生品、基差贸易、做市、公募基金及资管扩展收益。",
+      "core_judgement": "普通控股回本口径不适用：客户资金、交易所结算存款、金融资产与衍生品头寸共同构成期货经纪、清算、做市和场外衍生品业务的营运结构，不能把账面现金减负债后当作可剥离净现金；经营现金流也受客户权益变动显著驱动。控股视角应改看资本效率（2025年加权ROE 11.30%）、监管安全垫（母公司净资本27.44亿元、净资本/风险资本准备240%）、盈利来源稳定性与实际派息率。输入市值对应市净率约0.86倍，但这只是专项估值参照，不是普通回本年数。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/02691.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
