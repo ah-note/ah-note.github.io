@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 19:14:59 +08:00",
+  "built_at": "2026-08-04 19:17:41 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -25962,6 +25962,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/920837.BJ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "03668.HK",
+      "name": "YANCOAL AUS",
+      "raw_name": "YANCOAL AUS",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 343.06,
+      "pe_ttm": 17.46,
+      "owner_earnback_years": 20.92,
+      "owner_earnback_rate_pct": 4.78,
+      "market_profit_payback_years": 20.92,
+      "market_cash_profit_yield_pct": 4.78,
+      "discounted_detachable_net_cash_yi": 0.0,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": 343.06,
+      "discounted_cash_profit_yi": 16.4,
+      "revenue_yi": 275.39,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 20.37,
+      "gross_margin_pct": null,
+      "net_margin_pct": 7.4,
+      "forecast_dividend_yield_pct": 3.28,
+      "risk_level": "未分级",
+      "business_summary": "澳大利亚大型海运煤炭生产商，通过自营及合营煤矿向亚太电力与钢铁客户销售动力煤和冶金煤。",
+      "core_judgement": "按估值日已知信息，2025年末净现金不能作为可拿走资产：公司已签署Kestrel收购，US$18.5亿首付款由现有现金与US$12亿五年期贷款共同支付，另有最高US$5.5亿或有对价。现金利润以2025年经营自由现金流A$5.06亿为基准，因煤价周期、维持资本开支和收购整合不确定性折减30%，得到约人民币16.40亿元；在不扣现金情况下，市值/折后现金利润约20.9年。该数是保守的历史独立口径，不含Kestrel新增现金流，也不等于收购后前瞻回本期。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/03668.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
