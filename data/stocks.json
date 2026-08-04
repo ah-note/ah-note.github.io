@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 01:49:33 +08:00",
+  "built_at": "2026-08-05 01:52:29 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -71439,6 +71439,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/BPOP/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "SM",
+      "name": "SM Energy Company Common Stock",
+      "raw_name": "SM Energy Company Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 526.12,
+      "pe_ttm": 13.72,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 220.56,
+      "gross_profit_yi": 158.67,
+      "parent_net_profit_yi": 45.32,
+      "gross_margin_pct": 71.94,
+      "net_margin_pct": 20.55,
+      "forecast_dividend_yield_pct": 2.79,
+      "risk_level": "未分级",
+      "business_summary": "在美国多个页岩盆地通过取得矿权、钻完井并销售原油、天然气和NGL赚钱的独立上游油气生产商。",
+      "core_judgement": "财报模型适用，但2025年报仅含合并前SM，而2026-08-03市值已含Civitas，无法形成可排序回本数。历史参照：单体现金3.68亿美元、票据27.15亿美元，净债务23.47亿美元；简单自由现金流5.73亿美元，八折4.584亿美元。需合并后完整年度或可靠备考三张表，并同口径调整资产出售及偿债。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/SM/"
     },
     {
       "schema_version": "stock-research-result-v1",
