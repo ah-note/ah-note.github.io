@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 00:06:59 +08:00",
+  "built_at": "2026-08-05 00:07:31 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -68339,6 +68339,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/WBS/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "BLW",
+      "name": "Blackrock Limited Duration Income Trust",
+      "raw_name": "Blackrock Limited Duration Income Trust",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 33.07,
+      "pe_ttm": 10.28,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": null,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 3.28,
+      "gross_margin_pct": null,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": 11.23,
+      "risk_level": "未分级",
+      "business_summary": "一只通过公司债、浮息贷款和证券化信贷资产赚取利息，并用逆回购杠杆放大普通股分配的主动管理封闭式债券基金。",
+      "core_judgement": "不适用普通控股回本：8.33亿美元证券投资与2.91亿美元逆回购是配套的投资资产和融资负债，不能把证券组合折成可剥离净现金再扣市值。更合适的框架是比较市场价与NAV、净投资收益对分配的覆盖、信用损失、杠杆成本和管理费。2025年末NAV为13.90美元/股、市场价13.74美元/股（折价约1.15%）；2026-08-03输入市值相对2025年末净资产约为0.87倍，但跨期且受之后NAV变化影响。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/BLW/"
     },
     {
       "schema_version": "stock-research-result-v1",
