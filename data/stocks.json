@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 22:02:52 +08:00",
+  "built_at": "2026-08-04 22:06:09 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -16259,6 +16259,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/920003.BJ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "STRA",
+      "name": "Strategic Education, Inc. - Common Stock",
+      "raw_name": "Strategic Education, Inc. - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 125.78,
+      "pe_ttm": 13.71,
+      "owner_earnback_years": 13.38,
+      "owner_earnback_rate_pct": 7.47,
+      "market_profit_payback_years": 14.19,
+      "market_cash_profit_yield_pct": 7.05,
+      "discounted_detachable_net_cash_yi": 7.21,
+      "discounted_net_cash_to_market_cap_pct": 5.73,
+      "operating_business_price_yi": 118.57,
+      "discounted_cash_profit_yi": 8.86,
+      "revenue_yi": 91.15,
+      "gross_profit_yi": 44.64,
+      "parent_net_profit_yi": 9.1,
+      "gross_margin_pct": 48.97,
+      "net_margin_pct": 9.98,
+      "forecast_dividend_yield_pct": 3.12,
+      "risk_level": "未分级",
+      "business_summary": "面向工作成年人提供Capella、Strayer及澳新大学学历教育，并通过Sophia订阅和Workforce Edge雇主福利平台扩展低成本课程与企业渠道。",
+      "core_judgement": "按2025年末现金和证券全额计入、保留0.50亿美元经营现金且排除受限现金，折后可剥离净现金约7.21亿元；以经营自由现金流为起点，扣除税后股权激励并再打九折，折后可持续现金利润约8.86亿元。输入市值扣除净现金后的经营业务价格约118.57亿元，对应约13.38年回本；未扣现金的市值/现金利润约14.19倍。该数字是假设经营稳定的静态控股口径，不是收益承诺。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/STRA/"
     },
     {
       "schema_version": "stock-research-result-v1",
