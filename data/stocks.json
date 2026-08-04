@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 16:40:19 +08:00",
+  "built_at": "2026-08-04 16:41:33 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -10307,6 +10307,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002233.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "02883.HK",
+      "name": "中海油服",
+      "raw_name": "中海油服",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 290.02,
+      "pe_ttm": 7.93,
+      "owner_earnback_years": 10.3,
+      "owner_earnback_rate_pct": 9.71,
+      "market_profit_payback_years": 10.3,
+      "market_cash_profit_yield_pct": 9.71,
+      "discounted_detachable_net_cash_yi": 0.0,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": 290.02,
+      "discounted_cash_profit_yi": 28.16,
+      "revenue_yi": 502.11,
+      "gross_profit_yi": 56.98,
+      "parent_net_profit_yi": 38.42,
+      "gross_margin_pct": 11.35,
+      "net_margin_pct": 7.65,
+      "forecast_dividend_yield_pct": 4.65,
+      "risk_level": "未分级",
+      "business_summary": "以钻井平台、作业船和井下技术装备为生产工具，为海上油气开发商提供钻井、井技术、船舶及物探一体化服务。",
+      "core_judgement": "普通经营模型适用，但资金类资产130.80亿元低于非租赁有息债务151.30亿元，故可剥离净现金取零。现金利润用2025年经营现金流减2026年计划资本开支，得到审慎的28.16亿元，对应约10.3年；若用2025年实际现金资本开支则约5.4年，资本开支周期是最大敏感项。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/02883.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
