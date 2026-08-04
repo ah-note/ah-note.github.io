@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 11:12:02 +08:00",
+  "built_at": "2026-08-04 11:13:13 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -620,6 +620,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00380.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "03601.HK",
+      "name": "LUDASHI",
+      "raw_name": "LUDASHI",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 1.74,
+      "pe_ttm": 6.98,
+      "owner_earnback_years": -3.99,
+      "owner_earnback_rate_pct": -25.06,
+      "market_profit_payback_years": 8.31,
+      "market_cash_profit_yield_pct": 12.03,
+      "discounted_detachable_net_cash_yi": 2.57,
+      "discounted_net_cash_to_market_cap_pct": 148.01,
+      "operating_business_price_yi": -0.83,
+      "discounted_cash_profit_yi": 0.21,
+      "revenue_yi": 10.91,
+      "gross_profit_yi": 1.25,
+      "parent_net_profit_yi": 0.26,
+      "gross_margin_pct": 11.45,
+      "net_margin_pct": 2.39,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "用鲁大师等免费PC/移动工具聚集用户流量，再靠广告、电商导流、游戏平台和独家授权游戏变现的轻资产互联网公司。",
+      "core_judgement": "按现金70%、公允价值金融资产60%、全部负债100%扣除，折后可剥离净现金约2.57亿元，高于1.74亿元市值，公式下经营业务购买价为负。负回本年仅表示折后净现金超过市值，不代表现金必然可被控股股东立即取走；资金上移、境内税务、VIE/子公司治理和维持经营所需现金都可能使实际可分配额更低。持续现金利润取2025年归母净利与经营自由现金流较低者，再打八折至2088万元；市值/现金利润约8.31倍。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/03601.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
