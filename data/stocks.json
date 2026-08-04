@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 14:53:44 +08:00",
+  "built_at": "2026-08-04 14:54:36 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -52746,6 +52746,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/ACGL/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "SKWD",
+      "name": "Skyward Specialty Insurance Group, Inc. - Common Stock",
+      "raw_name": "Skyward Specialty Insurance Group, Inc. - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 164.01,
+      "pe_ttm": 14.45,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 101.99,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 12.24,
+      "gross_margin_pct": null,
+      "net_margin_pct": 12.0,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "通过专业承保团队和经纪/MGA渠道为标准保险覆盖不足的复杂商业风险定价，靠低于100%的综合成本率取得承保利润，并用保费浮存金赚取投资收益。",
+      "core_judgement": "普通控股回本口径不适用：保险投资组合、现金、赔款准备金和未到期保费共同构成承保模型，不能把投资资产减债后当作可剥离净现金；经营现金流还受保费收取、赔款支付与再保险结算时点显著影响。应改看综合成本率、保费增长、准备金充分性、投资收益率、ROE、每股账面价值、监管资本与母公司可上划现金。按输入市值及2025年末归母权益折算，市净率约2.26倍仅作描述，不替代同口径的收购后资本与盈利分析。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/SKWD/"
     },
     {
       "schema_version": "stock-research-result-v1",
