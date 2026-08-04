@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 19:36:19 +08:00",
+  "built_at": "2026-08-04 19:36:50 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -16786,6 +16786,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/06666.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "REPX",
+      "name": "Riley Exploration Permian, Inc. Common Stock",
+      "raw_name": "Riley Exploration Permian, Inc. Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 50.17,
+      "pe_ttm": 11.94,
+      "owner_earnback_years": 14.25,
+      "owner_earnback_rate_pct": 7.02,
+      "market_profit_payback_years": 10.77,
+      "market_cash_profit_yield_pct": 9.28,
+      "discounted_detachable_net_cash_yi": -16.18,
+      "discounted_net_cash_to_market_cap_pct": -32.24,
+      "operating_business_price_yi": 66.35,
+      "discounted_cash_profit_yi": 4.66,
+      "revenue_yi": 28.17,
+      "gross_profit_yi": 19.8,
+      "parent_net_profit_yi": 11.56,
+      "gross_margin_pct": 70.26,
+      "net_margin_pct": 41.03,
+      "forecast_dividend_yield_pct": 4.98,
+      "risk_level": "未分级",
+      "business_summary": "在二叠纪盆地西北陆架开发并销售原油、天然气和NGL，以钻井和并购扩大储量与产量，并用套期保值缓冲部分价格波动。",
+      "core_judgement": "按年末现金100%、衍生品净资产50%并完整扣除2.55亿美元债务本金，折后可剥离净现金为负16.17亿元，故经营业务购买价高于市值。以公司披露2025年总自由现金流8,100万美元为起点，考虑油价周期、2026年资本开支显著提高及收购并表口径后再打八折，得到折后可持续现金利润4.66亿元，对应约14.2年控股回本。该数是周期化估算，不是确定回收期。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/REPX/"
     },
     {
       "schema_version": "stock-research-result-v1",
