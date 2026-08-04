@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 01:21:32 +08:00",
+  "built_at": "2026-08-05 01:24:08 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -70633,6 +70633,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/IIPR/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "EBMT",
+      "name": "Eagle Bancorp Montana, Inc. - Common Stock",
+      "raw_name": "Eagle Bancorp Montana, Inc. - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 12.59,
+      "pe_ttm": 11.43,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": null,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 1.06,
+      "gross_margin_pct": null,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": 2.61,
+      "risk_level": "未分级",
+      "business_summary": "一家覆盖蒙大拿州的社区银行控股公司，以客户存款支持住宅按揭、商业地产、商业和农业贷款，利润主要来自净利息差。",
+      "core_judgement": "普通控股回本口径不适用：存款、现金、证券和贷款是相互匹配的银行经营结构，不能把现金或证券折后从市值扣除，也不能用经营现金流减资本开支代表可分配现金。应以市净率约0.94倍（基于输入市值和2025年末权益）、ROA约0.70%、ROE约8.1%、净息差3.92%、不良贷款率0.37%、CET1 13.15%及分红覆盖共同判断。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/EBMT/"
     },
     {
       "schema_version": "stock-research-result-v1",
