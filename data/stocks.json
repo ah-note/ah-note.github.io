@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 20:28:20 +08:00",
+  "built_at": "2026-08-04 20:28:52 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -62201,6 +62201,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/PRI/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "DHI",
+      "name": "D.R. Horton, Inc. (DHI)",
+      "raw_name": "D.R. Horton, Inc. (DHI)",
+      "market": "US",
+      "period": "2025-09-30",
+      "currency": "CNY",
+      "market_cap_yi": 2700.15,
+      "pe_ttm": 13.64,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 2439.83,
+      "gross_profit_yi": 578.16,
+      "parent_net_profit_yi": 255.39,
+      "gross_margin_pct": 23.7,
+      "net_margin_pct": 10.47,
+      "forecast_dividend_yield_pct": 1.32,
+      "risk_level": "未分级",
+      "business_summary": "美国最大住宅开发商（按交付套数），以全国化拿地、建房和销售为核心，并配套土地开发、出租物业出售和购房按揭服务。",
+      "core_judgement": "普通控股回本口径不适用。DHI的现金、土地和住宅库存、待售按揭贷款及债务共同构成开发交付循环；强行以现金减债并从市值扣除会误判可剥离资金。应改看库存回报、库存去化和减值、债务/资本、经营现金流及分红覆盖。故普通折后净现金、折后现金利润、经营业务购买价和回本年均为null。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/DHI/"
     },
     {
       "schema_version": "stock-research-result-v1",
