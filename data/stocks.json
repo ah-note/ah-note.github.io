@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 22:12:57 +08:00",
+  "built_at": "2026-08-04 22:13:49 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -65022,6 +65022,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/THFF/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "TOL",
+      "name": "Toll Brothers, Inc. Common Stock",
+      "raw_name": "Toll Brothers, Inc. Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 920.19,
+      "pe_ttm": 11.09,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 778.07,
+      "gross_profit_yi": 195.41,
+      "parent_net_profit_yi": 95.53,
+      "gross_margin_pct": 25.11,
+      "net_margin_pct": 12.28,
+      "forecast_dividend_yield_pct": 0.76,
+      "risk_level": "未分级",
+      "business_summary": "在美国24州及华盛顿特区开发土地、建造并销售豪华住宅，以交付结算收入，并辅以按揭、产权及少量合资开发业务。",
+      "core_judgement": "普通控股回本口径不适用：年末现金并非独立于业务的冗余资产，需与约757.62亿元库存、约196.79亿元贷款及优先票据、客户定金和后续土地/建造投入合并理解。控股视角应跟踪库存周转及减值、积压订单覆盖、净负债/资本、土地承诺、经营现金流穿越周期的能力与实际分红回购。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/TOL/"
     },
     {
       "schema_version": "stock-research-result-v1",
