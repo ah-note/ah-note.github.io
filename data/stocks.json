@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 19:57:42 +08:00",
+  "built_at": "2026-08-04 19:58:13 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -13500,6 +13500,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00300.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "CINT",
+      "name": "CI&T Inc Class A Common Shares",
+      "raw_name": "CI&T Inc Class A Common Shares",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 29.06,
+      "pe_ttm": 10.81,
+      "owner_earnback_years": 11.98,
+      "owner_earnback_rate_pct": 8.35,
+      "market_profit_payback_years": 9.81,
+      "market_cash_profit_yield_pct": 10.2,
+      "discounted_detachable_net_cash_yi": -6.44,
+      "discounted_net_cash_to_market_cap_pct": -22.16,
+      "operating_business_price_yi": 35.49,
+      "discounted_cash_profit_yi": 2.96,
+      "revenue_yi": 35.19,
+      "gross_profit_yi": 11.25,
+      "parent_net_profit_yi": 2.92,
+      "gross_margin_pct": 31.98,
+      "net_margin_pct": 8.3,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "CI&T以全球交付团队为大型企业设计、开发和持续改造软件、数据、云与AI系统，收入主要来自长期技术服务项目。",
+      "core_judgement": "按2025年平均汇率折算，现金及现金等价物按80%计入可剥离价值，借款及并购应付款全额扣除，得到折后可剥离净现金为负6.44亿元，即实质为折后净债务。2025年经营自由现金流3.29亿元再打九折，得到折后可持续现金利润2.96亿元；据此经营业务购买价35.49亿元、约12.0年回本。该口径是静态经营假设，不是收益承诺；若增长需要持续扩大应收、AI投入或并购资本，则现金利润会低于该数。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/CINT/"
     },
     {
       "schema_version": "stock-research-result-v1",
