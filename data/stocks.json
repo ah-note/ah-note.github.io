@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 12:32:46 +08:00",
+  "built_at": "2026-08-04 12:36:00 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -3290,6 +3290,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/01200.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "02283.HK",
+      "name": "东江集团（控股）有限公司",
+      "raw_name": "东江集团（控股）有限公司",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 12.11,
+      "pe_ttm": 6.46,
+      "owner_earnback_years": 4.57,
+      "owner_earnback_rate_pct": 21.9,
+      "market_profit_payback_years": 7.68,
+      "market_cash_profit_yield_pct": 13.03,
+      "discounted_detachable_net_cash_yi": 4.91,
+      "discounted_net_cash_to_market_cap_pct": 40.52,
+      "operating_business_price_yi": 7.21,
+      "discounted_cash_profit_yi": 1.58,
+      "revenue_yi": 21.67,
+      "gross_profit_yi": 5.33,
+      "parent_net_profit_yi": 1.97,
+      "gross_margin_pct": 24.59,
+      "net_margin_pct": 9.1,
+      "forecast_dividend_yield_pct": 6.54,
+      "risk_level": "未分级",
+      "business_summary": "为欧美及中国品牌客户提供精密模具设计制造与塑胶注塑组件量产的一站式供应商。",
+      "core_judgement": "以市值人民币12.115亿元减折后可剥离净现金4.909亿元，经营业务购买价约7.206亿元；以2025归母净利润八折后的可持续现金利润1.578亿元计，经营业务回本约4.57年，整体市值/现金利润约7.68倍。该口径是保守情景测算而非预测：保留相当于收入15%的营运现金，对超额现金打八折并全额扣租赁负债；利润亦打八折以覆盖订单周期、利用率与汇率波动。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/02283.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
