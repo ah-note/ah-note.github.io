@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 16:46:51 +08:00",
+  "built_at": "2026-08-04 16:47:22 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -13531,6 +13531,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/000726.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "CMCL",
+      "name": "Caledonia Mining Corporation Plc",
+      "raw_name": "Caledonia Mining Corporation Plc",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 23.97,
+      "pe_ttm": 5.78,
+      "owner_earnback_years": 13.67,
+      "owner_earnback_rate_pct": 7.32,
+      "market_profit_payback_years": 13.71,
+      "market_cash_profit_yield_pct": 7.29,
+      "discounted_detachable_net_cash_yi": 0.08,
+      "discounted_net_cash_to_market_cap_pct": 0.34,
+      "operating_business_price_yi": 23.88,
+      "discounted_cash_profit_yi": 1.75,
+      "revenue_yi": 18.81,
+      "gross_profit_yi": 9.64,
+      "parent_net_profit_yi": 3.88,
+      "gross_margin_pct": 51.23,
+      "net_margin_pct": 20.63,
+      "forecast_dividend_yield_pct": 3.17,
+      "risk_level": "未分级",
+      "business_summary": "在津巴布韦以Blanket地下金矿为当前现金流核心，并用其现金流与外部融资开发Bilboes等第二增长曲线的黄金矿企。",
+      "core_judgement": "按2025年末1美元=7.0288元人民币换算，现金和短期存款合计2.863亿元，先按80%计入并全额扣除2.208亿元融资负债，折后可剥离净现金仅0.082亿元。现金利润从经营自由现金流2.822亿元出发，扣除当年向Blanket少数股东支付的0.638亿元，再因金价、品位和成本周期打八折，得到1.748亿元。对应经营业务购买价23.884亿元，静态回本约13.67年；该数字没有计入2026年可转债及Bilboes大规模建设现金流，故只能描述2025经营底盘，不能视作未来确...",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/CMCL/"
     },
     {
       "schema_version": "stock-research-result-v1",
