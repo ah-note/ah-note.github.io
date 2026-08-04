@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 13:37:21 +08:00",
+  "built_at": "2026-08-04 13:38:12 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -7393,6 +7393,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600729.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01478.HK",
+      "name": "Q TECH",
+      "raw_name": "Q TECH",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 70.72,
+      "pe_ttm": 4.97,
+      "owner_earnback_years": 9.49,
+      "owner_earnback_rate_pct": 10.54,
+      "market_profit_payback_years": 11.23,
+      "market_cash_profit_yield_pct": 8.91,
+      "discounted_detachable_net_cash_yi": 10.92,
+      "discounted_net_cash_to_market_cap_pct": 15.45,
+      "operating_business_price_yi": 59.8,
+      "discounted_cash_profit_yi": 6.3,
+      "revenue_yi": 208.77,
+      "gross_profit_yi": 16.18,
+      "parent_net_profit_yi": 14.94,
+      "gross_margin_pct": 7.75,
+      "net_margin_pct": 7.15,
+      "forecast_dividend_yield_pct": 6.08,
+      "risk_level": "未分级",
+      "business_summary": "丘鈦科技为手机、汽车及IoT客户设计、制造摄像头模组和生物识别模组，靠高端规格、规模制造、良率与供应链效率赚取薄利。",
+      "core_judgement": "按市值70.72亿元，扣折后可剥离净现金10.92亿元后，经营业务购买价约59.80亿元；剔除印度处置收益后，以7.00亿元可持续现金利润再打九折至6.30亿元，静态回本约9.5年。2025自由现金流较高但含营运资本时点影响，不直接外推。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01478.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
