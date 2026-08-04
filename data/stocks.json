@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 13:06:14 +08:00",
+  "built_at": "2026-08-04 13:06:45 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -49894,6 +49894,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/RGA/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "03660.HK",
+      "name": "奇富科技（QFIN-S）",
+      "raw_name": "奇富科技（QFIN-S）",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 112.91,
+      "pe_ttm": 1.98,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 192.05,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 59.9,
+      "gross_margin_pct": null,
+      "net_margin_pct": 31.19,
+      "forecast_dividend_yield_pct": 13.26,
+      "risk_level": "未分级",
+      "business_summary": "奇富科技以获客、风控、资金匹配和贷后技术连接借款人与金融机构，并在部分模式持有贷款或承担担保风险。",
+      "core_judgement": "普通控股回本不适用：现金、贷款、信托融资和保证负债共同构成信用业务资金风险结构；应看风险调整利润、资产质量、资本约束、母公司现金上划及分红覆盖。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/03660.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
