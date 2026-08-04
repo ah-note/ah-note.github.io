@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 02:27:25 +08:00",
+  "built_at": "2026-08-05 02:28:59 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -72524,6 +72524,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/AROW/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "AGNC",
+      "name": "AGNC Investment Corp. - Common Stock",
+      "raw_name": "AGNC Investment Corp. - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 837.4,
+      "pe_ttm": 8.33,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": null,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 108.45,
+      "gross_margin_pct": null,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": 13.41,
+      "risk_level": "未分级",
+      "business_summary": "AGNC用短期回购和TBA杠杆持有以Agency RMBS为主的按揭证券组合，通过资产收益率减融资与对冲成本后的利差、dollar-roll收入及证券/衍生品估值变化为股东创造回报。",
+      "core_judgement": "普通控股回本口径不适用：账面现金、抵押证券、回购融资、TBA和衍生品是配套的杠杆投资组合。应改看2025年末每股有形净资产8.88美元、at-risk杠杆7.2倍、全年平均净息差1.92%、有形普通股经济回报22.7%，以及净spread与dollar-roll收入对普通股股息的覆盖。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/AGNC/"
     },
     {
       "schema_version": "stock-research-result-v1",
