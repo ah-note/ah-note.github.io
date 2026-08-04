@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 10:50:27 +08:00",
+  "built_at": "2026-08-04 10:53:41 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -1027,6 +1027,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/601163.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "09928.HK",
+      "name": "TIMES NEIGHBOR",
+      "raw_name": "TIMES NEIGHBOR",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 4.32,
+      "pe_ttm": 26.57,
+      "owner_earnback_years": 1.4,
+      "owner_earnback_rate_pct": 71.6,
+      "market_profit_payback_years": 5.41,
+      "market_cash_profit_yield_pct": 18.5,
+      "discounted_detachable_net_cash_yi": 3.21,
+      "discounted_net_cash_to_market_cap_pct": 74.16,
+      "operating_business_price_yi": 1.12,
+      "discounted_cash_profit_yi": 0.8,
+      "revenue_yi": 24.96,
+      "gross_profit_yi": 4.96,
+      "parent_net_profit_yi": 0.17,
+      "gross_margin_pct": 19.87,
+      "net_margin_pct": 0.68,
+      "forecast_dividend_yield_pct": 10.94,
+      "risk_level": "未分级",
+      "business_summary": "以住宅物业管理费为基本盘，并向社区居民、产业物流园区、城市公共项目及机电客户销售增值和专业服务的轻资产服务商。",
+      "core_judgement": "按2026-08-03市值4.325亿元，折后可剥离净现金3.207亿元后，经营业务隐含购买价约1.117亿元；以8,000万元折后可持续现金利润估算约1.40年回本。该数字对现金折扣和应收减值后的真实盈利高度敏感，不等同于清算价值或确定可分配金额。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/09928.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
