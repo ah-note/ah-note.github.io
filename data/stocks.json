@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 14:41:35 +08:00",
+  "built_at": "2026-08-04 14:42:06 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -12663,6 +12663,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600219.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "06666.HK",
+      "name": "EVERG SERVICES",
+      "raw_name": "EVERG SERVICES",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 96.26,
+      "pe_ttm": 10.24,
+      "owner_earnback_years": 14.25,
+      "owner_earnback_rate_pct": 7.02,
+      "market_profit_payback_years": 17.99,
+      "market_cash_profit_yield_pct": 5.56,
+      "discounted_detachable_net_cash_yi": 20.0,
+      "discounted_net_cash_to_market_cap_pct": 20.78,
+      "operating_business_price_yi": 76.26,
+      "discounted_cash_profit_yi": 5.35,
+      "revenue_yi": 136.78,
+      "gross_profit_yi": 25.05,
+      "parent_net_profit_yi": 9.87,
+      "gross_margin_pct": 18.31,
+      "net_margin_pct": 7.21,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "以约6.01亿平方米在管面积为底盘，向住宅、商业及公共项目收取基础物业费，并在社区内销售生活、资产管理和运营服务。",
+      "core_judgement": "普通经营口径适用，但治理与分配约束很强。非受限现金仅按50%计入，受限现金不计，并全额扣除租赁负债，得到折后可剥离净现金20.00亿元。现金利润从经营现金流扣资本开支、补足当期少付所得税并按归母比例归属后约8.92亿元，再因连续零分红、控股股东清盘及历史134亿元存款被划扣按60%计入，得到5.35亿元。由此经营业务购买价76.26亿元、回本约14.25年；这是审慎情景测算，不是确定可分配金额。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/06666.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
