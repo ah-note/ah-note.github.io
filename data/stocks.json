@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 17:52:18 +08:00",
+  "built_at": "2026-08-04 17:52:49 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -5370,6 +5370,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/601949.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "NRDS",
+      "name": "NerdWallet, Inc. - Class A Common Stock",
+      "raw_name": "NerdWallet, Inc. - Class A Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 39.96,
+      "pe_ttm": 9.68,
+      "owner_earnback_years": 5.55,
+      "owner_earnback_rate_pct": 18.01,
+      "market_profit_payback_years": 6.38,
+      "market_cash_profit_yield_pct": 15.69,
+      "discounted_detachable_net_cash_yi": 5.16,
+      "discounted_net_cash_to_market_cap_pct": 12.9,
+      "operating_business_price_yi": 34.8,
+      "discounted_cash_profit_yi": 6.27,
+      "revenue_yi": 60.13,
+      "gross_profit_yi": 55.55,
+      "parent_net_profit_yi": 3.5,
+      "gross_margin_pct": 92.39,
+      "net_margin_pct": 5.82,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "以可信金融内容和比较工具吸引消费者及中小企业，再按点击、申请、线索、放款或经纪/顾问服务向金融机构收费的数字撮合平台。",
+      "core_judgement": "以2026-08-03市值39.96亿元为购买总价，扣除折后可剥离净现金5.16亿元后，经营业务购买价约34.80亿元。2025经营自由现金流先归一化营运资金，再把股权激励视为股东成本并做10%持续性折扣，得到折后可持续现金利润6.27亿元；静态经营业务回本约5.55年，未计增长、衰退、税制变化、并购或汇率变动。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/NRDS/"
     },
     {
       "schema_version": "stock-research-result-v1",
