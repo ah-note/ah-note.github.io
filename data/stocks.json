@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 19:04:02 +08:00",
+  "built_at": "2026-08-04 19:04:33 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -59721,6 +59721,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/SIGI/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "IBOC",
+      "name": "International Bancshares Corporation - Common Stock",
+      "raw_name": "International Bancshares Corporation - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 321.16,
+      "pe_ttm": 11.42,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 60.57,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 29.65,
+      "gross_margin_pct": null,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": 1.98,
+      "risk_level": "未分级",
+      "business_summary": "一家深耕德州与俄克拉荷马、兼具美墨跨境客户基础的多银行控股公司，以低成本存款支持商业及零售贷款和证券投资，净利息收入是主要利润来源。",
+      "core_judgement": "普通控股回本口径不适用于银行：存款是经营性融资，贷款与证券是核心生息资产，不能折价后作为可剥离净现金。按专项模型，2026年已宣布的半年股息年化约占2025年EPS的22.0%，市值约为2025年净利润的10.8倍、期末账面权益的1.41倍；结论更依赖未来息差、信用损失和资本分配。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/IBOC/"
     },
     {
       "schema_version": "stock-research-result-v1",
