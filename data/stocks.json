@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 17:15:14 +08:00",
+  "built_at": "2026-08-04 17:16:12 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -10710,6 +10710,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00636.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "PYPL",
+      "name": "PayPal Holdings, Inc.",
+      "raw_name": "PayPal Holdings, Inc.",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 3302.53,
+      "pe_ttm": 10.81,
+      "owner_earnback_years": 10.41,
+      "owner_earnback_rate_pct": 9.61,
+      "market_profit_payback_years": 10.55,
+      "market_cash_profit_yield_pct": 9.48,
+      "discounted_detachable_net_cash_yi": 46.53,
+      "discounted_net_cash_to_market_cap_pct": 1.41,
+      "operating_business_price_yi": 3256.0,
+      "discounted_cash_profit_yi": 312.92,
+      "revenue_yi": 2384.24,
+      "gross_profit_yi": 1111.55,
+      "parent_net_profit_yi": 376.12,
+      "gross_margin_pct": 46.62,
+      "net_margin_pct": 15.78,
+      "forecast_dividend_yield_pct": 1.12,
+      "risk_level": "未分级",
+      "business_summary": "PayPal以PayPal、Venmo和Braintree连接消费者与商户，主要按支付金额和交易收取费用，并从信贷、即时转账、换汇及客户余额利息等增值服务获利。",
+      "core_judgement": "按输入市值3302.53亿元，折后可剥离净现金46.53亿元，经营业务购买价3256.00亿元；折后可持续现金利润312.92亿元，对应经营业务回本约10.41年，市值/现金利润约10.55倍。该数字不是承诺：客户资金完全排除，自有现金投资折价，2025自由现金流扣除股份薪酬、加回税后重组费用后再因2026盈利指引打九折。若品牌结账和交易利润持续弱于预期，现金利润分母仍会下降。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/PYPL/"
     },
     {
       "schema_version": "stock-research-result-v1",
