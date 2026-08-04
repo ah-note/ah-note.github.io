@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 20:48:58 +08:00",
+  "built_at": "2026-08-04 20:50:11 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -17437,6 +17437,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600219.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "CCSI",
+      "name": "Consensus Cloud Solutions, Inc. - Common Stock",
+      "raw_name": "Consensus Cloud Solutions, Inc. - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 45.19,
+      "pe_ttm": 7.95,
+      "owner_earnback_years": 14.23,
+      "owner_earnback_rate_pct": 7.03,
+      "market_profit_payback_years": 8.13,
+      "market_cash_profit_yield_pct": 12.3,
+      "discounted_detachable_net_cash_yi": -33.89,
+      "discounted_net_cash_to_market_cap_pct": -74.99,
+      "operating_business_price_yi": 79.08,
+      "discounted_cash_profit_yi": 5.56,
+      "revenue_yi": 24.5,
+      "gross_profit_yi": 19.55,
+      "parent_net_profit_yi": 5.92,
+      "gross_margin_pct": 79.81,
+      "net_margin_pct": 24.17,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "以eFax为核心，向企业、政府和个人提供按订阅及用量收费的云传真、安全数据交换和医疗互操作软件。",
+      "core_judgement": "按2025年末现金100%计入、账面有息债务100%扣除，折后可剥离净现金为负33.89亿元。可持续现金利润以2025年经营自由现金流7.42亿元为起点，扣除股份支付对应的抗稀释现金成本1.24亿元，再打九折为5.56亿元。由此市值口径约8.13年，但承接净债务后的经营业务购买价约79.08亿元，对应约14.23年；低PE并未完整反映高杠杆。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/CCSI/"
     },
     {
       "schema_version": "stock-research-result-v1",
