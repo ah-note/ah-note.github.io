@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 11:45:51 +08:00",
+  "built_at": "2026-08-04 11:46:22 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -3917,6 +3917,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/01346.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01755.HK",
+      "name": "S-ENJOY SERVICE",
+      "raw_name": "S-ENJOY SERVICE",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 20.99,
+      "pe_ttm": 14.87,
+      "owner_earnback_years": 7.03,
+      "owner_earnback_rate_pct": 14.22,
+      "market_profit_payback_years": 14.17,
+      "market_cash_profit_yield_pct": 7.06,
+      "discounted_detachable_net_cash_yi": 10.57,
+      "discounted_net_cash_to_market_cap_pct": 50.37,
+      "operating_business_price_yi": 10.42,
+      "discounted_cash_profit_yi": 1.48,
+      "revenue_yi": 46.66,
+      "gross_profit_yi": 9.34,
+      "parent_net_profit_yi": 1.48,
+      "gross_margin_pct": 20.01,
+      "net_margin_pct": 3.18,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "中国物业服务商，以住宅及非住宅项目的基础物业管理为收入底盘，并向住户、客户及开发商销售社区和开发商增值服务。",
+      "core_judgement": "账面无银行借款且现金充裕，但公司曾发生未入账关联方资金划转，2025年又向关联方提供8.031亿元贷款，关联方应收及合同资产合计22.171亿元，并处于持续停牌状态。因此仅按50%计入不受限现金、全扣租赁负债，金融资产及关联方贷款均不计；现金利润以2025年归母净利润为基准，不把明显较高但受营运资金和回款影响的自由现金流直接资本化。由此普通口径回本约7.0年；这是带强治理折扣的情景数字，不代表现金能够即时分配。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01755.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
