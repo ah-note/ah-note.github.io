@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 00:46:53 +08:00",
+  "built_at": "2026-08-05 00:48:07 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -28008,6 +28008,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002469.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "KBR",
+      "name": "KBR, Inc. Common Stock",
+      "raw_name": "KBR, Inc. Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 311.44,
+      "pe_ttm": 11.03,
+      "owner_earnback_years": 19.23,
+      "owner_earnback_rate_pct": 5.2,
+      "market_profit_payback_years": 12.87,
+      "market_cash_profit_yield_pct": 7.77,
+      "discounted_detachable_net_cash_yi": -153.72,
+      "discounted_net_cash_to_market_cap_pct": -49.36,
+      "operating_business_price_yi": 465.16,
+      "discounted_cash_profit_yi": 24.19,
+      "revenue_yi": 545.02,
+      "gross_profit_yi": 80.5,
+      "parent_net_profit_yi": 29.05,
+      "gross_margin_pct": 14.77,
+      "net_margin_pct": 5.33,
+      "forecast_dividend_yield_pct": 1.88,
+      "risk_level": "未分级",
+      "business_summary": "KBR以人员、专业知识和技术IP为政府国防/航天客户及能源化工客户提供长期任务支持、工程服务和技术许可。",
+      "core_judgement": "以1美元=7.00元人民币作统一换算。现金仅按80%计入、债务全额扣除，折后可剥离净现金为负153.72亿元，因此控股人实际承担的经营业务购买价约465.16亿元。持续现金利润取2023—2025年持续经营自由现金流2.39、3.98、5.15亿美元的三年均值3.84亿美元，再打九折为3.456亿美元（24.192亿元）。对应经营业务回本约19.23年；未扣净债务的市值/现金利润约12.87倍。该结果说明低PE并不等于控股回本快，债务和现金利润波动是关键。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/KBR/"
     },
     {
       "schema_version": "stock-research-result-v1",
