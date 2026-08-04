@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 03:49:43 +08:00",
+  "built_at": "2026-08-05 03:51:38 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -30736,6 +30736,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/920418.BJ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "TRMD",
+      "name": "TORM plc - Class A Common Stock",
+      "raw_name": "TORM plc - Class A Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 209.37,
+      "pe_ttm": 8.89,
+      "owner_earnback_years": 20.07,
+      "owner_earnback_rate_pct": 4.98,
+      "market_profit_payback_years": 15.63,
+      "market_cash_profit_yield_pct": 6.4,
+      "discounted_detachable_net_cash_yi": -59.45,
+      "discounted_net_cash_to_market_cap_pct": -28.4,
+      "operating_business_price_yi": 268.83,
+      "discounted_cash_profit_yi": 13.4,
+      "revenue_yi": 94.24,
+      "gross_profit_yi": 46.82,
+      "parent_net_profit_yi": 20.07,
+      "gross_margin_pct": 49.68,
+      "net_margin_pct": 21.3,
+      "forecast_dividend_yield_pct": 9.61,
+      "risk_level": "未分级",
+      "business_summary": "TORM用约百艘MR至LR2产品油轮在全球运输汽油、航煤、石脑油和柴油，主要靠现货运价与船舶利用率赚取运费差额。",
+      "core_judgement": "以2025年末非受限现金人民币11.12亿元全额计入、总借款人民币70.58亿元全额扣除，折后可剥离净现金为负59.45亿元；现金利润按2025年经营现金流减全部有形资产资本开支为13.40亿元。由此经营业务购买价约268.83亿元，回本约20.1年。该口径没有把二手船未实现的经纪估值溢价当现金，也没有假定高运价永久持续；它更接近有债务的船队经营资产回本，而非清算价值。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/TRMD/"
     },
     {
       "schema_version": "stock-research-result-v1",
