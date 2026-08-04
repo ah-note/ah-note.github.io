@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 01:53:01 +08:00",
+  "built_at": "2026-08-05 01:53:33 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -29930,6 +29930,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002533.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "02057.HK",
+      "name": "ZTO EXPRESS-W",
+      "raw_name": "ZTO EXPRESS-W",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 1251.92,
+      "pe_ttm": 14.47,
+      "owner_earnback_years": 20.12,
+      "owner_earnback_rate_pct": 4.97,
+      "market_profit_payback_years": 23.04,
+      "market_cash_profit_yield_pct": 4.34,
+      "discounted_detachable_net_cash_yi": 158.64,
+      "discounted_net_cash_to_market_cap_pct": 12.67,
+      "operating_business_price_yi": 1093.28,
+      "discounted_cash_profit_yi": 54.34,
+      "revenue_yi": 490.99,
+      "gross_profit_yi": 122.71,
+      "parent_net_profit_yi": 90.81,
+      "gross_margin_pct": 24.99,
+      "net_margin_pct": 18.49,
+      "forecast_dividend_yield_pct": 3.07,
+      "risk_level": "未分级",
+      "business_summary": "中通由加盟商揽收和末端派送，总部运营面单、分拨和干线网络，赚取面单、分拣及运输费。",
+      "core_judgement": "扣除折后净现金后约1093.28亿元购买经营业务，以三年自由现金流均值再折价10%计约20.1年回本；价格竞争或更高维持资本开支会拉长回本。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/02057.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
