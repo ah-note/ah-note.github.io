@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 12:58:43 +08:00",
+  "built_at": "2026-08-04 13:00:15 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -2329,6 +2329,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/01425.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01596.HK",
+      "name": "翼辰实业",
+      "raw_name": "YICHEN IND",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 2.86,
+      "pe_ttm": 1.06,
+      "owner_earnback_years": 2.45,
+      "owner_earnback_rate_pct": 40.78,
+      "market_profit_payback_years": 2.45,
+      "market_cash_profit_yield_pct": 40.78,
+      "discounted_detachable_net_cash_yi": 0.0,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": 2.86,
+      "discounted_cash_profit_yi": 1.17,
+      "revenue_yi": 16.67,
+      "gross_profit_yi": 5.85,
+      "parent_net_profit_yi": 2.84,
+      "gross_margin_pct": 35.06,
+      "net_margin_pct": 17.06,
+      "forecast_dividend_yield_pct": 3.49,
+      "risk_level": "未分级",
+      "business_summary": "公司在中国研发、制造和销售铁路扣件系统、焊丝及铁路轨枕，2025年利润主要由铁路扣件贡献。",
+      "core_judgement": "普通经营公司口径适用，但可即时支付现金229,622,953.43元低于融资负债539,635,971.31元，故不从市值扣除净现金。2025经营自由现金流233,108,722.86元受单年高增长、应收增加391.7百万元及2024年自由现金流为负影响，按50%折扣作为可持续可分配现金利润。由此得到的2.45年只是压力折扣后的机械回本数，不代表现金可立即分配；应收回收、债务偿付、关联投资收益现金化和后续资本开支均可能显著改变结果。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01596.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
