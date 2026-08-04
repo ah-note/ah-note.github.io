@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 00:32:56 +08:00",
+  "built_at": "2026-08-05 00:35:52 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -16476,6 +16476,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/000333.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "LZB",
+      "name": "La-Z-Boy Incorporated Common Stock",
+      "raw_name": "La-Z-Boy Incorporated Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 106.32,
+      "pe_ttm": 15.94,
+      "owner_earnback_years": 13.15,
+      "owner_earnback_rate_pct": 7.61,
+      "market_profit_payback_years": 14.73,
+      "market_cash_profit_yield_pct": 6.79,
+      "discounted_detachable_net_cash_yi": 11.39,
+      "discounted_net_cash_to_market_cap_pct": 10.71,
+      "operating_business_price_yi": 94.94,
+      "discounted_cash_profit_yi": 7.22,
+      "revenue_yi": 151.86,
+      "gross_profit_yi": 66.7,
+      "parent_net_profit_yi": 7.17,
+      "gross_margin_pct": 43.92,
+      "net_margin_pct": 4.72,
+      "forecast_dividend_yield_pct": 2.37,
+      "risk_level": "未分级",
+      "business_summary": "La-Z-Boy以品牌和定制软体家具制造为核心，通过批发经销网络、自营门店与Joybird线上线下渠道赚取家具销售毛利。",
+      "core_judgement": "按输入市值106.32亿元，扣除折后可剥离净现金11.39亿元后，经营业务购买价94.94亿元；用折后可持续现金利润7.22亿元计算，约13.15年回本。该结果高度依赖住宅家具需求、门店扩张资本开支与保留现金假设，不是确定回收承诺。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/LZB/"
     },
     {
       "schema_version": "stock-research-result-v1",
