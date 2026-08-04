@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 04:16:45 +08:00",
+  "built_at": "2026-08-05 04:17:38 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -30550,6 +30550,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/IDT/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "MORN",
+      "name": "Morningstar, Inc. - Common Stock",
+      "raw_name": "Morningstar, Inc. - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 487.47,
+      "pe_ttm": 18.32,
+      "owner_earnback_years": 19.85,
+      "owner_earnback_rate_pct": 5.04,
+      "market_profit_payback_years": 18.38,
+      "market_cash_profit_yield_pct": 5.44,
+      "discounted_detachable_net_cash_yi": -39.09,
+      "discounted_net_cash_to_market_cap_pct": -8.02,
+      "operating_business_price_yi": 526.57,
+      "discounted_cash_profit_yi": 26.52,
+      "revenue_yi": 175.77,
+      "gross_profit_yi": 107.28,
+      "parent_net_profit_yi": 26.9,
+      "gross_margin_pct": 61.03,
+      "net_margin_pct": 15.3,
+      "forecast_dividend_yield_pct": 1.17,
+      "risk_level": "未分级",
+      "business_summary": "向全球投资机构、顾问、发行人和退休计划客户销售投资数据、研究、软件工作流、信用评级及组合服务。",
+      "core_judgement": "年末现金及流动投资不足以覆盖债务，折后净现金为负，故经营业务购买价高于市值。以全部资本开支后的自由现金流为起点，再扣股权激励稀释成本及税后客户资产出售收益，得到可持续现金利润基准；对应控股回本约19.9年。该口径受维持性资本开支拆分、评级周期和股权激励真实稀释影响。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/MORN/"
     },
     {
       "schema_version": "stock-research-result-v1",
