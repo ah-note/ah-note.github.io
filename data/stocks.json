@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 16:51:50 +08:00",
+  "built_at": "2026-08-04 16:52:21 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -12415,6 +12415,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/01179.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "02373.HK",
+      "name": "美丽田园医疗健康",
+      "raw_name": "美丽田园医疗健康",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 40.32,
+      "pe_ttm": 13.33,
+      "owner_earnback_years": 12.7,
+      "owner_earnback_rate_pct": 7.88,
+      "market_profit_payback_years": 12.7,
+      "market_cash_profit_yield_pct": 7.88,
+      "discounted_detachable_net_cash_yi": 0.0,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": 40.32,
+      "discounted_cash_profit_yi": 3.18,
+      "revenue_yi": 30.01,
+      "gross_profit_yi": 14.72,
+      "parent_net_profit_yi": 3.18,
+      "gross_margin_pct": 49.05,
+      "net_margin_pct": 10.58,
+      "forecast_dividend_yield_pct": 3.95,
+      "risk_level": "未分级",
+      "business_summary": "以高线城市直营美容保健门店为入口，把会员导流至毛利更高的医美和亚健康医疗，并以加盟及并购扩张品牌与城市覆盖。",
+      "core_judgement": "以2026-08-03市值40.32亿元计，现金类资产约26.00亿元，但扣除7.32亿元并购贷款、思妍丽尚待支付约6.92亿元现金对价，以及按2025年销售成本率估算的客户预付履约成本与相关增值税准备后无正的可剥离余额，故折后净现金取零。可持续现金利润审慎取2025年归母净利润3.18亿元；经营现金流扣资本开支及租赁本金仍为6.59亿元，利润现金实现并非主要短板。静态回本约12.70年，但未纳入2026年思妍丽新增利润、整合成本、商誉及股份摊薄。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/02373.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
