@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 21:56:07 +08:00",
+  "built_at": "2026-08-04 21:56:59 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -16848,6 +16848,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/MD/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "02161.HK",
+      "name": "JBM HEALTHCARE",
+      "raw_name": "JBM HEALTHCARE",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 13.83,
+      "pe_ttm": 7.99,
+      "owner_earnback_years": 13.73,
+      "owner_earnback_rate_pct": 7.28,
+      "market_profit_payback_years": 11.68,
+      "market_cash_profit_yield_pct": 8.56,
+      "discounted_detachable_net_cash_yi": -2.42,
+      "discounted_net_cash_to_market_cap_pct": -17.49,
+      "operating_business_price_yi": 16.24,
+      "discounted_cash_profit_yi": 1.18,
+      "revenue_yi": 7.37,
+      "gross_profit_yi": 4.11,
+      "parent_net_profit_yi": 1.78,
+      "gross_margin_pct": 55.78,
+      "net_margin_pct": 24.09,
+      "forecast_dividend_yield_pct": 8.96,
+      "risk_level": "未分级",
+      "business_summary": "香港品牌医药运营商，以非处方药、中成药和健康产品通过零售及区域分销网络赚取品牌、制造和渠道毛利。",
+      "core_judgement": "现金100%计入，银行借款及租赁负债100%扣除，折后可剥离净现金为负2.42亿元。可持续现金利润取FY2025与FY2026经营自由现金流均值的80%，约1.18亿元；经营业务购买价约16.24亿元，回本约13.7年。此为保守估算，不是承诺收益。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/02161.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
