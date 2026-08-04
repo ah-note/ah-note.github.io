@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 02:12:16 +08:00",
+  "built_at": "2026-08-05 02:12:49 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -28535,6 +28535,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/AGCO/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "TILE",
+      "name": "Interface, Inc. - Common Stock",
+      "raw_name": "Interface, Inc. - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 134.22,
+      "pe_ttm": 16.01,
+      "owner_earnback_years": 19.21,
+      "owner_earnback_rate_pct": 5.21,
+      "market_profit_payback_years": 17.85,
+      "market_cash_profit_yield_pct": 5.6,
+      "discounted_detachable_net_cash_yi": -10.22,
+      "discounted_net_cash_to_market_cap_pct": -7.62,
+      "operating_business_price_yi": 144.44,
+      "discounted_cash_profit_yi": 7.52,
+      "revenue_yi": 97.17,
+      "gross_profit_yi": 37.65,
+      "parent_net_profit_yi": 8.13,
+      "gross_margin_pct": 38.75,
+      "net_margin_pct": 8.37,
+      "forecast_dividend_yield_pct": 0.36,
+      "risk_level": "未分级",
+      "business_summary": "Interface向全球商业和机构客户销售设计导向的模块地毯、LVT与nora橡胶地板，利润来自品牌设计、定制制造、产品组合与工厂效率。",
+      "core_judgement": "现金仅取50%可剥离价值并全额扣除有息债务，折后可剥离净现金为负10.22亿元；经营自由现金流8.53亿元再扣除股权激励经济成本1.01亿元，折后可持续现金利润约7.52亿元。净债务使经营业务购买价高于市值，静态回本约19.2年；不含增长、周期回落、并购或汇率变化。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/TILE/"
     },
     {
       "schema_version": "stock-research-result-v1",
