@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 16:26:31 +08:00",
+  "built_at": "2026-08-04 16:27:03 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -15360,6 +15360,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00732.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "EVER",
+      "name": "EverQuote, Inc. - Class A Common Stock",
+      "raw_name": "EverQuote, Inc. - Class A Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 60.2,
+      "pe_ttm": 8.61,
+      "owner_earnback_years": 15.22,
+      "owner_earnback_rate_pct": 6.57,
+      "market_profit_payback_years": 18.14,
+      "market_cash_profit_yield_pct": 5.51,
+      "discounted_detachable_net_cash_yi": 9.69,
+      "discounted_net_cash_to_market_cap_pct": 16.09,
+      "operating_business_price_yi": 50.51,
+      "discounted_cash_profit_yi": 3.32,
+      "revenue_yi": 49.86,
+      "gross_profit_yi": 48.47,
+      "parent_net_profit_yi": 7.15,
+      "gross_margin_pct": 97.2,
+      "net_margin_pct": 14.34,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "EverQuote 用数据和算法获取有保险意向的消费者，再把匹配后的线索和转介按效果卖给美国财产险保险公司及约6,000家代理机构。",
+      "core_judgement": "市值约60.20亿元，扣除折后可剥离净现金约9.69亿元后，经营业务购买价约50.51亿元。以2025年经营利润5,833.6万美元、按21%规范税率折算的税后经营利润4,610.5万美元（约3.32亿元）作为可持续现金利润，经营业务回本约15.2年；按全市值则约18.1年。2025自由现金流约6.50亿元明显更高，但含营运资金变动且经营现金流加回了股权薪酬，不直接作为可持续分母。该数字是静态经营口径，不是收益承诺。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/EVER/"
     },
     {
       "schema_version": "stock-research-result-v1",
