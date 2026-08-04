@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 16:01:02 +08:00",
+  "built_at": "2026-08-04 16:03:15 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -41741,6 +41741,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600499.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "06633.HK",
+      "name": "QINGCI GAMES",
+      "raw_name": "QINGCI GAMES",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 15.94,
+      "pe_ttm": 13.75,
+      "owner_earnback_years": 53.57,
+      "owner_earnback_rate_pct": 1.87,
+      "market_profit_payback_years": 158.47,
+      "market_cash_profit_yield_pct": 0.63,
+      "discounted_detachable_net_cash_yi": 10.55,
+      "discounted_net_cash_to_market_cap_pct": 66.19,
+      "operating_business_price_yi": 5.39,
+      "discounted_cash_profit_yi": 0.1,
+      "revenue_yi": 4.56,
+      "gross_profit_yi": 2.61,
+      "parent_net_profit_yi": 1.22,
+      "gross_margin_pct": 57.29,
+      "net_margin_pct": 26.69,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "青瓷游戏以自研与引进手游的研发、全球发行和长线运营为主，靠免费游戏内购为核心收入，并辅以授权和游戏内广告。",
+      "core_judgement": "按市值15.94亿元，现金按70%、短期投资按60%折价，并全额扣除借款及租赁负债，得到折后可剥离净现金10.55亿元；经营业务隐含购买价5.39亿元。2025年经营自由现金流约2012万元，再因成熟产品用户下滑、新项目投入及单年现金流波动打五折，折后可持续现金利润约1006万元，对应经营业务回本约53.6年、市值/现金利润约158.5倍。该口径显示账面资产缓冲大，但当前核心经营现金创造很弱，不能用13.75倍PE直接推断便宜。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/06633.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
