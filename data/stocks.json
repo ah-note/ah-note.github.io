@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 18:53:01 +08:00",
+  "built_at": "2026-08-04 18:53:32 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -59411,6 +59411,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/BDJ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "SYF",
+      "name": "Synchrony Financial Common Stock",
+      "raw_name": "Synchrony Financial Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 1664.05,
+      "pe_ttm": 7.77,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": null,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 249.33,
+      "gross_margin_pct": null,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": 2.04,
+      "risk_level": "未分级",
+      "business_summary": "依托零售与数字平台合作伙伴获取客户，以存款和证券化融资支持信用卡及消费贷款，并从贷款利息和费用中扣除资金成本、合作伙伴分成和信用损失后获利。",
+      "core_judgement": "普通控股回本口径不适用。现金、贷款、存款和借款共同组成受监管消费金融机构的经营资产负债，不能将现金简单从市值扣除，也不能用经营现金流替代可分配利润。控股视角应看经信用损失后的普通股利润、资本充足缓冲和监管允许的分红/回购能力。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/SYF/"
     },
     {
       "schema_version": "stock-research-result-v1",
