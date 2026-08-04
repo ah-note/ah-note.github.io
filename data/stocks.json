@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 23:29:14 +08:00",
+  "built_at": "2026-08-04 23:30:07 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -24939,6 +24939,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/STRT/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "WFRD",
+      "name": "Weatherford International plc - Ordinary shares",
+      "raw_name": "Weatherford International plc - Ordinary shares",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 424.67,
+      "pe_ttm": 17.32,
+      "owner_earnback_years": 18.02,
+      "owner_earnback_rate_pct": 5.55,
+      "market_profit_payback_years": 16.45,
+      "market_cash_profit_yield_pct": 6.08,
+      "discounted_detachable_net_cash_yi": -40.54,
+      "discounted_net_cash_to_market_cap_pct": -9.55,
+      "operating_business_price_yi": 465.21,
+      "discounted_cash_profit_yi": 25.82,
+      "revenue_yi": 334.12,
+      "gross_profit_yi": 104.22,
+      "parent_net_profit_yi": 29.28,
+      "gross_margin_pct": 31.19,
+      "net_margin_pct": 8.76,
+      "forecast_dividend_yield_pct": 1.26,
+      "risk_level": "未分级",
+      "business_summary": "Weatherford向全球油气生产商销售覆盖钻井、完井、生产干预和弃井全周期的设备、耗材、租赁与现场技术服务。",
+      "core_judgement": "账面现金按90%计入、受限现金不计入，再全额扣除有息债务，得到负40.54亿元折后可剥离净现金，即实质为净债务；因此经营业务购买价约465.21亿元。2025年经营自由现金流约30.57亿元，以3.80亿美元（约25.82亿元）作为折后可持续现金利润，反映收入下滑、墨西哥回款集中和保理时点影响后的保守留存。对应经营业务回本约18.0年，市值/现金利润约16.4倍；这是静态控股回本算术，不是目标价或买卖建议。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/WFRD/"
     },
     {
       "schema_version": "stock-research-result-v1",
