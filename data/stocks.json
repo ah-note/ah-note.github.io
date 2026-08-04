@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 19:05:05 +08:00",
+  "built_at": "2026-08-04 19:05:36 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -15763,6 +15763,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600380.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "09961.HK",
+      "name": "TRIP.COM-S",
+      "raw_name": "TRIP.COM-S",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 1988.17,
+      "pe_ttm": 6.27,
+      "owner_earnback_years": 13.82,
+      "owner_earnback_rate_pct": 7.24,
+      "market_profit_payback_years": 16.26,
+      "market_cash_profit_yield_pct": 6.15,
+      "discounted_detachable_net_cash_yi": 299.2,
+      "discounted_net_cash_to_market_cap_pct": 15.05,
+      "operating_business_price_yi": 1688.97,
+      "discounted_cash_profit_yi": 122.24,
+      "revenue_yi": 624.09,
+      "gross_profit_yi": 502.87,
+      "parent_net_profit_yi": 332.94,
+      "gross_margin_pct": 80.58,
+      "net_margin_pct": 53.35,
+      "forecast_dividend_yield_pct": 0.72,
+      "risk_level": "未分级",
+      "business_summary": "以携程、去哪儿、Trip.com和Skyscanner等品牌连接旅客与酒店、航司及其他旅行供应商，主要按预订交易收取佣金或服务费的综合在线旅游平台。",
+      "core_judgement": "按普通经营公司口径，现金按80%、短期投资按90%折算，受限现金和长期投资均不计可剥离价值，再全额扣除有息债务，得到折后可剥离净现金299.20亿元。2025经营自由现金流135.82亿元再打九折作为可持续可分配现金利润122.24亿元；对应经营业务购买价1688.97亿元、回本约13.8年。该结果是保守估算而非预测，且尚未扣除2026年反垄断罚没和退款合计53.01亿元，若由公司现金承担，经济上的回本期会延长约0.43年。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/09961.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
