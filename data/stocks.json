@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 04:51:52 +08:00",
+  "built_at": "2026-08-05 04:53:26 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -49119,6 +49119,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/003002.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "SSRM",
+      "name": "SSR Mining Inc. - Common Stock",
+      "raw_name": "SSR Mining Inc. - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 358.72,
+      "pe_ttm": 9.82,
+      "owner_earnback_years": 34.13,
+      "owner_earnback_rate_pct": 2.93,
+      "market_profit_payback_years": 34.13,
+      "market_cash_profit_yield_pct": 2.93,
+      "discounted_detachable_net_cash_yi": 0.0,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": 358.72,
+      "discounted_cash_profit_yi": 10.51,
+      "revenue_yi": 114.18,
+      "gross_profit_yi": 68.4,
+      "parent_net_profit_yi": 27.73,
+      "gross_margin_pct": 59.91,
+      "net_margin_pct": 24.28,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "在美国、加拿大、阿根廷和土耳其经营或开发贵金属矿山，将矿石采选冶为金锭及银、铅、锌等精矿出售。",
+      "core_judgement": "按7.0063人民币/美元折算。2025经营自由现金流为2.416亿美元，但含4440万美元事故保险回款，且受高金银价格和CC&V并表提振；2026维持性资本指引升至2.02亿美元。以1.50亿美元作为折后可持续可分配现金利润。现金及证券虽有5.756亿美元，但需覆盖约2.921亿美元债务、6.315亿美元修复负债、1.930亿美元或有对价及Hod Maden潜在后续付款，故可剥离净现金取零。由此经营业务购买价等于市值，静态回本约34.1年；该数字对金银价格、Çöpler复产...",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/SSRM/"
     },
     {
       "schema_version": "stock-research-result-v1",
