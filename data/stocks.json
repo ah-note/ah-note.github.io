@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 22:58:34 +08:00",
+  "built_at": "2026-08-04 22:59:06 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -18026,6 +18026,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/601038.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "06186.HK",
+      "name": "CHINA FEIHE",
+      "raw_name": "CHINA FEIHE",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 253.08,
+      "pe_ttm": 13.7,
+      "owner_earnback_years": 14.17,
+      "owner_earnback_rate_pct": 7.06,
+      "market_profit_payback_years": 25.31,
+      "market_cash_profit_yield_pct": 3.95,
+      "discounted_detachable_net_cash_yi": 111.43,
+      "discounted_net_cash_to_market_cap_pct": 44.03,
+      "operating_business_price_yi": 141.65,
+      "discounted_cash_profit_yi": 10.0,
+      "revenue_yi": 181.13,
+      "gross_profit_yi": 117.75,
+      "parent_net_profit_yi": 19.39,
+      "gross_margin_pct": 65.01,
+      "net_margin_pct": 10.71,
+      "forecast_dividend_yield_pct": 2.3,
+      "risk_level": "未分级",
+      "business_summary": "以高端婴幼儿配方奶粉为利润核心、通过全国经销与母婴零售网络销售，并向上游牧场一体化延伸的中国乳制品公司。",
+      "core_judgement": "按市值253.08亿元，扣除折后可剥离净现金111.43亿元后，经营业务购买价约141.65亿元。可持续现金利润按10亿元计，低于2025年归母利润19.39亿元，也略高于把固定资产资本开支和牧群净投入均扣除后的当年现金余量约8.76亿元，代表对低谷附近现金创造力的审慎估计；对应经营业务回本约14.2年，未折现金的市值/现金利润约25.3倍。该结果高度依赖奶粉收入能否止跌以及高额销售费用能否随收入调整。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/06186.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
