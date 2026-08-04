@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 23:25:14 +08:00",
+  "built_at": "2026-08-04 23:27:29 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -28845,6 +28845,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/601600.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "02291.HK",
+      "name": "SCIENTECH（乐普心泰医疗）",
+      "raw_name": "SCIENTECH（乐普心泰医疗）",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 35.35,
+      "pe_ttm": 15.48,
+      "owner_earnback_years": 20.52,
+      "owner_earnback_rate_pct": 4.87,
+      "market_profit_payback_years": 27.15,
+      "market_cash_profit_yield_pct": 3.68,
+      "discounted_detachable_net_cash_yi": 8.63,
+      "discounted_net_cash_to_market_cap_pct": 24.41,
+      "operating_business_price_yi": 26.72,
+      "discounted_cash_profit_yi": 1.3,
+      "revenue_yi": 5.28,
+      "gross_profit_yi": 4.47,
+      "parent_net_profit_yi": 2.4,
+      "gross_margin_pct": 84.66,
+      "net_margin_pct": 45.41,
+      "forecast_dividend_yield_pct": 4.9,
+      "risk_level": "未分级",
+      "business_summary": "一家以封堵器为利润核心、正把可降解技术与经销网络扩展到心脏瓣膜等新品类的结构性心脏病介入器械公司。",
+      "core_judgement": "以货币资金八折并扣除全部负债，得到折后可剥离净现金8.63亿元；以经营现金流减购建长期资产现金支出的2025年自由现金流为基准，再打九折得到可持续现金利润1.30亿元。按输入市值计算，买下经营业务的隐含价格26.72亿元，回本约20.5年。该口径较保守地把研发资本化支出包含在资本开支中，但单年新品投入及营运资金波动仍可能令结果偏离长期常态。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/02291.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
