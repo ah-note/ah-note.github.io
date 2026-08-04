@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 21:50:54 +08:00",
+  "built_at": "2026-08-04 21:51:47 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -34270,6 +34270,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/001221.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "02186.HK",
+      "name": "LUYE PHARMA",
+      "raw_name": "LUYE PHARMA",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 70.62,
+      "pe_ttm": 11.98,
+      "owner_earnback_years": 24.86,
+      "owner_earnback_rate_pct": 4.02,
+      "market_profit_payback_years": 14.12,
+      "market_cash_profit_yield_pct": 7.08,
+      "discounted_detachable_net_cash_yi": -53.69,
+      "discounted_net_cash_to_market_cap_pct": -76.03,
+      "operating_business_price_yi": 124.31,
+      "discounted_cash_profit_yi": 5.0,
+      "revenue_yi": 63.08,
+      "gross_profit_yi": 41.63,
+      "parent_net_profit_yi": 6.19,
+      "gross_margin_pct": 65.98,
+      "net_margin_pct": 9.81,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "绿叶制药靠肿瘤、中枢神经等药品销售为主，并以技术转让和对外许可补充收入，通过研发、生产及全球渠道实现商业化。",
+      "core_judgement": "现金、定存及流动理财经折扣后约49.46亿元，但计息借款及可转债债务94.17亿元、优先股类负债8.98亿元应优先偿付，形成约53.69亿元负的折后可剥离净现金。2025年经营自由现金流约7.81亿元，但包含营运资金大幅回摆且许可/技术收入6.29亿元；考虑研发资本化、现金流年度波动、少数股东和维持业务投入后，暂按5亿元折后可持续现金利润。对应经营业务购买价约124.31亿元、回本约24.9年；这是一项保守情景估算，不是确定预测。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/02186.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
