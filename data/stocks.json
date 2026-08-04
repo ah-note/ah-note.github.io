@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 17:30:06 +08:00",
+  "built_at": "2026-08-04 17:31:19 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -14461,6 +14461,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002318.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01471.HK",
+      "name": "众淼控股",
+      "raw_name": "众淼控股",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 9.79,
+      "pe_ttm": 19.88,
+      "owner_earnback_years": 13.79,
+      "owner_earnback_rate_pct": 7.25,
+      "market_profit_payback_years": 21.76,
+      "market_cash_profit_yield_pct": 4.6,
+      "discounted_detachable_net_cash_yi": 3.59,
+      "discounted_net_cash_to_market_cap_pct": 36.63,
+      "operating_business_price_yi": 6.2,
+      "discounted_cash_profit_yi": 0.45,
+      "revenue_yi": 2.48,
+      "gross_profit_yi": 0.91,
+      "parent_net_profit_yi": 0.52,
+      "gross_margin_pct": 36.64,
+      "net_margin_pct": 20.84,
+      "forecast_dividend_yield_pct": 2.31,
+      "risk_level": "未分级",
+      "business_summary": "以全国性保险代理牌照连接保险公司与企业/家庭客户，并通过保险科技和银行现金流通数字化业务提供第二增长线。",
+      "core_judgement": "普通经营公司口径适用。对现金和定期存款按90%计入，排除受限资金，并全额扣除银行借款、应付收购价款及或有对价，得到折后可剥离净现金3.586亿元。折后可持续现金利润取4500万元，低于归母净利润5170万元及经营自由现金流8773万元，以消化存款利息、联营收益、并购仅合并两个月及营运资金波动。按输入市值，经营业务购买价约6.205亿元，对应约13.8年回本；这是保守情景口径，不是目标价或买卖结论。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01471.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
