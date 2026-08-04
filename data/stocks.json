@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 18:26:35 +08:00",
+  "built_at": "2026-08-04 18:27:07 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -9842,6 +9842,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/03709.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "03718.HK",
+      "name": "北控城市资源",
+      "raw_name": "北控城市资源",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 12.39,
+      "pe_ttm": 5.88,
+      "owner_earnback_years": 9.46,
+      "owner_earnback_rate_pct": 10.57,
+      "market_profit_payback_years": 4.13,
+      "market_cash_profit_yield_pct": 24.21,
+      "discounted_detachable_net_cash_yi": -15.99,
+      "discounted_net_cash_to_market_cap_pct": -129.06,
+      "operating_business_price_yi": 28.39,
+      "discounted_cash_profit_yi": 3.0,
+      "revenue_yi": 62.93,
+      "gross_profit_yi": 12.17,
+      "parent_net_profit_yi": 2.21,
+      "gross_margin_pct": 19.34,
+      "net_margin_pct": 3.51,
+      "forecast_dividend_yield_pct": 9.88,
+      "risk_level": "未分级",
+      "business_summary": "向地方政府及公共机构提供道路清扫、垃圾收运等城市环卫服务，并经营规模较小但承压的危废处理和废旧电器拆解业务。",
+      "core_judgement": "普通经营模型适用，但公司不是净现金公司。现金按70%折价后扣除全部银行借款，折后可剥离净现金为负15.99亿元；以约3.0亿元折后可持续现金利润估算，含净债务的经营业务购买价约28.39亿元，对应约9.46年回本。该数字依赖应收回款维持、危废不再发生大额减值以及资本开支保持在合理水平。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/03718.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
