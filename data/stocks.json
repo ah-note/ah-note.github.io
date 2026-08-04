@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 02:26:32 +08:00",
+  "built_at": "2026-08-05 02:27:25 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -72493,6 +72493,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/CZFS/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "AROW",
+      "name": "Arrow Financial Corporation - Common Stock",
+      "raw_name": "Arrow Financial Corporation - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 44.44,
+      "pe_ttm": 12.85,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": null,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 3.08,
+      "gross_margin_pct": null,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": 3.11,
+      "risk_level": "未分级",
+      "business_summary": "纽约州东北部社区银行控股公司，以本地存款为资金来源发放住房、商业、汽车及消费贷款，并收取财富管理和保险手续费。",
+      "core_judgement": "普通控股回本口径不适用。控股视角应看银行以存款支撑贷款和证券所产生的净息差、信用损失后的盈利、监管资本余量和可持续分红。按输入市值计算，2025 年末市净率约 1.47 倍、输入 PE TTM 12.85 倍；这些是解释数字，不替代对资产质量和并购后资本的判断。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/AROW/"
     },
     {
       "schema_version": "stock-research-result-v1",
