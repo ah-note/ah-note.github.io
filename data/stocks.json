@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 03:45:50 +08:00",
+  "built_at": "2026-08-05 03:47:04 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -74787,6 +74787,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/KEY/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "BHRB",
+      "name": "Burke & Herbert Financial Services Corp. - Common Stock",
+      "raw_name": "Burke & Herbert Financial Services Corp. - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 99.67,
+      "pe_ttm": 12.72,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": null,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 8.37,
+      "gross_margin_pct": null,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": 3.2,
+      "risk_level": "未分级",
+      "business_summary": "一家以客户存款为资金来源、向中小企业与个人发放贷款并配置证券，同时提供资金管理和财富管理服务的区域社区银行控股公司。",
+      "core_judgement": "普通控股回本口径不适用：存款不是可随意清偿的普通负债，现金、证券和贷款也不是可剥离资产，银行现金流量表不提供与工业企业可比的自由现金流。应以净息差、资产质量、资本充足、ROE、效率、每股账面价值和受监管分红能力评估。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/BHRB/"
     },
     {
       "schema_version": "stock-research-result-v1",
