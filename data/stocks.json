@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 01:01:17 +08:00",
+  "built_at": "2026-08-05 01:03:12 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -26551,6 +26551,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002027.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "ZTS",
+      "name": "Zoetis Inc. Class A Common Stock",
+      "raw_name": "Zoetis Inc. Class A Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 2186.5,
+      "pe_ttm": 12.67,
+      "owner_earnback_years": 18.48,
+      "owner_earnback_rate_pct": 5.41,
+      "market_profit_payback_years": 15.2,
+      "market_cash_profit_yield_pct": 6.58,
+      "discounted_detachable_net_cash_yi": -471.1,
+      "discounted_net_cash_to_market_cap_pct": -21.55,
+      "operating_business_price_yi": 2657.6,
+      "discounted_cash_profit_yi": 143.83,
+      "revenue_yi": 662.69,
+      "gross_profit_yi": 476.07,
+      "parent_net_profit_yi": 187.11,
+      "gross_margin_pct": 71.84,
+      "net_margin_pct": 28.23,
+      "forecast_dividend_yield_pct": 2.88,
+      "risk_level": "未分级",
+      "business_summary": "全球最大的动物健康公司，向兽医、养殖户及渠道销售宠物和畜牧用药品、疫苗、诊断与相关解决方案。",
+      "core_judgement": "按2025年末现金100%、有息债务100%计算，折后可剥离净现金为负471.10亿元，即净债务。以2025年经营自由现金流159.81亿元为起点，为应对产品周期、汇率及营运资本波动打九折，得到可持续可分配现金利润143.83亿元。市值减负的净现金等于将净债务加回，经营业务购买价2657.60亿元，对应约18.48年回本；不含净债务的市值/现金利润为15.20倍。该口径是稳态估算，不是盈利承诺。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/ZTS/"
     },
     {
       "schema_version": "stock-research-result-v1",
