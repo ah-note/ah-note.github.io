@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 04:16:13 +08:00",
+  "built_at": "2026-08-05 04:16:45 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -25373,6 +25373,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/300146.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "LPG",
+      "name": "Dorian LPG Ltd. Common Stock",
+      "raw_name": "Dorian LPG Ltd. Common Stock",
+      "market": "US",
+      "period": "2026-03-31",
+      "currency": "CNY",
+      "market_cap_yi": 136.9,
+      "pe_ttm": 10.44,
+      "owner_earnback_years": 17.26,
+      "owner_earnback_rate_pct": 5.79,
+      "market_profit_payback_years": 13.59,
+      "market_cash_profit_yield_pct": 7.36,
+      "discounted_detachable_net_cash_yi": -37.04,
+      "discounted_net_cash_to_market_cap_pct": -27.06,
+      "operating_business_price_yi": 173.94,
+      "discounted_cash_profit_yi": 10.08,
+      "revenue_yi": 32.7,
+      "gross_profit_yi": 22.56,
+      "parent_net_profit_yi": 13.15,
+      "gross_margin_pct": 69.0,
+      "net_margin_pct": 40.22,
+      "forecast_dividend_yield_pct": 5.21,
+      "risk_level": "未分级",
+      "business_summary": "通过自有及租入超大型液化气船运输LPG，主要分享Helios Pool的现货与短期期租净收益。",
+      "core_judgement": "现金按50%可剥离、债务与经营租赁负债100%扣除，折后净现金为负37.04亿元；三年平均经营现金流扣FY2026折旧作为维护资本开支代理，再打八折，得到约10.08亿元可持续现金利润。经营业务购买价约173.94亿元、回本约17.3年。该数高度依赖运价周期与维护资本开支估计。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/LPG/"
     },
     {
       "schema_version": "stock-research-result-v1",
