@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 20:44:47 +08:00",
+  "built_at": "2026-08-04 20:45:19 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -62635,6 +62635,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/LOAN/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "AFG",
+      "name": "American Financial Group, Inc. Common Stock",
+      "raw_name": "American Financial Group, Inc. Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 794.57,
+      "pe_ttm": 13.46,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 572.18,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 58.94,
+      "gross_margin_pct": null,
+      "net_margin_pct": 10.3,
+      "forecast_dividend_yield_pct": 3.69,
+      "risk_level": "未分级",
+      "business_summary": "通过Great American Insurance Group为企业细分风险承保，并把保费浮存金投资于固定收益及另类资产，赚取承保利润和投资收益。",
+      "core_judgement": "普通控股回本口径不适用：保险投资资产与理赔准备金、未赚保费和监管资本绑定，不能从市值中机械扣除。控股视角应观察承保综合成本率、准备金稳健性、投资收益质量、账面价值/ROE、保险子公司向控股公司的可分红能力及资本回报。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/AFG/"
     },
     {
       "schema_version": "stock-research-result-v1",
