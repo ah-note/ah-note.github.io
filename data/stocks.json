@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 00:45:28 +08:00",
+  "built_at": "2026-08-05 00:46:00 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -69486,6 +69486,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/CFFI/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "JHS",
+      "name": "John Hancock Income Securities Trust Common Stock",
+      "raw_name": "John Hancock Income Securities Trust Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 8.59,
+      "pe_ttm": 14.01,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": null,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 0.79,
+      "gross_margin_pct": null,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": 5.9,
+      "risk_level": "未分级",
+      "business_summary": "一只使用借款杠杆、以美国政府/机构债和公司债等固定收益证券赚取利息并向普通股股东分配收益的封闭式基金。",
+      "core_judgement": "普通控股回本口径不适用。证券投资与9,130万美元杠杆共同构成基金业务，不能把组合资产折成可剥离现金，也没有独立于证券买卖的普通经营现金利润。应改看市价相对NAV折价、净投资收益覆盖现金分配、杠杆利差与资产覆盖倍数。2025-10-31市价11.54美元较NAV 12.45美元折价约7.3%；但输入市值日期为2026-08-03，不能与该历史NAV直接作为同日折价比较。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/JHS/"
     },
     {
       "schema_version": "stock-research-result-v1",
