@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 03:57:05 +08:00",
+  "built_at": "2026-08-05 03:57:37 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -75128,6 +75128,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/CFBK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "HON",
+      "name": "Honeywell Technologies (NASDAQ: HON)",
+      "raw_name": "Honeywell Technologies (NASDAQ: HON)",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 5198.14,
+      "pe_ttm": 9.34,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 2691.14,
+      "gross_profit_yi": 993.96,
+      "parent_net_profit_yi": 339.9,
+      "gross_margin_pct": 36.93,
+      "net_margin_pct": 12.63,
+      "forecast_dividend_yield_pct": 1.24,
+      "risk_level": "未分级",
+      "business_summary": "拆分后的HON是一家面向楼宇、工业和流程行业的自动化公司，以控制设备、软件、工程解决方案和装机基础售后服务赚钱。",
+      "core_judgement": "本次不输出普通控股回本数字。2025合并自由现金流包含已于2026-06-29拆出的Aerospace，而输入市值只对应拆分后的HON；直接计算会系统性高估现金利润、低估回本年。应以拆分后HON约20亿美元2026自由现金流指引作为线索，并用独立资产负债表、完整年度现金流及PSS/WWS出售后的净债务桥接后重算。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/HON/"
     },
     {
       "schema_version": "stock-research-result-v1",
