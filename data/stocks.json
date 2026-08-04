@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 14:43:17 +08:00",
+  "built_at": "2026-08-04 14:43:48 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -6366,6 +6366,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00146.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "03918.HK",
+      "name": "NAGACORP",
+      "raw_name": "NAGACORP",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 132.61,
+      "pe_ttm": 6.39,
+      "owner_earnback_years": 7.14,
+      "owner_earnback_rate_pct": 14.01,
+      "market_profit_payback_years": 7.14,
+      "market_cash_profit_yield_pct": 14.01,
+      "discounted_detachable_net_cash_yi": 0.0,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": 132.61,
+      "discounted_cash_profit_yi": 18.57,
+      "revenue_yi": 49.88,
+      "gross_profit_yi": 40.55,
+      "parent_net_profit_yi": 21.78,
+      "gross_margin_pct": 81.29,
+      "net_margin_pct": 43.67,
+      "forecast_dividend_yield_pct": 4.93,
+      "risk_level": "未分级",
+      "business_summary": "NagaCorp依靠金边NagaWorld的地域排他赌场牌照，以大众赌桌和电子博彩为现金流核心，并用酒店、餐饮和娱乐吸引及留存区域游客与商务客。",
+      "core_judgement": "按2026-08-03市值，因Naga 3约31.11亿美元已签未发生资本承诺且原配套股权融资已终止，账面净现金不作可剥离扣减；以2025经营自由现金流3.03233亿美元为起点，扣除高于历史胜率带来的约3900万美元增量收入，得到折后可持续现金利润2.64233亿美元（18.57亿元）。对应经营业务购买价132.61亿元，静态回本约7.14年。该数字是保守化经营现金能力的可比口径，不是未来回报保证；Naga 3实际开工节奏、资金方案、博彩胜率及牌照政策均可显著改变结果。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/03918.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
