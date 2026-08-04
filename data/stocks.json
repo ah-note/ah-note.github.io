@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 16:47:22 +08:00",
+  "built_at": "2026-08-04 16:48:55 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -55784,6 +55784,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/OZK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "03369.HK",
+      "name": "秦港股份",
+      "raw_name": "秦港股份",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 112.96,
+      "pe_ttm": 7.38,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 69.86,
+      "gross_profit_yi": 29.11,
+      "parent_net_profit_yi": 16.06,
+      "gross_margin_pct": 41.67,
+      "net_margin_pct": 22.99,
+      "forecast_dividend_yield_pct": 5.69,
+      "risk_level": "未分级",
+      "business_summary": "依托三个港区，为煤炭、金属矿石等大宗货物提供装卸、堆存、仓储和港内物流，核心利润来自煤炭装卸。",
+      "core_judgement": "普通控股回本口径不适用：港口经营资产、土地/海域使用权和匹配借款共同形成收费能力，现金还要支持更新资本开支和债务服务。改看吞吐量与货种毛利、经营自由现金流、借款偿还、ROE和分红；普通回本排序字段均保持null。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/03369.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
