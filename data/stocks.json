@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 13:38:12 +08:00",
+  "built_at": "2026-08-04 13:39:03 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -3445,6 +3445,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00819.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "02458.HK",
+      "name": "GALA TECH HOLD",
+      "raw_name": "GALA TECH HOLD",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 7.92,
+      "pe_ttm": 8.67,
+      "owner_earnback_years": 4.05,
+      "owner_earnback_rate_pct": 24.72,
+      "market_profit_payback_years": 6.63,
+      "market_cash_profit_yield_pct": 15.08,
+      "discounted_detachable_net_cash_yi": 3.09,
+      "discounted_net_cash_to_market_cap_pct": 39.02,
+      "operating_business_price_yi": 4.83,
+      "discounted_cash_profit_yi": 1.19,
+      "revenue_yi": 9.22,
+      "gross_profit_yi": 4.8,
+      "parent_net_profit_yi": 0.96,
+      "gross_margin_pct": 52.05,
+      "net_margin_pct": 10.4,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "以自研、自发行足球、篮球和棒球手游出售虚拟道具并按玩家关系期确认收入，2025年99.9%收入来自自发行游戏。",
+      "core_judgement": "按市值7.919亿元减折后可剥离净现金3.090亿元，经营业务隐含购买价约4.829亿元；除以两年平均的调整后现金利润1.194亿元，对应约4.05年。该数字是控股口径的静态回收测算，不是收益承诺；现金折扣已反映运营储备、境内资金汇兑限制和母公司无可分配储备，现金利润则扣除了资本开支及股份激励。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/02458.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
