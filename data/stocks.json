@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 05:39:57 +08:00",
+  "built_at": "2026-08-05 05:40:29 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -78290,6 +78290,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/IBN/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "OBK",
+      "name": "Origin Bancorp, Inc. Common Stock",
+      "raw_name": "Origin Bancorp, Inc. Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 113.94,
+      "pe_ttm": 21.21,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 27.91,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 5.37,
+      "gross_margin_pct": null,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": 1.94,
+      "risk_level": "未分级",
+      "business_summary": "一家以美国南部关系型商业银行为核心、靠贷款与存款利差赚钱并辅以保险佣金和账户服务费的区域银行控股公司。",
+      "core_judgement": "普通控股回本口径不适用。客户存款、贷款、证券和现金共同构成受监管的银行资产负债表，不能将现金减存款后从市值扣除，也不能用经营现金流减资本开支估算可分配现金利润。控股视角应改看约1.28倍市净率、2025年ROA约0.78%、ROE约6.29%、净息差3.61%、不良资产率0.84%、公司CET1 13.54%以及股息覆盖能力。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/OBK/"
     },
     {
       "schema_version": "stock-research-result-v1",
