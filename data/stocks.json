@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 02:42:37 +08:00",
+  "built_at": "2026-08-05 02:45:21 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -38765,6 +38765,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/000887.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "NKE",
+      "name": "Nike, Inc. Common Stock",
+      "raw_name": "Nike, Inc. Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 4175.44,
+      "pe_ttm": 19.86,
+      "owner_earnback_years": 25.08,
+      "owner_earnback_rate_pct": 3.99,
+      "market_profit_payback_years": 25.23,
+      "market_cash_profit_yield_pct": 3.96,
+      "discounted_detachable_net_cash_yi": 25.45,
+      "discounted_net_cash_to_market_cap_pct": 0.61,
+      "operating_business_price_yi": 4149.99,
+      "discounted_cash_profit_yi": 165.47,
+      "revenue_yi": 3327.21,
+      "gross_profit_yi": 1421.87,
+      "parent_net_profit_yi": 231.28,
+      "gross_margin_pct": 42.73,
+      "net_margin_pct": 6.95,
+      "forecast_dividend_yield_pct": 4.18,
+      "risk_level": "未分级",
+      "business_summary": "NIKE以品牌、产品设计和全球营销为核心，把外包制造的运动鞋服通过批发商、自营门店和数字渠道卖给消费者，利润主要来自品牌溢价而非自有制造。",
+      "core_judgement": "按输入市值人民币4175.4亿元，现金按90%、短期投资按95%折价并全额扣除金融债务，折后可剥离净现金仅25.5亿元；经营业务购买价约4150.0亿元。FY2025经营自由现金流234.8亿元，扣除股权激励约50.9亿元的经济成本后再作10%持续性折扣，折后现金利润165.5亿元，对应经营业务回本约25.1年。该数字是静态控股口径，不是目标价；若品牌修复失败或关税侵蚀毛利，实际回本更慢。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/NKE/"
     },
     {
       "schema_version": "stock-research-result-v1",
