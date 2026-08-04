@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 02:45:21 +08:00",
+  "built_at": "2026-08-05 02:46:14 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -17065,6 +17065,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/UHS/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "APOG",
+      "name": "Apogee Enterprises, Inc. - Common Stock",
+      "raw_name": "Apogee Enterprises, Inc. - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 55.76,
+      "pe_ttm": 12.41,
+      "owner_earnback_years": 13.27,
+      "owner_earnback_rate_pct": 7.54,
+      "market_profit_payback_years": 10.25,
+      "market_cash_profit_yield_pct": 9.76,
+      "discounted_detachable_net_cash_yi": -16.44,
+      "discounted_net_cash_to_market_cap_pct": -29.48,
+      "operating_business_price_yi": 72.21,
+      "discounted_cash_profit_yi": 5.44,
+      "revenue_yi": 91.88,
+      "gross_profit_yi": 24.3,
+      "parent_net_profit_yi": 5.74,
+      "gross_margin_pct": 26.44,
+      "net_margin_pct": 6.25,
+      "forecast_dividend_yield_pct": 2.77,
+      "risk_level": "未分级",
+      "business_summary": "为北美非住宅建筑提供玻璃、铝制门窗幕墙系统和外立面项目服务，并向展示、装饰及工业应用销售高性能涂层基材。",
+      "core_judgement": "FY2025经营现金流减资本开支为6.047亿元，考虑项目型业务营运资金波动、收购后整合与新增债务，按九折取5.442亿元可持续现金利润。现金2.798亿元全额计入、2.85亿美元有息债务全额扣除后，折后可剥离净现金为负16.442亿元；经营业务购买价高于市值，回本约13.27年。该估算未把一次性费用机械加回，也未计入UW Solutions全年贡献，偏审慎但会受后续整合和周期波动影响。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/APOG/"
     },
     {
       "schema_version": "stock-research-result-v1",
