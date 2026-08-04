@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 16:38:35 +08:00",
+  "built_at": "2026-08-04 16:39:06 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -55505,6 +55505,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/01540.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01407.HK",
+      "name": "JY GAS",
+      "raw_name": "JY GAS",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 2.2,
+      "pe_ttm": 8.12,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 3.35,
+      "gross_profit_yi": 0.64,
+      "parent_net_profit_yi": 0.28,
+      "gross_margin_pct": null,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": 1.89,
+      "risk_level": "未分级",
+      "business_summary": "交运燃气依靠高密市约70%行政区域的城市燃气特许权和管网，向居民、工商业及少量批发客户销售管道天然气，并辅以安装、加气站和燃具销售。",
+      "core_judgement": "普通控股回本公式不适用，相关排序字段全部留空。公司是有剩余期限的城市燃气收费权：控股者应估计至2039年8月的售气量价差、安装业务、维护/安全资本开支、营运资金回收、借款偿付及可上划分红。2025年经营自由现金流仅789.6万元，显著低于归母净利润2839.5万元，主要因合同负债减少2573.6万元及应付款减少1494.2万元拖累营运现金；单年利润不能直接等同可分配现金。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01407.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
