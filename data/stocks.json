@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 00:20:54 +08:00",
+  "built_at": "2026-08-05 00:21:27 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -27202,6 +27202,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00040.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "CBT",
+      "name": "Cabot Corporation (NYSE: CBT)",
+      "raw_name": "Cabot Corporation (NYSE: CBT)",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 306.61,
+      "pe_ttm": 16.61,
+      "owner_earnback_years": 18.9,
+      "owner_earnback_rate_pct": 5.29,
+      "market_profit_payback_years": 15.48,
+      "market_cash_profit_yield_pct": 6.46,
+      "discounted_detachable_net_cash_yi": -67.63,
+      "discounted_net_cash_to_market_cap_pct": -22.06,
+      "operating_business_price_yi": 374.24,
+      "discounted_cash_profit_yi": 19.8,
+      "revenue_yi": 264.49,
+      "gross_profit_yi": 66.96,
+      "parent_net_profit_yi": 23.58,
+      "gross_margin_pct": 25.32,
+      "net_margin_pct": 8.91,
+      "forecast_dividend_yield_pct": 2.23,
+      "risk_level": "未分级",
+      "business_summary": "全球特种化学品制造商，核心靠向轮胎和工业橡胶客户销售补强炭黑，并向涂料、电子、电池等市场销售高附加值特种碳和金属氧化物。",
+      "core_judgement": "按市值306.61亿元，加回折后净负债67.63亿元，相当于以374.24亿元购买经营业务；以保守可持续可分配现金利润19.80亿元计，约18.9年回本。该口径对年度营运资金波动和资本开支周期敏感，不代表未来保证。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/CBT/"
     },
     {
       "schema_version": "stock-research-result-v1",
