@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 04:10:13 +08:00",
+  "built_at": "2026-08-05 04:10:46 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -34022,6 +34022,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002511.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "06868.HK",
+      "name": "TENFU",
+      "raw_name": "TENFU",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 24.59,
+      "pe_ttm": 21.06,
+      "owner_earnback_years": 21.72,
+      "owner_earnback_rate_pct": 4.6,
+      "market_profit_payback_years": 22.35,
+      "market_cash_profit_yield_pct": 4.47,
+      "discounted_detachable_net_cash_yi": 0.69,
+      "discounted_net_cash_to_market_cap_pct": 2.82,
+      "operating_business_price_yi": 23.89,
+      "discounted_cash_profit_yi": 1.1,
+      "revenue_yi": 13.27,
+      "gross_profit_yi": 6.97,
+      "parent_net_profit_yi": 1.23,
+      "gross_margin_pct": 52.51,
+      "net_margin_pct": 9.23,
+      "forecast_dividend_yield_pct": 4.49,
+      "risk_level": "未分级",
+      "business_summary": "以天福品牌在中国内地销售茶叶、茶食品和茶具，利润核心来自高毛利茶叶零售。",
+      "core_judgement": "总资金6.346亿元减银行借款4.956亿元后净现金1.389亿元；考虑8.84亿元存货、门店采购周转和跨境分红约束，仅确认50%为可剥离价值。可持续现金利润取1.10亿元，低于归母净利且远低于受营运资金释放抬高的当年自由现金流。按输入市值，经营业务购买价23.89亿元，回本约21.7年。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/06868.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
