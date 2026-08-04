@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 11:27:48 +08:00",
+  "built_at": "2026-08-04 11:29:00 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -46918,6 +46918,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/COHN/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01973.HK",
+      "name": "TIAN TU CAPITAL",
+      "raw_name": "TIAN TU CAPITAL",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 11.92,
+      "pe_ttm": 6.39,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 0.18,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 1.96,
+      "gross_margin_pct": null,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "以自有资本和外部LP资金投资消费及新经济企业，通过投资退出、公允价值变动、股息利息及少量基金管理费获取回报的私募股权投资平台。",
+      "core_judgement": "普通控股回本口径不适用。现金、公允价值投资与对第三方LP的公允价值负债共同构成投资平台运营结构；2025年利润含大量未实现估值变动，经营现金流亦含投资退出和回收。应改看归母净资产折价、未上市资产估值与退出折扣、扣除第三方LP和债务后的股东净资产、实现收益及母公司分红能力。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01973.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
