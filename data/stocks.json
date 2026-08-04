@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 18:09:15 +08:00",
+  "built_at": "2026-08-04 18:10:07 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -11051,6 +11051,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/01666.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "03306.HK",
+      "name": "JNBY",
+      "raw_name": "JNBY",
+      "market": "HK",
+      "period": "2025-06-30",
+      "currency": "CNY",
+      "market_cap_yi": 95.61,
+      "pe_ttm": 11.35,
+      "owner_earnback_years": 10.32,
+      "owner_earnback_rate_pct": 9.69,
+      "market_profit_payback_years": 11.25,
+      "market_cash_profit_yield_pct": 8.89,
+      "discounted_detachable_net_cash_yi": 7.9,
+      "discounted_net_cash_to_market_cap_pct": 8.26,
+      "operating_business_price_yi": 87.71,
+      "discounted_cash_profit_yi": 8.5,
+      "revenue_yi": 55.48,
+      "gross_profit_yi": 36.39,
+      "parent_net_profit_yi": 8.93,
+      "gross_margin_pct": 65.59,
+      "net_margin_pct": 16.09,
+      "forecast_dividend_yield_pct": 7.0,
+      "risk_level": "未分级",
+      "business_summary": "以JNBY等多品牌设计师服装，通过经销、直营门店和线上渠道向消费者销售，靠品牌设计溢价与会员复购获得高毛利。",
+      "core_judgement": "按2026-08-03市值约95.61亿元，扣除折后可剥离净现金约7.90亿元后，经营业务购买价约87.71亿元。以8.50亿元可持续可分配现金利润估算，经营业务回本约10.3年；该数字依赖品牌热度、库存折价和75%分红政策能否维持，不是收益承诺。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/03306.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
