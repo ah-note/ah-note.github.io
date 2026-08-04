@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 21:54:54 +08:00",
+  "built_at": "2026-08-04 21:56:07 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -64619,6 +64619,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/06069.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "TRMK",
+      "name": "Trustmark Corporation - Common Stock",
+      "raw_name": "Trustmark Corporation - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 186.43,
+      "pe_ttm": 12.07,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 57.54,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 16.11,
+      "gross_margin_pct": null,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": 2.27,
+      "risk_level": "未分级",
+      "business_summary": "美国南部区域银行，以客户存款融资商业及房地产贷款赚取净利息，并由按揭银行和财富管理收费补充收入。",
+      "core_judgement": "普通控股回本口径不适用：现金、证券、贷款与客户存款共同构成银行的资产负债经营系统，且股利和回购受监管资本约束。更合适的控股观察是市值/账面价值约1.22倍、输入PE TTM 12.07倍，同时检验3.80%净息差、0.65%不良资产率、11.72%CET1、1.21%ROA和分红覆盖；这些专项指标不能等同于普通公司的现金回本年数。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/TRMK/"
     },
     {
       "schema_version": "stock-research-result-v1",
