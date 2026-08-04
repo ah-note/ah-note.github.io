@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 05:29:24 +08:00",
+  "built_at": "2026-08-05 05:29:57 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -30984,6 +30984,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/02607.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "CPB",
+      "name": "The Campbell's Company - Common Stock",
+      "raw_name": "The Campbell's Company - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 442.3,
+      "pe_ttm": 10.77,
+      "owner_earnback_years": 19.82,
+      "owner_earnback_rate_pct": 5.04,
+      "market_profit_payback_years": 9.48,
+      "market_cash_profit_yield_pct": 10.55,
+      "discounted_detachable_net_cash_yi": -482.86,
+      "discounted_net_cash_to_market_cap_pct": -109.17,
+      "operating_business_price_yi": 925.16,
+      "discounted_cash_profit_yi": 46.67,
+      "revenue_yi": 736.17,
+      "gross_profit_yi": 223.94,
+      "parent_net_profit_yi": 43.22,
+      "gross_margin_pct": 30.42,
+      "net_margin_pct": 5.87,
+      "forecast_dividend_yield_pct": 7.55,
+      "risk_level": "未分级",
+      "business_summary": "Campbell依靠北美零售渠道销售汤品、酱料、饮料和零食品牌，以品牌、货架位置、规模采购和制造配送把消费频次变成现金。",
+      "core_judgement": "按USD/CNY 7.18换算。现金按100%计入、短期及长期债务按100%扣除，折后净现金为负67.25亿美元；控股者承担债务后的经营业务购买价约925.16亿元。可持续现金利润审慎取6.50亿美元，低于FY2025厂房资本开支后自由现金流7.05亿美元，隐含控股回本约19.8年；股权市值/现金利润约9.5倍，后者不能替代企业价值口径。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/CPB/"
     },
     {
       "schema_version": "stock-research-result-v1",
