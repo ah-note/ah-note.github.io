@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 20:56:24 +08:00",
+  "built_at": "2026-08-04 20:56:55 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -62945,6 +62945,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/CATY/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "OFG",
+      "name": "OFG Bancorp Common Stock",
+      "raw_name": "OFG Bancorp Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 150.76,
+      "pe_ttm": 10.43,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": null,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 14.74,
+      "gross_margin_pct": null,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": 2.87,
+      "risk_level": "未分级",
+      "business_summary": "以 Oriental Bank 为核心、主要服务波多黎各和美属维京群岛客户的零售与商业银行集团，并经营财富管理和保险分销。",
+      "core_judgement": "普通控股回本口径不适用：存款、贷款、现金与证券是银行经营资产负债，不能计算可剥离净现金或普通自由现金利润。控股视角应改看约1.51倍账面市净率（基于输入市值与2025年末权益）、约1.62倍有形账面市净率、15.29% ROE、13.97% CET1、信用成本和可持续分红；这些专项倍数仅用于解释，未写入普通回本排序字段。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/OFG/"
     },
     {
       "schema_version": "stock-research-result-v1",
