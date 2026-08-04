@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 13:18:22 +08:00",
+  "built_at": "2026-08-04 13:19:14 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -50266,6 +50266,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/01433.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01552.HK",
+      "name": "BHCC HOLDING",
+      "raw_name": "BHCC HOLDING",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 1.76,
+      "pe_ttm": 3.88,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 11.06,
+      "gross_profit_yi": 0.84,
+      "parent_net_profit_yi": 0.48,
+      "gross_margin_pct": 7.56,
+      "net_margin_pct": 4.3,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "BHCC主要在新加坡承接建筑工程，辅以工业物业出租和开发项目投资，收入高度集中于少数大型客户。",
+      "core_judgement": "普通控股回本口径不适用。公司是施工与地产开发混合的项目型企业，年末现金、开发物业、合同资产/负债、项目借款、抵押及合营担保共同构成项目资金闭环。应按项目逐项估算可回收合同资产、开发物业净变现额、完成成本、债务服务、担保敞口和母公司可取得分红；现有年报未提供足以可靠完成该项目清算模型的逐项目数据，因此普通回本排序数字全部保持为空。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01552.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
