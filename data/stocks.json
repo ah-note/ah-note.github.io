@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 02:34:36 +08:00",
+  "built_at": "2026-08-05 02:36:10 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -33495,6 +33495,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002946.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "CLX",
+      "name": "Clorox Company (The) Common Stock",
+      "raw_name": "Clorox Company (The) Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 779.5,
+      "pe_ttm": 15.53,
+      "owner_earnback_years": 21.95,
+      "owner_earnback_rate_pct": 4.56,
+      "market_profit_payback_years": 17.41,
+      "market_cash_profit_yield_pct": 5.74,
+      "discounted_detachable_net_cash_yi": -203.18,
+      "discounted_net_cash_to_market_cap_pct": -26.07,
+      "operating_business_price_yi": 982.69,
+      "discounted_cash_profit_yi": 44.78,
+      "revenue_yi": 511.49,
+      "gross_profit_yi": 231.34,
+      "parent_net_profit_yi": 58.32,
+      "gross_margin_pct": 45.23,
+      "net_margin_pct": 11.4,
+      "forecast_dividend_yield_pct": 5.6,
+      "risk_level": "未分级",
+      "business_summary": "Clorox依靠强品牌、零售渠道和持续广告，在清洁消毒、垃圾袋、猫砂、烧烤、调味、水过滤和个护等中型消费品类赚取品牌溢价与规模制造利润。",
+      "core_judgement": "按7.20人民币/美元统一换算。现金按100%计入，有息债务及Glad合营终止义务按100%扣除，得到负203.18亿元折后净现金；经营业务购买价因此约982.69亿元。FY2025自由现金流54.79亿元，扣除一次性网络攻击保险回收5.04亿元后，再对剩余现金利润打九折，折后可持续现金利润44.78亿元，对应经营业务回本约21.9年、市值/现金利润约17.4倍。该口径是保守情景测算，不是预测或买卖建议。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/CLX/"
     },
     {
       "schema_version": "stock-research-result-v1",
