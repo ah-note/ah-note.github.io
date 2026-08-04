@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 15:16:50 +08:00",
+  "built_at": "2026-08-04 15:17:41 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -6149,6 +6149,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/01681.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01809.HK",
+      "name": "PRINX CHENGSHAN",
+      "raw_name": "PRINX CHENGSHAN",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 37.2,
+      "pe_ttm": 3.59,
+      "owner_earnback_years": 6.43,
+      "owner_earnback_rate_pct": 15.55,
+      "market_profit_payback_years": 6.84,
+      "market_cash_profit_yield_pct": 14.63,
+      "discounted_detachable_net_cash_yi": 2.21,
+      "discounted_net_cash_to_market_cap_pct": 5.94,
+      "operating_business_price_yi": 34.99,
+      "discounted_cash_profit_yi": 5.44,
+      "revenue_yi": 118.07,
+      "gross_profit_yi": 21.38,
+      "parent_net_profit_yi": 10.88,
+      "gross_margin_pct": 18.11,
+      "net_margin_pct": 9.21,
+      "forecast_dividend_yield_pct": 7.69,
+      "risk_level": "未分级",
+      "business_summary": "以山东和泰国工厂生产全钢、半钢及斜交轮胎，通过国内外经销商、整车厂配套和贴牌渠道销售，海外经销与车厂直销是2025年主要增长来源。",
+      "core_judgement": "按2026-08-03市值37.20亿元，扣除折后可剥离净现金2.21亿元后，经营业务购买价约34.99亿元。现金利润以2024及2025年经营自由现金流均值6.40亿元为基准，再打85%可持续/可分配折扣，得到5.44亿元；对应经营业务回本约6.43年，市值/现金利润约6.84倍。该结果不是承诺：关税、原材料和扩产开支会显著改变现金利润。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01809.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
