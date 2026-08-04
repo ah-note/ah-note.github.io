@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 21:09:09 +08:00",
+  "built_at": "2026-08-04 21:09:42 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -24970,6 +24970,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603167.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "BAH",
+      "name": "Booz Allen Hamilton Holding Corporation Common Stock",
+      "raw_name": "Booz Allen Hamilton Holding Corporation Common Stock",
+      "market": "US",
+      "period": "2025-03-31",
+      "currency": "CNY",
+      "market_cap_yi": 565.91,
+      "pe_ttm": 10.95,
+      "owner_earnback_years": 18.91,
+      "owner_earnback_rate_pct": 5.29,
+      "market_profit_payback_years": 12.99,
+      "market_cash_profit_yield_pct": 7.7,
+      "discounted_detachable_net_cash_yi": -258.23,
+      "discounted_net_cash_to_market_cap_pct": -45.63,
+      "operating_business_price_yi": 824.13,
+      "discounted_cash_profit_yi": 43.58,
+      "revenue_yi": 870.08,
+      "gross_profit_yi": 201.98,
+      "parent_net_profit_yi": 67.91,
+      "gross_margin_pct": 23.21,
+      "net_margin_pct": 7.8,
+      "forecast_dividend_yield_pct": 3.78,
+      "risk_level": "未分级",
+      "business_summary": "向美国国防、情报和民事机构出售技术、网络、数据、AI与任务咨询服务，以专业人员工时、合同费用和项目交付赚取利润。",
+      "core_judgement": "按现金仅计50%、有息债务全额扣除，折后可剥离净现金为负258.23亿元；以6亿美元（43.58亿元人民币）标准化可持续现金利润计，经营业务购买价824.13亿元，控股回本约18.9年。该口径对营运资金回流和政府采购变化敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/BAH/"
     },
     {
       "schema_version": "stock-research-result-v1",
