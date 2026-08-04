@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 23:28:01 +08:00",
+  "built_at": "2026-08-04 23:29:14 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -67130,6 +67130,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/HWC/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01748.HK",
+      "name": "信源企业集团",
+      "raw_name": "信源企业集团",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 6.66,
+      "pe_ttm": 11.66,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": null,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": null,
+      "gross_margin_pct": null,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": null,
+      "risk_level": "未分级",
+      "business_summary": "以自有及租入沥青船，通过期租、程租和包运合同向客户提供沥青海运服务。",
+      "core_judgement": "公司业务本身可按普通经营公司口径分析，但截至2026-08-04没有2025年度业绩、资产负债表或现金流量表，2024年度业绩也仍未发布；另有人民币2.12亿元表外借款及资金挪用等未决指控。现金是否可剥离、债务是否完整及现金利润是否可持续均无法验证，因此所有普通回本排序数字保持null。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01748.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
