@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 19:39:44 +08:00",
+  "built_at": "2026-08-04 19:40:36 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -12043,6 +12043,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/WU/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "09999.HK",
+      "name": "网易-S",
+      "raw_name": "网易-S",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 5764.31,
+      "pe_ttm": 17.93,
+      "owner_earnback_years": 10.77,
+      "owner_earnback_rate_pct": 9.28,
+      "market_profit_payback_years": 14.55,
+      "market_cash_profit_yield_pct": 6.87,
+      "discounted_detachable_net_cash_yi": 1498.01,
+      "discounted_net_cash_to_market_cap_pct": 25.99,
+      "operating_business_price_yi": 4266.3,
+      "discounted_cash_profit_yi": 396.05,
+      "revenue_yi": 1126.26,
+      "gross_profit_yi": 724.02,
+      "parent_net_profit_yi": 337.6,
+      "gross_margin_pct": 64.29,
+      "net_margin_pct": 29.98,
+      "forecast_dividend_yield_pct": 2.4,
+      "risk_level": "未分级",
+      "business_summary": "网易以自研及运营网络游戏为核心，通过玩家道具和服务付费赚钱，并以有道、云音乐及其他互联网业务补充收入。",
+      "core_judgement": "按2026-08-03市值，先对非受限现金和定期存款打95折、短期投资打90折并扣除全部短期借款，得到折后可剥离净现金1498.01亿元；长期股权投资、受限现金和经营资产均未计入。2025经营现金流扣除资本开支、合同负债增加及股权激励后的审慎现金利润为396.05亿元。对应经营业务购买价4266.30亿元，静态回本约10.77年。该结果依赖2025游戏现金流可持续及资金能穿透境内分配约束，属于估算而非承诺。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/09999.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
