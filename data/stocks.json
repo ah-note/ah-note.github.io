@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 00:35:52 +08:00",
+  "built_at": "2026-08-05 00:37:06 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -25745,6 +25745,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002206.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "02232.HK",
+      "name": "CRYSTAL INTL",
+      "raw_name": "CRYSTAL INTL",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 159.41,
+      "pe_ttm": 10.6,
+      "owner_earnback_years": 18.11,
+      "owner_earnback_rate_pct": 5.52,
+      "market_profit_payback_years": 20.61,
+      "market_cash_profit_yield_pct": 4.85,
+      "discounted_detachable_net_cash_yi": 19.32,
+      "discounted_net_cash_to_market_cap_pct": 12.12,
+      "operating_business_price_yi": 140.09,
+      "discounted_cash_profit_yi": 7.73,
+      "revenue_yi": 188.84,
+      "gross_profit_yi": 37.59,
+      "parent_net_profit_yi": 16.06,
+      "gross_margin_pct": 19.9,
+      "net_margin_pct": 8.51,
+      "forecast_dividend_yield_pct": 6.61,
+      "risk_level": "未分级",
+      "business_summary": "为全球品牌客户提供生活服、运动及户外服、牛仔、内衣和毛衣的一体化大规模制造，靠跨国生产网络、自动化和供应链执行赚取制造毛利。",
+      "core_judgement": "以市值159.41亿元减去折后可剥离净现金19.32亿元，经营业务购买价约140.09亿元；以2025年经营自由现金流为基准再打九折，可持续可分配现金利润约7.73亿元，对应经营业务回本约18.1年。该口径刻意低于归母净利润，反映2025年扩产、现金转换周期拉长及2026年资本开支预计显著上升；它是情景估算，不是确定预测。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/02232.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
