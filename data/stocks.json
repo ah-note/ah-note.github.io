@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 21:31:11 +08:00",
+  "built_at": "2026-08-04 21:33:06 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -39571,6 +39571,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603004.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "DUOL",
+      "name": "Duolingo, Inc. - Class A Common Stock",
+      "raw_name": "Duolingo, Inc. - Class A Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 423.86,
+      "pe_ttm": 15.42,
+      "owner_earnback_years": 30.21,
+      "owner_earnback_rate_pct": 3.31,
+      "market_profit_payback_years": 34.86,
+      "market_cash_profit_yield_pct": 2.87,
+      "discounted_detachable_net_cash_yi": 56.47,
+      "discounted_net_cash_to_market_cap_pct": 13.32,
+      "operating_business_price_yi": 367.39,
+      "discounted_cash_profit_yi": 12.16,
+      "revenue_yi": 73.97,
+      "gross_profit_yi": 53.43,
+      "parent_net_profit_yi": 29.52,
+      "gross_margin_pct": 72.23,
+      "net_margin_pct": 39.91,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "以免费语言学习应用聚集全球用户，再通过Super/Max订阅为主、广告与英语考试为辅实现变现的轻资产数字教育平台。",
+      "core_judgement": "按2025年美联储年均汇率折算：现金80%计值、短期投资90%、长期投资80%，扣除全部租赁负债，并为递延收入按2025年收入成本率预留履约成本，得到折后可剥离净现金约56.47亿元。现金利润从公司自由现金流25.69亿元出发，扣除股权激励9.80亿元的所有者经济成本、扣除一半净增长期合同营运资本贡献约2.38亿元，再做10%持续性折扣，得到约12.16亿元。对应经营业务购买价367.39亿元，静态回本约30.2年；全市值/现金利润约34.9年。该结果明显不同于表面PE，因为...",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/DUOL/"
     },
     {
       "schema_version": "stock-research-result-v1",
