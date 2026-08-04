@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 16:39:06 +08:00",
+  "built_at": "2026-08-04 16:40:19 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -5959,6 +5959,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/08371.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "08070.HK",
+      "name": "KEEN OCEAN",
+      "raw_name": "KEEN OCEAN",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 1.89,
+      "pe_ttm": 5.37,
+      "owner_earnback_years": 6.18,
+      "owner_earnback_rate_pct": 16.17,
+      "market_profit_payback_years": 7.57,
+      "market_cash_profit_yield_pct": 13.21,
+      "discounted_detachable_net_cash_yi": 0.35,
+      "discounted_net_cash_to_market_cap_pct": 18.31,
+      "operating_business_price_yi": 1.55,
+      "discounted_cash_profit_yi": 0.25,
+      "revenue_yi": 3.57,
+      "gross_profit_yi": 0.87,
+      "parent_net_profit_yi": 0.38,
+      "gross_margin_pct": 24.41,
+      "net_margin_pct": 10.54,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "在中国内地生产变压器、电源及电子零部件，通过自有Keen Ocean品牌和OEM模式向海外制造商及贸易商销售。",
+      "core_judgement": "普通经营公司口径适用。按市值扣除折后可剥离净现金后，经营业务购买价约1.546亿元；以保守归一化后的可持续可分配现金利润2500万元计，回本约6.18年。该数字不是承诺：2025年毛利率显著上升且客户高度集中，利润归一化折减；营运资金增长也使当年自由现金流低于会计利润。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/08070.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
