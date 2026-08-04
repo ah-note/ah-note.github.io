@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 18:49:27 +08:00",
+  "built_at": "2026-08-04 18:50:47 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -10741,6 +10741,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/000028.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "EPAM",
+      "name": "EPAM Systems, Inc. Common Stock",
+      "raw_name": "EPAM Systems, Inc. Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 372.15,
+      "pe_ttm": 15.17,
+      "owner_earnback_years": 10.02,
+      "owner_earnback_rate_pct": 9.98,
+      "market_profit_payback_years": 11.88,
+      "market_cash_profit_yield_pct": 8.42,
+      "discounted_detachable_net_cash_yi": 58.14,
+      "discounted_net_cash_to_market_cap_pct": 15.62,
+      "operating_business_price_yi": 314.01,
+      "discounted_cash_profit_yi": 31.33,
+      "revenue_yi": 392.23,
+      "gross_profit_yi": 113.1,
+      "parent_net_profit_yi": 27.15,
+      "gross_margin_pct": 28.83,
+      "net_margin_pct": 6.92,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "向全球大型企业出售数字工程、云、数据/AI与咨询交付能力，把工程师工时、行业知识和客户关系转化为项目收入。",
+      "core_judgement": "保留3亿美元运营现金后，对剩余现金按85%、短投按90%折价并扣债，折后净现金58.14亿元。经营自由现金流扣除股权激励后现金利润31.33亿元，经营业务价314.01亿元，约10.0年；并非收益承诺。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/EPAM/"
     },
     {
       "schema_version": "stock-research-result-v1",
