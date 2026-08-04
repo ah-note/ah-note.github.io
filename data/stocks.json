@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 05:45:14 +08:00",
+  "built_at": "2026-08-05 05:45:47 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -31294,6 +31294,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/OCTV/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "ADT",
+      "name": "ADT Inc. Common Stock",
+      "raw_name": "ADT Inc. Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 376.64,
+      "pe_ttm": 10.61,
+      "owner_earnback_years": 19.94,
+      "owner_earnback_rate_pct": 5.01,
+      "market_profit_payback_years": 8.13,
+      "market_cash_profit_yield_pct": 12.3,
+      "discounted_detachable_net_cash_yi": -546.88,
+      "discounted_net_cash_to_market_cap_pct": -145.2,
+      "operating_business_price_yi": 923.52,
+      "discounted_cash_profit_yi": 46.31,
+      "revenue_yi": 368.62,
+      "gross_profit_yi": 297.97,
+      "parent_net_profit_yi": 42.83,
+      "gross_margin_pct": 80.83,
+      "net_margin_pct": 11.62,
+      "forecast_dividend_yield_pct": 3.44,
+      "risk_level": "未分级",
+      "business_summary": "ADT在美国向住宅和小企业安装安防与智能家居设备，并依靠长期客户按月支付的监控服务费回收前置获客投入、支付利息并形成现金流。",
+      "core_judgement": "以2025年经营现金流减去外购客户账户、用户系统资产投入和一般物业设备投入得到经营自由现金流51.46亿元，再按90%折算为46.31亿元可持续可分配现金利润。非受限现金仅5.81亿元，而有息债务552.69亿元，因此折后可剥离净现金为负546.88亿元；市值看似只需8.13年现金利润回收，但控股人承接净债务后的经营业务购买价需约19.94年回收。该口径未给商誉、客户关系或受限现金任何剥离价值。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/ADT/"
     },
     {
       "schema_version": "stock-research-result-v1",
