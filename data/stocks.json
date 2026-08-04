@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 11:57:35 +08:00",
+  "built_at": "2026-08-04 11:59:07 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -620,6 +620,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/06100.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01419.HK",
+      "name": "HUMAN HEALTH",
+      "raw_name": "HUMAN HEALTH",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 2.38,
+      "pe_ttm": 10.52,
+      "owner_earnback_years": -4.31,
+      "owner_earnback_rate_pct": -23.21,
+      "market_profit_payback_years": 9.35,
+      "market_cash_profit_yield_pct": 10.69,
+      "discounted_detachable_net_cash_yi": 3.48,
+      "discounted_net_cash_to_market_cap_pct": 146.06,
+      "operating_business_price_yi": -1.1,
+      "discounted_cash_profit_yi": 0.25,
+      "revenue_yi": 6.06,
+      "gross_profit_yi": 2.77,
+      "parent_net_profit_yi": 0.25,
+      "gross_margin_pct": 45.64,
+      "net_margin_pct": 4.14,
+      "forecast_dividend_yield_pct": 4.31,
+      "risk_level": "未分级",
+      "business_summary": "在香港经营逾60个医疗服务点，以全科门诊为基本盘，并通过专科、眼科、牙科、日间程序及企业/政府合作项目收取诊疗服务费。",
+      "core_judgement": "按2025-12-31汇率0.90322折算。现金先保留HK$100m营运缓冲、扣全部银行借款，再对余额打九折；联营贷款和未上市金融资产按账面五折。折后净现金高于市值，故公式中的经营业务购买价及回本年为负；这不代表现金可立即无约束派走。市值/折后现金利润约9.35年。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01419.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
