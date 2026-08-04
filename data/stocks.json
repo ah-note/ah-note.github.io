@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 19:44:04 +08:00",
+  "built_at": "2026-08-04 19:45:58 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -25032,6 +25032,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603855.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "02607.HK",
+      "name": "SH PHARMA",
+      "raw_name": "SH PHARMA",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 381.24,
+      "pe_ttm": 6.99,
+      "owner_earnback_years": 19.82,
+      "owner_earnback_rate_pct": 5.05,
+      "market_profit_payback_years": 11.91,
+      "market_cash_profit_yield_pct": 8.4,
+      "discounted_detachable_net_cash_yi": -253.31,
+      "discounted_net_cash_to_market_cap_pct": -66.44,
+      "operating_business_price_yi": 634.55,
+      "discounted_cash_profit_yi": 32.02,
+      "revenue_yi": 2835.8,
+      "gross_profit_yi": 304.16,
+      "parent_net_profit_yi": 57.25,
+      "gross_margin_pct": 10.73,
+      "net_margin_pct": 2.02,
+      "forecast_dividend_yield_pct": 4.57,
+      "risk_level": "未分级",
+      "business_summary": "上海医药以全国医药分销贡献绝大多数收入、以药品工业贡献主要毛利，并辅以零售和创新药研发。",
+      "core_judgement": "货币资金和结构性存款各按70%计入，银行借款和超短融全额扣除，折后可剥离净现金为负253.31亿元；以经营现金流减资本性支出后再打85%折扣，现金利润约32.02亿元，对应约19.82年回本。该数字依赖分销营运资金正常周转，不等同于当期可拿走现金。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/02607.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
