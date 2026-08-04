@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 00:42:39 +08:00",
+  "built_at": "2026-08-05 00:44:14 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -69424,6 +69424,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/LKFN/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "CFFI",
+      "name": "C&F Financial Corporation - Common Stock",
+      "raw_name": "C&F Financial Corporation - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 18.11,
+      "pe_ttm": 9.21,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": null,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 1.89,
+      "gross_margin_pct": null,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": 2.42,
+      "risk_level": "未分级",
+      "business_summary": "一家以弗吉尼亚社区银行为利润核心、并经营按揭发放出售和间接汽车消费贷款的小型金融集团。",
+      "core_judgement": "普通控股回本法不适用：贷款、证券由客户存款与监管资本共同支撑，不能从市值中扣除所谓净现金；应结合约 0.98 倍市净率、1.01% ROA、11.11% ROE、4.21% 净息差、0.10% 非应计贷款率、15.2% 总资本率和约 23.2% 前瞻派息率判断。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/CFFI/"
     },
     {
       "schema_version": "stock-research-result-v1",
