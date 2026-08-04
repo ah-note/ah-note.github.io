@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 23:49:35 +08:00",
+  "built_at": "2026-08-04 23:50:27 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -36037,6 +36037,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/688633.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "02486.HK",
+      "name": "PLUS GP HOLDING",
+      "raw_name": "PLUS GP HOLDING",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 4.3,
+      "pe_ttm": 20.15,
+      "owner_earnback_years": 24.98,
+      "owner_earnback_rate_pct": 4.0,
+      "market_profit_payback_years": 27.42,
+      "market_cash_profit_yield_pct": 3.65,
+      "discounted_detachable_net_cash_yi": 0.38,
+      "discounted_net_cash_to_market_cap_pct": 8.91,
+      "operating_business_price_yi": 3.92,
+      "discounted_cash_profit_yi": 0.16,
+      "revenue_yi": 20.27,
+      "gross_profit_yi": 1.78,
+      "parent_net_profit_yi": 0.22,
+      "gross_margin_pct": 8.78,
+      "net_margin_pct": 1.11,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "以AI和数字化工具连接品牌客户、营销任务与一线营销人员，按项目提供匹配、定制营销、派驻及少量SaaS服务。",
+      "core_judgement": "按市值4.305亿元，现金以80%折价后再全额扣除借款和租赁负债，得到折后可剥离净现金0.384亿元；归母净利润因毛利率下滑、营运资金波动及审计比较数据保留意见按70%折算为0.157亿元。由此经营业务购买价3.921亿元，回本约25.0年；该数字是保守情景测算，不代表收益承诺。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/02486.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
