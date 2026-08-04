@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 11:17:56 +08:00",
+  "built_at": "2026-08-04 11:18:27 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -46608,6 +46608,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/MET/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "08193.HK",
+      "name": "ASIAPAC FIN INV",
+      "raw_name": "ASIAPAC FIN INV",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 0.23,
+      "pe_ttm": 0.74,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 0.28,
+      "gross_profit_yi": 0.2,
+      "parent_net_profit_yi": -0.08,
+      "gross_margin_pct": 73.12,
+      "net_margin_pct": -28.96,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "一家以资产评估与企业咨询为收入主体，同时经营持牌无抵押放贷和上市股票投资的小型香港GEM平台。",
+      "core_judgement": "普通控股回本口径不适用：贷款应收是放贷收息的核心本金，FVTPL股票也是收益来源，不能一边从市值扣除、一边保留收益；近五年归母持续亏损，也无法建立正的可持续现金利润分母。应改看专业服务能否覆盖总部费用、贷款减值后回报、股票风险调整回报、有息债务与流动性，以及连续盈利后的分红能力。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/08193.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
