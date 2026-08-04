@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 11:43:27 +08:00",
+  "built_at": "2026-08-04 11:43:58 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -1864,6 +1864,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/03699.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "03348.HK",
+      "name": "CHINA PENGFEI",
+      "raw_name": "CHINA PENGFEI",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 5.7,
+      "pe_ttm": 5.93,
+      "owner_earnback_years": 2.53,
+      "owner_earnback_rate_pct": 39.58,
+      "market_profit_payback_years": 8.04,
+      "market_cash_profit_yield_pct": 12.45,
+      "discounted_detachable_net_cash_yi": 3.91,
+      "discounted_net_cash_to_market_cap_pct": 68.56,
+      "operating_business_price_yi": 1.79,
+      "discounted_cash_profit_yi": 0.71,
+      "revenue_yi": 14.33,
+      "gross_profit_yi": 3.01,
+      "parent_net_profit_yi": 1.01,
+      "gross_margin_pct": 21.03,
+      "net_margin_pct": 7.04,
+      "forecast_dividend_yield_pct": 5.32,
+      "risk_level": "未分级",
+      "business_summary": "为水泥、冶金、化工及环保客户制造回转窑、粉磨等成套装备，并承接海外生产线EPC和安装。",
+      "core_judgement": "普通口径适用，但8.06亿元客户预收对应履约任务。对现金、定存及基金折价，扣融资负债并保留3亿元经营流动性，折后可剥离净现金3.91亿元。现金利润采用营运资金变动前经营现金流扣税及资本开支再打八折，避免将本年存货和应收释放当作永久利润。经营业务购买价约1.79亿元，回本约2.53年；这是情景测算。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/03348.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
