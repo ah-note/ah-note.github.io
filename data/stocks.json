@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 15:04:40 +08:00",
+  "built_at": "2026-08-04 15:06:53 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -10028,6 +10028,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603202.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "02302.HK",
+      "name": "CNNC INT'L",
+      "raw_name": "CNNC INT'L",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 17.84,
+      "pe_ttm": 10.78,
+      "owner_earnback_years": 10.99,
+      "owner_earnback_rate_pct": 9.1,
+      "market_profit_payback_years": 14.76,
+      "market_cash_profit_yield_pct": 6.78,
+      "discounted_detachable_net_cash_yi": 4.55,
+      "discounted_net_cash_to_market_cap_pct": 25.5,
+      "operating_business_price_yi": 13.29,
+      "discounted_cash_profit_yi": 1.21,
+      "revenue_yi": 22.36,
+      "gross_profit_yi": 2.44,
+      "parent_net_profit_yi": 1.73,
+      "gross_margin_pct": 10.91,
+      "net_margin_pct": 7.73,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "依托中核集团体系采购并向中国及海外客户销售天然铀的轻资产贸易平台，同时保留蒙古铀资源勘探项目。",
+      "core_judgement": "按2026-08-03市值，现金按70%计入并扣除全部负债后，折后可剥离净现金约4.55亿元；2025归母利润因单一大客户、关联交易和铀价/交易量周期性按70%折算为可持续现金利润约1.21亿元。由此经营业务购买价约13.29亿元，静态回本约11.0年；这是保守情景测算，不等同于现金可立即分派。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/02302.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
