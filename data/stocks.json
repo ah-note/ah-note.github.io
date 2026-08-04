@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 18:55:15 +08:00",
+  "built_at": "2026-08-04 18:58:10 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -11795,6 +11795,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/CRCT/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "WIT",
+      "name": "Wipro Limited Common Stock",
+      "raw_name": "Wipro Limited Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 1321.72,
+      "pe_ttm": 15.23,
+      "owner_earnback_years": 10.73,
+      "owner_earnback_rate_pct": 9.32,
+      "market_profit_payback_years": 13.16,
+      "market_cash_profit_yield_pct": 7.6,
+      "discounted_detachable_net_cash_yi": 244.69,
+      "discounted_net_cash_to_market_cap_pct": 18.51,
+      "operating_business_price_yi": 1077.03,
+      "discounted_cash_profit_yi": 100.42,
+      "revenue_yi": 756.75,
+      "gross_profit_yi": 231.96,
+      "parent_net_profit_yi": 111.58,
+      "gross_margin_pct": 30.65,
+      "net_margin_pct": 14.74,
+      "forecast_dividend_yield_pct": 4.03,
+      "risk_level": "未分级",
+      "business_summary": "Wipro以全球交付团队为大型企业提供云、应用、工程、业务流程和咨询服务，主要靠人才、客户关系与项目执行赚取服务毛利。",
+      "core_judgement": "gross cash按90%计入，再全额扣借款及租赁负债，折后净现金约244.69亿元；可持续现金利润以FY2025归母净利封顶并打九折，约100.42亿元。经营业务购买价约1077.03亿元，静态回本约10.73年；不扣净现金则市值/现金利润约13.16倍。此为压力调整后的静态比较，不是未来回报保证。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/WIT/"
     },
     {
       "schema_version": "stock-research-result-v1",
