@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 12:01:47 +08:00",
+  "built_at": "2026-08-04 12:03:39 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -1430,6 +1430,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/02660.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "06820.HK",
+      "name": "FRIENDTIMES",
+      "raw_name": "FRIENDTIMES",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 7.41,
+      "pe_ttm": 8.35,
+      "owner_earnback_years": 0.89,
+      "owner_earnback_rate_pct": 112.17,
+      "market_profit_payback_years": 9.36,
+      "market_cash_profit_yield_pct": 10.68,
+      "discounted_detachable_net_cash_yi": 6.71,
+      "discounted_net_cash_to_market_cap_pct": 90.48,
+      "operating_business_price_yi": 0.71,
+      "discounted_cash_profit_yi": 0.79,
+      "revenue_yi": 12.48,
+      "gross_profit_yi": 9.11,
+      "parent_net_profit_yi": 0.93,
+      "gross_margin_pct": 73.02,
+      "net_margin_pct": 7.46,
+      "forecast_dividend_yield_pct": 5.32,
+      "risk_level": "未分级",
+      "business_summary": "以女性向手游为根基，自研并发行运营移动游戏，通过虚拟道具付费变现，2025年由小游戏增量推动恢复增长和盈利。",
+      "core_judgement": "按市值减折后可剥离净现金，市场对经营业务的隐含购买价约7058万元；以剔除2025年约3575万元营运资金释放后的现金利润7917万元计，静态回本约0.89年。该数字高度依赖金融资产能否按折扣变现及2025年转盈能否持续，不能视为预测或买卖结论。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/06820.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
