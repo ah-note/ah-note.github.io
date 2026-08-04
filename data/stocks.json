@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 00:48:07 +08:00",
+  "built_at": "2026-08-05 00:49:20 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -69579,6 +69579,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/JHS/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "02281.HK",
+      "name": "兴泸水务",
+      "raw_name": "兴泸水务",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 4.66,
+      "pe_ttm": 4.48,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 12.37,
+      "gross_profit_yi": 4.14,
+      "parent_net_profit_yi": 1.09,
+      "gross_margin_pct": 33.43,
+      "net_margin_pct": 8.83,
+      "forecast_dividend_yield_pct": 7.38,
+      "risk_level": "未分级",
+      "business_summary": "四川区域市政水务运营商，以约30年BOO/TOO特许经营项目提供自来水和污水处理，并辅以管网工程安装。",
+      "core_judgement": "普通控股回本口径不适用。公司价值来自约30年特许经营安排下的供水和污水处理设施及未来收费流；账面现金与约21.57亿元有息融资/一年内到期负债、7.81亿元长期应付款和持续资本开支相匹配。应改看项目剩余收费期、处理量与单价、维护资本开支、应收回款、利息覆盖及可持续分红。本结果依协议将普通回本排序数字全部保留为null。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/02281.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
