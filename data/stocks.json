@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 03:07:14 +08:00",
+  "built_at": "2026-08-05 03:08:28 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -73640,6 +73640,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/SFBC/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "LAZ",
+      "name": "Lazard, Inc. Common Stock",
+      "raw_name": "Lazard, Inc. Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 278.69,
+      "pe_ttm": 20.88,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 217.11,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 16.59,
+      "gross_margin_pct": null,
+      "net_margin_pct": 7.64,
+      "forecast_dividend_yield_pct": 4.72,
+      "risk_level": "未分级",
+      "business_summary": "Lazard以并购、重组和资本解决方案顾问费，以及按管理资产规模收取的资管费赚钱。",
+      "core_judgement": "普通控股回本口径不适用：Lazard账面现金低于长期债务，且现金、投资和资本分布受全球业务流动性、递延薪酬及监管资本约束；GAAP经营现金流还显著受年度奖金结算和营运项目波动影响。应改看顾问与资管分部的跨周期利润、AUM与净流入、薪酬率、监管资本余量、净债务，以及经常性分红是否由跨周期现金创造覆盖。所有普通回本排序字段保持null。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/LAZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
