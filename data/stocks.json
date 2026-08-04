@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 03:26:09 +08:00",
+  "built_at": "2026-08-05 03:27:09 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -24598,6 +24598,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/01147.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "SU",
+      "name": "Suncor Energy  Inc. Common Stock",
+      "raw_name": "Suncor Energy  Inc. Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 5360.65,
+      "pe_ttm": 17.94,
+      "owner_earnback_years": 17.03,
+      "owner_earnback_rate_pct": 5.87,
+      "market_profit_payback_years": 15.31,
+      "market_cash_profit_yield_pct": 6.53,
+      "discounted_detachable_net_cash_yi": -602.37,
+      "discounted_net_cash_to_market_cap_pct": -11.24,
+      "operating_business_price_yi": 5963.02,
+      "discounted_cash_profit_yi": 350.2,
+      "revenue_yi": 2723.6,
+      "gross_profit_yi": 813.59,
+      "parent_net_profit_yi": 307.74,
+      "gross_margin_pct": 29.87,
+      "net_margin_pct": 11.3,
+      "forecast_dividend_yield_pct": 2.76,
+      "risk_level": "未分级",
+      "business_summary": "加拿大大型一体化能源商，以长寿命油砂开采和升级为上游底座，并通过炼厂、物流与Petro-Canada零售网络消化和销售原油及成品油。",
+      "core_judgement": "按输入市值，扣除负的折后可剥离净现金后，相当于以约5963亿元购买经营业务；用约350亿元折后可持续现金利润估算约17.0年回本。该数字高度依赖油价、裂解价差、产量可靠性及维持资本开支，不是固定债券式回收期。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/SU/"
     },
     {
       "schema_version": "stock-research-result-v1",
