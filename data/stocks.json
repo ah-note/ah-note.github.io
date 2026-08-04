@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 18:07:00 +08:00",
+  "built_at": "2026-08-04 18:07:31 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -12973,6 +12973,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/01588.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "02097.HK",
+      "name": "MIXUE GROUP",
+      "raw_name": "MIXUE GROUP",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 723.06,
+      "pe_ttm": 12.9,
+      "owner_earnback_years": 12.43,
+      "owner_earnback_rate_pct": 8.04,
+      "market_profit_payback_years": 16.22,
+      "market_cash_profit_yield_pct": 6.17,
+      "discounted_detachable_net_cash_yi": 168.77,
+      "discounted_net_cash_to_market_cap_pct": 23.34,
+      "operating_business_price_yi": 554.3,
+      "discounted_cash_profit_yi": 44.58,
+      "revenue_yi": 335.6,
+      "gross_profit_yi": 104.52,
+      "parent_net_profit_yi": 58.87,
+      "gross_margin_pct": 31.14,
+      "net_margin_pct": 17.54,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "以近6万家加盟门店为终端，把规模采购、自制核心原料、仓储物流和品牌运营打包成低价现制饮品供应链。",
+      "core_judgement": "按市值扣除折后可剥离净现金后，经营业务购买价约554.29亿元；以折后可持续可分配现金利润44.58亿元计，静态回本约12.43年。该口径不是清算价值：IPO资金有既定用途，理财产品存在净值和期限风险，且门店扩张需要库存及供应链资本，因此分别折价；现金利润以2024—2025年经营自由现金流均值约49.53亿元再打九折，避免把单年利润和营运资金波动全部外推。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/02097.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
