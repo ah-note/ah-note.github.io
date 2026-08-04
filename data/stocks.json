@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 11:59:07 +08:00",
+  "built_at": "2026-08-04 11:59:37 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -1399,6 +1399,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00366.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "02660.HK",
+      "name": "ZENGAME",
+      "raw_name": "ZENGAME",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 21.39,
+      "pe_ttm": 6.46,
+      "owner_earnback_years": 0.82,
+      "owner_earnback_rate_pct": 122.69,
+      "market_profit_payback_years": 7.13,
+      "market_cash_profit_yield_pct": 14.02,
+      "discounted_detachable_net_cash_yi": 18.95,
+      "discounted_net_cash_to_market_cap_pct": 88.57,
+      "operating_business_price_yi": 2.45,
+      "discounted_cash_profit_yi": 3.0,
+      "revenue_yi": 15.46,
+      "gross_profit_yi": 7.86,
+      "parent_net_profit_yi": 3.48,
+      "gross_margin_pct": 50.82,
+      "net_margin_pct": 22.5,
+      "forecast_dividend_yield_pct": 8.64,
+      "risk_level": "未分级",
+      "business_summary": "禅游科技通过自主研发并长期运营棋牌及休闲移动游戏，主要靠玩家购买虚拟物品、辅以游戏内信息服务赚钱。",
+      "core_judgement": "在市值21.39亿元基础上，现金全额、定存95%、非保本理财85%、上市权益50%计入，再扣全部负债及2亿元经营资金缓冲，折后可剥离净现金约18.95亿元；剩余经营业务价格约2.45亿元。可持续可分配现金利润取3.00亿元，低于2025年归母利润3.48亿元和调整后利润3.87亿元，以吸收收入下滑、买量成本上升、税款支付波动及股权激励稀释。由此普通回本约0.82年；该数字高度依赖控股股东能否、是否愿意释放境内资金及理财产品能否按折价变现，并非小股东可直接取得的现金。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/02660.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
