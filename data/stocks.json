@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 14:21:54 +08:00",
+  "built_at": "2026-08-04 14:22:26 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -4499,6 +4499,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/HNNA/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "GSL",
+      "name": "Global Ship Lease Inc New Class A Common Shares",
+      "raw_name": "Global Ship Lease Inc New Class A Common Shares",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 107.82,
+      "pe_ttm": 4.24,
+      "owner_earnback_years": 4.79,
+      "owner_earnback_rate_pct": 20.87,
+      "market_profit_payback_years": 4.19,
+      "market_cash_profit_yield_pct": 23.89,
+      "discounted_detachable_net_cash_yi": -15.58,
+      "discounted_net_cash_to_market_cap_pct": -14.45,
+      "operating_business_price_yi": 123.4,
+      "discounted_cash_profit_yi": 25.75,
+      "revenue_yi": 53.87,
+      "gross_profit_yi": 37.46,
+      "parent_net_profit_yi": 28.6,
+      "gross_margin_pct": 69.53,
+      "net_margin_pct": 53.09,
+      "forecast_dividend_yield_pct": 5.85,
+      "risk_level": "未分级",
+      "business_summary": "拥有中小型集装箱船并固定费率期租给大型班轮公司，以租金覆盖运营、坞修、融资和船队更新后形成股东现金。",
+      "core_judgement": "不受限现金及定存减全部债务为净债务15.58亿元，经营业务购买价123.40亿元。可持续利润采用2025 normalized net income 25.75亿元，剔除售船等非经常项目并保留船舶折旧更新储备。静态回本4.79年，不代表未来运价不变。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/GSL/"
     },
     {
       "schema_version": "stock-research-result-v1",
