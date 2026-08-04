@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 05:48:36 +08:00",
+  "built_at": "2026-08-05 05:49:08 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -41989,6 +41989,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600312.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "AR",
+      "name": "Antero Resources Corporation Common Stock",
+      "raw_name": "Antero Resources Corporation Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 749.76,
+      "pe_ttm": 10.36,
+      "owner_earnback_years": 25.58,
+      "owner_earnback_rate_pct": 3.91,
+      "market_profit_payback_years": 22.55,
+      "market_cash_profit_yield_pct": 4.43,
+      "discounted_detachable_net_cash_yi": -100.48,
+      "discounted_net_cash_to_market_cap_pct": -13.4,
+      "operating_business_price_yi": 850.24,
+      "discounted_cash_profit_yi": 33.24,
+      "revenue_yi": 379.2,
+      "gross_profit_yi": 63.51,
+      "parent_net_profit_yi": 45.6,
+      "gross_margin_pct": 16.75,
+      "net_margin_pct": 12.03,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "在美国阿巴拉契亚盆地开发销售天然气、NGL和少量石油，以井位成本、液体结构和外运能力赚取商品价差。",
+      "core_judgement": "2.10亿美元现金全部受限，故不作可剥离现金；13.98亿美元长期债务全额扣减。2025经营自由现金流扣少数股东分配后44.33亿元，再保留75%以覆盖价格周期和维护资本上升，折后现金利润33.24亿元。经营业务购买价850.24亿元，静态回本25.6年；这不是储量估值。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/AR/"
     },
     {
       "schema_version": "stock-research-result-v1",
