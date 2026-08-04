@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 01:24:08 +08:00",
+  "built_at": "2026-08-05 01:25:01 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -34084,6 +34084,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603207.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "CPRT",
+      "name": "Copart, Inc. - Common Stock",
+      "raw_name": "Copart, Inc. - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 1819.24,
+      "pe_ttm": 18.09,
+      "owner_earnback_years": 22.72,
+      "owner_earnback_rate_pct": 4.4,
+      "market_profit_payback_years": 25.93,
+      "market_cash_profit_yield_pct": 3.86,
+      "discounted_detachable_net_cash_yi": 225.27,
+      "discounted_net_cash_to_market_cap_pct": 12.38,
+      "operating_business_price_yi": 1593.97,
+      "discounted_cash_profit_yi": 70.16,
+      "revenue_yi": 334.0,
+      "gross_profit_yi": 150.91,
+      "parent_net_profit_yi": 111.58,
+      "gross_margin_pct": 45.18,
+      "net_margin_pct": 33.41,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "Copart用全球堆场网络和VB3线上竞拍平台，为保险公司等卖方处理、存储并拍卖全损及二手车辆，主要赚取交易与配套服务费。",
+      "core_judgement": "按输入市值1819.24亿元，折后可剥离净现金225.27亿元，等于市值12.38%；经营业务购买价1593.97亿元。以剔除税后利息并再打九折的可持续现金利润70.16亿元计，经营业务回本约22.72年，市值/现金利润约25.93倍。该口径承认资产负债表很强，但当前价格仍主要是在为持续经营能力付费。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/CPRT/"
     },
     {
       "schema_version": "stock-research-result-v1",
