@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 11:06:03 +08:00",
+  "built_at": "2026-08-04 11:06:34 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -93,6 +93,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/MLGO/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "03315.HK",
+      "name": "GOLDPAC GROUP",
+      "raw_name": "GOLDPAC GROUP",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 4.51,
+      "pe_ttm": 11.79,
+      "owner_earnback_years": -27.33,
+      "owner_earnback_rate_pct": -3.66,
+      "market_profit_payback_years": 22.53,
+      "market_cash_profit_yield_pct": 4.44,
+      "discounted_detachable_net_cash_yi": 9.97,
+      "discounted_net_cash_to_market_cap_pct": 221.29,
+      "operating_business_price_yi": -5.47,
+      "discounted_cash_profit_yi": 0.2,
+      "revenue_yi": 9.31,
+      "gross_profit_yi": 2.53,
+      "parent_net_profit_yi": 0.4,
+      "gross_margin_pct": 27.13,
+      "net_margin_pct": 4.31,
+      "forecast_dividend_yield_pct": 6.26,
+      "risk_level": "未分级",
+      "business_summary": "为银行等机构提供智能安全支付产品、发卡及数据处理服务和数字设备，利润来自安全硬件/嵌入式软件的产品毛利及持续服务收入。",
+      "core_judgement": "折后可剥离净现金约9.97亿元，为市值的2.21倍，故经营业务购买价为负；负的回本年只是公式结果，表示折后净现金已超过市值，不表示能在27.3年内自动兑现。真正约束是资金能否被分配、营运需要和控股股东资本配置。若完全不扣现金，市值相对保守现金利润约22.5年。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/03315.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
