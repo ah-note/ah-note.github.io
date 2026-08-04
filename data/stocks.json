@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 12:47:58 +08:00",
+  "built_at": "2026-08-04 12:50:52 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -775,6 +775,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/WETH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "08049.HK",
+      "name": "JILIN CHANGLONG",
+      "raw_name": "JILIN CHANGLONG",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 11.04,
+      "pe_ttm": 5.83,
+      "owner_earnback_years": -3.66,
+      "owner_earnback_rate_pct": -27.29,
+      "market_profit_payback_years": 7.88,
+      "market_cash_profit_yield_pct": 12.68,
+      "discounted_detachable_net_cash_yi": 16.17,
+      "discounted_net_cash_to_market_cap_pct": 146.47,
+      "operating_business_price_yi": -5.13,
+      "discounted_cash_profit_yi": 1.4,
+      "revenue_yi": 9.02,
+      "gross_profit_yi": 7.58,
+      "parent_net_profit_yi": 1.99,
+      "gross_margin_pct": 84.01,
+      "net_margin_pct": 22.05,
+      "forecast_dividend_yield_pct": 12.69,
+      "risk_level": "未分级",
+      "business_summary": "在中国生产和销售中药及医药产品，以医院学术推广和渠道销售驱动核心肾病用药及其他品种变现。",
+      "core_judgement": "折后可剥离净现金高于输入市值约5.13亿元，因此公式中的经营业务购买价为负，负回本年只表达折后资金覆盖市值，并非承诺可立即清算或分派。现金利润按2025归母利润扣除存款/理财收益、政府补助等非主营收益后取约1.40亿元；应结合销售应计、其他应收减值、存货跌价及资金受境内分配程序约束审慎理解。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/08049.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
