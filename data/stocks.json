@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 19:51:58 +08:00",
+  "built_at": "2026-08-04 19:52:30 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -21405,6 +21405,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00293.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "IAG",
+      "name": "Iamgold Corporation Ordinary Shares",
+      "raw_name": "Iamgold Corporation Ordinary Shares",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 553.46,
+      "pe_ttm": 8.3,
+      "owner_earnback_years": 17.19,
+      "owner_earnback_rate_pct": 5.82,
+      "market_profit_payback_years": 16.39,
+      "market_cash_profit_yield_pct": 6.1,
+      "discounted_detachable_net_cash_yi": -26.86,
+      "discounted_net_cash_to_market_cap_pct": -4.85,
+      "operating_business_price_yi": 580.32,
+      "discounted_cash_profit_yi": 33.76,
+      "revenue_yi": 200.52,
+      "gross_profit_yi": 84.78,
+      "parent_net_profit_yi": 46.7,
+      "gross_margin_pct": 42.28,
+      "net_margin_pct": 23.29,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "以加拿大Côté、Westwood和布基纳法索Essakane矿山开采并销售黄金，利润取决于产销量、金价与全维持成本之间的价差。",
+      "core_judgement": "现金按90%计入、受限现金按0%计入，并全额扣除有息债务及租赁负债，得到负的折后净现金。现金利润由经营现金流扣资本开支、资本化利息和少数股东分红后，再按70%保留，以反映2025年高金价、矿山耗竭与持续投入。由此经营业务购买价约580.32亿元，回本约17.2年；结果对金价、品位、AISC和扩建资本开支高度敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/IAG/"
     },
     {
       "schema_version": "stock-research-result-v1",
