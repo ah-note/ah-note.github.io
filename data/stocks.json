@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 19:24:33 +08:00",
+  "built_at": "2026-08-04 19:25:04 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -42206,6 +42206,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/300401.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "APA",
+      "name": "APA Corporation - Common Stock",
+      "raw_name": "APA Corporation - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 890.16,
+      "pe_ttm": 8.7,
+      "owner_earnback_years": 38.11,
+      "owner_earnback_rate_pct": 2.62,
+      "market_profit_payback_years": 28.83,
+      "market_cash_profit_yield_pct": 3.47,
+      "discounted_detachable_net_cash_yi": -286.79,
+      "discounted_net_cash_to_market_cap_pct": -32.22,
+      "operating_business_price_yi": 1176.95,
+      "discounted_cash_profit_yi": 30.88,
+      "revenue_yi": 604.05,
+      "gross_profit_yi": 385.52,
+      "parent_net_profit_yi": 97.11,
+      "gross_margin_pct": 63.82,
+      "net_margin_pct": 16.08,
+      "forecast_dividend_yield_pct": 2.69,
+      "risk_level": "未分级",
+      "business_summary": "APA 在美国二叠纪盆地、埃及西部沙漠和英国北海勘探开发油气，并以市场化价格销售原油、天然气和NGL，同时推进苏里南海上油田开发。",
+      "core_judgement": "按2026-08-03市值890.16亿元计算，50%折后现金减全部有息债务后为净负286.79亿元，意味着经营业务购买价1176.95亿元。2025年公司披露自由现金流约10亿美元，但合并现金流包含埃及少数股东份额；扣除4.30亿美元少数股东分配后为5.70亿美元，再对商品周期、维持产量资本强度和营运资金波动打八折，折后可持续可分配现金利润约4.56亿美元（30.88亿元）。据此经营业务回本约38.1年，市值/现金利润约28.8倍。该结果与8.70倍PE差异大，核心原因是D...",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/APA/"
     },
     {
       "schema_version": "stock-research-result-v1",
