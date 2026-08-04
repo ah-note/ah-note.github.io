@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 23:40:08 +08:00",
+  "built_at": "2026-08-04 23:41:21 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -67502,6 +67502,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/TCBK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "MCB",
+      "name": "Metropolitan Bank Holding Corp. Common Stock",
+      "raw_name": "Metropolitan Bank Holding Corp. Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 77.35,
+      "pe_ttm": 11.83,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": null,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 5.08,
+      "gross_margin_pct": null,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": 0.75,
+      "risk_level": "未分级",
+      "business_summary": "一家以纽约都会区商业地产和工商贷款为主要资产、依靠多元商业存款低成本融资的社区商业银行。",
+      "core_judgement": "普通控股回本口径不适用：现金、证券、贷款与客户存款共同构成银行经营资产负债，不能把账面现金减债后从市值中剥离；应改看净息差、信用损失、资本充足、ROE、账面价值和可持续分红。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/MCB/"
     },
     {
       "schema_version": "stock-research-result-v1",
