@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 04:41:09 +08:00",
+  "built_at": "2026-08-05 04:41:42 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -31883,6 +31883,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/601717.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "THC",
+      "name": "Tenet Healthcare Corporation Common Stock",
+      "raw_name": "Tenet Healthcare Corporation Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 1384.33,
+      "pe_ttm": 9.85,
+      "owner_earnback_years": 20.55,
+      "owner_earnback_rate_pct": 4.87,
+      "market_profit_payback_years": 13.52,
+      "market_cash_profit_yield_pct": 7.4,
+      "discounted_detachable_net_cash_yi": -720.16,
+      "discounted_net_cash_to_market_cap_pct": -52.02,
+      "operating_business_price_yi": 2104.49,
+      "discounted_cash_profit_yi": 102.4,
+      "revenue_yi": 1491.7,
+      "gross_profit_yi": 301.14,
+      "parent_net_profit_yi": 98.49,
+      "gross_margin_pct": 20.19,
+      "net_margin_pct": 6.6,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "Tenet通过50家医院、USPI参股的533家门诊手术中心与26家手术医院，以及Conifer收入周期管理服务，向患者和医疗机构提供医疗与后台服务，利润增长重心正转向更高利润的门诊手术。",
+      "core_judgement": "以7.00人民币/美元统一换算：现金28.83亿美元减长期债务131.71亿美元，折后可剥离净现金为-720.16亿元；经营业务购买价因此高于市值。2025年经营现金流35.40亿美元减资本开支10.10亿美元、再减付给少数股东8.09亿美元，母公司现金能力为17.21亿美元；考虑年度波动、监管与合资分配的不确定性再打85折，得到折后可持续现金利润14.63亿美元（102.40亿元）。据此市值/现金利润13.52倍，但含债后的经营业务回本约20.55年。此为控股口径估算，不是...",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/THC/"
     },
     {
       "schema_version": "stock-research-result-v1",
