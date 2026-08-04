@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 13:07:56 +08:00",
+  "built_at": "2026-08-04 13:10:10 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -49956,6 +49956,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/03660.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "CNO",
+      "name": "CNO Financial Group, Inc. Common Stock",
+      "raw_name": "CNO Financial Group, Inc. Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 347.02,
+      "pe_ttm": 19.0,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 322.57,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 16.48,
+      "gross_margin_pct": null,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": 1.41,
+      "risk_level": "未分级",
+      "business_summary": "面向美国中等收入的退休前及退休人群，通过代理人、独立渠道和直销销售健康险、寿险和年金，并赚取承保利润、投资利差和服务费。",
+      "core_judgement": "普通控股回本口径不适用，相关排序数字均留空。应改看保险产品利润率及其稳定性、投资收益与负债成本的利差、RBC资本缓冲、控股公司流动性、保险子公司向上游分红限制，以及持续股息和回购能否由法定资本与经营利润支持。2025年合并RBC估计约380%，控股公司不受限现金和投资3.514亿美元；但美国保险子公司上游分红仍受监管审批和法定盈余约束。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/CNO/"
     },
     {
       "schema_version": "stock-research-result-v1",
