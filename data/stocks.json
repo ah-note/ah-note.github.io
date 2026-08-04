@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 18:07:31 +08:00",
+  "built_at": "2026-08-04 18:08:02 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -11454,6 +11454,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002352.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "FOX",
+      "name": "Fox Corporation - Class B Common Stock",
+      "raw_name": "Fox Corporation - Class B Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 1471.71,
+      "pe_ttm": 13.67,
+      "owner_earnback_years": 10.68,
+      "owner_earnback_rate_pct": 9.36,
+      "market_profit_payback_years": 10.2,
+      "market_cash_profit_yield_pct": 9.81,
+      "discounted_detachable_net_cash_yi": -69.88,
+      "discounted_net_cash_to_market_cap_pct": -4.75,
+      "operating_business_price_yi": 1541.6,
+      "discounted_cash_profit_yi": 144.34,
+      "revenue_yi": 1167.57,
+      "gross_profit_yi": 414.16,
+      "parent_net_profit_yi": 162.1,
+      "gross_margin_pct": 35.47,
+      "net_margin_pct": 13.88,
+      "forecast_dividend_yield_pct": 1.17,
+      "risk_level": "未分级",
+      "business_summary": "FOX以新闻和体育内容为核心，通过有线/流媒体分发费与广告变现，并由电视网、地方台和Tubi扩大覆盖。",
+      "core_judgement": "以输入市值1471.71亿元计，现金和长期投资折价后仍不足覆盖债务，折后可剥离净现金为-69.88亿元，因此经营业务购买价升至1541.60亿元。FY2025自由现金流214.39亿元先剔除营运资本释放54.01亿元，再按可持续性打九折，得到折后现金利润144.34亿元；对应经营业务回本约10.68年，市值/现金利润约10.20倍。这是控股现金回收测算，不是目标价或收益承诺。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/FOX/"
     },
     {
       "schema_version": "stock-research-result-v1",
