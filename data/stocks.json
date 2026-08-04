@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 14:04:34 +08:00",
+  "built_at": "2026-08-04 14:05:26 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -2980,6 +2980,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/02219.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "03337.HK",
+      "name": "ANTON OILFIELD",
+      "raw_name": "ANTON OILFIELD",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 21.05,
+      "pe_ttm": 5.92,
+      "owner_earnback_years": 3.19,
+      "owner_earnback_rate_pct": 31.32,
+      "market_profit_payback_years": 3.51,
+      "market_cash_profit_yield_pct": 28.51,
+      "discounted_detachable_net_cash_yi": 1.89,
+      "discounted_net_cash_to_market_cap_pct": 8.96,
+      "operating_business_price_yi": 19.16,
+      "discounted_cash_profit_yi": 6.0,
+      "revenue_yi": 55.72,
+      "gross_profit_yi": 15.94,
+      "parent_net_profit_yi": 3.73,
+      "gross_margin_pct": 28.6,
+      "net_margin_pct": 6.7,
+      "forecast_dividend_yield_pct": 5.32,
+      "risk_level": "未分级",
+      "business_summary": "为中国及海外大型油气公司提供钻完井、增产、能源项目管理与少量能源资产运营服务，以项目交付和全生命周期管理收费。",
+      "core_judgement": "按2026-08-03市值，非受限现金九折后扣除全部有息借款，得到约1.89亿元折后可剥离净现金；经营业务购买价约19.16亿元。2025年公司口径自由现金流10.43亿元受到约4.41亿元营运资金净释放抬升，故以约6亿元作为折后可持续可分配现金利润，经营业务静态回本约3.2年。该结果对伊拉克回款、供应商账期和维持性资本开支高度敏感，不是确定性回报。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/03337.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
