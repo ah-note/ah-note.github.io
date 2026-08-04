@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 11:09:08 +08:00",
+  "built_at": "2026-08-04 11:09:39 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -46422,6 +46422,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/FNF/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "BNT",
+      "name": "Brookfield Wealth Solutions Ltd. Class A Exchangeable Limited Voting Shares",
+      "raw_name": "Brookfield Wealth Solutions Ltd. Class A Exchangeable Limited Voting Shares",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 799.65,
+      "pe_ttm": 15.76,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 836.27,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 55.06,
+      "gross_margin_pct": null,
+      "net_margin_pct": 7.42,
+      "forecast_dividend_yield_pct": 0.85,
+      "risk_level": "未分级",
+      "business_summary": "以年金、财险和寿险负债形成长期资金池，再主要通过Brookfield发起的信贷与实物资产策略赚取投资收益高于保单成本的利差；上市Class A同时是BN股份的1:1可交换工具。",
+      "core_judgement": "普通控股回本公式不适用。保险投资资产与保单及理赔负债相匹配，不能从市值中扣作可剥离净现金；同时上市Class A按1:1可交换BN股份，其价格与分配锚定BN，而2025年BNT合并净利润8.63亿美元中仅0.16亿美元归Class A及B、7.50亿美元归Class C。应改看投资收益率相对负债成本、承保质量、法定资本、可上划现金，以及BN交换权价值。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/BNT/"
     },
     {
       "schema_version": "stock-research-result-v1",
