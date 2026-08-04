@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 01:53:33 +08:00",
+  "built_at": "2026-08-05 01:54:25 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -71532,6 +71532,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/LSBK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "PRIM",
+      "name": "Primoris Services Corporation Common Stock",
+      "raw_name": "Primoris Services Corporation Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 309.04,
+      "pe_ttm": 18.63,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 532.42,
+      "gross_profit_yi": 57.15,
+      "parent_net_profit_yi": 19.32,
+      "gross_margin_pct": 10.73,
+      "net_margin_pct": 3.63,
+      "forecast_dividend_yield_pct": 0.39,
+      "risk_level": "未分级",
+      "business_summary": "为美国和加拿大公用事业、能源与可再生能源客户提供工程、采购、施工、维护和更换服务，靠项目执行、规模采购与设备利用率赚取薄毛利。",
+      "core_judgement": "普通净现金回本口径不适用：现金与合同周转、应收证券化、设备投入和债务服务共同支撑工程项目，无法可靠区分可剥离现金。应改看总订单及其可兑现性、分部毛利、合同资产/应收回款、经营现金流跨期稳定性、资本开支和债务到期覆盖。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/PRIM/"
     },
     {
       "schema_version": "stock-research-result-v1",
