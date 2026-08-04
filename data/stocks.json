@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 22:48:20 +08:00",
+  "built_at": "2026-08-04 22:49:12 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -26985,6 +26985,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002811.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "CIX",
+      "name": "CompX International Inc. Common Stock",
+      "raw_name": "CompX International Inc. Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 23.54,
+      "pe_ttm": 17.26,
+      "owner_earnback_years": 19.51,
+      "owner_earnback_rate_pct": 5.13,
+      "market_profit_payback_years": 21.81,
+      "market_cash_profit_yield_pct": 4.59,
+      "discounted_detachable_net_cash_yi": 2.48,
+      "discounted_net_cash_to_market_cap_pct": 10.55,
+      "operating_business_price_yi": 21.06,
+      "discounted_cash_profit_yi": 1.08,
+      "revenue_yi": 11.38,
+      "gross_profit_yi": 3.46,
+      "parent_net_profit_yi": 1.4,
+      "gross_margin_pct": 30.44,
+      "net_margin_pct": 12.31,
+      "forecast_dividend_yield_pct": 4.51,
+      "risk_level": "未分级",
+      "business_summary": "面向北美OEM和分销商销售中高端柜锁/电子锁及休闲船艇精密部件的小型美国制造商。",
+      "core_judgement": "按输入市值，折后可剥离净现金约占市值10.6%；扣除该现金后经营业务购买价约21.06亿元，对折后可持续现金利润的静态回本期约19.5年。该口径不是预测或买卖建议，且对控股股东资本配置、客户集中和产品周期高度敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/CIX/"
     },
     {
       "schema_version": "stock-research-result-v1",
