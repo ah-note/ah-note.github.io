@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 15:58:07 +08:00",
+  "built_at": "2026-08-04 15:58:58 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -9036,6 +9036,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/03316.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01861.HK",
+      "name": "PRECIOUS DRAGON",
+      "raw_name": "PRECIOUS DRAGON",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 5.13,
+      "pe_ttm": 10.14,
+      "owner_earnback_years": 9.59,
+      "owner_earnback_rate_pct": 10.43,
+      "market_profit_payback_years": 12.18,
+      "market_cash_profit_yield_pct": 8.21,
+      "discounted_detachable_net_cash_yi": 1.09,
+      "discounted_net_cash_to_market_cap_pct": 21.32,
+      "operating_business_price_yi": 4.04,
+      "discounted_cash_profit_yi": 0.42,
+      "revenue_yi": 5.93,
+      "gross_profit_yi": 2.59,
+      "parent_net_profit_yi": 0.53,
+      "gross_margin_pct": 43.56,
+      "net_margin_pct": 8.97,
+      "forecast_dividend_yield_pct": 2.9,
+      "risk_level": "未分级",
+      "business_summary": "保宝龙科技以中国内地和泰国生产基地制造、灌装并销售汽车美容养护和个人护理气雾剂/非气雾剂产品，利润主要来自汽车用品规模与个护业务改善。",
+      "core_judgement": "普通经营模型适用。现金按80%、质押存款按50%计入并全额扣除计息债务；可持续利润以归母利润剔除船舶处置收益、加回泰国工厂非现金减值（两者均按25%税率近似税后化）后再打八折。结果表示按当前市值扣除折后净现金后，经营业务约需9.6年折后现金利润回本；它是静态压力口径，不是预测或买卖建议。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01861.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
