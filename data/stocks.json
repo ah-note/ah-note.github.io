@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 18:18:53 +08:00",
+  "built_at": "2026-08-04 18:20:05 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -58388,6 +58388,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/ORC/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01581.HK",
+      "name": "进昇集团控股",
+      "raw_name": "进昇集团控股",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 1.25,
+      "pe_ttm": 7.12,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 8.43,
+      "gross_profit_yi": 0.59,
+      "parent_net_profit_yi": 0.31,
+      "gross_margin_pct": 6.94,
+      "net_margin_pct": 3.73,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "在香港承接地基、场地平整及一般建筑工程，并出租配司机和运输服务的建筑机械，以项目进度结算和设备利用率赚取薄利。",
+      "core_judgement": "普通控股回本口径不适用。该工程施工模型应改看订单转化、项目毛利、应收和合同资产的回收、设备更新资本开支、债务服务后现金以及实际分红。2025财年经营现金流虽强于归母利润，但应收与合同资产合计仍高，且2026财年毛利率已由6.9%降至3.8%，说明单年利润和现金流不可直接资本化为稳定回本年数。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01581.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
