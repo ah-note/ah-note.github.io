@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 02:18:11 +08:00",
+  "built_at": "2026-08-05 02:18:44 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -24846,6 +24846,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/300146.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "BBY",
+      "name": "Best Buy Co., Inc. Common Stock",
+      "raw_name": "Best Buy Co., Inc. Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 1226.84,
+      "pe_ttm": 15.97,
+      "owner_earnback_years": 17.27,
+      "owner_earnback_rate_pct": 5.79,
+      "market_profit_payback_years": 17.55,
+      "market_cash_profit_yield_pct": 5.7,
+      "discounted_detachable_net_cash_yi": 19.69,
+      "discounted_net_cash_to_market_cap_pct": 1.6,
+      "operating_business_price_yi": 1207.15,
+      "discounted_cash_profit_yi": 69.89,
+      "revenue_yi": 2921.0,
+      "gross_profit_yi": 656.7,
+      "parent_net_profit_yi": 74.9,
+      "gross_margin_pct": 22.48,
+      "net_margin_pct": 2.56,
+      "forecast_dividend_yield_pct": 4.59,
+      "risk_level": "未分级",
+      "business_summary": "Best Buy以美国为主、加拿大为辅，通过门店与线上全渠道销售消费电子、电脑手机和家电，并以服务、会员、广告及平台佣金补充低毛利商品零售利润。",
+      "core_judgement": "以给定市值计，先将现金减全部有息债务后的净额按50%计为可剥离，经营业务购买价约为市值的98.4%。现金利润采用FY2024-FY2026经营自由现金流均值并再打九折，得到约70.06亿元；对应经营业务回本约17.23年，未扣净现金的市值/现金利润约17.51倍。这是静态控股回本测算，不是收益承诺。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/BBY/"
     },
     {
       "schema_version": "stock-research-result-v1",
