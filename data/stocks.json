@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 04:29:53 +08:00",
+  "built_at": "2026-08-05 04:31:06 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -34549,6 +34549,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/001312.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "RMD",
+      "name": "ResMed Inc. Common Stock",
+      "raw_name": "ResMed Inc. Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 2065.16,
+      "pe_ttm": 20.33,
+      "owner_earnback_years": 21.92,
+      "owner_earnback_rate_pct": 4.56,
+      "market_profit_payback_years": 22.34,
+      "market_cash_profit_yield_pct": 4.48,
+      "discounted_detachable_net_cash_yi": 38.74,
+      "discounted_net_cash_to_market_cap_pct": 1.88,
+      "operating_business_price_yi": 2026.42,
+      "discounted_cash_profit_yi": 92.45,
+      "revenue_yi": 368.4,
+      "gross_profit_yi": 218.69,
+      "parent_net_profit_yi": 100.27,
+      "gross_margin_pct": 59.36,
+      "net_margin_pct": 27.22,
+      "forecast_dividend_yield_pct": 1.22,
+      "risk_level": "未分级",
+      "business_summary": "ResMed以联网睡眠呼吸设备建立患者入口，再通过面罩耗材复购和居家护理云软件形成持续收入。",
+      "core_judgement": "以输入市值2065.16亿元，减去折后可剥离净现金38.74亿元后，经营业务购买价约2026.42亿元；以折后可持续可分配现金利润92.45亿元计，静态控股回本约21.9年。该口径不含增长价值，也不是预测；若FY2025税务退款、营运资本或利润率不可持续，回本会更久。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/RMD/"
     },
     {
       "schema_version": "stock-research-result-v1",
