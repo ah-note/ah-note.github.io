@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 15:09:16 +08:00",
+  "built_at": "2026-08-04 15:09:47 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -10400,6 +10400,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00425.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01919.HK",
+      "name": "中远海控",
+      "raw_name": "中远海控",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 2060.91,
+      "pe_ttm": 7.01,
+      "owner_earnback_years": 11.47,
+      "owner_earnback_rate_pct": 8.72,
+      "market_profit_payback_years": 13.74,
+      "market_cash_profit_yield_pct": 7.28,
+      "discounted_detachable_net_cash_yi": 340.55,
+      "discounted_net_cash_to_market_cap_pct": 16.52,
+      "operating_business_price_yi": 1720.36,
+      "discounted_cash_profit_yi": 150.0,
+      "revenue_yi": 2195.04,
+      "gross_profit_yi": 427.02,
+      "parent_net_profit_yi": 308.6,
+      "gross_margin_pct": 19.45,
+      "net_margin_pct": 14.06,
+      "forecast_dividend_yield_pct": 7.47,
+      "risk_level": "未分级",
+      "business_summary": "以双品牌全球班轮网络收取集装箱海运费和供应链服务费，并通过控股及参股码头收取装卸等服务费。",
+      "core_judgement": "按普通经营公司口径，先从现金及现金等价物扣除借款、租赁负债、拟派末期股息和相当于2025年实际资本开支的一年缓冲，再对余额按80%计入可剥离净现金。现金利润以2025年经营自由现金流205.30亿元为起点，因航运运价和利润强周期、未来船舶资本承诺较大，进一步折至150亿元。由此经营业务购买价约1720.36亿元，回本约11.47年；这是情景化控股口径，不是确定预测。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01919.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
