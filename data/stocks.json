@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 04:21:58 +08:00",
+  "built_at": "2026-08-05 04:22:31 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -42299,6 +42299,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/ALRM/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "OLED",
+      "name": "Universal Display Corporation - Common Stock",
+      "raw_name": "Universal Display Corporation - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 248.64,
+      "pe_ttm": 19.36,
+      "owner_earnback_years": 26.73,
+      "owner_earnback_rate_pct": 3.74,
+      "market_profit_payback_years": 33.55,
+      "market_cash_profit_yield_pct": 2.98,
+      "discounted_detachable_net_cash_yi": 50.57,
+      "discounted_net_cash_to_market_cap_pct": 20.34,
+      "operating_business_price_yi": 198.07,
+      "discounted_cash_profit_yi": 7.41,
+      "revenue_yi": 46.76,
+      "gross_profit_yi": 35.68,
+      "parent_net_profit_yi": 17.4,
+      "gross_margin_pct": 76.31,
+      "net_margin_pct": 37.21,
+      "forecast_dividend_yield_pct": 2.73,
+      "risk_level": "未分级",
+      "business_summary": "向全球OLED面板厂销售高价值磷光发光材料，并把与材料绑定的专利与技术许可变现。",
+      "core_judgement": "按2025年末美元兑人民币7.1875折算：现金按100%、美国国债按95%计入，再扣全部负债，折后可剥离净现金约50.57亿元；以2025年经营自由现金流扣除税后利息与投资收益、再打九折，现金利润约7.41亿元。输入市值下，整体市值/现金利润约33.6倍；扣净现金后经营业务回本约26.7年。该口径对营运资金正常化、利息剔除和95%国债折扣敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/OLED/"
     },
     {
       "schema_version": "stock-research-result-v1",
