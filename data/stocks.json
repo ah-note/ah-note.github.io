@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 18:42:13 +08:00",
+  "built_at": "2026-08-04 18:43:45 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -11578,6 +11578,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/01882.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "06618.HK",
+      "name": "JD HEALTH",
+      "raw_name": "JD HEALTH",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 1090.45,
+      "pe_ttm": 21.3,
+      "owner_earnback_years": 10.58,
+      "owner_earnback_rate_pct": 9.45,
+      "market_profit_payback_years": 21.81,
+      "market_cash_profit_yield_pct": 4.59,
+      "discounted_detachable_net_cash_yi": 561.4,
+      "discounted_net_cash_to_market_cap_pct": 51.48,
+      "operating_business_price_yi": 529.05,
+      "discounted_cash_profit_yi": 50.0,
+      "revenue_yi": 734.41,
+      "gross_profit_yi": 181.99,
+      "parent_net_profit_yi": 53.75,
+      "gross_margin_pct": 24.78,
+      "net_margin_pct": 7.32,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "以自营医药健康商品零售为收入主体，并用平台佣金、数字营销和医疗健康服务提升毛利与用户价值。",
+      "core_judgement": "现金和定存按85%、银行理财按75%折价并全额扣除租赁负债，得到折后净现金561.40亿元；市值扣除后经营业务价格529.05亿元。可持续现金利润取50亿元，低于归母净利53.75亿元且远低于受营运资金抬高的自由现金流100.23亿元；静态回本约10.58年。现金不等于可立即分派。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/06618.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
