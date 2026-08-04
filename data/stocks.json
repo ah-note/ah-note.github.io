@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 14:28:57 +08:00",
+  "built_at": "2026-08-04 14:30:10 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -6955,6 +6955,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/01153.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "02510.HK",
+      "name": "TS LINES",
+      "raw_name": "TS LINES",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 127.34,
+      "pe_ttm": 5.78,
+      "owner_earnback_years": 7.83,
+      "owner_earnback_rate_pct": 12.78,
+      "market_profit_payback_years": 8.98,
+      "market_cash_profit_yield_pct": 11.14,
+      "discounted_detachable_net_cash_yi": 16.33,
+      "discounted_net_cash_to_market_cap_pct": 12.83,
+      "operating_business_price_yi": 111.01,
+      "discounted_cash_profit_yi": 14.19,
+      "revenue_yi": 91.77,
+      "gross_profit_yi": 18.12,
+      "parent_net_profit_yi": 23.49,
+      "gross_margin_pct": 19.75,
+      "net_margin_pct": 25.6,
+      "forecast_dividend_yield_pct": 9.19,
+      "risk_level": "未分级",
+      "business_summary": "TS LINES以自有船队为主经营亚洲区域集装箱班轮网络，收入主要由运量乘以每TEU运价形成，利润高度受运价、燃油、租船成本和船队供需周期驱动。",
+      "core_judgement": "按年末现金剔除受限部分、其余打八折并扣除全部租赁负债，折后可剥离净现金约16.33亿元；以2025年经营现金流扣除资本开支和租赁本金后再打八折，折后现金利润约14.19亿元。由此经营业务购买价约111.01亿元，对应约7.83年；但单年高景气航运现金流不能直接代表完整周期，未来13艘新船约8.372亿美元资本承诺也会占用现金，因此该数字是压力测试口径而非确定回本期。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/02510.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
