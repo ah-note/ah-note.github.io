@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 20:18:37 +08:00",
+  "built_at": "2026-08-04 20:20:10 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -15050,6 +15050,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002668.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "02020.HK",
+      "name": "ANTA SPORTS",
+      "raw_name": "ANTA SPORTS",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 1857.4,
+      "pe_ttm": 14.35,
+      "owner_earnback_years": 12.93,
+      "owner_earnback_rate_pct": 7.73,
+      "market_profit_payback_years": 15.0,
+      "market_cash_profit_yield_pct": 6.67,
+      "discounted_detachable_net_cash_yi": 255.76,
+      "discounted_net_cash_to_market_cap_pct": 13.77,
+      "operating_business_price_yi": 1601.64,
+      "discounted_cash_profit_yi": 123.85,
+      "revenue_yi": 802.19,
+      "gross_profit_yi": 497.34,
+      "parent_net_profit_yi": 135.88,
+      "gross_margin_pct": 62.0,
+      "net_margin_pct": 16.94,
+      "forecast_dividend_yield_pct": 3.34,
+      "risk_level": "未分级",
+      "business_summary": "安踏以多品牌组合向中国及海外消费者销售运动鞋服和配饰，核心利润来自品牌溢价、产品设计及直营/经销渠道效率，并通过Amer Sports联营股权参与全球户外和专业运动品牌增长。",
+      "core_judgement": "按2026年8月3日市值1857.40亿元，未质押现金及定存543.09亿元打九折，再全额扣除233.02亿元有息借款，折后可剥离净现金255.76亿元；经营业务购买价1601.64亿元。可持续现金利润以归母净利润135.88亿元扣除权益法确认但不由集团控制分配的联营利润12.03亿元，取123.85亿元。由此经营业务回本约12.93年，市值/现金利润约15.00年。该口径未给Amer股权任何变现价值，偏保守；但也未额外扣除正常经营所需最低现金，因此不是清算价值。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/02020.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
