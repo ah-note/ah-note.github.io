@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 19:56:29 +08:00",
+  "built_at": "2026-08-04 19:57:42 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -61271,6 +61271,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/BCAL/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "PBAM",
+      "name": "Private Bancorp of America, Inc. - Common Stock",
+      "raw_name": "Private Bancorp of America, Inc. - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 32.49,
+      "pe_ttm": 10.94,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": null,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 2.92,
+      "gross_margin_pct": null,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "一家面向南加州高净值个人、专业人士、家族办公室和中小企业的关系型商业银行，以低成本存款支持商业地产、工商及SBA贷款并赚取净利差。",
+      "core_judgement": "普通控股回本口径不适用。现金、证券和贷款与客户存款、借款及监管资本共同支持银行经营，不能先抽走净现金再假定利润不变。控股视角应比较市值与账面权益、观察ROA/ROE和净息差的可持续性、信用成本及资本缓冲，并以董事会实际分红政策判断现金能否到达股东。按输入市值及年末汇率，市净率约1.71倍；按2025净利润静态约11.12倍，但网站采用输入PE TTM 10.93628。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/PBAM/"
     },
     {
       "schema_version": "stock-research-result-v1",
