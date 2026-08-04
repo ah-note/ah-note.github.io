@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 11:15:26 +08:00",
+  "built_at": "2026-08-04 11:15:57 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -934,6 +934,37 @@
         "转亏风险"
       ],
       "detail_url": "reports/600742.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "02080.HK",
+      "name": "AUX INTL",
+      "raw_name": "AUX INTL",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 1.23,
+      "pe_ttm": 4.06,
+      "owner_earnback_years": -1.25,
+      "owner_earnback_rate_pct": -79.91,
+      "market_profit_payback_years": 5.99,
+      "market_cash_profit_yield_pct": 16.69,
+      "discounted_detachable_net_cash_yi": 1.49,
+      "discounted_net_cash_to_market_cap_pct": 120.88,
+      "operating_business_price_yi": -0.26,
+      "discounted_cash_profit_yi": 0.21,
+      "revenue_yi": 3.05,
+      "gross_profit_yi": 0.4,
+      "parent_net_profit_yi": 0.22,
+      "gross_margin_pct": 13.19,
+      "net_margin_pct": 7.26,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "AUX International earns service fees from managing residential and non-residential properties in mainland China, plus a smaller stream of community retail and household services.",
+      "core_judgement": "After a 30% haircut to unrestricted deposits and full deduction of funding liabilities, discounted detachable net cash exceeds the supplied market capitalisation, so the formula produces a negative operating-business price and negative earn...",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/02080.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
