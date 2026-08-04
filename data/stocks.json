@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 14:22:57 +08:00",
+  "built_at": "2026-08-04 14:25:11 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -4437,6 +4437,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/601801.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01756.HK",
+      "name": "中国科教产业",
+      "raw_name": "中国科教产业",
+      "market": "HK",
+      "period": "2025-08-31",
+      "currency": "CNY",
+      "market_cap_yi": 3.92,
+      "pe_ttm": 0.91,
+      "owner_earnback_years": 4.75,
+      "owner_earnback_rate_pct": 21.05,
+      "market_profit_payback_years": 1.27,
+      "market_cash_profit_yield_pct": 78.71,
+      "discounted_detachable_net_cash_yi": -10.74,
+      "discounted_net_cash_to_market_cap_pct": -273.88,
+      "operating_business_price_yi": 14.67,
+      "discounted_cash_profit_yi": 3.09,
+      "revenue_yi": 14.45,
+      "gross_profit_yi": 7.23,
+      "parent_net_profit_yi": 4.58,
+      "gross_margin_pct": 49.99,
+      "net_margin_pct": 31.71,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "在广东运营三所民办高等及职业院校，主要按学年向学生收取学费和住宿费。",
+      "core_judgement": "以2026-08-03市值人民币3.923亿元计，现金及受限现金9.748亿元减全部借款20.492亿元后为净负债10.744亿元，因此经营业务购买价约14.667亿元。2025年经营现金流减资本开支为3.860亿元，再按80%折价为3.088亿元，静态控股回本约4.75年。该数字不是股东可立即取得的现金回报：公司连续两年未派息，学校现金受办学、扩建、债务及监管约束，且资本开支具有周期性。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01756.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
