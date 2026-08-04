@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 22:38:36 +08:00",
+  "built_at": "2026-08-04 22:39:08 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -30581,6 +30581,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/300453.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "02693.HK",
+      "name": "JINYAN KAOLIN",
+      "raw_name": "JINYAN KAOLIN",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 2.37,
+      "pe_ttm": 6.4,
+      "owner_earnback_years": 21.83,
+      "owner_earnback_rate_pct": 4.58,
+      "market_profit_payback_years": 15.83,
+      "market_cash_profit_yield_pct": 6.32,
+      "discounted_detachable_net_cash_yi": -0.9,
+      "discounted_net_cash_to_market_cap_pct": -37.89,
+      "operating_business_price_yi": 3.26,
+      "discounted_cash_profit_yi": 0.15,
+      "revenue_yi": 2.72,
+      "gross_profit_yi": 0.92,
+      "parent_net_profit_yi": 0.39,
+      "gross_margin_pct": 33.78,
+      "net_margin_pct": 14.27,
+      "forecast_dividend_yield_pct": 9.32,
+      "risk_level": "未分级",
+      "business_summary": "公司以自有朔里高岭土矿为基础，将煤系高岭土加工成精密铸造莫来石、耐火莫来石等材料并销售给工业客户。",
+      "core_judgement": "普通经营模型适用，但公司并非净现金企业。现金按80%、短期银行承兑类债务投资按95%折算，受限存款不计，并全额扣除有息债务，折后可剥离净现金为负8965.18万元。2025经营自由现金流1868.2万元再按80%计为1494.56万元可持续现金利润；经营业务购买价约3.263亿元，回本约21.8年。结果对上市募资用途、扩产资本开支和营运资金波动高度敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/02693.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
