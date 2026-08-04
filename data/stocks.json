@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 15:00:42 +08:00",
+  "built_at": "2026-08-04 15:02:35 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -6986,6 +6986,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00517.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "02488.HK",
+      "name": "LAUNCH TECH",
+      "raw_name": "LAUNCH TECH",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 24.52,
+      "pe_ttm": 7.48,
+      "owner_earnback_years": 7.62,
+      "owner_earnback_rate_pct": 13.13,
+      "market_profit_payback_years": 8.38,
+      "market_cash_profit_yield_pct": 11.93,
+      "discounted_detachable_net_cash_yi": 2.23,
+      "discounted_net_cash_to_market_cap_pct": 9.09,
+      "operating_business_price_yi": 22.29,
+      "discounted_cash_profit_yi": 2.93,
+      "revenue_yi": 21.09,
+      "gross_profit_yi": 9.99,
+      "parent_net_profit_yi": 3.44,
+      "gross_margin_pct": 47.37,
+      "net_margin_pct": 16.32,
+      "forecast_dividend_yield_pct": 12.71,
+      "risk_level": "未分级",
+      "business_summary": "向全球维修厂、技师、车企等销售汽车诊断检测设备，并以软件、远程诊断和汽车数据服务提高持续收入。",
+      "core_judgement": "按普通经营公司口径，现金按80%、交易性金融资产按70%、其他权益工具投资按50%折价，再全额扣除银行借款与租赁负债，得到折后可剥离净现金2.29亿元；现金利润以归母净利为较低基准并再打85%折扣，得到2.93亿元。对应经营业务购买价22.24亿元，静态回本约7.60年。该数字是保守情景测算，不是承诺；若海外增长、税收优惠或高现金转化不可持续，实际回本会延长。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/02488.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
