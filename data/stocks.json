@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 20:42:22 +08:00",
+  "built_at": "2026-08-04 20:43:55 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -36037,6 +36037,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/301019.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "RAMP",
+      "name": "LiveRamp Holdings, Inc. Common Stock",
+      "raw_name": "LiveRamp Holdings, Inc. Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 155.34,
+      "pe_ttm": 16.98,
+      "owner_earnback_years": 27.17,
+      "owner_earnback_rate_pct": 3.68,
+      "market_profit_payback_years": 31.94,
+      "market_cash_profit_yield_pct": 3.13,
+      "discounted_detachable_net_cash_yi": 23.2,
+      "discounted_net_cash_to_market_cap_pct": 14.94,
+      "operating_business_price_yi": 132.13,
+      "discounted_cash_profit_yi": 4.86,
+      "revenue_yi": 55.64,
+      "gross_profit_yi": 39.17,
+      "parent_net_profit_yi": 4.81,
+      "gross_margin_pct": 70.4,
+      "net_margin_pct": 8.64,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "为广告主、媒体和数据平台提供隐私导向的数据协作、身份连接、激活与测量基础设施，并通过订阅、数据市场分成及服务收费。",
+      "core_judgement": "截至2025-12-31，现金及短期投资按90%计入并全额扣租赁负债，折后可剥离净现金23.20亿元；TTM自由现金流先全额扣除股权激励经济成本，再打85折，现金利润4.86亿元。经营业务回本约27.2年，市值/现金利润约31.9倍；这是可排序口径，不是买卖建议。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/RAMP/"
     },
     {
       "schema_version": "stock-research-result-v1",
