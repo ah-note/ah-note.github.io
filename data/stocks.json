@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 05:34:20 +08:00",
+  "built_at": "2026-08-05 05:34:53 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -42082,6 +42082,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603344.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "UAL",
+      "name": "United Airlines Holdings, Inc. - Common Stock",
+      "raw_name": "United Airlines Holdings, Inc. - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 2657.37,
+      "pe_ttm": 11.36,
+      "owner_earnback_years": 25.77,
+      "owner_earnback_rate_pct": 3.88,
+      "market_profit_payback_years": 18.07,
+      "market_cash_profit_yield_pct": 5.53,
+      "discounted_detachable_net_cash_yi": -1131.1,
+      "discounted_net_cash_to_market_cap_pct": -42.56,
+      "operating_business_price_yi": 3788.46,
+      "discounted_cash_profit_yi": 147.03,
+      "revenue_yi": 4245.66,
+      "gross_profit_yi": 338.75,
+      "parent_net_profit_yi": 241.0,
+      "gross_margin_pct": 7.98,
+      "net_margin_pct": 5.68,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "以美国七大枢纽连接国内与全球航线，靠客运票价、附加服务、货运以及MileagePlus里程和联名信用卡合作变现。",
+      "core_judgement": "现金及短投仅按50%计入并全额扣除债务及融资租赁后，折后可剥离净现金为负。以2025年经营现金流减全部资本开支后再打八折，控股回本约25.8年；市值/折后现金利润约18.1倍。结果对机队资本开支周期和流动性折扣高度敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/UAL/"
     },
     {
       "schema_version": "stock-research-result-v1",
