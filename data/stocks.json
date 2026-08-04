@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 13:02:18 +08:00",
+  "built_at": "2026-08-04 13:02:49 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -49770,6 +49770,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/SLDE/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "RGA",
+      "name": "Reinsurance Group of America, Incorporated Common Stock",
+      "raw_name": "Reinsurance Group of America, Incorporated Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 1047.07,
+      "pe_ttm": 12.87,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 1660.35,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 82.81,
+      "gross_margin_pct": null,
+      "net_margin_pct": 4.99,
+      "forecast_dividend_yield_pct": 1.63,
+      "risk_level": "未分级",
+      "business_summary": "RGA向全球寿险公司承接死亡、疾病、长寿和资产负债风险，以再保险保费、风险定价和投资利差赚钱。",
+      "core_judgement": "普通控股回本公式不适用。RGA的投资组合与保险准备金、计息合同和资金留存负债共同构成经营系统，现金流还受监管资本和子公司分红限制。应改看调整后经营利润及ROE、承保经验、投资收益与负债成本、资本充足、可部署资本和母公司实际分红路径；因此折后净现金、折后现金利润、经营业务购买价和回本年均保持null。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/RGA/"
     },
     {
       "schema_version": "stock-research-result-v1",
