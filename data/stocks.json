@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 02:31:47 +08:00",
+  "built_at": "2026-08-05 02:32:19 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -45554,6 +45554,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600489.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "DAL",
+      "name": "Delta Air Lines, Inc. Common Stock",
+      "raw_name": "Delta Air Lines, Inc. Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 3880.27,
+      "pe_ttm": 14.5,
+      "owner_earnback_years": 32.28,
+      "owner_earnback_rate_pct": 3.1,
+      "market_profit_payback_years": 25.73,
+      "market_cash_profit_yield_pct": 3.89,
+      "discounted_detachable_net_cash_yi": -988.73,
+      "discounted_net_cash_to_market_cap_pct": -25.48,
+      "operating_business_price_yi": 4869.0,
+      "discounted_cash_profit_yi": 150.82,
+      "revenue_yi": 4554.29,
+      "gross_profit_yi": 418.46,
+      "parent_net_profit_yi": 359.73,
+      "gross_margin_pct": 9.19,
+      "net_margin_pct": 7.9,
+      "forecast_dividend_yield_pct": 1.04,
+      "risk_level": "未分级",
+      "business_summary": "Delta用全球枢纽航空网络销售客运座位，并以高端舱位、SkyMiles/美国运通合作、维修与货运提高单客价值和现金流韧性。",
+      "core_judgement": "按控股视角，账面现金全部留作运营缓冲，不视为可从航空网络剥离；债务及融资租赁988.7亿元全额计入，因此折后可剥离净现金为负。2023-2025年自由现金流由约11.41亿增至38.43亿美元；美元三年均值26.23亿美元再打八折，得到150.8亿元可持续现金利润。经营业务购买价约4869.0亿元，对应约32.3年回本；若不扣净债务，市值/现金利润约25.7倍。结果对机队更新资本开支、燃油与票价周期很敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/DAL/"
     },
     {
       "schema_version": "stock-research-result-v1",
