@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 14:01:08 +08:00",
+  "built_at": "2026-08-04 14:03:01 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -3290,6 +3290,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00710.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "03339.HK",
+      "name": "中国龙工",
+      "raw_name": "中国龙工",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 115.8,
+      "pe_ttm": 9.35,
+      "owner_earnback_years": 3.76,
+      "owner_earnback_rate_pct": 26.61,
+      "market_profit_payback_years": 11.03,
+      "market_cash_profit_yield_pct": 9.07,
+      "discounted_detachable_net_cash_yi": 76.35,
+      "discounted_net_cash_to_market_cap_pct": 65.93,
+      "operating_business_price_yi": 39.45,
+      "discounted_cash_profit_yi": 10.5,
+      "revenue_yi": 112.15,
+      "gross_profit_yi": 23.97,
+      "parent_net_profit_yi": 13.01,
+      "gross_margin_pct": 21.37,
+      "net_margin_pct": 11.6,
+      "forecast_dividend_yield_pct": 6.53,
+      "risk_level": "未分级",
+      "business_summary": "中国龙工通过经销与海外渠道销售装载机、挖掘机、叉车及零部件，核心利润来自工程机械制造和规模化成本控制。",
+      "core_judgement": "以输入市值115.80亿元，扣除折后可剥离净现金76.35亿元后，经营业务隐含购买价39.45亿元；以审慎可持续可分配现金利润10.50亿元估算，经营业务回本约3.76年，未扣净现金的市值/现金利润约11.03倍。该结果依赖资金确实可由控股股东支配、金融资产按所设折扣变现，以及工程机械周期中10.50亿元现金利润可持续，不能视为确定回收期。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/03339.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
