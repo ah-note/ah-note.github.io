@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 16:07:43 +08:00",
+  "built_at": "2026-08-04 16:08:14 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -48844,8 +48844,8 @@
     {
       "schema_version": "stock-research-result-v1",
       "code": "01319.HK",
-      "name": "OIWAHPAWN",
-      "raw_name": "OIWAHPAWN",
+      "name": "靄華押業信貸",
+      "raw_name": "靄華押業信貸",
       "market": "HK",
       "period": "2025-12-31",
       "currency": "CNY",
@@ -48859,15 +48859,15 @@
       "discounted_net_cash_to_market_cap_pct": 0.0,
       "operating_business_price_yi": null,
       "discounted_cash_profit_yi": null,
-      "revenue_yi": 1.54,
+      "revenue_yi": 1.46,
       "gross_profit_yi": null,
-      "parent_net_profit_yi": 0.52,
+      "parent_net_profit_yi": 0.74,
       "gross_margin_pct": null,
-      "net_margin_pct": 34.03,
-      "forecast_dividend_yield_pct": 8.6,
+      "net_margin_pct": 50.24,
+      "forecast_dividend_yield_pct": 7.66,
       "risk_level": "未分级",
-      "business_summary": "霭华押业在香港以典当与物业按揭作抵押放贷，靠贷款利息及处置收回抵押品获利。",
-      "core_judgement": "普通净现金回本不适用：贷款簿与现金均是放贷资本的一部分，不能从市值机械扣除。专项控股视角应以贷款簿信用质量、净息差、ROE、杠杆及可持续派息率判断；因此普通回本排序数字全部保持 null。",
+      "business_summary": "在香港以黄金珠宝等动产及物业作抵押放款，靠贷款利息与处置收回抵押物的收益赚钱。",
+      "core_judgement": "普通控股回本口径不适用。现金及贷款簿共同构成有抵押放贷的资本底座，不能用市值减去全部现金后再除以利润。应改看市值/账面净资产约0.47倍、ROE 7.1%、整体净息差17.2%、贷款减值与抵押覆盖、杠杆4.1%及分红率；这些专项指标不能替代普通回本年，也不构成买卖结论。",
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/01319.HK/"
