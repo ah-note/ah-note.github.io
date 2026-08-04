@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 20:43:55 +08:00",
+  "built_at": "2026-08-04 20:44:47 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -15019,6 +15019,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/01317.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "09985.HK",
+      "name": "WL DELICIOUS",
+      "raw_name": "WL DELICIOUS",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 173.02,
+      "pe_ttm": 12.75,
+      "owner_earnback_years": 12.8,
+      "owner_earnback_rate_pct": 7.81,
+      "market_profit_payback_years": 17.3,
+      "market_cash_profit_yield_pct": 5.78,
+      "discounted_detachable_net_cash_yi": 45.01,
+      "discounted_net_cash_to_market_cap_pct": 26.01,
+      "operating_business_price_yi": 128.01,
+      "discounted_cash_profit_yi": 10.0,
+      "revenue_yi": 72.24,
+      "gross_profit_yi": 34.66,
+      "parent_net_profit_yi": 14.25,
+      "gross_margin_pct": 47.99,
+      "net_margin_pct": 19.73,
+      "forecast_dividend_yield_pct": 4.92,
+      "risk_level": "未分级",
+      "business_summary": "卫龙把辣条、魔芋爽等中式辣味食品工业化并通过全国经销网络和电商销售，2025年增长主要由魔芋等蔬菜制品驱动。",
+      "core_judgement": "按2026-08-03市值计算，先对年末现金、定期存款和理财折价，再全额扣除借款、租赁负债及已于2026年6月支付的2025年末期股息，得到约45.01亿元折后可剥离净现金。2025年经营自由现金流为10.29亿元，但单年受营运资金和扩产节奏影响，保守取10亿元为折后可持续现金利润。对应经营业务购买价约128.01亿元，回本约12.8年；若不扣净现金，市值/现金利润约17.3倍。这是控股回本情景，不是估值承诺。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/09985.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
