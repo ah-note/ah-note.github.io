@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 04:03:46 +08:00",
+  "built_at": "2026-08-05 04:05:21 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -25280,6 +25280,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/FIZZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "GIII",
+      "name": "G-III Apparel Group, LTD. - Common Stock",
+      "raw_name": "G-III Apparel Group, LTD. - Common Stock",
+      "market": "US",
+      "period": "2026-01-31",
+      "currency": "CNY",
+      "market_cap_yi": 103.66,
+      "pe_ttm": 12.82,
+      "owner_earnback_years": 17.23,
+      "owner_earnback_rate_pct": 5.8,
+      "market_profit_payback_years": 19.77,
+      "market_cash_profit_yield_pct": 5.06,
+      "discounted_detachable_net_cash_yi": 13.32,
+      "discounted_net_cash_to_market_cap_pct": 12.85,
+      "operating_business_price_yi": 90.34,
+      "discounted_cash_profit_yi": 5.24,
+      "revenue_yi": 205.56,
+      "gross_profit_yi": 80.92,
+      "parent_net_profit_yi": 4.68,
+      "gross_margin_pct": 39.37,
+      "net_margin_pct": 2.28,
+      "forecast_dividend_yield_pct": 1.13,
+      "risk_level": "未分级",
+      "business_summary": "以批发为主，围绕自有与授权时尚品牌完成设计、全球采购、营销和渠道分销，并辅以门店、电商及品牌授权。",
+      "core_judgement": "按现金50%折价并扣除全部有息票据，可剥离净现金约13.32亿元；以FY2027净利润指引中点加折旧、减资本开支并再折价10%估算可持续现金利润约5.24亿元，经营业务购买价约90.34亿元，回本约17.2年。营运资本释放不可持续，故未直接采用FY2026自由现金流。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/GIII/"
     },
     {
       "schema_version": "stock-research-result-v1",
