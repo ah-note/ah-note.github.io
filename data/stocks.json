@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 02:01:22 +08:00",
+  "built_at": "2026-08-05 02:02:43 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -36037,6 +36037,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/01318.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "TRAK",
+      "name": "ReposiTrak, Inc. Common Stock",
+      "raw_name": "ReposiTrak, Inc. Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 10.35,
+      "pe_ttm": 22.81,
+      "owner_earnback_years": 23.8,
+      "owner_earnback_rate_pct": 4.2,
+      "market_profit_payback_years": 26.74,
+      "market_cash_profit_yield_pct": 3.74,
+      "discounted_detachable_net_cash_yi": 1.14,
+      "discounted_net_cash_to_market_cap_pct": 11.0,
+      "operating_business_price_yi": 9.21,
+      "discounted_cash_profit_yi": 0.39,
+      "revenue_yi": 1.62,
+      "gross_profit_yi": 1.36,
+      "parent_net_profit_yi": 0.47,
+      "gross_margin_pct": 83.72,
+      "net_margin_pct": 29.27,
+      "forecast_dividend_yield_pct": 1.01,
+      "risk_level": "未分级",
+      "business_summary": "为食品零售商、批发商、分销商及供应商提供合规、全链路追溯和供应链协同的B2B SaaS平台。",
+      "core_judgement": "按输入市值10.35亿元，扣除折后可剥离净现金1.14亿元后，相当于以9.21亿元购买经营业务；以折后可持续现金利润0.39亿元计，经营业务静态回本约23.8年，未扣现金的市值/现金利润约26.7倍。该结果依赖订阅增长、83.7%毛利率和低资本开支持续，不是收益承诺。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/TRAK/"
     },
     {
       "schema_version": "stock-research-result-v1",
