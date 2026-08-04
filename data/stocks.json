@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 16:34:38 +08:00",
+  "built_at": "2026-08-04 16:36:31 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -55412,6 +55412,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/FSCO/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "01540.HK",
+      "name": "LEFTFIELD PRINT",
+      "raw_name": "LEFTFIELD PRINT",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 2.68,
+      "pe_ttm": 10.92,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 4.58,
+      "gross_profit_yi": 0.98,
+      "parent_net_profit_yi": 0.26,
+      "gross_margin_pct": 21.34,
+      "net_margin_pct": 5.63,
+      "forecast_dividend_yield_pct": 48.33,
+      "risk_level": "未分级",
+      "business_summary": "在澳大利亚为出版商、政府及机构客户提供数字/胶印、装订后加工、按需印刷、仓储履约与内容管理服务。",
+      "core_judgement": "普通经营模型适用，但估值日不能可靠排序：拟出售Target Group占2025年集团约71%收入和64%税后利润，交易会根本改变持续经营范围；期后又发生约4,130万港元注资并拟派约1.50亿港元特别股息。待完成交易及披露剩余集团备考报表后，应按除息后市值重算。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01540.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
