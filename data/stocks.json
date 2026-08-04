@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 01:03:12 +08:00",
+  "built_at": "2026-08-05 01:03:44 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -25435,6 +25435,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002588.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "FDS",
+      "name": "FactSet Research Systems Inc. Common Stock",
+      "raw_name": "FactSet Research Systems Inc. Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 631.67,
+      "pe_ttm": 17.33,
+      "owner_earnback_years": 17.77,
+      "owner_earnback_rate_pct": 5.63,
+      "market_profit_payback_years": 15.88,
+      "market_cash_profit_yield_pct": 6.3,
+      "discounted_detachable_net_cash_yi": -75.1,
+      "discounted_net_cash_to_market_cap_pct": -11.89,
+      "operating_business_price_yi": 706.78,
+      "discounted_cash_profit_yi": 39.77,
+      "revenue_yi": 166.0,
+      "gross_profit_yi": 87.51,
+      "parent_net_profit_yi": 42.69,
+      "gross_margin_pct": 52.72,
+      "net_margin_pct": 25.72,
+      "forecast_dividend_yield_pct": 1.87,
+      "risk_level": "未分级",
+      "business_summary": "FactSet 向全球买方、卖方及财富管理客户销售金融数据、分析软件和嵌入式工作流订阅。",
+      "core_judgement": "按市值631.67亿元，现金90%计值、投资80%计值并全额扣除有息债务后，折后可剥离净现金为-75.10亿元，即净负债。经营业务购买价升至706.78亿元。FY2025经营自由现金流44.15亿元，再扣除持续性股权激励4.38亿元，折后持续现金利润39.77亿元，对应控股回本约17.8年；未假定未来增长，也未把并购支出视为年度维持性资本开支。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/FDS/"
     },
     {
       "schema_version": "stock-research-result-v1",
