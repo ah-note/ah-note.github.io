@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 13:43:21 +08:00",
+  "built_at": "2026-08-04 13:44:12 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -6835,6 +6835,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600897.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "CAAS",
+      "name": "China Automotive Systems, Inc. - Ordinary Share",
+      "raw_name": "China Automotive Systems, Inc. - Ordinary Share",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 9.18,
+      "pe_ttm": 3.18,
+      "owner_earnback_years": 8.61,
+      "owner_earnback_rate_pct": 11.61,
+      "market_profit_payback_years": 9.74,
+      "market_cash_profit_yield_pct": 10.26,
+      "discounted_detachable_net_cash_yi": 1.07,
+      "discounted_net_cash_to_market_cap_pct": 11.62,
+      "operating_business_price_yi": 8.11,
+      "discounted_cash_profit_yi": 0.94,
+      "revenue_yi": 53.81,
+      "gross_profit_yi": 10.22,
+      "parent_net_profit_yi": 3.01,
+      "gross_margin_pct": 19.0,
+      "net_margin_pct": 5.59,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "向中国及海外整车厂供应乘用车和商用车的液压及电动助力转向系统，以车型定点、规模制造和持续研发赚取零部件价差。",
+      "core_judgement": "按2025年末1美元=7.0274元人民币换算。现金、短期投资和长期定存合计仅按50%计入，受限现金不计，再全额扣除有息债务；可持续现金利润取2023-2025年归母净利润加折旧摊销减资本开支的中位数，再打八折。该口径给出约8.61年经营业务回本期，但不是承诺：客户回款、供应商票据占用、资本开支和境内资金上划均可显著改变结果。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/CAAS/"
     },
     {
       "schema_version": "stock-research-result-v1",
