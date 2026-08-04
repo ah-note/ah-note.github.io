@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 23:45:55 +08:00",
+  "built_at": "2026-08-04 23:47:09 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -22552,6 +22552,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/601991.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "LOPE",
+      "name": "Grand Canyon Education, Inc. - Common Stock",
+      "raw_name": "Grand Canyon Education, Inc. - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 255.63,
+      "pe_ttm": 17.55,
+      "owner_earnback_years": 16.47,
+      "owner_earnback_rate_pct": 6.07,
+      "market_profit_payback_years": 17.65,
+      "market_cash_profit_yield_pct": 5.67,
+      "discounted_detachable_net_cash_yi": 17.1,
+      "discounted_net_cash_to_market_cap_pct": 6.69,
+      "operating_business_price_yi": 238.54,
+      "discounted_cash_profit_yi": 14.49,
+      "revenue_yi": 77.35,
+      "gross_profit_yi": 77.35,
+      "parent_net_profit_yi": 15.12,
+      "gross_margin_pct": 100.0,
+      "net_margin_pct": 19.54,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "为美国大学按学费分成提供招生、咨询、技术、课程与后台服务，核心经济来源是GCU长期协议下60%的学费及费用收入分成。",
+      "core_judgement": "以2026-08-03市值计，折后净现金仅覆盖市值6.69%；扣除后经营业务购买价约238.54亿元。近三年经营自由现金流均值再打九折得到约14.49亿元可持续可分配现金利润，对应经营业务回本约16.47年、市值/现金利润17.65倍。该数字是静态控股回收口径，不是收益承诺；GCU集中度、监管变化和资本配置可明显改变结果。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/LOPE/"
     },
     {
       "schema_version": "stock-research-result-v1",
