@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 15:12:31 +08:00",
+  "built_at": "2026-08-04 15:13:23 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -53242,6 +53242,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/BSTZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "02558.HK",
+      "name": "晋商银行",
+      "raw_name": "晋商银行",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 59.77,
+      "pe_ttm": 3.77,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 54.45,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 16.65,
+      "gross_margin_pct": null,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": 4.88,
+      "risk_level": "未分级",
+      "business_summary": "立足山西、覆盖全省11个地级市的省级城商行，以吸收存款为主要资金来源，向企业和个人放贷并配置债券等金融资产，主要赚取净利息收入。",
+      "core_judgement": "不适用普通经营公司的控股回本公式。银行的存款、贷款、同业资产负债与金融投资是赚取利差和承担信用风险的经营载体，并非可剥离净现金；经营现金流也受存贷款增减驱动，不能当作普通自由现金流。控股视角应改看净息差、信用成本与不良生成、拨备覆盖、资本充足率、ROE及可持续派息。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/02558.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
