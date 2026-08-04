@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 22:13:49 +08:00",
+  "built_at": "2026-08-04 22:15:23 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -14926,6 +14926,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00382.HK/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "GIB",
+      "name": "CGI Inc. Common Stock",
+      "raw_name": "CGI Inc. Common Stock",
+      "market": "US",
+      "period": "2025-09-30",
+      "currency": "CNY",
+      "market_cap_yi": 1022.16,
+      "pe_ttm": 12.77,
+      "owner_earnback_years": 12.58,
+      "owner_earnback_rate_pct": 7.95,
+      "market_profit_payback_years": 11.04,
+      "market_cash_profit_yield_pct": 9.06,
+      "discounted_detachable_net_cash_yi": -142.68,
+      "discounted_net_cash_to_market_cap_pct": -13.96,
+      "operating_business_price_yi": 1164.83,
+      "discounted_cash_profit_yi": 92.59,
+      "revenue_yi": 818.55,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 85.3,
+      "gross_margin_pct": null,
+      "net_margin_pct": 10.42,
+      "forecast_dividend_yield_pct": 0.75,
+      "risk_level": "未分级",
+      "business_summary": "全球IT与业务咨询和外包服务商，以长期客户关系、本地前台配合全球交付网络，销售咨询、系统集成、托管服务及自有IP解决方案。",
+      "core_judgement": "按输入市值，CGI并非净现金公司：自有现金扣除有息债务后约为-142.7亿元。以FY2025经营自由现金流约96.0亿元为锚，并考虑FY2024相近水平后，将可持续可分配现金利润审慎取18.0亿加元（约92.6亿元人民币）。因此经营业务购买价约1164.8亿元，静态回本约12.6年；未计未来增长、并购支出、汇率变化或一次性大额现金需要。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/GIB/"
     },
     {
       "schema_version": "stock-research-result-v1",
