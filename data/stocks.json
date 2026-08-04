@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 06:02:08 +08:00",
+  "built_at": "2026-08-05 06:04:45 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -79003,6 +79003,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/MCI/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "02680.HK",
+      "name": "INNOVAX HLDGS",
+      "raw_name": "INNOVAX HLDGS",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 2.84,
+      "pe_ttm": 28.19,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": 0.0,
+      "operating_business_price_yi": null,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 0.21,
+      "gross_profit_yi": null,
+      "parent_net_profit_yi": 0.11,
+      "gross_margin_pct": null,
+      "net_margin_pct": 51.58,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "一家小型香港持牌券商，以企业融资顾问、配售承销、证券经纪及融资和资产管理收费，并承担自营金融资产与信用风险。",
+      "core_judgement": "普通控股回本公式不适用。券商的客户资金、客户应付款、保证金融资应收及自营金融资产是经营结构，且监管资本限制资金可分配性；应改看经纪/投行/资管收入稳定性、自营收益剔除后的盈利、ROE、监管资本、信用风险和实际分红。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/02680.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
