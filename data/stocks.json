@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-04 18:04:19 +08:00",
+  "built_at": "2026-08-04 18:07:00 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -19948,6 +19948,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002412.SZ/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "PBYI",
+      "name": "Puma Biotechnology Inc - Common Stock",
+      "raw_name": "Puma Biotechnology Inc - Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 27.24,
+      "pe_ttm": 16.52,
+      "owner_earnback_years": 17.29,
+      "owner_earnback_rate_pct": 5.79,
+      "market_profit_payback_years": 19.37,
+      "market_cash_profit_yield_pct": 5.16,
+      "discounted_detachable_net_cash_yi": 2.92,
+      "discounted_net_cash_to_market_cap_pct": 10.74,
+      "operating_business_price_yi": 24.31,
+      "discounted_cash_profit_yi": 1.41,
+      "revenue_yi": 16.05,
+      "gross_profit_yi": 11.96,
+      "parent_net_profit_yi": 2.19,
+      "gross_margin_pct": 74.53,
+      "net_margin_pct": 13.62,
+      "forecast_dividend_yield_pct": 0.0,
+      "risk_level": "未分级",
+      "business_summary": "Puma以NERLYNX治疗HER2阳性乳腺癌，在美国自建肿瘤销售团队销售，并通过海外分许可取得产品及版税收入，同时用现金流推进alisertib研发。",
+      "core_judgement": "按2026-08-03市值，先扣除折后可剥离净现金后，经营业务购买价约24.31亿元；以折后可持续现金利润约1.41亿元计，静态回本约17.3年。该数字不是收益预测：NERLYNX单产品集中、美国核心专利约2030年到期、海外版税已受中国仿制药影响，均可能使历史现金利润不能持续。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/PBYI/"
     },
     {
       "schema_version": "stock-research-result-v1",
