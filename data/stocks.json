@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-08-05 01:34:22 +08:00",
+  "built_at": "2026-08-05 01:34:53 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -37091,6 +37091,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/603014.SH/"
+    },
+    {
+      "schema_version": "stock-research-result-v1",
+      "code": "PAYC",
+      "name": "Paycom Software, Inc. Common Stock",
+      "raw_name": "Paycom Software, Inc. Common Stock",
+      "market": "US",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": 515.88,
+      "pe_ttm": 18.98,
+      "owner_earnback_years": 24.66,
+      "owner_earnback_rate_pct": 4.06,
+      "market_profit_payback_years": 25.37,
+      "market_cash_profit_yield_pct": 3.94,
+      "discounted_detachable_net_cash_yi": 14.46,
+      "discounted_net_cash_to_market_cap_pct": 2.8,
+      "operating_business_price_yi": 501.42,
+      "discounted_cash_profit_yi": 20.33,
+      "revenue_yi": 144.21,
+      "gross_profit_yi": 119.93,
+      "parent_net_profit_yi": 31.87,
+      "gross_margin_pct": 83.17,
+      "net_margin_pct": 22.1,
+      "forecast_dividend_yield_pct": 1.12,
+      "risk_level": "未分级",
+      "business_summary": "Paycom向企业提供覆盖招聘、薪酬、人力资源、工时与人才管理的一体化云端HCM平台，主要按期并结合员工数或处理交易量收费。",
+      "core_judgement": "以2026-08-03市值515.88亿元计，先将自有现金打八折并全额扣除租赁义务，得到折后可剥离净现金14.46亿元；2025年经营自由现金流28.68亿元再扣除8.34亿元股权激励的经济成本，得到折后可持续现金利润20.33亿元。经营业务购买价501.42亿元，对应约24.7年回本；该结果对资本开支和股权激励的持续水平敏感。",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/PAYC/"
     },
     {
       "schema_version": "stock-research-result-v1",
