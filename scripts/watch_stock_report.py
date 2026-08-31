@@ -4,12 +4,31 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import subprocess
 import time
 from pathlib import Path
 from typing import Any
 
 from publish_site import ROOT, publish
+from formal_reports import formal_report_digest, load_formal_reports
 from site_sources import UNIFIED_SCHEMA
+
+
+def sync_clean_stock_report(stock_report_root: Path) -> None:
+    status = subprocess.run(
+        ["git", "status", "--porcelain"], cwd=stock_report_root, text=True,
+        capture_output=True, check=False,
+    )
+    if status.returncode != 0:
+        raise RuntimeError(status.stderr.strip() or "stock_report is not a Git checkout")
+    if status.stdout.strip():
+        raise RuntimeError("stock_report publication mirror is not clean")
+    pulled = subprocess.run(
+        ["git", "pull", "--ff-only"], cwd=stock_report_root, text=True,
+        capture_output=True, check=False,
+    )
+    if pulled.returncode != 0:
+        raise RuntimeError(pulled.stderr.strip() or pulled.stdout.strip() or "stock_report pull failed")
 
 
 def report_digest(result_path: Path, report_path: Path) -> str:
@@ -45,6 +64,14 @@ def completed_reports(stock_report_root: Path, settle_seconds: int = 10) -> dict
             "code": code,
             "period": period,
             "digest": report_digest(result_path, report_path),
+        }
+    for report in load_formal_reports(stock_report_root):
+        if now - report.report_path.stat().st_mtime < settle_seconds:
+            continue
+        completed[f"{report.code}/{report.report_period}"] = {
+            "code": report.code,
+            "period": report.report_period,
+            "digest": formal_report_digest(report),
         }
     return completed
 
@@ -89,10 +116,16 @@ def main() -> None:
     parser.add_argument("--interval-seconds", type=int, default=20)
     parser.add_argument("--settle-seconds", type=int, default=10)
     parser.add_argument("--once", action="store_true")
+    parser.add_argument(
+        "--sync-stock-report", action="store_true",
+        help="fast-forward a dedicated clean stock_report mirror before every scan",
+    )
     args = parser.parse_args()
 
     while True:
         try:
+            if args.sync_stock_report:
+                sync_clean_stock_report(args.stock_report_root.resolve())
             result = publish_changes(args.stock_report_root.resolve(), args.state_file.resolve(), args.settle_seconds)
             if result.get("status") != "unchanged":
                 print(json.dumps(result, ensure_ascii=False), flush=True)

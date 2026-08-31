@@ -510,6 +510,127 @@ tbody tr:hover {
   word-break: normal;
 }
 
+.research-body {
+  background: #f5f1e8;
+}
+
+.research-index,
+.research-article-page {
+  width: min(860px, calc(100% - 32px));
+  margin-top: 0;
+}
+
+.research-intro {
+  padding: 72px 2px 46px;
+}
+
+.research-intro h1,
+.research-entry h2,
+.research-content h1 {
+  font-family: Georgia, "Noto Serif SC", "Songti SC", "STSong", serif;
+}
+
+.research-intro h1 {
+  max-width: 760px;
+  font-size: clamp(38px, 7vw, 64px);
+  letter-spacing: -0.025em;
+}
+
+.research-intro > p:last-child {
+  max-width: 680px;
+  margin: 20px 0 0;
+  color: var(--muted);
+  font-size: 17px;
+}
+
+.research-feed {
+  border-bottom: 1px solid #cec7b9;
+}
+
+.research-entry {
+  border-top: 1px solid #cec7b9;
+}
+
+.research-entry > a {
+  display: block;
+  padding: 34px 2px 38px;
+  color: inherit;
+}
+
+.research-entry > a:hover {
+  text-decoration: none;
+}
+
+.research-entry > a:hover h2 {
+  color: var(--accent);
+}
+
+.research-meta,
+.research-article-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px 16px;
+  color: #7a756b;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.035em;
+}
+
+.research-meta span:not(:first-child)::before,
+.research-meta time::before,
+.research-article-meta span:not(:first-child)::before,
+.research-article-meta time::before {
+  content: "·";
+  margin-right: 16px;
+  color: #aaa292;
+}
+
+.research-entry h2 {
+  margin: 14px 0 12px;
+  font-size: clamp(27px, 4vw, 38px);
+  font-weight: 600;
+  transition: color 120ms ease;
+}
+
+.research-entry p {
+  margin: 0;
+  color: #5f625f;
+  font-size: 16px;
+}
+
+.research-entry strong {
+  display: inline-block;
+  margin-top: 18px;
+  color: var(--accent);
+  font-size: 13px;
+}
+
+.research-empty {
+  padding: 34px 2px;
+  border-top: 1px solid #cec7b9;
+  color: var(--muted);
+}
+
+.research-article-page {
+  padding-top: 32px;
+}
+
+.research-article-meta {
+  margin: 0 0 16px;
+}
+
+.research-content {
+  margin-top: 0;
+  padding: clamp(22px, 5vw, 52px);
+  border-color: #d9d2c5;
+  border-radius: 2px;
+  box-shadow: none;
+}
+
+.research-content h1 {
+  font-size: clamp(30px, 5vw, 46px);
+}
+
 @media (max-width: 980px) {
   .site-header {
     grid-template-columns: 1fr;
@@ -565,5 +686,23 @@ tbody tr:hover {
 
   .site-nav {
     padding: 0 10px;
+    gap: 13px;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .research-intro {
+    padding: 44px 2px 32px;
+  }
+
+  .research-entry > a {
+    padding: 27px 2px 31px;
+  }
+
+  .research-meta span:not(:first-child)::before,
+  .research-meta time::before,
+  .research-article-meta span:not(:first-child)::before,
+  .research-article-meta time::before {
+    display: none;
   }
 }

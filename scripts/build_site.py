@@ -11,6 +11,7 @@ from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
+from formal_reports import FormalReport, load_formal_reports
 from site_sources import ResearchDocument, UNIFIED_SCHEMA, load_research_documents
 
 
@@ -23,8 +24,10 @@ DATA_DIR = ROOT / "data"
 STOCKS_DIR = ROOT / "stocks"
 REPORTS_DIR = ROOT / "reports"
 REFERENCE_DIR = ROOT / "reference"
+RESEARCH_DIR = ROOT / "research"
 TZ = ZoneInfo("Asia/Shanghai")
-ASSET_VERSION = "20260726-1"
+ASSET_VERSION = "20260831-1"
+LEGACY_REPORT_ASSET_VERSION = "20260726-1"
 
 
 def yuan_to_yi(value: float | int | None) -> float | None:
@@ -626,10 +629,24 @@ def fmt(value: object, suffix: str = "") -> str:
 
 
 def nav(current: str, prefix: str = "") -> str:
-    items = [("股票", "index", ""), ("报告", "reports", "reports/"), ("参考资料", "reference", "reference/")]
+    items = [
+        ("股票", "index", ""),
+        ("报告", "reports", "reports/"),
+        ("深度研报", "research", "research/"),
+        ("参考资料", "reference", "reference/"),
+    ]
     links = []
     for label, key, href in items:
         cls = ' class="active"' if key == current else ""
+        links.append(f'<a{cls} href="{prefix}{href}">{html.escape(label)}</a>')
+    return '<nav class="site-nav">' + "".join(links) + "</nav>"
+
+
+def legacy_report_nav(prefix: str = "") -> str:
+    items = [("股票", ""), ("报告", "reports/"), ("参考资料", "reference/")]
+    links = []
+    for label, href in items:
+        cls = ' class="active"' if label == "报告" else ""
         links.append(f'<a{cls} href="{prefix}{href}">{html.escape(label)}</a>')
     return '<nav class="site-nav">' + "".join(links) + "</nav>"
 
@@ -868,6 +885,89 @@ def render_reference() -> str:
 """
 
 
+def render_research_index(reports: list[FormalReport]) -> str:
+    articles = []
+    for report in reports:
+        articles.append(f"""
+      <article class="research-entry">
+        <a href="{html.escape(report.url)}">
+          <div class="research-meta">
+            <span>深度研报</span><span>{html.escape(report.market)}</span>
+            <span>报告期 {html.escape(report.report_period)}</span><time>{html.escape(report.publication_date)}</time>
+          </div>
+          <h2>{html.escape(report.title)}</h2>
+          <p>{html.escape(report.excerpt)}</p>
+          <strong>阅读全文 →</strong>
+        </a>
+      </article>""")
+    empty = '<p class="research-empty">暂无通过验收的深度研报。</p>' if not articles else ""
+    return f"""<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>深度研报 - AH Note</title>
+  <meta name="description" content="从财报和公开信息还原公司的生意模式、经营情况与价值。">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/styles.css?v={ASSET_VERSION}">
+</head>
+<body class="research-body">
+  {nav("research", "../")}
+  <main class="research-index">
+    <header class="research-intro">
+      <p class="eyebrow">AH NOTE · 深度研报</p>
+      <h1>理解一门生意，也理解它的账</h1>
+      <p>基于财报与公司公开信息，还原客户、产品、产能、供应链、渠道、资本需求和现金流，再形成完整的公司研究。</p>
+    </header>
+    <section class="research-feed" aria-label="深度研报列表">{''.join(articles)}{empty}
+    </section>
+  </main>
+</body>
+</html>
+"""
+
+
+def render_research_detail(report: FormalReport) -> str:
+    report_html = markdown_to_html(report.markdown)
+    return f"""<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{html.escape(report.title)} - AH Note</title>
+  <meta name="description" content="{html.escape(report.excerpt)}">
+  <link rel="icon" href="../../../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../../../assets/styles.css?v={ASSET_VERSION}">
+</head>
+<body class="research-body">
+  {nav("research", "../../../")}
+  <main class="research-article-page">
+    <a class="back-link" href="../../">← 返回深度研报</a>
+    <div class="research-article-meta">
+      <span>{html.escape(report.name)} · {html.escape(report.code)}</span>
+      <span>报告期 {html.escape(report.report_period)}</span>
+      <time>发布于 {html.escape(report.publication_date)}</time>
+    </div>
+    <article class="report-content research-content">
+      {report_html}
+    </article>
+  </main>
+</body>
+</html>
+"""
+
+
+def write_research_pages(reports: list[FormalReport]) -> None:
+    if RESEARCH_DIR.exists():
+        shutil.rmtree(RESEARCH_DIR)
+    RESEARCH_DIR.mkdir(exist_ok=True)
+    (RESEARCH_DIR / "index.html").write_text(render_research_index(reports), encoding="utf-8")
+    for report in reports:
+        out_dir = RESEARCH_DIR / report.code / report.analysis_version
+        out_dir.mkdir(parents=True, exist_ok=True)
+        (out_dir / "index.html").write_text(render_research_detail(report), encoding="utf-8")
+
+
 def render_detail(stock: dict, report_html: str, built_at: str) -> str:
     tags = "".join(f"<span>{html.escape(tag)}</span>" for tag in stock["user_tags"])
     note_block = ""
@@ -885,10 +985,10 @@ def render_detail(stock: dict, report_html: str, built_at: str) -> str:
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{html.escape(stock["name"])} {html.escape(stock["code"])} - AH Note</title>
   <link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="../../assets/styles.css?v={ASSET_VERSION}">
+  <link rel="stylesheet" href="../../assets/styles.css?v={LEGACY_REPORT_ASSET_VERSION}">
 </head>
 <body>
-  {nav("reports", "../../")}
+  {legacy_report_nav("../../")}
   <main class="report-page">
     <a class="back-link" href="../">← 返回报告</a>
 {note_block}
@@ -901,8 +1001,10 @@ def render_detail(stock: dict, report_html: str, built_at: str) -> str:
 """
 
 
-def write_detail_pages(stocks: list[dict], built_at: str) -> None:
+def write_detail_pages(stocks: list[dict], built_at: str, detail_codes: set[str] | None = None) -> None:
     for stock in stocks:
+        if detail_codes is not None and stock["code"] not in detail_codes:
+            continue
         report_path_text = stock.get("_report_path")
         if not report_path_text:
             continue
@@ -913,7 +1015,11 @@ def write_detail_pages(stocks: list[dict], built_at: str) -> None:
         (out_dir / "index.html").write_text(render_detail(stock, report_html, built_at), encoding="utf-8")
 
 
-def build_site(stock_report_root: Path = STOCK_REPORT_DIR, legacy_source_dir: Path = SOURCE_DIR) -> int:
+def build_site(
+    stock_report_root: Path = STOCK_REPORT_DIR,
+    legacy_source_dir: Path = SOURCE_DIR,
+    detail_codes: set[str] | None = None,
+) -> int:
     DATA_DIR.mkdir(exist_ok=True)
     if STOCKS_DIR.exists():
         shutil.rmtree(STOCKS_DIR)
@@ -924,6 +1030,7 @@ def build_site(stock_report_root: Path = STOCK_REPORT_DIR, legacy_source_dir: Pa
     chinese_names = load_chinese_names(notes, stock_report_root)
     sourced_stocks = load_stocks(notes, chinese_names, legacy_source_dir, stock_report_root)
     stocks = merge_published_stocks(load_published_stocks(), sourced_stocks)
+    formal_reports = load_formal_reports(stock_report_root)
     public_stocks = []
     for stock in stocks:
         public_stock = dict(stock)
@@ -937,11 +1044,16 @@ def build_site(stock_report_root: Path = STOCK_REPORT_DIR, legacy_source_dir: Pa
         json.dumps({"built_at": built_at, "stocks": public_stocks}, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
+    (DATA_DIR / "research.json").write_text(
+        json.dumps({"reports": [report.public_record() for report in formal_reports]}, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
     (ROOT / "index.html").write_text(render_index(public_stocks, built_at), encoding="utf-8")
     (REPORTS_DIR / "index.html").write_text(render_reports_index(public_stocks, built_at), encoding="utf-8")
     (REFERENCE_DIR / "index.html").write_text(render_reference(), encoding="utf-8")
-    write_detail_pages(stocks, built_at)
-    print(f"generated {len(stocks)} stocks at {built_at}")
+    write_detail_pages(stocks, built_at, detail_codes)
+    write_research_pages(formal_reports)
+    print(f"generated {len(stocks)} stocks and {len(formal_reports)} formal reports at {built_at}")
     return len(stocks)
 
 

@@ -12,7 +12,7 @@ from typing import Any
 from build_site import ROOT, build_site
 
 
-PUBLISH_PATHS = ["data", "index.html", "reports", "reference"]
+PUBLISH_PATHS = ["assets/styles.css", "data", "index.html", "reports", "research", "reference"]
 CODE_RE = re.compile(r"^[0-9A-Z.-]+$")
 
 
@@ -75,7 +75,7 @@ def publish(stock_report_root: Path, codes: list[str], *, push: bool = True) -> 
             # Retry a commit left locally by an earlier transient push failure before rebuilding.
             run_git(["push", "origin", "HEAD:main"])
 
-        count = build_site(stock_report_root)
+        count = build_site(stock_report_root, detail_codes={code.upper() for code in codes})
         run_git(["add", "--all", "--", *PUBLISH_PATHS])
         changed = run_git(["diff", "--cached", "--quiet"], check=False).returncode != 0
         if not changed:
