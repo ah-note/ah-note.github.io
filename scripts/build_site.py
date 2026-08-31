@@ -26,7 +26,7 @@ REPORTS_DIR = ROOT / "reports"
 REFERENCE_DIR = ROOT / "reference"
 RESEARCH_DIR = ROOT / "research"
 TZ = ZoneInfo("Asia/Shanghai")
-ASSET_VERSION = "20260831-1"
+ASSET_VERSION = "20260831-2"
 LEGACY_REPORT_ASSET_VERSION = "20260726-1"
 
 
@@ -164,6 +164,7 @@ def split_table_row(line: str) -> list[str]:
 def render_table(lines: list[str]) -> str:
     headers = split_table_row(lines[0])
     rows = [split_table_row(line) for line in lines[2:]]
+    wrapper_class = "table-wrap-wide" if len(headers) >= 6 else "table-wrap-standard"
     head = "".join(f"<th>{inline_markdown(cell)}</th>" for cell in headers)
     body_rows = []
     for row in rows:
@@ -173,7 +174,7 @@ def render_table(lines: list[str]) -> str:
             + "</tr>"
         )
     return (
-        '<div class="table-wrap"><table><thead><tr>'
+        f'<div class="table-wrap {wrapper_class}"><table><thead><tr>'
         + head
         + "</tr></thead><tbody>"
         + "".join(body_rows)

@@ -12,7 +12,13 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
-from build_site import load_stocks, merge_published_stocks, render_research_index, render_research_detail  # noqa: E402
+from build_site import (  # noqa: E402
+    load_stocks,
+    merge_published_stocks,
+    render_research_detail,
+    render_research_index,
+    render_table,
+)
 from formal_reports import load_formal_reports  # noqa: E402
 from site_sources import UNIFIED_SCHEMA, load_research_documents  # noqa: E402
 from watch_stock_report import completed_reports  # noqa: E402
@@ -101,6 +107,17 @@ def write_formal_database(root: Path, records: list[dict]) -> None:
 
 
 class SitePipelineTest(unittest.TestCase):
+    def test_report_tables_only_expand_when_they_have_many_columns(self) -> None:
+        standard = render_table(["| 项目 | 金额 |", "| --- | --- |", "| 收入 | 100 |"])
+        wide = render_table([
+            "| 业务 | 收入 | 成本 | 毛利 | 资产 | 资金 |",
+            "| --- | --- | --- | --- | --- | --- |",
+            "| 主业 | 100 | 60 | 40 | 80 | 20 |",
+        ])
+
+        self.assertIn('class="table-wrap table-wrap-standard"', standard)
+        self.assertIn('class="table-wrap table-wrap-wide"', wide)
+
     def test_formal_report_feed_only_loads_approved_hash_verified_latest_versions(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
             stock_report = Path(temporary) / "stock_report"
