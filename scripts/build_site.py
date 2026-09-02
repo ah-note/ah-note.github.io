@@ -920,11 +920,6 @@ def render_research_index(reports: list[FormalReport]) -> str:
 <body class="research-body">
   {nav("research", "../")}
   <main class="research-index">
-    <header class="research-intro">
-      <p class="eyebrow">AH NOTE · 深度研报</p>
-      <h1>理解一门生意，也理解它的账</h1>
-      <p>基于财报与公司公开信息，还原客户、产品、产能、供应链、渠道、资本需求和现金流，再形成完整的公司研究。</p>
-    </header>
     <section class="research-feed" aria-label="深度研报列表">{''.join(articles)}{empty}
     </section>
   </main>

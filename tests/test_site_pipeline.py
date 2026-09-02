@@ -220,7 +220,9 @@ class SitePipelineTest(unittest.TestCase):
             self.assertEqual([report.code for report in reports], ["000001.SZ"])
             self.assertEqual(reports[0].title, "测试公司研究报告")
             self.assertIn("客户、产品、供应链", reports[0].excerpt)
-            self.assertIn('href="000001.SZ/v2/"', render_research_index(reports))
+            research_index = render_research_index(reports)
+            self.assertIn('href="000001.SZ/v2/"', research_index)
+            self.assertNotIn("理解一门生意，也理解它的账", research_index)
             self.assertIn("折算三表", render_research_detail(reports[0]))
 
     def test_watcher_detects_formal_report_without_legacy_result(self) -> None:
