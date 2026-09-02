@@ -20,7 +20,7 @@ from build_site import (  # noqa: E402
     render_table,
 )
 from formal_reports import load_formal_reports  # noqa: E402
-from site_sources import UNIFIED_SCHEMA, load_research_documents  # noqa: E402
+from site_sources import CURRENT_SCHEMA, UNIFIED_SCHEMA, load_research_documents  # noqa: E402
 from watch_stock_report import completed_reports  # noqa: E402
 
 
@@ -61,6 +61,44 @@ def unified_result(code: str, period: str = "2025-12-31", status: str = "complet
         },
         "business": {"one_line": "卖测试产品，利润来自服务费，生意轻资产且现金转化稳定。"},
         "data_quality": {"status": status},
+    }
+
+
+def current_result(code: str, *, review_passed: bool = True) -> dict:
+    review_names = [
+        "capital_return_interpretability",
+        "source_traceability",
+        "economic_classification",
+        "stable_state",
+        "report_consistency",
+    ]
+    return {
+        "schema_version": CURRENT_SCHEMA,
+        "company": {"code": code, "name": "拼多多"},
+        "period": {"label": "2025年", "end": "2025-12-31"},
+        "units": {"financial_currency": "人民币", "trading_currency": "美元"},
+        "fields": {
+            "actual": {
+                "revenue": {"value": 431_800_000_000},
+                "parent_profit": {"value": 97_800_000_000},
+            }
+        },
+        "computed": {
+            "actual": {
+                "gross_margin": {"value": 0.563},
+                "ebit": {"value": 93_100_000_000},
+                "fcff": {"value": 85_600_000_000},
+            },
+            "stable": {"fcff": {"value": 69_800_000_000}},
+            "valuation": {
+                "business_value": {"value": 488_600_000_000},
+                "common_equity_value": {"value": 972_800_000_000},
+            },
+        },
+        "review": {
+            name: {"passed": review_passed, "reason": "checked"}
+            for name in review_names
+        },
     }
 
 
@@ -107,6 +145,47 @@ def write_formal_database(root: Path, records: list[dict]) -> None:
 
 
 class SitePipelineTest(unittest.TestCase):
+    def test_current_analysis_v2_is_normalized_for_publication(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            stock_report = Path(temporary) / "stock_report"
+            source = stock_report / "data/analysis/stock_research"
+            write_research(
+                source,
+                "PDD",
+                "2025-12-31",
+                current_result("PDD"),
+                "# 拼多多\n\n## 结论\n\n拼多多是一家由商户付费、消费者形成流量和订单的平台企业，这段话作为公开报告列表摘要。",
+            )
+
+            documents = load_research_documents(None, stock_report)
+            stocks = load_stocks({}, {}, Path(temporary) / "missing", stock_report)
+
+            self.assertEqual(len(documents), 1)
+            self.assertEqual(documents[0].result["schema_version"], CURRENT_SCHEMA)
+            self.assertEqual(documents[0].result["period"], "2025-12-31")
+            self.assertEqual(stocks[0]["market"], "US")
+            self.assertEqual(stocks[0]["gross_margin_pct"], 56.3)
+            self.assertEqual(stocks[0]["revenue_yi"], 4318.0)
+            self.assertEqual(stocks[0]["gross_profit_yi"], 2431.03)
+            self.assertTrue(stocks[0]["business_summary"].startswith("拼多多是一家由商户付费"))
+
+    def test_watcher_detects_only_reviewed_current_analysis_v2(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            stock_report = Path(temporary) / "stock_report"
+            source = stock_report / "data/analysis/stock_research"
+            write_research(source, "PDD", "2025-12-31", current_result("PDD"), "report")
+            write_research(
+                source,
+                "FAIL",
+                "2025-12-31",
+                current_result("FAIL", review_passed=False),
+                "bad",
+            )
+
+            reports = completed_reports(stock_report, settle_seconds=0)
+
+            self.assertEqual(list(reports), ["PDD/2025-12-31"])
+
     def test_report_tables_only_expand_when_they_have_many_columns(self) -> None:
         standard = render_table(["| 项目 | 金额 |", "| --- | --- |", "| 收入 | 100 |"])
         wide = render_table([

@@ -11,8 +11,8 @@ from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-from formal_reports import FormalReport, load_formal_reports
-from site_sources import ResearchDocument, UNIFIED_SCHEMA, load_research_documents
+from formal_reports import FormalReport, load_formal_reports, report_excerpt
+from site_sources import CURRENT_SCHEMA, ResearchDocument, UNIFIED_SCHEMA, load_research_documents, schema_rank
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -531,15 +531,18 @@ def stock_from_document(
     raw_name = company.get("display_name") or company.get("name") or note.get("company") or code
     display_name = (
         raw_name
-        if result.get("schema_version") == UNIFIED_SCHEMA and name_is_chinese(str(raw_name))
+        if result.get("schema_version") in {UNIFIED_SCHEMA, CURRENT_SCHEMA} and name_is_chinese(str(raw_name))
         else display_name_for(code, raw_name, chinese_names)
     )
     generated_summary, generated_judgement = extract_summary(sections_for_summary)
-    business_summary = compact_text(str(business.get("one_line") or generated_summary), 180)
+    if result.get("schema_version") == CURRENT_SCHEMA and not business.get("one_line"):
+        business_summary = compact_text(report_excerpt(document.report_path.read_text(encoding="utf-8")), 180)
+    else:
+        business_summary = compact_text(str(business.get("one_line") or generated_summary), 180)
     core_judgement = compact_text(str(earnback.get("interpretation") or generated_judgement), 240)
     market_cap_yi = yuan_to_yi(metrics.get("market_cap"))
     discounted_cash_yi = yuan_to_yi(metrics.get("discounted_detachable_net_cash"))
-    if result.get("schema_version") == UNIFIED_SCHEMA:
+    if result.get("schema_version") in {UNIFIED_SCHEMA, CURRENT_SCHEMA}:
         gross_margin_usable = isinstance(metrics.get("gross_margin"), (int, float))
         net_margin_usable = isinstance(metrics.get("net_margin"), (int, float))
     else:
@@ -555,7 +558,9 @@ def stock_from_document(
         "code": code,
         "name": display_name,
         "raw_name": raw_name,
-        "market": company.get("market") or ("HK" if code.endswith(".HK") else "A"),
+        "market": company.get("market") or (
+            "HK" if code.endswith(".HK") else "A" if code.endswith((".SH", ".SZ", ".BJ")) else "US"
+        ),
         "period": result.get("period") or document.result_path.parent.name,
         "currency": result.get("currency") or "CNY",
         "market_cap_yi": market_cap_yi,
@@ -611,10 +616,10 @@ def merge_published_stocks(published: list[dict], sourced: list[dict]) -> list[d
     for stock in sourced:
         code = str(stock.get("code") or "").upper()
         current = merged.get(code)
-        candidate_rank = (str(stock.get("period") or ""), 1 if stock.get("schema_version") == UNIFIED_SCHEMA else 0)
+        candidate_rank = (str(stock.get("period") or ""), schema_rank(stock))
         current_rank = (
             str(current.get("period") or ""),
-            1 if current.get("schema_version") == UNIFIED_SCHEMA else 0,
+            schema_rank(current),
         ) if current else None
         if current_rank is None or candidate_rank >= current_rank:
             merged[code] = dict(stock)

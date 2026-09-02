@@ -7,6 +7,14 @@ from typing import Any
 
 
 UNIFIED_SCHEMA = "stock-research-result-v1"
+CURRENT_SCHEMA = "stock-research-analysis-v2"
+REQUIRED_CURRENT_REVIEWS = {
+    "capital_return_interpretability",
+    "source_traceability",
+    "economic_classification",
+    "stable_state",
+    "report_consistency",
+}
 
 
 @dataclass(frozen=True)
@@ -30,7 +38,53 @@ def ratio(numerator: Any, denominator: Any) -> float | None:
     return float(numerator) / float(denominator)
 
 
+def nested_value(payload: dict[str, Any], *path: str) -> Any:
+    current: Any = payload
+    for key in path:
+        if not isinstance(current, dict):
+            return None
+        current = current.get(key)
+    if isinstance(current, dict) and "value" in current:
+        return current.get("value")
+    return current
+
+
+def normalize_current_result(result: dict[str, Any], result_path: Path) -> dict[str, Any]:
+    company = result.get("company") if isinstance(result.get("company"), dict) else {}
+    period = result.get("period") if isinstance(result.get("period"), dict) else {}
+    units = result.get("units") if isinstance(result.get("units"), dict) else {}
+    revenue = nested_value(result, "fields", "actual", "revenue")
+    parent_profit = nested_value(result, "fields", "actual", "parent_profit")
+    gross_margin = nested_value(result, "computed", "actual", "gross_margin")
+    metrics = {
+        "revenue": revenue,
+        "gross_profit": revenue * gross_margin if isinstance(revenue, (int, float)) and isinstance(gross_margin, (int, float)) else None,
+        "gross_margin": gross_margin,
+        "operating_profit": nested_value(result, "computed", "actual", "ebit"),
+        "parent_net_profit": parent_profit,
+        "net_margin": ratio(parent_profit, revenue),
+        "operating_free_cash_flow": nested_value(result, "computed", "actual", "fcff"),
+        "operating_business_price": nested_value(result, "computed", "valuation", "business_value"),
+    }
+    return {
+        "schema_version": CURRENT_SCHEMA,
+        "company": company,
+        "period": period.get("end") or result_path.parent.name,
+        "currency": units.get("financial_currency") or "CNY",
+        "metrics": metrics,
+        "sections": {},
+        "business": {},
+        "owner_earnback": {},
+        "risk_assessment": [],
+        "risks": [],
+        "data_quality": {"status": "complete"},
+        "analysis": result,
+    }
+
+
 def normalize_result(result: dict[str, Any], result_path: Path) -> dict[str, Any]:
+    if result.get("schema_version") == CURRENT_SCHEMA:
+        return normalize_current_result(result, result_path)
     if result.get("schema_version") != UNIFIED_SCHEMA:
         normalized = dict(result)
         normalized.setdefault("schema_version", "legacy")
@@ -125,10 +179,25 @@ def normalize_result(result: dict[str, Any], result_path: Path) -> dict[str, Any
 
 
 def schema_rank(result: dict[str, Any]) -> int:
-    return 1 if result.get("schema_version") == UNIFIED_SCHEMA else 0
+    return {CURRENT_SCHEMA: 2, UNIFIED_SCHEMA: 1}.get(result.get("schema_version"), 0)
 
 
 def is_publishable(result: dict[str, Any]) -> bool:
+    if result.get("schema_version") == CURRENT_SCHEMA:
+        analysis = result.get("analysis") if isinstance(result.get("analysis"), dict) else {}
+        review = analysis.get("review") if isinstance(analysis.get("review"), dict) else {}
+        passed_reviews = {
+            key for key, value in review.items()
+            if isinstance(value, dict) and value.get("passed") is True
+        }
+        return REQUIRED_CURRENT_REVIEWS <= passed_reviews and all(
+            isinstance(nested_value(analysis, *path), (int, float))
+            for path in [
+                ("computed", "actual", "fcff"),
+                ("computed", "stable", "fcff"),
+                ("computed", "valuation", "common_equity_value"),
+            ]
+        )
     if result.get("schema_version") != UNIFIED_SCHEMA:
         return True
     quality = result.get("data_quality") if isinstance(result.get("data_quality"), dict) else {}

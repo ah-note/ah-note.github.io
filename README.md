@@ -1,6 +1,6 @@
 # AH Note
 
-Public stock research notes website for A-share and Hong Kong stock reports.
+Public stock research notes website for multi-market company reports.
 
 ## Build
 
@@ -12,9 +12,11 @@ python3 scripts/build_site.py
 python3 -m http.server 8765
 ```
 
-`build_site.py` 会把 `_source/stock_research/` 作为旧报告兜底，并优先读取相邻
-`stock_report/data/analysis/stock_research/` 中统一 Agent 的结果。同一股票只发布最新报告期；
-相同报告期内，`stock-research-result-v1` 会覆盖旧版结果。
+AH Note 是公司研究报告唯一的公开发布渠道。`build_site.py` 会把
+`_source/stock_research/` 作为旧报告兜底，并优先读取相邻
+`stock_report/data/analysis/stock_research/` 中统一 Agent 的已校验结果；`stock_report`
+只作为内部中转和追溯仓，不作为面向读者的发布入口。同一股票只发布最新报告期；相同报告期内，
+`stock-research-analysis-v2` 优先于 `stock-research-result-v1` 和旧版结果。
 
 “深度研报”是独立发布链路。它从
 `stock_report/data/derived/stock_research/research.sqlite3` 读取每家公司最新研究版本，且只发布

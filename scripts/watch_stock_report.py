@@ -11,7 +11,7 @@ from typing import Any
 
 from publish_site import ROOT, publish
 from formal_reports import formal_report_digest, load_formal_reports
-from site_sources import UNIFIED_SCHEMA
+from site_sources import CURRENT_SCHEMA, UNIFIED_SCHEMA, is_publishable, normalize_result
 
 
 def sync_clean_stock_report(stock_report_root: Path) -> None:
@@ -53,13 +53,14 @@ def completed_reports(stock_report_root: Path, settle_seconds: int = 10) -> dict
             result = json.loads(result_path.read_text(encoding="utf-8"))
         except (OSError, json.JSONDecodeError):
             continue
-        quality = result.get("data_quality") if isinstance(result.get("data_quality"), dict) else {}
-        if result.get("schema_version") != UNIFIED_SCHEMA or quality.get("status") not in {"complete", "partial"}:
+        if result.get("schema_version") not in {UNIFIED_SCHEMA, CURRENT_SCHEMA}:
             continue
-        company = result.get("company") if isinstance(result.get("company"), dict) else {}
-        analysis = result.get("analysis") if isinstance(result.get("analysis"), dict) else {}
+        normalized = normalize_result(result, result_path)
+        if not is_publishable(normalized):
+            continue
+        company = normalized.get("company") if isinstance(normalized.get("company"), dict) else {}
         code = str(company.get("code") or result_path.parents[1].name).upper()
-        period = str(analysis.get("period") or result_path.parent.name)
+        period = str(normalized.get("period") or result_path.parent.name)
         completed[f"{code}/{period}"] = {
             "code": code,
             "period": period,
