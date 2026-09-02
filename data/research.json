@@ -1,6 +1,19 @@
 {
   "reports": [
     {
+      "analysis_version": "2025-annual-761bea7a2270",
+      "code": "00837.HK",
+      "name": "谭木匠",
+      "market": "HK",
+      "report_period": "2025-12-31",
+      "generated_at": "2026-09-02T11:53:04+08:00",
+      "review_status": "pass",
+      "report_sha256": "55cf09d52a367bb2d3490a557af212803e5338c85552deb29a732520fd7430bd",
+      "title": "谭木匠（00837.HK）2025 年公司研究",
+      "excerpt": "财报币种/金额单位：CNY/亿元；股数单位：亿股；每股价格单位：港元/股；估值日：2026-08-31。",
+      "url": "research/00837.HK/2025-annual-761bea7a2270/"
+    },
+    {
       "analysis_version": "2025-annual-b0b9119dbbda",
       "code": "00868.HK",
       "name": "信义玻璃",
@@ -38,19 +51,6 @@
       "title": "古茗：密度成为现金之后",
       "excerpt": "古茗已经把低线城市的区域密度、冷链供应链和加盟商网络变成了高利润、低总部资产强度的现金生意。2025年的问题不在于增长是否漂亮，而在于漂亮的增长中有多少来自可持续的组织能力、多少来自平台补贴；公司层的问题则是，账面上的大量资金有多少最终能够解除约束并到达股东。",
       "url": "research/01364.HK/2025-annual-3814a6dc67fd/"
-    },
-    {
-      "analysis_version": "2025-annual-bf86c325eabe",
-      "code": "00837.HK",
-      "name": "谭木匠",
-      "market": "HK",
-      "report_period": "2025-12-31",
-      "generated_at": "2026-08-30T23:13:24+08:00",
-      "review_status": "pass",
-      "report_sha256": "396f899364443d541ac2c42a846a88dd13f587fcba10df55bb2c61e52fbe3027",
-      "title": "谭木匠：高毛利礼赠生意，价值卡在库存与资金释放之间",
-      "excerpt": "谭木匠卖的是木梳、木镜和木制工艺品，但消费者购买的并不只是梳理功能。2025 年，盒装组合产品收入约 5.13 亿元，占总收入 91.9%；单独木梳仅占 7.1%。这说明真正支撑价格的，是天然材质、东方文化寓意、设计、礼赠体面和可维修性共同组成的体验。传统木梳制作技艺的文化身份、公司长期强调的材料处理和人工打磨，为这种溢价提供了可信的产品载体。",
-      "url": "research/00837.HK/2025-annual-bf86c325eabe/"
     },
     {
       "analysis_version": "2025-annual-ba4ef6005ef2",
