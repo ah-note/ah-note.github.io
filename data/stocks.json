@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-09-02 18:35:48 +08:00",
+  "built_at": "2026-09-03 11:19:29 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -79220,6 +79220,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/PDD/"
+    },
+    {
+      "schema_version": "stock-research-analysis-v2",
+      "code": "601868.SH",
+      "name": "中国能建",
+      "raw_name": "中国能建",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "人民币",
+      "market_cap_yi": null,
+      "pe_ttm": null,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": null,
+      "operating_business_price_yi": 1010.45,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 4529.3,
+      "gross_profit_yi": 552.19,
+      "parent_net_profit_yi": 58.4,
+      "gross_margin_pct": 12.19,
+      "net_margin_pct": 1.29,
+      "forecast_dividend_yield_pct": null,
+      "risk_level": "未分级",
+      "business_summary": "中国能建的客户价值，是用规划设计、工程总承包、装备制造和投建营一体化能力，把电源、电网、水利及相关基础设施从方案变成可交付资产。它的优势最强在订单入口：公司称其完成国内超过90%的电力规划咨询、评估和行业标准制定，火电及特高压输变电设计份额超过90%，并能把设计能力延伸为EPC、装备和运营项目。问题在订单之后：工程建设贡献绝大多数收入但毛利率仅7.17%，回...",
+      "core_judgement": "",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/601868.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
