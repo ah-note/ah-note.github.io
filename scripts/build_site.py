@@ -12,6 +12,7 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 from formal_reports import FormalReport, load_formal_reports, report_excerpt
+from research_feed import ResearchFeedEntry, build_research_feed
 from site_sources import CURRENT_SCHEMA, ResearchDocument, UNIFIED_SCHEMA, load_research_documents, schema_rank
 
 
@@ -596,9 +597,13 @@ def load_stocks(
     chinese_names: dict[str, str],
     legacy_source_dir: Path = SOURCE_DIR,
     stock_report_root: Path = STOCK_REPORT_DIR,
+    documents: list[ResearchDocument] | None = None,
 ) -> list[dict]:
     stocks: list[dict] = []
-    for document in load_research_documents(legacy_source_dir, stock_report_root):
+    source_documents = documents if documents is not None else load_research_documents(
+        legacy_source_dir, stock_report_root
+    )
+    for document in source_documents:
         stocks.append(stock_from_document(document, notes, chinese_names))
     return sorted(stocks, key=stock_sort_key)
 
@@ -891,14 +896,14 @@ def render_reference() -> str:
 """
 
 
-def render_research_index(reports: list[FormalReport]) -> str:
+def render_research_index(reports: list[ResearchFeedEntry]) -> str:
     articles = []
     for report in reports:
         articles.append(f"""
       <article class="research-entry">
-        <a href="{html.escape(report.url)}">
+        <a href="{html.escape(report.page_url)}">
           <div class="research-meta">
-            <span>深度研报</span><span>{html.escape(report.market)}</span>
+            <span>{html.escape(report.label)}</span><span>{html.escape(report.market)}</span>
             <span>报告期 {html.escape(report.report_period)}</span><time>{html.escape(report.publication_date)}</time>
           </div>
           <h2>{html.escape(report.title)}</h2>
@@ -906,13 +911,13 @@ def render_research_index(reports: list[FormalReport]) -> str:
           <strong>阅读全文 →</strong>
         </a>
       </article>""")
-    empty = '<p class="research-empty">暂无通过验收的深度研报。</p>' if not articles else ""
+    empty = '<p class="research-empty">暂无通过验收的公司研究。</p>' if not articles else ""
     return f"""<!doctype html>
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>深度研报 - AH Note</title>
+  <title>研究 - AH Note</title>
   <meta name="description" content="从财报和公开信息还原公司的生意模式、经营情况与价值。">
   <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="../assets/styles.css?v={ASSET_VERSION}">
@@ -920,7 +925,7 @@ def render_research_index(reports: list[FormalReport]) -> str:
 <body class="research-body">
   {nav("research", "../")}
   <main class="research-index">
-    <section class="research-feed" aria-label="深度研报列表">{''.join(articles)}{empty}
+    <section class="research-feed" aria-label="研究报告列表">{''.join(articles)}{empty}
     </section>
   </main>
 </body>
@@ -958,12 +963,12 @@ def render_research_detail(report: FormalReport) -> str:
 """
 
 
-def write_research_pages(reports: list[FormalReport]) -> None:
+def write_research_pages(feed: list[ResearchFeedEntry], formal_reports: list[FormalReport]) -> None:
     if RESEARCH_DIR.exists():
         shutil.rmtree(RESEARCH_DIR)
     RESEARCH_DIR.mkdir(exist_ok=True)
-    (RESEARCH_DIR / "index.html").write_text(render_research_index(reports), encoding="utf-8")
-    for report in reports:
+    (RESEARCH_DIR / "index.html").write_text(render_research_index(feed), encoding="utf-8")
+    for report in formal_reports:
         out_dir = RESEARCH_DIR / report.code / report.analysis_version
         out_dir.mkdir(parents=True, exist_ok=True)
         (out_dir / "index.html").write_text(render_research_detail(report), encoding="utf-8")
@@ -1029,9 +1034,11 @@ def build_site(
     built_at = datetime.now(TZ).strftime("%Y-%m-%d %H:%M:%S +08:00")
     notes = parse_notes(stock_report_root)
     chinese_names = load_chinese_names(notes, stock_report_root)
-    sourced_stocks = load_stocks(notes, chinese_names, legacy_source_dir, stock_report_root)
+    documents = load_research_documents(legacy_source_dir, stock_report_root)
+    sourced_stocks = load_stocks(notes, chinese_names, legacy_source_dir, stock_report_root, documents)
     stocks = merge_published_stocks(load_published_stocks(), sourced_stocks)
     formal_reports = load_formal_reports(stock_report_root)
+    research_feed = build_research_feed(documents, formal_reports)
     public_stocks = []
     for stock in stocks:
         public_stock = dict(stock)
@@ -1046,15 +1053,15 @@ def build_site(
         encoding="utf-8",
     )
     (DATA_DIR / "research.json").write_text(
-        json.dumps({"reports": [report.public_record() for report in formal_reports]}, ensure_ascii=False, indent=2),
+        json.dumps({"reports": [report.public_record() for report in research_feed]}, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
     (ROOT / "index.html").write_text(render_index(public_stocks, built_at), encoding="utf-8")
     (REPORTS_DIR / "index.html").write_text(render_reports_index(public_stocks, built_at), encoding="utf-8")
     (REFERENCE_DIR / "index.html").write_text(render_reference(), encoding="utf-8")
     write_detail_pages(stocks, built_at, detail_codes)
-    write_research_pages(formal_reports)
-    print(f"generated {len(stocks)} stocks and {len(formal_reports)} formal reports at {built_at}")
+    write_research_pages(research_feed, formal_reports)
+    print(f"generated {len(stocks)} stocks and {len(research_feed)} research entries at {built_at}")
     return len(stocks)
 
 

@@ -20,6 +20,7 @@ from build_site import (  # noqa: E402
     render_table,
 )
 from formal_reports import load_formal_reports  # noqa: E402
+from research_feed import build_research_feed  # noqa: E402
 from site_sources import CURRENT_SCHEMA, UNIFIED_SCHEMA, load_research_documents  # noqa: E402
 from watch_stock_report import completed_reports  # noqa: E402
 
@@ -220,10 +221,41 @@ class SitePipelineTest(unittest.TestCase):
             self.assertEqual([report.code for report in reports], ["000001.SZ"])
             self.assertEqual(reports[0].title, "测试公司研究报告")
             self.assertIn("客户、产品、供应链", reports[0].excerpt)
-            research_index = render_research_index(reports)
+            research_index = render_research_index(build_research_feed([], reports))
             self.assertIn('href="000001.SZ/v2/"', research_index)
             self.assertNotIn("理解一门生意，也理解它的账", research_index)
             self.assertIn("折算三表", render_research_detail(reports[0]))
+
+    def test_research_feed_includes_current_agent_output_and_prefers_it_to_formal_duplicate(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            stock_report = Path(temporary) / "stock_report"
+            source = stock_report / "data/analysis/stock_research"
+            current_markdown = (
+                "## 结论\n\n拼多多依靠平台连接消费者与商户，收入来自交易服务与营销服务，"
+                "现金创造能力和商户生态质量共同决定普通股价值。\n\n"
+                "本报告是基于截至2026年9月3日10:50可得信息的研究底稿，不构成买卖建议。"
+            )
+            write_research(source, "PDD", "2025-12-31", current_result("PDD"), current_markdown)
+            formal_markdown = "# 拼多多旧版深度研报\n\n这是一份将被当前公司研究替代的旧版文章摘要。"
+            formal_path = source / "PDD/2025-12-31/versions/v1/report.md"
+            formal_path.parent.mkdir(parents=True, exist_ok=True)
+            formal_path.write_text(formal_markdown, encoding="utf-8")
+            write_formal_database(stock_report, [{
+                "version": "v1", "code": "PDD", "name": "拼多多", "market": "US",
+                "path": str(formal_path.relative_to(stock_report)),
+                "sha": hashlib.sha256(formal_markdown.encode()).hexdigest(),
+                "generated_at": "2026-09-02T10:00:00+08:00",
+            }])
+
+            documents = load_research_documents(None, stock_report)
+            feed = build_research_feed(documents, load_formal_reports(stock_report))
+
+            self.assertEqual(len(feed), 1)
+            self.assertEqual(feed[0].source, "current_company_research")
+            self.assertEqual(feed[0].publication_date, "2026-09-03")
+            self.assertEqual(feed[0].page_url, "../reports/PDD/")
+            self.assertIn("拼多多（PDD）2025年公司研究", render_research_index(feed))
+            self.assertIn('href="../reports/PDD/"', render_research_index(feed))
 
     def test_watcher_detects_formal_report_without_legacy_result(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
