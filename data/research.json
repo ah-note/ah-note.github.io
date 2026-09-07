@@ -3,6 +3,19 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v3",
+      "code": "603195.SH",
+      "name": "公牛集团",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-07T16:08:03+08:00",
+      "review_status": "pass",
+      "title": "公牛集团（603195.SH）2025年度公司研究",
+      "excerpt": "公牛集团的经济核心不是单个插座产品，而是“安全可靠”品牌、覆盖全国城乡的经销网络、面向终端的配送访销能力和垂直一体化制造共同形成的低获客成本与快速铺货系统。2025年收入160.26亿元、同比下降4.78%，但重构EBIT仍为44.71亿元，三年毛利率稳定在43%左右。利润韧性支持核心业务仍处成熟强势阶段的判断，但收入下滑、销售与研发费用压降以及新能源毛利率明显下降，说明不能把当年利润率简单视为长期增长证据。[《公牛集团2025年年度报告》，2026-04-30，PDF第9……",
+      "url": "reports/603195.SH/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v3",
       "code": "689009.SH",
       "name": "九号公司",
       "market": "A",
