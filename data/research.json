@@ -3,6 +3,19 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v3",
+      "code": "02145.HK",
+      "name": "上美股份",
+      "market": "HK",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-07T17:27:35+08:00",
+      "review_status": "pass",
+      "title": "上美股份（02145.HK）公司研究",
+      "excerpt": "上美股份的经济实质，是用自研、自产和高强度内容投放，把功效护肤产品通过直营电商卖给消费者。2025年收入91.78亿元、重构经营利润13.74亿元和企业自由现金流6.36亿元都创出高位，但这不是可以直接外推的稳定状态：韩束贡献80.2%收入，线上直营贡献85.4%收入，营销及推广开支47.08亿元；到2026年上半年，集团收入同比下降8.6%，归母利润下降77.4%，销售费用率升至66.1%。因此，本研究不采用增长估值，而把正常收入定在85亿元、正常EBIT定在8亿元、正常F……",
+      "url": "reports/02145.HK/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v3",
       "code": "09896.HK",
       "name": "名创优品",
       "market": "HK",
