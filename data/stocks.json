@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-09-07 16:13:46 +08:00",
+  "built_at": "2026-09-07 16:39:30 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -79251,6 +79251,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/601868.SH/"
+    },
+    {
+      "schema_version": "stock-research-analysis-v3",
+      "code": "000683.SZ",
+      "name": "博源化工",
+      "raw_name": "博源化工",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "人民币",
+      "market_cap_yi": null,
+      "pe_ttm": null,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": null,
+      "operating_business_price_yi": 157.11,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 120.75,
+      "gross_profit_yi": 36.78,
+      "parent_net_profit_yi": 9.42,
+      "gross_margin_pct": 30.46,
+      "net_margin_pct": 7.8,
+      "forecast_dividend_yield_pct": null,
+      "risk_level": "未分级",
+      "business_summary": "博源化工的经营本质是把自有天然碱资源转成纯碱和小苏打，同时经营煤制尿素。客户购买的是玻璃、化工、食品、农业等生产流程所需的大宗基础原料；公司真正的差异不在需求独占，而在天然碱矿资源、较短工艺流程、规模化连续生产及运输组织。2025年纯碱、小苏打和尿素分别占收入61.8%、12.7%和24.0%，三者已经覆盖98.5%的合并收入。[《2025年年度报告》，20...",
+      "core_judgement": "",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/000683.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
