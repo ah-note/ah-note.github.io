@@ -3,6 +3,19 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v3",
+      "code": "000672.SZ",
+      "name": "上峰材料",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-07T19:55:11+08:00",
+      "review_status": "pass",
+      "title": "上峰材料（000672.SZ）公司研究",
+      "excerpt": "上峰材料仍是一家由水泥现金流支撑、以金融投资和半导体材料谋求转型的周期企业，而不是已经完成转型的材料平台。2025年水泥与熟料贡献86.3%的收入；公司收入连续下降，但煤电成本下降、华东盈利修复令毛利率回升，重构后的EBIT率从2024年的12.2%升至13.7%。真正需要警惕的是，2025年10.0亿元实际FCFF受低净资本开支和资产处置回款抬高，不代表可持续现金能力。",
+      "url": "reports/000672.SZ/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v3",
       "code": "000683.SZ",
       "name": "博源化工",
       "market": "A",
