@@ -3,6 +3,19 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v3",
+      "code": "600426.SH",
+      "name": "华鲁恒升",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-07T22:12:50+08:00",
+      "review_status": "pass",
+      "title": "华鲁恒升（600426.SH）2025年度公司研究",
+      "excerpt": "华鲁恒升不是靠品牌或专利定价的化工公司，而是把煤气化、公用工程和多条下游装置连成一个可以调节产品结构的低成本系统。这个系统在尿素、醋酸等供需较好的产品上能产生较高利润，但不能免疫行业扩产：2025年新能源新材料链占收入约一半，推算EBIT率仅6.1%，把公司EBIT率压至14.6%。公司当前仍处在双基地建设转运营阶段，投入资本从2022年末299亿元增至2025年末460亿元，而ROIC由2023年的11.3%降至2025年的8.7%。因此，本报告不把尚未充分兑现的新产能作为……",
+      "url": "reports/600426.SH/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v3",
       "code": "601899.SH",
       "name": "紫金矿业",
       "market": "A",
