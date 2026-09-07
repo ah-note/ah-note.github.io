@@ -3,6 +3,19 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v3",
+      "code": "601088.SH",
+      "name": "中国神华",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-07T20:09:21+08:00",
+      "review_status": "pass",
+      "title": "中国神华（601088.SH）2025年度公司研究",
+      "excerpt": "客户付款的第一来源是煤炭和电力。2025年分部对外收入中，煤炭1,828.74亿元、发电889.14亿元，两者占合并收入约92%；铁路、港口和航运对外收入较小，但它们同时为集团内部煤炭流转服务。公司煤炭销售中年度长协229.3百万吨、月度长协169.8百万吨、现货16.3百万吨，长协降低单一时点煤价暴露，却不能消除煤价下行；对外客户销量占81.8%，内部发电和煤化工分别占17.0%和1.2%。[《中国神华2025年度报告》，2026年3月31日，第29—30页](https:……",
+      "url": "reports/601088.SH/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v3",
       "code": "601636.SH",
       "name": "旗滨集团",
       "market": "A",
