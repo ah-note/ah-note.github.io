@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="../../assets/styles.css?v=20260726-1">
 </head>
 <body>
-  <nav class="site-nav"><a href="../../">股票</a><a class="active" href="../../reports/">报告</a><a href="../../reference/">参考资料</a></nav>
+  <nav class="site-nav"><a href="../../">股票</a><a class="active" href="../../reports/">报告</a><a href="../../industries/">行业</a><a href="../../reference/">参考资料</a></nav>
   <main class="report-page">
     <a class="back-link" href="../">← 返回报告</a>
 
@@ -19,7 +19,7 @@
 <p>COCOON HOLDINGS 不是券商，也不是有产品、客户和产能的普通经营公司。2025 年报确认它是香港主板上市规则第 21 章投资公司，主营投资控股以及上市、OTC 和非上市权益投资。输入中的 <code>financial_brokerage</code> 提示因此被财报事实覆盖为 <code>investment_holding</code>。</p>
 <p>投资证券和非上市权益就是它的生产资料，而非普通经营公司账上可以抽走的闲置现金。若先把投资组合当作“可剥离净现金”从市值扣除，又把该组合产生的股息、处置收益和公允价值变化当作持续现金利润，就会把同一项资产重复计算。因此普通控股回本口径不适用，折后净现金、经营业务购买价、现金利润和回本年数均保留为 <code>null</code>。</p>
 <p>适合它的控股视角是：逐项判断投资组合的可变现净值，再看市值相对该净值的折溢价、费用侵蚀、治理约束与实际分红。按年末账面口径，归母权益折合 CNY1.6027 亿，约为输入市值的 6.0 倍；反过来，市值约为账面归母权益的 16.6%。这是明显的账面折价现象，但不是清算价值结论，因为组合含 OTC、非上市权益和无控制权的金矿相关权益，实际退出价格与时间均未被年报证明。</p>
-<div class="table-wrap"><table><thead><tr><th>核心项目</th><th>数值</th><th>含义</th></tr></thead><tbody><tr><td>输入市值</td><td>CNY2,667.79 万</td><td>2026-07-31 16:08:44 行情输入</td></tr><tr><td>2025 年末归母权益</td><td>CNY1.6027 亿</td><td>按报告期汇率换算的账面值</td></tr><tr><td>市值/账面归母权益</td><td>约 16.6%</td><td>仅为账面折价观察</td></tr><tr><td>PE TTM</td><td>3.17 倍</td><td>组合损益波动大，不宜当稳定经营 PE</td></tr><tr><td>预测现金分红</td><td>CNY0</td><td>2025、2024 年均不派息，零基预测</td></tr><tr><td>普通控股回本年数</td><td>不适用</td><td>投资资产是主营资本，不能双重计算</td></tr></tbody></table></div>
+<div class="table-wrap table-wrap-standard"><table><thead><tr><th>核心项目</th><th>数值</th><th>含义</th></tr></thead><tbody><tr><td>输入市值</td><td>CNY2,667.79 万</td><td>2026-07-31 16:08:44 行情输入</td></tr><tr><td>2025 年末归母权益</td><td>CNY1.6027 亿</td><td>按报告期汇率换算的账面值</td></tr><tr><td>市值/账面归母权益</td><td>约 16.6%</td><td>仅为账面折价观察</td></tr><tr><td>PE TTM</td><td>3.17 倍</td><td>组合损益波动大，不宜当稳定经营 PE</td></tr><tr><td>预测现金分红</td><td>CNY0</td><td>2025、2024 年均不派息，零基预测</td></tr><tr><td>普通控股回本年数</td><td>不适用</td><td>投资资产是主营资本，不能双重计算</td></tr></tbody></table></div>
 <h2 id="公司怎么赚钱">公司怎么赚钱</h2>
 <p>公司以股东资本和少量融资建立投资组合，持有和买卖香港、美国及 OTC 上市权益，也投资非上市企业。会计收入仅包括 FVTPL 上市权益的股息；交易证券的处置收益和公允价值变化列在其他损益。因此 2025 年收入只有 HKD31.9 万，却录得 HKD978.9 万归母利润。</p>
 <p>利润改善主要不是“销售增长”。2025 年证券处置已实现收益为 HKD2,398.8 万，未实现公允价值亏损为 HKD760.6 万，另有 HKD74.8 万承付票修改及利息豁免收益。扣除管理、上市维持等开支和融资成本后形成净利润。2024 年则亏损 HKD7,681.0 万，主要受 HKD7,889.1 万未实现公允价值亏损影响。两年反差说明组合价格和退出时点才是损益核心。</p>
