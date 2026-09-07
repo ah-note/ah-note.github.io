@@ -3,6 +3,32 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v3",
+      "code": "03690.HK",
+      "name": "美团",
+      "market": "HK",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-07T18:12:35+08:00",
+      "review_status": "pass",
+      "title": "美团（03690.HK）公司研究",
+      "excerpt": "研究期间为2023—2025三个完整年度，报告日为2025年12月31日，期后信息截止2026年9月7日。除每股数据、股数和特别注明者外，表内金额均为亿元人民币；“稳定期”列在本报告中是基准FCFF口径，不是公司管理层指引，也不是对某一具体年份的预测。",
+      "url": "reports/03690.HK/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v3",
+      "code": "02020.HK",
+      "name": "安踏体育",
+      "market": "HK",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-07T17:39:00+08:00",
+      "review_status": "pass",
+      "title": "安踏体育（02020.HK）公司研究",
+      "excerpt": "安踏的核心不是单一品牌授权，而是一套把品牌定位、产品研发、供应链、直营零售和加盟网络放在同一管理体系中的多品牌运营能力。2025年收入802.19亿元，经营利润190.91亿元；ANTA、FILA和其他品牌的经营利润率分别为20.7%、26.1%和27.9%。三年合并收入从623.56亿元增至802.19亿元，经营利润从153.67亿元增至190.91亿元，说明增长没有以集团经营利润率坍塌为代价。[《安踏体育2025年报》，2026年4月9日，pp.10、133、140](h……",
+      "url": "reports/02020.HK/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v3",
       "code": "02145.HK",
       "name": "上美股份",
       "market": "HK",
@@ -155,19 +181,6 @@
       "title": "伟星股份：海外产能的利用率，比账面现金更重要",
       "excerpt": "伟星的钮扣和拉链并非高单价产品，但品牌与成衣制造商需要稳定质量、快速打样、小批量多批次和靠近生产地的交付。研发、模具、柔性制造与服务网络使这种辅料业务保持较高毛利。2025 年收入 48.0 亿元、毛利 20.2 亿元，利润池主要来自钮扣和拉链。",
       "url": "research/002003.SZ/2025-annual-ba4ef6005ef2/"
-    },
-    {
-      "source": "formal_report_registry",
-      "analysis_version": "2025-annual-de1afed9fd19",
-      "code": "02020.HK",
-      "name": "安踏体育",
-      "market": "HK",
-      "report_period": "2025-12-31",
-      "published_at": "2026-08-16T23:51:36+08:00",
-      "review_status": "pass",
-      "title": "安踏体育：现金很多，但真正的考题是下一次 FILA 能否复制",
-      "excerpt": "2025 年集团收入 802.19 亿元。安踏、FILA 和其他品牌三个披露分部收入分别为 347.54、284.69 和 169.96 亿元，经营利润均为正；FILA 收入低于安踏，经营利润却略高，仍是品牌溢价和直营能力最成熟的证明。但这个结果不是收购自然带来的。",
-      "url": "research/02020.HK/2025-annual-de1afed9fd19/"
     },
     {
       "source": "formal_report_registry",
