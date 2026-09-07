@@ -6,7 +6,7 @@ from pathlib import Path
 from typing import Any
 
 
-CATALOG_SCHEMA = "ah-note-industry-catalog-v1"
+CATALOG_SCHEMA = "ah-note-industry-catalog-v2"
 
 
 def read_jsonl(path: Path) -> list[dict[str, Any]]:
@@ -26,6 +26,61 @@ def _published_report_codes(path: Path) -> set[str]:
         for row in payload.get("stocks") or []
         if row.get("code")
     }
+
+
+def build_display_taxonomy(taxonomy: dict[str, Any]) -> tuple[list[dict[str, str]], dict[str, str]]:
+    """Collapse consecutive same-name levels without changing source taxonomy."""
+    display_nodes: list[dict[str, str]] = []
+    display_by_key: dict[str, dict[str, str]] = {}
+    source_to_display: dict[str, str] = {}
+
+    def add_node(node_type: str, node_id: str, name: str, source_parent_key: str) -> None:
+        source_key = f"{node_type}:{node_id}"
+        parent_key = source_to_display.get(source_parent_key, "root")
+        parent = display_by_key.get(parent_key)
+        if parent and parent["name"].strip() == name.strip():
+            source_to_display[source_key] = parent_key
+            return
+        node = {
+            "key": source_key,
+            "type": node_type,
+            "id": node_id,
+            "name": name,
+            "parent_key": parent_key,
+        }
+        display_nodes.append(node)
+        display_by_key[source_key] = node
+        source_to_display[source_key] = source_key
+
+    for row in taxonomy["industries"]:
+        add_node("industry", row["industry_id"], row["name_zh"], "root")
+    for row in taxonomy["sectors"]:
+        add_node(
+            "sector",
+            row["sector_id"],
+            row["name_zh"],
+            f"industry:{row['industry_id']}",
+        )
+    for row in taxonomy["subsectors"]:
+        add_node(
+            "subsector",
+            row["subsector_id"],
+            row["name_zh"],
+            f"sector:{row['sector_id']}",
+        )
+    for row in taxonomy["analysis_leaves"]:
+        add_node(
+            "leaf",
+            row["leaf_id"],
+            row["name_zh"],
+            f"subsector:{row['subsector_id']}",
+        )
+
+    leaf_display_keys = {
+        row["leaf_id"]: source_to_display[f"leaf:{row['leaf_id']}"]
+        for row in taxonomy["analysis_leaves"]
+    }
+    return display_nodes, leaf_display_keys
 
 
 def build_industry_catalog(
@@ -62,6 +117,7 @@ def build_industry_catalog(
     report_codes = _published_report_codes(published_stocks_path)
     public_issuers: list[dict[str, Any]] = []
     status_counts: Counter[str] = Counter()
+    display_nodes, leaf_display_keys = build_display_taxonomy(taxonomy)
 
     for issuer in issuers:
         status = str(issuer["eligibility_status"])
@@ -116,6 +172,8 @@ def build_industry_catalog(
         "sectors": taxonomy["sectors"],
         "subsectors": taxonomy["subsectors"],
         "leaves": taxonomy["analysis_leaves"],
+        "display_nodes": display_nodes,
+        "leaf_display_keys": leaf_display_keys,
         "issuers": public_issuers,
     }
 

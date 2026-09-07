@@ -51,14 +51,11 @@
       return node;
     };
 
-    data.industries.forEach((row) => addNode("industry", row.industry_id, row.name_zh, "root"));
-    data.sectors.forEach((row) => addNode("sector", row.sector_id, row.name_zh, keyOf("industry", row.industry_id)));
-    data.subsectors.forEach((row) => addNode("subsector", row.subsector_id, row.name_zh, keyOf("sector", row.sector_id)));
-    data.leaves.forEach((row) => addNode("leaf", row.leaf_id, row.name_zh, keyOf("subsector", row.subsector_id)));
+    data.display_nodes.forEach((row) => addNode(row.type, row.id, row.name, row.parent_key));
 
     data.leaves.forEach((leaf) => {
       const path = [];
-      let node = nodeByKey.get(keyOf("leaf", leaf.leaf_id));
+      let node = nodeByKey.get(data.leaf_display_keys[leaf.leaf_id]);
       while (node) {
         path.unshift(node);
         node = nodeByKey.get(node.parentKey);
@@ -109,13 +106,11 @@
   }
 
   function descendantLeaves(nodeKey) {
-    if (nodeKey === "root") return catalog.leaves.map((leaf) => nodeByKey.get(keyOf("leaf", leaf.leaf_id)));
     const target = nodeByKey.get(nodeKey);
-    if (!target) return [];
-    if (target.type === "leaf") return [target];
+    if (nodeKey !== "root" && !target) return [];
     return catalog.leaves
-      .map((leaf) => nodeByKey.get(keyOf("leaf", leaf.leaf_id)))
-      .filter((leaf) => leafPath.get(leaf.id).some((part) => part.key === nodeKey));
+      .map((leaf) => ({ id: leaf.leaf_id, name: leaf.name_zh }))
+      .filter((leaf) => nodeKey === "root" || leafPath.get(leaf.id).some((part) => part.key === nodeKey));
   }
 
   function groupedCompanies(nodeKey) {
@@ -186,7 +181,7 @@
     const status = issuer.status === "eligible" ? "可进入分析池" : "无分析价值类";
     const secondary = issuer.secondary_leaf_ids.length
       ? `<div class="company-secondary"><span>次要业务暴露</span>${issuer.secondary_leaf_ids.map((leafId) => {
-          const node = nodeByKey.get(keyOf("leaf", leafId));
+          const node = nodeByKey.get(catalog.leaf_display_keys[leafId]);
           return node ? linkTo("category", node.key, node.name) : "";
         }).join("")}</div>` : "";
     const report = issuer.report_url

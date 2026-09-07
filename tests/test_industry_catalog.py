@@ -11,7 +11,11 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
 from build_site import nav  # noqa: E402
-from industry_catalog import build_industry_catalog, render_industry_index  # noqa: E402
+from industry_catalog import (  # noqa: E402
+    build_display_taxonomy,
+    build_industry_catalog,
+    render_industry_index,
+)
 from publish_site import PUBLISH_PATHS  # noqa: E402
 
 
@@ -90,6 +94,19 @@ class IndustryCatalogTest(unittest.TestCase):
         self.assertIn('href="industries/"', nav("index"))
         self.assertIn("industries", PUBLISH_PATHS)
         self.assertIn("assets/industries.js", PUBLISH_PATHS)
+
+    def test_display_taxonomy_collapses_consecutive_same_name_levels(self) -> None:
+        taxonomy = {
+            "industries": [{"industry_id": "00", "name_zh": "能源"}],
+            "sectors": [{"sector_id": "0020", "industry_id": "00", "name_zh": "煤炭"}],
+            "subsectors": [{"subsector_id": "002010", "sector_id": "0020", "name_zh": "煤炭"}],
+            "analysis_leaves": [{"leaf_id": "002010", "subsector_id": "002010", "name_zh": "煤炭"}],
+        }
+
+        nodes, leaf_keys = build_display_taxonomy(taxonomy)
+
+        self.assertEqual([node["name"] for node in nodes], ["能源", "煤炭"])
+        self.assertEqual(leaf_keys["002010"], "sector:0020")
 
 
 if __name__ == "__main__":
