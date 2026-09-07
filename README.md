@@ -12,6 +12,13 @@ python3 scripts/build_site.py
 python3 -m http.server 8765
 ```
 
+全量构建还会读取相邻`stock_analysis/data/snapshots/industry_classification/ah_v1/`
+的版本化快照，生成公司行业搜索与层级浏览页。只更新行业页时可运行：
+
+```bash
+python3 scripts/build_site.py --industry-only --stock-analysis-root ../stock_analysis
+```
+
 AH Note 是公司研究报告唯一的公开发布渠道。`build_site.py` 会把
 `_source/stock_research/` 作为旧报告兜底，并优先读取相邻
 `stock_report/data/analysis/stock_research/` 中统一 Agent 的已校验结果；`stock_report`
@@ -47,6 +54,7 @@ Published pages:
 - `/reports/<code>/` - full report
 - `/research/` - latest approved company research feed
 - `/research/<code>/<analysis-version>/` - immutable formal research article
+- `/industries/` - A/H company search and hierarchical industry browser
 - `/reference/` - calculation and field reference
 
 ## Test

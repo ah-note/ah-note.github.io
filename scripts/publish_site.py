@@ -12,7 +12,16 @@ from typing import Any
 from build_site import ROOT, build_site
 
 
-PUBLISH_PATHS = ["assets/styles.css", "data", "index.html", "reports", "research", "reference"]
+PUBLISH_PATHS = [
+    "assets/styles.css",
+    "assets/industries.js",
+    "data",
+    "index.html",
+    "industries",
+    "reports",
+    "research",
+    "reference",
+]
 CODE_RE = re.compile(r"^[0-9A-Z.-]+$")
 
 

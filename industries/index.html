@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>公司行业导航 - AH Note</title>
+  <meta name="description" content="搜索 A 股和港股公司，查看所属行业、同类公司和完整行业层级。">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/styles.css?v=20260907-1">
+</head>
+<body>
+  <nav class="site-nav"><a href="../">股票</a><a href="../reports/">报告</a><a href="../research/">深度研报</a><a class="active" href="">行业</a><a href="../reference/">参考资料</a></nav>
+  <main class="industry-page">
+    <header class="industry-heading">
+      <div>
+        <p class="eyebrow">A股 · 港股</p>
+        <h1>公司行业导航</h1>
+      </div>
+      <p id="catalogMeta" class="industry-meta">正在读取行业分类…</p>
+    </header>
+    <section class="industry-search" aria-labelledby="industrySearchLabel">
+      <label id="industrySearchLabel" for="industrySearch">输入公司名称或股票代码</label>
+      <div class="industry-search-row">
+        <input id="industrySearch" type="search" autocomplete="off" placeholder="例如：中国能建、601868、02020.HK">
+        <button id="industrySearchButton" type="button">搜索</button>
+      </div>
+      <p id="searchHint" class="industry-hint">也可以从下方行业树逐层浏览。</p>
+      <div id="searchResults" class="industry-search-results" hidden></div>
+    </section>
+    <div id="industryApp" aria-live="polite">
+      <p class="industry-loading">正在加载公司与行业数据…</p>
+    </div>
+  </main>
+  <script src="../assets/industries.js?v=20260907-1" defer></script>
+</body>
+</html>

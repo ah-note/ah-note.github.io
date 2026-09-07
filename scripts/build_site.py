@@ -12,6 +12,7 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 from formal_reports import FormalReport, load_formal_reports, report_excerpt
+from industry_catalog import write_industry_site
 from research_feed import ResearchFeedEntry, build_research_feed
 from site_sources import CURRENT_SCHEMAS, ResearchDocument, UNIFIED_SCHEMA, load_research_documents, schema_rank
 
@@ -27,7 +28,7 @@ REPORTS_DIR = ROOT / "reports"
 REFERENCE_DIR = ROOT / "reference"
 RESEARCH_DIR = ROOT / "research"
 TZ = ZoneInfo("Asia/Shanghai")
-ASSET_VERSION = "20260831-2"
+ASSET_VERSION = "20260907-1"
 LEGACY_REPORT_ASSET_VERSION = "20260726-1"
 
 
@@ -644,6 +645,7 @@ def nav(current: str, prefix: str = "") -> str:
         ("股票", "index", ""),
         ("报告", "reports", "reports/"),
         ("深度研报", "research", "research/"),
+        ("行业", "industries", "industries/"),
         ("参考资料", "reference", "reference/"),
     ]
     links = []
@@ -654,7 +656,7 @@ def nav(current: str, prefix: str = "") -> str:
 
 
 def legacy_report_nav(prefix: str = "") -> str:
-    items = [("股票", ""), ("报告", "reports/"), ("参考资料", "reference/")]
+    items = [("股票", ""), ("报告", "reports/"), ("行业", "industries/"), ("参考资料", "reference/")]
     links = []
     for label, href in items:
         cls = ' class="active"' if label == "报告" else ""
@@ -1025,6 +1027,7 @@ def build_site(
     stock_report_root: Path = STOCK_REPORT_DIR,
     legacy_source_dir: Path = SOURCE_DIR,
     detail_codes: set[str] | None = None,
+    stock_analysis_root: Path = STOCK_ANALYSIS_DIR,
 ) -> int:
     DATA_DIR.mkdir(exist_ok=True)
     if STOCKS_DIR.exists():
@@ -1061,7 +1064,15 @@ def build_site(
     (REFERENCE_DIR / "index.html").write_text(render_reference(), encoding="utf-8")
     write_detail_pages(stocks, built_at, detail_codes)
     write_research_pages(research_feed, formal_reports)
-    print(f"generated {len(stocks)} stocks and {len(research_feed)} research entries at {built_at}")
+    industry_counts = write_industry_site(
+        root=ROOT,
+        stock_analysis_root=stock_analysis_root,
+        asset_version=ASSET_VERSION,
+    )
+    print(
+        f"generated {len(stocks)} stocks, {len(research_feed)} research entries "
+        f"and {industry_counts['issuer_count']} industry issuers at {built_at}"
+    )
     return len(stocks)
 
 
@@ -1079,8 +1090,34 @@ def main() -> None:
         default=SOURCE_DIR,
         help="legacy report snapshot root used only when a stock has no newer unified result",
     )
+    parser.add_argument(
+        "--stock-analysis-root",
+        type=Path,
+        default=STOCK_ANALYSIS_DIR,
+        help="stock_analysis repository root containing the versioned industry snapshot",
+    )
+    parser.add_argument(
+        "--industry-only",
+        action="store_true",
+        help="only rebuild the industry catalog and browser",
+    )
     args = parser.parse_args()
-    build_site(args.stock_report_root.resolve(), args.legacy_source_dir.resolve())
+    if args.industry_only:
+        result = write_industry_site(
+            root=ROOT,
+            stock_analysis_root=args.stock_analysis_root.resolve(),
+            asset_version=ASSET_VERSION,
+        )
+        print(
+            f"generated {result['issuer_count']} industry issuers "
+            f"across {result['leaf_count']} leaves"
+        )
+        return
+    build_site(
+        args.stock_report_root.resolve(),
+        args.legacy_source_dir.resolve(),
+        stock_analysis_root=args.stock_analysis_root.resolve(),
+    )
 
 
 if __name__ == "__main__":
