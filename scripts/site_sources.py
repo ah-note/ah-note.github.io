@@ -7,7 +7,9 @@ from typing import Any
 
 
 UNIFIED_SCHEMA = "stock-research-result-v1"
-CURRENT_SCHEMA = "stock-research-analysis-v2"
+PREVIOUS_CURRENT_SCHEMA = "stock-research-analysis-v2"
+CURRENT_SCHEMA = "stock-research-analysis-v3"
+CURRENT_SCHEMAS = {PREVIOUS_CURRENT_SCHEMA, CURRENT_SCHEMA}
 REQUIRED_CURRENT_REVIEWS = {
     "capital_return_interpretability",
     "source_traceability",
@@ -53,21 +55,30 @@ def normalize_current_result(result: dict[str, Any], result_path: Path) -> dict[
     company = result.get("company") if isinstance(result.get("company"), dict) else {}
     period = result.get("period") if isinstance(result.get("period"), dict) else {}
     units = result.get("units") if isinstance(result.get("units"), dict) else {}
-    revenue = nested_value(result, "fields", "actual", "revenue")
-    parent_profit = nested_value(result, "fields", "actual", "parent_profit")
-    gross_margin = nested_value(result, "computed", "actual", "gross_margin")
+    schema = result.get("schema_version")
+    coverage_years = result.get("coverage_years") if isinstance(result.get("coverage_years"), list) else []
+    latest_year = str(max(coverage_years)) if coverage_years else ""
+    if schema == CURRENT_SCHEMA:
+        field_path = ("fields", "historical", latest_year)
+        computed_path = ("computed", "historical", latest_year)
+    else:
+        field_path = ("fields", "actual")
+        computed_path = ("computed", "actual")
+    revenue = nested_value(result, *field_path, "revenue")
+    parent_profit = nested_value(result, *field_path, "parent_profit")
+    gross_margin = nested_value(result, *computed_path, "gross_margin")
     metrics = {
         "revenue": revenue,
         "gross_profit": revenue * gross_margin if isinstance(revenue, (int, float)) and isinstance(gross_margin, (int, float)) else None,
         "gross_margin": gross_margin,
-        "operating_profit": nested_value(result, "computed", "actual", "ebit"),
+        "operating_profit": nested_value(result, *computed_path, "ebit"),
         "parent_net_profit": parent_profit,
         "net_margin": ratio(parent_profit, revenue),
-        "operating_free_cash_flow": nested_value(result, "computed", "actual", "fcff"),
+        "operating_free_cash_flow": nested_value(result, *computed_path, "fcff"),
         "operating_business_price": nested_value(result, "computed", "valuation", "business_value"),
     }
     return {
-        "schema_version": CURRENT_SCHEMA,
+        "schema_version": schema,
         "company": company,
         "period": period.get("end") or result_path.parent.name,
         "currency": units.get("financial_currency") or "CNY",
@@ -83,7 +94,7 @@ def normalize_current_result(result: dict[str, Any], result_path: Path) -> dict[
 
 
 def normalize_result(result: dict[str, Any], result_path: Path) -> dict[str, Any]:
-    if result.get("schema_version") == CURRENT_SCHEMA:
+    if result.get("schema_version") in CURRENT_SCHEMAS:
         return normalize_current_result(result, result_path)
     if result.get("schema_version") != UNIFIED_SCHEMA:
         normalized = dict(result)
@@ -179,21 +190,39 @@ def normalize_result(result: dict[str, Any], result_path: Path) -> dict[str, Any
 
 
 def schema_rank(result: dict[str, Any]) -> int:
-    return {CURRENT_SCHEMA: 2, UNIFIED_SCHEMA: 1}.get(result.get("schema_version"), 0)
+    return {
+        CURRENT_SCHEMA: 3,
+        PREVIOUS_CURRENT_SCHEMA: 2,
+        UNIFIED_SCHEMA: 1,
+    }.get(result.get("schema_version"), 0)
 
 
 def is_publishable(result: dict[str, Any]) -> bool:
-    if result.get("schema_version") == CURRENT_SCHEMA:
+    if result.get("schema_version") in CURRENT_SCHEMAS:
         analysis = result.get("analysis") if isinstance(result.get("analysis"), dict) else {}
         review = analysis.get("review") if isinstance(analysis.get("review"), dict) else {}
         passed_reviews = {
             key for key, value in review.items()
             if isinstance(value, dict) and value.get("passed") is True
         }
+        if result.get("schema_version") == CURRENT_SCHEMA:
+            coverage_years = analysis.get("coverage_years")
+            if (
+                not isinstance(coverage_years, list)
+                or not 3 <= len(coverage_years) <= 5
+                or any(not isinstance(year, int) for year in coverage_years)
+                or coverage_years != list(range(min(coverage_years), max(coverage_years) + 1))
+                or not analysis.get("businesses")
+            ):
+                return False
+            latest_year = str(max(coverage_years))
+            actual_fcff_path = ("computed", "historical", latest_year, "fcff")
+        else:
+            actual_fcff_path = ("computed", "actual", "fcff")
         return REQUIRED_CURRENT_REVIEWS <= passed_reviews and all(
             isinstance(nested_value(analysis, *path), (int, float))
             for path in [
-                ("computed", "actual", "fcff"),
+                actual_fcff_path,
                 ("computed", "stable", "fcff"),
                 ("computed", "valuation", "common_equity_value"),
             ]

@@ -16,10 +16,12 @@ AH Note 是公司研究报告唯一的公开发布渠道。`build_site.py` 会�
 `_source/stock_research/` 作为旧报告兜底，并优先读取相邻
 `stock_report/data/analysis/stock_research/` 中统一 Agent 的已校验结果；`stock_report`
 只作为内部中转和追溯仓，不作为面向读者的发布入口。同一股票只发布最新报告期；相同报告期内，
-`stock-research-analysis-v2` 优先于 `stock-research-result-v1` 和旧版结果。
+`stock-research-analysis-v3` 优先于兼容保留的`stock-research-analysis-v2`、
+`stock-research-result-v1`和旧版结果。
 
 `/research/` 是统一的最新研究列表：优先展示通过五项自审和关键字段校验的
-`stock-research-analysis-v2` 当前公司研究，并链接到 `/reports/<code>/`。列表同时保留旧版
+`stock-research-analysis-v3`当前公司研究，并兼容展示尚未重跑的v2报告，统一链接到
+`/reports/<code>/`。列表同时保留旧版
 “深度研报”发布链路；它从
 `stock_report/data/derived/stock_research/research.sqlite3` 读取每家公司最新研究版本，且只发布
 研究状态完成、报告审阅通过、正文哈希校验一致的不可变 `versions/.../report.md`。每份报告作为一篇

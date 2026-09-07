@@ -11,7 +11,7 @@ from typing import Any
 
 from publish_site import ROOT, publish
 from formal_reports import formal_report_digest, load_formal_reports
-from site_sources import CURRENT_SCHEMA, UNIFIED_SCHEMA, is_publishable, normalize_result
+from site_sources import CURRENT_SCHEMAS, UNIFIED_SCHEMA, is_publishable, normalize_result
 
 
 def sync_clean_stock_report(stock_report_root: Path) -> None:
@@ -53,7 +53,7 @@ def completed_reports(stock_report_root: Path, settle_seconds: int = 10) -> dict
             result = json.loads(result_path.read_text(encoding="utf-8"))
         except (OSError, json.JSONDecodeError):
             continue
-        if result.get("schema_version") not in {UNIFIED_SCHEMA, CURRENT_SCHEMA}:
+        if result.get("schema_version") not in {UNIFIED_SCHEMA, *CURRENT_SCHEMAS}:
             continue
         normalized = normalize_result(result, result_path)
         if not is_publishable(normalized):

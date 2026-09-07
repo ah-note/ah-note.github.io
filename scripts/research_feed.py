@@ -7,7 +7,7 @@ from datetime import datetime
 from pathlib import Path
 
 from formal_reports import FormalReport, report_excerpt, report_title
-from site_sources import CURRENT_SCHEMA, ResearchDocument
+from site_sources import CURRENT_SCHEMAS, ResearchDocument
 
 
 INFORMATION_CUTOFF_RE = re.compile(
@@ -102,7 +102,7 @@ def committed_at(path: Path) -> str:
 
 def current_entry(document: ResearchDocument) -> ResearchFeedEntry | None:
     result = document.result
-    if result.get("schema_version") != CURRENT_SCHEMA:
+    if result.get("schema_version") not in CURRENT_SCHEMAS:
         return None
     company = result.get("company") if isinstance(result.get("company"), dict) else {}
     code = str(company.get("code") or document.result_path.parents[1].name).upper()
@@ -124,7 +124,7 @@ def current_entry(document: ResearchDocument) -> ResearchFeedEntry | None:
         public_url=f"reports/{code}/",
         title=title,
         excerpt=report_excerpt(markdown),
-        analysis_version=CURRENT_SCHEMA,
+        analysis_version=str(result.get("schema_version")),
         review_status="pass",
     )
 

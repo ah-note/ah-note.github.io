@@ -13,7 +13,7 @@ from zoneinfo import ZoneInfo
 
 from formal_reports import FormalReport, load_formal_reports, report_excerpt
 from research_feed import ResearchFeedEntry, build_research_feed
-from site_sources import CURRENT_SCHEMA, ResearchDocument, UNIFIED_SCHEMA, load_research_documents, schema_rank
+from site_sources import CURRENT_SCHEMAS, ResearchDocument, UNIFIED_SCHEMA, load_research_documents, schema_rank
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -532,18 +532,18 @@ def stock_from_document(
     raw_name = company.get("display_name") or company.get("name") or note.get("company") or code
     display_name = (
         raw_name
-        if result.get("schema_version") in {UNIFIED_SCHEMA, CURRENT_SCHEMA} and name_is_chinese(str(raw_name))
+        if result.get("schema_version") in {UNIFIED_SCHEMA, *CURRENT_SCHEMAS} and name_is_chinese(str(raw_name))
         else display_name_for(code, raw_name, chinese_names)
     )
     generated_summary, generated_judgement = extract_summary(sections_for_summary)
-    if result.get("schema_version") == CURRENT_SCHEMA and not business.get("one_line"):
+    if result.get("schema_version") in CURRENT_SCHEMAS and not business.get("one_line"):
         business_summary = compact_text(report_excerpt(document.report_path.read_text(encoding="utf-8")), 180)
     else:
         business_summary = compact_text(str(business.get("one_line") or generated_summary), 180)
     core_judgement = compact_text(str(earnback.get("interpretation") or generated_judgement), 240)
     market_cap_yi = yuan_to_yi(metrics.get("market_cap"))
     discounted_cash_yi = yuan_to_yi(metrics.get("discounted_detachable_net_cash"))
-    if result.get("schema_version") in {UNIFIED_SCHEMA, CURRENT_SCHEMA}:
+    if result.get("schema_version") in {UNIFIED_SCHEMA, *CURRENT_SCHEMAS}:
         gross_margin_usable = isinstance(metrics.get("gross_margin"), (int, float))
         net_margin_usable = isinstance(metrics.get("net_margin"), (int, float))
     else:

@@ -21,7 +21,12 @@ from build_site import (  # noqa: E402
 )
 from formal_reports import load_formal_reports  # noqa: E402
 from research_feed import build_research_feed  # noqa: E402
-from site_sources import CURRENT_SCHEMA, UNIFIED_SCHEMA, load_research_documents  # noqa: E402
+from site_sources import (  # noqa: E402
+    CURRENT_SCHEMA,
+    PREVIOUS_CURRENT_SCHEMA,
+    UNIFIED_SCHEMA,
+    load_research_documents,
+)
 from watch_stock_report import completed_reports  # noqa: E402
 
 
@@ -65,7 +70,9 @@ def unified_result(code: str, period: str = "2025-12-31", status: str = "complet
     }
 
 
-def current_result(code: str, *, review_passed: bool = True) -> dict:
+def current_result(
+    code: str, *, review_passed: bool = True, schema: str = CURRENT_SCHEMA
+) -> dict:
     review_names = [
         "capital_return_interpretability",
         "source_traceability",
@@ -73,23 +80,12 @@ def current_result(code: str, *, review_passed: bool = True) -> dict:
         "stable_state",
         "report_consistency",
     ]
-    return {
-        "schema_version": CURRENT_SCHEMA,
+    result = {
+        "schema_version": schema,
         "company": {"code": code, "name": "拼多多"},
         "period": {"label": "2025年", "end": "2025-12-31"},
         "units": {"financial_currency": "人民币", "trading_currency": "美元"},
-        "fields": {
-            "actual": {
-                "revenue": {"value": 431_800_000_000},
-                "parent_profit": {"value": 97_800_000_000},
-            }
-        },
         "computed": {
-            "actual": {
-                "gross_margin": {"value": 0.563},
-                "ebit": {"value": 93_100_000_000},
-                "fcff": {"value": 85_600_000_000},
-            },
             "stable": {"fcff": {"value": 69_800_000_000}},
             "valuation": {
                 "business_value": {"value": 488_600_000_000},
@@ -101,6 +97,39 @@ def current_result(code: str, *, review_passed: bool = True) -> dict:
             for name in review_names
         },
     }
+    if schema == CURRENT_SCHEMA:
+        result["coverage_years"] = [2023, 2024, 2025]
+        result["fields"] = {
+            "historical": {
+                "2025": {
+                    "revenue": {"value": 431_800_000_000},
+                    "parent_profit": {"value": 97_800_000_000},
+                }
+            }
+        }
+        result["computed"]["historical"] = {
+            "2025": {
+                "gross_margin": {"value": 0.563},
+                "ebit": {"value": 93_100_000_000},
+                "fcff": {"value": 85_600_000_000},
+            }
+        }
+        result["businesses"] = {
+            "marketplace": {"name": "平台交易服务", "fields": {"revenue": {"value": 431_800_000_000}}}
+        }
+    else:
+        result["fields"] = {
+            "actual": {
+                "revenue": {"value": 431_800_000_000},
+                "parent_profit": {"value": 97_800_000_000},
+            }
+        }
+        result["computed"]["actual"] = {
+            "gross_margin": {"value": 0.563},
+            "ebit": {"value": 93_100_000_000},
+            "fcff": {"value": 85_600_000_000},
+        }
+    return result
 
 
 def write_research(root: Path, code: str, period: str, payload: dict, report: str) -> None:
@@ -146,7 +175,7 @@ def write_formal_database(root: Path, records: list[dict]) -> None:
 
 
 class SitePipelineTest(unittest.TestCase):
-    def test_current_analysis_v2_is_normalized_for_publication(self) -> None:
+    def test_current_analysis_v3_is_normalized_for_publication(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
             stock_report = Path(temporary) / "stock_report"
             source = stock_report / "data/analysis/stock_research"
@@ -170,7 +199,53 @@ class SitePipelineTest(unittest.TestCase):
             self.assertEqual(stocks[0]["gross_profit_yi"], 2431.03)
             self.assertTrue(stocks[0]["business_summary"].startswith("拼多多是一家由商户付费"))
 
-    def test_watcher_detects_only_reviewed_current_analysis_v2(self) -> None:
+    def test_previous_analysis_v2_remains_publishable(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            stock_report = Path(temporary) / "stock_report"
+            source = stock_report / "data/analysis/stock_research"
+            write_research(
+                source, "PDD", "2025-12-31",
+                current_result("PDD", schema=PREVIOUS_CURRENT_SCHEMA), "# 拼多多旧协议报告",
+            )
+
+            documents = load_research_documents(None, stock_report)
+
+            self.assertEqual(len(documents), 1)
+            self.assertEqual(
+                documents[0].result["schema_version"], PREVIOUS_CURRENT_SCHEMA
+            )
+
+    def test_analysis_v3_outranks_v2_for_the_same_company_period(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            legacy_root = root / "previous"
+            stock_report = root / "stock_report"
+            current_root = stock_report / "data/analysis/stock_research"
+            write_research(
+                legacy_root, "PDD", "2025-12-31",
+                current_result("PDD", schema=PREVIOUS_CURRENT_SCHEMA), "v2",
+            )
+            write_research(
+                current_root, "PDD", "2025-12-31", current_result("PDD"), "v3",
+            )
+
+            documents = load_research_documents(legacy_root, stock_report)
+
+            self.assertEqual(len(documents), 1)
+            self.assertEqual(documents[0].result["schema_version"], CURRENT_SCHEMA)
+
+    def test_analysis_v3_requires_history_and_business_decomposition(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            stock_report = Path(temporary) / "stock_report"
+            source = stock_report / "data/analysis/stock_research"
+            incomplete = current_result("PDD")
+            incomplete["businesses"] = {}
+            write_research(source, "PDD", "2025-12-31", incomplete, "bad")
+
+            self.assertEqual(load_research_documents(None, stock_report), [])
+            self.assertEqual(completed_reports(stock_report, settle_seconds=0), {})
+
+    def test_watcher_detects_only_reviewed_current_analysis_v3(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
             stock_report = Path(temporary) / "stock_report"
             source = stock_report / "data/analysis/stock_research"
