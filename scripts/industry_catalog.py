@@ -212,6 +212,7 @@ def render_industry_index(asset_version: str) -> str:
       <p class="industry-loading">正在加载公司与行业数据…</p>
     </div>
   </main>
+  <script>window.AH_INDUSTRY_CATALOG_URL = "../data/industry-classification.json?v={asset_version}";</script>
   <script src="../assets/industries.js?v={asset_version}" defer></script>
 </body>
 </html>

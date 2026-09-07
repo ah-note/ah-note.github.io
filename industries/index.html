@@ -6,7 +6,7 @@
   <title>公司行业导航 - AH Note</title>
   <meta name="description" content="搜索 A 股和港股公司，查看所属行业、同类公司和完整行业层级。">
   <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="../assets/styles.css?v=20260907-1">
+  <link rel="stylesheet" href="../assets/styles.css?v=20260907-2">
 </head>
 <body>
   <nav class="site-nav"><a href="../">股票</a><a href="../reports/">报告</a><a href="../research/">深度研报</a><a class="active" href="">行业</a><a href="../reference/">参考资料</a></nav>
@@ -31,6 +31,7 @@
       <p class="industry-loading">正在加载公司与行业数据…</p>
     </div>
   </main>
-  <script src="../assets/industries.js?v=20260907-1" defer></script>
+  <script>window.AH_INDUSTRY_CATALOG_URL = "../data/industry-classification.json?v=20260907-2";</script>
+  <script src="../assets/industries.js?v=20260907-2" defer></script>
 </body>
 </html>

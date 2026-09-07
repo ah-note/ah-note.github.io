@@ -258,7 +258,7 @@
   button.addEventListener("click", runSearch);
   window.addEventListener("hashchange", route);
 
-  fetch("../data/industry-classification.json")
+  fetch(window.AH_INDUSTRY_CATALOG_URL || "../data/industry-classification.json")
     .then((response) => {
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
       return response.json();

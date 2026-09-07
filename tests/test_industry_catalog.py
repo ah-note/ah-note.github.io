@@ -88,6 +88,7 @@ class IndustryCatalogTest(unittest.TestCase):
         self.assertIn('id="industrySearch"', page)
         self.assertIn('id="industryApp"', page)
         self.assertIn("assets/industries.js?v=test-version", page)
+        self.assertIn("industry-classification.json?v=test-version", page)
         self.assertIn("输入公司名称或股票代码", page)
 
     def test_primary_navigation_and_publisher_keep_industry_browser(self) -> None:
