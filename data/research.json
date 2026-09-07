@@ -3,6 +3,19 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v3",
+      "code": "603993.SH",
+      "name": "洛阳钼业",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-07T21:05:47+08:00",
+      "review_status": "pass",
+      "title": "洛阳钼业公司研究：矿山现金利润上台阶，贸易与扩张仍吞吐大量资本",
+      "excerpt": "研究期间为2023—2025年，金额默认亿元人民币。信息边界截至2026年3月28日发布的2025年年度报告；任务没有提供市场价格、观察日或汇率，因此本文只形成普通股基准价值，不讨论相对当前股价的折溢价，也不给买卖建议。",
+      "url": "reports/603993.SH/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v3",
       "code": "600938.SH",
       "name": "中国海油",
       "market": "A",
