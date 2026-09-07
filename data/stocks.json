@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-09-07 20:02:24 +08:00",
+  "built_at": "2026-09-07 20:07:53 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -79375,6 +79375,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600409.SH/"
+    },
+    {
+      "schema_version": "stock-research-analysis-v3",
+      "code": "601636.SH",
+      "name": "旗滨集团",
+      "raw_name": "旗滨集团",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": null,
+      "pe_ttm": null,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": null,
+      "operating_business_price_yi": 138.25,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 157.37,
+      "gross_profit_yi": 20.64,
+      "parent_net_profit_yi": 6.19,
+      "gross_margin_pct": 13.11,
+      "net_margin_pct": 3.93,
+      "forecast_dividend_yield_pct": null,
+      "risk_level": "未分级",
+      "business_summary": "旗滨集团已经从以浮法玻璃为主、能在景气年份产生较高利润的制造商，变成浮法、节能建筑玻璃和光伏玻璃并重的重资产集团。扩张提高了收入容量，却尚未提高股东可得现金：2023—2025年收入几乎停在157亿元，投入资本由222亿元升至260亿元，重构ROIC由9.69%降至0.68%，实际FCFF分别为-20.5亿元、-13.8亿元和-7.67亿元。资本开支下降使现...",
+      "core_judgement": "",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/601636.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
