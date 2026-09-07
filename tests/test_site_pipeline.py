@@ -26,6 +26,7 @@ from research_feed import build_research_feed  # noqa: E402
 from site_sources import (  # noqa: E402
     CURRENT_SCHEMA,
     PREVIOUS_CURRENT_SCHEMA,
+    PREVIOUS_CURRENT_SCHEMA_V3,
     UNIFIED_SCHEMA,
     load_research_documents,
 )
@@ -99,7 +100,7 @@ def current_result(
             for name in review_names
         },
     }
-    if schema == CURRENT_SCHEMA:
+    if schema in {PREVIOUS_CURRENT_SCHEMA_V3, CURRENT_SCHEMA}:
         result["coverage_years"] = [2023, 2024, 2025]
         result["fields"] = {
             "historical": {
@@ -132,6 +133,10 @@ def current_result(
             "fcff": {"value": 85_600_000_000},
         }
     return result
+
+
+def current_v3_result(code: str, *, review_passed: bool = True) -> dict:
+    return current_result(code, review_passed=review_passed, schema=PREVIOUS_CURRENT_SCHEMA_V3)
 
 
 def write_research(root: Path, code: str, period: str, payload: dict, report: str) -> None:
@@ -189,7 +194,7 @@ class SitePipelineTest(unittest.TestCase):
             reload_after_site_update()
         execv.assert_called_once()
 
-    def test_current_analysis_v3_is_normalized_for_publication(self) -> None:
+    def test_current_analysis_v4_is_normalized_for_publication(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
             stock_report = Path(temporary) / "stock_report"
             source = stock_report / "data/analysis/stock_research"
@@ -229,7 +234,7 @@ class SitePipelineTest(unittest.TestCase):
                 documents[0].result["schema_version"], PREVIOUS_CURRENT_SCHEMA
             )
 
-    def test_analysis_v3_outranks_v2_for_the_same_company_period(self) -> None:
+    def test_analysis_v4_outranks_v2_for_the_same_company_period(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)
             legacy_root = root / "previous"
@@ -248,7 +253,7 @@ class SitePipelineTest(unittest.TestCase):
             self.assertEqual(len(documents), 1)
             self.assertEqual(documents[0].result["schema_version"], CURRENT_SCHEMA)
 
-    def test_analysis_v3_requires_history_and_business_decomposition(self) -> None:
+    def test_analysis_v4_requires_history_and_business_decomposition(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
             stock_report = Path(temporary) / "stock_report"
             source = stock_report / "data/analysis/stock_research"
@@ -259,7 +264,7 @@ class SitePipelineTest(unittest.TestCase):
             self.assertEqual(load_research_documents(None, stock_report), [])
             self.assertEqual(completed_reports(stock_report, settle_seconds=0), {})
 
-    def test_watcher_detects_only_reviewed_current_analysis_v3(self) -> None:
+    def test_watcher_detects_only_reviewed_current_analysis_v4(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
             stock_report = Path(temporary) / "stock_report"
             source = stock_report / "data/analysis/stock_research"
@@ -275,6 +280,22 @@ class SitePipelineTest(unittest.TestCase):
             reports = completed_reports(stock_report, settle_seconds=0)
 
             self.assertEqual(list(reports), ["PDD/2025-12-31"])
+
+    def test_previous_analysis_v3_remains_publishable(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            stock_report = Path(temporary) / "stock_report"
+            source = stock_report / "data/analysis/stock_research"
+            write_research(
+                source, "PDD", "2025-12-31",
+                current_v3_result("PDD"), "# 拼多多 v3 协议报告",
+            )
+
+            documents = load_research_documents(None, stock_report)
+
+            self.assertEqual(len(documents), 1)
+            self.assertEqual(
+                documents[0].result["schema_version"], PREVIOUS_CURRENT_SCHEMA_V3
+            )
 
     def test_report_tables_only_expand_when_they_have_many_columns(self) -> None:
         standard = render_table(["| 项目 | 金额 |", "| --- | --- |", "| 收入 | 100 |"])

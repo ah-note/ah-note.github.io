@@ -8,8 +8,9 @@ from typing import Any
 
 UNIFIED_SCHEMA = "stock-research-result-v1"
 PREVIOUS_CURRENT_SCHEMA = "stock-research-analysis-v2"
-CURRENT_SCHEMA = "stock-research-analysis-v3"
-CURRENT_SCHEMAS = {PREVIOUS_CURRENT_SCHEMA, CURRENT_SCHEMA}
+PREVIOUS_CURRENT_SCHEMA_V3 = "stock-research-analysis-v3"
+CURRENT_SCHEMA = "stock-research-analysis-v4"
+CURRENT_SCHEMAS = {PREVIOUS_CURRENT_SCHEMA, PREVIOUS_CURRENT_SCHEMA_V3, CURRENT_SCHEMA}
 REQUIRED_CURRENT_REVIEWS = {
     "capital_return_interpretability",
     "source_traceability",
@@ -58,7 +59,7 @@ def normalize_current_result(result: dict[str, Any], result_path: Path) -> dict[
     schema = result.get("schema_version")
     coverage_years = result.get("coverage_years") if isinstance(result.get("coverage_years"), list) else []
     latest_year = str(max(coverage_years)) if coverage_years else ""
-    if schema == CURRENT_SCHEMA:
+    if schema in {PREVIOUS_CURRENT_SCHEMA_V3, CURRENT_SCHEMA}:
         field_path = ("fields", "historical", latest_year)
         computed_path = ("computed", "historical", latest_year)
     else:
@@ -191,7 +192,8 @@ def normalize_result(result: dict[str, Any], result_path: Path) -> dict[str, Any
 
 def schema_rank(result: dict[str, Any]) -> int:
     return {
-        CURRENT_SCHEMA: 3,
+        CURRENT_SCHEMA: 4,
+        PREVIOUS_CURRENT_SCHEMA_V3: 3,
         PREVIOUS_CURRENT_SCHEMA: 2,
         UNIFIED_SCHEMA: 1,
     }.get(result.get("schema_version"), 0)
@@ -205,7 +207,7 @@ def is_publishable(result: dict[str, Any]) -> bool:
             key for key, value in review.items()
             if isinstance(value, dict) and value.get("passed") is True
         }
-        if result.get("schema_version") == CURRENT_SCHEMA:
+        if result.get("schema_version") in {PREVIOUS_CURRENT_SCHEMA_V3, CURRENT_SCHEMA}:
             coverage_years = analysis.get("coverage_years")
             if (
                 not isinstance(coverage_years, list)
