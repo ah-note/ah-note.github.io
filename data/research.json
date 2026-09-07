@@ -3,6 +3,19 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v3",
+      "code": "000683.SZ",
+      "name": "博源化工",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-07T19:53:17+08:00",
+      "review_status": "pass",
+      "title": "博源化工（000683.SZ）公司研究",
+      "excerpt": "博源化工是一家以天然碱法纯碱、小苏打和煤制尿素为核心的资源型基础化工企业。客户支付的是标准化大宗产品，订单主要由下游开工、即时价格、产品等级、供应稳定性与物流到岸成本共同决定。公司真正较难复制的环节不是品牌溢价，而是塔木素天然碱资源、低流程成本、连续化大装置及配套能源物流；但产品价格仍由行业供需主导，这些优势更可能表现为低成本周期韧性，而不是稳定定价权。",
+      "url": "reports/000683.SZ/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v3",
       "code": "000932.SZ",
       "name": "华菱钢铁",
       "market": "A",
@@ -90,19 +103,6 @@
       "title": "名创优品（09896.HK）公司研究",
       "excerpt": "研究截止日为2026年9月7日，核心财务期截至2025年12月31日；金额除每股数据外均为人民币亿元。2023年采用公司因财年结算日由6月30日改为12月31日而补充的未经审计自然年十二个月口径，2024—2025年为审计口径。本文不给买卖建议。",
       "url": "reports/09896.HK/"
-    },
-    {
-      "source": "current_company_research",
-      "analysis_version": "stock-research-analysis-v3",
-      "code": "000683.SZ",
-      "name": "博源化工",
-      "market": "A",
-      "report_period": "2025-12-31",
-      "published_at": "2026-09-07T16:37:21+08:00",
-      "review_status": "pass",
-      "title": "博源化工（000683.SZ）2025年度公司研究",
-      "excerpt": "博源化工的经营本质是把自有天然碱资源转成纯碱和小苏打，同时经营煤制尿素。客户购买的是玻璃、化工、食品、农业等生产流程所需的大宗基础原料；公司真正的差异不在需求独占，而在天然碱矿资源、较短工艺流程、规模化连续生产及运输组织。2025年纯碱、小苏打和尿素分别占收入61.8%、12.7%和24.0%，三者已经覆盖98.5%的合并收入。[《2025年年度报告》，2026年4月21日，第20—21页](https://static.cninfo.com.cn/finalpage/202……",
-      "url": "reports/000683.SZ/"
     },
     {
       "source": "current_company_research",
