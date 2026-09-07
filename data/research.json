@@ -3,6 +3,19 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v3",
+      "code": "600801.SH",
+      "name": "华新建材集团股份有限公司",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-07T19:47:00+08:00",
+      "review_status": "pass",
+      "title": "华新建材（600801.SH）公司研究",
+      "excerpt": "华新建材卖的不是一个全国统一价格的标准品组合，而是一组受运输半径、当地供需和矿山资源约束的区域建材。水泥和商品熟料是主轴，2025年收入212.85亿元，占集团60.2%；骨料和混凝土分别贡献54.83亿元和71.83亿元。客户付款源于房地产、基础设施及各类工程对胶凝材料、骨架材料和现场交付的需求。公司按区域需求“以销定产”，由基地和工业园组织生产，销售采取直销与分销并重；采购端对重要原燃材料实行总部统购。前五大客户仅占收入3.6%，前五大供应商占采购额9.2%，单一交易对手……",
+      "url": "reports/600801.SH/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v3",
       "code": "03690.HK",
       "name": "美团",
       "market": "HK",
