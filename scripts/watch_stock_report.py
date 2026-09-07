@@ -4,7 +4,9 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import os
 import subprocess
+import sys
 import time
 from pathlib import Path
 from typing import Any
@@ -12,6 +14,42 @@ from typing import Any
 from publish_site import ROOT, publish
 from formal_reports import formal_report_digest, load_formal_reports
 from site_sources import CURRENT_SCHEMAS, UNIFIED_SCHEMA, is_publishable, normalize_result
+
+
+def site_head() -> str:
+    completed = subprocess.run(
+        ["git", "rev-parse", "HEAD"], cwd=ROOT, text=True,
+        capture_output=True, check=False,
+    )
+    if completed.returncode != 0:
+        raise RuntimeError(completed.stderr.strip() or "AH Note is not a Git checkout")
+    return completed.stdout.strip()
+
+
+LOADED_SITE_COMMIT = site_head()
+
+
+def reload_after_site_update() -> None:
+    """Pull before publishing and reload modules when the checkout changes."""
+    status = subprocess.run(
+        ["git", "status", "--porcelain"], cwd=ROOT, text=True,
+        capture_output=True, check=False,
+    )
+    if status.returncode != 0:
+        raise RuntimeError(status.stderr.strip() or "AH Note is not a Git checkout")
+    if status.stdout.strip():
+        raise RuntimeError("AH Note publication checkout is not clean")
+    pulled = subprocess.run(
+        ["git", "pull", "--ff-only", "origin", "main"], cwd=ROOT, text=True,
+        capture_output=True, check=False,
+    )
+    if pulled.returncode != 0:
+        raise RuntimeError(pulled.stderr.strip() or pulled.stdout.strip() or "AH Note pull failed")
+    if site_head() != LOADED_SITE_COMMIT:
+        os.execv(
+            sys.executable,
+            [sys.executable, str(Path(__file__).resolve()), *sys.argv[1:]],
+        )
 
 
 def sync_clean_stock_report(stock_report_root: Path) -> None:
@@ -104,6 +142,7 @@ def publish_changes(stock_report_root: Path, state_file: Path, settle_seconds: i
     if not changed:
         return {"status": "unchanged", "changed_codes": []}
     codes = sorted({record["code"] for record in changed})
+    reload_after_site_update()
     result = publish(stock_report_root, codes)
     save_state(state_file, reports)
     result["changed_codes"] = codes

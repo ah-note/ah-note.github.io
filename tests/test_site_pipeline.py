@@ -3,9 +3,11 @@ from __future__ import annotations
 import json
 import hashlib
 import sqlite3
+import subprocess
 import sys
 import tempfile
 import unittest
+from unittest.mock import patch
 from pathlib import Path
 
 
@@ -27,7 +29,7 @@ from site_sources import (  # noqa: E402
     UNIFIED_SCHEMA,
     load_research_documents,
 )
-from watch_stock_report import completed_reports  # noqa: E402
+from watch_stock_report import completed_reports, reload_after_site_update  # noqa: E402
 
 
 def unified_result(code: str, period: str = "2025-12-31", status: str = "complete") -> dict:
@@ -175,6 +177,18 @@ def write_formal_database(root: Path, records: list[dict]) -> None:
 
 
 class SitePipelineTest(unittest.TestCase):
+    def test_publisher_reloads_modules_after_site_checkout_updates(self) -> None:
+        clean = subprocess.CompletedProcess(["git"], 0, stdout="", stderr="")
+        pulled = subprocess.CompletedProcess(["git"], 0, stdout="updated", stderr="")
+        with (
+            patch("watch_stock_report.subprocess.run", side_effect=[clean, pulled]),
+            patch("watch_stock_report.site_head", return_value="new-commit"),
+            patch("watch_stock_report.LOADED_SITE_COMMIT", "old-commit"),
+            patch("watch_stock_report.os.execv") as execv,
+        ):
+            reload_after_site_update()
+        execv.assert_called_once()
+
     def test_current_analysis_v3_is_normalized_for_publication(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
             stock_report = Path(temporary) / "stock_report"
