@@ -3,6 +3,19 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v3",
+      "code": "600938.SH",
+      "name": "中国海油",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-07T21:00:02+08:00",
+      "review_status": "pass",
+      "title": "中国海油（600938.SH）2025年度公司研究",
+      "excerpt": "客户购买的是可按约交付的原油、天然气和LNG，而不是储量本身。自产油气业务先取得勘探开发权，通过地震勘探、钻井评价、工程建设和生产运维形成产量，再由销售体系向炼化和天然气客户交付；外采贸易业务则销售合作方在产量分成合同下的油气份额，或转售外购油气。年报明确，贸易收入对应的外购油气成本列在“原油及产品采购”中，付款通常在交付后30天内到期。[2025年报，pp.105、125](https://www.cnoocltd.com/english/investorrelations……",
+      "url": "reports/600938.SH/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v3",
       "code": "601088.SH",
       "name": "中国神华",
       "market": "A",
