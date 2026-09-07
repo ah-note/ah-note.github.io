@@ -3,6 +3,32 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v3",
+      "code": "000932.SZ",
+      "name": "华菱钢铁",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-07T19:51:53+08:00",
+      "review_status": "pass",
+      "title": "华菱钢铁（000932.SZ）公司研究",
+      "excerpt": "华菱钢铁不是单纯押注钢价的同质化普钢厂。它以湘钢、涟钢、衡钢、阳春新钢和汽车板公司为生产主体，把同一套高炉—炼钢—轧制资产导向宽厚板、热冷轧薄板、线棒材和无缝钢管，再依靠客户认证、联合研发、柔性排产和直供服务取得产品组合溢价。2025年品种钢销量占比达到68.5%，板材贡献了公司大部分经营利润；长材在房地产用钢收缩与价格竞争下已接近经营亏损，贸易和材料让售规模大但毛利薄。[《2025年年度报告》2026-03-31，第11—18页](https://static.cninfo……",
+      "url": "reports/000932.SZ/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v3",
+      "code": "600409.SH",
+      "name": "三友化工",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-07T19:51:27+08:00",
+      "review_status": "pass",
+      "title": "三友化工（600409.SH）公司研究",
+      "excerpt": "研究期间为2023—2025年，金额除特别说明外均为人民币亿元。信息截止于公司2025年年度报告披露日2026年4月25日；任务未提供可核验的市场价格快照，因此本报告形成每股基准价值，但不比较当前价格。本报告不给出买卖建议。",
+      "url": "reports/600409.SH/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v3",
       "code": "600801.SH",
       "name": "华新建材集团股份有限公司",
       "market": "A",
