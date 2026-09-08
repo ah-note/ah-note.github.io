@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-09-09 03:38:33 +08:00",
+  "built_at": "2026-09-09 03:48:25 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -84366,6 +84366,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002858.SZ/"
+    },
+    {
+      "schema_version": "stock-research-analysis-v4",
+      "code": "02150.HK",
+      "name": "奈雪的茶",
+      "raw_name": "奈雪的茶",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "人民币",
+      "market_cap_yi": null,
+      "pe_ttm": null,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": null,
+      "operating_business_price_yi": 16.32,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 43.31,
+      "gross_profit_yi": 28.61,
+      "parent_net_profit_yi": null,
+      "gross_margin_pct": 66.05,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": null,
+      "risk_level": "未分级",
+      "business_summary": "研究期截至2025年12月31日；金额除特别注明外均为人民币亿元。本报告使用2023—2025三个完整年度，信息以2026年4月29日披露的2025年报为截止，不给出买卖建议。",
+      "core_judgement": "",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/02150.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",

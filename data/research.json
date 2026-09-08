@@ -3,6 +3,19 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "02150.HK",
+      "name": "奈雪的茶",
+      "market": "HK",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T03:45:53+08:00",
+      "review_status": "pass",
+      "title": "奈雪的茶（02150.HK）公司研究",
+      "excerpt": "研究期截至2025年12月31日；金额除特别注明外均为人民币亿元。本报告使用2023—2025三个完整年度，信息以2026年4月29日披露的2025年报为截止，不给出买卖建议。",
+      "url": "reports/02150.HK/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "002858.SZ",
       "name": "力盛体育",
       "market": "A",
