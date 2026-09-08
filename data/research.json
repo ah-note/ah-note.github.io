@@ -3,6 +3,32 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "00425.HK",
+      "name": "敏实集团",
+      "market": "HK",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T06:40:45+08:00",
+      "review_status": "pass",
+      "title": "敏实集团（00425.HK）公司研究",
+      "excerpt": "敏实已经不只是饰条供应商，而是一套围绕全球整车厂定点、模具开发、本地化量产和材料工艺协同运转的汽车零部件制造系统。2023—2025年，收入由205.2亿元增至257.4亿元，重构NOPAT由20.2亿元增至26.1亿元；最大变化来自车身结构与电池盒，2025年该分部原始收入75.3亿元、同比增长41.1%，已经超过任何单个传统产品分部。[《2025年年度报告》，2026年3月23日，PDF第105—106页](https://www1.hkexnews.hk/listedc……",
+      "url": "reports/00425.HK/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
+      "code": "00669.HK",
+      "name": "创科实业",
+      "market": "HK",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T06:39:19+08:00",
+      "review_status": "pass",
+      "title": "创科实业（00669.HK）公司研究",
+      "excerpt": "本表以公司合并总量为硬约束；业务行混合直接披露与基准估计，只用于理解主要经营数据和利润/现金来源。",
+      "url": "reports/00669.HK/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "02580.HK",
       "name": "奥克斯电气",
       "market": "HK",
