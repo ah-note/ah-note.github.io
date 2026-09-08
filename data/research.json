@@ -3,6 +3,19 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "600818.SH",
+      "name": "中路股份",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T02:18:50+08:00",
+      "review_status": "pass",
+      "title": "中路股份：规模增长没有转化为股东现金",
+      "excerpt": "研究期间为2023—2025年，金额除特别说明外均为人民币亿元。结论以三份年度报告为信息边界；2025年报审计报告日为2026年4月26日。任务没有提供可核验的市场价格、观察日期和汇率，因此本文只给出每股基准价值，不判断当前股价的折溢价。",
+      "url": "reports/600818.SH/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "09868.HK",
       "name": "小鵬集團－Ｗ",
       "market": "HK",
