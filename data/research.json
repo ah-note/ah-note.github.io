@@ -3,6 +3,19 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "300146.SZ",
+      "name": "汤臣倍健",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-08T12:11:25+08:00",
+      "review_status": "pass",
+      "title": "汤臣倍健（300146.SZ）2025年度公司研究",
+      "excerpt": "汤臣倍健现在不是一个“需求自然增长、费用随收入摊薄”的顺风生意，而是一台仍有品牌、渠道和生产能力，但必须证明境内销售能够止跌、品牌投入能够重新产生增量回报的消费品机器。2023—2025年收入从94.07亿元降至68.38亿元、再降至62.65亿元；重构EBIT由18.55亿元降至7.68亿元后回升至9.01亿元。2025年的改善主要来自费用收缩和毛利率回升，不是收入恢复，因此不能把利润反弹直接视作新增长周期。",
+      "url": "reports/300146.SZ/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "600185.SH",
       "name": "珠免集团",
       "market": "A",
