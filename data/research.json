@@ -3,6 +3,32 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "002351.SZ",
+      "name": "漫步者",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T05:04:00+08:00",
+      "review_status": "pass",
+      "title": "漫步者（002351.SZ）公司研究",
+      "excerpt": "研究截止日为2025年12月31日，覆盖2023—2025三个完整年度。金额如无特别说明均为人民币亿元。本报告不给出买卖建议；“基准价值”是按统一的稳定经营收益八倍纪律形成的估值标尺，不等同于市场公允价值承诺。",
+      "url": "reports/002351.SZ/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
+      "code": "002011.SZ",
+      "name": "盾安环境",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T05:02:57+08:00",
+      "review_status": "pass",
+      "title": "盾安环境公司研究（2025年）",
+      "excerpt": "本表以公司合并总量为硬约束；业务行混合直接披露与基准估计，只用于理解主要经营数据和利润/现金来源。",
+      "url": "reports/002011.SZ/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "002301.SZ",
       "name": "齐心集团",
       "market": "A",
