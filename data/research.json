@@ -3,6 +3,32 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "02360.HK",
+      "name": "優品３６０",
+      "market": "HK",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-08T13:46:31+08:00",
+      "review_status": "pass",
+      "title": "優品３６０（02360.HK）公司研究",
+      "excerpt": "研究截止日为2025年12月31日；经营事实覆盖2023—2025年，其中2023年因公司把结算日由3月31日改为12月31日，只包含2023年4月1日至12月31日九个月，不能与其后两个完整年度直接同比。金额除特别注明外均为港元。",
+      "url": "reports/02360.HK/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
+      "code": "002422.SZ",
+      "name": "科伦药业",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-08T13:45:21+08:00",
+      "review_status": "pass",
+      "title": "科伦药业公司研究（截至2025年12月31日）",
+      "excerpt": "本表以公司合并总量为硬约束；业务行混合直接披露与基准估计，只用于理解主要经营数据和利润/现金来源。",
+      "url": "reports/002422.SZ/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "600276.SH",
       "name": "恒瑞医药",
       "market": "A",
