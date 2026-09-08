@@ -3,6 +3,19 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "603288.SH",
+      "name": "海天味业",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-08T12:30:49+08:00",
+      "review_status": "pass",
+      "title": "海天味业：现金很厚，生意仍好，关键是别把顺风当常态",
+      "excerpt": "研究期间：2023—2025年；财务金额除特别说明外均为人民币亿元。本文采用2025年年报对2024年比较数的重述口径。输入未提供可核验的市场价格，因此本文给出价值标尺，但不判断当前股价的折溢价。",
+      "url": "reports/603288.SH/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "06055.HK",
       "name": "中煙香港",
       "market": "HK",

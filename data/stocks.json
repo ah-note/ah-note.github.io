@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-09-08 12:32:01 +08:00",
+  "built_at": "2026-09-08 12:33:46 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -81328,6 +81328,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/000785.SZ/"
+    },
+    {
+      "schema_version": "stock-research-analysis-v4",
+      "code": "603288.SH",
+      "name": "海天味业",
+      "raw_name": "海天味业",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "人民币",
+      "market_cap_yi": null,
+      "pe_ttm": null,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": null,
+      "operating_business_price_yi": 471.2,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 288.73,
+      "gross_profit_yi": 116.14,
+      "parent_net_profit_yi": null,
+      "gross_margin_pct": 40.22,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": null,
+      "risk_level": "未分级",
+      "business_summary": "研究期间：2023—2025年；财务金额除特别说明外均为人民币亿元。本文采用2025年年报对2024年比较数的重述口径。输入未提供可核验的市场价格，因此本文给出价值标尺，但不判断当前股价的折溢价。",
+      "core_judgement": "",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/603288.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
