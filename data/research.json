@@ -3,6 +3,32 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "002928.SZ",
+      "name": "华夏航空",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T04:09:19+08:00",
+      "review_status": "pass",
+      "title": "华夏航空（002928.SZ）公司研究",
+      "excerpt": "研究期间为2023—2025年，信息截止于公司披露的2025年年度报告。本报告以人民币亿元为主要金额单位。任务未提供可核验的市场价格观察值，因此不做当前股价折溢价比较。",
+      "url": "reports/002928.SZ/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
+      "code": "603776.SH",
+      "name": "永安行",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T04:09:00+08:00",
+      "review_status": "pass",
+      "title": "永安行（603776.SH）公司研究",
+      "excerpt": "本表以公司合并总量为硬约束；业务行混合直接披露与基准估计，只用于理解主要经营数据和利润/现金来源。",
+      "url": "reports/603776.SH/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "02255.HK",
       "name": "海昌海洋公園",
       "market": "HK",
