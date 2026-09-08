@@ -3,6 +3,19 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "000921.SZ",
+      "name": "海信家电",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T04:33:23+08:00",
+      "review_status": "pass",
+      "title": "海信家电（000921.SZ）2025年度公司研究",
+      "excerpt": "海信家电不是一台单纯依靠家电销量赚钱的机器。经营端由暖通空调、冰洗家电、汽车热管理及其他制造构成；资本端则同时持有规模很大的理财、定期存款和联营投资。2025年收入879.28亿元，同比下降5.2%，重构EBIT为41.80亿元、EBIT率4.75%，均低于2024年；经营现金流57.96亿元仍有韧性，但21.18亿元现金资本开支处于三年高位。对投资者而言，判断重点不是把2023年96.2亿元FCFF机械外推，而是分别回答三个问题：暖通空调利润能否稳住、全球产能投入能否带来回……",
+      "url": "reports/000921.SZ/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "000810.SZ",
       "name": "创维数字",
       "market": "A",
