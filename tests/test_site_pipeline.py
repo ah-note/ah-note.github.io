@@ -30,7 +30,12 @@ from site_sources import (  # noqa: E402
     UNIFIED_SCHEMA,
     load_research_documents,
 )
-from watch_stock_report import completed_reports, reload_after_site_update  # noqa: E402
+from watch_stock_report import (  # noqa: E402
+    completed_reports,
+    missing_published_codes,
+    publish_changes,
+    reload_after_site_update,
+)
 
 
 def unified_result(code: str, period: str = "2025-12-31", status: str = "complete") -> dict:
@@ -193,6 +198,43 @@ class SitePipelineTest(unittest.TestCase):
         ):
             reload_after_site_update()
         execv.assert_called_once()
+
+    def test_watcher_republishes_when_state_exists_but_public_page_is_missing(self) -> None:
+        reports = {
+            "600036.SH/2025-12-31": {
+                "code": "600036.SH",
+                "period": "2025-12-31",
+                "digest": "same-digest",
+            }
+        }
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            with (
+                patch("watch_stock_report.ROOT", root),
+                patch("watch_stock_report.reload_after_site_update"),
+                patch("watch_stock_report.completed_reports", return_value=reports),
+                patch("watch_stock_report.load_state", return_value={"reports": reports}),
+                patch("watch_stock_report.publish", return_value={"status": "published"}) as publish,
+                patch("watch_stock_report.save_state") as save_state,
+            ):
+                result = publish_changes(root, root, root / "state.json", 0)
+
+        publish.assert_called_once_with(root, ["600036.SH"], stock_analysis_root=root)
+        save_state.assert_called_once_with(root / "state.json", reports)
+        self.assertEqual(result["changed_codes"], ["600036.SH"])
+
+    def test_missing_published_codes_deduplicates_report_periods(self) -> None:
+        reports = {
+            "PDD/2024-12-31": {"code": "PDD", "period": "2024-12-31", "digest": "a"},
+            "PDD/2025-12-31": {"code": "PDD", "period": "2025-12-31", "digest": "b"},
+        }
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            with patch("watch_stock_report.ROOT", root):
+                self.assertEqual(missing_published_codes(reports), ["PDD"])
+                (root / "reports/PDD").mkdir(parents=True)
+                (root / "reports/PDD/index.html").write_text("published", encoding="utf-8")
+                self.assertEqual(missing_published_codes(reports), [])
 
     def test_current_analysis_v4_is_normalized_for_publication(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:

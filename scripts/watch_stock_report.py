@@ -135,19 +135,32 @@ def save_state(path: Path, reports: dict[str, dict[str, str]]) -> None:
     temporary.replace(path)
 
 
+def missing_published_codes(reports: dict[str, dict[str, str]]) -> list[str]:
+    """Return completed report codes whose public detail page is absent."""
+    codes = {record["code"] for record in reports.values()}
+    return sorted(
+        code for code in codes
+        if not (ROOT / "reports" / code / "index.html").is_file()
+    )
+
+
 def publish_changes(
     stock_report_root: Path,
     stock_analysis_root: Path,
     state_file: Path,
     settle_seconds: int,
 ) -> dict[str, Any]:
+    # Keep the long-running checkout aligned with the public branch before using
+    # local page existence as publication evidence.  If the pull advances HEAD,
+    # reload_after_site_update replaces this process so imported modules match it.
+    reload_after_site_update()
     reports = completed_reports(stock_report_root, settle_seconds)
     previous = load_state(state_file).get("reports") or {}
     changed = [record for key, record in reports.items() if previous.get(key) != record]
-    if not changed:
+    missing_codes = missing_published_codes(reports)
+    if not changed and not missing_codes:
         return {"status": "unchanged", "changed_codes": []}
-    codes = sorted({record["code"] for record in changed})
-    reload_after_site_update()
+    codes = sorted({record["code"] for record in changed} | set(missing_codes))
     result = publish(
         stock_report_root,
         codes,

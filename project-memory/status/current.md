@@ -13,3 +13,4 @@
 - 研究列表页的宣传页头已从生成器删除，后续构建不会恢复。
 - 发布服务使用显式的`stock_report`镜像和`stock_analysis`快照路径；构建、提交和推送在一次性Git worktree中完成，失败不会污染常驻checkout或推进监听状态，推送失败最多退避重试三次。
 - 远端`ah-note-publisher.service`已按上述协议恢复为`active/enabled`。发布仍依赖GitHub Pages；外部平台传播延迟不属于研究完成状态。
+- 发布监听同时核对成果摘要和公开详情页，已记录摘要但`/reports/<code>/index.html`缺失的证券会自动补发，避免状态文件与网站事实脱节。
