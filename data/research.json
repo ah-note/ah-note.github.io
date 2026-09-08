@@ -3,6 +3,19 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "600185.SH",
+      "name": "珠免集团",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-08T12:05:56+08:00",
+      "review_status": "pass",
+      "title": "珠免集团（600185.SH）公司研究",
+      "excerpt": "研究期为2023—2025年，金额除另有说明外均为人民币亿元。信息边界为所提供的三份法定年报；2025年度报告于2026年4月披露。本报告不给买卖建议，1.31元/股是统一八倍稳定经营收益口径下的基准标尺，不是市场价格预测。",
+      "url": "reports/600185.SH/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "600519.SH",
       "name": "贵州茅台",
       "market": "A",
