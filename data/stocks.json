@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-09-08 15:12:37 +08:00",
+  "built_at": "2026-09-08 15:18:50 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -81824,6 +81824,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/300059.SZ/"
+    },
+    {
+      "schema_version": "stock-research-analysis-v4",
+      "code": "09988.HK",
+      "name": "阿里巴巴集团控股有限公司",
+      "raw_name": "阿里巴巴集团控股有限公司",
+      "market": "HK",
+      "period": "2025-03-31",
+      "currency": "人民币",
+      "market_cap_yi": null,
+      "pe_ttm": null,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": null,
+      "operating_business_price_yi": 8720.0,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 9963.47,
+      "gross_profit_yi": 3980.62,
+      "parent_net_profit_yi": null,
+      "gross_margin_pct": 39.95,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": null,
+      "risk_level": "未分级",
+      "business_summary": "研究观察日：2025年12月31日。历史主表覆盖截至2023、2024和2025年3月31日止完整财政年度；截至观察日的变化以2025年9月30日止半年报补充，不用中期数代替完整年度。金额除特别说明外均为亿元人民币。",
+      "core_judgement": "",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/09988.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",

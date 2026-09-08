@@ -3,6 +3,19 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "09988.HK",
+      "name": "阿里巴巴集团控股有限公司",
+      "market": "HK",
+      "report_period": "2025-03-31",
+      "published_at": "2026-09-08T15:16:25+08:00",
+      "review_status": "pass",
+      "title": "阿里巴巴－Ｗ09988.HK公司研究",
+      "excerpt": "研究观察日：2025年12月31日。历史主表覆盖截至2023、2024和2025年3月31日止完整财政年度；截至观察日的变化以2025年9月30日止半年报补充，不用中期数代替完整年度。金额除特别说明外均为亿元人民币。",
+      "url": "reports/09988.HK/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "300059.SZ",
       "name": "东方财富",
       "market": "A",
