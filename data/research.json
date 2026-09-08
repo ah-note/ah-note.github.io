@@ -3,6 +3,32 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "688303.SH",
+      "name": "大全能源",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-08T11:05:50+08:00",
+      "review_status": "pass",
+      "title": "大全能源（688303.SH）公司研究",
+      "excerpt": "本表以公司合并总量为硬约束；业务行混合直接披露与基准估计，只用于理解主要经营数据和利润/现金来源。",
+      "url": "reports/688303.SH/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
+      "code": "300251.SZ",
+      "name": "光线传媒",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-08T11:05:30+08:00",
+      "review_status": "pass",
+      "title": "光线传媒公司研究",
+      "excerpt": "本表以公司合并总量为硬约束；业务行混合直接披露与基准估计，只用于理解主要经营数据和利润/现金来源。",
+      "url": "reports/300251.SZ/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "002027.SZ",
       "name": "分众传媒",
       "market": "A",
