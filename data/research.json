@@ -3,6 +3,19 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "300917.SZ",
+      "name": "特发服务",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-08T15:36:54+08:00",
+      "review_status": "pass",
+      "title": "特发服务（300917.SZ）公司研究",
+      "excerpt": "报告基准日为2025年12月31日，经营历史覆盖2023—2025年；2026年半年报只用于观察期后变化。金额除特别说明外均为人民币亿元。本报告不给买卖建议，价值数字是统一纪律下的经营资产标尺，不是市场目标价。",
+      "url": "reports/300917.SZ/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "600036.SH",
       "name": "招商银行",
       "market": "A",

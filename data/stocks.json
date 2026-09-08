@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-09-08 15:34:07 +08:00",
+  "built_at": "2026-09-08 15:40:19 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -82072,6 +82072,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600036.SH/"
+    },
+    {
+      "schema_version": "stock-research-analysis-v4",
+      "code": "300917.SZ",
+      "name": "特发服务",
+      "raw_name": "特发服务",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "人民币",
+      "market_cap_yi": null,
+      "pe_ttm": null,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": null,
+      "operating_business_price_yi": 10.25,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 29.72,
+      "gross_profit_yi": 3.52,
+      "parent_net_profit_yi": null,
+      "gross_margin_pct": 11.86,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": null,
+      "risk_level": "未分级",
+      "business_summary": "报告基准日为2025年12月31日，经营历史覆盖2023—2025年；2026年半年报只用于观察期后变化。金额除特别说明外均为人民币亿元。本报告不给买卖建议，价值数字是统一纪律下的经营资产标尺，不是市场目标价。",
+      "core_judgement": "",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/300917.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
