@@ -3,6 +3,19 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "300999.SZ",
+      "name": "金龙鱼",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-08T12:59:46+08:00",
+      "review_status": "pass",
+      "title": "金龙鱼（300999.SZ）公司研究",
+      "excerpt": "研究截止日为2025年12月31日，期后信息以2026年4月16日审计报告签署日为限。金额除特别说明外均为人民币亿元。本报告的价值数字是统一口径下的基准压力测试，不是市场目标价。",
+      "url": "reports/300999.SZ/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "002157.SZ",
       "name": "正邦科技",
       "market": "A",
