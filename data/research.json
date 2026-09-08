@@ -3,6 +3,32 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "002301.SZ",
+      "name": "齐心集团",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T05:00:27+08:00",
+      "review_status": "pass",
+      "title": "齐心集团（002301.SZ）公司研究",
+      "excerpt": "研究期间为2023—2025年，估值基准日为2025年12月31日。金额如无特别说明均为人民币亿元。由于任务未提供可核验的市场快照，本文不比较当前股价与内在价值。",
+      "url": "reports/002301.SZ/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
+      "code": "001322.SZ",
+      "name": "箭牌家居",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T04:59:59+08:00",
+      "review_status": "pass",
+      "title": "箭牌家居（001322.SZ）公司研究",
+      "excerpt": "本表以公司合并总量为硬约束；业务行混合直接披露与基准估计，只用于理解主要经营数据和利润/现金来源。",
+      "url": "reports/001322.SZ/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "002242.SZ",
       "name": "九阳股份",
       "market": "A",
