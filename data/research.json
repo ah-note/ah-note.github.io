@@ -3,6 +3,32 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "300679.SZ",
+      "name": "电连技术",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T07:43:00+08:00",
+      "review_status": "pass",
+      "title": "电连技术公司研究：汽车放量之后，现金回报仍取决于毛利与周转",
+      "excerpt": "电连技术已从以手机微型射频连接器为主的公司，变成消费电子与汽车连接器双主业、软板和Pogo Pin等产品补充的精密互连制造商。2025年汽车连接器收入20.56亿元，同比增长40.70%，首次超过消费电子连接器的18.59亿元，成为最大业务；但公司毛利率由2024年的33.6%降至29.9%，说明放量尚未完全转化为单位经济改善。[《2025年年度报告》（2026年4月24日），P20-P23](https://static.cninfo.com.cn/finalpage/20……",
+      "url": "reports/300679.SZ/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
+      "code": "300703.SZ",
+      "name": "创源股份",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T07:42:35+08:00",
+      "review_status": "pass",
+      "title": "创源股份（300703.SZ）公司研究",
+      "excerpt": "研究截止日：2025年12月31日。金额除特别说明外均为人民币亿元。本文只讨论公司怎样赚钱、资本怎样被占用以及普通股价值怎样形成，不提供买卖建议。",
+      "url": "reports/300703.SZ/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "300793.SZ",
       "name": "佳禾智能",
       "market": "A",
