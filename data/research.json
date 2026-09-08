@@ -3,6 +3,19 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "002236.SZ",
+      "name": "大华股份",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-08T21:26:44+08:00",
+      "review_status": "pass",
+      "title": "大华股份（002236.SZ）公司研究",
+      "excerpt": "研究期间为2023—2025三个完整年度，金额除特别说明外均为人民币亿元。信息截止于《2025年年度报告》披露日；输入未提供可核验的市场价格快照，因此报告不作当前股价折溢价比较，也不给买卖建议。",
+      "url": "reports/002236.SZ/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "603019.SH",
       "name": "中科曙光",
       "market": "A",
