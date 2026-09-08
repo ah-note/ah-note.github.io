@@ -14,3 +14,4 @@
 - 发布服务使用显式的`stock_report`镜像和`stock_analysis`快照路径；构建、提交和推送在一次性Git worktree中完成，失败不会污染常驻checkout或推进监听状态，推送失败最多退避重试三次。
 - 远端`ah-note-publisher.service`已按上述协议恢复为`active/enabled`。发布仍依赖GitHub Pages；外部平台传播延迟不属于研究完成状态。
 - 发布监听同时核对成果摘要和公开详情页，已记录摘要但`/reports/<code>/index.html`缺失的证券会自动补发，避免状态文件与网站事实脱节。
+- 行业分类输入使用独立、可快进的`stock_analysis_site_source`镜像，不再依赖已经退役的经营分析A/B槽或活动Bundle目录。

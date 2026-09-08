@@ -35,6 +35,7 @@ from watch_stock_report import (  # noqa: E402
     missing_published_codes,
     publish_changes,
     reload_after_site_update,
+    sync_clean_checkout,
 )
 
 
@@ -198,6 +199,23 @@ class SitePipelineTest(unittest.TestCase):
         ):
             reload_after_site_update()
         execv.assert_called_once()
+
+    def test_clean_site_source_checkout_is_fast_forwarded(self) -> None:
+        clean = subprocess.CompletedProcess(["git"], 0, stdout="", stderr="")
+        pulled = subprocess.CompletedProcess(["git"], 0, stdout="Already up to date.", stderr="")
+        root = Path("/srv/stock-analysis-site-source")
+        with patch("watch_stock_report.subprocess.run", side_effect=[clean, pulled]) as run:
+            sync_clean_checkout(root, "stock_analysis")
+
+        self.assertEqual(run.call_count, 2)
+        self.assertEqual(run.call_args_list[0].kwargs["cwd"], root)
+        self.assertEqual(run.call_args_list[1].args[0], ["git", "pull", "--ff-only"])
+
+    def test_dirty_site_source_checkout_is_rejected(self) -> None:
+        dirty = subprocess.CompletedProcess(["git"], 0, stdout=" M taxonomy.json\n", stderr="")
+        with patch("watch_stock_report.subprocess.run", return_value=dirty):
+            with self.assertRaisesRegex(RuntimeError, "stock_analysis publication mirror is not clean"):
+                sync_clean_checkout(Path("/srv/stock-analysis-site-source"), "stock_analysis")
 
     def test_watcher_republishes_when_state_exists_but_public_page_is_missing(self) -> None:
         reports = {

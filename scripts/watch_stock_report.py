@@ -52,21 +52,29 @@ def reload_after_site_update() -> None:
         )
 
 
-def sync_clean_stock_report(stock_report_root: Path) -> None:
+def sync_clean_checkout(root: Path, label: str) -> None:
     status = subprocess.run(
-        ["git", "status", "--porcelain"], cwd=stock_report_root, text=True,
+        ["git", "status", "--porcelain"], cwd=root, text=True,
         capture_output=True, check=False,
     )
     if status.returncode != 0:
-        raise RuntimeError(status.stderr.strip() or "stock_report is not a Git checkout")
+        raise RuntimeError(status.stderr.strip() or f"{label} is not a Git checkout")
     if status.stdout.strip():
-        raise RuntimeError("stock_report publication mirror is not clean")
+        raise RuntimeError(f"{label} publication mirror is not clean")
     pulled = subprocess.run(
-        ["git", "pull", "--ff-only"], cwd=stock_report_root, text=True,
+        ["git", "pull", "--ff-only"], cwd=root, text=True,
         capture_output=True, check=False,
     )
     if pulled.returncode != 0:
-        raise RuntimeError(pulled.stderr.strip() or pulled.stdout.strip() or "stock_report pull failed")
+        raise RuntimeError(pulled.stderr.strip() or pulled.stdout.strip() or f"{label} pull failed")
+
+
+def sync_clean_stock_report(stock_report_root: Path) -> None:
+    sync_clean_checkout(stock_report_root, "stock_report")
+
+
+def sync_clean_stock_analysis(stock_analysis_root: Path) -> None:
+    sync_clean_checkout(stock_analysis_root, "stock_analysis")
 
 
 def report_digest(result_path: Path, report_path: Path) -> str:
@@ -183,12 +191,18 @@ def main() -> None:
         "--sync-stock-report", action="store_true",
         help="fast-forward a dedicated clean stock_report mirror before every scan",
     )
+    parser.add_argument(
+        "--sync-stock-analysis", action="store_true",
+        help="fast-forward a dedicated clean stock_analysis site-source mirror before every scan",
+    )
     args = parser.parse_args()
 
     while True:
         try:
             if args.sync_stock_report:
                 sync_clean_stock_report(args.stock_report_root.resolve())
+            if args.sync_stock_analysis:
+                sync_clean_stock_analysis(args.stock_analysis_root.resolve())
             result = publish_changes(
                 args.stock_report_root.resolve(),
                 args.stock_analysis_root.resolve(),
