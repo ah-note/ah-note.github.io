@@ -65,9 +65,16 @@
 
     data.issuers.forEach((issuer) => {
       if (issuer.status !== "eligible") return;
-      issuersByLeaf.get(issuer.primary_leaf_id).push(issuer);
+      const memberships = [...new Set([
+        issuer.primary_leaf_id,
+        ...(issuer.material_exposure_leaf_ids || []),
+      ].filter(Boolean))];
+      memberships.forEach((leafId) => issuersByLeaf.get(leafId)?.push(issuer));
       countsByNode.set("root", countsByNode.get("root") + 1);
-      leafPath.get(issuer.primary_leaf_id).forEach((node) => {
+      const countedNodes = new Set();
+      memberships.forEach((leafId) => (leafPath.get(leafId) || []).forEach((node) => countedNodes.add(node.key)));
+      countedNodes.forEach((nodeKey) => {
+        const node = nodeByKey.get(nodeKey);
         countsByNode.set(node.key, countsByNode.get(node.key) + 1);
       });
     });
@@ -179,8 +186,8 @@
     };
     const confidenceNames = { high: "高", medium: "中", low: "低", insufficient: "不足" };
     const status = issuer.status === "eligible" ? "可进入分析池" : "无分析价值类";
-    const secondary = issuer.secondary_leaf_ids.length
-      ? `<div class="company-secondary"><span>次要业务暴露</span>${issuer.secondary_leaf_ids.map((leafId) => {
+    const materialExposures = (issuer.material_exposure_leaf_ids || []).length
+      ? `<div class="company-secondary"><span>重大业务暴露</span>${issuer.material_exposure_leaf_ids.map((leafId) => {
           const node = nodeByKey.get(catalog.leaf_display_keys[leafId]);
           return node ? linkTo("category", node.key, node.name) : "";
         }).join("")}</div>` : "";
@@ -199,7 +206,7 @@
         <div class="company-title-row"><div><p>${escapeHtml(companyCode(issuer))}</p><h2>${escapeHtml(issuer.name)}</h2></div><span class="status-pill ${issuer.status === "eligible" ? "eligible" : "excluded"}">${status}</span></div>
         <div class="company-classification"><span>主分类</span><strong>${primaryClassification}</strong></div>
         <dl class="company-meta"><div><dt>市场</dt><dd>${escapeHtml(issuer.markets.join(" / "))}</dd></div><div><dt>分析模型</dt><dd>${escapeHtml(modelNames[issuer.analysis_model] || issuer.analysis_model)}</dd></div><div><dt>分类置信度</dt><dd>${escapeHtml(confidenceNames[issuer.confidence] || issuer.confidence)}</dd></div><div><dt>行业代表</dt><dd>${issuer.representative_rank ? `第 ${issuer.representative_rank} 顺位` : "否"}</dd></div></dl>
-        ${secondary}
+        ${materialExposures}
         <div class="company-report-action">${report}</div>
       </article>${peersSection}`;
   }

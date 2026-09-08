@@ -6,8 +6,8 @@ from pathlib import Path
 from typing import Any
 
 
-CATALOG_SCHEMA = "ah-note-industry-catalog-v2"
-SNAPSHOT_RELATIVE_DIR = Path("data/snapshots/industry_classification/ah_v1")
+CATALOG_SCHEMA = "ah-note-industry-catalog-v3"
+SNAPSHOT_RELATIVE_DIR = Path("data/snapshots/industry_classification/ah_v2")
 REQUIRED_SNAPSHOT_FILES = (
     "taxonomy.json",
     "issuer-map.jsonl",
@@ -141,6 +141,18 @@ def build_industry_catalog(
     ]
     if invalid:
         raise ValueError(f"industry catalog contains invalid primary leaves: {invalid[:10]}")
+    invalid_exposures = [
+        row["issuer_id"]
+        for row in issuers
+        if any(
+            leaf not in leaf_ids or leaf == row.get("primary_leaf_id")
+            for leaf in row.get("material_exposure_leaf_ids") or []
+        )
+    ]
+    if invalid_exposures:
+        raise ValueError(
+            f"industry catalog contains invalid material exposures: {invalid_exposures[:10]}"
+        )
     if audit.get("final_validation_errors"):
         raise ValueError("industry classification snapshot did not pass final validation")
 
@@ -184,6 +196,8 @@ def build_industry_catalog(
                 "search_terms": search_terms,
                 "primary_leaf_id": issuer["primary_leaf_id"],
                 "secondary_leaf_ids": issuer.get("secondary_leaf_ids") or [],
+                "material_exposure_leaf_ids": issuer.get("material_exposure_leaf_ids") or [],
+                "material_exposure_evidence": issuer.get("material_exposure_evidence") or [],
                 "analysis_model": issuer["analysis_model"],
                 "confidence": issuer["classification_confidence"],
                 "status": status,

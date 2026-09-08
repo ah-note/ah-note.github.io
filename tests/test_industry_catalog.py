@@ -40,6 +40,8 @@ class IndustryCatalogTest(unittest.TestCase):
             "eligibility_reason": "可分析",
             "primary_leaf_id": "missing" if not valid_leaf else "101020",
             "secondary_leaf_ids": [],
+            "material_exposure_leaf_ids": [],
+            "material_exposure_evidence": [],
             "analysis_model": "ordinary_operating",
             "classification_confidence": "high",
         }
@@ -72,6 +74,7 @@ class IndustryCatalogTest(unittest.TestCase):
 
             self.assertEqual(catalog["summary"]["eligible_issuer_count"], 1)
             self.assertEqual(catalog["issuers"][0]["primary_leaf_id"], "101020")
+            self.assertEqual(catalog["issuers"][0]["material_exposure_leaf_ids"], [])
             self.assertIn("测试机械", catalog["issuers"][0]["search_terms"])
             self.assertEqual(catalog["issuers"][0]["report_url"], "../reports/600000.SH/")
             self.assertEqual(catalog["issuers"][0]["representative_rank"], 1)
@@ -108,6 +111,28 @@ class IndustryCatalogTest(unittest.TestCase):
 
         self.assertEqual([node["name"] for node in nodes], ["能源", "煤炭"])
         self.assertEqual(leaf_keys["002010"], "sector:0020")
+
+    def test_catalog_keeps_evidence_backed_material_exposures(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            snapshot = self.write_snapshot(root)
+            taxonomy_path = snapshot / "taxonomy.json"
+            taxonomy = json.loads(taxonomy_path.read_text(encoding="utf-8"))
+            taxonomy["analysis_leaves"].append(
+                {"leaf_id": "101020.exposure", "subsector_id": "101020", "name_zh": "设备服务"}
+            )
+            taxonomy_path.write_text(json.dumps(taxonomy, ensure_ascii=False), encoding="utf-8")
+            issuer_path = snapshot / "issuer-map.jsonl"
+            issuer = json.loads(issuer_path.read_text(encoding="utf-8"))
+            issuer["material_exposure_leaf_ids"] = ["101020.exposure"]
+            issuer["material_exposure_evidence"] = [
+                {"leaf_id": "101020.exposure", "source": "annual_report"}
+            ]
+            issuer_path.write_text(json.dumps(issuer, ensure_ascii=False) + "\n", encoding="utf-8")
+
+            catalog = build_industry_catalog(snapshot, root / "missing-stocks.json")
+
+            self.assertEqual(catalog["issuers"][0]["material_exposure_leaf_ids"], ["101020.exposure"])
 
 
 if __name__ == "__main__":
