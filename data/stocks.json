@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-09-08 22:19:19 +08:00",
+  "built_at": "2026-09-08 22:27:32 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -83281,6 +83281,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/688234.SH/"
+    },
+    {
+      "schema_version": "stock-research-analysis-v4",
+      "code": "000009.SZ",
+      "name": "中国宝安",
+      "raw_name": "中国宝安",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "人民币",
+      "market_cap_yi": null,
+      "pe_ttm": null,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": null,
+      "operating_business_price_yi": 144.0,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 230.36,
+      "gross_profit_yi": 59.48,
+      "parent_net_profit_yi": null,
+      "gross_margin_pct": 25.82,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": null,
+      "risk_level": "未分级",
+      "business_summary": "研究期间截至2025年12月31日；财务证据以2023—2025年三份年度报告为准。金额除特别说明外均为人民币亿元。市场快照未提供，因此本文不比较当前股价，也不给买卖建议。",
+      "core_judgement": "",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/000009.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",

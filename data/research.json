@@ -3,6 +3,19 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "000009.SZ",
+      "name": "中国宝安",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-08T22:24:59+08:00",
+      "review_status": "pass",
+      "title": "中国宝安（000009.SZ）2025年度公司研究",
+      "excerpt": "研究期间截至2025年12月31日；财务证据以2023—2025年三份年度报告为准。金额除特别说明外均为人民币亿元。市场快照未提供，因此本文不比较当前股价，也不给买卖建议。",
+      "url": "reports/000009.SZ/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "688234.SH",
       "name": "天岳先进",
       "market": "A",
