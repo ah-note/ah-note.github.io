@@ -3,6 +3,19 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "300803.SZ",
+      "name": "指南针",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-08T21:51:57+08:00",
+      "review_status": "pass",
+      "title": "指南针（300803.SZ）公司研究",
+      "excerpt": "本表以公司合并总量为硬约束；业务行混合直接披露与基准估计，只用于理解主要经营数据和利润/现金来源。",
+      "url": "reports/300803.SZ/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "300124.SZ",
       "name": "汇川技术",
       "market": "A",
