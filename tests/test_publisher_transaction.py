@@ -14,7 +14,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 
 import publish_site  # noqa: E402
 import build_site  # noqa: E402
-from industry_catalog import validate_industry_snapshot  # noqa: E402
+from industry_catalog import SNAPSHOT_RELATIVE_DIR, validate_industry_snapshot  # noqa: E402
 
 
 def git(cwd: Path, *args: str) -> str:
@@ -25,7 +25,7 @@ def git(cwd: Path, *args: str) -> str:
 
 
 def write_snapshot(stock_analysis: Path) -> None:
-    target = stock_analysis / "data/snapshots/industry_classification/ah_v1"
+    target = stock_analysis / SNAPSHOT_RELATIVE_DIR
     target.mkdir(parents=True)
     (target / "taxonomy.json").write_text(
         json.dumps({

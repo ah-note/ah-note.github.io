@@ -7,7 +7,7 @@ from typing import Any
 
 
 CATALOG_SCHEMA = "ah-note-industry-catalog-v3"
-SNAPSHOT_RELATIVE_DIR = Path("data/snapshots/industry_classification/ah_v2")
+SNAPSHOT_RELATIVE_DIR = Path("data/snapshots/industry_classification/ah_v3")
 REQUIRED_SNAPSHOT_FILES = (
     "taxonomy.json",
     "issuer-map.jsonl",
