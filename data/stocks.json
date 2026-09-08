@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-09-09 07:37:25 +08:00",
+  "built_at": "2026-09-09 07:40:44 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -85482,6 +85482,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/300735.SZ/"
+    },
+    {
+      "schema_version": "stock-research-analysis-v4",
+      "code": "300793.SZ",
+      "name": "佳禾智能",
+      "raw_name": "佳禾智能",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": null,
+      "pe_ttm": null,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": null,
+      "operating_business_price_yi": 6.85,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 21.15,
+      "gross_profit_yi": 2.73,
+      "parent_net_profit_yi": null,
+      "gross_margin_pct": 12.9,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": null,
+      "risk_level": "未分级",
+      "business_summary": "佳禾智能仍是一家以头部品牌订单为起点、靠研发导入和跨区域制造交付的消费电子ODM/EMS企业。它的优势是声学研发、规模制造和“东莞研发—江西制造—越南交付”的体系；弱点则更直接：客户和产品高度集中，议价权主要在品牌客户一侧，订单换代和供应链调整会迅速传导到收入、毛利、产能利用和营运资金。",
+      "core_judgement": "",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/300793.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",

@@ -3,6 +3,19 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "300793.SZ",
+      "name": "佳禾智能",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T07:39:17+08:00",
+      "review_status": "pass",
+      "title": "佳禾智能：主业换代低谷已经进入现金流，估值更依赖资产而非盈利",
+      "excerpt": "佳禾智能仍是一家以头部品牌订单为起点、靠研发导入和跨区域制造交付的消费电子ODM/EMS企业。它的优势是声学研发、规模制造和“东莞研发—江西制造—越南交付”的体系；弱点则更直接：客户和产品高度集中，议价权主要在品牌客户一侧，订单换代和供应链调整会迅速传导到收入、毛利、产能利用和营运资金。",
+      "url": "reports/300793.SZ/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "06858.HK",
       "name": "本间高尔夫",
       "market": "HK",
