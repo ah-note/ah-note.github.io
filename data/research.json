@@ -3,6 +3,32 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "601877.SH",
+      "name": "正泰电器",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-08T21:05:30+08:00",
+      "review_status": "pass",
+      "title": "正泰电器（601877.SH）2025年度公司研究",
+      "excerpt": "本表以公司合并总量为硬约束；业务行混合直接披露与基准估计，只用于理解主要经营数据和利润/现金来源。",
+      "url": "reports/601877.SH/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
+      "code": "601186.SH",
+      "name": "中国铁建",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-08T21:04:30+08:00",
+      "review_status": "pass",
+      "title": "中国铁建（601186.SH）公司研究",
+      "excerpt": "研究期截至2025年12月31日；金额除特别说明外均为人民币亿元。本报告只使用任务所给三份法定年度报告，市场快照为空，因此不讨论当前股价或市场折溢价。",
+      "url": "reports/601186.SH/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "000977.SZ",
       "name": "浪潮信息",
       "market": "A",
