@@ -3,6 +3,19 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "01816.HK",
+      "name": "中廣核電力",
+      "market": "HK",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-08T15:44:27+08:00",
+      "review_status": "pass",
+      "title": "中廣核電力（01816.HK）2025年度公司研究",
+      "excerpt": "中廣核電力的经营机器有两面。好的一面是核电机组一旦投运，运行稳定、售电回款能力强，2025年28台在运机组平均容量因子约93%，全部实现“零非计划停机”；公司管理的在运机组上网电量同比增长2.36%。困难的一面是公司对售价的控制弱于对产量的控制：市场化交易电量占比升至约56.2%，部分地区市场交易电价下降，使售电收入同比减少6.3%，即使电量增加，2025年合并收入仍下降4.1%。这些事实分别见公司2026年4月15日发布的[《2025年年度报告》PDF第21—22、52—5……",
+      "url": "reports/01816.HK/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "300917.SZ",
       "name": "特发服务",
       "market": "A",

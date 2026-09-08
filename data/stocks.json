@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-09-08 15:40:19 +08:00",
+  "built_at": "2026-09-08 15:46:32 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -82103,6 +82103,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/300917.SZ/"
+    },
+    {
+      "schema_version": "stock-research-analysis-v4",
+      "code": "01816.HK",
+      "name": "中廣核電力",
+      "raw_name": "中廣核電力",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "人民币",
+      "market_cap_yi": null,
+      "pe_ttm": null,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": null,
+      "operating_business_price_yi": 1458.0,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 756.97,
+      "gross_profit_yi": 242.18,
+      "parent_net_profit_yi": null,
+      "gross_margin_pct": 31.99,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": null,
+      "risk_level": "未分级",
+      "business_summary": "中廣核電力的经营机器有两面。好的一面是核电机组一旦投运，运行稳定、售电回款能力强，2025年28台在运机组平均容量因子约93%，全部实现“零非计划停机”；公司管理的在运机组上网电量同比增长2.36%。困难的一面是公司对售价的控制弱于对产量的控制：市场化交易电量占比升至约56.2%，部分地区市场交易电价下降，使售电收入同比减少6.3%，即使电量增加，2025年...",
+      "core_judgement": "",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01816.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
