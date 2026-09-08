@@ -3,6 +3,32 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "300024.SZ",
+      "name": "机器人",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-08T21:41:42+08:00",
+      "review_status": "pass",
+      "title": "机器人（300024.SZ）公司研究",
+      "excerpt": "本表以公司合并总量为硬约束；业务行混合直接披露与基准估计，只用于理解主要经营数据和利润/现金来源。",
+      "url": "reports/300024.SZ/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
+      "code": "300757.SZ",
+      "name": "罗博特科",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-08T21:40:58+08:00",
+      "review_status": "pass",
+      "title": "罗博特科（300757.SZ）公司研究",
+      "excerpt": "罗博特科已经从单一光伏自动化设备商变成“光伏装备＋光电子及半导体封测装备”的双主业公司，但截至2025年末，第二条曲线的订单和收入已经出现，稳定利润尚未被证明。2025年光电子及半导体业务贡献4.85亿元收入、占公司收入51.1%，光伏收入却同比下降56.3%至4.60亿元；公司整体收入降至9.50亿元，重构后的EBIT为-0.64亿元。与此同时，公司为收购ficonTEC形成9.95亿元商誉，期末融资负债升至13.25亿元。[《2025年年度报告》，P21–23、P26、P……",
+      "url": "reports/300757.SZ/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "002236.SZ",
       "name": "大华股份",
       "market": "A",
