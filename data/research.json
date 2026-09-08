@@ -3,6 +3,19 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "300729.SZ",
+      "name": "乐歌股份",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T07:48:21+08:00",
+      "review_status": "pass",
+      "title": "乐歌股份（300729.SZ）公司研究",
+      "excerpt": "研究截止日为2025年12月31日，使用2023—2025三个完整年度的上市后年报。金额若无特别说明均为人民币亿元。市场快照未提供，因此本报告只形成经营与普通股价值基准，不列当前股价、折溢价，也不给买卖建议。",
+      "url": "reports/300729.SZ/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "300679.SZ",
       "name": "电连技术",
       "market": "A",
