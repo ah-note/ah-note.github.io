@@ -3,6 +3,32 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "001221.SZ",
+      "name": "悍高集团",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T03:50:26+08:00",
+      "review_status": "pass",
+      "title": "悍高集团公司研究报告",
+      "excerpt": "本表以公司合并总量为硬约束；业务行混合直接披露与基准估计，只用于理解主要经营数据和利润/现金来源。",
+      "url": "reports/001221.SZ/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
+      "code": "01179.HK",
+      "name": "華住集團－Ｓ",
+      "market": "HK",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T03:50:07+08:00",
+      "review_status": "pass",
+      "title": "華住集團－Ｓ（01179.HK）公司研究",
+      "excerpt": "华住正在从“自己租物业、自己经营客房”加速转向“加盟商出资本、华住输出品牌和运营系统”。2025年总收入253.1亿元，同比增长5.9%；租赁及自有酒店收入却下降6.5%至129.4亿元，管理加盟及特许经营收入增长23.1%至117.0亿元。经营利润由52.0亿元增至68.2亿元，说明收入结构变化和海外业务修复的利润作用大于总收入增速本身。[《H World Group Limited 2025 Annual Report》，2026年4月24日，第65—77页](https……",
+      "url": "reports/01179.HK/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "02150.HK",
       "name": "奈雪的茶",
       "market": "HK",
