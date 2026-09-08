@@ -14,11 +14,12 @@
 - The watcher now verifies that both stock-report and stock-analysis publication mirrors are clean and fast-forwards both before every scan.
 - The site-source path is independent of Bundle activation, old-version draining and runtime cleanup.
 - Added tests for clean fast-forward and dirty-checkout rejection.
+- Aligned v4 publication with the analysis protocol: newly listed companies may publish with one or two actual continuous post-listing years; legacy v3 still requires three to five years.
 
 ## Verification
 
-- `python3 -m unittest tests.test_site_pipeline`: 20 tests passed.
+- `python3 -m unittest tests.test_site_pipeline`: 21 tests passed.
 
 ## Open Questions And Risks
 
-- Production must clone the dedicated source, install the revised service unit and confirm that the 14-page backlog self-heals.
+- Production deployment republished 28 accumulated pages after switching to the dedicated source. Three new-listing reports remained blocked by the obsolete site-side three-year rule; the v4 alignment must be deployed and those pages verified.

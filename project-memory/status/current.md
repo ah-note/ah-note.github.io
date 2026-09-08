@@ -15,3 +15,4 @@
 - 远端`ah-note-publisher.service`已按上述协议恢复为`active/enabled`。发布仍依赖GitHub Pages；外部平台传播延迟不属于研究完成状态。
 - 发布监听同时核对成果摘要和公开详情页，已记录摘要但`/reports/<code>/index.html`缺失的证券会自动补发，避免状态文件与网站事实脱节。
 - 行业分类输入使用独立、可快进的`stock_analysis_site_source`镜像，不再依赖已经退役的经营分析A/B槽或活动Bundle目录。
+- v4发布准入与分析端的新上市公司规则一致：默认三年，但上市后只有一至两年正式历史时按实际连续年份接纳；旧v3仍维持3—5年要求。

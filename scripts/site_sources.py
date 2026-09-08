@@ -209,9 +209,10 @@ def is_publishable(result: dict[str, Any]) -> bool:
         }
         if result.get("schema_version") in {PREVIOUS_CURRENT_SCHEMA_V3, CURRENT_SCHEMA}:
             coverage_years = analysis.get("coverage_years")
+            minimum_years = 1 if result.get("schema_version") == CURRENT_SCHEMA else 3
             if (
                 not isinstance(coverage_years, list)
-                or not 3 <= len(coverage_years) <= 5
+                or not minimum_years <= len(coverage_years) <= 5
                 or any(not isinstance(year, int) for year in coverage_years)
                 or coverage_years != list(range(min(coverage_years), max(coverage_years) + 1))
                 or not analysis.get("businesses")

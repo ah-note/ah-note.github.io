@@ -324,6 +324,19 @@ class SitePipelineTest(unittest.TestCase):
             self.assertEqual(load_research_documents(None, stock_report), [])
             self.assertEqual(completed_reports(stock_report, settle_seconds=0), {})
 
+    def test_analysis_v4_accepts_short_post_listing_history(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            stock_report = Path(temporary) / "stock_report"
+            source = stock_report / "data/analysis/stock_research"
+            result = current_result("001391.SZ")
+            result["coverage_years"] = [2024, 2025]
+            result["fields"]["historical"].pop("2023", None)
+            write_research(source, "001391.SZ", "2025-12-31", result, "new listing")
+
+            reports = completed_reports(stock_report, settle_seconds=0)
+
+            self.assertEqual(list(reports), ["001391.SZ/2025-12-31"])
+
     def test_watcher_detects_only_reviewed_current_analysis_v4(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
             stock_report = Path(temporary) / "stock_report"
