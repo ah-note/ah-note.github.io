@@ -3,6 +3,19 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "688234.SH",
+      "name": "天岳先进",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-08T22:16:41+08:00",
+      "review_status": "pass",
+      "title": "天岳先进（688234.SH）公司研究",
+      "excerpt": "研究期间：2023—2025年；信息截止：2026年3月28日。金额除特别注明外均为人民币亿元。本文以公司法定年报为主要证据，市场价格仅采用2026年3月27日收盘快照。",
+      "url": "reports/688234.SH/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "301236.SZ",
       "name": "软通动力",
       "market": "A",
