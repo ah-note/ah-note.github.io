@@ -3,6 +3,19 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "00062.HK",
+      "name": "載通",
+      "market": "HK",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T01:24:27+08:00",
+      "review_status": "pass",
+      "title": "載通（00062.HK）：巴士现金流修复，价值却主要压在物业与金融资产上",
+      "excerpt": "載通不是一项单纯的巴士股投资。2025年香港专营巴士贡献95%以上收入，决定日常利润和现金流；但按本报告口径，普通股基准价值中更大的一块来自投资物业、联营与合营权益及金融资产。两部分的风险性质完全不同：巴士业务要看票价、客量、工资、燃油和专营权；资产部分则要看物业估值、出租进度、金融资产信用和控股股东的资本配置。",
+      "url": "reports/00062.HK/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "03918.HK",
       "name": "金界控股",
       "market": "HK",
