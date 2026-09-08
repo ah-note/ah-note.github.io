@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-09-09 03:20:00 +08:00",
+  "built_at": "2026-09-09 03:22:46 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -84242,6 +84242,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/300859.SZ/"
+    },
+    {
+      "schema_version": "stock-research-analysis-v4",
+      "code": "605108.SH",
+      "name": "同庆楼",
+      "raw_name": "同庆楼",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "人民币",
+      "market_cap_yi": null,
+      "pe_ttm": null,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": null,
+      "operating_business_price_yi": 35.48,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 26.81,
+      "gross_profit_yi": 5.17,
+      "parent_net_profit_yi": null,
+      "gross_margin_pct": 19.29,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": null,
+      "risk_level": "未分级",
+      "business_summary": "研究基准日：2025年12月31日。信息以公司2023—2025年法定年度报告为主；估值为统一口径的经营资产基准值，不是目标价，也未使用输入中缺失的当前股价。",
+      "core_judgement": "",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/605108.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
