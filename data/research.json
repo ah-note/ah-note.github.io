@@ -3,6 +3,32 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "002635.SZ",
+      "name": "安洁科技",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T05:31:25+08:00",
+      "review_status": "pass",
+      "title": "安洁科技（002635.SZ）公司研究",
+      "excerpt": "研究期为2023—2025年，信息截止于2026年3月28日已提供的法定披露。金额除特别说明外均为人民币亿元。本报告形成的是跨公司统一口径下的经营价值基准，不是市场目标价；任务未提供同一信息截止日的股价，因此不计算当前折溢价。",
+      "url": "reports/002635.SZ/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
+      "code": "002668.SZ",
+      "name": "TCL智家",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T05:30:33+08:00",
+      "review_status": "pass",
+      "title": "TCL智家（002668.SZ）公司研究",
+      "excerpt": "本表以公司合并总量为硬约束；业务行混合直接披露与基准估计，只用于理解主要经营数据和利润/现金来源。",
+      "url": "reports/002668.SZ/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "002429.SZ",
       "name": "兆驰股份",
       "market": "A",
