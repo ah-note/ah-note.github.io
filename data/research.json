@@ -3,6 +3,32 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "301236.SZ",
+      "name": "软通动力",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-08T22:11:16+08:00",
+      "review_status": "pass",
+      "title": "软通动力公司研究：并购带来规模，也重写了资本效率",
+      "excerpt": "研究截止日为 2025 年 12 月 31 日，并纳入年报披露的、截至 2026 年 4 月 24 日已经发生的定增与利润分配期后事项。金额除每股数据外均为人民币亿元。",
+      "url": "reports/301236.SZ/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
+      "code": "688111.SH",
+      "name": "金山办公",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-08T22:10:21+08:00",
+      "review_status": "pass",
+      "title": "金山办公（688111.SH）公司研究",
+      "excerpt": "本表以公司合并总量为硬约束；业务行混合直接披露与基准估计，只用于理解主要经营数据和利润/现金来源。",
+      "url": "reports/688111.SH/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "603444.SH",
       "name": "吉比特",
       "market": "A",
