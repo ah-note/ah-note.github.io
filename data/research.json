@@ -3,6 +3,19 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "600036.SH",
+      "name": "招商银行",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-08T15:31:15+08:00",
+      "review_status": "pass",
+      "title": "招商银行公司研究报告（600036.SH）",
+      "excerpt": "本表以公司合并总量为硬约束；业务行混合直接披露与基准估计，只用于理解主要经营数据和利润/现金来源。",
+      "url": "reports/600036.SH/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "601939.SH",
       "name": "建设银行",
       "market": "A",
@@ -2638,19 +2651,6 @@
       "title": "信义玻璃：汽车玻璃撑住盈利，现金先修复资产负债表",
       "excerpt": "信义玻璃在同一套制造体系里销售浮法玻璃、汽车玻璃和建筑玻璃，但2025年的利润结构说明，它们不能被当作一个同质的“玻璃吨位生意”。全年收入208亿元、毛利64.8亿元；其中浮法玻璃收入115亿元、毛利率18.0%，汽车玻璃收入68.6亿元、毛利率54.1%，建筑玻璃收入24.5亿元、毛利率28.5%。在共同费用按收入分配、折旧和减值尽量按披露修正后，三项业务的估算经营利润分别约为亏损3.17亿元、盈利29.3亿元和盈利3.54亿元。汽车玻璃不只是利润最多，而是几乎承担了全公司……",
       "url": "research/00868.HK/2025-annual-b0b9119dbbda/"
-    },
-    {
-      "source": "formal_report_registry",
-      "analysis_version": "2025-annual-9088df4263f7",
-      "code": "600036.SH",
-      "name": "招商银行",
-      "market": "A",
-      "report_period": "2025-12-31",
-      "published_at": "2026-08-31T15:38:08+08:00",
-      "review_status": "pass",
-      "title": "招商银行：零售护城河仍在，2025年重心是守住盈利平台",
-      "excerpt": "招商银行卖的不是一种金融产品，而是一套围绕资金账户建立的持续关系。对个人，它以银行卡、支付和App获得高频触点，再把关系延伸到存款、信贷、财富配置、私人银行和养老传承；对企业和机构，它常从结算、现金管理与融资切入，再延伸到跨境、托管、投行和金融市场服务。客户在同一账户体系内沉淀更多交易和资产，银行便同时得到较稳定的存款、更多手续费机会和更完整的风险数据。",
-      "url": "research/600036.SH/2025-annual-9088df4263f7/"
     },
     {
       "source": "formal_report_registry",
