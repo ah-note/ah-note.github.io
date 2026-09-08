@@ -3,6 +3,32 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "00868.HK",
+      "name": "信义玻璃",
+      "market": "HK",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-08T23:11:57+08:00",
+      "review_status": "pass",
+      "title": "信义玻璃公司研究报告",
+      "excerpt": "研究期间为截至2025年12月31日止年度，历史覆盖2023—2025年。金额除特别说明外均为人民币亿元。2023、2024比较数分别采用后续年报的最新重列或列报口径。市场快照没有提供当前股价和观察时点，因此本文只形成固定估值标尺，不计算市场折溢价，也不给买卖建议。",
+      "url": "reports/00868.HK/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
+      "code": "02233.HK",
+      "name": "西部水泥",
+      "market": "HK",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-08T23:10:21+08:00",
+      "review_status": "pass",
+      "title": "西部水泥（02233.HK）公司研究",
+      "excerpt": "本表以公司合并总量为硬约束；业务行混合直接披露与基准估计，只用于理解主要经营数据和利润/现金来源。",
+      "url": "reports/02233.HK/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "000877.SZ",
       "name": "天山材料",
       "market": "A",
@@ -3574,19 +3600,6 @@
       "title": "谭木匠（00837.HK）2025 年公司研究",
       "excerpt": "今天的高毛利、低应收和轻门店资产不是 2025 年突然出现的结果。公司始创于 1993 年，早期最重要的转折是把木梳从无牌手工作坊产品变成单一品牌：消费者开始为质量承诺、天然材料和工艺身份识别产品。品牌在 1997 年前后定型，1998 年启动加盟。根据 2009 年上市文件，上市前最新可行日期内地已有 853 家加盟店，另有少量海外加盟和香港直营店。加盟不是普通批发的改名，它把店租、装修、零售人员和当地客流风险放到加盟商一端，把设计、制造、供货、品牌和门店规则留在公司一端……",
       "url": "reports/00837.HK/"
-    },
-    {
-      "source": "formal_report_registry",
-      "analysis_version": "2025-annual-b0b9119dbbda",
-      "code": "00868.HK",
-      "name": "信义玻璃",
-      "market": "HK",
-      "report_period": "2025-12-31",
-      "published_at": "2026-09-01T10:39:38+08:00",
-      "review_status": "pass",
-      "title": "信义玻璃：汽车玻璃撑住盈利，现金先修复资产负债表",
-      "excerpt": "信义玻璃在同一套制造体系里销售浮法玻璃、汽车玻璃和建筑玻璃，但2025年的利润结构说明，它们不能被当作一个同质的“玻璃吨位生意”。全年收入208亿元、毛利64.8亿元；其中浮法玻璃收入115亿元、毛利率18.0%，汽车玻璃收入68.6亿元、毛利率54.1%，建筑玻璃收入24.5亿元、毛利率28.5%。在共同费用按收入分配、折旧和减值尽量按披露修正后，三项业务的估算经营利润分别约为亏损3.17亿元、盈利29.3亿元和盈利3.54亿元。汽车玻璃不只是利润最多，而是几乎承担了全公司……",
-      "url": "research/00868.HK/2025-annual-b0b9119dbbda/"
     },
     {
       "source": "formal_report_registry",
