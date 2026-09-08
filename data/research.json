@@ -3,6 +3,19 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "300824.SZ",
+      "name": "北鼎股份",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T07:28:44+08:00",
+      "review_status": "pass",
+      "title": "北鼎股份（300824.SZ）公司研究",
+      "excerpt": "北鼎已经从一家兼做代工的厨房小电器制造商，变成主要靠自主品牌挣钱、以制造能力托底的消费品公司。2025年自主品牌收入7.79亿元，占公司81.9%，毛利率56.6%；OEM/ODM收入1.72亿元，毛利率只有20.5%。两者的客户、定价权和费用结构完全不同：前者赚的是产品、品牌与渠道的钱，后者赚的是研发制造和交付的钱。[《北鼎股份2025年年度报告》，2026年3月27日，第12—14、22页](https://static.cninfo.com.cn/finalpage/2……",
+      "url": "reports/300824.SZ/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "01999.HK",
       "name": "敏华控股",
       "market": "HK",
