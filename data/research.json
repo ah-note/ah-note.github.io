@@ -3,6 +3,32 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "02598.HK",
+      "name": "連連數字",
+      "market": "HK",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-08T16:37:18+08:00",
+      "review_status": "pass",
+      "title": "連連數字（02598.HK）公司研究",
+      "excerpt": "本表以公司合并总量为硬约束；业务行混合直接披露与基准估计，只用于理解主要经营数据和利润/现金来源。",
+      "url": "reports/02598.HK/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
+      "code": "01606.HK",
+      "name": "國銀金租",
+      "market": "HK",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-08T16:36:00+08:00",
+      "review_status": "pass",
+      "title": "國銀金租（01606.HK）公司研究",
+      "excerpt": "报告期：截至2025年12月31日止年度 财务列报币种：人民币；每股标尺换算币种：港元 研究范围：2023—2025年完整年度；不提供买卖建议",
+      "url": "reports/01606.HK/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "001979.SZ",
       "name": "招商蛇口",
       "market": "A",
