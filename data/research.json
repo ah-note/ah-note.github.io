@@ -3,6 +3,32 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "002157.SZ",
+      "name": "正邦科技",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-08T12:40:50+08:00",
+      "review_status": "pass",
+      "title": "正邦科技（002157.SZ）公司研究",
+      "excerpt": "研究期为2023—2025年，最新完整年度截止2025年12月31日；公开信息截止2026年4月29日。金额如无特别说明均为人民币亿元。本报告不给买卖建议。",
+      "url": "reports/002157.SZ/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
+      "code": "01068.HK",
+      "name": "雨潤食品",
+      "market": "HK",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-08T12:38:15+08:00",
+      "review_status": "pass",
+      "title": "雨潤食品（01068.HK）公司研究",
+      "excerpt": "本表以公司合并总量为硬约束；业务行混合直接披露与基准估计，只用于理解主要经营数据和利润/现金来源。",
+      "url": "reports/01068.HK/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "603288.SH",
       "name": "海天味业",
       "market": "A",
