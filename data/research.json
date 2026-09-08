@@ -3,6 +3,19 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "00270.HK",
+      "name": "粵海投資",
+      "market": "HK",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-08T14:58:55+08:00",
+      "review_status": "pass",
+      "title": "粵海投資（00270.HK）公司研究",
+      "excerpt": "研究截止日为2025年12月31日，使用2023—2025三个完整年度。金额除特别注明外均为亿港元。报告只给经营与普通股价值判断，不给买卖建议；由于任务未提供可核验的市场快照，本报告不比较当前股价。",
+      "url": "reports/00270.HK/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "600655.SH",
       "name": "豫园股份",
       "market": "A",
