@@ -3,6 +3,32 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "600099.SH",
+      "name": "林海股份",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T01:47:59+08:00",
+      "review_status": "pass",
+      "title": "林海股份（600099.SH）公司研究",
+      "excerpt": "本表以公司合并总量为硬约束；业务行混合直接披露与基准估计，只用于理解主要经营数据和利润/现金来源。",
+      "url": "reports/600099.SH/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
+      "code": "301345.SZ",
+      "name": "涛涛车业",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T01:47:00+08:00",
+      "review_status": "pass",
+      "title": "涛涛车业（301345.SZ）公司研究",
+      "excerpt": "本表以公司合并总量为硬约束；业务行混合直接披露与基准估计，只用于理解主要经营数据和利润/现金来源。",
+      "url": "reports/301345.SZ/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "000913.SZ",
       "name": "钱江摩托",
       "market": "A",
