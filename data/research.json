@@ -3,6 +3,32 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "09999.HK",
+      "name": "網易－Ｓ",
+      "market": "HK",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T00:45:41+08:00",
+      "review_status": "pass",
+      "title": "網易－Ｓ（09999.HK）公司研究",
+      "excerpt": "本表以公司合并总量为硬约束；业务行混合直接披露与基准估计，只用于理解主要经营数据和利润/现金来源。",
+      "url": "reports/09999.HK/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
+      "code": "02015.HK",
+      "name": "理想汽车",
+      "market": "HK",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T00:44:25+08:00",
+      "review_status": "pass",
+      "title": "理想汽车（02015.HK）公司研究",
+      "excerpt": "研究基准日为2025年12月31日，历史覆盖2023—2025三个完整年度；期后经营信息更新至2026年8月31日，市场价格与汇率观察日为2026年9月8日。金额如无特别说明均为人民币亿元。本报告不给买卖建议。",
+      "url": "reports/02015.HK/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "09863.HK",
       "name": "零跑汽車",
       "market": "HK",
