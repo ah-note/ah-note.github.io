@@ -3,6 +3,19 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "01126.HK",
+      "name": "德林国际",
+      "market": "HK",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T06:21:08+08:00",
+      "review_status": "pass",
+      "title": "德林国际（01126.HK）公司研究",
+      "excerpt": "本表以公司合并总量为硬约束；业务行混合直接披露与基准估计，只用于理解主要经营数据和利润/现金来源。",
+      "url": "reports/01126.HK/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "00869.HK",
       "name": "彩星玩具",
       "market": "HK",
