@@ -3,6 +3,19 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "02031.HK",
+      "name": "澳至尊",
+      "market": "HK",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-08T14:38:10+08:00",
+      "review_status": "pass",
+      "title": "澳至尊（02031.HK）公司研究",
+      "excerpt": "研究基准日为 2025 年 12 月 31 日。公司法定年结日为 3 月 31 日，因此历史列“2023、2024、2025”分别指截至相应年份 3 月 31 日止财政年度；估值资产负债基准为 2025 年 3 月 31 日。金额除每股数据外均以亿港元计。输入未提供可核验的市场价格、观察时间或信息截止精度，本文不计算即时折溢价，也不据此给出买卖判断。",
+      "url": "reports/02031.HK/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "600023.SH",
       "name": "浙江浙能电力股份有限公司",
       "market": "A",
