@@ -3,6 +3,19 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "002891.SZ",
+      "name": "中宠股份",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T05:55:28+08:00",
+      "review_status": "pass",
+      "title": "中宠股份（002891.SZ）2025年公司研究",
+      "excerpt": "研究期间为2023—2025三个完整年度，金额除特别注明外均为人民币亿元。信息以2026年4月24日披露的2025年年度报告为截止点；任务未提供可核验的市场价格快照，因此不展示当前股价或相对折溢价，也不给出买卖建议。",
+      "url": "reports/002891.SZ/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "002572.SZ",
       "name": "索菲亚",
       "market": "A",
