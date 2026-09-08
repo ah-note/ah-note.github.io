@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-09-09 06:52:33 +08:00",
+  "built_at": "2026-09-09 06:55:58 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -85203,6 +85203,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/02720.HK/"
+    },
+    {
+      "schema_version": "stock-research-analysis-v4",
+      "code": "02549.HK",
+      "name": "卡罗特",
+      "raw_name": "卡罗特",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "人民币",
+      "market_cap_yi": null,
+      "pe_ttm": null,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": null,
+      "operating_business_price_yi": 18.35,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 21.57,
+      "gross_profit_yi": 6.85,
+      "parent_net_profit_yi": null,
+      "gross_margin_pct": 31.78,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": null,
+      "risk_level": "未分级",
+      "business_summary": "卡罗特是一门轻资产、重产品与渠道运营的全球厨具品牌生意。公司把生产交给中国合同制造商，自己掌握产品设计、SKU组织、平台运营、品牌投放和供应链协调，再通过Amazon等第三方电商平台直接卖给消费者，并开始借Walmart、Target等零售商扩大批发分销。这个模式过去最吸引人的地方，是不用自建大量工厂也能获得品牌毛利和较高资本回报；2025年的关键变化则是...",
+      "core_judgement": "",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/02549.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
