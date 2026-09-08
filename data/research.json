@@ -3,6 +3,32 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "001979.SZ",
+      "name": "招商蛇口",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-08T16:29:37+08:00",
+      "review_status": "pass",
+      "title": "招商蛇口：开发现金释放退潮后，低回报重资产仍是普通股价值的核心约束",
+      "excerpt": "本表以公司合并总量为硬约束；业务行混合直接披露与基准估计，只用于理解主要经营数据和利润/现金来源。",
+      "url": "reports/001979.SZ/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
+      "code": "600048.SH",
+      "name": "保利发展",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-08T16:28:59+08:00",
+      "review_status": "pass",
+      "title": "保利发展（600048.SH）公司研究",
+      "excerpt": "本表以公司合并总量为硬约束；业务行混合直接披露与基准估计，只用于理解主要经营数据和利润/现金来源。",
+      "url": "reports/600048.SH/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "000002.SZ",
       "name": "万科企业股份有限公司",
       "market": "A",
