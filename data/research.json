@@ -3,6 +3,32 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "06601.HK",
+      "name": "朝雲集團",
+      "market": "HK",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-08T13:28:10+08:00",
+      "review_status": "pass",
+      "title": "朝雲集團（06601.HK）公司研究",
+      "excerpt": "本表以公司合并总量为硬约束；业务行混合直接披露与基准估计，只用于理解主要经营数据和利润/现金来源。",
+      "url": "reports/06601.HK/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
+      "code": "600161.SH",
+      "name": "北京天坛生物制品股份有限公司",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-08T13:26:59+08:00",
+      "review_status": "pass",
+      "title": "天坛生物公司研究（2025年度）",
+      "excerpt": "本表以公司合并总量为硬约束；业务行混合直接披露与基准估计，只用于理解主要经营数据和利润/现金来源。",
+      "url": "reports/600161.SH/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "002311.SZ",
       "name": "海大集团",
       "market": "A",
