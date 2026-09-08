@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-09-08 20:49:42 +08:00",
+  "built_at": "2026-09-08 20:51:55 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -82785,6 +82785,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/02519.HK/"
+    },
+    {
+      "schema_version": "stock-research-analysis-v4",
+      "code": "601668.SH",
+      "name": "中国建筑",
+      "raw_name": "中国建筑",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "人民币",
+      "market_cap_yi": null,
+      "pe_ttm": null,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": null,
+      "operating_business_price_yi": 5577.92,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 20821.42,
+      "gross_profit_yi": 2060.83,
+      "parent_net_profit_yi": null,
+      "gross_margin_pct": 9.9,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": null,
+      "risk_level": "未分级",
+      "business_summary": "研究期间为2023—2025完整年度，金额除特别说明外均为人民币亿元。本文以已审年度报告为事实底稿；2024年采用2025年报中的经重述比较数。任务未提供有日期的市场价格，因此不作当前股价、折溢价或买卖建议。",
+      "core_judgement": "",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/601668.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
