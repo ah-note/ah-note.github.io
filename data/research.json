@@ -3,6 +3,19 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "001222.SZ",
+      "name": "源飞宠物",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T04:25:56+08:00",
+      "review_status": "pass",
+      "title": "源飞宠物（001222.SZ）公司研究",
+      "excerpt": "研究基准日为2025年12月31日，经营资料截止于2025年年度报告。由于任务没有提供可核验的市场价格观察值，本报告只给出每股基准价值与安全边际价格，不判断当前股价的折溢价。",
+      "url": "reports/001222.SZ/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "001211.SZ",
       "name": "双枪科技",
       "market": "A",
