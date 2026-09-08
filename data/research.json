@@ -3,6 +3,32 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "00635.HK",
+      "name": "彩星集团",
+      "market": "HK",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T06:12:45+08:00",
+      "review_status": "pass",
+      "title": "彩星集团（00635.HK）公司研究",
+      "excerpt": "研究期为截至2025年12月31日止年度，历史覆盖2023—2025年。财务资料以港元计；市场比较价格观察于2026年8月28日。本文所称“价值”是统一口径的研究基准，不是公允价值结论或交易建议。",
+      "url": "reports/00635.HK/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
+      "code": "003012.SZ",
+      "name": "东鹏控股",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T06:10:50+08:00",
+      "review_status": "pass",
+      "title": "东鹏控股（003012.SZ）2025年度公司研究",
+      "excerpt": "本表以公司合并总量为硬约束；业务行混合直接披露与基准估计，只用于理解主要经营数据和利润/现金来源。",
+      "url": "reports/003012.SZ/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "002993.SZ",
       "name": "奥海科技",
       "market": "A",
