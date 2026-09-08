@@ -3,6 +3,19 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "600415.SH",
+      "name": "小商品城",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-08T11:48:26+08:00",
+      "review_status": "pass",
+      "title": "小商品城（600415.SH）公司研究",
+      "excerpt": "研究基准日为2025年12月31日。结论先说：小商品城真正值钱的不是接近200亿元的收入规模，而是义乌实体市场这一稀缺交易入口，以及围绕商位、客流和贸易数据形成的收费权。2025年自营商品贸易贡献约一半收入，却几乎不贡献毛利；实体市场与经营配套只占约四分之一收入，却贡献约七成毛利。看这家公司，应把“收入增长”拆成高毛利市场收费、低毛利贸易履约和一次性房产交付三类，不能把它们按同一质量估值。",
+      "url": "reports/600415.SH/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "600346.SH",
       "name": "恒力石化股份有限公司",
       "market": "A",
