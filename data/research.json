@@ -3,6 +3,19 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "600328.SH",
+      "name": "中盐化工",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-08T23:18:19+08:00",
+      "review_status": "pass",
+      "title": "中盐化工（600328.SH）公司研究",
+      "excerpt": "中盐化工是典型的重资产、强周期盐化工企业，不是依靠品牌或渠道获得高回报的轻资产生意。2025年公司销量并未失守，纯碱销量反而增长17.96%，但纯碱售价同比下降28.45%，使合并毛利率由2023年的24.0%降至9.48%，重构EBIT只剩1.62亿元。经营问题首先是行业供给过剩和产品价格，而不是产量不足。[《中盐化工2025年年度报告》，2026年4月30日，第20—21页](https://www.sse.com.cn/disclosure/listedinfo/ann……",
+      "url": "reports/600328.SH/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "00868.HK",
       "name": "信义玻璃",
       "market": "HK",

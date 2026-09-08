@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-09-08 23:15:03 +08:00",
+  "built_at": "2026-09-08 23:21:29 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -83529,6 +83529,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/02233.HK/"
+    },
+    {
+      "schema_version": "stock-research-analysis-v4",
+      "code": "600328.SH",
+      "name": "中盐化工",
+      "raw_name": "中盐化工",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "人民币",
+      "market_cap_yi": null,
+      "pe_ttm": null,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": null,
+      "operating_business_price_yi": 53.76,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 113.43,
+      "gross_profit_yi": 10.76,
+      "parent_net_profit_yi": null,
+      "gross_margin_pct": 9.48,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": null,
+      "risk_level": "未分级",
+      "business_summary": "中盐化工是典型的重资产、强周期盐化工企业，不是依靠品牌或渠道获得高回报的轻资产生意。2025年公司销量并未失守，纯碱销量反而增长17.96%，但纯碱售价同比下降28.45%，使合并毛利率由2023年的24.0%降至9.48%，重构EBIT只剩1.62亿元。经营问题首先是行业供给过剩和产品价格，而不是产量不足。[《中盐化工2025年年度报告》，2026年4月3...",
+      "core_judgement": "",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/600328.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
