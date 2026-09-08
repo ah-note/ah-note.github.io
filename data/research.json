@@ -3,6 +3,32 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "603787.SH",
+      "name": "新日股份",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T03:59:28+08:00",
+      "review_status": "pass",
+      "title": "新日股份（603787.SH）公司研究",
+      "excerpt": "本表以公司合并总量为硬约束；业务行混合直接披露与基准估计，只用于理解主要经营数据和利润/现金来源。",
+      "url": "reports/603787.SH/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
+      "code": "603529.SH",
+      "name": "爱玛科技",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T03:58:09+08:00",
+      "review_status": "pass",
+      "title": "爱玛科技公司研究报告",
+      "excerpt": "本表以公司合并总量为硬约束；业务行混合直接披露与基准估计，只用于理解主要经营数据和利润/现金来源。",
+      "url": "reports/603529.SH/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "000404.SZ",
       "name": "长虹华意",
       "market": "A",
