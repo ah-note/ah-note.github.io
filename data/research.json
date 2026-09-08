@@ -3,6 +3,19 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "000002.SZ",
+      "name": "万科企业股份有限公司",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-08T16:20:26+08:00",
+      "review_status": "pass",
+      "title": "万科A（000002.SZ）2025年度公司研究",
+      "excerpt": "研究期间为2023—2025年，金额除特别说明外均为人民币亿元。本报告从合并经营资产和全体普通股价值出发，不提供买卖建议。",
+      "url": "reports/000002.SZ/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "601398.SH",
       "name": "工商银行",
       "market": "A",
