@@ -3,6 +3,19 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "000977.SZ",
+      "name": "浪潮信息",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-08T21:03:47+08:00",
+      "review_status": "pass",
+      "title": "浪潮信息（000977.SZ）2025 年公司研究",
+      "excerpt": "研究期截至 2025 年 12 月 31 日，证据边界为公司 2023—2025 年年度报告。金额除特别说明外均为人民币亿元。本报告给出的是一套可复核的经营价值基准，不是目标价；任务未提供同日市场价格，因此不作市场折溢价判断。",
+      "url": "reports/000977.SZ/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "600039.SH",
       "name": "四川路桥",
       "market": "A",
