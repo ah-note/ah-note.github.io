@@ -3,6 +3,19 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "002993.SZ",
+      "name": "奥海科技",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T06:07:01+08:00",
+      "review_status": "pass",
+      "title": "奥海科技（002993.SZ）公司研究",
+      "excerpt": "奥海科技已经不再只是一家手机充电器代工厂，但它仍是一门由成熟充电器业务供血、用研发和客户认证进入汽车电控、算力电源与数字能源的新业务组合。2025年收入71.54亿元，同比增长11.4%，其中充电器及适配器49.53亿元、几乎原地踏步；新能源汽车与低空经济电源及电控收入11.44亿元、同比增长106.6%，算力电源及其他收入10.57亿元、增长12.7%。换言之，全部可见增长都来自非传统充电器板块。[《奥海科技2025年年度报告》，2026年4月21日，第22、24—26页]……",
+      "url": "reports/002993.SZ/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "003028.SZ",
       "name": "振邦智能",
       "market": "A",
