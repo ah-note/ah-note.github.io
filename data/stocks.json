@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-09-09 00:47:25 +08:00",
+  "built_at": "2026-09-09 01:03:59 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -83746,6 +83746,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/02015.HK/"
+    },
+    {
+      "schema_version": "stock-research-analysis-v4",
+      "code": "00880.HK",
+      "name": "澳博控股",
+      "raw_name": "澳博控股",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "港元",
+      "market_cap_yi": null,
+      "pe_ttm": null,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": null,
+      "operating_business_price_yi": 251.2,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 281.7,
+      "gross_profit_yi": 159.53,
+      "parent_net_profit_yi": null,
+      "gross_margin_pct": 56.63,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": null,
+      "risk_level": "未分级",
+      "business_summary": "澳博仍拥有澳门规模可观的博彩与酒店物业组合，但它过去依赖卫星赌场扩大覆盖面的经营系统已经结束，新的自营物业组合尚未证明能够以足够高的利润率承接流失客源。2025年净收入281.70亿元，同比下降2.1%；调整后EBITDA为31.98亿元，同比下降15.0%。更值得警惕的是，同期经营现金流降至29.03亿元，现金资本开支升至22.99亿元，实际FCFF仅约6...",
+      "core_judgement": "",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00880.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
