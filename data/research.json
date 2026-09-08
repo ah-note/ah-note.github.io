@@ -3,6 +3,32 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "002429.SZ",
+      "name": "兆驰股份",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T05:18:51+08:00",
+      "review_status": "pass",
+      "title": "兆驰股份（002429.SZ）公司研究",
+      "excerpt": "本表以公司合并总量为硬约束；业务行混合直接披露与基准估计，只用于理解主要经营数据和利润/现金来源。",
+      "url": "reports/002429.SZ/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
+      "code": "002615.SZ",
+      "name": "哈尔斯",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T05:17:32+08:00",
+      "review_status": "pass",
+      "title": "哈尔斯（002615.SZ）2025年公司研究",
+      "excerpt": "本表以公司合并总量为硬约束；业务行混合直接披露与基准估计，只用于理解主要经营数据和利润/现金来源。",
+      "url": "reports/002615.SZ/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "002614.SZ",
       "name": "奥佳华",
       "market": "A",
