@@ -3,6 +3,19 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "06098.HK",
+      "name": "碧桂園服務",
+      "market": "HK",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-08T20:52:15+08:00",
+      "review_status": "pass",
+      "title": "碧桂园服务（06098.HK）公司研究",
+      "excerpt": "研究期为 2023—2025 三个完整年度，最新完整年度截至 2025 年 12 月 31 日；期后事项仅纳入 2025 年报披露至报告刊发日的内容。金额如无特别说明均为人民币亿元。本报告不给买卖建议。",
+      "url": "reports/06098.HK/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "601668.SH",
       "name": "中国建筑",
       "market": "A",
