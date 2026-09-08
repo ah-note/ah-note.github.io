@@ -3,6 +3,32 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "601139.SH",
+      "name": "深圳燃气",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-08T14:10:07+08:00",
+      "review_status": "pass",
+      "title": "深圳燃气（601139.SH）公司研究",
+      "excerpt": "本表以公司合并总量为硬约束；业务行混合直接披露与基准估计，只用于理解主要经营数据和利润/现金来源。",
+      "url": "reports/601139.SH/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
+      "code": "600600.SH",
+      "name": "青岛啤酒",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-08T14:07:45+08:00",
+      "review_status": "pass",
+      "title": "青岛啤酒公司研究报告",
+      "excerpt": "青岛啤酒2025年的改善更像“结构和成本修复”，而不是行业需求重新高速增长。收入由2024年的321.4亿元小幅回升至324.7亿元，仍未回到2023年的339.4亿元；同期转写EBIT从44.0亿元、44.9亿元升至51.6亿元，毛利率从38.7%升至41.8%。公司在销量仅增长1.5%的情况下提高主品牌销量3.5%、中高端以上产品销量5.2%，又受益于部分原料成本下降，利润增速快于收入。这条因果链有经营依据，但其可持续性同时依赖产品结构、促销纪律和原料价格，不能简单把20……",
+      "url": "reports/600600.SH/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "300058.SZ",
       "name": "蓝色光标",
       "market": "A",
