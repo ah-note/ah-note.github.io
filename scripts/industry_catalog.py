@@ -7,6 +7,14 @@ from typing import Any
 
 
 CATALOG_SCHEMA = "ah-note-industry-catalog-v2"
+SNAPSHOT_RELATIVE_DIR = Path("data/snapshots/industry_classification/ah_v1")
+REQUIRED_SNAPSHOT_FILES = (
+    "taxonomy.json",
+    "issuer-map.jsonl",
+    "representatives.jsonl",
+    "security-seeds.jsonl",
+    "coverage-audit.json",
+)
 
 
 def read_jsonl(path: Path) -> list[dict[str, Any]]:
@@ -15,6 +23,36 @@ def read_jsonl(path: Path) -> list[dict[str, Any]]:
         for line in path.read_text(encoding="utf-8").splitlines()
         if line.strip()
     ]
+
+
+def validate_industry_snapshot(stock_analysis_root: Path) -> Path:
+    """Validate the external snapshot before a site build mutates generated files."""
+    classification_dir = Path(stock_analysis_root).resolve() / SNAPSHOT_RELATIVE_DIR
+    missing = [
+        name for name in REQUIRED_SNAPSHOT_FILES
+        if not (classification_dir / name).is_file()
+    ]
+    if missing:
+        raise RuntimeError(
+            f"industry classification snapshot is incomplete under {classification_dir}: "
+            + ", ".join(missing)
+        )
+    try:
+        taxonomy = json.loads((classification_dir / "taxonomy.json").read_text(encoding="utf-8"))
+        audit = json.loads((classification_dir / "coverage-audit.json").read_text(encoding="utf-8"))
+        for name in ("issuer-map.jsonl", "representatives.jsonl", "security-seeds.jsonl"):
+            read_jsonl(classification_dir / name)
+    except (OSError, UnicodeError, json.JSONDecodeError) as error:
+        raise RuntimeError(f"invalid industry classification snapshot under {classification_dir}: {error}") from error
+    required_taxonomy_keys = {"industries", "sectors", "subsectors", "analysis_leaves"}
+    missing_keys = sorted(required_taxonomy_keys - set(taxonomy))
+    if missing_keys:
+        raise RuntimeError(
+            "industry taxonomy is missing required keys: " + ", ".join(missing_keys)
+        )
+    if audit.get("final_validation_errors"):
+        raise RuntimeError("industry classification snapshot did not pass final validation")
+    return classification_dir
 
 
 def _published_report_codes(path: Path) -> set[str]:
@@ -225,10 +263,7 @@ def write_industry_site(
     stock_analysis_root: Path,
     asset_version: str,
 ) -> dict[str, int]:
-    classification_dir = (
-        Path(stock_analysis_root)
-        / "data/snapshots/industry_classification/ah_v1"
-    )
+    classification_dir = validate_industry_snapshot(stock_analysis_root)
     catalog = build_industry_catalog(classification_dir, Path(root) / "data/stocks.json")
     data_path = Path(root) / "data/industry-classification.json"
     page_dir = Path(root) / "industries"

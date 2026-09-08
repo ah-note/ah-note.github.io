@@ -37,13 +37,15 @@ AH Note 是公司研究报告唯一的公开发布渠道。`build_site.py` 会�
 发布单次更新：
 
 ```bash
-python3 scripts/publish_site.py --stock-report-root ../stock_report --code 000726.SZ
+python3 scripts/publish_site.py --stock-report-root ../stock_report --stock-analysis-root ../stock_analysis --code 000726.SZ
 ```
 
 远端可安装 `ops/ah-note-publisher.service`。它使用专用的干净
 `stock_report_ah_note` 镜像，每轮先执行 Git 快进同步，再监听协议校验完成的统一结果和通过验收的
 正式报告；报告文件稳定后串行构建、提交并推送本站。状态文件保存在站点仓库外，不污染 Git 工作区。
 自动发布只重建本轮发生变化的当前详情页；研究清单和不可变正式文章始终整体刷新。
+每轮发布在一次性 Git worktree 中完成；输入缺失、构建失败或推送失败都不会污染常驻 checkout。
+推送默认最多退避重试三次，每次都从最新远端 `main` 重新构建，避免非快进冲突。
 
 Open `http://127.0.0.1:8765/` to preview.
 

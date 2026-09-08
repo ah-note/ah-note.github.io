@@ -135,7 +135,12 @@ def save_state(path: Path, reports: dict[str, dict[str, str]]) -> None:
     temporary.replace(path)
 
 
-def publish_changes(stock_report_root: Path, state_file: Path, settle_seconds: int) -> dict[str, Any]:
+def publish_changes(
+    stock_report_root: Path,
+    stock_analysis_root: Path,
+    state_file: Path,
+    settle_seconds: int,
+) -> dict[str, Any]:
     reports = completed_reports(stock_report_root, settle_seconds)
     previous = load_state(state_file).get("reports") or {}
     changed = [record for key, record in reports.items() if previous.get(key) != record]
@@ -143,7 +148,11 @@ def publish_changes(stock_report_root: Path, state_file: Path, settle_seconds: i
         return {"status": "unchanged", "changed_codes": []}
     codes = sorted({record["code"] for record in changed})
     reload_after_site_update()
-    result = publish(stock_report_root, codes)
+    result = publish(
+        stock_report_root,
+        codes,
+        stock_analysis_root=stock_analysis_root,
+    )
     save_state(state_file, reports)
     result["changed_codes"] = codes
     return result
@@ -152,6 +161,7 @@ def publish_changes(stock_report_root: Path, state_file: Path, settle_seconds: i
 def main() -> None:
     parser = argparse.ArgumentParser(description="Publish new unified stock reports to AH Note.")
     parser.add_argument("--stock-report-root", type=Path, default=ROOT.parent / "stock_report")
+    parser.add_argument("--stock-analysis-root", type=Path, default=ROOT.parent / "stock_analysis")
     parser.add_argument("--state-file", type=Path, default=ROOT.parent / "runs" / "ah-note-publisher" / "state.json")
     parser.add_argument("--interval-seconds", type=int, default=20)
     parser.add_argument("--settle-seconds", type=int, default=10)
@@ -166,7 +176,12 @@ def main() -> None:
         try:
             if args.sync_stock_report:
                 sync_clean_stock_report(args.stock_report_root.resolve())
-            result = publish_changes(args.stock_report_root.resolve(), args.state_file.resolve(), args.settle_seconds)
+            result = publish_changes(
+                args.stock_report_root.resolve(),
+                args.stock_analysis_root.resolve(),
+                args.state_file.resolve(),
+                args.settle_seconds,
+            )
             if result.get("status") != "unchanged":
                 print(json.dumps(result, ensure_ascii=False), flush=True)
         except Exception as error:

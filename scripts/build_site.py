@@ -12,7 +12,7 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 from formal_reports import FormalReport, load_formal_reports, report_excerpt
-from industry_catalog import write_industry_site
+from industry_catalog import validate_industry_snapshot, write_industry_site
 from research_feed import ResearchFeedEntry, build_research_feed
 from site_sources import CURRENT_SCHEMAS, ResearchDocument, UNIFIED_SCHEMA, load_research_documents, schema_rank
 
@@ -127,7 +127,11 @@ def parse_csv_name_file(mapping: dict[str, str], path: Path) -> None:
             add_name(mapping, code, str(name))
 
 
-def load_chinese_names(notes: dict[str, dict[str, str]], stock_report_root: Path = STOCK_REPORT_DIR) -> dict[str, str]:
+def load_chinese_names(
+    notes: dict[str, dict[str, str]],
+    stock_report_root: Path = STOCK_REPORT_DIR,
+    stock_analysis_root: Path = STOCK_ANALYSIS_DIR,
+) -> dict[str, str]:
     mapping: dict[str, str] = {}
     add_name(mapping, "01416.HK", "CTR控股")
     for code, note in notes.items():
@@ -136,7 +140,7 @@ def load_chinese_names(notes: dict[str, dict[str, str]], stock_report_root: Path
     parse_markdown_name_tables(mapping, stock_report_root / "data" / "outputs" / "hk_owner_earnback_notes")
     parse_markdown_name_tables(mapping, stock_report_root / "data" / "outputs" / "a_share_owner_earnback_notes")
 
-    imported = STOCK_ANALYSIS_DIR / "data" / "imported" / "stock" / "processed_lists"
+    imported = Path(stock_analysis_root) / "data" / "imported" / "stock" / "processed_lists"
     for filename in [
         "hk_stocks_simple_final.csv",
         "hk_stock_codes_final.csv",
@@ -1029,6 +1033,8 @@ def build_site(
     detail_codes: set[str] | None = None,
     stock_analysis_root: Path = STOCK_ANALYSIS_DIR,
 ) -> int:
+    # Validate external inputs before overwriting any generated public file.
+    validate_industry_snapshot(stock_analysis_root)
     DATA_DIR.mkdir(exist_ok=True)
     if STOCKS_DIR.exists():
         shutil.rmtree(STOCKS_DIR)
@@ -1036,7 +1042,7 @@ def build_site(
     REFERENCE_DIR.mkdir(exist_ok=True)
     built_at = datetime.now(TZ).strftime("%Y-%m-%d %H:%M:%S +08:00")
     notes = parse_notes(stock_report_root)
-    chinese_names = load_chinese_names(notes, stock_report_root)
+    chinese_names = load_chinese_names(notes, stock_report_root, stock_analysis_root)
     documents = load_research_documents(legacy_source_dir, stock_report_root)
     sourced_stocks = load_stocks(notes, chinese_names, legacy_source_dir, stock_report_root, documents)
     stocks = merge_published_stocks(load_published_stocks(), sourced_stocks)
@@ -1101,6 +1107,12 @@ def main() -> None:
         action="store_true",
         help="only rebuild the industry catalog and browser",
     )
+    parser.add_argument(
+        "--detail-code",
+        action="append",
+        default=[],
+        help="only rebuild the current report detail page for this code; repeatable",
+    )
     args = parser.parse_args()
     if args.industry_only:
         result = write_industry_site(
@@ -1116,6 +1128,7 @@ def main() -> None:
     build_site(
         args.stock_report_root.resolve(),
         args.legacy_source_dir.resolve(),
+        detail_codes={code.upper() for code in args.detail_code} or None,
         stock_analysis_root=args.stock_analysis_root.resolve(),
     )
 
