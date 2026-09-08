@@ -3,6 +3,32 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "02255.HK",
+      "name": "海昌海洋公園",
+      "market": "HK",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T04:00:31+08:00",
+      "review_status": "pass",
+      "title": "海昌海洋公园（02255.HK）公司研究",
+      "excerpt": "本表以公司合并总量为硬约束；业务行混合直接披露与基准估计，只用于理解主要经营数据和利润/现金来源。",
+      "url": "reports/02255.HK/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
+      "code": "000651.SZ",
+      "name": "格力电器",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T03:59:57+08:00",
+      "review_status": "pass",
+      "title": "格力电器（000651.SZ）公司研究",
+      "excerpt": "研究期间为2023—2025年，财务截止日为2025年12月31日；经营证据更新至2025年年报于2026年4月29日披露之时。金额除特别注明外均为人民币亿元。输入未提供可核验、带时间戳的市场价格，因此本报告给出价值标尺和安全边际价格，不计算相对当前股价的折溢价。",
+      "url": "reports/000651.SZ/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "603787.SH",
       "name": "新日股份",
       "market": "A",
