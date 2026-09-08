@@ -3,6 +3,32 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "300760.SZ",
+      "name": "迈瑞医疗",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-08T14:16:51+08:00",
+      "review_status": "pass",
+      "title": "迈瑞医疗公司研究（截至2025年12月31日）",
+      "excerpt": "本表以公司合并总量为硬约束；业务行混合直接披露与基准估计，只用于理解主要经营数据和利润/现金来源。",
+      "url": "reports/300760.SZ/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
+      "code": "600025.SH",
+      "name": "华能水电",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-08T14:16:21+08:00",
+      "review_status": "pass",
+      "title": "华能水电（600025.SH）2025年度公司研究",
+      "excerpt": "本表以公司合并总量为硬约束；业务行混合直接披露与基准估计，只用于理解主要经营数据和利润/现金来源。",
+      "url": "reports/600025.SH/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "09987.HK",
       "name": "百胜中国",
       "market": "HK",
