@@ -3,6 +3,19 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "00175.HK",
+      "name": "吉利汽車",
+      "market": "HK",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T01:33:10+08:00",
+      "review_status": "pass",
+      "title": "吉利汽车：规模增长已兑现，现金质量仍需穿透供应链融资",
+      "excerpt": "研究期间为 2023—2025 年，金额除特别说明外均为人民币亿元。2024 年数字采用 2025 年报因同一控制合并而重列后的口径；2023 年损益采用 2024 年报比较数。两者合并边界并不完全一致，因此本报告不把 2023—2024 年的表面增速直接当作内生增长。",
+      "url": "reports/00175.HK/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "603129.SH",
       "name": "春风动力",
       "market": "A",
