@@ -3,6 +3,19 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "300138.SZ",
+      "name": "晨光生物",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T23:01:20+08:00",
+      "review_status": "pass",
+      "title": "晨光生物（300138.SZ）公司研究",
+      "excerpt": "研究期为2023—2025三个完整年度，金额除特别说明外均为人民币亿元。事实截止于2025年年报；任务未提供可核验的市场价格快照，因此价值表不列当前股价和折溢价，也不给出买卖建议。",
+      "url": "reports/300138.SZ/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "603027.SH",
       "name": "千禾味业",
       "market": "A",
