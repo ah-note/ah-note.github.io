@@ -3,6 +3,32 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "01587.HK",
+      "name": "欣融国际",
+      "market": "HK",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T21:56:47+08:00",
+      "review_status": "pass",
+      "title": "欣融国际（01587.HK）公司研究",
+      "excerpt": "本表以公司合并总量为硬约束；业务行混合直接披露与基准估计，只用于理解主要经营数据和利润/现金来源。",
+      "url": "reports/01587.HK/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
+      "code": "00151.HK",
+      "name": "中国旺旺",
+      "market": "HK",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T21:56:25+08:00",
+      "review_status": "pass",
+      "title": "中国旺旺：利润率修复强于增长，价值主要来自成熟现金业务与净现金",
+      "excerpt": "中国旺旺仍是一台成熟的品牌食品现金机器，不是一家已经证实重回增长的公司。三年收入从229.28亿元增至235.86亿元后又回到235.11亿元，几乎没有净增长；但毛利率由43.9%升至47.6%，EBIT由48.47亿元升至58.37亿元。改善主要来自奶粉、原纸、铁皮、糖和明胶等单位成本下降，以及费用控制，并非销量与定价共同扩张。2025财年渠道多元化还令平均售价略降，这使最新毛利率不宜直接永久化。[《2024/2025年报》，2025年6月24日，第19、29—33页](h……",
+      "url": "reports/00151.HK/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "02555.HK",
       "name": "茶百道",
       "market": "HK",
