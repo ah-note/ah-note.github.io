@@ -3,6 +3,32 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "02218.HK",
+      "name": "安德利果汁",
+      "market": "HK",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T22:26:05+08:00",
+      "review_status": "pass",
+      "title": "安德利果汁（02218.HK）2025年度公司研究",
+      "excerpt": "本表以公司合并总量为硬约束；业务行混合直接披露与基准估计，只用于理解主要经营数据和利润/现金来源。",
+      "url": "reports/02218.HK/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
+      "code": "02317.HK",
+      "name": "味丹国际",
+      "market": "HK",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T22:25:40+08:00",
+      "review_status": "pass",
+      "title": "味丹国际（02317.HK）公司研究",
+      "excerpt": "味丹国际是一家以越南为核心生产基地、向亚洲及美国销售发酵食品添加剂、生化产品和木薯淀粉工业产品的成熟制造商。它目前最值得关注的并非收入增长，而是原料与能源成本回落后利润率恢复，以及这部分利润能否在不牺牲库存安全和设备更新的情况下持续转化为现金。",
+      "url": "reports/02317.HK/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "00506.HK",
       "name": "中国食品",
       "market": "HK",
