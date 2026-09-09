@@ -3,6 +3,19 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "603486.SH",
+      "name": "科沃斯",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T09:11:00+08:00",
+      "review_status": "pass",
+      "title": "科沃斯（603486.SH）公司研究",
+      "excerpt": "研究期截至2025年12月31日。本文以公司2023—2025年经审计年度报告为主要证据；2023年利润表采用2024年报重述后的比较口径，以保持三年可比。金额除特别说明外均为人民币。",
+      "url": "reports/603486.SH/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "600839.SH",
       "name": "四川长虹",
       "market": "A",
