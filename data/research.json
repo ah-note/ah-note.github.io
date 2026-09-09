@@ -3,6 +3,32 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "688793.SH",
+      "name": "倍轻松",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T09:53:54+08:00",
+      "review_status": "pass",
+      "title": "倍轻松（688793.SH）公司研究",
+      "excerpt": "研究截止日为2025年12月31日，覆盖2023—2025三个完整年度。金额如无特别说明均为人民币亿元。本文不给买卖建议。",
+      "url": "reports/688793.SH/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
+      "code": "920419.BJ",
+      "name": "路斯股份",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T09:52:14+08:00",
+      "review_status": "pass",
+      "title": "路斯股份（920419.BJ）2025年度公司研究",
+      "excerpt": "研究期间截至2025年12月31日。金额除特别说明外均为人民币亿元。本报告不提供买卖建议；输入未提供可核验的市场价格快照，因此不比较当前股价与基准价值。",
+      "url": "reports/920419.BJ/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "605268.SH",
       "name": "王力安防",
       "market": "A",
