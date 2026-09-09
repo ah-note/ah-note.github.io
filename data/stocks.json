@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-09-09 13:22:44 +08:00",
+  "built_at": "2026-09-09 13:33:00 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -87373,6 +87373,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002601.SZ/"
+    },
+    {
+      "schema_version": "stock-research-analysis-v4",
+      "code": "002915.SZ",
+      "name": "中欣氟材",
+      "raw_name": "中欣氟材",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "人民币",
+      "market_cap_yi": null,
+      "pe_ttm": null,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": null,
+      "operating_business_price_yi": 7.46,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 15.71,
+      "gross_profit_yi": 2.42,
+      "parent_net_profit_yi": null,
+      "gross_margin_pct": 15.39,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": null,
+      "risk_level": "未分级",
+      "business_summary": "报告基准日为 2025 年 12 月 31 日，纳入 2026 年 2 月已经完成、3 月已经上市的简易程序定增，以便期后现金和摊薄股数保持同一口径。研究依据为公司 2023—2025 年经审计年度报告；2025 年财务报表获标准无保留意见。",
+      "core_judgement": "",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/002915.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",

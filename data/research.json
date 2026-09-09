@@ -3,6 +3,19 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "002915.SZ",
+      "name": "中欣氟材",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T13:30:54+08:00",
+      "review_status": "pass",
+      "title": "中欣氟材（002915.SZ）公司研究",
+      "excerpt": "报告基准日为 2025 年 12 月 31 日，纳入 2026 年 2 月已经完成、3 月已经上市的简易程序定增，以便期后现金和摊薄股数保持同一口径。研究依据为公司 2023—2025 年经审计年度报告；2025 年财务报表获标准无保留意见。",
+      "url": "reports/002915.SZ/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "002842.SZ",
       "name": "翔鹭钨业",
       "market": "A",
