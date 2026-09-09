@@ -3,6 +3,19 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "600362.SH",
+      "name": "江西铜业",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T23:44:51+08:00",
+      "review_status": "pass",
+      "title": "江西铜业（600362.SH）公司研究",
+      "excerpt": "报告基准日：2025年12月31日。金额除特别说明外均为人民币亿元。本报告只使用截至基准日的经营事实及2026年3月26日获批报出的2025年年报；2024年比较数采用2025年报追溯重述口径。由于输入未提供可核验的市场价格快照，报告不讨论即时折溢价。",
+      "url": "reports/600362.SH/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "600361.SH",
       "name": "创新新材料科技股份有限公司",
       "market": "A",
