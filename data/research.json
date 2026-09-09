@@ -3,6 +3,19 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "002847.SZ",
+      "name": "盐津铺子",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T20:59:56+08:00",
+      "review_status": "pass",
+      "title": "盐津铺子（002847.SZ）公司研究",
+      "excerpt": "研究期为2023—2025三个完整年度，财务范围为盐津铺子食品股份有限公司合并口径，金额除特别说明外均为人民币。信息截止于《2025年年度报告》披露日2026年4月8日。本报告只评估经营与普通股价值，不提供买卖建议。",
+      "url": "reports/002847.SZ/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "002557.SZ",
       "name": "洽洽食品",
       "market": "A",
