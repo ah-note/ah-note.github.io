@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-09-09 13:38:19 +08:00",
+  "built_at": "2026-09-09 13:47:05 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -87404,6 +87404,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002915.SZ/"
+    },
+    {
+      "schema_version": "stock-research-analysis-v4",
+      "code": "01090.HK",
+      "name": "大明國際",
+      "raw_name": "大明國際",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": null,
+      "pe_ttm": null,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": null,
+      "operating_business_price_yi": 24.0,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 441.93,
+      "gross_profit_yi": 10.61,
+      "parent_net_profit_yi": null,
+      "gross_margin_pct": 2.4,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": null,
+      "risk_level": "未分级",
+      "business_summary": "本表以公司合并总量为硬约束；业务行混合直接披露与基准估计，只用于理解主要经营数据和利润/现金来源。",
+      "core_judgement": "",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01090.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
