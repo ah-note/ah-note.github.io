@@ -3,6 +3,32 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "000568.SZ",
+      "name": "泸州老窖",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T20:06:18+08:00",
+      "review_status": "pass",
+      "title": "泸州老窖：2025年度公司研究",
+      "excerpt": "泸州老窖仍是一门由稀缺窖池、强品牌和经销网络共同支撑的高回报生意，但2025年不是普通的增速放缓：收入由311.96亿元降至257.31亿元，重构EBIT由177.01亿元降至140.39亿元，经营活动现金流由191.82亿元降至71.23亿元。收入和利润同时收缩，库存继续增加而合同负债下降，说明渠道回款与终端需求承压已经传导到现金，而不只是报表确认节奏变化。[《泸州老窖股份有限公司2025年年度报告》，2026年4月29日，P74-P83、P146-P154](https:……",
+      "url": "reports/000568.SZ/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
+      "code": "01045.HK",
+      "name": "亞太衛星",
+      "market": "HK",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T20:05:59+08:00",
+      "review_status": "pass",
+      "title": "亞太衛星（01045.HK）公司研究",
+      "excerpt": "研究期截至2025年12月31日，金额除特别说明外均为港元。结论先说在前面：这是一家正在收获既有在轨卫星、但传统容量租赁经济性快速转弱的公司。账面现金很厚，实际年度自由现金流仍为正；然而卫星是有限寿命资产，近三年每年约4.1亿的折旧摊销远高于0.42亿至0.72亿的实际现金资本开支。若要维持目前服务能力，不能把这段低投入期永久外推。",
+      "url": "reports/01045.HK/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "603799.SH",
       "name": "华友钴业",
       "market": "A",
