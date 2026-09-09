@@ -3,6 +3,19 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "03330.HK",
+      "name": "靈寶黃金",
+      "market": "HK",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T15:00:06+08:00",
+      "review_status": "pass",
+      "title": "靈寶黃金（03330.HK）公司研究",
+      "excerpt": "研究期间：截至2025年12月31日；历史覆盖2023—2025年。金额如无特别说明均为人民币亿元。本文不给买卖建议；“基准价值”是按项目统一纪律形成的比较标尺，不是对矿权公允价值或未来股价的预测。",
+      "url": "reports/03330.HK/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "02302.HK",
       "name": "中核國際",
       "market": "HK",

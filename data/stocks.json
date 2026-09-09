@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-09-09 15:00:10 +08:00",
+  "built_at": "2026-09-09 15:05:08 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -87714,6 +87714,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/01907.HK/"
+    },
+    {
+      "schema_version": "stock-research-analysis-v4",
+      "code": "03330.HK",
+      "name": "靈寶黃金",
+      "raw_name": "靈寶黃金",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "人民币",
+      "market_cap_yi": null,
+      "pe_ttm": null,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": null,
+      "operating_business_price_yi": 52.0,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 131.43,
+      "gross_profit_yi": 28.21,
+      "parent_net_profit_yi": null,
+      "gross_margin_pct": 21.46,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": null,
+      "risk_level": "未分级",
+      "business_summary": "研究期间：截至2025年12月31日；历史覆盖2023—2025年。金额如无特别说明均为人民币亿元。本文不给买卖建议；“基准价值”是按项目统一纪律形成的比较标尺，不是对矿权公允价值或未来股价的预测。",
+      "core_judgement": "",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/03330.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
