@@ -3,6 +3,32 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "000933.SZ",
+      "name": "河南神火煤电股份有限公司",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T16:34:34+08:00",
+      "review_status": "pass",
+      "title": "神火股份（000933.SZ）公司研究",
+      "excerpt": "本表以公司合并总量为硬约束；业务行混合直接披露与基准估计，只用于理解主要经营数据和利润/现金来源。",
+      "url": "reports/000933.SZ/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
+      "code": "000970.SZ",
+      "name": "中科三环",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T16:34:11+08:00",
+      "review_status": "pass",
+      "title": "中科三环：销量恢复尚未转化为资本回报",
+      "excerpt": "中科三环不是没有订单和制造能力，而是处在“销量恢复、价格与利润尚未恢复”的阶段。2025 年磁材销量同比增长 25.0% 至 1.26 万吨，营业收入却仍下降 1.6% 至 66.41 亿元；合并毛利率仅由 10.69% 微升至 10.78%。这组数据说明稀土原料价格下行向售价传导、国内竞争和产品结构，仍在压制单位产品盈利。公司 2025 年经营利润有所修复，更多来自资产减值损失减少和降本，而不是毛利率明显回到过去水平。[《中科三环2025年年度报告》，2026-03-28……",
+      "url": "reports/000970.SZ/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "00094.HK",
       "name": "綠心集團",
       "market": "HK",
