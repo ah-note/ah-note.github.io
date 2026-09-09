@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-09-09 21:21:05 +08:00",
+  "built_at": "2026-09-09 21:27:36 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -89729,6 +89729,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002570.SZ/"
+    },
+    {
+      "schema_version": "stock-research-analysis-v4",
+      "code": "00828.HK",
+      "name": "王朝酒业集团",
+      "raw_name": "王朝酒业集团",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "港元",
+      "market_cap_yi": null,
+      "pe_ttm": null,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": null,
+      "operating_business_price_yi": 0.35,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 1.7,
+      "gross_profit_yi": 0.53,
+      "parent_net_profit_yi": null,
+      "gross_margin_pct": 31.4,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": null,
+      "risk_level": "未分级",
+      "business_summary": "王朝酒业当前更像一台拥有老品牌、充足产能和较重存货，但尚未证明能把这些资源稳定变成股东现金的经营机器。2025年收入由2.71亿降至1.70亿，销量由约1,040万瓶降至770万瓶，红、白葡萄酒平均出厂价也下降；毛利率从38.6%降至31.4%。财报归母利润仍有0.137亿，主要因为设备补偿交回带来0.482亿一次性收益。剔除设备补偿、资产处置、长期应付款核...",
+      "core_judgement": "",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/00828.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",

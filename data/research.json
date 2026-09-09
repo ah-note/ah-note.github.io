@@ -3,6 +3,19 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "00828.HK",
+      "name": "王朝酒业集团",
+      "market": "HK",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T21:20:54+08:00",
+      "review_status": "pass",
+      "title": "王朝酒业集团（00828.HK）公司研究",
+      "excerpt": "王朝酒业当前更像一台拥有老品牌、充足产能和较重存货，但尚未证明能把这些资源稳定变成股东现金的经营机器。2025年收入由2.71亿降至1.70亿，销量由约1,040万瓶降至770万瓶，红、白葡萄酒平均出厂价也下降；毛利率从38.6%降至31.4%。财报归母利润仍有0.137亿，主要因为设备补偿交回带来0.482亿一次性收益。剔除设备补偿、资产处置、长期应付款核销及期权重估后，研究口径核心EBIT为亏损0.426亿，而不是财报经营利润0.125亿。[《2025年度报告》，2026……",
+      "url": "reports/00828.HK/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "002946.SZ",
       "name": "新乳业",
       "market": "A",
