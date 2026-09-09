@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-09-09 23:41:06 +08:00",
+  "built_at": "2026-09-09 23:44:27 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -90349,6 +90349,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/600308.SH/"
+    },
+    {
+      "schema_version": "stock-research-analysis-v4",
+      "code": "600361.SH",
+      "name": "创新新材料科技股份有限公司",
+      "raw_name": "创新新材料科技股份有限公司",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "CNY",
+      "market_cap_yi": null,
+      "pe_ttm": null,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": null,
+      "operating_business_price_yi": 89.42,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 770.41,
+      "gross_profit_yi": 24.35,
+      "parent_net_profit_yi": null,
+      "gross_margin_pct": 3.16,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": null,
+      "risk_level": "未分级",
+      "business_summary": "研究期为2023—2025年，信息边界为公司2025年年度报告。金额如无特别说明均为人民币亿元。输入未提供可核验的市场价格快照，因此本报告只形成经营资产与普通股基准价值，不计算当前价格折溢价，也不给出买卖评级。",
+      "core_judgement": "",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/600361.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
