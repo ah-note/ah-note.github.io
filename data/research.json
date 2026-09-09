@@ -3,6 +3,32 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "301061.SZ",
+      "name": "匠心家居",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T08:05:41+08:00",
+      "review_status": "pass",
+      "title": "匠心家居（301061.SZ）公司研究",
+      "excerpt": "本表以公司合并总量为硬约束；业务行混合直接披露与基准估计，只用于理解主要经营数据和利润/现金来源。",
+      "url": "reports/301061.SZ/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
+      "code": "301113.SZ",
+      "name": "雅艺科技",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T08:04:47+08:00",
+      "review_status": "pass",
+      "title": "雅艺科技（301113.SZ）公司研究",
+      "excerpt": "本表以公司合并总量为硬约束；业务行混合直接披露与基准估计，只用于理解主要经营数据和利润/现金来源。",
+      "url": "reports/301113.SZ/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "300866.SZ",
       "name": "安克创新科技股份有限公司",
       "market": "A",
