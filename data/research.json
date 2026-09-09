@@ -3,6 +3,32 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "603317.SH",
+      "name": "天味食品",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T23:21:47+08:00",
+      "review_status": "pass",
+      "title": "天味食品（603317.SH）2025年度公司研究",
+      "excerpt": "本表以公司合并总量为硬约束；业务行混合直接披露与基准估计，只用于理解主要经营数据和利润/现金来源。",
+      "url": "reports/603317.SH/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
+      "code": "600103.SH",
+      "name": "青山纸业",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T23:19:48+08:00",
+      "review_status": "pass",
+      "title": "青山纸业公司研究（截至2025年12月31日）",
+      "excerpt": "本表以公司合并总量为硬约束；业务行混合直接披露与基准估计，只用于理解主要经营数据和利润/现金来源。",
+      "url": "reports/600103.SH/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "600231.SH",
       "name": "凌钢股份",
       "market": "A",
