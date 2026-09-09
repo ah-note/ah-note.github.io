@@ -3,6 +3,32 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "003816.SZ",
+      "name": "中国广核",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-10T00:03:38+08:00",
+      "review_status": "pass",
+      "title": "中国广核（003816.SZ）公司研究",
+      "excerpt": "中国广核拥有一台质量很高、寿命很长、但极度吃资本的经营机器。真正的护城河不是“电力需求会增长”这句泛泛判断，而是核电牌照、核安全运营记录、批量化建设能力、专业人员体系和已建成机组共同形成的进入壁垒。2025年公司管理28台在运机组，容量31,838兆瓦；平均能力因子92.65%，全年管理口径上网电量2,326.48亿千瓦时，运营质量仍强。[《中国广核电力股份有限公司2025年年度报告》，2026年3月26日，第15—18页](https://static.cninfo.com……",
+      "url": "reports/003816.SZ/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
+      "code": "00090.HK",
+      "name": "普星能量",
+      "market": "HK",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-10T00:03:16+08:00",
+      "review_status": "pass",
+      "title": "普星能量（00090.HK）公司研究",
+      "excerpt": "普星能量的核心不是一般意义上的成长型公用事业，而是一组受浙江电网调度、容量电价和天然气联动机制共同约束的燃气电厂。容量电费提供了收入底座，但公司没有决定主要客户、调度量或政策价格的能力。2023—2025年EBIT率由27.4%降至20.7%，而2026年容量电价退坡、储能政策收紧和峰谷价差收窄仍在继续施压。因此，本报告不把2025年实际利润直接资本化，而采用处置两厂后持续经营范围的保守稳定状态：收入3.00亿元、EBIT率15.0%、稳定经营收益0.438亿元。",
+      "url": "reports/00090.HK/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "000543.SZ",
       "name": "皖能电力",
       "market": "A",
