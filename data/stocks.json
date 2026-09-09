@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-09-09 10:10:03 +08:00",
+  "built_at": "2026-09-09 10:14:35 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -86226,6 +86226,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/000592.SZ/"
+    },
+    {
+      "schema_version": "stock-research-analysis-v4",
+      "code": "000707.SZ",
+      "name": "双环科技",
+      "raw_name": "双环科技",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "人民币",
+      "market_cap_yi": null,
+      "pe_ttm": null,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": null,
+      "operating_business_price_yi": 19.96,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 20.78,
+      "gross_profit_yi": 2.64,
+      "parent_net_profit_yi": null,
+      "gross_margin_pct": 12.68,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": null,
+      "risk_level": "未分级",
+      "business_summary": "研究基准日：2025年12月31日 财务口径：人民币、合并报表；金额如无特别说明均为亿元 资料范围：2023—2025年度报告，其中2024年数据采用2025年报因同一控制下合并而追溯调整后的比较数",
+      "core_judgement": "",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/000707.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",

@@ -3,6 +3,19 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "000707.SZ",
+      "name": "双环科技",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T10:12:15+08:00",
+      "review_status": "pass",
+      "title": "双环科技（000707.SZ）公司研究",
+      "excerpt": "研究基准日：2025年12月31日 财务口径：人民币、合并报表；金额如无特别说明均为亿元 资料范围：2023—2025年度报告，其中2024年数据采用2025年报因同一控制下合并而追溯调整后的比较数",
+      "url": "reports/000707.SZ/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "000592.SZ",
       "name": "平潭发展",
       "market": "A",
