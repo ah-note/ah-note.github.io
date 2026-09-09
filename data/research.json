@@ -3,6 +3,32 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "01364.HK",
+      "name": "古茗",
+      "market": "HK",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T21:41:21+08:00",
+      "review_status": "pass",
+      "title": "古茗（01364.HK）公司研究",
+      "excerpt": "本表以公司合并总量为硬约束；业务行混合直接披露与基准估计，只用于理解主要经营数据和利润/现金来源。",
+      "url": "reports/01364.HK/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
+      "code": "00389.HK",
+      "name": "通天酒业",
+      "market": "HK",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T21:36:11+08:00",
+      "review_status": "pass",
+      "title": "通天酒业（00389.HK）公司研究",
+      "excerpt": "本表以公司合并总量为硬约束；业务行混合直接披露与基准估计，只用于理解主要经营数据和利润/现金来源。",
+      "url": "reports/00389.HK/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "02573.HK",
       "name": "新琪安",
       "market": "HK",
@@ -8007,19 +8033,6 @@
       "title": "谭木匠（00837.HK）2025 年公司研究",
       "excerpt": "今天的高毛利、低应收和轻门店资产不是 2025 年突然出现的结果。公司始创于 1993 年，早期最重要的转折是把木梳从无牌手工作坊产品变成单一品牌：消费者开始为质量承诺、天然材料和工艺身份识别产品。品牌在 1997 年前后定型，1998 年启动加盟。根据 2009 年上市文件，上市前最新可行日期内地已有 853 家加盟店，另有少量海外加盟和香港直营店。加盟不是普通批发的改名，它把店租、装修、零售人员和当地客流风险放到加盟商一端，把设计、制造、供货、品牌和门店规则留在公司一端……",
       "url": "reports/00837.HK/"
-    },
-    {
-      "source": "formal_report_registry",
-      "analysis_version": "2025-annual-3814a6dc67fd",
-      "code": "01364.HK",
-      "name": "古茗",
-      "market": "HK",
-      "report_period": "2025-12-31",
-      "published_at": "2026-08-31T00:16:53+08:00",
-      "review_status": "pass",
-      "title": "古茗：密度成为现金之后",
-      "excerpt": "古茗已经把低线城市的区域密度、冷链供应链和加盟商网络变成了高利润、低总部资产强度的现金生意。2025年的问题不在于增长是否漂亮，而在于漂亮的增长中有多少来自可持续的组织能力、多少来自平台补贴；公司层的问题则是，账面上的大量资金有多少最终能够解除约束并到达股东。",
-      "url": "research/01364.HK/2025-annual-3814a6dc67fd/"
     },
     {
       "source": "formal_report_registry",
