@@ -3,6 +3,32 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "00297.HK",
+      "name": "中化化肥",
+      "market": "HK",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T13:55:08+08:00",
+      "review_status": "pass",
+      "title": "中化化肥（00297.HK）公司研究",
+      "excerpt": "研究期间为 2023—2025 三个完整年度，信息截止于 2026 年 4 月 27 日发布的 2025 年年报。金额除特别说明外均为人民币亿元。输入未提供可核验的市场价格，因此本文只给出统一口径的价值标尺，不计算相对市价折溢价，也不提供买卖建议。",
+      "url": "reports/00297.HK/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
+      "code": "01702.HK",
+      "name": "東光化工",
+      "market": "HK",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T13:53:24+08:00",
+      "review_status": "pass",
+      "title": "東光化工（01702.HK）公司研究",
+      "excerpt": "本表以公司合并总量为硬约束；业务行混合直接披露与基准估计，只用于理解主要经营数据和利润/现金来源。",
+      "url": "reports/01702.HK/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "01090.HK",
       "name": "大明國際",
       "market": "HK",
