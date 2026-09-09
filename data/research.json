@@ -3,6 +3,32 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "002756.SZ",
+      "name": "永兴材料",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T13:13:00+08:00",
+      "review_status": "pass",
+      "title": "永兴材料：周期利润退潮后，真正的底牌是低成本锂资源与厚现金",
+      "excerpt": "永兴材料不是一门可以用单一年度利润线性外推的生意。特钢是一台低毛利、短流程、以销定产的周转机器；碳酸锂则是一台由资源禀赋决定成本位置、但售价由行业供需决定的周期机器。2023—2025年收入从121.9亿元降至74.2亿元，重构EBIT从37.8亿元降至5.20亿元，核心原因不是产能消失，而是锂价高景气退去。2025年碳酸锂销量仍有2.51万吨附近的业务规模，锂电新能源分部毛利率30.7%，明显高于特钢的10.7%，但分部收入同比下降21.8%；这组数字更像价格周期下行而非业……",
+      "url": "reports/002756.SZ/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
+      "code": "002601.SZ",
+      "name": "龙佰集团",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T13:12:40+08:00",
+      "review_status": "pass",
+      "title": "龙佰集团公司研究报告",
+      "excerpt": "本表以公司合并总量为硬约束；业务行混合直接披露与基准估计，只用于理解主要经营数据和利润/现金来源。",
+      "url": "reports/002601.SZ/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "002738.SZ",
       "name": "中矿资源",
       "market": "A",
