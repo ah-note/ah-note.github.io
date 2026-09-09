@@ -3,6 +3,32 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "301035.SZ",
+      "name": "润丰股份",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T15:36:14+08:00",
+      "review_status": "pass",
+      "title": "润丰股份（301035.SZ）公司研究",
+      "excerpt": "研究口径截至2025年12月31日，期后信息截至《2025年年度报告》披露日2026年4月27日。金额除特别注明外均为人民币亿元。由于任务未提供可核验的市场价格快照，本报告给出价值基准与安全边际价格，不计算当前股价折溢价。",
+      "url": "reports/301035.SZ/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
+      "code": "301149.SZ",
+      "name": "隆华新材",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T15:34:59+08:00",
+      "review_status": "pass",
+      "title": "隆华新材（301149.SZ）公司研究",
+      "excerpt": "本表以公司合并总量为硬约束；业务行混合直接披露与基准估计，只用于理解主要经营数据和利润/现金来源。",
+      "url": "reports/301149.SZ/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "300505.SZ",
       "name": "川金诺",
       "market": "A",
