@@ -3,6 +3,19 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "000731.SZ",
+      "name": "四川美丰",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T10:58:35+08:00",
+      "review_status": "pass",
+      "title": "四川美丰（000731.SZ）公司研究",
+      "excerpt": "本表以公司合并总量为硬约束；业务行混合直接披露与基准估计，只用于理解主要经营数据和利润/现金来源。",
+      "url": "reports/000731.SZ/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "000751.SZ",
       "name": "锌业股份",
       "market": "A",
