@@ -3,6 +3,19 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "600309.SH",
+      "name": "万华化学",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T23:29:13+08:00",
+      "review_status": "pass",
+      "title": "万华化学：规模继续扩张，资本效率仍是决定价值的变量",
+      "excerpt": "万华化学不是一门单纯依靠化工品涨价的生意。它把MDI、TDI、聚醚、烯烃衍生物和大量下游材料放在一体化园区内，客户购买的是稳定供货、产品性能、应用开发和全球交付。产业链协同确实形成了规模和成本门槛，但同一结构也要求公司不断投建大装置，并承受石化价差压缩、新装置爬坡和固定资产利用率不足的风险。",
+      "url": "reports/600309.SH/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "600160.SH",
       "name": "巨化股份",
       "market": "A",
