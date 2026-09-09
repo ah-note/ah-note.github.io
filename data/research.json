@@ -3,6 +3,32 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "300973.SZ",
+      "name": "立高食品",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T23:03:20+08:00",
+      "review_status": "pass",
+      "title": "立高食品（300973.SZ）公司研究",
+      "excerpt": "立高食品不是单纯的冷冻糕点工厂，而是一套面向分散烘焙门店与大型连锁客户的“多品类产品＋技术服务＋冷链交付”系统。经销网络负责覆盖数量庞大、订单小而分散的门店；直销承接商超、餐饮和大型连锁客户；全国生产基地、外仓和冷链把运输半径转化为获客能力。产品矩阵让客户能够一次采购冷冻烘焙半成品、奶油、酱料、水果制品及油脂肉松等原料，降低客户管理多个供应商的成本。[《2025年年度报告》，2026年4月28日，第19—22页](https://static.cninfo.com.cn/fi……",
+      "url": "reports/300973.SZ/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
+      "code": "09633.HK",
+      "name": "农夫山泉",
+      "market": "HK",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T23:02:00+08:00",
+      "review_status": "pass",
+      "title": "农夫山泉（09633.HK）公司研究：截至2025年12月31日",
+      "excerpt": "本表以公司合并总量为硬约束；业务行混合直接披露与基准估计，只用于理解主要经营数据和利润/现金来源。",
+      "url": "reports/09633.HK/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "300138.SZ",
       "name": "晨光生物",
       "market": "A",
