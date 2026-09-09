@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>公司数据页 · AH Note</title><meta name="description" content="AH Note 公司数据页试阅：历史经营、每股变化与同行比较。"><link rel="stylesheet" href="style.css"><script src="app.js" defer></script></head>
+<body>
+<header class="topbar"><a class="brand" href="/">AH<span>NOTE</span></a><div class="divider"></div><span>公司数据页</span><span class="preview">试阅 01</span><nav><a href="/research/">经营分析</a><a href="/industries/">行业目录 ↗</a></nav></header>
+<main>
+<div class="toolbar"><div class="breadcrumb">地产与建筑 <span>/</span> 建筑材料 <span>/</span> 水泥熟料</div><label>切换公司 <select id="company" aria-label="切换公司"><option value="600585.SH">海螺水泥 · 600585.SH</option><option value="600801.SH">华新建材 · 600801.SH</option><option value="002233.SZ">塔牌集团 · 002233.SZ</option></select></label></div>
+<section class="identity"><div><div class="eyebrow">COMPANY AT A GLANCE</div><h1 id="name">海螺水泥</h1><div class="identity-meta"><span id="code">600585.SH</span><span>人民币口径</span><span>年度 2023—2025</span></div></div><a id="report" class="report-link" href="/reports/600585.SH/">查看完整研究 ↗</a></section>
+<div class="scope"><span class="dot"></span><strong>真实研究数据样版</strong><span>本版复用已完成报告的三年数据；十年历史、行情、分红与实际 EPS 尚未接入，不做填补或模拟。</span></div>
+<section class="kpis" id="kpis" aria-label="最新年度关键数据"></section>
+<section class="panel trend-panel"><div class="section-heading"><div><span class="section-number">01</span><h2>先看变化，再看结论</h2></div><div class="segmented" role="group" aria-label="趋势指标"><button data-metric="revenue" class="active">收入</button><button data-metric="profit">归母净利润</button><button data-metric="ocf">经营现金流</button><button data-metric="cashSurplus">扣资本开支后现金</button></div></div><div class="trend-layout"><div><div class="chart-meta"><span id="chart-label"></span><span>亿元人民币</span></div><div id="chart" aria-live="polite"></div></div><aside><span class="eyebrow">2023 → 2025</span><div id="change" class="change"></div><p id="change-caption"></p><div class="rule"></div><p class="quiet">三年只能观察近期变化。周期判断仍需要更长历史，不能把这一段趋势直接外推。</p></aside></div></section>
+<section class="panel history-panel"><div class="section-heading"><div><span class="section-number">02</span><h2>历史经营一览</h2></div><div class="segmented" role="group" aria-label="数据单位"><button id="total" class="active">公司总量</button><button id="per-share">按最新股数折算</button></div></div><p id="unit-note" class="table-note"></p><div class="table-scroll"><table id="history"></table></div><div class="footnote"><span class="marker">口径</span>扣资本开支后现金＝经营现金流净额－购建长期资产现金支出；不是标准 FCFF，也未扣并购现金，不与原报告的净资本开支口径混用。</div></section>
+<section class="panel"><div class="section-heading"><div><span class="section-number">03</span><h2>放回同行中看</h2></div><span class="quiet">同一年度 · 2025</span></div><div class="table-scroll"><table id="peers"></table></div><div class="footnote">点击公司可切换整页。贸易业务占比、境内外结构及并购范围可能不同；这里只提供同字段对照，不给公司排名。</div></section>
+<details class="panel estimate"><summary><span><span class="section-number">04</span>研究推算 <span class="estimate-tag">与历史事实分开</span></span><span class="expand">展开 ＋</span></summary><div id="estimates"></div></details>
+<details class="panel sources"><summary><span>数据来源与边界</span><span class="expand">展开 ＋</span></summary><div id="sources"></div></details>
+<footer><span>AH NOTE / 公司数据页实验</span><span>数据快照 2026-09-09 · 不含实时行情 · 非投资建议</span></footer>
+</main></body></html>

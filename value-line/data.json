@@ -1,0 +1,362 @@
+[
+  {
+    "code": "600585.SH",
+    "name": "海螺水泥",
+    "years": [
+      {
+        "year": 2023,
+        "revenue": 141157206613,
+        "cost": 117745645658,
+        "ocf": 20074155896,
+        "grossMargin": 0.16585452147112617,
+        "profit": 10427551650,
+        "capex": 14166857405,
+        "sources": [
+          {
+            "item": "营业收入（经重述）",
+            "source": "《安徽海螺水泥股份有限公司2024年年度报告》https://static.cninfo.com.cn/finalpage/2025-03-25/1222882790.PDF",
+            "locator": "PDF第108页"
+          },
+          {
+            "item": "归属于母公司股东的净利润（经重述）",
+            "source": "《安徽海螺水泥股份有限公司2024年年度报告》https://static.cninfo.com.cn/finalpage/2025-03-25/1222882790.PDF",
+            "locator": "PDF第108页"
+          },
+          {
+            "item": "经营活动产生的现金流量净额（经重述）",
+            "source": "《安徽海螺水泥股份有限公司2024年年度报告》https://static.cninfo.com.cn/finalpage/2025-03-25/1222882790.PDF",
+            "locator": "PDF第112页"
+          },
+          {
+            "item": "购建固定资产、无形资产和其他长期资产支付的现金（经重述）",
+            "source": "《安徽海螺水泥股份有限公司2024年年度报告》https://static.cninfo.com.cn/finalpage/2025-03-25/1222882790.PDF",
+            "locator": "PDF第112页"
+          }
+        ]
+      },
+      {
+        "year": 2024,
+        "revenue": 91029615303,
+        "cost": 71272048885,
+        "ocf": 18476252523,
+        "grossMargin": 0.21704547857568354,
+        "profit": 7696117949,
+        "capex": 11314257404,
+        "sources": [
+          {
+            "item": "营业收入",
+            "source": "《安徽海螺水泥股份有限公司2024年年度报告》https://static.cninfo.com.cn/finalpage/2025-03-25/1222882790.PDF",
+            "locator": "PDF第108页"
+          },
+          {
+            "item": "归属于母公司股东的净利润",
+            "source": "《安徽海螺水泥股份有限公司2024年年度报告》https://static.cninfo.com.cn/finalpage/2025-03-25/1222882790.PDF",
+            "locator": "PDF第108页"
+          },
+          {
+            "item": "经营活动产生的现金流量净额",
+            "source": "《安徽海螺水泥股份有限公司2024年年度报告》https://static.cninfo.com.cn/finalpage/2025-03-25/1222882790.PDF",
+            "locator": "PDF第112页"
+          },
+          {
+            "item": "购建固定资产、无形资产和其他长期资产支付的现金",
+            "source": "《安徽海螺水泥股份有限公司2024年年度报告》https://static.cninfo.com.cn/finalpage/2025-03-25/1222882790.PDF",
+            "locator": "PDF第112页"
+          }
+        ]
+      },
+      {
+        "year": 2025,
+        "revenue": 82532050796,
+        "cost": 62589049730,
+        "ocf": 16643907685,
+        "grossMargin": 0.24163947064994729,
+        "profit": 8113068470,
+        "capex": 9636323135,
+        "sources": [
+          {
+            "item": "营业收入",
+            "source": "《安徽海螺水泥股份有限公司2025年年度报告》https://static.cninfo.com.cn/finalpage/2026-03-25/1225028852.PDF",
+            "locator": "PDF第94页"
+          },
+          {
+            "item": "归属于母公司股东的净利润",
+            "source": "《安徽海螺水泥股份有限公司2025年年度报告》https://static.cninfo.com.cn/finalpage/2026-03-25/1225028852.PDF",
+            "locator": "PDF第94页"
+          },
+          {
+            "item": "经营活动产生的现金流量净额",
+            "source": "《安徽海螺水泥股份有限公司2025年年度报告》https://static.cninfo.com.cn/finalpage/2026-03-25/1225028852.PDF",
+            "locator": "PDF第98页"
+          },
+          {
+            "item": "购建固定资产、无形资产和其他长期资产支付的现金",
+            "source": "《安徽海螺水泥股份有限公司2025年年度报告》https://static.cninfo.com.cn/finalpage/2026-03-25/1225028852.PDF",
+            "locator": "PDF第98页"
+          }
+        ]
+      }
+    ],
+    "shares": 5277060044,
+    "stableRevenue": 85000000000,
+    "stableReason": "以2025年825亿元收入为低位基准，假设水泥价格温和正常化、销量不恢复地产高峰，其他材料贸易缩量后趋稳。",
+    "businessValue": 59500000000,
+    "sourceHash": "673aa3c1988bb350cced4f26e48aebddb3672c04a4f991105badd873933f3631",
+    "schema": "stock-research-analysis-v3"
+  },
+  {
+    "code": "600801.SH",
+    "name": "华新建材集团股份有限公司",
+    "years": [
+      {
+        "year": 2023,
+        "revenue": 33757087272,
+        "cost": 24741414727,
+        "ocf": 6235555071,
+        "grossMargin": 0.2670749544341789,
+        "profit": 2762116715,
+        "capex": 4850149645,
+        "sources": [
+          {
+            "item": "营业收入",
+            "source": "https://static.cninfo.com.cn/finalpage/2024-03-29/1219448741.PDF",
+            "locator": "PDF P87"
+          },
+          {
+            "item": "归属于母公司股东的净利润",
+            "source": "https://static.cninfo.com.cn/finalpage/2024-03-29/1219448741.PDF",
+            "locator": "PDF P87"
+          },
+          {
+            "item": "经营活动产生的现金流量净额",
+            "source": "https://static.cninfo.com.cn/finalpage/2024-03-29/1219448741.PDF",
+            "locator": "PDF P91"
+          },
+          {
+            "item": "购建固定资产、无形资产和其他长期资产支付的现金",
+            "source": "https://static.cninfo.com.cn/finalpage/2024-03-29/1219448741.PDF",
+            "locator": "PDF P91"
+          }
+        ]
+      },
+      {
+        "year": 2024,
+        "revenue": 34217347727,
+        "cost": 25770521841,
+        "ocf": 5977317233,
+        "grossMargin": 0.24685799593212873,
+        "profit": 2416280487,
+        "capex": 4534814767,
+        "sources": [
+          {
+            "item": "营业收入",
+            "source": "https://static.cninfo.com.cn/finalpage/2025-03-27/1222912425.PDF",
+            "locator": "PDF P78"
+          },
+          {
+            "item": "归属于母公司股东的净利润",
+            "source": "https://static.cninfo.com.cn/finalpage/2025-03-27/1222912425.PDF",
+            "locator": "PDF P78"
+          },
+          {
+            "item": "经营活动产生的现金流量净额",
+            "source": "https://static.cninfo.com.cn/finalpage/2025-03-27/1222912425.PDF",
+            "locator": "PDF P81"
+          },
+          {
+            "item": "购建固定资产、无形资产和其他长期资产支付的现金",
+            "source": "https://static.cninfo.com.cn/finalpage/2025-03-27/1222912425.PDF",
+            "locator": "PDF P81"
+          }
+        ]
+      },
+      {
+        "year": 2025,
+        "revenue": 35348279760,
+        "cost": 24666258743,
+        "ocf": 6694037666,
+        "grossMargin": 0.30219351803047967,
+        "profit": 2853332040,
+        "capex": 2620029922,
+        "sources": [
+          {
+            "item": "营业收入",
+            "source": "https://static.cninfo.com.cn/finalpage/2026-03-27/1225038214.PDF",
+            "locator": "PDF P90"
+          },
+          {
+            "item": "归属于母公司股东的净利润",
+            "source": "https://static.cninfo.com.cn/finalpage/2026-03-27/1225038214.PDF",
+            "locator": "PDF P90"
+          },
+          {
+            "item": "经营活动产生的现金流量净额",
+            "source": "https://static.cninfo.com.cn/finalpage/2026-03-27/1225038214.PDF",
+            "locator": "PDF P93"
+          },
+          {
+            "item": "购建固定资产、无形资产和其他长期资产支付的现金",
+            "source": "https://static.cninfo.com.cn/finalpage/2026-03-27/1225038214.PDF",
+            "locator": "PDF P93"
+          },
+          {
+            "item": "水泥营业收入",
+            "source": "https://static.cninfo.com.cn/finalpage/2026-03-27/1225038214.PDF",
+            "locator": "2025年年度报告 PDF P21"
+          },
+          {
+            "item": "混凝土营业收入",
+            "source": "https://static.cninfo.com.cn/finalpage/2026-03-27/1225038214.PDF",
+            "locator": "2025年年度报告 PDF P21"
+          },
+          {
+            "item": "骨料营业收入",
+            "source": "https://static.cninfo.com.cn/finalpage/2026-03-27/1225038214.PDF",
+            "locator": "2025年年度报告 PDF P21"
+          },
+          {
+            "item": "商品熟料营业收入",
+            "source": "https://static.cninfo.com.cn/finalpage/2026-03-27/1225038214.PDF",
+            "locator": "2025年年度报告 PDF P21"
+          },
+          {
+            "item": "环保、装备工程及新型建材等（财报列“其他”）营业收入",
+            "source": "https://static.cninfo.com.cn/finalpage/2026-03-27/1225038214.PDF",
+            "locator": "2025年年度报告 PDF P21"
+          }
+        ]
+      }
+    ],
+    "shares": 2078995649,
+    "stableRevenue": 38500000000,
+    "stableReason": "以2025年353.48亿元为底，补入8月底并表的Lafarge Africa缺失月份，并对国内需求继续下滑留出抵消；低于公司2026年突破400亿元计划。",
+    "businessValue": 28970200000,
+    "sourceHash": "e2b7e4ac5f8f70a8c9d4f7253049f990f938e3053762e24ee0684f680520ca51",
+    "schema": "stock-research-analysis-v3"
+  },
+  {
+    "code": "002233.SZ",
+    "name": "塔牌集团",
+    "years": [
+      {
+        "year": 2023,
+        "revenue": 5534621232.57,
+        "cost": 4080365374.09,
+        "ocf": 1191380827.67,
+        "grossMargin": 0.26275616656873124,
+        "profit": null,
+        "capex": 452024738.39,
+        "sources": [
+          {
+            "item": "营业收入",
+            "source": "https://static.cninfo.com.cn/finalpage/2025-03-18/1222822951.PDF",
+            "locator": "2024年年度报告，第122-123页，合并利润表2023年度比较栏"
+          },
+          {
+            "item": "购建固定资产无形资产和其他长期资产支付的现金",
+            "source": "https://static.cninfo.com.cn/finalpage/2025-03-18/1222822951.PDF",
+            "locator": "第127页，合并现金流量表"
+          },
+          {
+            "item": "经营活动产生的现金流量净额",
+            "source": "https://static.cninfo.com.cn/finalpage/2025-03-18/1222822951.PDF",
+            "locator": "第126页，合并现金流量表"
+          }
+        ]
+      },
+      {
+        "year": 2024,
+        "revenue": 4277500377.44,
+        "cost": 3330302559.45,
+        "ocf": 849768125.51,
+        "grossMargin": 0.22143722604575888,
+        "profit": null,
+        "capex": 522441458.01,
+        "sources": [
+          {
+            "item": "营业收入",
+            "source": "https://static.cninfo.com.cn/finalpage/2025-03-18/1222822951.PDF",
+            "locator": "第122页，合并利润表"
+          },
+          {
+            "item": "购建固定资产无形资产和其他长期资产支付的现金",
+            "source": "https://static.cninfo.com.cn/finalpage/2025-03-18/1222822951.PDF",
+            "locator": "第127页，合并现金流量表"
+          },
+          {
+            "item": "经营活动产生的现金流量净额",
+            "source": "https://static.cninfo.com.cn/finalpage/2025-03-18/1222822951.PDF",
+            "locator": "第126页，合并现金流量表"
+          }
+        ]
+      },
+      {
+        "year": 2025,
+        "revenue": 4106877852.48,
+        "cost": 3100366380.44,
+        "ocf": 778436676.1,
+        "grossMargin": 0.24507947598982105,
+        "profit": null,
+        "capex": 343396731.15,
+        "sources": [
+          {
+            "item": "营业收入",
+            "source": "https://static.cninfo.com.cn/finalpage/2026-03-19/1225017027.PDF",
+            "locator": "2025年年度报告，第110-111页，合并利润表"
+          },
+          {
+            "item": "购建固定资产无形资产和其他长期资产支付的现金",
+            "source": "https://static.cninfo.com.cn/finalpage/2026-03-19/1225017027.PDF",
+            "locator": "第115页，合并现金流量表"
+          },
+          {
+            "item": "经营活动产生的现金流量净额",
+            "source": "https://static.cninfo.com.cn/finalpage/2026-03-19/1225017027.PDF",
+            "locator": "第114页，合并现金流量表"
+          },
+          {
+            "item": "水泥营业收入",
+            "source": "https://static.cninfo.com.cn/finalpage/2026-03-19/1225017027.PDF",
+            "locator": "2025年年度报告，第20-22页，分产品营业收入与营业成本"
+          },
+          {
+            "item": "熟料营业收入",
+            "source": "https://static.cninfo.com.cn/finalpage/2026-03-19/1225017027.PDF",
+            "locator": "2025年年度报告，第20-22页，分产品营业收入与营业成本"
+          },
+          {
+            "item": "商品混凝土营业收入",
+            "source": "https://static.cninfo.com.cn/finalpage/2026-03-19/1225017027.PDF",
+            "locator": "2025年年度报告，第20-22页，分产品营业收入与营业成本"
+          },
+          {
+            "item": "石灰石及废碴营业收入",
+            "source": "https://static.cninfo.com.cn/finalpage/2026-03-19/1225017027.PDF",
+            "locator": "2025年年度报告，第20-22页，分产品营业收入与营业成本"
+          },
+          {
+            "item": "机制砂石营业收入",
+            "source": "https://static.cninfo.com.cn/finalpage/2026-03-19/1225017027.PDF",
+            "locator": "2025年年度报告，第20-22页，分产品营业收入与营业成本"
+          },
+          {
+            "item": "环保处置营业收入",
+            "source": "https://static.cninfo.com.cn/finalpage/2026-03-19/1225017027.PDF",
+            "locator": "2025年年度报告，第20-22页，分产品营业收入与营业成本"
+          },
+          {
+            "item": "光伏发电上网营业收入",
+            "source": "https://static.cninfo.com.cn/finalpage/2026-03-19/1225017027.PDF",
+            "locator": "2025年年度报告，第20-22页，分产品营业收入与营业成本"
+          }
+        ]
+      }
+    ],
+    "shares": 1192275016,
+    "stableRevenue": 4200000000,
+    "stableReason": "以2024-2025低需求环境和2025销量恢复为中心，不采用2023较高价格收入。",
+    "businessValue": 3714000000,
+    "sourceHash": "dd2451693a868c59e4d450fed870469a900d92bd55a36b7b7c0fc545ec17b575",
+    "schema": "stock-research-analysis-v4"
+  }
+]
