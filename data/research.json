@@ -3,6 +3,19 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "002545.SZ",
+      "name": "东方铁塔",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T12:40:06+08:00",
+      "review_status": "pass",
+      "title": "东方铁塔（002545.SZ）公司研究",
+      "excerpt": "研究截止日：2025年12月31日。金额除特别说明外均为人民币亿元。本报告只讨论经营、资本与普通股价值，不提供买卖建议。由于任务未提供可核验的市场价格快照，价值表不作当前价格折溢价比较。",
+      "url": "reports/002545.SZ/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "002648.SZ",
       "name": "卫星化学",
       "market": "A",
