@@ -3,6 +3,19 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "600022.SH",
+      "name": "山东钢铁",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T16:02:53+08:00",
+      "review_status": "pass",
+      "title": "山东钢铁（600022.SH）公司研究",
+      "excerpt": "研究基准日为2025年12月31日，使用2023—2025年法定年度报告；2025年报披露日为2026年4月23日。输入未提供有效的市场价格及观察日期，因此本报告不比较当前股价，也不据此给出交易建议。",
+      "url": "reports/600022.SH/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "300891.SZ",
       "name": "惠云钛业",
       "market": "A",

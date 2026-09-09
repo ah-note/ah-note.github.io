@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-09-09 16:01:34 +08:00",
+  "built_at": "2026-09-09 16:07:51 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -88055,6 +88055,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/300891.SZ/"
+    },
+    {
+      "schema_version": "stock-research-analysis-v4",
+      "code": "600022.SH",
+      "name": "山东钢铁",
+      "raw_name": "山东钢铁",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "人民币",
+      "market_cap_yi": null,
+      "pe_ttm": null,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": null,
+      "operating_business_price_yi": 30.0,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 672.53,
+      "gross_profit_yi": 63.22,
+      "parent_net_profit_yi": null,
+      "gross_margin_pct": 9.4,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": null,
+      "risk_level": "未分级",
+      "business_summary": "研究基准日为2025年12月31日，使用2023—2025年法定年度报告；2025年报披露日为2026年4月23日。输入未提供有效的市场价格及观察日期，因此本报告不比较当前股价，也不据此给出交易建议。",
+      "core_judgement": "",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/600022.SH/"
     },
     {
       "schema_version": "stock-research-result-v1",
