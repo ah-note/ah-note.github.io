@@ -3,6 +3,19 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "002842.SZ",
+      "name": "翔鹭钨业",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T13:20:58+08:00",
+      "review_status": "pass",
+      "title": "翔鹭钨业（002842.SZ）公司研究",
+      "excerpt": "研究截止日：2025年12月31日；财务数据覆盖2023—2025年。金额除特别说明外均为人民币亿元。本报告不给买卖建议。",
+      "url": "reports/002842.SZ/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "002756.SZ",
       "name": "永兴材料",
       "market": "A",
