@@ -3,6 +3,32 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "600231.SH",
+      "name": "凌钢股份",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T23:19:03+08:00",
+      "review_status": "pass",
+      "title": "凌钢股份（600231.SH）公司研究",
+      "excerpt": "本表以公司合并总量为硬约束；业务行混合直接披露与基准估计，只用于理解主要经营数据和利润/现金来源。",
+      "url": "reports/600231.SH/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
+      "code": "603779.SH",
+      "name": "威龙股份",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T23:17:48+08:00",
+      "review_status": "pass",
+      "title": "威龙股份：库存和固定资产比品牌故事更重",
+      "excerpt": "研究期间为2023—2025年，信息截点为2026年4月29日。金额如无特别说明均为人民币。输入未提供可核验的市场价格，因此本文只给出价值基准，不讨论当前股价的折溢价。",
+      "url": "reports/603779.SH/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "600075.SH",
       "name": "新疆天业",
       "market": "A",
