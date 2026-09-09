@@ -3,6 +3,19 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "00506.HK",
+      "name": "中国食品",
+      "market": "HK",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T22:16:34+08:00",
+      "review_status": "pass",
+      "title": "中国食品（00506.HK）2025年度公司研究",
+      "excerpt": "本表以公司合并总量为硬约束；业务行混合直接披露与基准估计，只用于理解主要经营数据和利润/现金来源。",
+      "url": "reports/00506.HK/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "01876.HK",
       "name": "百威亚太",
       "market": "HK",
