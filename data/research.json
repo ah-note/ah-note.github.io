@@ -3,6 +3,32 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "600075.SH",
+      "name": "新疆天业",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T23:15:16+08:00",
+      "review_status": "pass",
+      "title": "新疆天业（600075.SH）2025年度公司研究",
+      "excerpt": "本表以公司合并总量为硬约束；业务行混合直接披露与基准估计，只用于理解主要经营数据和利润/现金来源。",
+      "url": "reports/600075.SH/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
+      "code": "09985.HK",
+      "name": "卫龙美味",
+      "market": "HK",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T23:13:56+08:00",
+      "review_status": "pass",
+      "title": "卫龙美味（09985.HK）公司研究",
+      "excerpt": "卫龙已经不再主要依靠经典辣条增长。2023—2025年，公司收入由48.72亿元增至72.24亿元，调味面制品收入基本停留在25亿元附近，而蔬菜制品由21.19亿元增至45.06亿元，2025年占收入62.4%。因此，决定未来经营质量的核心问题，已经从“辣条品牌能否延续”变成“魔芋爽等蔬菜制品能否在扩产后维持动销、价格和毛利”。",
+      "url": "reports/09985.HK/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "600597.SH",
       "name": "光明乳业",
       "market": "A",
