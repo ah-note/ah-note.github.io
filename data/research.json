@@ -3,6 +3,19 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "600935.SH",
+      "name": "华塑股份",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T18:36:16+08:00",
+      "review_status": "pass",
+      "title": "华塑股份（600935.SH）公司研究",
+      "excerpt": "研究截止日：2025年12月31日。金额除特别说明外均为亿元人民币。本报告不给买卖建议；输入未提供可核验的市场价格快照，因此不计算当前价格相对价值的折溢价。",
+      "url": "reports/600935.SH/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "600470.SH",
       "name": "六国化工",
       "market": "A",
