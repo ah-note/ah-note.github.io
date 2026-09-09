@@ -3,6 +3,32 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "600597.SH",
+      "name": "光明乳业",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T23:06:43+08:00",
+      "review_status": "pass",
+      "title": "光明乳业公司研究",
+      "excerpt": "本表以公司合并总量为硬约束；业务行混合直接披露与基准估计，只用于理解主要经营数据和利润/现金来源。",
+      "url": "reports/600597.SH/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
+      "code": "603043.SH",
+      "name": "广州酒家",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T23:05:30+08:00",
+      "review_status": "pass",
+      "title": "广州酒家（603043.SH）2025年公司研究",
+      "excerpt": "本表以公司合并总量为硬约束；业务行混合直接披露与基准估计，只用于理解主要经营数据和利润/现金来源。",
+      "url": "reports/603043.SH/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "300973.SZ",
       "name": "立高食品",
       "market": "A",
