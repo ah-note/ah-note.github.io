@@ -3,6 +3,32 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "00916.HK",
+      "name": "龍源電力",
+      "market": "HK",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-10T01:38:30+08:00",
+      "review_status": "pass",
+      "title": "龍源電力（00916.HK）公司研究",
+      "excerpt": "本表以公司合并总量为硬约束；业务行混合直接披露与基准估计，只用于理解主要经营数据和利润/现金来源。",
+      "url": "reports/00916.HK/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
+      "code": "01065.HK",
+      "name": "天津創業環保股份",
+      "market": "HK",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-10T01:38:03+08:00",
+      "review_status": "pass",
+      "title": "天津創業環保股份（01065.HK）2025年度公司研究",
+      "excerpt": "本表以公司合并总量为硬约束；业务行混合直接披露与基准估计，只用于理解主要经营数据和利润/现金来源。",
+      "url": "reports/01065.HK/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "01330.HK",
       "name": "綠色動力環保",
       "market": "HK",
