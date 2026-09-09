@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-09-09 14:28:44 +08:00",
+  "built_at": "2026-09-09 14:37:47 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -87652,6 +87652,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/01164.HK/"
+    },
+    {
+      "schema_version": "stock-research-analysis-v4",
+      "code": "01818.HK",
+      "name": "招金礦業",
+      "raw_name": "招金礦業",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "人民币",
+      "market_cap_yi": null,
+      "pe_ttm": null,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": null,
+      "operating_business_price_yi": 299.02,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 180.56,
+      "gross_profit_yi": 75.7,
+      "parent_net_profit_yi": null,
+      "gross_margin_pct": 41.93,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": null,
+      "risk_level": "未分级",
+      "business_summary": "研究期间为截至2025年12月31日的三个完整年度。金额除另有说明外均为人民币亿元。这里的价值是基于法定披露重构的统一基准，不是对短期金价或股价的预测。",
+      "core_judgement": "",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/01818.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",

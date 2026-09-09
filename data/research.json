@@ -3,6 +3,19 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "01818.HK",
+      "name": "招金礦業",
+      "market": "HK",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T14:35:49+08:00",
+      "review_status": "pass",
+      "title": "招金矿业（01818.HK）公司研究",
+      "excerpt": "研究期间为截至2025年12月31日的三个完整年度。金额除另有说明外均为人民币亿元。这里的价值是基于法定披露重构的统一基准，不是对短期金价或股价的预测。",
+      "url": "reports/01818.HK/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "01164.HK",
       "name": "中廣核礦業",
       "market": "HK",
