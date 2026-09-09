@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-09-09 21:27:36 +08:00",
+  "built_at": "2026-09-09 21:36:24 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -89760,6 +89760,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/00828.HK/"
+    },
+    {
+      "schema_version": "stock-research-analysis-v4",
+      "code": "02573.HK",
+      "name": "新琪安",
+      "raw_name": "新琪安",
+      "market": "HK",
+      "period": "2025-12-31",
+      "currency": "RMB",
+      "market_cap_yi": null,
+      "pe_ttm": null,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": null,
+      "operating_business_price_yi": 2.34,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 5.83,
+      "gross_profit_yi": 1.09,
+      "parent_net_profit_yi": null,
+      "gross_margin_pct": 18.62,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": null,
+      "risk_level": "未分级",
+      "business_summary": "新琪安是一家跨中国、印度尼西亚和泰国生产的食品配料制造商，2025年收入5.83亿元，同比增长2.5%。表面上的增长主要来自三氯蔗糖；真正需要警惕的是现金：贸易及票据应收款由2.25亿元升至3.41亿元，经营现金流由2024年的流入0.043亿元转为2025年的流出0.353亿元。按利润路径重构，2025年企业自由现金流约为负0.961亿元，现金流量表路径复...",
+      "core_judgement": "",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/02573.HK/"
     },
     {
       "schema_version": "stock-research-result-v1",
