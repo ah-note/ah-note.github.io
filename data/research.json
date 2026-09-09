@@ -3,6 +3,32 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "02589.HK",
+      "name": "沪上阿姨",
+      "market": "HK",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T21:47:37+08:00",
+      "review_status": "pass",
+      "title": "沪上阿姨（02589.HK）公司研究",
+      "excerpt": "本表以公司合并总量为硬约束；业务行混合直接披露与基准估计，只用于理解主要经营数据和利润/现金来源。",
+      "url": "reports/02589.HK/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
+      "code": "00546.HK",
+      "name": "阜丰集团",
+      "market": "HK",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T21:47:14+08:00",
+      "review_status": "pass",
+      "title": "阜丰集团（00546.HK）公司研究",
+      "excerpt": "本表以公司合并总量为硬约束；业务行混合直接披露与基准估计，只用于理解主要经营数据和利润/现金来源。",
+      "url": "reports/00546.HK/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "01364.HK",
       "name": "古茗",
       "market": "HK",
