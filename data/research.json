@@ -3,6 +3,19 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "01907.HK",
+      "name": "中國旭陽集團",
+      "market": "HK",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T14:53:41+08:00",
+      "review_status": "pass",
+      "title": "中國旭陽集團（01907.HK）公司研究",
+      "excerpt": "研究期间截至2025年12月31日。金额除特别注明外均为人民币亿元。本文只还原经营与普通股价值结构，不提供买卖建议。",
+      "url": "reports/01907.HK/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "02245.HK",
       "name": "力勤資源",
       "market": "HK",
