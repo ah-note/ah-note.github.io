@@ -3,6 +3,19 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "09879.HK",
+      "name": "米高集團",
+      "market": "HK",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T15:11:55+08:00",
+      "review_status": "pass",
+      "title": "米高集团（09879.HK）公司研究",
+      "excerpt": "本表以公司合并总量为硬约束；业务行混合直接披露与基准估计，只用于理解主要经营数据和利润/现金来源。",
+      "url": "reports/09879.HK/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "03330.HK",
       "name": "靈寶黃金",
       "market": "HK",
