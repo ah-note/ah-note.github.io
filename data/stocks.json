@@ -1,5 +1,5 @@
 {
-  "built_at": "2026-09-09 12:53:54 +08:00",
+  "built_at": "2026-09-09 12:59:06 +08:00",
   "stocks": [
     {
       "schema_version": "stock-research-result-v1",
@@ -87311,6 +87311,37 @@
       "user_note": "",
       "user_tags": [],
       "detail_url": "reports/002539.SZ/"
+    },
+    {
+      "schema_version": "stock-research-analysis-v4",
+      "code": "002738.SZ",
+      "name": "中矿资源",
+      "raw_name": "中矿资源",
+      "market": "A",
+      "period": "2025-12-31",
+      "currency": "人民币",
+      "market_cap_yi": null,
+      "pe_ttm": null,
+      "owner_earnback_years": null,
+      "owner_earnback_rate_pct": null,
+      "market_profit_payback_years": null,
+      "market_cash_profit_yield_pct": null,
+      "discounted_detachable_net_cash_yi": null,
+      "discounted_net_cash_to_market_cap_pct": null,
+      "operating_business_price_yi": 47.2,
+      "discounted_cash_profit_yi": null,
+      "revenue_yi": 65.45,
+      "gross_profit_yi": 16.66,
+      "parent_net_profit_yi": null,
+      "gross_margin_pct": 25.45,
+      "net_margin_pct": null,
+      "forecast_dividend_yield_pct": null,
+      "risk_level": "未分级",
+      "business_summary": "中矿资源已经从地勘服务商变成以锂和铯铷为利润核心、以铜和锗镓锌为下一轮资本开拓方向的多金属集团。真正有辨识度的资产不是锂盐冶炼产能，而是 Bikita、Tanco 的资源与选矿体系，以及铯铷资源、铯盐产品和甲酸铯回收租售网络。后者在 2025 年以 11.25 亿元收入创造 8.34 亿元毛利，是当前利润质量最高的业务；锂业务则以 31.99 亿元收入创造...",
+      "core_judgement": "",
+      "user_note": "",
+      "user_tags": [],
+      "detail_url": "reports/002738.SZ/"
     },
     {
       "schema_version": "stock-research-result-v1",
