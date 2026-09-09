@@ -3,6 +3,19 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "300505.SZ",
+      "name": "川金诺",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T15:24:17+08:00",
+      "review_status": "pass",
+      "title": "川金诺（300505.SZ）2025年公司研究",
+      "excerpt": "本表以公司合并总量为硬约束；业务行混合直接披露与基准估计，只用于理解主要经营数据和利润/现金来源。",
+      "url": "reports/300505.SZ/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "08189.HK",
       "name": "泰達生物",
       "market": "HK",
