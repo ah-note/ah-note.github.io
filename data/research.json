@@ -3,6 +3,19 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "603866.SH",
+      "name": "桃李面包",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T23:31:47+08:00",
+      "review_status": "pass",
+      "title": "桃李面包：全国工厂网络已经建成，需求与资产效率却在后退",
+      "excerpt": "本表以公司合并总量为硬约束；业务行混合直接披露与基准估计，只用于理解主要经营数据和利润/现金来源。",
+      "url": "reports/603866.SH/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "600309.SH",
       "name": "万华化学",
       "market": "A",
