@@ -3,6 +3,19 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
+      "code": "02245.HK",
+      "name": "力勤資源",
+      "market": "HK",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-09T14:47:49+08:00",
+      "review_status": "pass",
+      "title": "力勤資源（02245.HK）公司研究",
+      "excerpt": "力勤已经从镍贸易商变成以印尼HPAL湿法冶炼为利润核心、RKEF火法冶炼为新增规模来源的重资产集团。2023—2025年收入从210.6亿元增至402.4亿元，毛利率从16.1%升至19.2%，EBIT从18.8亿元升至57.1亿元；经营改善是真实的，主要来自HPAL三期满产和KPS火法项目投产，而不是贸易规模扩张。公司披露，2025年冶炼生产收入218.2亿元、毛利69.5亿元，分别占集团收入54.2%和毛利约90%；贸易收入159.0亿元，却只有6.0亿元毛利。[2025……",
+      "url": "reports/02245.HK/"
+    },
+    {
+      "source": "current_company_research",
+      "analysis_version": "stock-research-analysis-v4",
       "code": "01818.HK",
       "name": "招金礦業",
       "market": "HK",
