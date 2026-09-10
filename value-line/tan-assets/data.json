@@ -1,0 +1,555 @@
+{
+  "company": "谭木匠",
+  "code": "00837.HK",
+  "unit": "人民币亿元",
+  "periods": [
+    "2024-12-31",
+    "2025-12-31"
+  ],
+  "source": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0417/2026041701755.pdf",
+  "source_sha256": "2520fa3c49abec15e965fa5c21b77d9b35c0f23f3882a91deb399fc8567b74a5",
+  "source_unit": "RMB’000; multiplied by 1000",
+  "components": [
+    {
+      "key": "inventory",
+      "asset": "working",
+      "label": "存货",
+      "start": 292498000,
+      "end": 308556000,
+      "page": "126",
+      "events": [
+        {
+          "code": "inventory_balance",
+          "amount": 17997000,
+          "label": "未计跌价前的存货净增加（非采购现金）",
+          "mode": "derived"
+        },
+        {
+          "code": "impairment",
+          "amount": -2259000,
+          "label": "木料及产品跌价",
+          "mode": "noncash"
+        },
+        {
+          "code": "reversal",
+          "amount": 320000,
+          "label": "已计跌价产品售出后转回",
+          "mode": "noncash"
+        }
+      ]
+    },
+    {
+      "key": "trade",
+      "asset": "working",
+      "label": "客户欠款",
+      "start": 7153000,
+      "end": 7733000,
+      "page": "127",
+      "events": [
+        {
+          "code": "receivable_balance",
+          "amount": 587000,
+          "label": "客户欠款增加（未扣信用损失）",
+          "mode": "disclosed"
+        },
+        {
+          "code": "impairment",
+          "amount": -7000,
+          "label": "客户欠款信用损失",
+          "mode": "noncash"
+        }
+      ]
+    },
+    {
+      "key": "receivables",
+      "asset": "working",
+      "label": "采购预付、经营押金及往来",
+      "start": 11139000,
+      "end": 40267000,
+      "page": "128",
+      "events": [
+        {
+          "code": "receivable_balance",
+          "amount": 29136000,
+          "label": "经营预付、押金及往来账面增加",
+          "mode": "disclosed"
+        },
+        {
+          "code": "impairment",
+          "amount": -8000,
+          "label": "往来欠款信用损失",
+          "mode": "noncash"
+        }
+      ]
+    },
+    {
+      "key": "suppliers",
+      "asset": "working",
+      "label": "减：供应商结算款",
+      "start": -9507000,
+      "end": -12099000,
+      "page": "134",
+      "events": [
+        {
+          "code": "payable_balance",
+          "amount": -2592000,
+          "label": "供应商欠款增加",
+          "mode": "disclosed"
+        }
+      ]
+    },
+    {
+      "key": "otherpay",
+      "asset": "working",
+      "label": "减：员工及经营结算义务",
+      "start": -46915000,
+      "end": -56304000,
+      "page": "134–135",
+      "events": [
+        {
+          "code": "payable_balance",
+          "amount": -9389000,
+          "label": "员工报酬、经营往来、客户押金与预收净增加",
+          "mode": "disclosed"
+        }
+      ]
+    },
+    {
+      "key": "ppe",
+      "asset": "facilities",
+      "label": "自有设施及在建项目",
+      "start": 132355000,
+      "end": 120650000,
+      "page": "117–118",
+      "events": [
+        {
+          "code": "purchase",
+          "amount": 18775000,
+          "label": "新厂、设备及装修投入",
+          "mode": "disclosed"
+        },
+        {
+          "code": "disposal",
+          "amount": -24332000,
+          "label": "江苏物业权属争议后终止确认",
+          "mode": "noncash"
+        },
+        {
+          "code": "disposal",
+          "amount": -47000,
+          "label": "处置设施账面净额",
+          "mode": "noncash"
+        },
+        {
+          "code": "depreciation",
+          "amount": -6090000,
+          "label": "自有设施折旧",
+          "mode": "noncash"
+        },
+        {
+          "code": "fx",
+          "amount": -11000,
+          "label": "自有设施折算差额",
+          "mode": "noncash"
+        }
+      ]
+    },
+    {
+      "key": "rented",
+      "asset": "facilities",
+      "label": "租入设施使用权",
+      "start": 13068000,
+      "end": 30800000,
+      "page": "118–120",
+      "events": [
+        {
+          "code": "purchase",
+          "amount": 21974000,
+          "label": "新租约形成设施使用权",
+          "mode": "noncash"
+        },
+        {
+          "code": "depreciation",
+          "amount": -3581000,
+          "label": "租入设施折旧",
+          "mode": "noncash"
+        },
+        {
+          "code": "unresolved",
+          "amount": -661000,
+          "label": "租入设施分项剩余变化（未据净额推定汇率）",
+          "mode": "residual"
+        }
+      ]
+    },
+    {
+      "key": "land",
+      "asset": "rights",
+      "label": "土地使用权",
+      "start": 23165000,
+      "end": 22751000,
+      "page": "118–119",
+      "events": [
+        {
+          "code": "depreciation",
+          "amount": -970000,
+          "label": "土地使用权摊销",
+          "mode": "noncash"
+        },
+        {
+          "code": "unresolved",
+          "amount": 556000,
+          "label": "土地权利分项剩余变化",
+          "mode": "residual"
+        }
+      ]
+    },
+    {
+      "key": "trademark",
+      "asset": "rights",
+      "label": "商标及已确认开发资产",
+      "start": 0,
+      "end": 0,
+      "page": "124",
+      "events": []
+    },
+    {
+      "key": "capital",
+      "asset": "capital_settlement",
+      "label": "未单列的资本采购结算（按零估计）",
+      "start": 0,
+      "end": 0,
+      "page": "77、117、128、134",
+      "events": [],
+      "estimated": true
+    },
+    {
+      "key": "tax",
+      "asset": "other_operating",
+      "label": "经营税项及待抵税款净额",
+      "start": -43744000,
+      "end": -47160000,
+      "page": "128、130、134",
+      "events": [
+        {
+          "code": "tax_balance",
+          "amount": 753000,
+          "label": "待抵税款增加",
+          "mode": "disclosed"
+        },
+        {
+          "code": "tax_balance",
+          "amount": -2785000,
+          "label": "非所得税应付款增加",
+          "mode": "disclosed"
+        },
+        {
+          "code": "tax_balance",
+          "amount": -46194000,
+          "label": "确认当期所得税义务",
+          "mode": "noncash"
+        },
+        {
+          "code": "tax_cash",
+          "amount": 39887000,
+          "label": "支付所得税，减少欠税",
+          "mode": "cash"
+        },
+        {
+          "code": "tax_cash",
+          "amount": 4585000,
+          "label": "分配利润支付预提税，减少欠税",
+          "mode": "cash"
+        },
+        {
+          "code": "fx",
+          "amount": -32000,
+          "label": "应付税款折算",
+          "mode": "disclosed"
+        },
+        {
+          "code": "tax_balance",
+          "amount": 370000,
+          "label": "自用设施、土地与租赁相关递延税净负债减少",
+          "mode": "noncash"
+        }
+      ]
+    },
+    {
+      "key": "grant",
+      "asset": "other_operating",
+      "label": "减：尚未转入收益的设施补助",
+      "start": -497000,
+      "end": -476000,
+      "page": "136",
+      "events": [
+        {
+          "code": "obligation",
+          "amount": 21000,
+          "label": "设施补助转入本期收益",
+          "mode": "noncash"
+        }
+      ]
+    },
+    {
+      "key": "cash",
+      "asset": "cash",
+      "label": "现金与全部定期存款",
+      "start": 364714000,
+      "end": 425739000,
+      "page": "80–81、132",
+      "events": [
+        {
+          "code": "operating_net",
+          "amount": 213393000,
+          "label": "税前日常经营净收付（间接法披露）",
+          "mode": "cash"
+        },
+        {
+          "code": "income_cash",
+          "amount": 8529000,
+          "label": "收到存款利息",
+          "mode": "cash"
+        },
+        {
+          "code": "tax_cash",
+          "amount": -39887000,
+          "label": "支付所得税",
+          "mode": "cash"
+        },
+        {
+          "code": "tax_cash",
+          "amount": -4585000,
+          "label": "支付股息分配预提税",
+          "mode": "cash"
+        },
+        {
+          "code": "purchase",
+          "amount": -18775000,
+          "label": "购建设施及在建项目付款",
+          "mode": "cash"
+        },
+        {
+          "code": "disposal",
+          "amount": 32000,
+          "label": "出售设施回款",
+          "mode": "cash"
+        },
+        {
+          "code": "invest",
+          "amount": -160000000,
+          "label": "购买银行理财",
+          "mode": "cash"
+        },
+        {
+          "code": "recover",
+          "amount": 160789000,
+          "label": "理财赎回到账",
+          "mode": "cash"
+        },
+        {
+          "code": "dividend_cash",
+          "amount": -89569000,
+          "label": "实际支付股东分红",
+          "mode": "cash"
+        },
+        {
+          "code": "repay",
+          "amount": -13208000,
+          "label": "偿还租赁本金",
+          "mode": "cash"
+        },
+        {
+          "code": "interest_cash",
+          "amount": -664000,
+          "label": "支付租赁利息",
+          "mode": "cash"
+        },
+        {
+          "code": "fx",
+          "amount": 4970000,
+          "label": "现金汇率折算",
+          "mode": "noncash"
+        }
+      ],
+      "breakdown": [
+        {
+          "label": "现金及现金等价物",
+          "start": 41714000,
+          "end": 79739000
+        },
+        {
+          "label": "三个月以上定期存款",
+          "start": 323000000,
+          "end": 346000000
+        }
+      ]
+    },
+    {
+      "key": "investment",
+      "asset": "investments",
+      "label": "银行理财投资",
+      "start": 80791000,
+      "end": 80669000,
+      "page": "129",
+      "events": [
+        {
+          "code": "invest",
+          "amount": 160000000,
+          "label": "购买理财",
+          "mode": "cash"
+        },
+        {
+          "code": "recover",
+          "amount": -160789000,
+          "label": "赎回理财",
+          "mode": "cash"
+        },
+        {
+          "code": "valuation",
+          "amount": 669000,
+          "label": "未实现理财估值收益",
+          "mode": "noncash"
+        },
+        {
+          "code": "income",
+          "amount": -2000,
+          "label": "理财处置损失",
+          "mode": "noncash"
+        }
+      ]
+    },
+    {
+      "key": "property",
+      "asset": "other_assets",
+      "label": "非主业出租物业",
+      "start": 84100000,
+      "end": 81400000,
+      "page": "121–124",
+      "events": [
+        {
+          "code": "valuation",
+          "amount": -2700000,
+          "label": "出租物业估值下调",
+          "mode": "noncash"
+        }
+      ]
+    },
+    {
+      "key": "lease",
+      "asset": "financing",
+      "label": "租入设施付款义务",
+      "start": 12114000,
+      "end": 20773000,
+      "page": "77–78、133、135",
+      "events": [
+        {
+          "code": "borrow",
+          "amount": 21974000,
+          "label": "新租约形成付款义务",
+          "mode": "noncash"
+        },
+        {
+          "code": "repay",
+          "amount": -13208000,
+          "label": "支付租赁本金",
+          "mode": "cash"
+        },
+        {
+          "code": "interest",
+          "amount": 664000,
+          "label": "确认租赁利息",
+          "mode": "noncash"
+        },
+        {
+          "code": "interest_cash",
+          "amount": -664000,
+          "label": "支付租赁利息",
+          "mode": "cash"
+        },
+        {
+          "code": "fx",
+          "amount": -106000,
+          "label": "附注列示汇兑减少",
+          "mode": "noncash"
+        },
+        {
+          "code": "unresolved",
+          "amount": -1000,
+          "label": "融资附注与资产负债表相差1千元",
+          "mode": "residual"
+        }
+      ]
+    },
+    {
+      "key": "dividend",
+      "asset": "shareholder",
+      "label": "已宣告未支付分红",
+      "start": 333000,
+      "end": 0,
+      "page": "115、133–134",
+      "events": [
+        {
+          "code": "dividend",
+          "amount": 89569000,
+          "label": "年内批准上一年度股息",
+          "mode": "noncash"
+        },
+        {
+          "code": "dividend_cash",
+          "amount": -89569000,
+          "label": "年内实际支付股息",
+          "mode": "cash"
+        },
+        {
+          "code": "unresolved",
+          "amount": -333000,
+          "label": "期初股利余额消失；两张附注期初数不一致",
+          "mode": "residual"
+        }
+      ]
+    },
+    {
+      "key": "investment_tax",
+      "asset": "other_liabilities",
+      "label": "出租物业相关递延税义务",
+      "start": 11914000,
+      "end": 11549000,
+      "page": "130",
+      "events": [
+        {
+          "code": "tax_balance",
+          "amount": -365000,
+          "label": "出租物业估值变化对应税负减少",
+          "mode": "noncash"
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "op": [
+      378715000,
+      414718000
+    ],
+    "na": [
+      529605000,
+      587808000
+    ],
+    "nl": [
+      24361000,
+      32322000
+    ],
+    "net": [
+      883959000,
+      970204000
+    ],
+    "minority": [
+      0,
+      0
+    ],
+    "parent": [
+      883959000,
+      970204000
+    ]
+  }
+}

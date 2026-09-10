@@ -29,7 +29,7 @@ const movementGroups = {
 // 13 类经济变动；余额变化与未解释差额是证据状态，不冒充流转原因。
 const movementFields = {
  inventory:['operating','存货形成与耗用'], obligation:['operating','经营义务确认与解除'],
- receive:['settlement','收取经营款'], pay_operating:['settlement','支付经营款'], tax_cash:['settlement','税费收付'],
+ receive:['settlement','收取经营款'], pay_operating:['settlement','支付经营款'], tax_cash:['settlement','税费收付'], operating_net:['settlement','经营收付净额'],
  purchase:['capacity','新增经营投入'], disposal:['capacity','经营资产退出'],
  depreciation:['consumption','折旧摊销与耗竭'], impairment:['loss','资产减值'], reversal:['loss','减值转回'],
  invest:['investment','新增投资'], recover:['investment','收回投资'],

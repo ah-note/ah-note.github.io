@@ -1,4 +1,4 @@
-const fmt=n=>(n/1e8).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});
+const fmt=n=>(n/1e8).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:Math.abs(n)>0&&Math.abs(n)<1e6?5:2});
 const signed=n=>(n>0?'+':'')+fmt(n);
 const mapData=typeof module!=='undefined'?require('./mapping.js').standardize:standardize;
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -8,17 +8,17 @@ function detailHTML(items){
  return [...fields.values()].map(f=>'<div class="field-line"><details><summary><span>'+esc(f.label)+'</span><b>'+signed(f.amount)+'</b></summary>'+
  f.items.map(e=>'<div class="raw-line"><span>'+esc(e.label)+(e.mode==='noncash'?' <i>非现金</i>':e.mode==='derived_cash'?' <i>推导</i>':'')+'</span><b>'+signed(e.amount)+'</b></div>').join('')+'</details></div>').join('');
 }
-function render(d){
+function render(d,mapper=mapData){
  let out='';
  const total=(label,v,cls='total')=>'<tr class="'+cls+'"><th scope="row">'+label+'</th><td class="amount">'+fmt(v[0])+'</td><td>净变动</td><td class="amount">'+signed(v[1]-v[0])+'</td><td class="amount">'+fmt(v[1])+'</td></tr>';
- for(const g of mapData(d)){
+ for(const g of mapper(d)){
  out+='<tr class="group"><th colspan="5" scope="rowgroup">'+g.title+'</th></tr>';
  for(const r of g.rows){
  const changes=r.changes.filter(c=>c.amount!==0||c.details.some(e=>e.amount!==0));
  if(!changes.length)changes.push({label:'无变动',amount:0,details:[],code:'none'});
  const n=changes.length+1;
  const parts=r.components.flatMap(c=>c.breakdown||[c]).map(c=>'<tr><td>'+esc(c.label)+'</td><td>'+fmt(c.start)+'</td><td>'+fmt(c.end)+'</td></tr>').join('');
- const asset='<details class="asset-details"><summary>'+esc(r.label)+(r.key==='cash'?'¹':'')+'</summary><table class="components"><thead><tr><th>构成</th><th>2024</th><th>2025</th></tr></thead><tbody>'+parts+'</tbody></table></details>';
+ const asset='<details class="asset-details"><summary>'+esc(r.label)+(r.key==='cash'?'¹':'')+esc(r.marker||'')+'</summary><table class="components"><thead><tr><th>构成</th><th>2024</th><th>2025</th></tr></thead><tbody>'+parts+'</tbody></table></details>';
  changes.forEach((c,i)=>{
  out+='<tr>';if(i===0)out+='<th class="item" scope="rowgroup" rowspan="'+n+'">'+asset+'</th><td class="amount opening" rowspan="'+n+'">'+fmt(r.start)+'</td>';
  const details=detailHTML(c.details);
