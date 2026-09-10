@@ -7,9 +7,16 @@
       "sha256": "1c9aa43ada2cae3cfd2c552d5cff27f07765071af5c45bb8229ac17a04a11e69",
       "source_run": "tan-2025-sol-low-v1",
       "bundle_sha256": "c32705ce4b85a4e61498a45e27c1ba3cf896bb06888eb70e4a7695cfcd8b4abf"
+    },
+    "2024": {
+      "file": "annual/2024.03df1d290d86b83d.json",
+      "sha256": "03df1d290d86b83dbe80596ef4143b2f3c605eeded34660030ad2a44a00819e4",
+      "source_run": "tan-2024-fact-ledger-v2-seeded-2024",
+      "bundle_sha256": "089fc526ee6a5949c55b8a1aa2d9a0dab388de62"
     }
   },
   "files": [
+    "annual/2024.03df1d290d86b83d.json",
     "annual/2025.1c9aa43ada2cae3c.json"
   ]
 }
