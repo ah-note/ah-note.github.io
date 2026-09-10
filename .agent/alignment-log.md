@@ -33,3 +33,20 @@
   - The industry browser reads the finalized `stock_analysis` `ah_v3` snapshot and preserves residual leaves as upstream evidence states.
   - Display-only duplicate-name collapse remains separate from the auditable taxonomy.
 - Verification: 32 site tests passed and the real `ah_v3` industry-only build generated 8,061 issuers across 244 leaves.
+
+## 2026-09-10T18:03:00+08:00 Asia/Shanghai
+
+- Range: `2ff825ed..4731cf9a`.
+- Changed pages:
+  - `README.md`
+  - `project-memory/project/publication-pipeline.md`
+  - `project-memory/status/current.md`
+  - `.agent/alignment-record`
+  - `.agent/alignment-log.md`
+  - `.agent/absorbed-records-20260910.json`
+- Absorbed records: 11 files listed in `.agent/absorbed-records-20260910.json`, covering A/H v4, shared-tree recipe integration, multi-market browsing and QA, independent classification publication, lightweight evidence levels, and SIC-backed batch mappings.
+- Resolved context:
+  - Industry publication now reads the versioned A/H/US shared-tree recipe and builds its intermediate snapshot only in a temporary directory.
+  - A mapped company may be browsed without being presented as industry- or company-reviewed; unresolved mappings and other exceptions remain explicit.
+  - Classification-only changes are independently published and include optional SEC evidence in the content digest.
+- Verification: latest real build generated 13,349 issuers across 378 leaves, including 12,216 mapped and 826 unmapped; 45 Python tests and the Node browser-state test passed before commit `4731cf9a` was pushed to main.
