@@ -26,7 +26,11 @@ test('all tables render with estimates and accessible chart',()=>{
  }
  assert.match(elements.chart.innerHTML,/role="img"/);
  const html=fs.readFileSync(path.join(root,'index.html'),'utf8');
- assert.match(html,/E 列全部为排版假设/);
- assert.match(html,/不是实时行情/);
- assert.match(html,/未建模的净资产/);
+ assert.match(html,/E 为演示预测，非研究结论/);
+ assert.match(html,/href="notes.html"/);
+ assert.doesNotMatch(html,/样板边界|读数说明|版式讨论|每股数据怎么看|预测区如何读/);
+ const notes=fs.readFileSync(path.join(root,'notes.html'),'utf8');
+ assert.match(notes,/不是实时行情/);
+ assert.match(notes,/未建模的净资产/);
+ assert.equal((html.match(/id="growth"/g)||[]).length,1);
 });
