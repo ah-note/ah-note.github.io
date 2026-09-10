@@ -1122,6 +1122,8 @@ def main() -> None:
     args = parser.parse_args()
     if args.industry_recipe and args.industry_snapshot:
         parser.error('choose --industry-recipe or --industry-snapshot')
+    if not args.industry_recipe and not args.industry_snapshot:
+        args.industry_recipe = args.stock_analysis_root / 'data/normalized/industry_classification/ahu_site_recipe_v1.json'
     with prepared_industry_snapshot(args.stock_analysis_root, args.industry_recipe, args.industry_snapshot) as snapshot:
         args.industry_snapshot = snapshot
         run_configured_build(args)

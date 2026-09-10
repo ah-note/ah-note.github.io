@@ -24,6 +24,22 @@ from publish_site import PUBLISH_PATHS  # noqa: E402
 
 
 class IndustryCatalogTest(unittest.TestCase):
+    def test_public_provenance_keeps_hashes_not_local_paths(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            snapshot = self.write_snapshot(root)
+            (snapshot/'build-manifest.json').write_text(json.dumps({'decisions_sha256': 'abc', 'recipe_sha256': 'def', 'source_directory': '/private/source', 'decisions_file': '/private/reviews.json'}))
+            catalog = build_industry_catalog(snapshot, root/'stocks.json')
+            self.assertEqual(catalog['classification_provenance'], {'decisions_sha256': 'abc', 'recipe_sha256': 'def'})
+
+    def test_default_cli_uses_same_recipe_as_publisher(self):
+        from contextlib import nullcontext
+        from build_site import main
+        with patch('sys.argv', ['build_site.py', '--stock-analysis-root', '/source']), patch('build_site.prepared_industry_snapshot', return_value=nullcontext(Path('/prepared'))) as prepare, patch('build_site.build_site') as build:
+            main()
+        prepare.assert_called_once_with(Path('/source'), Path('/source/data/normalized/industry_classification/ahu_site_recipe_v1.json'), None)
+        self.assertEqual(build.call_args.kwargs['industry_snapshot'], Path('/prepared'))
+
     def test_recipe_failure_never_yields_or_falls_back(self):
         import subprocess
         result = subprocess.CompletedProcess([], 1, '', 'bad recipe')

@@ -267,8 +267,13 @@ def build_industry_catalog(
             }
         )
 
+    manifest_path = classification_dir / 'build-manifest.json'
+    manifest = json.loads(manifest_path.read_text(encoding='utf-8')) if manifest_path.exists() else {}
+    provenance = {key: manifest[key] for key in ('schema_version', 'generator', 'taxonomy_version',
+                  'recipe_sha256', 'decisions_sha256', 'source_files_sha256', 'output_files_sha256') if key in manifest}
     return {
         "schema_version": CATALOG_SCHEMA,
+        "classification_provenance": provenance,
         "classification_generated_at": audit["generated_at"],
         "taxonomy_effective_date": taxonomy["effective_date"],
         "classification_status": audit.get("status", "existing"),
