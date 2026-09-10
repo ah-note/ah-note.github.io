@@ -1107,6 +1107,8 @@ def main() -> None:
         action="store_true",
         help="only rebuild the industry catalog and browser",
     )
+    parser.add_argument("--industry-snapshot", type=Path,
+                        help="explicit classification snapshot for an industry-only preview")
     parser.add_argument(
         "--detail-code",
         action="append",
@@ -1114,11 +1116,14 @@ def main() -> None:
         help="only rebuild the current report detail page for this code; repeatable",
     )
     args = parser.parse_args()
+    if args.industry_snapshot and not args.industry_only:
+        parser.error("--industry-snapshot requires --industry-only")
     if args.industry_only:
         result = write_industry_site(
             root=ROOT,
             stock_analysis_root=args.stock_analysis_root.resolve(),
             asset_version=ASSET_VERSION,
+            snapshot=args.industry_snapshot,
         )
         print(
             f"generated {result['issuer_count']} industry issuers "

@@ -6,7 +6,7 @@ from pathlib import Path
 from typing import Any
 
 
-CATALOG_SCHEMA = "ah-note-industry-catalog-v4"
+CATALOG_SCHEMA = "ah-note-industry-catalog-v5"
 SNAPSHOT_RELATIVE_DIR = Path("data/snapshots/industry_classification/ah_v4")
 REQUIRED_SNAPSHOT_FILES = (
     "taxonomy.json",
@@ -25,11 +25,11 @@ def read_jsonl(path: Path) -> list[dict[str, Any]]:
     ]
 
 
-def validate_industry_snapshot(stock_analysis_root: Path) -> Path:
+def validate_industry_snapshot(stock_analysis_root: Path, snapshot: Path | None = None) -> Path:
     """Validate the external snapshot before a site build mutates generated files."""
-    classification_dir = Path(stock_analysis_root).resolve() / SNAPSHOT_RELATIVE_DIR
+    classification_dir = Path(snapshot).resolve() if snapshot else Path(stock_analysis_root).resolve() / SNAPSHOT_RELATIVE_DIR
     missing = [
-        name for name in REQUIRED_SNAPSHOT_FILES
+        name for name in REQUIRED_SNAPSHOT_FILES if not snapshot or name not in {"representatives.jsonl", "security-seeds.jsonl"}
         if not (classification_dir / name).is_file()
     ]
     if missing:
@@ -41,7 +41,8 @@ def validate_industry_snapshot(stock_analysis_root: Path) -> Path:
         taxonomy = json.loads((classification_dir / "taxonomy.json").read_text(encoding="utf-8"))
         audit = json.loads((classification_dir / "coverage-audit.json").read_text(encoding="utf-8"))
         for name in ("issuer-map.jsonl", "representatives.jsonl", "security-seeds.jsonl"):
-            read_jsonl(classification_dir / name)
+            if (classification_dir / name).exists():
+                read_jsonl(classification_dir / name)
     except (OSError, UnicodeError, json.JSONDecodeError) as error:
         raise RuntimeError(f"invalid industry classification snapshot under {classification_dir}: {error}") from error
     required_taxonomy_keys = {"industries", "sectors", "subsectors", "analysis_leaves"}
@@ -50,9 +51,34 @@ def validate_industry_snapshot(stock_analysis_root: Path) -> Path:
         raise RuntimeError(
             "industry taxonomy is missing required keys: " + ", ".join(missing_keys)
         )
-    if audit.get("final_validation_errors"):
+    if audit.get("final_validation_errors") or audit.get("validation_errors"):
         raise RuntimeError("industry classification snapshot did not pass final validation")
     return classification_dir
+
+
+def review_projection(issuer: dict[str, Any], *, pending_review: bool = False) -> dict[str, Any]:
+    """Keep unverified US and changed-boundary candidates out of industry memberships."""
+    review = issuer.get("business_review") or {}
+    excluded = str(issuer.get("eligibility_status", "")).startswith("no_analysis_value.")
+    primary_verified = review.get("primary_review_status") == "verified" and str(review.get("source", "")).startswith("https://")
+    complete = primary_verified and all(review.get(k) == "verified" for k in
+                                        ("exposure_review_status", "eligibility_review_status"))
+    pending = (pending_review or "US" in issuer.get("markets", []) or
+               issuer.get("classification_review_status") == "shared_leaf_review_required") and not primary_verified
+    state = "excluded" if excluded else "complete" if complete else "primary_verified" if primary_verified else "pending" if pending else "existing"
+    primary = issuer.get("primary_leaf_id") if not pending and not excluded else None
+    candidates = list(dict.fromkeys(x for x in [issuer.get("primary_leaf_id"),
+                                  *(issuer.get("secondary_leaf_ids") or [])] if x)) if pending else []
+    exposures = issuer.get("material_exposure_leaf_ids") or []
+    evidence = issuer.get("material_exposure_evidence") or []
+    if pending or excluded or (review and review.get("exposure_review_status") != "verified"):
+        exposures, evidence = [], []
+    return {"review_status": state, "primary_leaf_id": primary, "candidate_leaf_ids": candidates,
+            "material_exposure_leaf_ids": exposures, "material_exposure_evidence": evidence,
+            "browse_eligible": bool(primary) and issuer.get("eligibility_status") == "eligible",
+            "classification_evidence": issuer.get("classification_evidence") or {},
+            "reviewed_at": review.get("reviewed_at"),
+            "exposure_review_status": review.get("exposure_review_status", "not_recorded")}
 
 
 def _published_report_codes(path: Path) -> set[str]:
@@ -124,13 +150,20 @@ def build_display_taxonomy(taxonomy: dict[str, Any]) -> tuple[list[dict[str, str
 def build_industry_catalog(
     classification_dir: Path,
     published_stocks_path: Path,
+    supplemental_snapshot: Path | None = None,
 ) -> dict[str, Any]:
     classification_dir = Path(classification_dir)
     taxonomy = json.loads((classification_dir / "taxonomy.json").read_text(encoding="utf-8"))
     issuers = read_jsonl(classification_dir / "issuer-map.jsonl")
-    representatives = read_jsonl(classification_dir / "representatives.jsonl")
-    security_seeds = read_jsonl(classification_dir / "security-seeds.jsonl")
+    def optional_rows(name: str) -> list[dict[str, Any]]:
+        for folder in (classification_dir, supplemental_snapshot):
+            if folder is not None and (folder / name).is_file():
+                return read_jsonl(folder / name)
+        return []
+    representatives = optional_rows("representatives.jsonl")
+    security_seeds = optional_rows("security-seeds.jsonl")
     audit = json.loads((classification_dir / "coverage-audit.json").read_text(encoding="utf-8"))
+    pending_ids = {r["issuer_id"] for r in read_jsonl(classification_dir / "review-queue.jsonl")} if (classification_dir / "review-queue.jsonl").exists() else set()
 
     leaf_ids = {row["leaf_id"] for row in taxonomy["analysis_leaves"]}
     invalid = [
@@ -138,6 +171,7 @@ def build_industry_catalog(
         for row in issuers
         if row.get("eligibility_status") == "eligible"
         and row.get("primary_leaf_id") not in leaf_ids
+        and not (row.get("primary_leaf_id") is None and review_projection(row)["review_status"] == "pending")
     ]
     if invalid:
         raise ValueError(f"industry catalog contains invalid primary leaves: {invalid[:10]}")
@@ -153,7 +187,7 @@ def build_industry_catalog(
         raise ValueError(
             f"industry catalog contains invalid material exposures: {invalid_exposures[:10]}"
         )
-    if audit.get("final_validation_errors"):
+    if audit.get("final_validation_errors") or audit.get("validation_errors"):
         raise ValueError("industry classification snapshot did not pass final validation")
 
     aliases_by_security = {
@@ -170,6 +204,7 @@ def build_industry_catalog(
     display_nodes, leaf_display_keys = build_display_taxonomy(taxonomy)
 
     for issuer in issuers:
+        projection = review_projection(issuer, pending_review=issuer["issuer_id"] in pending_ids)
         status = str(issuer["eligibility_status"])
         status_counts[status] += 1
         securities = []
@@ -194,15 +229,13 @@ def build_industry_catalog(
                 "markets": issuer["markets"],
                 "securities": securities,
                 "search_terms": search_terms,
-                "primary_leaf_id": issuer["primary_leaf_id"],
-                "secondary_leaf_ids": issuer.get("secondary_leaf_ids") or [],
-                "material_exposure_leaf_ids": issuer.get("material_exposure_leaf_ids") or [],
-                "material_exposure_evidence": issuer.get("material_exposure_evidence") or [],
+                **projection,
+                "secondary_leaf_ids": [],
                 "analysis_model": issuer["analysis_model"],
                 "confidence": issuer["classification_confidence"],
                 "status": status,
                 "status_reason": issuer["eligibility_reason"],
-                "representative_rank": representative_rank.get(issuer["issuer_id"]),
+                "representative_rank": representative_rank.get(issuer["issuer_id"]) if projection["browse_eligible"] else None,
                 "report_url": f"../reports/{report_code}/" if report_code else "",
             }
         )
@@ -211,13 +244,15 @@ def build_industry_catalog(
         "schema_version": CATALOG_SCHEMA,
         "classification_generated_at": audit["generated_at"],
         "taxonomy_effective_date": taxonomy["effective_date"],
+        "classification_status": audit.get("status", "existing"),
         "summary": {
-            "security_count": audit["security_count"],
-            "issuer_count": audit["issuer_count"],
-            "eligible_issuer_count": audit["eligible_issuer_count"],
-            "excluded_issuer_count": audit["excluded_issuer_count"],
-            "representative_count": audit["representative_count"],
-            "review_queue_count": audit["review_queue_count"],
+            "security_count": sum(len(r["securities"]) for r in public_issuers),
+            "issuer_count": len(public_issuers),
+            "eligible_issuer_count": sum(r["browse_eligible"] for r in public_issuers),
+            "excluded_issuer_count": sum(r["status"].startswith("no_analysis_value.") for r in public_issuers),
+            "representative_count": sum(bool(r["representative_rank"]) for r in public_issuers),
+            "review_queue_count": audit.get("review_issuer_count", audit.get("review_queue_count", 0)),
+            "review_status_counts": dict(Counter(r["review_status"] for r in public_issuers)),
             "status_counts": dict(status_counts),
         },
         "industries": taxonomy["industries"],
@@ -230,14 +265,15 @@ def build_industry_catalog(
     }
 
 
-def render_industry_index(asset_version: str) -> str:
+def render_industry_index(asset_version: str, *, include_us: bool = False) -> str:
+    markets = "A股 · 港股 · 美股" if include_us else "A股 · 港股"
     return f"""<!doctype html>
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>公司行业导航 - AH Note</title>
-  <meta name="description" content="搜索 A 股和港股公司，查看所属行业、同类公司和完整行业层级。">
+  <meta name="description" content="搜索公司名称或证券代码，查看行业归属、核准状态和同类公司。">
   <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="../assets/styles.css?v={asset_version}">
 </head>
@@ -246,7 +282,7 @@ def render_industry_index(asset_version: str) -> str:
   <main class="industry-page">
     <header class="industry-heading">
       <div>
-        <p class="eyebrow">A股 · 港股</p>
+        <p class="eyebrow">{markets}</p>
         <h1>公司行业导航</h1>
       </div>
       <p id="catalogMeta" class="industry-meta">正在读取行业分类…</p>
@@ -276,9 +312,11 @@ def write_industry_site(
     root: Path,
     stock_analysis_root: Path,
     asset_version: str,
+    snapshot: Path | None = None,
 ) -> dict[str, int]:
-    classification_dir = validate_industry_snapshot(stock_analysis_root)
-    catalog = build_industry_catalog(classification_dir, Path(root) / "data/stocks.json")
+    classification_dir = validate_industry_snapshot(stock_analysis_root, snapshot)
+    catalog = build_industry_catalog(classification_dir, Path(root) / "data/stocks.json",
+                                     Path(stock_analysis_root) / SNAPSHOT_RELATIVE_DIR if snapshot else None)
     data_path = Path(root) / "data/industry-classification.json"
     page_dir = Path(root) / "industries"
     data_path.parent.mkdir(parents=True, exist_ok=True)
@@ -288,7 +326,7 @@ def write_industry_site(
         encoding="utf-8",
     )
     (page_dir / "index.html").write_text(
-        render_industry_index(asset_version), encoding="utf-8"
+        render_industry_index(asset_version, include_us=any("US" in r["markets"] for r in catalog["issuers"])), encoding="utf-8"
     )
     return {
         "issuer_count": len(catalog["issuers"]),

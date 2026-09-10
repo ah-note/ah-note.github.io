@@ -64,7 +64,7 @@
     });
 
     data.issuers.forEach((issuer) => {
-      if (issuer.status !== "eligible") return;
+      if (!(issuer.browse_eligible ?? (issuer.status === "eligible"))) return;
       const memberships = [...new Set([
         issuer.primary_leaf_id,
         ...(issuer.material_exposure_leaf_ids || []),
@@ -97,9 +97,14 @@
     const markers = [
       issuer.representative_rank ? '<span class="company-marker">代表</span>' : "",
       issuer.report_url ? '<span class="company-marker report">有报告</span>' : "",
+      issuer.review_status && issuer.review_status !== "existing" ? `<span class="company-marker">${reviewLabel(issuer)}</span>` : "",
     ].join("");
     return `${linkTo("company", issuer.id, issuer.name, "industry-company-link")} ${markers}`
       + `<small>${escapeHtml(companyCode(issuer))}${compact ? "" : ` · ${escapeHtml(issuer.markets.join("/"))}`}</small>`;
+  }
+
+  function reviewLabel(issuer) {
+    return ({ complete: "完整核准", primary_verified: "主业已核", pending: "待核准", excluded: "已排除", existing: "既有分类" })[issuer.review_status] || "既有分类";
   }
 
   function childCards(parentKey) {
@@ -135,6 +140,7 @@
 
   function renderCategory(nodeKey) {
     if (nodeKey === "excluded") return renderExcluded();
+    if (nodeKey === "pending") return renderPending();
     const node = nodeKey === "root" ? null : nodeByKey.get(nodeKey);
     if (nodeKey !== "root" && !node) return renderNotFound("没有找到这个行业分类。");
     const path = node ? (() => {
@@ -152,19 +158,26 @@
       <a class="industry-node-card excluded" href="#category=excluded">
         <span>无分析价值类</span><strong>${catalog.summary.excluded_issuer_count}</strong><small>家公司</small>
       </a>` : "";
+    const pendingCount = catalog.issuers.filter((r) => ["pending", "primary_verified"].includes(r.review_status)).length;
+    const pendingCard = nodeKey === "root" && pendingCount ? `<a class="industry-node-card" href="#category=pending"><span>待完成核准</span><strong>${pendingCount}</strong><small>家公司</small></a>` : "";
     app.innerHTML = `${breadcrumb(path.slice(0, -1))}
       <header class="industry-view-head"><div><p>${node ? "当前分类" : "分类总览"}</p><h2>${escapeHtml(title)}</h2></div><strong>${count.toLocaleString("zh-CN")}<small> 家公司</small></strong></header>
       ${childCards(nodeKey)}
-      ${excludedCard ? `<section class="industry-section"><div class="industry-node-grid">${excludedCard}</div></section>` : ""}
+      ${excludedCard || pendingCard ? `<section class="industry-section"><div class="industry-node-grid">${excludedCard}${pendingCard}</div></section>` : ""}
       ${nodeKey === "root" ? "" : groupedCompanies(nodeKey)}`;
   }
 
   function renderExcluded() {
-    const excluded = catalog.issuers.filter((issuer) => issuer.status !== "eligible");
+    const excluded = catalog.issuers.filter((issuer) => issuer.status.startsWith("no_analysis_value."));
     app.innerHTML = `${breadcrumb([])}
       <header class="industry-view-head excluded"><div><p>单独归档</p><h2>无分析价值类</h2></div><strong>${excluded.length}<small> 家公司</small></strong></header>
       <p class="industry-view-note">当前快照中包括 ST、退市整理等有明确排除证据的公司；仍可搜索并查看其行业归属，但不进入代表公司和经营分析队列。</p>
       <section class="industry-section"><div class="industry-company-grid">${excluded.map((issuer) => `<div class="industry-company">${companyLink(issuer)}<em>${escapeHtml(issuer.status_reason)}</em></div>`).join("")}</div></section>`;
+  }
+
+  function renderPending() {
+    const pending = catalog.issuers.filter((r) => ["pending", "primary_verified"].includes(r.review_status));
+    app.innerHTML = `${breadcrumb([])}<h2>待完成核准 · ${pending.length} 家</h2><p>候选归属不计入正式行业成员；主业已核的公司仍可能有其他重大业务待核。</p><div class="industry-company-grid">${pending.map((r) => `<div class="industry-company">${companyLink(r)}</div>`).join("")}</div>`;
   }
 
   function classificationPath(leafId) {
@@ -185,7 +198,7 @@
       pre_revenue_rd: "研发前商业化企业",
     };
     const confidenceNames = { high: "高", medium: "中", low: "低", insufficient: "不足" };
-    const status = issuer.status === "eligible" ? "可进入分析池" : "无分析价值类";
+    const status = issuer.status.startsWith("no_analysis_value.") ? "无分析价值类" : issuer.status === "eligible" ? reviewLabel(issuer) : "分析资格待核";
     const materialExposures = (issuer.material_exposure_leaf_ids || []).length
       ? `<div class="company-secondary"><span>重大业务暴露</span>${issuer.material_exposure_leaf_ids.map((leafId) => {
           const node = nodeByKey.get(catalog.leaf_display_keys[leafId]);
@@ -196,7 +209,12 @@
       : '<span class="industry-no-report">暂无公开经营分析报告</span>';
     const primaryClassification = path.length
       ? path.map((node) => linkTo("category", node.key, node.name)).join(" <i>›</i> ")
-      : "未纳入行业浏览";
+      : issuer.review_status === "pending" ? "尚未核准" : "未纳入行业浏览";
+    const candidates = (issuer.candidate_leaf_ids || []).map((id) => catalog.leaves.find((r) => r.leaf_id === id)?.name_zh).filter(Boolean);
+    const candidateNote = candidates.length ? `<p class="industry-view-note">候选类别（待核）：${escapeHtml(candidates.join("、"))}</p>` : "";
+    const evidence = issuer.classification_evidence || {};
+    const evidenceNote = /^https:\/\//.test(evidence.source || "") ? `<p class="industry-view-note"><a href="${escapeHtml(evidence.source)}" target="_blank" rel="noopener noreferrer">${escapeHtml(evidence.source_document || "分类来源")}</a>${evidence.period_end ? ` · ${escapeHtml(evidence.period_end)}` : ""}</p>` : "";
+    const exposurePending = issuer.exposure_review_status === "pending" ? '<p class="industry-view-note">重大跨行业业务尚待核准。</p>' : "";
     const peersSection = leaf ? `
       <section class="industry-section"><div class="industry-section-head"><h2>${escapeHtml(leaf.name)}的其他公司</h2><span>${peers.length} 家</span></div>
         ${peers.length ? `<div class="industry-company-grid">${peers.map((peer) => `<div class="industry-company">${companyLink(peer)}</div>`).join("")}</div>` : '<p class="industry-empty">当前没有其他合资格公司。</p>'}
@@ -205,6 +223,7 @@
       <article class="company-profile">
         <div class="company-title-row"><div><p>${escapeHtml(companyCode(issuer))}</p><h2>${escapeHtml(issuer.name)}</h2></div><span class="status-pill ${issuer.status === "eligible" ? "eligible" : "excluded"}">${status}</span></div>
         <div class="company-classification"><span>主分类</span><strong>${primaryClassification}</strong></div>
+        ${candidateNote}${evidenceNote}${exposurePending}
         <dl class="company-meta"><div><dt>市场</dt><dd>${escapeHtml(issuer.markets.join(" / "))}</dd></div><div><dt>分析模型</dt><dd>${escapeHtml(modelNames[issuer.analysis_model] || issuer.analysis_model)}</dd></div><div><dt>分类置信度</dt><dd>${escapeHtml(confidenceNames[issuer.confidence] || issuer.confidence)}</dd></div><div><dt>行业代表</dt><dd>${issuer.representative_rank ? `第 ${issuer.representative_rank} 顺位` : "否"}</dd></div></dl>
         ${materialExposures}
         <div class="company-report-action">${report}</div>
@@ -240,7 +259,7 @@
     results.hidden = false;
     results.innerHTML = shown.length ? shown.map(({ issuer }) => {
       const path = classificationPath(issuer.primary_leaf_id);
-      const category = path.length ? path.map((node) => node.name).join(" › ") : "无分析价值类";
+      const category = path.length ? path.map((node) => node.name).join(" › ") : issuer.status.startsWith("no_analysis_value.") ? "无分析价值类" : "分类待核准";
       return `<a class="industry-search-result" href="#company=${encodeURIComponent(issuer.id)}"><span><strong>${escapeHtml(issuer.name)}</strong><small>${escapeHtml(companyCode(issuer))}</small></span><em>${escapeHtml(category)}</em></a>`;
     }).join("") : '<p class="industry-empty">没有匹配公司，请检查名称或代码。</p>';
   }
@@ -272,7 +291,7 @@
     })
     .then((data) => {
       prepare(data);
-      meta.textContent = `${data.summary.eligible_issuer_count.toLocaleString("zh-CN")} 家可分析公司 · 分类基准 ${data.taxonomy_effective_date}`;
+      meta.textContent = `${data.summary.issuer_count.toLocaleString("zh-CN")} 家公司 · ${data.summary.eligible_issuer_count.toLocaleString("zh-CN")} 家已归类${data.classification_status === "draft" ? " · 校准中" : ""} · 分类基准 ${data.taxonomy_effective_date}`;
       route();
     })
     .catch(() => {

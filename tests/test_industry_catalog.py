@@ -15,11 +15,60 @@ from industry_catalog import (  # noqa: E402
     build_display_taxonomy,
     build_industry_catalog,
     render_industry_index,
+    review_projection,
+    validate_industry_snapshot,
 )
 from publish_site import PUBLISH_PATHS  # noqa: E402
 
 
 class IndustryCatalogTest(unittest.TestCase):
+    def test_review_projection_never_promotes_us_candidates_or_stale_exposures(self):
+        issuer = {"markets": ["US"], "primary_leaf_id": "a", "secondary_leaf_ids": ["b"],
+                  "eligibility_status": "eligible", "material_exposure_leaf_ids": ["c"]}
+        candidate = review_projection(issuer)
+        self.assertIsNone(candidate["primary_leaf_id"])
+        self.assertEqual(candidate["candidate_leaf_ids"], ["a", "b"])
+        self.assertFalse(candidate["browse_eligible"])
+        issuer["business_review"] = {"primary_review_status": "verified", "source": "https://example.com/report",
+                                    "exposure_review_status": "pending", "eligibility_review_status": "verified"}
+        partial = review_projection(issuer)
+        self.assertEqual(partial["review_status"], "primary_verified")
+        self.assertEqual(partial["material_exposure_leaf_ids"], [])
+        issuer["business_review"]["exposure_review_status"] = "verified"
+        self.assertEqual(review_projection(issuer)["review_status"], "complete")
+
+    def test_changed_ah_boundary_is_pending_not_silently_certified(self):
+        issuer = {"markets": ["HK"], "primary_leaf_id": "a", "eligibility_status": "eligible",
+                  "classification_review_status": "shared_leaf_review_required"}
+        self.assertEqual(review_projection(issuer)["review_status"], "pending")
+        issuer.pop("classification_review_status")
+        self.assertEqual(review_projection(issuer, pending_review=True)["review_status"], "pending")
+        issuer["eligibility_status"] = "no_analysis_value.shell"
+        self.assertEqual(review_projection(issuer)["review_status"], "excluded")
+
+    def test_explicit_draft_snapshot_uses_real_counts_without_optional_representatives(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            snapshot = self.write_snapshot(root)
+            supplemental = root / "supplemental"
+            supplemental.mkdir()
+            for name in ("representatives.jsonl", "security-seeds.jsonl"):
+                (supplemental / name).write_text((snapshot / name).read_text())
+            (snapshot / "representatives.jsonl").unlink()
+            (snapshot / "security-seeds.jsonl").unlink()
+            issuer = json.loads((snapshot / "issuer-map.jsonl").read_text())
+            issuer.update(markets=["A", "US"], eligibility_status="review_required")
+            (snapshot / "issuer-map.jsonl").write_text(json.dumps(issuer)+'\n')
+            (snapshot / "coverage-audit.json").write_text(json.dumps({"status":"draft", "generated_at":"2026-09-10T13:00:00+08:00"}))
+            self.assertEqual(validate_industry_snapshot(root, snapshot), snapshot.resolve())
+            result = build_industry_catalog(snapshot, root / "stocks.json", supplemental)
+            self.assertEqual(result["summary"]["excluded_issuer_count"], 0)
+            self.assertEqual(result["summary"]["eligible_issuer_count"], 0)
+            self.assertEqual(result["summary"]["issuer_count"], 1)
+            self.assertEqual(result["issuers"][0]["review_status"], "pending")
+            self.assertIn("测试机械", result["issuers"][0]["search_terms"])
+            self.assertIsNone(result["issuers"][0]["representative_rank"])
+
     def write_snapshot(self, root: Path, *, valid_leaf: bool = True) -> Path:
         snapshot = root / "snapshot"
         snapshot.mkdir()

@@ -19,6 +19,15 @@ python3 -m http.server 8765
 python3 scripts/build_site.py --industry-only --stock-analysis-root ../stock_analysis
 ```
 
+新版多市场分类预览可显式指定已应用经营决议的快照：
+
+```bash
+python3 scripts/build_site.py --industry-only --stock-analysis-root ../stock_analysis \
+  --industry-snapshot ../stock_analysis/data/outputs/industry_evidence/business_review_current
+```
+
+预览将候选、主业已核、完整核准及排除状态分别展示；未知分类不是无分析价值。候选不进入行业成员计数，已有A/H别名和代表标记从原快照补充，但待核公司不保留代表标记。原发布器默认仍读取`ah_v4`；预览入口不改变线上分类源，正式切换须部署可重复取得的版本化输入，不能引用本机临时输出。
+
 AH Note 是公司研究报告唯一的公开发布渠道。`build_site.py` 会把
 `_source/stock_research/` 作为旧报告兜底，并优先读取相邻
 `stock_report/data/analysis/stock_research/` 中统一 Agent 的已校验结果；`stock_report`
@@ -63,4 +72,5 @@ Published pages:
 
 ```bash
 python3 -m unittest discover -s tests -v
+node tests/test_industry_browser.js
 ```
