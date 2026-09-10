@@ -12,6 +12,10 @@ from typing import Any
 
 
 CATALOG_SCHEMA = "ah-note-industry-catalog-v6"
+INDUSTRY_REVIEWED_METHODS = {
+    "reviewed_leaf_calibration_override",
+    "reviewed_sic_industry_group_v1",
+}
 SNAPSHOT_RELATIVE_DIR = Path("data/snapshots/industry_classification/ah_v4")
 REQUIRED_SNAPSHOT_FILES = (
     "taxonomy.json",
@@ -93,7 +97,7 @@ def review_projection(issuer: dict[str, Any], *, pending_review: bool = False) -
     primary = issuer.get("primary_leaf_id") if not excluded else None
     method = issuer.get("classification_method")
     level = ("company_reviewed" if primary_verified else "industry_reviewed"
-             if method == "reviewed_leaf_calibration_override" else "mapped")
+             if method in INDUSTRY_REVIEWED_METHODS else "mapped")
     unresolved = not excluded and not primary
     state = ("excluded" if excluded else "company_complete" if complete else
              "company_primary" if primary_verified else "unresolved" if unresolved else level)

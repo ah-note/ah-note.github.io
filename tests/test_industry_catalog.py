@@ -82,6 +82,10 @@ class IndustryCatalogTest(unittest.TestCase):
         self.assertTrue(candidate["browse_eligible"])
         self.assertEqual(candidate["review_status"], "mapped")
         self.assertEqual(candidate["evidence_level"], "mapped")
+        issuer["classification_method"] = "reviewed_sic_industry_group_v1"
+        calibrated = review_projection(issuer)
+        self.assertEqual(calibrated["review_status"], "industry_reviewed")
+        self.assertEqual(calibrated["evidence_level"], "industry_reviewed")
         issuer["business_review"] = {"primary_review_status": "verified", "source": "https://example.com/report",
                                     "exposure_review_status": "pending", "eligibility_review_status": "verified"}
         partial = review_projection(issuer)
