@@ -4,6 +4,16 @@ const a=require(path.join(root,'data.json')),s24=require(path.join(root,'activit
 const {buildActivities}=require(path.join(root,'activities')),{standardize}=require(path.join(root,'mapping')),{model,render,transition}=require(path.join(root,'compare'));
 const annual={2024:buildActivities(s24,s24.reconciliation),2025:buildActivities(s25,a)};
 const m=model(a,annual,standardize);
+test('capital preserves the frozen major/summary/child layout with merged group cells',()=>{
+ const h=render(m,null).split('class="matrix capital-matrix"')[1];
+ assert.ok(h);assert.equal((h.match(/class="major-cell"/g)||[]).length,11);
+ assert.equal((h.match(/class="major-amount"/g)||[]).length,22);
+ assert.match(h,/rowspan="7"/);assert.match(h,/净贡献／净收付/);assert.match(h,/>子项目</);
+ for(const block of ['wealth','liquidity'])for(const group of annual[2025][block])assert.ok(h.includes(group.label));
+ assert.doesNotMatch(h,/class="sum-row/);
+ const expanded=render(m,{id:'wealth-0-0',year:2025});assert.match(expanded,/id="inline-detail" class="inline-detail"><td colspan="6"/);
+ assert.equal((expanded.match(/id="inline-detail"/g)||[]).length,1);
+});
 test('2024 comparative activities reconcile with disclosed consolidated equity and cash changes',()=>{
  assert.equal(annual[2024].profit,171479000);assert.equal(annual[2024].equityChange,75475000);assert.equal(annual[2024].cashChange,-55667000);
  assert.equal(annual[2024].wealth[3].rows.find(r=>r.label==='少数股权交易').amount,-4445000);
