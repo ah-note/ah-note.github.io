@@ -3,7 +3,7 @@
  function model(assets,annual,mapper){
   const years=Object.keys(annual).map(Number).sort();
   if(years.join()!=='2024,2025')throw Error('新增年份须提供同口径余额和年度活动');
-  return {years,annual,assets,groups:mapper(assets)};
+  return {years,annual,assets,groups:mapper(assets),currency:'CNY'};
  }
  function render(m,state){return (typeof module!=='undefined'?require('./multi.js'):TanMultiView).render(m,state||{});}
  if(typeof module!=='undefined')module.exports={model,render};
@@ -20,6 +20,7 @@
   }else throw Error('年度清单读取失败');
   const root=document.getElementById('comparison');let state={};
   const draw=()=>{
+   document.getElementById('filing-currency').textContent='合并口径 · '+m.currency+' 亿元';
    root.innerHTML=render(m,state);
    document.getElementById('view-help').textContent='点击年份展开或收起当年明细，两表联动；可同时展开多年。净资产形成与资金收付是不同视角，不能相加。';
   };

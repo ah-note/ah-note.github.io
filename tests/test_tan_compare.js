@@ -101,6 +101,7 @@ test('same-page controls toggle linked years without a simple-view switch',async
  const context=vm.createContext({TAN_COMPARE:true,fetch:async url=>url==='annual-manifest.json'?{ok:false,status:404}:({ok:true,json:async()=>structuredClone(url==='data.json'?assets:url==='activities.json'?s25:s24)}),document:{getElementById:element}});
  for(const f of ['berun-assets/fields.js','tan-assets/mapping.js','tan-assets/activities.js','berun-assets/app.js','tan-assets/simple.js','tan-assets/multi.js','tan-assets/compare.js'])vm.runInContext(fs.readFileSync(path.join(base,f),'utf8'),context);
  await new Promise(r=>setImmediate(r));assert.ok(!nodes['compare-status']);assert.doesNotMatch(nodes.comparison.innerHTML,/产品与服务收入/);
+ assert.equal(nodes['filing-currency'].textContent,'合并口径 · CNY 亿元');
  const click=dataset=>handlers['comparison:click']({target:{closest:()=>({dataset})}});
  click({table:'capital',year:'2025'});assert.match(nodes.comparison.innerHTML,/产品与服务收入/);
  click({table:'assets',year:'2024'});assert.match(nodes.comparison.innerHTML,/<th colspan="2">2025 年变动/);assert.match(nodes.comparison.innerHTML,/<th colspan="2">2024 年变动/);

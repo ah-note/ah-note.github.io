@@ -2,6 +2,7 @@ const test=require('node:test'),assert=require('node:assert/strict');
 const {model,groups}=require('../value-line/tan-assets/annual');
 const view=require('../value-line/tan-assets/multi');
 const {assetSets}=require('../value-line/berun-assets/fields');
+const fs=require('node:fs'),path=require('node:path');
 function fixture(year){
  const records={},put=(key,amount=0)=>records[key]={amount,status:'disclosed',basis:'TEST ONLY',details:[]};
  for(const [,,fields] of assetSets)for(const [key] of fields)for(const side of ['opening','closing'])put(`assets.${key}.${side}`);
@@ -93,4 +94,16 @@ test('asset components expand as aligned rows in the parent table',()=>{
  const row=html.match(/<tr class="asset-component">([\s\S]*?)<\/tr>/)[1];
  assert.equal((row.match(/<(?:th|td)\b/g)||[]).length,6);
  assert.doesNotMatch(view.render(m,view.toggleComponent(state,id)),/class="asset-component"/);
+});
+test('actual v3 years render only registered Chinese table fields in filing currency',()=>{
+ const root=path.join(__dirname,'../value-line/tan-assets'),manifest=JSON.parse(fs.readFileSync(path.join(root,'annual-manifest.json')));
+ const docs=manifest.files.map(file=>JSON.parse(fs.readFileSync(path.join(root,file))));
+ assert.ok(docs.every(d=>d.schema==='capital-statement-v3'&&d.currency==='CNY'&&d.custom_fields.length===0));
+ const m=model(docs),components=Object.fromEntries(assetSets.flatMap(([, ,fields])=>fields.map(([key])=>[view.fieldId('components',key),true])));
+ const html=view.render(m,{assets:m.years,capital:m.years,components}),table=html.split('<details class="page-notes">')[0];
+ assert.match(table,/资本表 <small>年末余额 · CNY 亿元/);
+ assert.match(table,/资本活动表 <small>全年发生额 · CNY 亿元/);
+ assert.doesNotMatch(table,/Inventories|Trade receivables|Trade payables|Property, plant and equipment|Net PPE cash flow/);
+ const allowed=new Set(Object.values(docs[0].display_registry.components).flat().map(([,label])=>label));
+ for(const row of table.matchAll(/class="(?:asset-component|aligned-subfield)"[\s\S]*?class="subfield">([^<]+)/g))assert.ok(allowed.has(row[1])||row[1]==='无变动',row[1]);
 });

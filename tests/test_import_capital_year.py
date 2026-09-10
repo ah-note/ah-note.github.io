@@ -43,6 +43,21 @@ class ImportTest(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, "FACT_LEDGER"):
                 module.install(source, root / "other", "TEST", "run", "digest")
 
+    def test_v3_requires_display_registry_and_caps_custom_fields(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            source = root / "input.json"
+            d = {"schema": "capital-statement-v3", "company": "TEST", "currency": "HKD", "year": 2025,
+                 "facts": {"revenue": {"source_amount": 1}}, "mappings": [], "custom_fields": [],
+                 "display_registry": {"version": "capital-display-v1"},
+                 "validation": {"status": "warning", "errors": []}}
+            source.write_text(json.dumps(d))
+            module.install(source, root / "site", "TEST", "run", "digest")
+            d["custom_fields"] = [{} for _ in range(6)]
+            source.write_text(json.dumps(d))
+            with self.assertRaisesRegex(ValueError, "CUSTOM_FIELD_LIMIT"):
+                module.install(source, root / "other", "TEST", "run", "digest")
+
 
 if __name__ == "__main__":
     unittest.main()

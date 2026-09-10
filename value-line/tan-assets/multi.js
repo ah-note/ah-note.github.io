@@ -40,10 +40,10 @@
   const label=row.children.length?'<button type="button" class="detail-toggle" data-field="'+row.id+'" data-year="'+year+'" aria-expanded="'+row.open+'">'+(row.open?'▾ ':'▸ ')+esc(entry.label)+'</button>':esc(entry.label);
   return '<td class="detail" title="'+esc(entry.basis||'')+'">'+label+(entry.status==='estimated'?' · 估计':'')+'</td>'+amount(entry.amount);
  }
- function assetTable(assets,groups,years,open,detailState){
+ function assetTable(assets,groups,years,open,detailState,currency='CNY'){
   open=expanded(open);const missing=open.has(2024),columns=2+years.length+open.size*2;
   const width=330+years.length*100+open.size*420;
-  let h='<div class="table-wrap"><table class="year-assets" style="width:'+width+'px;min-width:'+width+'px"><caption>资本表 <small>年末余额 · 人民币亿元</small></caption><colgroup>'+col(230)+col(100)+years.map(y=>(open.has(y)?col(320)+col(100):'')+col(100)).join('')+'</colgroup><thead><tr><th rowspan="2">资产／负债项目</th>'+'<th rowspan="2"><span class="balance-label">2023 年末</span><small class="missing">未转录</small></th>'+years.map(y=>(open.has(y)?'<th colspan="2">'+y+' 年变动</th>':'')+'<th rowspan="2"><span class="balance-label">'+y+' 年末</span>'+yearButton('assets',y,open,y+' 年变动')+'</th>').join('')+'</tr><tr>'+years.filter(y=>open.has(y)).map(()=>'<th>项目</th><th>金额</th>').join('')+'</tr></thead><tbody>';
+  let h='<div class="table-wrap"><table class="year-assets" style="width:'+width+'px;min-width:'+width+'px"><caption>资本表 <small>年末余额 · '+esc(currency)+' 亿元</small></caption><colgroup>'+col(230)+col(100)+years.map(y=>(open.has(y)?col(320)+col(100):'')+col(100)).join('')+'</colgroup><thead><tr><th rowspan="2">资产／负债项目</th>'+'<th rowspan="2"><span class="balance-label">2023 年末</span><small class="missing">未转录</small></th>'+years.map(y=>(open.has(y)?'<th colspan="2">'+y+' 年变动</th>':'')+'<th rowspan="2"><span class="balance-label">'+y+' 年末</span>'+yearButton('assets',y,open,y+' 年变动')+'</th>').join('')+'</tr><tr>'+years.filter(y=>open.has(y)).map(()=>'<th>项目</th><th>金额</th>').join('')+'</tr></thead><tbody>';
   const total=(label,values,cls='total')=>'<tr class="'+cls+'"><th>'+label+'</th>'+'<td class="missing">未转录</td>'+years.map((y,i)=>(open.has(y)?'<td>净变动</td><td class="amount">'+(y===2024?'缺失':signed(values[1]-values[0]))+'</td>':'')+amount(values[i])).join('')+'</tr>';
   for(const g of groups){
    h+='<tr class="group"><th colspan="'+columns+'">'+esc(g.title)+'</th></tr>';
@@ -72,10 +72,11 @@
   h+=total('合并净资产',assets.totals.net,'final')+total('减：少数股东权益',assets.totals.minority)+total('归母净资产',assets.totals.parent,'final parent');
   return h+'</tbody></table></div>'+(missing?'<p class="muted">2023 年末余额和2024年逐项资产变动未转录，未填零。</p>':'');
  }
- function activityTable(annual,years,open,detailState){
+ function activityTable(m,open,detailState){
+  const annual=m.annual,years=m.years,registry=m.displayRegistry;
   open=expanded(open);const columns=1+years.length+open.size*2,width=200+years.length*110+open.size*540;
-  let h='<div class="table-wrap"><table class="year-activities" style="width:'+width+'px;min-width:'+width+'px"><caption>资本活动表 <small>全年发生额 · 人民币亿元</small></caption><colgroup>'+col(200)+years.map(y=>col(110)+(open.has(y)?col(440)+col(100):'')).join('')+'</colgroup><thead><tr><th rowspan="2">大项目</th>'+years.map(y=>'<th colspan="'+(open.has(y)?3:1)+'">'+yearButton('capital',y,open,y+' 全年')+'</th>').join('')+'</tr><tr>'+years.map(y=>'<th aria-label="年度合计金额"></th>'+(open.has(y)?'<th>子项目</th><th>金额</th>':'')).join('')+'</tr></thead><tbody>';
-  for(const [block,label,totalKey,totalLabel] of [['wealth','净资产形成','equityChange','净资产增加'],['liquidity','资金收付与配置','cashChange','现金与存款增加']]){
+  let h='<div class="table-wrap"><table class="year-activities" style="width:'+width+'px;min-width:'+width+'px"><caption>资本活动表 <small>全年发生额 · '+esc(m.currency)+' 亿元</small></caption><colgroup>'+col(200)+years.map(y=>col(110)+(open.has(y)?col(440)+col(100):'')).join('')+'</colgroup><thead><tr><th rowspan="2">大项目</th>'+years.map(y=>'<th colspan="'+(open.has(y)?3:1)+'">'+yearButton('capital',y,open,y+' 全年')+'</th>').join('')+'</tr><tr>'+years.map(y=>'<th aria-label="年度合计金额"></th>'+(open.has(y)?'<th>子项目</th><th>金额</th>':'')).join('')+'</tr></thead><tbody>';
+  for(const [block,label,totalKey,totalLabel] of [['wealth',registry?.table_sections?.wealth||'净资产形成','equityChange',registry?.derived?.['controls.equity.change']||'净资产增加'],['liquidity',registry?.table_sections?.liquidity||'资金收付与配置','cashChange',registry?.derived?.['controls.cash.change']||'现金与存款增加']]){
    h+='<tr class="group"><th colspan="'+columns+'">'+label+'</th></tr>';
    annual[years[years.length-1]][block].forEach((g,gi)=>{
     const canonical=union([...years].reverse().map(y=>annual[y][block][gi].rows.map(r=>r.label)));
@@ -95,13 +96,14 @@
    });
    h+='<tr class="final"><th>'+totalLabel+'</th>'+years.map(y=>amount(annual[y][totalKey])+(open.has(y)?'<td colspan="2">对应资本表的年度变化</td>':'')).join('')+'</tr>';
   }
-  h+='<tr><th>非现金资本配置</th>'+years.map(y=>amount(annual[y].noncash)+(open.has(y)?'<td colspan="2">新增租赁：经营设施与融资负债同时增加，不计入以上汇总。</td>':'')).join('')+'</tr>';
+  h+='<tr><th>'+(registry?.derived?.['noncash.leases']||'非现金资本配置')+'</th>'+years.map(y=>amount(annual[y].noncash)+(open.has(y)?'<td colspan="2">新增租赁：经营设施与融资负债同时增加，不计入以上汇总。</td>':'')).join('')+'</tr>';
   return h+'</tbody></table></div>';
  }
  function protocolAssets(m,selected,details,componentState){
   const years=m.years,open=expanded(selected),first=years[0],count=2+years.length+open.size*2,width=330+years.length*100+open.size*420;
   componentState=componentState||{};
-  const dictionary=typeof module!=='undefined'?require('../berun-assets/fields.js'):{assetSets,movementGroups};
+  const fallback=typeof module!=='undefined'?require('../berun-assets/fields.js'):{assetSets,movementGroups};
+  const dictionary=m.displayRegistry?{assetSets:Object.entries(m.displayRegistry.assets).map(([key,fields])=>[key,m.displayRegistry.asset_groups[key],fields]),movementGroups:m.displayRegistry.movements}:fallback;
   const sum=xs=>xs.some(x=>x===null||x===undefined)?null:xs.reduce((a,b)=>a+b,0);
   const record=(y,key,side)=>m.series[y].records[`assets.${key}.${side}`];
   const value=(y,key,side)=>record(y,key,side)?.amount??null;
@@ -114,17 +116,19 @@
      const entries=m.series[y].movements[key];if(!entries)return [y,null];
      if(entries.length&&entries.every(e=>e.amount===0))return [y,[{code:'none',label:'无变动',amount:0,details:[]}]];
      const cats=union([entries.map(e=>e.category)],Object.keys(dictionary.movementGroups));
-     return [y,cats.map(code=>{const parts=entries.filter(e=>e.category===code);return {code,label:dictionary.movementGroups[code]||code,amount:sum(parts.map(e=>e.amount)),details:parts.map(e=>({label:e.label,amount:e.amount,basis:e.basis}))};})];
+     return [y,cats.map(code=>{const parts=entries.filter(e=>e.category===code);return {code,label:dictionary.movementGroups[code]||code,amount:sum(parts.map(e=>e.amount)),details:m.series[y].schema==='capital-statement-v3'?[]:parts.map(e=>({label:e.label,amount:e.amount,basis:e.basis}))};})];
     }));
     const keys=union([...open].map(y=>(byYear[y]||[]).map(e=>e.code)),Object.keys(dictionary.movementGroups));
     if(open.size&&!keys.length)keys.push('unresolved');
     const plan=open.size?alignedRows(keys,k=>Object.fromEntries([...open].map(y=>[y,byYear[y]===null?null:byYear[y].find(e=>e.code===k)])),[...open],'assets:'+key,details):[];
     const rows=open.size?plan.length+1:1;
     const boundaries=[[first-1,first,'opening'],...years.map(y=>[y,y,'closing'])];
-    const comps=orderedChildren(boundaries.map(([,y,side])=>(record(y,key,side)?.details||[]).map(e=>e.label)));
+    const componentKey=e=>e.display_field||e.label;
+    const comps=orderedChildren(boundaries.map(([,y,side])=>(record(y,key,side)?.details||[]).map(componentKey)));
+    const componentLabelFor=id=>{for(const [,y,side] of boundaries){const found=(record(y,key,side)?.details||[]).find(e=>componentKey(e)===id);if(found)return found.label+(found.custom?'（扩展）':'');}return id;};
     const componentId=fieldId('components',key),componentsOpen=Boolean(componentState[componentId]);
     const componentLabel=comps.length?'<button type="button" class="component-toggle" data-component="'+componentId+'" aria-expanded="'+componentsOpen+'">'+(componentsOpen?'▾ ':'▸ ')+esc(label)+'</button>':esc(label);
-    const componentAmount=(y,side,name)=>{const found=record(y,key,side)?.details?.filter(e=>e.label===name)||[];return found.length?amount(sum(found.map(e=>e.amount))):'<td></td>';};
+    const componentAmount=(y,side,name)=>{const found=record(y,key,side)?.details?.filter(e=>componentKey(e)===name)||[];return found.length?amount(sum(found.map(e=>e.amount))):'<td></td>';};
     for(let i=0;i<rows;i++){
      h+='<tr class="'+(i===rows-1&&open.size?'subtotal':plan[i]?.kind==='child'?'aligned-subfield':'')+'">';
      if(!i)h+='<th class="item" rowspan="'+rows+'">'+componentLabel+'</th>'+amount(value(first,key,'opening'),rows,record(first,key,'opening')?.status,record(first,key,'opening')?.basis);
@@ -134,7 +138,7 @@
      }h+='</tr>';
     }
     if(componentsOpen)for(const name of comps){
-     h+='<tr class="asset-component"><th class="subfield">'+esc(name)+'</th>'+componentAmount(first,'opening',name);
+     h+='<tr class="asset-component"><th class="subfield">'+esc(componentLabelFor(name))+'</th>'+componentAmount(first,'opening',name);
      for(const y of years){
       if(open.has(y))h+='<td colspan="2"></td>';
       h+=componentAmount(y,'closing',name);
@@ -163,10 +167,10 @@
  }
 function evidence(m){
   return '<details class="page-notes"><summary>口径、来源与数据限制</summary>'+m.years.map(y=>{const d=m.series[y];
-   const facts=d.schema==='capital-statement-v2'?'<details><summary>原始事实与映射 · '+Object.keys(d.facts).length+' 项</summary>'+d.mappings.map(mapping=>{const fact=d.facts[mapping.fact_id]||{};return '<p><strong>'+esc(fact.label||mapping.fact_id)+'</strong> 来源 '+(fact.source_amount===null||fact.source_amount===undefined?'缺失':fmt(fact.source_amount))+' → '+esc(mapping.field)+' '+(mapping.amount===null||mapping.amount===undefined?'缺失':fmt(mapping.amount))+' · '+esc(fact.source_id||'')+' p.'+esc(fact.page||'')+(fact.calculation?' · '+esc(fact.calculation):'')+' · '+esc(mapping.rationale||'')+'</p>';}).join('')+'</details>':'';
+   const facts=['capital-statement-v2','capital-statement-v3'].includes(d.schema)?'<details><summary>原始事实与映射 · '+Object.keys(d.facts).length+' 项</summary>'+d.mappings.map(mapping=>{const fact=d.facts[mapping.fact_id]||{};return '<p><strong>'+esc(fact.label||mapping.fact_id)+'</strong> 来源 '+(fact.source_amount===null||fact.source_amount===undefined?'缺失':fmt(fact.source_amount))+' → '+esc(mapping.field)+(mapping.display_field?' / '+esc(mapping.display_field):'')+' '+(mapping.amount===null||mapping.amount===undefined?'缺失':fmt(mapping.amount))+' · '+esc(fact.source_id||'')+' p.'+esc(fact.page||'')+(fact.calculation?' · '+esc(fact.calculation):'')+' · '+esc(mapping.rationale||'')+'</p>';}).join('')+'</details>':'';
    return '<details><summary>'+y+' 年</summary>'+d.sources.map(s=>'<p>'+esc(s.basis)+' · '+esc(s.url)+'</p>').join('')+facts+Object.entries(d.records).map(([key,r])=>'<p><strong>'+esc(key)+'</strong> '+esc(r.status)+' · '+esc(r.basis)+'</p>').join('')+(d.validation?.warnings||[]).map(w=>'<p>'+esc(w.code)+' · '+esc(w.check||w.field||'')+(w.difference!==undefined?' · 差额 '+fmt(w.difference):w.amount!==undefined?' · 差额 '+fmt(w.amount):'')+'</p>').join('')+'</details>';}).join('')+'</details>';
 }
- function render(m,state={}){return '<div class="simple-view multi-fold">'+(m.series?protocolAssets(m,state.assets,state.details||{},state.components||{}):assetTable(m.assets,m.groups,m.years,state.assets,state.details||{}))+activityTable(m.annual,m.years,state.capital,state.details||{})+(m.series?anomalyTable(m)+evidence(m):'')+'</div>';}
+ function render(m,state={}){return '<div class="simple-view multi-fold">'+(m.series?protocolAssets(m,state.assets,state.details||{},state.components||{}):assetTable(m.assets,m.groups,m.years,state.assets,state.details||{},m.currency))+activityTable(m,state.capital,state.details||{})+(m.series?anomalyTable(m)+evidence(m):'')+'</div>';}
  function toggle(state,table,year){if(!['assets','capital'].includes(table)||!Number.isInteger(year)||year<1900||year>2200)return state;const selected=expanded(state[table]);selected.has(year)?selected.delete(year):selected.add(year);const years=[...selected].sort();return {...state,assets:years,capital:[...years]};}
  function toggleField(state,key){return {...state,details:{...state.details,[key]:!state.details?.[key]}};}
  function toggleComponent(state,key){return {...state,components:{...state.components,[key]:!state.components?.[key]}};}

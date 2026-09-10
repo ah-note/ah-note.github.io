@@ -3,41 +3,41 @@
   "currency": "CNY",
   "years": {
     "2025": {
-      "file": "annual/2025.1c9aa43ada2cae3c.json",
-      "sha256": "1c9aa43ada2cae3cfd2c552d5cff27f07765071af5c45bb8229ac17a04a11e69",
-      "source_run": "tan-2025-sol-low-v1",
-      "bundle_sha256": "c32705ce4b85a4e61498a45e27c1ba3cf896bb06888eb70e4a7695cfcd8b4abf"
+      "file": "annual/2025.8a9226b363f2e7f8.json",
+      "sha256": "8a9226b363f2e7f8e1f23af5b8c64c5fb805a78310333c4c33bf05b255c9f32b",
+      "source_run": "tan-2025-manual-display-v3",
+      "bundle_sha256": "d979db2e5ab810e9cbd60fbcc2046ff7a88837dd"
     },
     "2024": {
-      "file": "annual/2024.03df1d290d86b83d.json",
-      "sha256": "03df1d290d86b83dbe80596ef4143b2f3c605eeded34660030ad2a44a00819e4",
-      "source_run": "tan-2024-fact-ledger-v2-seeded-2024",
-      "bundle_sha256": "089fc526ee6a5949c55b8a1aa2d9a0dab388de62"
+      "file": "annual/2024.9c8679e1241afb2d.json",
+      "sha256": "9c8679e1241afb2d155e25f1f93dbc18e671e4d2db3382677e18046bc0bef85e",
+      "source_run": "tan-2024-manual-display-v3",
+      "bundle_sha256": "d979db2e5ab810e9cbd60fbcc2046ff7a88837dd"
     },
     "2023": {
-      "file": "annual/2023.2390612f552d8b22.json",
-      "sha256": "2390612f552d8b22404b8e6a0cbe665d3f7cc58312b63d8210120781553e6e66",
-      "source_run": "tan-2023-fact-ledger-v2-2023",
-      "bundle_sha256": "089fc526ee6a5949c55b8a1aa2d9a0dab388de62"
+      "file": "annual/2023.486d49598ee72483.json",
+      "sha256": "486d49598ee7248369a186e56e3466b876005bed3dedf335a41c1e5db33fa7b4",
+      "source_run": "tan-2023-manual-display-v3",
+      "bundle_sha256": "d979db2e5ab810e9cbd60fbcc2046ff7a88837dd"
     },
     "2022": {
-      "file": "annual/2022.a00ecde85d14e23a.json",
-      "sha256": "a00ecde85d14e23ac816ff8c7e7d2c358aa73d0781fc00769ae5253f625bf737",
-      "source_run": "tan-2022-fact-ledger-v2-2022",
-      "bundle_sha256": "089fc526ee6a5949c55b8a1aa2d9a0dab388de62"
+      "file": "annual/2022.8d0ffc1fff67157d.json",
+      "sha256": "8d0ffc1fff67157d9f768668b55067b262a61c73d244c67208aeec683a30a8fd",
+      "source_run": "tan-2022-manual-display-v3",
+      "bundle_sha256": "d979db2e5ab810e9cbd60fbcc2046ff7a88837dd"
     },
     "2021": {
-      "file": "annual/2021.71bd07c8d211979c.json",
-      "sha256": "71bd07c8d211979ce69fecc1728e0b21062a6f40c804beef0f877c05cc703627",
-      "source_run": "tan-2021-fact-ledger-v2-2021",
-      "bundle_sha256": "089fc526ee6a5949c55b8a1aa2d9a0dab388de62"
+      "file": "annual/2021.8c5e27e64b49e9bc.json",
+      "sha256": "8c5e27e64b49e9bccf30dc2c5e7a76061cad0abd06517598d9d14abc96097baf",
+      "source_run": "tan-2021-manual-display-v3",
+      "bundle_sha256": "d979db2e5ab810e9cbd60fbcc2046ff7a88837dd"
     }
   },
   "files": [
-    "annual/2021.71bd07c8d211979c.json",
-    "annual/2022.a00ecde85d14e23a.json",
-    "annual/2023.2390612f552d8b22.json",
-    "annual/2024.03df1d290d86b83d.json",
-    "annual/2025.1c9aa43ada2cae3c.json"
+    "annual/2021.8c5e27e64b49e9bc.json",
+    "annual/2022.8d0ffc1fff67157d.json",
+    "annual/2023.486d49598ee72483.json",
+    "annual/2024.9c8679e1241afb2d.json",
+    "annual/2025.8a9226b363f2e7f8.json"
   ]
 }
