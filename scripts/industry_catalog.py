@@ -254,6 +254,9 @@ def build_industry_catalog(
             search_terms.extend([symbol, symbol.split(".", 1)[0], security_id, name])
             search_terms.extend(aliases_by_security.get(security_id, []))
         search_terms.append(str(issuer["issuer_name"]))
+        search_terms.extend(
+            str(value) for value in issuer.get("search_aliases", []) if value
+        )
         search_terms = list(dict.fromkeys(value.strip() for value in search_terms if value.strip()))
         report_code = next(
             (security["code"] for security in securities if security["code"] in report_codes),

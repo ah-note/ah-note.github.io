@@ -159,6 +159,7 @@ class IndustryCatalogTest(unittest.TestCase):
         issuer = {
             "issuer_id": "SH.600000",
             "issuer_name": "测试设备",
+            "search_aliases": ["发行人别名"],
             "markets": ["A"],
             "securities": [{"security_id": "SH.600000", "symbol": "600000.SH", "name": "测试设备"}],
             "eligibility_status": "eligible",
@@ -201,6 +202,7 @@ class IndustryCatalogTest(unittest.TestCase):
             self.assertEqual(catalog["issuers"][0]["primary_leaf_id"], "101020")
             self.assertEqual(catalog["issuers"][0]["material_exposure_leaf_ids"], [])
             self.assertIn("测试机械", catalog["issuers"][0]["search_terms"])
+            self.assertIn("发行人别名", catalog["issuers"][0]["search_terms"])
             self.assertEqual(catalog["issuers"][0]["report_url"], "../reports/600000.SH/")
             self.assertEqual(catalog["issuers"][0]["representative_rank"], 1)
 
