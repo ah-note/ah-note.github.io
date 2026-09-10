@@ -8,4 +8,6 @@
 
 资本采购结算暂按零估计，可能混入经营预付及往来；显式标记估计，不宣称原始披露为零。股份、商誉和少数权益按已识别披露处理。未知资产变动保留差额，不构造假交易。
 
-测试：`node --test tests/test_tan_assets.js tests/test_berun_assets.js`。独立本地原型，未公开部署，不影响分析或发布队列。
+资本活动在同页下方，四列为大项目、净贡献或净收付、子项目、金额，无期初期末。`activities.json`保存年报千元输入及来源；`activities.js`计算并校验净利润、净资产增量、现金与全部存款增量。净资产形成与资金配置分别闭合，不混加。税项按公司实际税负比例分摊，显式估计；费用中的折旧与资产损失单列，不对成本和期间费用的折旧进行虚假细分。范围和边界见notes.html。
+
+测试：`node --test tests/test_tan_assets.js tests/test_berun_assets.js tests/test_tan_activities.js`。独立本地原型，未公开部署，不影响分析或发布队列。
