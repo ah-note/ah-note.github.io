@@ -90,6 +90,10 @@ class IndustryCatalogTest(unittest.TestCase):
         identity_override = review_projection(issuer)
         self.assertEqual(identity_override["review_status"], "industry_reviewed")
         self.assertEqual(identity_override["evidence_level"], "industry_reviewed")
+        issuer["classification_method"] = "reviewed_industry_batch_v1"
+        batch_review = review_projection(issuer)
+        self.assertEqual(batch_review["review_status"], "industry_reviewed")
+        self.assertEqual(batch_review["evidence_level"], "industry_reviewed")
         issuer["business_review"] = {"primary_review_status": "verified", "source": "https://example.com/report",
                                     "exposure_review_status": "pending", "eligibility_review_status": "verified"}
         partial = review_projection(issuer)
