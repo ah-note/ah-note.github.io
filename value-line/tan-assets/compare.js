@@ -19,7 +19,13 @@
   };
   draw();
   root.addEventListener('click',event=>{
-   const b=event.target.closest('button');if(!b||view!=='multi'||!b.dataset.table)return;
+   const b=event.target.closest('button');if(!b||view!=='multi')return;
+   if(b.dataset.field){
+    state=TanMultiView.toggleField(state,b.dataset.field);draw();
+    root.querySelector('button[data-field="'+b.dataset.field+'"][data-year="'+b.dataset.year+'"]')?.focus({preventScroll:true});
+    return;
+   }
+   if(!b.dataset.table)return;
    const table=b.dataset.table,selectedYear=Number(b.dataset.year);
    state=TanMultiView.toggle(state,table,selectedYear);
    draw();
