@@ -12,7 +12,7 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 from formal_reports import FormalReport, load_formal_reports, report_excerpt
-from industry_catalog import validate_industry_snapshot, write_industry_site
+from industry_catalog import prepared_industry_snapshot, validate_industry_snapshot, write_industry_site
 from research_feed import ResearchFeedEntry, build_research_feed
 from site_sources import CURRENT_SCHEMAS, ResearchDocument, UNIFIED_SCHEMA, load_research_documents, schema_rank
 
@@ -1111,6 +1111,8 @@ def main() -> None:
     )
     parser.add_argument("--industry-snapshot", type=Path,
                         help="explicit classification snapshot for either a full or industry-only build")
+    parser.add_argument("--industry-recipe", type=Path,
+                        help="tracked stock_analysis recipe, materialized only for this build")
     parser.add_argument(
         "--detail-code",
         action="append",
@@ -1118,6 +1120,14 @@ def main() -> None:
         help="only rebuild the current report detail page for this code; repeatable",
     )
     args = parser.parse_args()
+    if args.industry_recipe and args.industry_snapshot:
+        parser.error('choose --industry-recipe or --industry-snapshot')
+    with prepared_industry_snapshot(args.stock_analysis_root, args.industry_recipe, args.industry_snapshot) as snapshot:
+        args.industry_snapshot = snapshot
+        run_configured_build(args)
+
+
+def run_configured_build(args):
     if args.industry_only:
         result = write_industry_site(
             root=ROOT,

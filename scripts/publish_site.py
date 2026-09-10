@@ -92,6 +92,8 @@ def run_build(
         str(stock_report_root),
         "--stock-analysis-root",
         str(stock_analysis_root),
+        "--industry-recipe",
+        str(stock_analysis_root / "data/normalized/industry_classification/ahu_site_recipe_v1.json"),
     ]
     for code in sorted({code.upper() for code in codes if CODE_RE.fullmatch(code.upper())}):
         command.extend(["--detail-code", code])

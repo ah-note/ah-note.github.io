@@ -54,6 +54,7 @@ from pathlib import Path
 parser = argparse.ArgumentParser()
 parser.add_argument('--stock-report-root')
 parser.add_argument('--stock-analysis-root')
+parser.add_argument('--industry-recipe', required=True)
 parser.add_argument('--detail-code', action='append')
 parser.parse_args()
 root = Path(__file__).resolve().parents[1]

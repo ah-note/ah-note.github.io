@@ -26,7 +26,9 @@ python3 scripts/build_site.py --industry-only --stock-analysis-root ../stock_ana
   --industry-snapshot ../stock_analysis/data/outputs/industry_evidence/business_review_current
 ```
 
-预览将候选、主业已核、完整核准及排除状态分别展示；未知分类不是无分析价值。候选不进入行业成员计数，已有A/H别名和代表标记从原快照补充，但待核公司不保留代表标记。原发布器默认仍读取`ah_v4`；预览入口不改变线上分类源，正式切换须部署可重复取得的版本化输入，不能引用本机临时输出。
+预览将候选、主业已核、完整核准及排除状态分别展示；未知分类不是无分析价值。候选不进入行业成员计数，已有A/H别名和代表标记从原快照补充，但待核公司不保留代表标记。
+
+功能分支发布器现传入 `--industry-recipe <stock_analysis>/data/normalized/industry_classification/ahu_site_recipe_v1.json`。构建会用该仓库代码在临时目录生成输入，失败不回退旧分类，退出后清理。直接运行构建且不指定参数仍读`ah_v4`。正式环境尚未部署此分支；上线前须同步包含配方及生成代码的stock_analysis版本，不得引用本机临时输出。`--industry-recipe`与`--industry-snapshot`互斥。
 
 AH Note 是公司研究报告唯一的公开发布渠道。`build_site.py` 会把
 `_source/stock_research/` 作为旧报告兜底，并优先读取相邻

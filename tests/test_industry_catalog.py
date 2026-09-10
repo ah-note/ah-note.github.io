@@ -17,12 +17,32 @@ from industry_catalog import (  # noqa: E402
     build_industry_catalog,
     render_industry_index,
     review_projection,
+    prepared_industry_snapshot,
     validate_industry_snapshot,
 )
 from publish_site import PUBLISH_PATHS  # noqa: E402
 
 
 class IndustryCatalogTest(unittest.TestCase):
+    def test_recipe_failure_never_yields_or_falls_back(self):
+        import subprocess
+        result = subprocess.CompletedProcess([], 1, '', 'bad recipe')
+        with patch('industry_catalog.subprocess.run', return_value=result):
+            with self.assertRaisesRegex(RuntimeError, 'bad recipe'):
+                with prepared_industry_snapshot(ROOT, Path('recipe.json'), None):
+                    self.fail('failed recipe yielded an input')
+
+    def test_recipe_temporary_input_removed_even_when_consumer_fails(self):
+        import subprocess
+        result = subprocess.CompletedProcess([], 0, '', '')
+        with patch('industry_catalog.subprocess.run', return_value=result), patch('industry_catalog.validate_industry_snapshot'):
+            with self.assertRaisesRegex(ValueError, 'consumer'):
+                with prepared_industry_snapshot(ROOT, Path('recipe.json'), None) as snapshot:
+                    parent = snapshot.parent
+                    self.assertTrue(parent.exists())
+                    raise ValueError('consumer')
+        self.assertFalse(parent.exists())
+
     def test_full_build_validates_selected_snapshot_before_writes(self):
         from build_site import build_site
         selected = Path("selected-snapshot")

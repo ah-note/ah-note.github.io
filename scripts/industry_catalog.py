@@ -1,6 +1,11 @@
 from __future__ import annotations
 
 import json
+import os
+import subprocess
+import sys
+import tempfile
+from contextlib import contextmanager
 from collections import Counter
 from pathlib import Path
 from typing import Any
@@ -15,6 +20,28 @@ REQUIRED_SNAPSHOT_FILES = (
     "security-seeds.jsonl",
     "coverage-audit.json",
 )
+
+
+@contextmanager
+def prepared_industry_snapshot(stock_analysis_root: Path, recipe: Path | None, snapshot: Path | None):
+    """Keep a recipe-built input alive only for this build; never silently fall back."""
+    if recipe is None:
+        yield snapshot
+        return
+    if snapshot is not None:
+        raise ValueError('choose a recipe or a snapshot, not both')
+    repository = stock_analysis_root.resolve()
+    with tempfile.TemporaryDirectory(prefix='ah-note-industry-') as temporary:
+        output = Path(temporary) / 'reviewed'
+        environment = dict(os.environ, PYTHONPATH=str(repository / 'src'))
+        result = subprocess.run([
+            sys.executable, '-m', 'stock_analysis.industry_classification.business_review',
+            '--recipe', str(recipe.resolve()), '--repository', str(repository), '--output', str(output),
+        ], cwd=repository, env=environment, capture_output=True, text=True, timeout=60)
+        if result.returncode:
+            raise RuntimeError('industry recipe build failed: ' + (result.stderr or result.stdout)[-4000:])
+        validate_industry_snapshot(repository, output)
+        yield output
 
 
 def read_jsonl(path: Path) -> list[dict[str, Any]]:
