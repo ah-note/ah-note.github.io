@@ -58,13 +58,15 @@ class ClassificationWatchTests(unittest.TestCase):
             recipe = root / "data/normalized/industry_classification/ahu_site_recipe_v1.json"
             recipe.parent.mkdir(parents=True)
             payload = {"schema_version": "industry-review-recipe-v1", "source": "source", "decisions": "decisions.json",
-                       "sec_evidence": "sec.jsonl"}
+                       "sec_evidence": "sec.jsonl", "taxonomy_extension": "extension.json"}
             recipe.write_text(json.dumps(payload))
             (root / "source").mkdir()
             decisions = root / "decisions.json"
             decisions.write_text("{}")
             sec = root / "sec.jsonl"
             sec.write_text('{}\n')
+            extension = root / "extension.json"
+            extension.write_text('{}\n')
             for relative in ("data/snapshots/industry_classification/ah_v4", "src/stock_analysis/industry_classification"):
                 (root / relative).mkdir(parents=True)
             initial = watcher.classification_digest(root)
@@ -74,6 +76,9 @@ class ClassificationWatchTests(unittest.TestCase):
             self.assertNotEqual(initial, watcher.classification_digest(root))
             updated = watcher.classification_digest(root)
             sec.write_text('{"changed": true}\n')
+            self.assertNotEqual(updated, watcher.classification_digest(root))
+            updated = watcher.classification_digest(root)
+            extension.write_text('{"changed": true}\n')
             self.assertNotEqual(updated, watcher.classification_digest(root))
             payload["source"] = "../outside"
             recipe.write_text(json.dumps(payload))
