@@ -23,11 +23,12 @@ test('capital expansion inserts children after the selected annual total',()=>{
  assert.doesNotMatch(h,/2025 年变动|inline-detail/);
  assert.ok(h.includes('1.65'));assert.ok(h.includes('2.02'));
 });
-test('two tables expand independently and repeated year click collapses',()=>{
+test('only one global year expands and both tables follow it',()=>{
  let s=toggle({},'assets',2025);s=toggle(s,'capital',2024);
- assert.deepEqual(s,{assets:2025,capital:2024});
- const h=render(m,s);assert.match(h,/2025 年变动/);assert.match(h,/购买少数股权/);
- s=toggle(s,'assets',2025);assert.equal(s.assets,null);assert.equal(s.capital,2024);
+ assert.deepEqual(s,{assets:2024,capital:2024});
+ const h=render(m,s);assert.doesNotMatch(h,/2025 年变动/);assert.match(h,/购买少数股权/);
+ s=toggle(s,'assets',2025);assert.deepEqual(s,{assets:2025,capital:2025});
+ s=toggle(s,'capital',2025);assert.deepEqual(s,{assets:null,capital:null});
  assert.match(render(m,{assets:2024}),/2023 年末/);assert.match(render(m,{assets:2024}),/未转录/);
 });
 test('all collapsed and expanded table grids have valid column spans',()=>{
@@ -60,8 +61,9 @@ test('same-page controls toggle annual columns and preserve simple year selectio
  await new Promise(r=>setImmediate(r));assert.ok(!nodes['compare-status']);assert.doesNotMatch(nodes.comparison.innerHTML,/产品与服务收入/);
  const click=dataset=>handlers['comparison:click']({target:{closest:()=>({dataset})}});
  click({table:'capital',year:'2025'});assert.match(nodes.comparison.innerHTML,/产品与服务收入/);
- click({table:'assets',year:'2025'});assert.match(nodes.comparison.innerHTML,/2025 年变动/);
- click({table:'capital',year:'2025'});assert.doesNotMatch(nodes.comparison.innerHTML,/产品与服务收入/);
+ click({table:'assets',year:'2025'});assert.doesNotMatch(nodes.comparison.innerHTML,/2025 年变动|产品与服务收入/);
+ click({table:'capital',year:'2024'});assert.match(nodes.comparison.innerHTML,/2024 年变动/);assert.doesNotMatch(nodes.comparison.innerHTML,/2025 年变动/);
+ click({table:'assets',year:'2025'});assert.match(nodes.comparison.innerHTML,/2025 年变动/);assert.doesNotMatch(nodes.comparison.innerHTML,/2024 年变动/);
  handlers['view-simple:click']();assert.match(nodes.comparison.innerHTML,/simple-assets/);
  handlers['end-year:change']({target:{value:'2024'}});assert.match(nodes.comparison.innerHTML,/2023 年末/);
  handlers['view-multi:click']();assert.match(nodes.comparison.innerHTML,/2025 年变动/);

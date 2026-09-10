@@ -57,6 +57,6 @@
   return h+'</tbody></table></div>';
  }
  function render(m,state={}){return '<div class="simple-view multi-fold">'+assetTable(m.assets,m.groups,m.years,state.assets)+activityTable(m.annual,m.years,state.capital)+'</div>';}
- function toggle(state,table,year){if(!['assets','capital'].includes(table)||![2024,2025].includes(year))return state;return {...state,[table]:state[table]===year?null:year};}
+ function toggle(state,table,year){if(!['assets','capital'].includes(table)||![2024,2025].includes(year))return state;const active=state.assets===year&&state.capital===year?null:year;return {assets:active,capital:active};}
  if(typeof module!=='undefined')module.exports={render,toggle};else globalThis.TanMultiView={render,toggle};
 })();
