@@ -8,8 +8,10 @@ from pathlib import Path
 def install(source, destination, company, run_id, bundle_sha):
     raw = Path(source).read_bytes()
     doc = json.loads(raw)
-    if doc.get("schema") != "capital-statement-v1" or doc.get("company") != company:
+    if doc.get("schema") not in ("capital-statement-v1", "capital-statement-v2") or doc.get("company") != company:
         raise ValueError("ANNUAL_IDENTITY_OR_SCHEMA_MISMATCH")
+    if doc.get("schema") == "capital-statement-v2" and (not doc.get("facts") or not isinstance(doc.get("mappings"), list)):
+        raise ValueError("ANNUAL_FACT_LEDGER_REQUIRED")
     validation = doc.get("validation", {})
     if validation.get("status") not in ("passed", "warning") or validation.get("errors"):
         raise ValueError("PARENT_VALIDATION_REQUIRED")

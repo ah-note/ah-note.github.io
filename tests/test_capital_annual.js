@@ -10,6 +10,13 @@ function fixture(year){
  put('noncash.leases');
  return {schema:'capital-statement-v1',company:'TEST',currency:'CNY',year,records,movements:{},anomalies:[],sources:[],validation:{errors:[],warnings:[]}};
 }
+function fixtureV2(year){
+ const d=fixture(year);d.schema='capital-statement-v2';
+ d.facts={payable:{label:'Trade payables',source_amount:100000000,status:'disclosed',source_id:'annual',page:90}};
+ d.mappings=[{id:'payable',fact_id:'payable',field:'assets.working.closing',amount:-100000000,rationale:'经营结算占款'}];
+ d.records['assets.working.closing']={amount:-100000000,status:'disclosed',basis:'annual p.90',details:[{label:'Trade payables',source_amount:100000000,amount:-100000000,source:'annual p.90'}]};
+ return d;
+}
 test('one-year and five-year independent documents preserve all standard fields',()=>{
  for(const years of [[2025],[2021,2022,2023,2024,2025]]){
   const m=model(years.map(fixture)),h=view.render(m);
@@ -27,6 +34,12 @@ test('identity, duplicate years and currency must match; absent is not zero',()=
  b.currency='USD';assert.throws(()=>model([a,b]),/币种/);
  delete a.records['assets.working.closing'];
  assert.match(view.render(model([a])),/>缺失<\/td>/);
+});
+test('v2 fact ledger renders economic mapping and keeps source amount visible',()=>{
+ const h=view.render(model([fixtureV2(2025)]),{assets:[2025]});
+ assert.match(h,/Trade payables/);assert.match(h,/原始事实与映射 · 1 项/);
+ assert.match(h,/来源 1\.00 → assets\.working\.closing -1\.00/);
+ const bad=fixtureV2(2025);delete bad.facts;assert.throws(()=>model([bad]),/事实账本/);
 });
 test('adjacent opening disagreement is visible without overwriting either value',()=>{
  const a=fixture(2024),b=fixture(2025);

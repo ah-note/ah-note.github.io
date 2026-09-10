@@ -1,4 +1,4 @@
-/* Consume independently produced capital-statement-v1 years; never infer missing facts. */
+/* Consume independently produced capital-statement-v1/v2 years; never infer missing facts. */
 (function(){
  const sum=xs=>xs.some(x=>x===null||x===undefined)?null:xs.reduce((a,b)=>a+b,0);
  const groups={
@@ -9,7 +9,10 @@
   if(!documents.length)throw Error('没有年度数据');
   const docs=[...documents].sort((a,b)=>a.year-b.year),years=docs.map(d=>d.year),company=docs[0].company,currency=docs[0].currency;
   if(new Set(years).size!==years.length)throw Error('年度重复');
-  for(const d of docs)if(d.schema!=='capital-statement-v1'||d.company!==company||d.currency!==currency||!Number.isInteger(d.year)||d.validation?.errors?.length)throw Error('年度协议、主体、币种或校验状态不一致');
+  for(const d of docs){
+   if(!['capital-statement-v1','capital-statement-v2'].includes(d.schema)||d.company!==company||d.currency!==currency||!Number.isInteger(d.year)||d.validation?.errors?.length)throw Error('年度协议、主体、币种或校验状态不一致');
+   if(d.schema==='capital-statement-v2'&&(!d.facts||!Array.isArray(d.mappings)))throw Error('年度事实账本缺失');
+  }
   const annual={},series={},boundaryWarnings=[];
   for(const d of docs){
    const value=k=>d.records[k]?.amount??null;

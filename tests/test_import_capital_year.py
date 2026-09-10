@@ -29,6 +29,20 @@ class ImportTest(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, "VALIDATION"):
                 module.install(source, root / "site", "TEST", "run3", "digest3")
 
+    def test_v2_requires_fact_ledger(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            source = root / "input.json"
+            d = {"schema": "capital-statement-v2", "company": "TEST", "currency": "CNY", "year": 2025,
+                 "facts": {"revenue": {"source_amount": 1}}, "mappings": [],
+                 "validation": {"status": "warning", "errors": []}}
+            source.write_text(json.dumps(d))
+            self.assertTrue(module.install(source, root / "site", "TEST", "run", "digest").startswith("annual/2025."))
+            del d["facts"]
+            source.write_text(json.dumps(d))
+            with self.assertRaisesRegex(ValueError, "FACT_LEDGER"):
+                module.install(source, root / "other", "TEST", "run", "digest")
+
 
 if __name__ == "__main__":
     unittest.main()
