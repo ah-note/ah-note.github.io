@@ -15,6 +15,7 @@ CATALOG_SCHEMA = "ah-note-industry-catalog-v6"
 INDUSTRY_REVIEWED_METHODS = {
     "reviewed_leaf_calibration_override",
     "reviewed_sic_industry_group_v1",
+    "reviewed_current_issuer_override_v1",
 }
 SNAPSHOT_RELATIVE_DIR = Path("data/snapshots/industry_classification/ah_v4")
 REQUIRED_SNAPSHOT_FILES = (
