@@ -19,7 +19,7 @@ python3 -m http.server 8765
 python3 scripts/build_site.py --industry-only --stock-analysis-root ../stock_analysis
 ```
 
-新版多市场分类预览可显式指定已应用经营决议的快照：
+新版多市场分类可显式指定已应用经营决议的快照。下例仅构建分类；移除 `--industry-only` 后，整站构建也使用同一快照，并在写入任何页面前检查该输入：
 
 ```bash
 python3 scripts/build_site.py --industry-only --stock-analysis-root ../stock_analysis \

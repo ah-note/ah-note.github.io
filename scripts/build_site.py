@@ -1032,9 +1032,10 @@ def build_site(
     legacy_source_dir: Path = SOURCE_DIR,
     detail_codes: set[str] | None = None,
     stock_analysis_root: Path = STOCK_ANALYSIS_DIR,
+    industry_snapshot: Path | None = None,
 ) -> int:
     # Validate external inputs before overwriting any generated public file.
-    validate_industry_snapshot(stock_analysis_root)
+    validate_industry_snapshot(stock_analysis_root, industry_snapshot)
     DATA_DIR.mkdir(exist_ok=True)
     if STOCKS_DIR.exists():
         shutil.rmtree(STOCKS_DIR)
@@ -1074,6 +1075,7 @@ def build_site(
         root=ROOT,
         stock_analysis_root=stock_analysis_root,
         asset_version=ASSET_VERSION,
+        snapshot=industry_snapshot,
     )
     print(
         f"generated {len(stocks)} stocks, {len(research_feed)} research entries "
@@ -1108,7 +1110,7 @@ def main() -> None:
         help="only rebuild the industry catalog and browser",
     )
     parser.add_argument("--industry-snapshot", type=Path,
-                        help="explicit classification snapshot for an industry-only preview")
+                        help="explicit classification snapshot for either a full or industry-only build")
     parser.add_argument(
         "--detail-code",
         action="append",
@@ -1116,8 +1118,6 @@ def main() -> None:
         help="only rebuild the current report detail page for this code; repeatable",
     )
     args = parser.parse_args()
-    if args.industry_snapshot and not args.industry_only:
-        parser.error("--industry-snapshot requires --industry-only")
     if args.industry_only:
         result = write_industry_site(
             root=ROOT,
@@ -1135,6 +1135,7 @@ def main() -> None:
         args.legacy_source_dir.resolve(),
         detail_codes={code.upper() for code in args.detail_code} or None,
         stock_analysis_root=args.stock_analysis_root.resolve(),
+        industry_snapshot=args.industry_snapshot.resolve() if args.industry_snapshot else None,
     )
 
 

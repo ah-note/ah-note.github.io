@@ -4,6 +4,7 @@ import json
 import sys
 import tempfile
 import unittest
+from unittest.mock import patch
 from pathlib import Path
 
 
@@ -22,6 +23,20 @@ from publish_site import PUBLISH_PATHS  # noqa: E402
 
 
 class IndustryCatalogTest(unittest.TestCase):
+    def test_full_build_validates_selected_snapshot_before_writes(self):
+        from build_site import build_site
+        selected = Path("selected-snapshot")
+        with patch("build_site.validate_industry_snapshot", side_effect=RuntimeError("invalid selected snapshot")) as validate:
+            with self.assertRaisesRegex(RuntimeError, "invalid selected snapshot"):
+                build_site(stock_analysis_root=Path("source"), industry_snapshot=selected)
+        validate.assert_called_once_with(Path("source"), selected)
+
+    def test_full_build_accepts_explicit_classification_snapshot(self):
+        from build_site import main
+        with patch("sys.argv", ["build_site.py", "--industry-snapshot", "reviewed-snapshot"]), patch("build_site.build_site") as build:
+            main()
+        self.assertEqual(build.call_args.kwargs["industry_snapshot"], Path("reviewed-snapshot").resolve())
+
     def test_review_projection_never_promotes_us_candidates_or_stale_exposures(self):
         issuer = {"markets": ["US"], "primary_leaf_id": "a", "secondary_leaf_ids": ["b"],
                   "eligibility_status": "eligible", "material_exposure_leaf_ids": ["c"]}
