@@ -1,0 +1,1376 @@
+{
+  "company": "00837.HK",
+  "year": 2025,
+  "currency": "CNY",
+  "precision": 1000.0,
+  "records": {
+    "assets.working.opening": {
+      "amount": 254368000.0,
+      "status": "derived",
+      "basis": "附注20、25：存货及经营应收应付净额；所得税、增值税等税项移至其他经营净额，股息应付另列",
+      "details": [
+        {
+          "label": "存货",
+          "amount": 292498000,
+          "source": "2025年报第79页，2024年末"
+        },
+        {
+          "label": "贸易应收款",
+          "amount": 7153000,
+          "source": "2025年报第79页，2024年末"
+        },
+        {
+          "label": "其他应收款、按金及预付款（不含税项）",
+          "amount": 11139000,
+          "source": "2025年报附注20：合计11280减增值税及其他非所得税可收回款141"
+        },
+        {
+          "label": "贸易应付款",
+          "amount": -9507000,
+          "source": "2025年报第79页，2024年末"
+        },
+        {
+          "label": "其他经营应付款及应计款（不含股息及税项）",
+          "amount": -46915000,
+          "source": "2025年报附注25：合计47798减股息应付333及增值税等应付550"
+        }
+      ]
+    },
+    "assets.working.closing": {
+      "amount": 288153000.0,
+      "status": "derived",
+      "basis": "附注20、25：存货及经营应收应付净额；所得税、增值税等税项移至其他经营净额",
+      "details": [
+        {
+          "label": "存货",
+          "amount": 308556000,
+          "source": "2025年报第79页，2025年末"
+        },
+        {
+          "label": "贸易应收款",
+          "amount": 7733000,
+          "source": "2025年报第79页，2025年末"
+        },
+        {
+          "label": "其他应收款、按金及预付款（不含税项）",
+          "amount": 40267000,
+          "source": "2025年报附注20：合计41161减增值税及其他非所得税可收回款894"
+        },
+        {
+          "label": "贸易应付款",
+          "amount": -12099000,
+          "source": "2025年报第79页，2025年末"
+        },
+        {
+          "label": "其他经营应付款及应计款（不含税项）",
+          "amount": -56304000,
+          "source": "2025年报附注25：合计59639减增值税及其他非所得税应付3335；期末无股息应付"
+        }
+      ]
+    },
+    "assets.facilities.opening": {
+      "amount": 145423000.0,
+      "status": "derived",
+      "basis": "附注14：物业厂房设备132355及租入仓库、门店、生产用土地建筑使用权13068",
+      "details": [
+        {
+          "label": "物业、厂房及设备",
+          "amount": 132355000,
+          "source": "2025年报附注14(a)，2024年末"
+        },
+        {
+          "label": "其他租赁土地及楼宇使用权资产",
+          "amount": 13068000,
+          "source": "2025年报附注14(b)，2024年末"
+        }
+      ]
+    },
+    "assets.facilities.closing": {
+      "amount": 151450000.0,
+      "status": "derived",
+      "basis": "附注14：物业厂房设备120650及租入仓库、门店、生产用土地建筑使用权30800",
+      "details": [
+        {
+          "label": "物业、厂房及设备",
+          "amount": 120650000,
+          "source": "2025年报附注14(a)，2025年末"
+        },
+        {
+          "label": "其他租赁土地及楼宇使用权资产",
+          "amount": 30800000,
+          "source": "2025年报附注14(b)，2025年末；文字段落另称30,880千元，采用分类表及主表可闭合数30,800千元"
+        }
+      ]
+    },
+    "assets.rights.opening": {
+      "amount": 23165000.0,
+      "status": "disclosed",
+      "basis": "附注14(b)：自用租赁土地所有权权益",
+      "details": [
+        {
+          "label": "自用租赁土地所有权权益",
+          "amount": 23165000,
+          "source": "2025年报附注14(b)，2024年末"
+        }
+      ]
+    },
+    "assets.rights.closing": {
+      "amount": 22751000.0,
+      "status": "disclosed",
+      "basis": "附注14(b)：自用租赁土地所有权权益",
+      "details": [
+        {
+          "label": "自用租赁土地所有权权益",
+          "amount": 22751000,
+          "source": "2025年报附注14(b)，2025年末"
+        }
+      ]
+    },
+    "assets.capital_settlement.opening": {
+      "amount": 0.0,
+      "status": "estimated",
+      "basis": "未披露独立资本采购应收应付，代表值暂为零；附注20其他应收预付及附注25其他应付款中可能仍混入资本采购结算，无法可靠拆分",
+      "details": []
+    },
+    "assets.capital_settlement.closing": {
+      "amount": 0.0,
+      "status": "estimated",
+      "basis": "未披露独立资本采购应收应付，代表值暂为零；附注20其他应收预付及附注25其他应付款中可能仍混入资本采购结算，无法可靠拆分",
+      "details": []
+    },
+    "assets.goodwill.opening": {
+      "amount": 0.0,
+      "status": "not_applicable",
+      "basis": "合并财务状况表及附注未列商誉",
+      "details": []
+    },
+    "assets.goodwill.closing": {
+      "amount": 0.0,
+      "status": "not_applicable",
+      "basis": "合并财务状况表及附注未列商誉",
+      "details": []
+    },
+    "assets.other_operating.opening": {
+      "amount": -44241000.0,
+      "status": "derived",
+      "basis": "所得税、非所得税、经营土地/租赁递延税及递延收入净义务；投资物业递延税随非经营资产列示",
+      "details": [
+        {
+          "label": "所得税应付款",
+          "amount": -38595000,
+          "source": "2025年报附注22(a)，2024年末"
+        },
+        {
+          "label": "土地及楼宇重估递延税负债",
+          "amount": -4446000,
+          "source": "2025年报附注22(b)，2024年末"
+        },
+        {
+          "label": "使用权资产递延税负债",
+          "amount": -2964000,
+          "source": "2025年报附注22(b)，2024年末"
+        },
+        {
+          "label": "租赁负债递延税资产",
+          "amount": 2670000,
+          "source": "2025年报附注22(b)，2024年末"
+        },
+        {
+          "label": "递延收入",
+          "amount": -497000,
+          "source": "2025年报第80页，2024年末"
+        },
+        {
+          "label": "增值税及其他非所得税可收回款",
+          "amount": 141000,
+          "source": "2025年报附注20，2024年末"
+        },
+        {
+          "label": "增值税及其他非所得税应付款",
+          "amount": -550000,
+          "source": "2025年报附注25，2024年末"
+        }
+      ]
+    },
+    "assets.other_operating.closing": {
+      "amount": -47636000.0,
+      "status": "derived",
+      "basis": "所得税、非所得税、经营土地/租赁递延税及递延收入净义务；投资物业递延税随非经营资产列示",
+      "details": [
+        {
+          "label": "所得税应付款",
+          "amount": -40349000,
+          "source": "2025年报附注22(a)，2025年末"
+        },
+        {
+          "label": "土地及楼宇重估递延税负债",
+          "amount": -4446000,
+          "source": "2025年报附注22(b)，2025年末"
+        },
+        {
+          "label": "使用权资产递延税负债",
+          "amount": -4520000,
+          "source": "2025年报附注22(b)，2025年末"
+        },
+        {
+          "label": "租赁负债递延税资产",
+          "amount": 4596000,
+          "source": "2025年报附注22(b)，2025年末"
+        },
+        {
+          "label": "递延收入",
+          "amount": -476000,
+          "source": "2025年报第80页，2025年末"
+        },
+        {
+          "label": "增值税及其他非所得税可收回款",
+          "amount": 894000,
+          "source": "2025年报附注20，2025年末"
+        },
+        {
+          "label": "增值税及其他非所得税应付款",
+          "amount": -3335000,
+          "source": "2025年报附注25，2025年末"
+        }
+      ]
+    },
+    "assets.cash.opening": {
+      "amount": 364714000.0,
+      "status": "derived",
+      "basis": "第79、134页：现金等价物及全部非质押定期存款",
+      "details": [
+        {
+          "label": "现金及现金等价物",
+          "amount": 41714000,
+          "source": "2025年报PDF第134页附注23(A)，2024比较数"
+        },
+        {
+          "label": "期限三个月以上一年内非质押定期存款",
+          "amount": 105000000,
+          "source": "2025年报PDF第134页附注23(A)，2024比较数"
+        },
+        {
+          "label": "期限一年以上非质押定期存款",
+          "amount": 218000000,
+          "source": "2025年报PDF第134页附注23(A)，2024比较数"
+        }
+      ]
+    },
+    "assets.cash.closing": {
+      "amount": 425739000.0,
+      "status": "derived",
+      "basis": "第79、134页：现金等价物及全部非质押定期存款",
+      "details": [
+        {
+          "label": "现金及现金等价物",
+          "amount": 79739000,
+          "source": "2025年报PDF第134页附注23(A)"
+        },
+        {
+          "label": "期限三个月以上一年内非质押定期存款",
+          "amount": 10000000,
+          "source": "2025年报PDF第134页附注23(A)"
+        },
+        {
+          "label": "期限一年以上非质押定期存款",
+          "amount": 336000000,
+          "source": "2025年报PDF第134页附注23(A)"
+        }
+      ]
+    },
+    "assets.investments.opening": {
+      "amount": 80791000.0,
+      "status": "disclosed",
+      "basis": "附注21：按公允价值计入损益的本金保证型理财产品",
+      "details": [
+        {
+          "label": "本金保证型理财产品",
+          "amount": 80791000,
+          "source": "2025年报附注21，2024年末"
+        }
+      ]
+    },
+    "assets.investments.closing": {
+      "amount": 80669000.0,
+      "status": "disclosed",
+      "basis": "附注21：按公允价值计入损益的本金保证型理财产品",
+      "details": [
+        {
+          "label": "本金保证型理财产品",
+          "amount": 80669000,
+          "source": "2025年报附注21，2025年末"
+        }
+      ]
+    },
+    "assets.other_assets.opening": {
+      "amount": 84100000.0,
+      "status": "disclosed",
+      "basis": "附注15：非核心出租投资物业按总账面额列为其他非经营资产，不与相关负债抵销",
+      "details": [
+        {
+          "label": "投资物业",
+          "amount": 84100000,
+          "source": "2025年报附注15，2024年末"
+        }
+      ]
+    },
+    "assets.other_assets.closing": {
+      "amount": 81400000.0,
+      "status": "disclosed",
+      "basis": "附注15：非核心出租投资物业按总账面额列为其他非经营资产，不与相关负债抵销",
+      "details": [
+        {
+          "label": "投资物业",
+          "amount": 81400000,
+          "source": "2025年报附注15，2025年末"
+        }
+      ]
+    },
+    "assets.financing.opening": {
+      "amount": 12114000.0,
+      "status": "disclosed",
+      "basis": "第79-80、137页：流动及非流动租赁负债",
+      "details": []
+    },
+    "assets.financing.closing": {
+      "amount": 20773000.0,
+      "status": "disclosed",
+      "basis": "第79-80、137页：流动及非流动租赁负债；附注合计尾差1千元，采用主表20773",
+      "details": []
+    },
+    "assets.shareholder.opening": {
+      "amount": 333000.0,
+      "status": "disclosed",
+      "basis": "第136页附注25：股息应付",
+      "details": []
+    },
+    "assets.shareholder.closing": {
+      "amount": 0.0,
+      "status": "disclosed",
+      "basis": "第136页附注25：股息应付为零",
+      "details": []
+    },
+    "assets.other_liabilities.opening": {
+      "amount": 11914000.0,
+      "status": "disclosed",
+      "basis": "附注22(b)：投资物业公允价值相关递延税负债，与非经营资产分列",
+      "details": [
+        {
+          "label": "投资物业公允价值递延税负债",
+          "amount": 11914000,
+          "source": "2025年报附注22(b)，2024年末"
+        }
+      ]
+    },
+    "assets.other_liabilities.closing": {
+      "amount": 11549000.0,
+      "status": "disclosed",
+      "basis": "附注22(b)：投资物业公允价值相关递延税负债，与非经营资产分列",
+      "details": [
+        {
+          "label": "投资物业公允价值递延税负债",
+          "amount": 11549000,
+          "source": "2025年报附注22(b)，2025年末"
+        }
+      ]
+    },
+    "controls.cash.opening": {
+      "amount": 364714000.0,
+      "status": "derived",
+      "basis": "资本表现金口径含现金等价物及非质押定期存款，第79、134页",
+      "details": []
+    },
+    "controls.cash.closing": {
+      "amount": 425739000.0,
+      "status": "derived",
+      "basis": "资本表现金口径含现金等价物及非质押定期存款，第79、134页",
+      "details": []
+    },
+    "controls.equity.opening": {
+      "amount": 883959000.0,
+      "status": "disclosed",
+      "basis": "年报PDF第80-81页",
+      "details": []
+    },
+    "controls.equity.closing": {
+      "amount": 970204000.0,
+      "status": "disclosed",
+      "basis": "年报PDF第80-81页",
+      "details": []
+    },
+    "controls.parent.opening": {
+      "amount": 883959000.0,
+      "status": "disclosed",
+      "basis": "第81页：2024年末非控股权益为零",
+      "details": []
+    },
+    "controls.parent.closing": {
+      "amount": 970204000.0,
+      "status": "disclosed",
+      "basis": "第81页：2025年末全部归属母公司",
+      "details": []
+    },
+    "controls.minority.opening": {
+      "amount": 0.0,
+      "status": "disclosed",
+      "basis": "年报PDF第81页",
+      "details": []
+    },
+    "controls.minority.closing": {
+      "amount": 0.0,
+      "status": "disclosed",
+      "basis": "年报PDF第81页",
+      "details": []
+    },
+    "controls.profit": {
+      "amount": 171027000.0,
+      "status": "disclosed",
+      "basis": "年报PDF第77页：年度利润",
+      "details": []
+    },
+    "wealth.operating.revenue": {
+      "amount": 558223000.0,
+      "status": "disclosed",
+      "basis": "附注5：按销售渠道拆分的客户合约收入",
+      "details": [
+        {
+          "label": "线上业务商品销售",
+          "amount": 228738000,
+          "source": "2025年报附注5"
+        },
+        {
+          "label": "线下业务商品销售",
+          "amount": 323983000,
+          "source": "2025年报附注5"
+        },
+        {
+          "label": "线下业务加盟费收入",
+          "amount": 712000,
+          "source": "2025年报附注5"
+        },
+        {
+          "label": "直营门店商品销售",
+          "amount": 4790000,
+          "source": "2025年报附注5"
+        }
+      ]
+    },
+    "wealth.operating.costs": {
+      "amount": -348758000.0,
+      "status": "derived",
+      "basis": "损益表费用剔除另列折旧、经营损失、理财处置损失及随非核心出租物业归类的直接支出",
+      "details": [
+        {
+          "label": "销售成本",
+          "amount": -212921000,
+          "source": "2025年报损益表"
+        },
+        {
+          "label": "行政费用",
+          "amount": -45432000,
+          "source": "2025年报损益表"
+        },
+        {
+          "label": "销售及分销费用",
+          "amount": -96945000,
+          "source": "2025年报损益表"
+        },
+        {
+          "label": "其他经营费用",
+          "amount": -30820000,
+          "source": "2025年报损益表"
+        },
+        {
+          "label": "转列折旧摊销",
+          "amount": 10641000,
+          "source": "2025年报附注7(b)"
+        },
+        {
+          "label": "从费用转列经营资产损失",
+          "amount": 26279000,
+          "source": "2025年报附注7(b)、18、20；另有22千元经营损失原列其他收入净额，不在费用中重复加回"
+        },
+        {
+          "label": "转列理财产品处置损失",
+          "amount": 2000,
+          "source": "现金流量表及附注21披露处置损失；附注6未列该项，推定承载于其他经营费用并转列非经营回报"
+        },
+        {
+          "label": "转列投资物业直接支出",
+          "amount": 438000,
+          "source": "2025年报附注7(b)；随非核心出租物业列非经营回报"
+        }
+      ]
+    },
+    "wealth.operating.other_income": {
+      "amount": 36598000.0,
+      "status": "derived",
+      "basis": "附注6：经营补助、增值税退税及其他；出租物业租金转列非经营回报",
+      "details": [
+        {
+          "label": "政府补助",
+          "amount": 3313000,
+          "source": "2025年报附注6"
+        },
+        {
+          "label": "递延收入转入政府补助",
+          "amount": 21000,
+          "source": "2025年报附注6、27"
+        },
+        {
+          "label": "增值税退税",
+          "amount": 30898000,
+          "source": "2025年报附注6"
+        },
+        {
+          "label": "其他收入",
+          "amount": 2366000,
+          "source": "2025年报附注6"
+        }
+      ]
+    },
+    "wealth.operating.tax": {
+      "amount": -33798000.0,
+      "status": "estimated",
+      "basis": "总所得税45.459百万元的剩余分配；非经营按修正后投资贡献估计、融资按租赁利息估计",
+      "details": [
+        {
+          "label": "经营所得税估计",
+          "amount": -33798000,
+          "source": "附注8、22；总税额扣除非经营税及估计融资税收影响后的剩余数"
+        }
+      ]
+    },
+    "wealth.operating.depreciation": {
+      "amount": -10641000.0,
+      "status": "disclosed",
+      "basis": "附注7(b)、14(b)：物业厂房设备及两类使用权资产折旧",
+      "details": [
+        {
+          "label": "物业、厂房及设备折旧",
+          "amount": -6090000,
+          "source": "2025年报附注7(b)"
+        },
+        {
+          "label": "自用租赁土地折旧",
+          "amount": -970000,
+          "source": "2025年报附注14(b)"
+        },
+        {
+          "label": "其他租赁土地及楼宇折旧",
+          "amount": -3581000,
+          "source": "2025年报附注14(b)"
+        }
+      ]
+    },
+    "wealth.operating.loss": {
+      "amount": -26301000.0,
+      "status": "derived",
+      "basis": "仅列经营资产损失；理财产品处置损失2千元转列非经营投资回报",
+      "details": [
+        {
+          "label": "物业、厂房及设备终止确认损失",
+          "amount": -24332000,
+          "source": "2025年报附注7(b)、14(a)"
+        },
+        {
+          "label": "物业、厂房及设备处置损失",
+          "amount": -15000,
+          "source": "2025年报附注6、7(b)"
+        },
+        {
+          "label": "贸易应收款损失准备",
+          "amount": -7000,
+          "source": "2025年报附注6、19"
+        },
+        {
+          "label": "其他应收款损失准备",
+          "amount": -8000,
+          "source": "2025年报附注7(b)、20"
+        },
+        {
+          "label": "存货跌价净额",
+          "amount": -1939000,
+          "source": "2025年报附注7(b)、18：跌价2259减转回320"
+        }
+      ]
+    },
+    "wealth.nonoperating.returns": {
+      "amount": 10184000.0,
+      "status": "derived",
+      "basis": "银行利息、非核心投资物业净租金回报及理财产品处置损失",
+      "details": [
+        {
+          "label": "银行利息收入",
+          "amount": 7725000,
+          "source": "2025年报附注6"
+        },
+        {
+          "label": "投资物业经营租赁租金收入",
+          "amount": 2899000,
+          "source": "2025年报附注6、7(b)"
+        },
+        {
+          "label": "投资物业直接支出",
+          "amount": -438000,
+          "source": "2025年报附注7(b)"
+        },
+        {
+          "label": "本金保证型理财产品处置损失",
+          "amount": -2000,
+          "source": "2025年报现金流量表及附注21；附注6未列该项，损益承载行未进一步明确"
+        }
+      ]
+    },
+    "wealth.nonoperating.valuation": {
+      "amount": -2155000.0,
+      "status": "derived",
+      "basis": "汇兑、投资物业及金融资产公允价值变动",
+      "details": [
+        {
+          "label": "汇兑损失净额",
+          "amount": -124000,
+          "source": "2025年报附注6"
+        },
+        {
+          "label": "投资物业公允价值损失",
+          "amount": -2700000,
+          "source": "2025年报附注6、15"
+        },
+        {
+          "label": "按公允价值计入损益金融资产公允价值收益",
+          "amount": 669000,
+          "source": "2025年报附注6、21"
+        }
+      ]
+    },
+    "wealth.nonoperating.tax": {
+      "amount": -11761000.0,
+      "status": "estimated",
+      "basis": "股息预提税10.557百万元加修正后非经营税前贡献8.029百万元按15%估计税1.204百万元；总税额保持不变",
+      "details": [
+        {
+          "label": "股息分配预提税",
+          "amount": -10557000,
+          "source": "2025年报附注8(a)"
+        },
+        {
+          "label": "投资及出租物业收益所得税估计",
+          "amount": -1204000,
+          "source": "按非经营税前贡献8,029千元及主要经营实体15%优惠税率估计并按千元取整；包含投资物业递延税影响"
+        }
+      ]
+    },
+    "wealth.finance.cost": {
+      "amount": -664000.0,
+      "status": "disclosed",
+      "basis": "第111页：租赁负债利息",
+      "details": []
+    },
+    "wealth.finance.tax": {
+      "amount": 100000.0,
+      "status": "estimated",
+      "basis": "租赁融资费用664千元按主要经营实体15%优惠税率估计税收影响；未获直接分项披露",
+      "details": [
+        {
+          "label": "租赁融资费用税收影响估计",
+          "amount": 100000,
+          "source": "按租赁利息664千元及主要经营实体15%优惠税率估计；未获直接分项披露"
+        }
+      ]
+    },
+    "wealth.owner.input": {
+      "amount": 0.0,
+      "status": "not_applicable",
+      "basis": "权益变动表无增资或股份激励",
+      "details": []
+    },
+    "wealth.owner.dividend": {
+      "amount": -89569000.0,
+      "status": "disclosed",
+      "basis": "第81、117页：本年批准上年末期股息",
+      "details": []
+    },
+    "wealth.owner.repurchase": {
+      "amount": 0.0,
+      "status": "not_applicable",
+      "basis": "权益变动表无股份回购",
+      "details": []
+    },
+    "wealth.owner.minority": {
+      "amount": 0.0,
+      "status": "not_applicable",
+      "basis": "本年无少数股权交易",
+      "details": []
+    },
+    "wealth.other.translation": {
+      "amount": 4787000.0,
+      "status": "disclosed",
+      "basis": "第78、81页：两项报表折算差额1498及3289",
+      "details": []
+    },
+    "wealth.other.other_oci": {
+      "amount": 0.0,
+      "status": "not_applicable",
+      "basis": "除折算差额外无其他综合收益",
+      "details": []
+    },
+    "wealth.other.scope": {
+      "amount": 0.0,
+      "status": "not_applicable",
+      "basis": "权益变动表本年无合并范围或其他权益变动",
+      "details": []
+    },
+    "liquidity.operating.before_working": {
+      "amount": 247619000.0,
+      "status": "disclosed",
+      "basis": "现金流量表：税前利润经非现金及非经营项目调整后的周转前经营利润",
+      "details": [
+        {
+          "label": "税前利润",
+          "amount": 216486000,
+          "source": "2025年报现金流量表"
+        },
+        {
+          "label": "融资费用调整",
+          "amount": 664000,
+          "source": "2025年报现金流量表"
+        },
+        {
+          "label": "利息收入调整",
+          "amount": -7725000,
+          "source": "2025年报现金流量表"
+        },
+        {
+          "label": "投资物业公允价值损失调整",
+          "amount": 2700000,
+          "source": "2025年报现金流量表"
+        },
+        {
+          "label": "金融资产处置损失调整",
+          "amount": 2000,
+          "source": "2025年报现金流量表"
+        },
+        {
+          "label": "金融资产公允价值收益调整",
+          "amount": -669000,
+          "source": "2025年报现金流量表"
+        },
+        {
+          "label": "物业、厂房及设备终止确认损失调整",
+          "amount": 24332000,
+          "source": "2025年报现金流量表"
+        },
+        {
+          "label": "物业、厂房及设备处置损失调整",
+          "amount": 15000,
+          "source": "2025年报现金流量表"
+        },
+        {
+          "label": "物业、厂房及设备折旧调整",
+          "amount": 6090000,
+          "source": "2025年报现金流量表"
+        },
+        {
+          "label": "使用权资产折旧调整",
+          "amount": 4551000,
+          "source": "2025年报现金流量表"
+        },
+        {
+          "label": "存货跌价调整",
+          "amount": 2259000,
+          "source": "2025年报现金流量表"
+        },
+        {
+          "label": "存货跌价转回调整",
+          "amount": -320000,
+          "source": "2025年报现金流量表"
+        },
+        {
+          "label": "递延收入转入政府补助调整",
+          "amount": -21000,
+          "source": "2025年报现金流量表"
+        },
+        {
+          "label": "贸易应收款损失准备调整",
+          "amount": 7000,
+          "source": "2025年报现金流量表"
+        },
+        {
+          "label": "其他应收款损失准备调整",
+          "amount": 8000,
+          "source": "2025年报现金流量表"
+        },
+        {
+          "label": "销售退回拨备转回调整",
+          "amount": -760000,
+          "source": "2025年报现金流量表"
+        }
+      ]
+    },
+    "liquidity.operating.working": {
+      "amount": -34226000.0,
+      "status": "derived",
+      "basis": "现金流量表各周转项目合计；原披露仍含税项及可能的资本采购结算，无法从现金流分项可靠剔除",
+      "details": [
+        {
+          "label": "存货增加",
+          "amount": -17997000,
+          "source": "2025年报现金流量表"
+        },
+        {
+          "label": "贸易应收款增加",
+          "amount": -587000,
+          "source": "2025年报现金流量表"
+        },
+        {
+          "label": "其他应收款、按金及预付款增加",
+          "amount": -30693000,
+          "source": "2025年报现金流量表；含未单列的税项及资本采购相关项目"
+        },
+        {
+          "label": "贸易应付款增加",
+          "amount": 2592000,
+          "source": "2025年报现金流量表"
+        },
+        {
+          "label": "其他应付款及应计款增加",
+          "amount": 12459000,
+          "source": "2025年报现金流量表；含税项及可能的资本采购结算，披露不足以确定拆分"
+        }
+      ]
+    },
+    "liquidity.operating.tax": {
+      "amount": -44472000.0,
+      "status": "derived",
+      "basis": "第82页：所得税支付39887及预提税支付4585",
+      "details": []
+    },
+    "liquidity.capacity.purchase": {
+      "amount": -18775000.0,
+      "status": "disclosed",
+      "basis": "第83页：购置物业厂房设备",
+      "details": []
+    },
+    "liquidity.capacity.disposal": {
+      "amount": 32000.0,
+      "status": "disclosed",
+      "basis": "第83页：处置物业厂房设备收款",
+      "details": []
+    },
+    "liquidity.investment.invest": {
+      "amount": -160000000.0,
+      "status": "disclosed",
+      "basis": "第83页：购买按公允价值计入损益金融资产；定期存款调拨为现金内部转换不列投入",
+      "details": []
+    },
+    "liquidity.investment.recover": {
+      "amount": 160789000.0,
+      "status": "disclosed",
+      "basis": "第83页：出售按公允价值计入损益金融资产收款",
+      "details": []
+    },
+    "liquidity.investment.returns": {
+      "amount": 8529000.0,
+      "status": "disclosed",
+      "basis": "第82页：实际收到利息；从经营现金流重分类为投资回报",
+      "details": []
+    },
+    "liquidity.finance.borrow": {
+      "amount": 0.0,
+      "status": "not_applicable",
+      "basis": "现金流量表无借款流入",
+      "details": []
+    },
+    "liquidity.finance.repay": {
+      "amount": -13208000.0,
+      "status": "disclosed",
+      "basis": "第83、135页：租赁负债本金支付",
+      "details": []
+    },
+    "liquidity.finance.cost": {
+      "amount": -664000.0,
+      "status": "disclosed",
+      "basis": "第83页：租赁负债利息支付",
+      "details": []
+    },
+    "liquidity.owner.input": {
+      "amount": 0.0,
+      "status": "not_applicable",
+      "basis": "现金流量表无增资流入",
+      "details": []
+    },
+    "liquidity.owner.dividend": {
+      "amount": -89569000.0,
+      "status": "disclosed",
+      "basis": "第83页：支付股息",
+      "details": []
+    },
+    "liquidity.owner.repurchase": {
+      "amount": 0.0,
+      "status": "not_applicable",
+      "basis": "现金流量表无股份回购",
+      "details": []
+    },
+    "liquidity.owner.minority": {
+      "amount": 0.0,
+      "status": "not_applicable",
+      "basis": "本年无少数股权交易现金流",
+      "details": []
+    },
+    "liquidity.other.translation": {
+      "amount": 4970000.0,
+      "status": "disclosed",
+      "basis": "第83页：外汇汇率变动影响",
+      "details": []
+    },
+    "liquidity.other.scope": {
+      "amount": 0.0,
+      "status": "not_applicable",
+      "basis": "本年无并购处置导致现金范围变化",
+      "details": []
+    },
+    "liquidity.other.restriction": {
+      "amount": 0.0,
+      "status": "not_applicable",
+      "basis": "定期存款纳入资本表现金，期限互转属于现金内部转换，净资本现金无变化",
+      "details": []
+    },
+    "noncash.leases": {
+      "amount": 21974000.0,
+      "status": "disclosed",
+      "basis": "第135页：新增租赁，非现金交易",
+      "details": []
+    }
+  },
+  "movements": {
+    "cash": [
+      {
+        "id": "operating-receipts",
+        "basis": "第82页：经营活动现金177450减收到利息8529",
+        "category": "operating",
+        "label": "经营活动形成现金（含收到利息前重分类）",
+        "amount": 168921000.0
+      },
+      {
+        "id": "investment-returns",
+        "basis": "第82页",
+        "category": "returns",
+        "label": "收到利息",
+        "amount": 8529000.0
+      },
+      {
+        "id": "capex",
+        "basis": "第83页：-18775+32",
+        "category": "capacity",
+        "label": "购建及处置经营资产净付现",
+        "amount": -18743000.0
+      },
+      {
+        "id": "financial-investment",
+        "basis": "第83页：160789-160000",
+        "category": "investment",
+        "label": "金融资产买卖净收款",
+        "amount": 789000.0
+      },
+      {
+        "id": "lease-financing",
+        "basis": "第83页",
+        "category": "financing",
+        "label": "偿还租赁本金",
+        "amount": -13208000.0
+      },
+      {
+        "id": "finance-cost",
+        "basis": "第83页",
+        "category": "finance_cost",
+        "label": "支付租赁利息",
+        "amount": -664000.0
+      },
+      {
+        "id": "dividends",
+        "basis": "第83页",
+        "category": "owner",
+        "label": "支付股息",
+        "amount": -89569000.0
+      },
+      {
+        "id": "fx",
+        "basis": "第83页；定期存款期限调拨在现金口径内部抵销",
+        "category": "valuation",
+        "label": "汇率变动对现金及存款的影响",
+        "amount": 4970000.0
+      }
+    ],
+    "facilities": [
+      {
+        "id": "additions",
+        "basis": "第83、119页",
+        "category": "capacity",
+        "label": "购置物业厂房设备",
+        "amount": 18775000.0
+      },
+      {
+        "id": "derecognition",
+        "basis": "第82、111页",
+        "category": "loss",
+        "label": "固定资产终止确认损失对应账面额",
+        "amount": -24332000.0
+      },
+      {
+        "id": "disposal",
+        "basis": "第83页收款32加处置损失15",
+        "category": "capacity",
+        "label": "处置固定资产账面额",
+        "amount": -47000.0
+      },
+      {
+        "id": "depreciation",
+        "basis": "附注14(b)、7(b)：物业厂房设备6090及其他租赁土地楼宇3581",
+        "category": "consumption",
+        "label": "物业厂房设备及租入土地楼宇折旧",
+        "amount": -9671000.0
+      },
+      {
+        "id": "investment-property-fv",
+        "basis": "投资物业不再属于经营设施，本行归零保留分类修订轨迹",
+        "category": "transfer",
+        "label": "投资物业重分类至其他非经营资产",
+        "amount": 0.0
+      },
+      {
+        "id": "leased-rou-additions",
+        "basis": "附注14(b)：新增使用权资产，主要为新租约",
+        "category": "capacity",
+        "label": "新增租赁形成经营设施",
+        "amount": 21974000.0
+      },
+      {
+        "id": "residual-fx",
+        "basis": "物业厂房设备余额变化减购置、折旧、终止确认及处置；未获直接归因披露",
+        "category": "unresolved",
+        "label": "物业厂房设备未解释尾差",
+        "amount": -11000.0
+      },
+      {
+        "id": "leased-rou-residual",
+        "basis": "该类余额增加17732减新增租赁21974及折旧3581；未证实为汇率，明确列未解释差额",
+        "category": "unresolved",
+        "label": "租入土地楼宇使用权未解释变动",
+        "amount": -661000.0
+      }
+    ],
+    "rights": [
+      {
+        "id": "new-leases",
+        "basis": "新增租赁主要对应仓库、门店及生产用租入土地楼宇，不列自用土地权利",
+        "category": "transfer",
+        "label": "新增租赁改列经营设施",
+        "amount": 0.0
+      },
+      {
+        "id": "depreciation",
+        "basis": "附注14(b)按类别披露",
+        "category": "consumption",
+        "label": "自用租赁土地折旧",
+        "amount": -970000.0
+      },
+      {
+        "id": "fx",
+        "basis": "余额减少414而折旧970；其余增加556未直接披露原因，不再假定为汇率",
+        "category": "unresolved",
+        "label": "自用租赁土地未解释变动",
+        "amount": 556000.0
+      }
+    ],
+    "investments": [
+      {
+        "id": "purchases",
+        "basis": "现金流量表及附注21",
+        "category": "investment",
+        "label": "买入本金保证型理财产品",
+        "amount": 160000000.0
+      },
+      {
+        "id": "sales",
+        "basis": "附注21独立列示Disposal 160789；与现金流出售收款一致，不再倒算净账面额",
+        "category": "investment",
+        "label": "处置退出（附注列示额）",
+        "amount": -160789000.0
+      },
+      {
+        "id": "fair-value",
+        "basis": "附注21：当年公允价值变动669，其中期末持有余额未实现收益669",
+        "category": "valuation",
+        "label": "在持理财产品公允价值收益",
+        "amount": 669000.0
+      },
+      {
+        "id": "disposal-loss",
+        "basis": "附注21独立列示处置损失2",
+        "category": "loss",
+        "label": "理财产品处置损失",
+        "amount": -2000.0
+      }
+    ],
+    "financing": [
+      {
+        "id": "new-leases",
+        "basis": "第135页",
+        "category": "financing",
+        "label": "新增租赁负债",
+        "amount": 21974000.0
+      },
+      {
+        "id": "principal-repaid",
+        "basis": "第83页",
+        "category": "financing",
+        "label": "偿还租赁本金",
+        "amount": -13208000.0
+      },
+      {
+        "id": "fx",
+        "basis": "第135页",
+        "category": "valuation",
+        "label": "租赁负债汇兑变动",
+        "amount": -106000.0
+      },
+      {
+        "id": "main-note-rounding",
+        "basis": "主表租赁负债合计20773，附注23(B)合计20774；以未解决尾差保留版本差别",
+        "category": "unresolved",
+        "label": "主表与融资调节表1千元尾差",
+        "amount": -1000.0
+      }
+    ],
+    "shareholder": [
+      {
+        "id": "net-payable",
+        "basis": "第136页股息应付由333降至0；附注23(B)融资调节表的期初数1882与附注25不一致，未虚构流转",
+        "category": "unresolved",
+        "label": "股东应付款净减少",
+        "amount": -333000.0
+      }
+    ],
+    "working": [
+      {
+        "id": "working-settlement",
+        "basis": "第82页现金流周转占用34226，对经营周转净资产为正向投入",
+        "category": "settlement",
+        "label": "经营周转资金现金占用",
+        "amount": 34226000.0
+      },
+      {
+        "id": "working-residual",
+        "basis": "余额增加33785减现金占用34226；现金流原始行仍含税项及可能资本采购结算，不能可靠完全桥接",
+        "category": "unresolved",
+        "label": "周转余额与现金周转变动差额",
+        "amount": -441000.0
+      }
+    ],
+    "other_operating": [
+      {
+        "id": "tax-accrual",
+        "basis": "附注22(a)：所得税应付款38595增至40349",
+        "category": "operating",
+        "label": "所得税应付款净增加",
+        "amount": -1754000.0
+      },
+      {
+        "id": "tax-paid",
+        "basis": "附注22(b)：土地重估及使用权/租赁递延税净义务4740降至4370",
+        "category": "transfer",
+        "label": "经营土地及租赁递延税净变化",
+        "amount": 370000.0
+      },
+      {
+        "id": "deferred-grant",
+        "basis": "递延收入497降至476，与附注6释放21一致",
+        "category": "operating",
+        "label": "递延收入释放",
+        "amount": 21000.0
+      },
+      {
+        "id": "residual",
+        "basis": "附注20、25：税项净义务由409增至2441",
+        "category": "settlement",
+        "label": "增值税及其他非所得税净义务增加",
+        "amount": -2032000.0
+      }
+    ],
+    "capital_settlement": [
+      {
+        "id": "no-change",
+        "basis": "期初期末均为不适用零余额",
+        "category": "transfer",
+        "label": "本年无余额及变动",
+        "amount": 0.0
+      }
+    ],
+    "goodwill": [
+      {
+        "id": "no-change",
+        "basis": "期初期末均为不适用零余额",
+        "category": "transfer",
+        "label": "本年无余额及变动",
+        "amount": 0.0
+      }
+    ],
+    "other_assets": [
+      {
+        "id": "no-change",
+        "basis": "附注15",
+        "category": "valuation",
+        "label": "投资物业公允价值损失",
+        "amount": -2700000.0
+      },
+      {
+        "id": "investment-property-tax",
+        "basis": "三列结构要求非经营资产和相关非经营负债分别列示，本资产变动行归零",
+        "category": "transfer",
+        "label": "投资物业递延税负债改为负债分列",
+        "amount": 0.0
+      }
+    ],
+    "other_liabilities": [
+      {
+        "id": "no-change",
+        "basis": "附注22(b)：投资物业公允价值相关递延税负债由11914降至11549",
+        "category": "valuation",
+        "label": "投资物业递延税负债减少",
+        "amount": -365000.0
+      }
+    ]
+  },
+  "anomalies": [
+    {
+      "id": "ppe-derecognition",
+      "basis": "年报PDF第82、111页，附注7(B)、14(A)",
+      "title": "固定资产终止确认损失显著",
+      "explanation": "本年确认固定资产终止确认损失人民币24.332百万元，显著压低经营利润且并非现金资本开支；需与普通折旧分开理解。",
+      "amount": -24332000.0,
+      "fields": [
+        "wealth.operating.loss",
+        "assets.facilities.closing"
+      ]
+    },
+    {
+      "id": "lease-expansion",
+      "basis": "年报PDF第135页附注23(B)",
+      "title": "新增租赁推动使用权资产和融资负债上升",
+      "explanation": "本年新增租赁人民币21.974百万元，为非现金资本活动；使用权资产及租赁负债同步扩张，不能视作现金借款。",
+      "amount": 21974000.0,
+      "fields": [
+        "noncash.leases",
+        "assets.rights.closing",
+        "assets.financing.closing"
+      ]
+    },
+    {
+      "id": "deposit-concentration",
+      "basis": "年报PDF第134页附注23(A)",
+      "title": "现金资本主要为定期存款且受跨境汇兑规则约束",
+      "explanation": "期末现金资本425.739百万元中346百万元为三个月以上非质押定期存款；附注称中国内地存款汇出受外汇管理规定约束，流动性质量与现金等价物不同。",
+      "amount": 346000000.0,
+      "fields": [
+        "assets.cash.closing"
+      ]
+    },
+    {
+      "id": "lease-rounding",
+      "basis": "年报PDF第79-80、135、137页",
+      "title": "租赁负债附注存在1千元合计尾差",
+      "explanation": "主表流动及非流动租赁负债合计20.773百万元，而附注23(B)列20.774百万元；采用经审计主表分项合计并保留尾差说明。",
+      "amount": 1000.0,
+      "fields": [
+        "assets.financing.closing"
+      ]
+    },
+    {
+      "id": "rou-classification-difference",
+      "basis": "年报PDF第121至122页附注14(b)",
+      "title": "使用权资产分类表与文字存在80千元差异",
+      "explanation": "附注14(b)分类表列其他租赁土地及楼宇30.800百万元，与土地权利22.751百万元合计主表53.551百万元；后续文字称相关使用权资产30.880百万元。采用可与主表闭合的分类表30.800百万元，并保留80千元文字差异。",
+      "amount": 80000.0,
+      "fields": [
+        "assets.facilities.closing",
+        "assets.rights.closing"
+      ]
+    },
+    {
+      "id": "tax-allocation-estimate",
+      "basis": "年报附注8、15、21、22",
+      "title": "所得税按经营、投资及融资贡献估计拆分",
+      "explanation": "总所得税45.459百万元保持不变。非经营税包括股息预提税10.557百万元，并对修正后的利息、净租金、理财处置损失及估值净贡献8.029百万元按15%估计1.204百万元；融资税收影响按租赁利息估计0.100百万元；经营税为剩余33.798百万元。跨司法辖区及税务调整未分项披露。",
+      "amount": null,
+      "fields": [
+        "wealth.operating.tax",
+        "wealth.nonoperating.tax",
+        "wealth.finance.tax"
+      ]
+    },
+    {
+      "id": "financial-disposal-classification",
+      "basis": "年报PDF第77、82、110及129页",
+      "title": "理财产品处置损失损益承载行未明确",
+      "explanation": "现金流量表及附注21明确披露理财产品处置损失2千元，但附注6的其他收入及其他净收益未列该项。基于其非经营理财性质，将损失列入非经营投资回报；为保持损益不重复，推定其原承载于其他经营费用并从经营费用转出。具体损益承载行未直接披露，保留小额分类限制。",
+      "amount": -2000.0,
+      "fields": [
+        "wealth.operating.costs",
+        "wealth.operating.loss",
+        "wealth.nonoperating.returns"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "annual-report-2025",
+      "basis": "Carpenter Tan Holdings Limited 2025 Annual Report，年度截至2025-12-31",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0417/2026041701755.pdf",
+      "sha256": "2520fa3c49abec15e965fa5c21b77d9b35c0f23f3882a91deb399fc8567b74a5"
+    }
+  ],
+  "schema": "capital-statement-v1",
+  "validation": {
+    "errors": [],
+    "warnings": [
+      {
+        "code": "MOVEMENT_ATTRIBUTION_LIMIT",
+        "field": "facilities",
+        "movement": "residual-fx",
+        "amount": -11000.0
+      },
+      {
+        "code": "MOVEMENT_ATTRIBUTION_LIMIT",
+        "field": "facilities",
+        "movement": "leased-rou-residual",
+        "amount": -661000.0
+      },
+      {
+        "code": "MOVEMENT_ATTRIBUTION_LIMIT",
+        "field": "rights",
+        "movement": "fx",
+        "amount": 556000.0
+      },
+      {
+        "code": "MOVEMENT_ATTRIBUTION_LIMIT",
+        "field": "financing",
+        "movement": "main-note-rounding",
+        "amount": -1000.0
+      },
+      {
+        "code": "MOVEMENT_ATTRIBUTION_LIMIT",
+        "field": "shareholder",
+        "movement": "net-payable",
+        "amount": -333000.0
+      },
+      {
+        "code": "MOVEMENT_ATTRIBUTION_LIMIT",
+        "field": "working",
+        "movement": "working-residual",
+        "amount": -441000.0
+      }
+    ],
+    "status": "warning"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "company": "00837.HK",
+  "currency": "CNY",
+  "years": {
+    "2025": {
+      "file": "annual/2025.1c9aa43ada2cae3c.json",
+      "sha256": "1c9aa43ada2cae3cfd2c552d5cff27f07765071af5c45bb8229ac17a04a11e69",
+      "source_run": "tan-2025-sol-low-v1",
+      "bundle_sha256": "c32705ce4b85a4e61498a45e27c1ba3cf896bb06888eb70e4a7695cfcd8b4abf"
+    }
+  },
+  "files": [
+    "annual/2025.1c9aa43ada2cae3c.json"
+  ]
+}

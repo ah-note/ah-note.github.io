@@ -5,7 +5,7 @@
  const col=w=>'<col style="width:'+w+'px">';
  const expanded=v=>new Set(Array.isArray(v)?v:v?[v]:[]);
  const union=(lists,order=[])=>{const keys=new Set(lists.flat());return [...order.filter(k=>keys.delete(k)),...keys];};
- const amount=(v,span=1)=>'<td class="amount"'+(span>1?' rowspan="'+span+'"':'')+'>'+(v===null||v===undefined?'缺失':fmt(v))+'</td>';
+ const amount=(v,span=1,status='',basis='')=>'<td class="amount"'+(span>1?' rowspan="'+span+'"':'')+(basis?' title="'+esc(basis)+'"':'')+'>'+(v===null||v===undefined?'缺失':fmt(v)+(status==='estimated'?'²':''))+'</td>';
  const yearButton=(table,year,open,label=String(year))=>'<button type="button" data-table="'+table+'" data-year="'+year+'" aria-expanded="'+(open.has(year))+'">'+esc(label)+(open.has(year)?' ▾':' ▸')+'</button>';
  const fieldId=(...parts)=>parts.map(encodeURIComponent).join(':');
  // Merge the declared subfield sequences, keeping shared ordering constraints.
@@ -111,6 +111,7 @@
    for(const [key,label] of fields){
     const byYear=Object.fromEntries(years.map(y=>{
      const entries=m.series[y].movements[key];if(!entries)return [y,null];
+     if(entries.length&&entries.every(e=>e.amount===0))return [y,[{code:'none',label:'无变动',amount:0,details:[]}]];
      const cats=union([entries.map(e=>e.category)],Object.keys(dictionary.movementGroups));
      return [y,cats.map(code=>{const parts=entries.filter(e=>e.category===code);return {code,label:dictionary.movementGroups[code]||code,amount:sum(parts.map(e=>e.amount)),details:parts.map(e=>({label:e.label,amount:e.amount,basis:e.basis}))};})];
     }));
@@ -118,14 +119,15 @@
     if(open.size&&!keys.length)keys.push('unresolved');
     const plan=open.size?alignedRows(keys,k=>Object.fromEntries([...open].map(y=>[y,byYear[y]===null?null:byYear[y].find(e=>e.code===k)])),[...open],'assets:'+key,details):[];
     const rows=open.size?plan.length+1:1;
-    const comps=orderedChildren(years.map(y=>(record(y,key,'closing')?.details||[]).map(e=>e.label)));
-    const componentLabel=comps.length?'<details><summary>'+esc(label)+'</summary><table class="components"><thead><tr><th>构成</th>'+years.map(y=>'<th>'+y+'</th>').join('')+'</tr></thead><tbody>'+comps.map(name=>'<tr><th>'+esc(name)+'</th>'+years.map(y=>{const found=record(y,key,'closing')?.details?.filter(e=>e.label===name)||[];return found.length?amount(sum(found.map(e=>e.amount))):'<td></td>';}).join('')+'</tr>').join('')+'</tbody></table></details>':esc(label);
+    const boundaries=[[first-1,first,'opening'],...years.map(y=>[y,y,'closing'])];
+    const comps=orderedChildren(boundaries.map(([,y,side])=>(record(y,key,side)?.details||[]).map(e=>e.label)));
+    const componentLabel=comps.length?'<details><summary>'+esc(label)+'</summary><table class="components"><thead><tr><th>构成</th>'+boundaries.map(([label])=>'<th>'+label+'</th>').join('')+'</tr></thead><tbody>'+comps.map(name=>'<tr><th>'+esc(name)+'</th>'+boundaries.map(([,y,side])=>{const found=record(y,key,side)?.details?.filter(e=>e.label===name)||[];return found.length?amount(sum(found.map(e=>e.amount))):'<td></td>';}).join('')+'</tr>').join('')+'</tbody></table></details>':esc(label);
     for(let i=0;i<rows;i++){
      h+='<tr class="'+(i===rows-1&&open.size?'subtotal':plan[i]?.kind==='child'?'aligned-subfield':'')+'">';
-     if(!i)h+='<th class="item" rowspan="'+rows+'">'+componentLabel+'</th>'+amount(value(first,key,'opening'),rows);
+     if(!i)h+='<th class="item" rowspan="'+rows+'">'+componentLabel+'</th>'+amount(value(first,key,'opening'),rows,record(first,key,'opening')?.status,record(first,key,'opening')?.basis);
      for(const y of years){
       if(open.has(y))h+=i===rows-1?'<td>变动合计</td>'+amount(byYear[y]===null?null:sum(byYear[y].map(e=>e.amount))):entryCells(plan[i],y);
-      if(!i)h+=amount(value(y,key,'closing'),rows);
+      if(!i)h+=amount(value(y,key,'closing'),rows,record(y,key,'closing')?.status,record(y,key,'closing')?.basis);
      }h+='</tr>';
     }
    }
