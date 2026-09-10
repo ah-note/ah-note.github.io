@@ -42,17 +42,22 @@ test('selection is single, toggles closed, and switches year without changing in
 test('new view keeps notes in the same document and has no navigation links',()=>{
  const h=fs.readFileSync(path.join(root,'compare.html'),'utf8');assert.match(h,/page-notes/);assert.doesNotMatch(h,/<a\b|iframe/);
  assert.match(h,/TAN_COMPARE=true/);assert.match(h,/compare.js/);
+ assert.match(h,/view-simple/);assert.match(h,/view-multi/);assert.match(h,/end-year/);
+ assert.doesNotMatch(h,/window.print|collapse-all|收起详情/);
+ assert.doesNotMatch(render(m,{id:'asset-cash',year:2025}),/data-close/);
 });
 test('browser loading and delegated field/year/close actions work together',async()=>{
  const nodes={},handlers={};
- const element=id=>nodes[id]||(nodes[id]={innerHTML:'',textContent:'',addEventListener:(type,fn)=>{handlers[id+':'+type]=fn;},querySelector:()=>({focus(){}})});
+ const element=id=>nodes[id]||(nodes[id]={innerHTML:'',textContent:'',setAttribute(){},addEventListener:(type,fn)=>{handlers[id+':'+type]=fn;},querySelector:()=>({focus(){}})});
  const context=vm.createContext({TAN_COMPARE:true,fetch:async url=>({ok:true,json:async()=>structuredClone(url==='data.json'?a:url==='activities.json'?s25:s24)}),document:{getElementById:element}});
- for(const f of ['berun-assets/fields.js','tan-assets/mapping.js','tan-assets/activities.js','tan-assets/compare.js'])vm.runInContext(fs.readFileSync(path.join(base,f),'utf8'),context,{filename:f});
+ for(const f of ['berun-assets/fields.js','tan-assets/mapping.js','tan-assets/activities.js','berun-assets/app.js','tan-assets/simple.js','tan-assets/compare.js'])vm.runInContext(fs.readFileSync(path.join(base,f),'utf8'),context,{filename:f});
  await new Promise(r=>setImmediate(r));assert.match(nodes.comparison.innerHTML,/经营周转净额/);assert.ok(!nodes['compare-status']);assert.ok(!nodes['activity-rows']);
  const click=dataset=>handlers['comparison:click']({target:{closest:()=>({dataset})}});
  click({id:'asset-facilities',year:'2025'});assert.match(nodes.comparison.innerHTML,/本年变化/);
  click({id:'asset-facilities',year:'2024'});assert.match(nodes.comparison.innerHTML,/尚未转录/);
- click({close:'true'});assert.doesNotMatch(nodes.comparison.innerHTML,/id="inline-detail"/);
+ click({id:'asset-facilities',year:'2024'});assert.doesNotMatch(nodes.comparison.innerHTML,/id="inline-detail"/);
  click({id:'capital-annual',year:'2025'});assert.match(nodes.comparison.innerHTML,/2025 · 资本活动详情/);
- handlers['collapse-all:click']();assert.doesNotMatch(nodes.comparison.innerHTML,/id="inline-detail"/);
+ handlers['view-simple:click']();assert.match(nodes.comparison.innerHTML,/simple-assets/);assert.match(nodes.comparison.innerHTML,/2025 年变动/);assert.equal(nodes['end-year-label'].hidden,false);
+ handlers['end-year:change']({target:{value:'2024'}});assert.match(nodes.comparison.innerHTML,/2024 年变动/);assert.match(nodes.comparison.innerHTML,/2023 年末/);assert.match(nodes.comparison.innerHTML,/不能视为零/);
+ handlers['view-multi:click']();assert.match(nodes.comparison.innerHTML,/capital-matrix/);assert.equal(nodes['end-year-label'].hidden,true);
 });

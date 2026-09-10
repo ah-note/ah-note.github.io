@@ -43,7 +43,7 @@
  function render(m,selection){
   const count=m.years.length+1;
   const button=(id,year,label,cls='')=>'<button type="button" class="'+cls+'" data-id="'+id+'" data-year="'+(year??'')+'" aria-expanded="'+Boolean(selection&&selection.id===id&&selection.year===year)+'" aria-controls="inline-detail">'+label+'</button>';
-  const detailPanel=(title,body,columns=count)=>'<tr id="inline-detail" class="inline-detail"><td colspan="'+columns+'"><div class="detail-heading"><strong>'+escape(title)+'</strong><button type="button" data-close="true">收起 ×</button></div>'+body+'</td></tr>';
+  const detailPanel=(title,body,columns=count)=>'<tr id="inline-detail" class="inline-detail"><td colspan="'+columns+'"><div class="detail-heading"><strong>'+escape(title)+'</strong></div>'+body+'</td></tr>';
   function capital(section){
    const n=m.years.length,columns=2+2*n,allId='capital-annual';
    const cells=r=>m.years.map(y=>'<td>'+button(r.id,y,money(r.values[y]),'number-button')+'</td>').join('');
@@ -92,16 +92,24 @@
  if(typeof module!=='undefined')module.exports={model,render,transition};
  else Promise.all(['data.json','activities.json','activities-2024.json'].map(url=>fetch(url).then(r=>{if(!r.ok)throw Error('数据读取失败');return r.json();}))).then(([assets,a25,a24])=>{
   const annual={2024:TanActivities.buildActivities(a24,a24.reconciliation),2025:TanActivities.buildActivities(a25,assets)};
-  const m=model(assets,annual,standardize),root=document.getElementById('comparison');let state=null;
-  root.innerHTML=render(m,state);
+  const m=model(assets,annual,standardize),root=document.getElementById('comparison');let state=null,view='multi',year=2025;
+  const draw=()=>{
+   root.innerHTML=view==='multi'?render(m,state):TanSimpleView.simpleView(year,assets,annual,standardize,TanAssetView.render,TanActivities.renderActivities);
+   document.getElementById('view-simple').setAttribute('aria-pressed',String(view==='simple'));
+   document.getElementById('view-multi').setAttribute('aria-pressed',String(view==='multi'));
+   document.getElementById('end-year-label').hidden=view!=='simple';
+   document.getElementById('view-help').textContent=view==='multi'?'点击项目、金额或年份展开详情，再次点击收起。税项分摊为估计；两种活动汇总不可相加。':'简版按所选期末年份展示资产流转和全年资本活动。税项分摊为估计；两种活动汇总不可相加。';
+  };
+  draw();
   root.addEventListener('click',event=>{
-   const b=event.target.closest('button');if(!b)return;
+   const b=event.target.closest('button');if(!b||view!=='multi'||!b.dataset.id)return;
    const previous=state;
-   state=b.dataset.close?null:transition(state,b.dataset.id,b.dataset.year===''?null:Number(b.dataset.year));
-   root.innerHTML=render(m,state);
+   state=transition(state,b.dataset.id,b.dataset.year===''?null:Number(b.dataset.year));
+   draw();
    const focus=state||previous;
    if(focus)root.querySelector('button[data-id="'+focus.id+'"][data-year="'+(focus.year??'')+'"]')?.focus({preventScroll:true});
   });
-  document.getElementById('collapse-all').addEventListener('click',()=>{state=null;root.innerHTML=render(m,state);});
+  for(const mode of ['simple','multi'])document.getElementById('view-'+mode).addEventListener('click',()=>{view=mode;draw();});
+  document.getElementById('end-year').addEventListener('change',event=>{year=Number(event.target.value);draw();});
  }).catch(e=>{document.getElementById('compare-status').textContent='年度表暂未显示：'+e.message;});
 })();

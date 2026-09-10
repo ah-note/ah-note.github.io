@@ -31,4 +31,7 @@ function render(d,mapper=mapData){
  return out;
 }
 if(typeof module!=='undefined')module.exports={render};
-if(typeof document!=='undefined')fetch('data.json').then(r=>{if(!r.ok)throw Error('数据加载失败');return r.json();}).then(d=>{document.getElementById('rows').innerHTML=render(d);}).catch(()=>{document.getElementById('status').textContent='数据暂时无法加载或核对未通过，请刷新。';});
+if(typeof document!=='undefined'){
+ globalThis.TanAssetView={render};
+ if(!globalThis.TAN_COMPARE)fetch('data.json').then(r=>{if(!r.ok)throw Error('数据加载失败');return r.json();}).then(d=>{document.getElementById('rows').innerHTML=render(d);}).catch(()=>{document.getElementById('status').textContent='数据暂时无法加载或核对未通过，请刷新。';});
+}
