@@ -98,8 +98,9 @@
   h+='<tr><th>非现金资本配置</th>'+years.map(y=>amount(annual[y].noncash)+(open.has(y)?'<td colspan="2">新增租赁：经营设施与融资负债同时增加，不计入以上汇总。</td>':'')).join('')+'</tr>';
   return h+'</tbody></table></div>';
  }
- function protocolAssets(m,selected,details){
+ function protocolAssets(m,selected,details,componentState){
   const years=m.years,open=expanded(selected),first=years[0],count=2+years.length+open.size*2,width=330+years.length*100+open.size*420;
+  componentState=componentState||{};
   const dictionary=typeof module!=='undefined'?require('../berun-assets/fields.js'):{assetSets,movementGroups};
   const sum=xs=>xs.some(x=>x===null||x===undefined)?null:xs.reduce((a,b)=>a+b,0);
   const record=(y,key,side)=>m.series[y].records[`assets.${key}.${side}`];
@@ -121,7 +122,9 @@
     const rows=open.size?plan.length+1:1;
     const boundaries=[[first-1,first,'opening'],...years.map(y=>[y,y,'closing'])];
     const comps=orderedChildren(boundaries.map(([,y,side])=>(record(y,key,side)?.details||[]).map(e=>e.label)));
-    const componentLabel=comps.length?'<details><summary>'+esc(label)+'</summary><table class="components"><thead><tr><th>构成</th>'+boundaries.map(([label])=>'<th>'+label+'</th>').join('')+'</tr></thead><tbody>'+comps.map(name=>'<tr><th>'+esc(name)+'</th>'+boundaries.map(([,y,side])=>{const found=record(y,key,side)?.details?.filter(e=>e.label===name)||[];return found.length?amount(sum(found.map(e=>e.amount))):'<td></td>';}).join('')+'</tr>').join('')+'</tbody></table></details>':esc(label);
+    const componentId=fieldId('components',key),componentsOpen=Boolean(componentState[componentId]);
+    const componentLabel=comps.length?'<button type="button" class="component-toggle" data-component="'+componentId+'" aria-expanded="'+componentsOpen+'">'+(componentsOpen?'▾ ':'▸ ')+esc(label)+'</button>':esc(label);
+    const componentAmount=(y,side,name)=>{const found=record(y,key,side)?.details?.filter(e=>e.label===name)||[];return found.length?amount(sum(found.map(e=>e.amount))):'<td></td>';};
     for(let i=0;i<rows;i++){
      h+='<tr class="'+(i===rows-1&&open.size?'subtotal':plan[i]?.kind==='child'?'aligned-subfield':'')+'">';
      if(!i)h+='<th class="item" rowspan="'+rows+'">'+componentLabel+'</th>'+amount(value(first,key,'opening'),rows,record(first,key,'opening')?.status,record(first,key,'opening')?.basis);
@@ -129,6 +132,14 @@
       if(open.has(y))h+=i===rows-1?'<td>变动合计</td>'+amount(byYear[y]===null?null:sum(byYear[y].map(e=>e.amount))):entryCells(plan[i],y);
       if(!i)h+=amount(value(y,key,'closing'),rows,record(y,key,'closing')?.status,record(y,key,'closing')?.basis);
      }h+='</tr>';
+    }
+    if(componentsOpen)for(const name of comps){
+     h+='<tr class="asset-component"><th class="subfield">'+esc(name)+'</th>'+componentAmount(first,'opening',name);
+     for(const y of years){
+      if(open.has(y))h+='<td colspan="2"></td>';
+      h+=componentAmount(y,'closing',name);
+     }
+     h+='</tr>';
     }
    }
    h+=total(title+'合计',(y,side)=>sum(fields.map(([key])=>value(y,key,side))));
@@ -144,8 +155,9 @@ function evidence(m){
    const facts=d.schema==='capital-statement-v2'?'<details><summary>原始事实与映射 · '+Object.keys(d.facts).length+' 项</summary>'+d.mappings.map(mapping=>{const fact=d.facts[mapping.fact_id]||{};return '<p><strong>'+esc(fact.label||mapping.fact_id)+'</strong> 来源 '+(fact.source_amount===null||fact.source_amount===undefined?'缺失':fmt(fact.source_amount))+' → '+esc(mapping.field)+' '+(mapping.amount===null||mapping.amount===undefined?'缺失':fmt(mapping.amount))+' · '+esc(fact.source_id||'')+' p.'+esc(fact.page||'')+(fact.calculation?' · '+esc(fact.calculation):'')+' · '+esc(mapping.rationale||'')+'</p>';}).join('')+'</details>':'';
    return '<details><summary>'+y+' 年</summary>'+d.sources.map(s=>'<p>'+esc(s.basis)+' · '+esc(s.url)+'</p>').join('')+facts+Object.entries(d.records).map(([key,r])=>'<p><strong>'+esc(key)+'</strong> '+esc(r.status)+' · '+esc(r.basis)+'</p>').join('')+(d.validation?.warnings||[]).map(w=>'<p>'+esc(w.code)+' · '+esc(w.check||w.field||'')+(w.difference!==undefined?' · 差额 '+fmt(w.difference):w.amount!==undefined?' · 差额 '+fmt(w.amount):'')+'</p>').join('')+'</details>';}).join('')+'</details>';
 }
- function render(m,state={}){return '<div class="simple-view multi-fold">'+(m.series?protocolAssets(m,state.assets,state.details||{}):assetTable(m.assets,m.groups,m.years,state.assets,state.details||{}))+activityTable(m.annual,m.years,state.capital,state.details||{})+(m.series?anomalyTable(m)+evidence(m):'')+'</div>';}
+ function render(m,state={}){return '<div class="simple-view multi-fold">'+(m.series?protocolAssets(m,state.assets,state.details||{},state.components||{}):assetTable(m.assets,m.groups,m.years,state.assets,state.details||{}))+activityTable(m.annual,m.years,state.capital,state.details||{})+(m.series?anomalyTable(m)+evidence(m):'')+'</div>';}
  function toggle(state,table,year){if(!['assets','capital'].includes(table)||!Number.isInteger(year)||year<1900||year>2200)return state;const selected=expanded(state[table]);selected.has(year)?selected.delete(year):selected.add(year);const years=[...selected].sort();return {...state,assets:years,capital:[...years]};}
  function toggleField(state,key){return {...state,details:{...state.details,[key]:!state.details?.[key]}};}
- if(typeof module!=='undefined')module.exports={render,toggle,union,toggleField,fieldId};else globalThis.TanMultiView={render,toggle,toggleField};
+ function toggleComponent(state,key){return {...state,components:{...state.components,[key]:!state.components?.[key]}};}
+ if(typeof module!=='undefined')module.exports={render,toggle,union,toggleField,toggleComponent,fieldId};else globalThis.TanMultiView={render,toggle,toggleField,toggleComponent};
 })();

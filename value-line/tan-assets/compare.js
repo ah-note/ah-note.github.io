@@ -26,6 +26,11 @@
   draw();
   root.addEventListener('click',event=>{
    const b=event.target.closest('button');if(!b)return;
+   if(b.dataset.component){
+    state=TanMultiView.toggleComponent(state,b.dataset.component);draw();
+    root.querySelector('button[data-component="'+b.dataset.component+'"]')?.focus({preventScroll:true});
+    return;
+   }
    if(b.dataset.field){
     state=TanMultiView.toggleField(state,b.dataset.field);draw();
     root.querySelector('button[data-field="'+b.dataset.field+'"][data-year="'+b.dataset.year+'"]')?.focus({preventScroll:true});

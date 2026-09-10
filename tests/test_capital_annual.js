@@ -17,6 +17,12 @@ function fixtureV2(year){
  d.records['assets.working.closing']={amount:-100000000,status:'disclosed',basis:'annual p.90',details:[{label:'Trade payables',source_amount:100000000,amount:-100000000,source:'annual p.90'}]};
  return d;
 }
+function componentFixture(year){
+ const d=fixtureV2(year),opening=year===2021?80000000:90000000,closing=100000000;
+ d.records['assets.working.opening']={amount:opening,status:'derived',basis:'annual',details:[{label:'Inventory',amount:opening,source_amount:opening}]};
+ d.records['assets.working.closing']={amount:closing,status:'derived',basis:'annual',details:[{label:'Inventory',amount:closing,source_amount:closing}]};
+ return d;
+}
 test('one-year and five-year independent documents preserve all standard fields',()=>{
  for(const years of [[2025],[2021,2022,2023,2024,2025]]){
   const m=model(years.map(fixture)),h=view.render(m);
@@ -67,4 +73,13 @@ test('all five-year expansion combinations form valid rectangular grids',()=>{
    assert.ok(occupied.every(n=>n===0));
   }
  }
+});
+test('asset components expand as aligned rows in the parent table',()=>{
+ const m=model([componentFixture(2021),componentFixture(2022)]),id=view.fieldId('components','working');
+ const state=view.toggleComponent({assets:[2021,2022]},id),html=view.render(m,state);
+ assert.match(html,/class="asset-component"><th class="subfield">Inventory<\/th>/);
+ assert.doesNotMatch(html,/<table class="components">/);
+ const row=html.match(/<tr class="asset-component">([\s\S]*?)<\/tr>/)[1];
+ assert.equal((row.match(/<(?:th|td)\b/g)||[]).length,6);
+ assert.doesNotMatch(view.render(m,view.toggleComponent(state,id)),/class="asset-component"/);
 });
