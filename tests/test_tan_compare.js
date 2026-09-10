@@ -10,7 +10,7 @@ test('balance headers stay fixed and annual flow headers are separate',()=>{
   assert.match(h,/2024 全年/);assert.match(h,/2025 全年/);
   if(year){assert.ok(h.indexOf(year+' 年变动</th>')<h.indexOf('class="balance-label">'+year+' 年末'));}
  }
- const css=fs.readFileSync(path.join(root,'simple.css'),'utf8');assert.match(css,/max-width:none;width:100%;margin:0/);assert.match(css,/overflow-x:auto/);
+ const css=fs.readFileSync(path.join(root,'simple.css'),'utf8');assert.match(css,/max-width:none;width:100%;margin:0/);assert.match(css,/overflow-x:auto/);assert.match(css,/\.simple-view>\.table-wrap>table\{margin-inline:auto\}/);
 });
 test('default retains standard asset rows and only capital major totals',()=>{
  const h=render(m,{});
