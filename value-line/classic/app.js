@@ -1,6 +1,5 @@
-/* Historical observations transcribed from the linked public Disney sample.
- * E columns are deliberately independent layout assumptions, never source forecasts. */
-const years=[2007,2008,2009,2010,2011,2012,2013,2014,2015,2016];
+// Historical source values and source estimates. Missing values remain null.
+const years=Array.from({length:18},(_,i)=>2001+i);
 const rows=[
  ['每股收入 $','收入除以来源采用的股数；保留原样页口径。',[18.10,20.76,19.88,20.07,23.21,23.49,25.02,28.71,32.79,34.77],2,1.05],
  ['每股收益 EPS $','来源调整后摊薄 EPS，剔除部分非经常项目；非未经调整 GAAP EPS。',[1.92,2.26,1.82,2.07,2.54,3.13,3.38,4.26,4.90,5.73],2,1.05],
@@ -21,13 +20,33 @@ const financials=[
  ['权益回报率 %','原样页权益回报率，保留来源分母口径，不冒充自算平均权益 ROE。',[13.1,13.6,10.1,10.8,12.9,14.3,13.5,16.7,18.8,21.7],1,null],
  ['分红 / 净利润 %','原样页全部股利与净利润之比。',[16,15,19,16,16,19,22,20,37,25],0,null]
 ];
-const fmt=(n,d)=>n.toLocaleString('en-US',{minimumFractionDigits:d,maximumFractionDigits:d});
-function prediction(row,n){if(row[4]!==null)return fmt(row[2].at(-1)*row[4]**n,row[3]);return '—';}
-function table(data,caption){return `<table class="matrix" aria-label="${caption}"><thead><tr>${years.map(y=>`<th scope="col">${y}</th>`).join('')}<th class="label" scope="col">${caption}</th>${[2017,2018,2020].map(y=>`<th class="estimate" scope="col">${y}E</th>`).join('')}</tr></thead><tbody>${data.map(r=>`<tr>${r[2].map(v=>`<td>${fmt(v,r[3])}</td>`).join('')}<th class="label" scope="row" title="${r[1]}">${r[0]}</th>${[1,2,4].map(n=>`<td class="estimate">${prediction(r,n)}</td>`).join('')}</tr>`).join('')}</tbody></table>`;}
-document.getElementById('per-share').innerHTML=table(rows,'每股与市场数据');
-document.getElementById('financials').innerHTML=table(financials,'公司财务 · 百万美元');
-document.getElementById('growth').innerHTML='<thead><tr><th>指标</th><th>2011—16</th><th>2007—16</th></tr></thead><tbody>'+[0,1,2,4].map(i=>`<tr><th>${rows[i][0].replace(' $','')}</th>${[4,0].map(j=>`<td>${fmt(((rows[i][2][9]/rows[i][2][j])**(1/(9-j))-1)*100,1)}%</td>`).join('')}</tr>`).join('')+'</tbody>';
-const hi=[36.8,35,32.8,38,44.3,53.4,76.5,95.9,122.1,106.8],lo=[30.7,18.6,15.1,28.7,28.2,37.9,50.2,69.9,90,86.3];
-const x=i=>45+i*78,y=v=>257-v*1.6;
-document.getElementById('chart').innerHTML=`<svg viewBox="0 0 850 300" role="img" aria-label="迪士尼 2007 至 2016 年年度最高最低股价区间，未补造月度数据"><rect x="30" y="27" width="770" height="230" fill="#fff" stroke="#111"/>${[20,40,60,80,100,120,140].map(v=>`<path d="M30 ${y(v)}H800" stroke="#bbb" stroke-width=".6"/><text x="807" y="${y(v)+4}">${v}</text>`).join('')}${years.map((yr,i)=>`<path d="M${x(i)} 27V257" stroke="#ddd"/><path d="M${x(i)} ${y(hi[i])}V${y(lo[i])}M${x(i)-6} ${y(hi[i])}H${x(i)+6}M${x(i)-6} ${y(lo[i])}H${x(i)+6}" stroke="#111" stroke-width="2"/><text text-anchor="middle" x="${x(i)}" y="${y(hi[i])-7}">${hi[i]}</text><text text-anchor="middle" x="${x(i)}" y="${y(lo[i])+15}">${lo[i]}</text><text text-anchor="middle" x="${x(i)}" y="277">${yr}</text>`).join('')}<text x="34" y="16">年度最高 / 最低价</text></svg>`;
-if(typeof module!=='undefined')module.exports={years,rows,financials,prediction,hi,lo};
+
+const early=[[12.52,12.40,13.23,15.05,15.91,16.61],[.98,.55,.66,1.09,1.31,1.61],[.21,.21,.21,.21,.24,.27],[.89,.53,.51,.7,.91,.63],[11.23,11.48,11.63,12.77,13.06,15.42],[2019,2042,2045,2043,2007.2,2064],[30.4,37.2,28,21.8,20.4,17.1],[.7,1,1.1,.9,.9,1]];
+const estimates=[[36.2,37.65,40.5],[5.9,6.35,7.6],[1.56,1.72,2.1],[3,3,3],[28.35,30.8,41.25],[1575,1570,1550],[null,null,16],[null,null,1.7]];
+rows.forEach((r,i)=>{r[2]=early[i].concat(r[2],estimates[i].slice(0,2));r[4]=estimates[i][2];});
+rows[5][0]='期末普通股数 · 百万';
+rows.splice(1,0,['每股“现金流” $','来源利润加折旧摊销口径，非 OCF 或 FCFF。',[1.89,1.06,1.19,1.7,2.03,2.32,2.81,3.28,2.77,3.03,3.79,4.26,4.63,5.76,6.71,7.45,7.9,8.25],2,9.4]);
+rows.splice(8,0,['相对 PE','相对 Value Line 覆盖股票的市盈率。',[1.56,2.03,1.6,1.15,1.09,.92,.94,.85,.83,1,.95,.87,.96,.98,1.05,.93,null,null],2,1]);
+const fe=[[57000,59100,62750],[9840,10365,11780],[32,32,32],[16.9,17.6,18.8],[16000,16000,16000],[44640,48350,63950],[22,21.5,18.5],[25,26,28]];
+financials.forEach((r,i)=>{r[2]=r[2].concat(fe[i].slice(0,2));r[4]=fe[i][2];});
+financials.splice(1,0,['经营利润率 %','来源 EBITDA 口径。',[23.3,23.7,20.3,22.2,23.5,25.7,25.8,28.3,29.7,30.4,31.5,32],1,33],['折旧','百万美元。',[1491,1582,1631,1713,1841,1987,2192,2288,2354,2527,2600,2625],0,2800]);
+financials.splice(6,0,['营运资本','流动资产减流动负债。',[-77,75,2955,1225,1669,896,2405,1884,424,124,124,175],0,585]);
+financials.splice(9,0,['总资本回报率 %','来源口径，非 ROIC。',[10,10.8,8.1,8.9,10.4,11.6,10.8,13,14.7,15.9,16,15],1,12.5]);
+financials.splice(11,0,['留存利润 / 普通股权益 %','来源留存盈利与普通股权益之比。',[11,11.6,8.2,9,10.9,11.6,10.6,13.3,11.9,16.4,16.5,16],1,13.5]);
+const fmt=(n,d=1)=>n==null?'—':n.toLocaleString('en-US',{minimumFractionDigits:d,maximumFractionDigits:d});
+function table(data,offset=0,head=false){return '<table class="matrix"><colgroup>'+years.slice(offset).map(()=>'<col class="year-col">').join('')+'<col class="label-col"><col class="far-col"></colgroup>'+(head?'<thead><tr>'+years.slice(offset).map(y=>'<th>'+y+(y>2016?'E':'')+'</th>').join('')+'<th class="label">年度数据</th><th>2020–22E</th></tr></thead>':'')+'<tbody>'+data.map(r=>'<tr>'+r[2].map((v,i)=>'<td class="'+(i+offset>=16?'estimate':'')+'">'+fmt(v,r[3])+'</td>').join('')+'<th class="label" scope="row" title="'+r[1]+'">'+r[0]+'</th><td class="estimate far">'+fmt(r[4],r[3])+'</td></tr>').join('')+'</tbody></table>';}
+document.getElementById('per-share').innerHTML=table(rows,0,true);
+document.getElementById('financials').innerHTML=table(financials,6);
+function small(id,headers,data){document.getElementById(id).innerHTML='<table class="small"><thead><tr>'+headers.map(x=>'<th>'+x+'</th>').join('')+'</tr></thead><tbody>'+data.map(r=>'<tr>'+r.map((v,i)=>(i?'<td>':'<th scope="row">')+(v??'—')+(i?'</td>':'</th>')).join('')+'</tr>').join('')+'</tbody></table>';}
+small('insiders',['','J','J','A','S','O','N','D','J','F'],[['买入',0,0,0,0,0,0,0,0,0],['期权',0,10,1,0,10,1,7,15,3],['卖出',0,0,0,0,0,3,2,1,3]]);
+small('institutions',['','16Q2','16Q3','16Q4'],[['买入',830,828,915],['卖出',783,795,811],['持股·千股',938707,909837,962026]]);
+small('returns',['总回报 %','DIS','VL 指数'],[['1年',15.9,20.2],['3年',47.3,22],['5年',176.9,78]]);
+small('position',['百万美元','2015','2016','16/12/31'],[['现金',4269,4610,3736],['应收',8019,9065,9878],['存货',1571,1390,1299],['其他流动资产',2899,1901,1752],['流动资产',16758,16966,16665],['应付账款',7844,9130,9979],['到期债务',4563,3687,5698],['其他流动负债',3927,4025,3640],['流动负债',16334,16842,19317]]);
+small('growth',['每股增长率','过去10年','过去5年','远期E'],[['收入','7.5%','9.0%','4.0%'],['“现金流”','12.5%','15.5%','6.0%'],['收益','14.0%','18.5%','7.5%'],['股利','19.0%','30.0%','7.5%'],['账面价值','7.0%','6.5%','7.0%']]);
+const qhead=['财年','12月','3月','6月','9月','全年'];
+small('quarter-sales',qhead,[[2014,12309,11649,12466,12389,48813],[2015,13391,12461,13101,13512,52465],[2016,15244,12969,14277,13142,55632],['2017*',14784,'13436E','14750E','14030E','57000E'],['2018E',15000,14575,14850,14675,59100]]);
+small('quarter-eps',qhead,[[2014,1.03,1.08,1.28,.87,4.26],[2015,1.27,1.23,1.45,.95,4.9],[2016,1.73,1.3,1.59,1.1,5.73],['2017*',1.55,'1.40E','1.70E','1.25E','5.90E'],['2018E',1.75,1.45,1.75,1.4,6.35]]);
+small('quarter-div',['自然年','3月','6月','9月','12月','全年'],[[2013,null,null,null,null,null],[2014,.86,null,null,null,.86],[2015,1.15,null,.66,null,1.81],[2016,.71,null,.71,null,1.42],[2017,.78,null,null,null,null]]);
+small('high-low',['',...Array.from({length:12},(_,i)=>2006+i)],[['高',34.9,36.8,35,32.8,38,44.3,53.4,76.5,95.9,122.1,106.8,115.5],['低',23.8,30.7,18.6,15.1,28.7,28.2,37.9,50.2,69.9,90,86.3,105.2]]);
+document.getElementById('price-grid').innerHTML='<svg viewBox="0 0 850 270" role="img" aria-label="月度股价与指标曲线暂无数据，保留占位"><rect x="0" y="0" width="810" height="265" fill="white" stroke="#222"/>'+[20,30,40,50,60,80,100,160,200].map((v,i)=>'<path d="M0 '+(220-i*24)+'H810" stroke="#aaa" stroke-width=".6"/><text x="816" y="'+(224-i*24)+'">'+v+'</text>').join('')+Array.from({length:14},(_,i)=>'<path d="M'+(i*58)+' 0V265" stroke="#bbb" stroke-width=".6"/>').join('')+'<text x="360" y="100">月度股价　—</text><text x="12" y="230">相对强弱　—</text><text x="12" y="255">换手率 %　—</text></svg>';
+if(typeof module!=='undefined')module.exports={years,rows,financials,table};
