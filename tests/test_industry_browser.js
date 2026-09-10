@@ -32,6 +32,7 @@ async function main() {
   const route = hash => { location.hash=hash; events.hashchange(); return get('industryApp').innerHTML; };
   assert.match(route('#company=PENDING'),/尚未核准/);
   assert.match(get('industryApp').innerHTML,/候选类别（待核）/);
+  assert.match(route('#company=DONE'),/当前没有其他已归类公司/);
   assert.doesNotMatch(route('#category=excluded'),/PENDING/);
   assert.match(get('industryApp').innerHTML,/SHELL/);
   assert.doesNotMatch(route('#category=leaf%3Aa'),/PENDING/);

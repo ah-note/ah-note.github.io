@@ -218,7 +218,7 @@
     const exposurePending = issuer.exposure_review_status === "pending" ? '<p class="industry-view-note">重大跨行业业务尚待核准。</p>' : "";
     const peersSection = leaf ? `
       <section class="industry-section"><div class="industry-section-head"><h2>${escapeHtml(leaf.name)}的其他公司</h2><span>${peers.length} 家</span></div>
-        ${peers.length ? `<div class="industry-company-grid">${peers.map((peer) => `<div class="industry-company">${companyLink(peer)}</div>`).join("")}</div>` : '<p class="industry-empty">当前没有其他合资格公司。</p>'}
+        ${peers.length ? `<div class="industry-company-grid">${peers.map((peer) => `<div class="industry-company">${companyLink(peer)}</div>`).join("")}</div>` : '<p class="industry-empty">当前没有其他已归类公司。</p>'}
       </section>` : "";
     app.innerHTML = `${breadcrumb(path, issuer.name)}
       <article class="company-profile">
