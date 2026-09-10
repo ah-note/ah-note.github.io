@@ -42,3 +42,6 @@
   - The industry browser reads the finalized `stock_analysis` `ah_v3` snapshot and preserves residual leaves as upstream evidence states.
   - Display-only duplicate-name collapse remains separate from the auditable taxonomy.
 - Verification: 32 site tests passed and the real `ah_v3` industry-only build generated 8,061 issuers across 244 leaves.
+# 2026-09-10T15:59:00+08:00
+
+自动阈值整理d03baf8a..4bfda2dd，吸收13:55至15:58的10份记录到absorbed/2026-09-10-annual-protocol/。更新公司原型边界和当前状态，消除单年展开、两表独立选年和简版入口的过时说明；保留旧tag及历史数据，明确新协议尚无真实产物接入。生产数量仍是历史快照，未借原型更新宣称生产变化。
