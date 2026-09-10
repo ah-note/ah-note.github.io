@@ -232,13 +232,14 @@ class SitePipelineTest(unittest.TestCase):
                 patch("watch_stock_report.reload_after_site_update"),
                 patch("watch_stock_report.completed_reports", return_value=reports),
                 patch("watch_stock_report.load_state", return_value={"reports": reports}),
+                patch("watch_stock_report.classification_digest", return_value="classification-v1"),
                 patch("watch_stock_report.publish", return_value={"status": "published"}) as publish,
                 patch("watch_stock_report.save_state") as save_state,
             ):
                 result = publish_changes(root, root, root / "state.json", 0)
 
         publish.assert_called_once_with(root, ["600036.SH"], stock_analysis_root=root)
-        save_state.assert_called_once_with(root / "state.json", reports)
+        save_state.assert_called_once_with(root / "state.json", reports, "classification-v1")
         self.assertEqual(result["changed_codes"], ["600036.SH"])
 
     def test_missing_published_codes_deduplicates_report_periods(self) -> None:

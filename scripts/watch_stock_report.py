@@ -16,6 +16,46 @@ from formal_reports import formal_report_digest, load_formal_reports
 from site_sources import CURRENT_SCHEMAS, UNIFIED_SCHEMA, is_publishable, normalize_result
 
 
+def classification_digest(stock_analysis_root: Path) -> str:
+    """Hash versioned inputs/code, not generated timestamps or unrelated commits."""
+    root = stock_analysis_root.resolve()
+    recipe = root / "data/normalized/industry_classification/ahu_site_recipe_v1.json"
+    payload = json.loads(recipe.read_text(encoding="utf-8"))
+    if payload.get("schema_version") != "industry-review-recipe-v1":
+        raise ValueError("unsupported classification recipe")
+    inputs = [recipe]
+    for key in ("source", "decisions"):
+        relative = Path(payload[key])
+        path = (root / relative).resolve()
+        if relative.is_absolute() or not path.is_relative_to(root):
+            raise ValueError("classification recipe path escapes repository")
+        if not path.exists():
+            raise FileNotFoundError(path)
+        inputs.extend(sorted(path.rglob("*")) if path.is_dir() else [path])
+    # AH names/representative supplements and generator changes affect output too.
+    for relative in ("data/snapshots/industry_classification/ah_v4",
+                     "src/stock_analysis/industry_classification"):
+        directory = root / relative
+        if not directory.is_dir():
+            raise FileNotFoundError(directory)
+        inputs.extend(p for p in directory.rglob("*")
+                      if p.suffix in {".json", ".jsonl", ".py"})
+    digest = hashlib.sha256()
+    for path in sorted(set(p for p in inputs if p.is_file())):
+        if not path.resolve().is_relative_to(root):
+            raise ValueError("classification input symlink escapes repository")
+        digest.update(str(path.relative_to(root)).encode())
+        digest.update(b"\0")
+        digest.update(hashlib.sha256(path.read_bytes()).digest())
+    for relative in ("scripts/industry_catalog.py", "scripts/build_site.py",
+                     "assets/industries.js", "assets/styles.css"):
+        path = ROOT / relative
+        if path.is_file():
+            digest.update(relative.encode())
+            digest.update(hashlib.sha256(path.read_bytes()).digest())
+    return digest.hexdigest()
+
+
 def site_head() -> str:
     completed = subprocess.run(
         ["git", "rev-parse", "HEAD"], cwd=ROOT, text=True,
@@ -133,11 +173,12 @@ def load_state(path: Path) -> dict[str, Any]:
     return payload if isinstance(payload, dict) else {"reports": {}}
 
 
-def save_state(path: Path, reports: dict[str, dict[str, str]]) -> None:
+def save_state(path: Path, reports: dict[str, dict[str, str]], industry_digest: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     temporary = path.with_suffix(path.suffix + ".tmp")
     temporary.write_text(
-        json.dumps({"updated_at": time.strftime("%Y-%m-%dT%H:%M:%S%z"), "reports": reports}, ensure_ascii=False, indent=2),
+        json.dumps({"updated_at": time.strftime("%Y-%m-%dT%H:%M:%S%z"), "reports": reports,
+                    "industry_digest": industry_digest}, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
     temporary.replace(path)
@@ -163,10 +204,16 @@ def publish_changes(
     # reload_after_site_update replaces this process so imported modules match it.
     reload_after_site_update()
     reports = completed_reports(stock_report_root, settle_seconds)
-    previous = load_state(state_file).get("reports") or {}
+    state = load_state(state_file)
+    previous = state.get("reports") or {}
+    industry_digest = classification_digest(stock_analysis_root)
+    industry_changed = state.get("industry_digest") != industry_digest or any(
+        not (ROOT / relative).is_file()
+        for relative in ("industries/index.html", "data/industry-classification.json")
+    )
     changed = [record for key, record in reports.items() if previous.get(key) != record]
     missing_codes = missing_published_codes(reports)
-    if not changed and not missing_codes:
+    if not changed and not missing_codes and not industry_changed:
         return {"status": "unchanged", "changed_codes": []}
     codes = sorted({record["code"] for record in changed} | set(missing_codes))
     result = publish(
@@ -174,8 +221,9 @@ def publish_changes(
         codes,
         stock_analysis_root=stock_analysis_root,
     )
-    save_state(state_file, reports)
+    save_state(state_file, reports, industry_digest)
     result["changed_codes"] = codes
+    result["industry_changed"] = industry_changed
     return result
 
 
