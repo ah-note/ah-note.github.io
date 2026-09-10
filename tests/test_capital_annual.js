@@ -29,7 +29,7 @@ test('one-year and five-year independent documents preserve all standard fields'
   assert.equal(m.years.length,years.length);
   for(const [,,fields] of assetSets)for(const [,label] of fields)assert.ok(h.includes(label));
   assert.ok(h.includes((years[0]-1)+' 年末'));
-  assert.match(h,/异常与一次性事项/);
+  assert.match(h,/重要异常与一次性事项/);
   assert.doesNotMatch(h,/产品与服务收入/);
   assert.match(view.render(m,{assets:years,capital:years}),/产品与服务收入/);
  }
@@ -53,6 +53,17 @@ test('adjacent opening disagreement is visible without overwriting either value'
  b.records['assets.working.opening'].amount=200000000;
  const m=model([a,b]);assert.equal(m.boundaryWarnings.length,1);
  const h=view.render(m);assert.match(h,/期末／期初不一致/);assert.match(h,/前期 1.00，本期期初 2.00/);
+});
+test('page hides sub-3-percent discrepancies but retains material anomalies',()=>{
+ const d=fixture(2025);d.records['assets.financing.closing'].amount=100000000;
+ d.anomalies=[
+  {title:'附注尾差',explanation:'不重要',amount:1000000,fields:['assets.financing.closing']},
+  {title:'重大终止确认',explanation:'需要展示',amount:4000000,fields:['assets.financing.closing']},
+ ];
+ d.validation.warnings=[{code:'SMALL_DIFFERENCE',field:'financing',amount:1000}];
+ const h=view.render(model([d])),anomalies=h.match(/<table class="year-anomalies">[\s\S]*?<\/table>/)[0];
+ assert.doesNotMatch(anomalies,/附注尾差|不重要|SMALL_DIFFERENCE|保留 1 项/);
+ assert.match(anomalies,/重大终止确认|需要展示|2025 · 1 项/);
 });
 test('all five-year expansion combinations form valid rectangular grids',()=>{
  const m=model([2021,2022,2023,2024,2025].map(fixture));

@@ -57,7 +57,7 @@ test('asset expansion inserts changes before that year balance, with original ro
 test('capital expansion inserts children after the selected annual total',()=>{
  const h=render(m,{capital:2025});
  assert.match(h,/产品与服务收入/);assert.match(h,/税后经营盈余（折旧、损失前）/);
- assert.match(h,/rowspan="7"/);assert.match(h,/子项目/);assert.match(h,/净贡献／净收付/);
+ assert.match(h,/rowspan="7"/);assert.match(h,/子项目/);assert.doesNotMatch(h,/净贡献／净收付/);
  assert.doesNotMatch(h,/<th colspan="2">2025 年变动|inline-detail/);
  assert.ok(h.includes('1.65'));assert.ok(h.includes('2.02'));
 });

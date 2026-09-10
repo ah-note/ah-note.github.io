@@ -74,7 +74,7 @@
  }
  function activityTable(annual,years,open,detailState){
   open=expanded(open);const columns=1+years.length+open.size*2,width=200+years.length*110+open.size*540;
-  let h='<div class="table-wrap"><table class="year-activities" style="width:'+width+'px;min-width:'+width+'px"><caption>资本活动表 <small>全年发生额 · 人民币亿元</small></caption><colgroup>'+col(200)+years.map(y=>col(110)+(open.has(y)?col(440)+col(100):'')).join('')+'</colgroup><thead><tr><th rowspan="2">大项目</th>'+years.map(y=>'<th colspan="'+(open.has(y)?3:1)+'">'+yearButton('capital',y,open,y+' 全年')+'</th>').join('')+'</tr><tr>'+years.map(y=>'<th>净贡献／净收付</th>'+(open.has(y)?'<th>子项目</th><th>金额</th>':'')).join('')+'</tr></thead><tbody>';
+  let h='<div class="table-wrap"><table class="year-activities" style="width:'+width+'px;min-width:'+width+'px"><caption>资本活动表 <small>全年发生额 · 人民币亿元</small></caption><colgroup>'+col(200)+years.map(y=>col(110)+(open.has(y)?col(440)+col(100):'')).join('')+'</colgroup><thead><tr><th rowspan="2">大项目</th>'+years.map(y=>'<th colspan="'+(open.has(y)?3:1)+'">'+yearButton('capital',y,open,y+' 全年')+'</th>').join('')+'</tr><tr>'+years.map(y=>'<th aria-label="年度合计金额"></th>'+(open.has(y)?'<th>子项目</th><th>金额</th>':'')).join('')+'</tr></thead><tbody>';
   for(const [block,label,totalKey,totalLabel] of [['wealth','净资产形成','equityChange','净资产增加'],['liquidity','资金收付与配置','cashChange','现金与存款增加']]){
    h+='<tr class="group"><th colspan="'+columns+'">'+label+'</th></tr>';
    annual[years[years.length-1]][block].forEach((g,gi)=>{
@@ -147,8 +147,19 @@
   for(const [key,label] of [['equity','合并净资产'],['minority','减：少数股东权益'],['parent','归母净资产']])h+=total(label,(y,side)=>m.series[y].records[`controls.${key}.${side}`]?.amount??null,'final');
   return h+'</tbody></table></div>';
  }
+ function materialRatio(amount,values){
+  const scale=Math.max(0,...values.filter(Number.isFinite).map(Math.abs));
+  return scale===0?Infinity:Math.abs(amount)/scale;
+ }
+ function visibleAnomalies(d){
+  return (d.anomalies||[]).filter(note=>{
+   if(!Number.isFinite(note.amount))return true;
+   const values=(note.fields||[]).map(field=>d.records?.[field]?.amount);
+   return !values.some(Number.isFinite)||materialRatio(note.amount,values)>=0.03;
+  });
+ }
  function anomalyTable(m){
-  return '<div class="table-wrap"><table class="year-anomalies"><tbody><tr><th>异常与一次性事项</th>'+m.years.map(y=>{const d=m.series[y],notes=d.anomalies||[],warnings=d.validation?.warnings||[],boundary=m.boundaryWarnings.filter(w=>w.year===y);return '<td><details><summary>'+y+' · '+notes.length+' 项</summary>'+notes.map(n=>'<p><strong>'+esc(n.title)+'</strong> '+esc(n.explanation)+'</p>').join('')+(warnings.length?'<p>保留 '+warnings.length+' 项数据限制或差额。</p>':'')+boundary.map(b=>'<p>相邻年度期末／期初不一致：'+esc(b.field)+'，前期 '+fmt(b.previous)+'，本期期初 '+fmt(b.opening)+'。本页保留原值。</p>').join('')+'</details></td>';}).join('')+'</tr></tbody></table></div>';
+  return '<div class="table-wrap"><table class="year-anomalies"><tbody><tr><th>重要异常与一次性事项</th>'+m.years.map(y=>{const d=m.series[y],notes=visibleAnomalies(d),boundary=m.boundaryWarnings.filter(w=>w.year===y&&materialRatio(w.opening-w.previous,[w.previous,w.opening])>=0.03);const count=notes.length+boundary.length;return '<td><details><summary>'+y+' · '+count+' 项</summary>'+notes.map(n=>'<p><strong>'+esc(n.title)+'</strong> '+esc(n.explanation)+'</p>').join('')+boundary.map(b=>'<p>相邻年度期末／期初不一致：'+esc(b.field)+'，前期 '+fmt(b.previous)+'，本期期初 '+fmt(b.opening)+'。本页保留原值。</p>').join('')+'</details></td>';}).join('')+'</tr></tbody></table></div>';
  }
 function evidence(m){
   return '<details class="page-notes"><summary>口径、来源与数据限制</summary>'+m.years.map(y=>{const d=m.series[y];
