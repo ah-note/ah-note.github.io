@@ -37,7 +37,7 @@
         row('非经营所得税 · 估计', -investmentTax)
       ]),
       group('融资净成本', [row('融资费用', -p.financeCost), row('融资税收影响 · 估计', -financeTax)]),
-      group('股东投入与分配', [row('增资与股份激励', p.equityInput), row('批准分红', -p.dividend), row('股份回购', -p.repurchase)]),
+      group('股东投入与分配', [row('增资与股份激励', p.equityInput), row('批准分红', -p.dividend), row('股份回购', -p.repurchase), ...(p.minorityTransaction ? [row('少数股权交易', -p.minorityTransaction)] : [])]),
       group('其他权益变动', [row('报表折算差额', p.oci, p.ociDetails)])
     ];
     const liquidity = [
@@ -49,7 +49,7 @@
       group('经营资产投入与退出', [row('购建经营资产', -c.capex), row('处置经营资产收款', c.disposal)]),
       group('投资投入、收回与收益', [row('投入对外投资', -c.invest), row('收回投资及处置收款', c.recover), row('收到利息', c.interest)]),
       group('融资借入与偿还', [row('现金借款', c.borrow), row('偿还融资本金', -c.repay), row('支付融资费用', -c.financeCost)]),
-      group('股东资金收付', [row('收到增资', c.equityInput), row('实际支付分红', -c.dividend), row('现金回购', -c.repurchase)]),
+      group('股东资金收付', [row('收到增资', c.equityInput), row('实际支付分红', -c.dividend), row('现金回购', -c.repurchase), ...(c.minorityTransaction ? [row('购买少数股权', -c.minorityTransaction)] : [])]),
       group('现金折算变化', [row('汇率折算影响', c.fx)])
     ];
     const equityChange = sum(wealth.map(g=>g.amount));
@@ -69,7 +69,10 @@
     return section('净资产形成', d.wealth, '净资产增加', d.equityChange) + section('资金收付与配置',d.liquidity,'现金与存款增加',d.cashChange)+'<tr><th>非现金资本配置</th><td class="amount">'+money(d.noncash)+'</td><td colspan="2">新增租赁：经营设施与融资负债同时增加，不计入以上两项汇总。</td></tr>';
   }
   if (typeof module !== 'undefined') module.exports = {buildActivities, renderActivities};
-  else Promise.all(['activities.json','data.json'].map(url=>fetch(url).then(r=>{if(!r.ok)throw Error('读取失败');return r.json();}))).then(([s,a])=>{
+  else {
+  globalThis.TanActivities = {buildActivities, renderActivities};
+  if (!globalThis.TAN_COMPARE) Promise.all(['activities.json','data.json'].map(url=>fetch(url).then(r=>{if(!r.ok)throw Error('读取失败');return r.json();}))).then(([s,a])=>{
     document.getElementById('activity-rows').innerHTML=renderActivities(buildActivities(s,a));
   }).catch(e=>{document.getElementById('activity-status').textContent='资本活动表暂未显示：'+e.message;});
+  }
 })();
