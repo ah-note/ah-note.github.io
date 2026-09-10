@@ -1,5 +1,7 @@
 # Session Record: 通用型资产流转表
 
+Absorbed: alignment through d03baf8a, 2026-09-10 Asia/Shanghai.
+
 - Time: 2026-09-10T12:46:00+08:00
 - Window: 本轮通用型设计与博源网页实施；上一记录时间13:00晚于实际当前时钟，不能据其构造时间区间
 - Previous Record: 2026-09-10T13-00-00+08-00-standard-asset-mapping.md

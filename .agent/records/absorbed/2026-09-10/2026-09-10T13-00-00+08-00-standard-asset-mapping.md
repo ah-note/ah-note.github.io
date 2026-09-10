@@ -1,5 +1,7 @@
 # Session Record: 标准字段与展开
 
+Absorbed: alignment through d03baf8a, 2026-09-10 Asia/Shanghai.
+
 - Time: 2026-09-10T13:00:00+08:00
 - Window: 当前标准字段网页实施回合
 - Previous Record: 2026-09-10T11-58-00+08-00-berun-asset-bridge.md

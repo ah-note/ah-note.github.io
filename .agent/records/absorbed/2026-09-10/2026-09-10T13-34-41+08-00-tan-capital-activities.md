@@ -1,5 +1,7 @@
 # Session Record: 谭木匠资本活动表
 
+Absorbed: alignment through d03baf8a, 2026-09-10 Asia/Shanghai.
+
 - Time: 2026-09-10T13:34:41+08:00
 - Window: 2026-09-10T13:07:21+08:00 to 2026-09-10T13:34:41+08:00
 - Previous Record: 2026-09-10T13-07-21+08-00-tan-asset-bridge.md

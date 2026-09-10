@@ -59,6 +59,10 @@ Published pages:
 - `/industries/` - A/H company search and hierarchical industry browser
 - `/reference/` - calculation and field reference
 
+## 本地公司资料页原型
+
+`/value-line/`及其`classic/`、`berun-assets/`、`tan-assets/`为独立阅读原型，不由生产报告生成器覆盖。当前资产与资本活动设计的入口和边界见[原型说明](project-memory/project/company-sheet-preview.md)，公司口径在各页notes.html。未公开部署，不据此恢复分析队列。
+
 ## Test
 
 ```bash
