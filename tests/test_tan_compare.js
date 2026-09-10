@@ -3,6 +3,18 @@ const base=path.join(__dirname,'../value-line'),root=path.join(base,'tan-assets'
 const assets=require(path.join(root,'data.json')),s24=require(path.join(root,'activities-2024.json')),s25=require(path.join(root,'activities.json'));
 const {buildActivities}=require(path.join(root,'activities')),{standardize}=require(path.join(root,'mapping')),{model,render}=require(path.join(root,'compare')),{toggle}=require(path.join(root,'multi'));
 const annual={2024:buildActivities(s24,s24.reconciliation),2025:buildActivities(s25,assets)},m=model(assets,annual,standardize);
+test('union follows canonical order and distinguishes absent, zero, and missing cells',()=>{
+ const {union}=require(path.join(root,'multi'));
+ assert.deepEqual(union([['A','B','D'],['A','C','D','E']],['A','B','C','D','E']),['A','B','C','D','E']);
+ assert.deepEqual(union([['A','C','D','E'],['A','B','D']],['A','B','C','D','E']),['A','B','C','D','E']);
+ const h=render(m,{capital:[2024,2025]});
+ const minority=[...h.matchAll(/<tr[^>]*>([\s\S]*?)<\/tr>/g)].find(x=>x[1].includes('少数股权交易'))[1];
+ assert.match(minority,/<td><\/td><td><\/td>$/);assert.match(h,/>0\.00<\/td>/);
+ assert.doesNotMatch(render(m,{capital:[2025]}),/少数股权交易/);
+ const copy={...m,annual:structuredClone(annual)};copy.annual[2024].wealth[0].rows[0].amount=null;
+ assert.match(render(copy,{capital:[2024,2025]}),/产品与服务收入<\/td><td class="amount">缺失/);
+ assert.match(render(m,{assets:[2024,2025]}),/数据未取得/);
+});
 test('balance headers stay fixed and annual flow headers are separate',()=>{
  for(const year of [null,2024,2025]){
   const h=render(m,{assets:year,capital:year});
@@ -32,12 +44,13 @@ test('capital expansion inserts children after the selected annual total',()=>{
  assert.doesNotMatch(h,/<th colspan="2">2025 年变动|inline-detail/);
  assert.ok(h.includes('1.65'));assert.ok(h.includes('2.02'));
 });
-test('only one global year expands and both tables follow it',()=>{
+test('each year and table toggles independently without mutating earlier selections',()=>{
  let s=toggle({},'assets',2025);s=toggle(s,'capital',2024);
- assert.deepEqual(s,{assets:2024,capital:2024});
- const h=render(m,s);assert.doesNotMatch(h,/<th colspan="2">2025 年变动/);assert.match(h,/购买少数股权/);
- s=toggle(s,'assets',2025);assert.deepEqual(s,{assets:2025,capital:2025});
- s=toggle(s,'capital',2025);assert.deepEqual(s,{assets:null,capital:null});
+ assert.deepEqual(s,{assets:[2025],capital:[2024]});
+ const h=render(m,s);assert.match(h,/<th colspan="2">2025 年变动/);assert.match(h,/购买少数股权/);
+ s=toggle(s,'assets',2024);assert.deepEqual(s,{assets:[2024,2025],capital:[2024]});
+ s=toggle(s,'capital',2025);assert.deepEqual(s,{assets:[2024,2025],capital:[2024,2025]});
+ s=toggle(s,'assets',2025);assert.deepEqual(s,{assets:[2024],capital:[2024,2025]});
  assert.match(render(m,{assets:2024}),/2023 年末/);assert.match(render(m,{assets:2024}),/未转录/);
 });
 test('all collapsed and expanded table grids have valid column spans',()=>{
@@ -57,7 +70,7 @@ test('all collapsed and expanded table grids have valid column spans',()=>{
   }
   assert.ok(occupied.every(n=>n===0));
  }
- for(const a of [null,2024,2025])for(const c of [null,2024,2025]){
+ for(const a of [[],[2024],[2025],[2024,2025]])for(const c of [[],[2024],[2025],[2024,2025]]){
   const h=render(m,{assets:a,capital:c}).replace(/<table class="components">[\s\S]*?<\/table>/g,'');
   for(const t of h.matchAll(/<table\b[\s\S]*?<\/table>/g))grid(t[0]);
  }
@@ -70,9 +83,9 @@ test('same-page controls toggle annual columns and preserve simple year selectio
  await new Promise(r=>setImmediate(r));assert.ok(!nodes['compare-status']);assert.doesNotMatch(nodes.comparison.innerHTML,/产品与服务收入/);
  const click=dataset=>handlers['comparison:click']({target:{closest:()=>({dataset})}});
  click({table:'capital',year:'2025'});assert.match(nodes.comparison.innerHTML,/产品与服务收入/);
- click({table:'assets',year:'2025'});assert.doesNotMatch(nodes.comparison.innerHTML,/<th colspan="2">2025 年变动|产品与服务收入/);
- click({table:'capital',year:'2024'});assert.match(nodes.comparison.innerHTML,/<th colspan="2">2024 年变动/);assert.doesNotMatch(nodes.comparison.innerHTML,/<th colspan="2">2025 年变动/);
- click({table:'assets',year:'2025'});assert.match(nodes.comparison.innerHTML,/<th colspan="2">2025 年变动/);assert.doesNotMatch(nodes.comparison.innerHTML,/<th colspan="2">2024 年变动/);
+ click({table:'assets',year:'2025'});assert.match(nodes.comparison.innerHTML,/<th colspan="2">2025 年变动/);
+ click({table:'capital',year:'2024'});assert.match(nodes.comparison.innerHTML,/购买少数股权/);assert.match(nodes.comparison.innerHTML,/<th colspan="2">2025 年变动/);
+ click({table:'assets',year:'2024'});assert.match(nodes.comparison.innerHTML,/<th colspan="2">2025 年变动/);assert.match(nodes.comparison.innerHTML,/<th colspan="2">2024 年变动/);
  handlers['view-simple:click']();assert.match(nodes.comparison.innerHTML,/simple-assets/);
  handlers['end-year:change']({target:{value:'2024'}});assert.match(nodes.comparison.innerHTML,/2023 年末/);
  handlers['view-multi:click']();assert.match(nodes.comparison.innerHTML,/<th colspan="2">2025 年变动/);
