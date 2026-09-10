@@ -11,7 +11,7 @@ from pathlib import Path
 from typing import Any
 
 
-CATALOG_SCHEMA = "ah-note-industry-catalog-v5"
+CATALOG_SCHEMA = "ah-note-industry-catalog-v6"
 SNAPSHOT_RELATIVE_DIR = Path("data/snapshots/industry_classification/ah_v4")
 REQUIRED_SNAPSHOT_FILES = (
     "taxonomy.json",
@@ -84,25 +84,29 @@ def validate_industry_snapshot(stock_analysis_root: Path, snapshot: Path | None 
 
 
 def review_projection(issuer: dict[str, Any], *, pending_review: bool = False) -> dict[str, Any]:
-    """Keep unverified US and changed-boundary candidates out of industry memberships."""
+    """Expose mappings without presenting them as company verification."""
     review = issuer.get("business_review") or {}
     excluded = str(issuer.get("eligibility_status", "")).startswith("no_analysis_value.")
     primary_verified = review.get("primary_review_status") == "verified" and str(review.get("source", "")).startswith("https://")
     complete = primary_verified and all(review.get(k) == "verified" for k in
                                         ("exposure_review_status", "eligibility_review_status"))
-    pending = (pending_review or "US" in issuer.get("markets", []) or
-               issuer.get("classification_review_status") == "shared_leaf_review_required") and not primary_verified
-    state = "excluded" if excluded else "complete" if complete else "primary_verified" if primary_verified else "pending" if pending else "existing"
-    primary = issuer.get("primary_leaf_id") if not pending and not excluded else None
-    candidates = list(dict.fromkeys(x for x in [issuer.get("primary_leaf_id"),
-                                  *(issuer.get("secondary_leaf_ids") or [])] if x)) if pending else []
+    primary = issuer.get("primary_leaf_id") if not excluded else None
+    method = issuer.get("classification_method")
+    level = ("company_reviewed" if primary_verified else "industry_reviewed"
+             if method == "reviewed_leaf_calibration_override" else "mapped")
+    unresolved = not excluded and not primary
+    state = ("excluded" if excluded else "company_complete" if complete else
+             "company_primary" if primary_verified else "unresolved" if unresolved else level)
+    candidates = list(dict.fromkeys(x for x in issuer.get("secondary_leaf_ids") or [] if x))
     exposures = issuer.get("material_exposure_leaf_ids") or []
     evidence = issuer.get("material_exposure_evidence") or []
-    if pending or excluded or (review and review.get("exposure_review_status") != "verified"):
+    if excluded or (review and review.get("exposure_review_status") != "verified"):
         exposures, evidence = [], []
     return {"review_status": state, "primary_leaf_id": primary, "candidate_leaf_ids": candidates,
             "material_exposure_leaf_ids": exposures, "material_exposure_evidence": evidence,
-            "browse_eligible": bool(primary) and issuer.get("eligibility_status") == "eligible",
+            "browse_eligible": bool(primary) and not excluded,
+            "evidence_level": level,
+            "review_pending": bool(pending_review or issuer.get("classification_review_status") == "shared_leaf_review_required"),
             "classification_evidence": issuer.get("classification_evidence") or {},
             "reviewed_at": review.get("reviewed_at"),
             "exposure_review_status": review.get("exposure_review_status", "not_recorded")}
@@ -198,7 +202,7 @@ def build_industry_catalog(
         for row in issuers
         if row.get("eligibility_status") == "eligible"
         and row.get("primary_leaf_id") not in leaf_ids
-        and not (row.get("primary_leaf_id") is None and review_projection(row)["review_status"] == "pending")
+        and not (row.get("primary_leaf_id") is None and review_projection(row)["review_status"] == "unresolved")
     ]
     if invalid:
         raise ValueError(f"industry catalog contains invalid primary leaves: {invalid[:10]}")
@@ -262,7 +266,8 @@ def build_industry_catalog(
                 "confidence": issuer["classification_confidence"],
                 "status": status,
                 "status_reason": issuer["eligibility_reason"],
-                "representative_rank": representative_rank.get(issuer["issuer_id"]) if projection["browse_eligible"] else None,
+                "representative_rank": representative_rank.get(issuer["issuer_id"])
+                    if projection["browse_eligible"] and not projection["review_pending"] and status == "eligible" else None,
                 "report_url": f"../reports/{report_code}/" if report_code else "",
             }
         )
@@ -285,6 +290,10 @@ def build_industry_catalog(
             "representative_count": sum(bool(r["representative_rank"]) for r in public_issuers),
             "review_queue_count": audit.get("review_issuer_count", audit.get("review_queue_count", 0)),
             "review_status_counts": dict(Counter(r["review_status"] for r in public_issuers)),
+            "evidence_level_counts": dict(Counter(r["evidence_level"] for r in public_issuers
+                                                   if r["review_status"] != "excluded")),
+            "mapped_issuer_count": sum(bool(r["primary_leaf_id"]) for r in public_issuers),
+            "unmapped_issuer_count": sum(r["review_status"] == "unresolved" for r in public_issuers),
             "status_counts": dict(status_counts),
         },
         "industries": taxonomy["industries"],

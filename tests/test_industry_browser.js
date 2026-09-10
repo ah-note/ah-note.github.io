@@ -11,15 +11,16 @@ async function main() {
   };
   const issuer = (id, status, review, primary, browse) => ({id,name:id,markets:['US'],
     securities:[{code:id,name:id}],search_terms:[id],status,review_status:review,
-    primary_leaf_id:primary,browse_eligible:browse,material_exposure_leaf_ids:[],candidate_leaf_ids:review==='pending'?['a']:[]});
+    primary_leaf_id:primary,browse_eligible:browse,evidence_level:review==='company_complete'?'company_reviewed':'mapped',
+    review_pending:false,material_exposure_leaf_ids:[],candidate_leaf_ids:review==='unresolved'?['a']:[]});
   const data = {classification_status:'draft',taxonomy_effective_date:'2026-09-10',
-    summary:{issuer_count:3,eligible_issuer_count:1,excluded_issuer_count:1},
+    summary:{issuer_count:3,eligible_issuer_count:1,mapped_issuer_count:1,unmapped_issuer_count:1,excluded_issuer_count:1},
     display_nodes:[{key:'sector:s',type:'sector',id:'s',name:'测试行业',parent_key:'root'},
       {key:'leaf:a',type:'leaf',id:'a',name:'食品分销',parent_key:'sector:s'},
       {key:'leaf:b',type:'leaf',id:'b',name:'其他经营',parent_key:'sector:s'}],
     leaves:[{leaf_id:'a',name_zh:'食品分销'},{leaf_id:'b',name_zh:'其他经营'}],leaf_display_keys:{a:'leaf:a',b:'leaf:b'},
-    issuers:[issuer('PENDING','review_required','pending',null,false),
-             issuer('DONE','eligible','complete','a',true),
+    issuers:[issuer('PENDING','review_required','unresolved',null,false),
+             issuer('DONE','eligible','company_complete','a',true),
              issuer('SHELL','no_analysis_value.shell','excluded',null,false)]};
   data.issuers[1].material_exposure_leaf_ids=['b'];
   const location={hash:''}, events={};
@@ -30,7 +31,7 @@ async function main() {
   await new Promise(resolve=>setImmediate(resolve));
   assert.match(get('catalogMeta').textContent,/校准中/);
   const route = hash => { location.hash=hash; events.hashchange(); return get('industryApp').innerHTML; };
-  assert.match(route('#company=PENDING'),/尚未核准/);
+  assert.match(route('#company=PENDING'),/尚未映射/);
   assert.match(get('industryApp').innerHTML,/候选类别（待核）/);
   assert.match(route('#company=DONE'),/当前没有其他已归类公司/);
   assert.doesNotMatch(route('#category=excluded'),/PENDING/);

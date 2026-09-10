@@ -26,7 +26,7 @@ python3 scripts/build_site.py --industry-only --stock-analysis-root ../stock_ana
   --industry-snapshot ../stock_analysis/data/outputs/industry_evidence/business_review_current
 ```
 
-预览将候选、主业已核、完整核准及排除状态分别展示；未知分类不是无分析价值。候选不进入行业成员计数，已有A/H别名和代表标记从原快照补充，但待核公司不保留代表标记。
+预览将批量映射、行业校准、公司核实、异常及排除状态分别展示；未知分类不是无分析价值。有唯一主分类的基础映射进入行业成员列表，但不会冒充已核实；没有唯一主分类的对象保留候选类别并进入异常列表。已有A/H别名和代表标记从原快照补充，边界待核或分析资格未确认的公司不保留代表标记。
 
 功能分支发布器与直接构建默认统一使用 `<stock_analysis>/data/normalized/industry_classification/ahu_site_recipe_v1.json`。构建会用该仓库代码在临时目录生成输入，失败不回退旧分类，退出后清理。显式 `--industry-snapshot` 可选择历史快照；公开JSON保留生成配方及决议哈希，不暴露本机路径。正式环境尚未部署此分支；上线前须同步包含配方及生成代码的stock_analysis版本，不得引用本机临时输出。`--industry-recipe`与`--industry-snapshot`互斥。
 

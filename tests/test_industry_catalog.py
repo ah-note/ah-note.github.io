@@ -73,27 +73,31 @@ class IndustryCatalogTest(unittest.TestCase):
             main()
         self.assertEqual(build.call_args.kwargs["industry_snapshot"], Path("reviewed-snapshot").resolve())
 
-    def test_review_projection_never_promotes_us_candidates_or_stale_exposures(self):
+    def test_review_projection_exposes_mapping_without_promoting_verification(self):
         issuer = {"markets": ["US"], "primary_leaf_id": "a", "secondary_leaf_ids": ["b"],
                   "eligibility_status": "eligible", "material_exposure_leaf_ids": ["c"]}
         candidate = review_projection(issuer)
-        self.assertIsNone(candidate["primary_leaf_id"])
-        self.assertEqual(candidate["candidate_leaf_ids"], ["a", "b"])
-        self.assertFalse(candidate["browse_eligible"])
+        self.assertEqual(candidate["primary_leaf_id"], "a")
+        self.assertEqual(candidate["candidate_leaf_ids"], ["b"])
+        self.assertTrue(candidate["browse_eligible"])
+        self.assertEqual(candidate["review_status"], "mapped")
+        self.assertEqual(candidate["evidence_level"], "mapped")
         issuer["business_review"] = {"primary_review_status": "verified", "source": "https://example.com/report",
                                     "exposure_review_status": "pending", "eligibility_review_status": "verified"}
         partial = review_projection(issuer)
-        self.assertEqual(partial["review_status"], "primary_verified")
+        self.assertEqual(partial["review_status"], "company_primary")
         self.assertEqual(partial["material_exposure_leaf_ids"], [])
         issuer["business_review"]["exposure_review_status"] = "verified"
-        self.assertEqual(review_projection(issuer)["review_status"], "complete")
+        self.assertEqual(review_projection(issuer)["review_status"], "company_complete")
 
-    def test_changed_ah_boundary_is_pending_not_silently_certified(self):
+    def test_changed_ah_boundary_stays_browsable_but_flagged(self):
         issuer = {"markets": ["HK"], "primary_leaf_id": "a", "eligibility_status": "eligible",
                   "classification_review_status": "shared_leaf_review_required"}
-        self.assertEqual(review_projection(issuer)["review_status"], "pending")
+        self.assertEqual(review_projection(issuer)["review_status"], "mapped")
+        self.assertTrue(review_projection(issuer)["review_pending"])
         issuer.pop("classification_review_status")
-        self.assertEqual(review_projection(issuer, pending_review=True)["review_status"], "pending")
+        self.assertEqual(review_projection(issuer, pending_review=True)["review_status"], "mapped")
+        self.assertTrue(review_projection(issuer, pending_review=True)["review_pending"])
         issuer["eligibility_status"] = "no_analysis_value.shell"
         self.assertEqual(review_projection(issuer)["review_status"], "excluded")
 
@@ -114,11 +118,20 @@ class IndustryCatalogTest(unittest.TestCase):
             self.assertEqual(validate_industry_snapshot(root, snapshot), snapshot.resolve())
             result = build_industry_catalog(snapshot, root / "stocks.json", supplemental)
             self.assertEqual(result["summary"]["excluded_issuer_count"], 0)
-            self.assertEqual(result["summary"]["eligible_issuer_count"], 0)
+            self.assertEqual(result["summary"]["eligible_issuer_count"], 1)
             self.assertEqual(result["summary"]["issuer_count"], 1)
-            self.assertEqual(result["issuers"][0]["review_status"], "pending")
+            self.assertEqual(result["issuers"][0]["review_status"], "mapped")
+            self.assertEqual(result["issuers"][0]["evidence_level"], "mapped")
             self.assertIn("测试机械", result["issuers"][0]["search_terms"])
             self.assertIsNone(result["issuers"][0]["representative_rank"])
+
+    def test_unmapped_company_remains_searchable_and_not_browsable(self):
+        projection = review_projection({"markets": ["US"], "primary_leaf_id": None,
+                                        "secondary_leaf_ids": ["a", "b"],
+                                        "eligibility_status": "review_required"})
+        self.assertEqual(projection["review_status"], "unresolved")
+        self.assertEqual(projection["candidate_leaf_ids"], ["a", "b"])
+        self.assertFalse(projection["browse_eligible"])
 
     def write_snapshot(self, root: Path, *, valid_leaf: bool = True) -> Path:
         snapshot = root / "snapshot"

@@ -97,14 +97,14 @@
     const markers = [
       issuer.representative_rank ? '<span class="company-marker">代表</span>' : "",
       issuer.report_url ? '<span class="company-marker report">有报告</span>' : "",
-      issuer.review_status && issuer.review_status !== "existing" ? `<span class="company-marker">${reviewLabel(issuer)}</span>` : "",
+      `<span class="company-marker">${reviewLabel(issuer)}</span>`,
     ].join("");
     return `${linkTo("company", issuer.id, issuer.name, "industry-company-link")} ${markers}`
       + `<small>${escapeHtml(companyCode(issuer))}${compact ? "" : ` · ${escapeHtml(issuer.markets.join("/"))}`}</small>`;
   }
 
   function reviewLabel(issuer) {
-    return ({ complete: "完整核准", primary_verified: "主业已核", pending: "待核准", excluded: "已排除", existing: "既有分类" })[issuer.review_status] || "既有分类";
+    return ({ company_complete: "公司已核", company_primary: "主业已核", industry_reviewed: "行业校准", mapped: "批量映射", unresolved: "待映射", excluded: "已排除" })[issuer.review_status] || "批量映射";
   }
 
   function childCards(parentKey) {
@@ -159,7 +159,7 @@
       <a class="industry-node-card excluded" href="#category=excluded">
         <span>无分析价值类</span><strong>${catalog.summary.excluded_issuer_count}</strong><small>家公司</small>
       </a>` : "";
-    const pendingCount = catalog.issuers.filter((r) => ["pending", "primary_verified"].includes(r.review_status)).length;
+    const pendingCount = catalog.issuers.filter((r) => ["unresolved", "company_primary"].includes(r.review_status) || r.review_pending).length;
     const pendingCard = nodeKey === "root" && pendingCount ? `<a class="industry-node-card" href="#category=pending"><span>待完成核准</span><strong>${pendingCount}</strong><small>家公司</small></a>` : "";
     app.innerHTML = `${breadcrumb(path.slice(0, -1))}
       <header class="industry-view-head"><div><p>${node ? "当前分类" : "分类总览"}</p><h2>${escapeHtml(title)}</h2></div><strong>${count.toLocaleString("zh-CN")}<small> 家公司</small></strong></header>
@@ -177,8 +177,8 @@
   }
 
   function renderPending() {
-    const pending = catalog.issuers.filter((r) => ["pending", "primary_verified"].includes(r.review_status));
-    app.innerHTML = `${breadcrumb([])}<h2>待完成核准 · ${pending.length} 家</h2><p>候选归属不计入正式行业成员；主业已核的公司仍可能有其他重大业务待核。</p><div class="industry-company-grid">${pending.map((r) => `<div class="industry-company">${companyLink(r)}</div>`).join("")}</div>`;
+    const pending = catalog.issuers.filter((r) => ["unresolved", "company_primary"].includes(r.review_status) || r.review_pending);
+    app.innerHTML = `${breadcrumb([])}<h2>待处理异常 · ${pending.length} 家</h2><p>包括尚无主分类、共享叶子边界变化及重大业务待核；批量映射公司仍在对应行业展示。</p><div class="industry-company-grid">${pending.map((r) => `<div class="industry-company">${companyLink(r)}</div>`).join("")}</div>`;
   }
 
   function classificationPath(leafId) {
@@ -210,7 +210,7 @@
       : '<span class="industry-no-report">暂无公开经营分析报告</span>';
     const primaryClassification = path.length
       ? path.map((node) => linkTo("category", node.key, node.name)).join(" <i>›</i> ")
-      : issuer.review_status === "pending" ? "尚未核准" : "未纳入行业浏览";
+      : issuer.review_status === "unresolved" ? "尚未映射" : "未纳入行业浏览";
     const candidates = (issuer.candidate_leaf_ids || []).map((id) => catalog.leaves.find((r) => r.leaf_id === id)?.name_zh).filter(Boolean);
     const candidateNote = candidates.length ? `<p class="industry-view-note">候选类别（待核）：${escapeHtml(candidates.join("、"))}</p>` : "";
     const evidence = issuer.classification_evidence || {};
@@ -224,6 +224,7 @@
       <article class="company-profile">
         <div class="company-title-row"><div><p>${escapeHtml(companyCode(issuer))}</p><h2>${escapeHtml(issuer.name)}</h2></div><span class="status-pill ${issuer.status === "eligible" ? "eligible" : "excluded"}">${status}</span></div>
         <div class="company-classification"><span>主分类</span><strong>${primaryClassification}</strong></div>
+        <p class="industry-view-note">分类证据等级：${escapeHtml(reviewLabel(issuer))}${issuer.review_pending ? " · 边界或其他维度待复核" : ""}</p>
         ${candidateNote}${evidenceNote}${exposurePending}
         <dl class="company-meta"><div><dt>市场</dt><dd>${escapeHtml(issuer.markets.join(" / "))}</dd></div><div><dt>分析模型</dt><dd>${escapeHtml(modelNames[issuer.analysis_model] || issuer.analysis_model)}</dd></div><div><dt>分类置信度</dt><dd>${escapeHtml(confidenceNames[issuer.confidence] || issuer.confidence)}</dd></div><div><dt>行业代表</dt><dd>${issuer.representative_rank ? `第 ${issuer.representative_rank} 顺位` : "否"}</dd></div></dl>
         ${materialExposures}
@@ -292,7 +293,7 @@
     })
     .then((data) => {
       prepare(data);
-      meta.textContent = `${data.summary.issuer_count.toLocaleString("zh-CN")} 家公司 · ${data.summary.eligible_issuer_count.toLocaleString("zh-CN")} 家已归类${data.classification_status === "draft" ? " · 校准中" : ""} · 分类基准 ${data.taxonomy_effective_date}`;
+      meta.textContent = `${data.summary.issuer_count.toLocaleString("zh-CN")} 家公司 · ${data.summary.mapped_issuer_count.toLocaleString("zh-CN")} 家已映射 · ${data.summary.unmapped_issuer_count.toLocaleString("zh-CN")} 家待映射${data.classification_status === "draft" ? " · 行业校准中" : ""} · 分类基准 ${data.taxonomy_effective_date}`;
       route();
     })
     .catch(() => {
