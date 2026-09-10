@@ -1,0 +1,57 @@
+const test=require('node:test'),assert=require('node:assert/strict');
+const {model,groups}=require('../value-line/tan-assets/annual');
+const view=require('../value-line/tan-assets/multi');
+const {assetSets}=require('../value-line/berun-assets/fields');
+function fixture(year){
+ const records={},put=(key,amount=0)=>records[key]={amount,status:'disclosed',basis:'TEST ONLY',details:[]};
+ for(const [,,fields] of assetSets)for(const [key] of fields)for(const side of ['opening','closing'])put(`assets.${key}.${side}`);
+ for(const [block,gs] of Object.entries(groups))for(const [group,,fields] of gs)for(const [key] of fields)put(`${block}.${group}.${key}`);
+ for(const key of ['equity','minority','parent','cash'])for(const side of ['opening','closing'])put(`controls.${key}.${side}`);
+ put('noncash.leases');
+ return {schema:'capital-statement-v1',company:'TEST',currency:'CNY',year,records,movements:{},anomalies:[],sources:[],validation:{errors:[],warnings:[]}};
+}
+test('one-year and five-year independent documents preserve all standard fields',()=>{
+ for(const years of [[2025],[2021,2022,2023,2024,2025]]){
+  const m=model(years.map(fixture)),h=view.render(m);
+  assert.equal(m.years.length,years.length);
+  for(const [,,fields] of assetSets)for(const [,label] of fields)assert.ok(h.includes(label));
+  assert.ok(h.includes((years[0]-1)+' 年末'));
+  assert.match(h,/异常与一次性事项/);
+  assert.doesNotMatch(h,/产品与服务收入/);
+  assert.match(view.render(m,{assets:years,capital:years}),/产品与服务收入/);
+ }
+});
+test('identity, duplicate years and currency must match; absent is not zero',()=>{
+ const a=fixture(2025),b=fixture(2024);
+ assert.throws(()=>model([a,a]),/重复/);
+ b.currency='USD';assert.throws(()=>model([a,b]),/币种/);
+ delete a.records['assets.working.closing'];
+ assert.match(view.render(model([a])),/>缺失<\/td>/);
+});
+test('adjacent opening disagreement is visible without overwriting either value',()=>{
+ const a=fixture(2024),b=fixture(2025);
+ a.records['assets.working.closing'].amount=100000000;
+ b.records['assets.working.opening'].amount=200000000;
+ const m=model([a,b]);assert.equal(m.boundaryWarnings.length,1);
+ const h=view.render(m);assert.match(h,/期末／期初不一致/);assert.match(h,/前期 1.00，本期期初 2.00/);
+});
+test('all five-year expansion combinations form valid rectangular grids',()=>{
+ const m=model([2021,2022,2023,2024,2025].map(fixture));
+ for(let mask=0;mask<32;mask++){
+  const years=m.years.filter((_,i)=>mask&(1<<i));
+  const html=view.render(m,{assets:years,capital:years});
+  for(const match of html.matchAll(/<table class="year-(?:assets|activities)"[\s\S]*?<\/table>/g)){
+   const t=match[0],cols=(t.match(/<col /g)||[]).length,occupied=Array(cols).fill(0);
+   for(const row of t.matchAll(/<tr\b[^>]*>([\s\S]*?)<\/tr>/g)){
+    let cursor=0;
+    for(const cell of row[1].matchAll(/<(?:th|td)\b([^>]*)>/g)){
+     while(occupied[cursor]>0)cursor++;
+     const width=Number(cell[1].match(/colspan="(\d+)"/)?.[1]||1),height=Number(cell[1].match(/rowspan="(\d+)"/)?.[1]||1);
+     for(let j=0;j<width;j++){assert.ok(cursor<cols);assert.equal(occupied[cursor],0);occupied[cursor++]=height;}
+    }
+    assert.ok(occupied.every(n=>n>0));for(let i=0;i<cols;i++)occupied[i]--;
+   }
+   assert.ok(occupied.every(n=>n===0));
+  }
+ }
+});

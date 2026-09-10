@@ -95,10 +95,10 @@ test('all collapsed and expanded table grids have valid column spans',()=>{
   for(const t of h.matchAll(/<table\b[\s\S]*?<\/table>/g))grid(t[0]);
  }
 });
-test('same-page controls toggle annual columns and preserve simple year selection',async()=>{
+test('same-page controls toggle linked years without a simple-view switch',async()=>{
  const nodes={},handlers={};
  const element=id=>nodes[id]||(nodes[id]={innerHTML:'',textContent:'',setAttribute(){},addEventListener:(t,fn)=>{handlers[id+':'+t]=fn;},querySelector:()=>({focus(){}})});
- const context=vm.createContext({TAN_COMPARE:true,fetch:async url=>({ok:true,json:async()=>structuredClone(url==='data.json'?assets:url==='activities.json'?s25:s24)}),document:{getElementById:element}});
+ const context=vm.createContext({TAN_COMPARE:true,fetch:async url=>url==='annual-manifest.json'?{ok:false,status:404}:({ok:true,json:async()=>structuredClone(url==='data.json'?assets:url==='activities.json'?s25:s24)}),document:{getElementById:element}});
  for(const f of ['berun-assets/fields.js','tan-assets/mapping.js','tan-assets/activities.js','berun-assets/app.js','tan-assets/simple.js','tan-assets/multi.js','tan-assets/compare.js'])vm.runInContext(fs.readFileSync(path.join(base,f),'utf8'),context);
  await new Promise(r=>setImmediate(r));assert.ok(!nodes['compare-status']);assert.doesNotMatch(nodes.comparison.innerHTML,/产品与服务收入/);
  const click=dataset=>handlers['comparison:click']({target:{closest:()=>({dataset})}});
@@ -108,8 +108,7 @@ test('same-page controls toggle annual columns and preserve simple year selectio
  click({field:key,year:'2024'});assert.match(nodes.comparison.innerHTML,/class="subfield">产品成本/);
  const buttons=[...nodes.comparison.innerHTML.matchAll(/<button[^>]*data-field="([^"]+)"[^>]*aria-expanded="true"/g)].filter(x=>x[1]===key);assert.equal(buttons.length,2);
  click({field:key,year:'2025'});assert.doesNotMatch(nodes.comparison.innerHTML,/class="subfield">产品成本/);
- handlers['view-simple:click']();assert.match(nodes.comparison.innerHTML,/simple-assets/);
- handlers['end-year:change']({target:{value:'2024'}});assert.match(nodes.comparison.innerHTML,/2023 年末/);
- handlers['view-multi:click']();assert.match(nodes.comparison.innerHTML,/<th colspan="2">2025 年变动/);
- const page=fs.readFileSync(path.join(root,'compare.html'),'utf8');assert.doesNotMatch(page,/<a\b|window.print|collapse-all/);
+ assert.ok(!handlers['view-simple:click']);
+ assert.match(nodes.comparison.innerHTML,/<th colspan="2">2025 年变动/);
+ const page=fs.readFileSync(path.join(root,'compare.html'),'utf8');assert.doesNotMatch(page,/<a\b|window.print|collapse-all|view-simple|view-multi|end-year-label/);
 });

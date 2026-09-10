@@ -7,19 +7,25 @@
  }
  function render(m,state){return (typeof module!=='undefined'?require('./multi.js'):TanMultiView).render(m,state||{});}
  if(typeof module!=='undefined')module.exports={model,render};
- else Promise.all(['data.json','activities.json','activities-2024.json'].map(url=>fetch(url).then(r=>{if(!r.ok)throw Error('数据读取失败');return r.json();}))).then(([assets,a25,a24])=>{
-  const annual={2024:TanActivities.buildActivities(a24,a24.reconciliation),2025:TanActivities.buildActivities(a25,assets)};
-  const m=model(assets,annual,standardize),root=document.getElementById('comparison');let state={},view='multi',year=2025;
+ else (async()=>{
+  const response=await fetch('annual-manifest.json');let m;
+  if(response.ok){
+   const manifest=await response.json(),docs=await Promise.all(manifest.files.map(async file=>{const r=await fetch(file);if(!r.ok)throw Error('年度数据读取失败');return r.json();}));
+   m=CapitalAnnual.model(docs);
+   document.getElementById('legacy-notes').hidden=true;
+  }else if(response.status===404){
+   const [assets,a25,a24]=await Promise.all(['data.json','activities.json','activities-2024.json'].map(async url=>{const r=await fetch(url);if(!r.ok)throw Error('数据读取失败');return r.json();}));
+   const annual={2024:TanActivities.buildActivities(a24,a24.reconciliation),2025:TanActivities.buildActivities(a25,assets)};
+   m=model(assets,annual,standardize);
+  }else throw Error('年度清单读取失败');
+  const root=document.getElementById('comparison');let state={};
   const draw=()=>{
-   root.innerHTML=view==='multi'?render(m,state):TanSimpleView.simpleView(year,assets,annual,standardize,TanAssetView.render,TanActivities.renderActivities);
-   document.getElementById('view-simple').setAttribute('aria-pressed',String(view==='simple'));
-   document.getElementById('view-multi').setAttribute('aria-pressed',String(view==='multi'));
-   document.getElementById('end-year-label').hidden=view!=='simple';
-   document.getElementById('view-help').textContent=view==='multi'?'点击年份，在该年份位置展开简版；再次点击折叠。税项分摊为估计；两种活动汇总不可相加。':'简版按所选期末年份展示资产流转和全年资本活动。税项分摊为估计；两种活动汇总不可相加。';
+   root.innerHTML=render(m,state);
+   document.getElementById('view-help').textContent='点击年份展开或收起当年明细，两表联动；可同时展开多年。净资产形成与资金收付是不同视角，不能相加。';
   };
   draw();
   root.addEventListener('click',event=>{
-   const b=event.target.closest('button');if(!b||view!=='multi')return;
+   const b=event.target.closest('button');if(!b)return;
    if(b.dataset.field){
     state=TanMultiView.toggleField(state,b.dataset.field);draw();
     root.querySelector('button[data-field="'+b.dataset.field+'"][data-year="'+b.dataset.year+'"]')?.focus({preventScroll:true});
@@ -31,7 +37,5 @@
    draw();
    root.querySelector('button[data-table="'+table+'"][data-year="'+selectedYear+'"]')?.focus({preventScroll:true});
   });
-  for(const mode of ['simple','multi'])document.getElementById('view-'+mode).addEventListener('click',()=>{view=mode;draw();});
-  document.getElementById('end-year').addEventListener('change',event=>{year=Number(event.target.value);draw();});
- }).catch(e=>{document.getElementById('compare-status').textContent='年度表暂未显示：'+e.message;});
+ })().catch(e=>{document.getElementById('compare-status').textContent='年度表暂未显示：'+e.message;});
 })();
