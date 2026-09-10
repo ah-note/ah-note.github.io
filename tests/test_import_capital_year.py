@@ -58,6 +58,17 @@ class ImportTest(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, "CUSTOM_FIELD_LIMIT"):
                 module.install(source, root / "other", "TEST", "run", "digest")
 
+    def test_v4_uses_the_same_display_contract(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            source = root / "input.json"
+            d = {"schema": "capital-statement-v4", "company": "UVV", "currency": "USD", "year": 2026,
+                 "facts": {"revenue": {"source_amount": 1}}, "mappings": [], "custom_fields": [],
+                 "display_registry": {"version": "capital-display-v1"},
+                 "validation": {"status": "warning", "errors": []}}
+            source.write_text(json.dumps(d))
+            self.assertTrue(module.install(source, root / "site", "UVV", "run", "digest").startswith("annual/2026."))
+
 
 if __name__ == "__main__":
     unittest.main()

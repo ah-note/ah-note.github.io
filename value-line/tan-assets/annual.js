@@ -1,4 +1,4 @@
-/* Consume independently produced capital-statement-v1/v2/v3 years; never infer missing facts. */
+/* Consume independently produced capital-statement years; never infer missing facts. */
 (function(){
  const sum=xs=>xs.some(x=>x===null||x===undefined)?null:xs.reduce((a,b)=>a+b,0);
  const groups={
@@ -14,11 +14,11 @@
   if(!documents.length)throw Error('没有年度数据');
   const docs=[...documents].sort((a,b)=>a.year-b.year),years=docs.map(d=>d.year),company=docs[0].company,currency=docs[0].currency;
   if(new Set(years).size!==years.length)throw Error('年度重复');
-  const v3=docs.some(d=>d.schema==='capital-statement-v3'),registry=v3?docs.find(d=>d.schema==='capital-statement-v3').display_registry:null;
+  const registered=docs.find(d=>['capital-statement-v3','capital-statement-v4'].includes(d.schema)),registry=registered?.display_registry||null;
   for(const d of docs){
-   if(!['capital-statement-v1','capital-statement-v2','capital-statement-v3'].includes(d.schema)||d.company!==company||d.currency!==currency||!Number.isInteger(d.year)||d.validation?.errors?.length)throw Error('年度协议、主体、币种或校验状态不一致');
-   if(['capital-statement-v2','capital-statement-v3'].includes(d.schema)&&(!d.facts||!Array.isArray(d.mappings)))throw Error('年度事实账本缺失');
-   if(v3&&(d.schema!=='capital-statement-v3'||d.display_registry?.version!=='capital-display-v1'||JSON.stringify(d.display_registry)!==JSON.stringify(registry)))throw Error('网页字段注册表不一致');
+   if(!['capital-statement-v1','capital-statement-v2','capital-statement-v3','capital-statement-v4'].includes(d.schema)||d.company!==company||d.currency!==currency||!Number.isInteger(d.year)||d.validation?.errors?.length)throw Error('年度协议、主体、币种或校验状态不一致');
+   if(['capital-statement-v2','capital-statement-v3','capital-statement-v4'].includes(d.schema)&&(!d.facts||!Array.isArray(d.mappings)))throw Error('年度事实账本缺失');
+   if(registered&&(d.schema!==registered.schema||d.display_registry?.version!=='capital-display-v1'||JSON.stringify(d.display_registry)!==JSON.stringify(registry)))throw Error('网页字段注册表不一致');
   }
   const definitions=registeredGroups(registry),annual={},series={},boundaryWarnings=[];
   for(const d of docs){

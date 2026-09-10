@@ -1,0 +1,15 @@
+{
+  "company": "UVV",
+  "currency": "USD",
+  "years": {
+    "2026": {
+      "file": "annual/2026.6238ea4cda52f5e7.json",
+      "sha256": "6238ea4cda52f5e74db2b44cc2e998e606893aae00acd6e93140ae3a3bc58e76",
+      "source_run": "uvv-2026-official-text-v1",
+      "bundle_sha256": "96038c40"
+    }
+  },
+  "files": [
+    "annual/2026.6238ea4cda52f5e7.json"
+  ]
+}

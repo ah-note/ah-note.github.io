@@ -1,0 +1,27 @@
+{
+  "schema": "capital-catalog-v1",
+  "companies": [
+    {
+      "name": "谭木匠",
+      "code": "00837.HK",
+      "slug": "00837.HK",
+      "currency": "CNY",
+      "years": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    {
+      "name": "环球烟草",
+      "code": "UVV",
+      "slug": "UVV",
+      "currency": "USD",
+      "years": [
+        2026
+      ]
+    }
+  ]
+}

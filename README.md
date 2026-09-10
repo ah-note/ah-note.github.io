@@ -69,11 +69,24 @@ Published pages:
 - `/research/` - latest approved company research feed
 - `/research/<code>/<analysis-version>/` - immutable formal research article
 - `/industries/` - A/H/US company search and hierarchical industry browser
+- `/capital/` - validated capital statements and annual capital activity tables
 - `/reference/` - calculation and field reference
 
-## 本地公司资料页原型
+## 资本表发布
 
-`/value-line/`及其`classic/`、`berun-assets/`、`tan-assets/`为独立阅读原型，不由生产报告生成器覆盖。当前资产与资本活动设计的入口和边界见[原型说明](project-memory/project/company-sheet-preview.md)，公司口径在各页notes.html。未公开部署，不据此恢复分析队列。
+`/capital/`是正式入口。每个通过验收的年度JSON独立导入，按内容哈希保存；公司清单和年度清单只切换引用，不覆盖历史文件。当前页面共享`/value-line/tan-assets/`中已验收的紧凑型渲染器，支持多年余额比较、年度变动与资本活动联动展开。
+
+```bash
+python3 scripts/publish_capital_statement.py \
+  --input /path/to/year.json --name 环球烟草 --code UVV \
+  --run-id uvv-2026-finalizer-v4 --bundle-sha <sha256>
+```
+
+导入器接纳`capital-statement-v1`至`v4`；v3/v4必须带事实账本、映射和`capital-display-v1`显示注册表，且每年扩展字段不超过5个。未来年度使用同一命令增量发布，即会出现在`/capital/`目录和对应公司页。
+
+## 公司资料页原型
+
+`/value-line/`及其`classic/`、`berun-assets/`、`tan-assets/`保留为设计原型和共享渲染资源，不由生产报告生成器覆盖。正式读者入口是`/capital/`；当前资产与资本活动设计边界见[公司资料页说明](project-memory/project/company-sheet-preview.md)。
 
 ## Test
 

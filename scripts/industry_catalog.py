@@ -328,7 +328,7 @@ def render_industry_index(asset_version: str, *, include_us: bool = False) -> st
   <link rel="stylesheet" href="../assets/styles.css?v={asset_version}">
 </head>
 <body>
-  <nav class="site-nav"><a href="../">股票</a><a href="../reports/">报告</a><a href="../research/">深度研报</a><a class="active" href="">行业</a><a href="../reference/">参考资料</a></nav>
+  <nav class="site-nav"><a href="../">股票</a><a href="../reports/">报告</a><a href="../research/">深度研报</a><a class="active" href="">行业</a><a href="../capital/">资本表</a><a href="../reference/">参考资料</a></nav>
   <main class="industry-page">
     <header class="industry-heading">
       <div>

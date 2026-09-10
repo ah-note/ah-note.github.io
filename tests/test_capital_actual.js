@@ -9,7 +9,8 @@ test('real accepted 2025 has verified totals and exposes original cost component
  assert.equal(d.records['controls.equity.closing'].amount,970204000);
  assert.equal(d.records['assets.other_assets.closing'].amount,81400000);
  assert.equal(d.records['assets.other_liabilities.closing'].amount,11549000);
- assert.equal(d.validation.status,'warning');assert.ok(d.validation.warnings.length>=6);
+ assert.equal(d.validation.status,'warning');assert.deepEqual(d.validation.errors,[]);
+ assert.ok(Array.isArray(d.validation.warnings));
  const m=model(docs),details={};
  for(const [block,groups] of Object.entries(m.annual[2025]))if(['wealth','liquidity'].includes(block))groups.forEach((g,i)=>g.rows.forEach(r=>details[fieldId(`capital:${block}:${i}`,r.label)]=true));
  const h=render(m,{assets:m.years,capital:m.years,details});

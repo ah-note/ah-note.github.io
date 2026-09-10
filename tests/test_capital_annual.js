@@ -107,3 +107,9 @@ test('actual v3 years render only registered Chinese table fields in filing curr
  const allowed=new Set(Object.values(docs[0].display_registry.components).flat().map(([,label])=>label));
  for(const row of table.matchAll(/class="(?:asset-component|aligned-subfield)"[\s\S]*?class="subfield">([^<]+)/g))assert.ok(allowed.has(row[1])||row[1]==='无变动',row[1]);
 });
+test('actual Universal v4 final renders through the shared capital view',()=>{
+ const root=path.join(__dirname,'../capital/UVV'),manifest=JSON.parse(fs.readFileSync(path.join(root,'annual-manifest.json')));
+ const docs=manifest.files.map(file=>JSON.parse(fs.readFileSync(path.join(root,file)))),m=model(docs),html=view.render(m);
+ assert.equal(docs[0].schema,'capital-statement-v4');assert.equal(m.currency,'USD');
+ assert.match(html,/资本表 <small>年末余额 · USD 亿元/);assert.match(html,/重要异常与一次性事项/);
+});

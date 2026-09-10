@@ -650,6 +650,7 @@ def nav(current: str, prefix: str = "") -> str:
         ("报告", "reports", "reports/"),
         ("深度研报", "research", "research/"),
         ("行业", "industries", "industries/"),
+        ("资本表", "capital", "capital/"),
         ("参考资料", "reference", "reference/"),
     ]
     links = []
@@ -660,7 +661,7 @@ def nav(current: str, prefix: str = "") -> str:
 
 
 def legacy_report_nav(prefix: str = "") -> str:
-    items = [("股票", ""), ("报告", "reports/"), ("行业", "industries/"), ("参考资料", "reference/")]
+    items = [("股票", ""), ("报告", "reports/"), ("行业", "industries/"), ("资本表", "capital/"), ("参考资料", "reference/")]
     links = []
     for label, href in items:
         cls = ' class="active"' if label == "报告" else ""
