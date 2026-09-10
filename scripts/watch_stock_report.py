@@ -25,7 +25,7 @@ def classification_digest(stock_analysis_root: Path) -> str:
         raise ValueError("unsupported classification recipe")
     inputs = [recipe]
     for key in ("source", "decisions", "sec_evidence", "taxonomy_extension",
-                "industry_batch_reviews", "identity_links"):
+                "industry_batch_reviews", "identity_links", "search_aliases"):
         if not payload.get(key):
             continue
         relative = Path(payload[key])

@@ -59,7 +59,8 @@ class ClassificationWatchTests(unittest.TestCase):
             recipe.parent.mkdir(parents=True)
             payload = {"schema_version": "industry-review-recipe-v1", "source": "source", "decisions": "decisions.json",
                        "sec_evidence": "sec.jsonl", "taxonomy_extension": "extension.json",
-                       "industry_batch_reviews": "batch.json", "identity_links": "identity.json"}
+                       "industry_batch_reviews": "batch.json", "identity_links": "identity.json",
+                       "search_aliases": "aliases.json"}
             recipe.write_text(json.dumps(payload))
             (root / "source").mkdir()
             decisions = root / "decisions.json"
@@ -72,6 +73,8 @@ class ClassificationWatchTests(unittest.TestCase):
             batch.write_text('{}\n')
             identity = root / "identity.json"
             identity.write_text('{}\n')
+            aliases = root / "aliases.json"
+            aliases.write_text('{}\n')
             for relative in ("data/snapshots/industry_classification/ah_v4", "src/stock_analysis/industry_classification"):
                 (root / relative).mkdir(parents=True)
             initial = watcher.classification_digest(root)
@@ -90,6 +93,9 @@ class ClassificationWatchTests(unittest.TestCase):
             self.assertNotEqual(updated, watcher.classification_digest(root))
             updated = watcher.classification_digest(root)
             identity.write_text('{"changed": true}\n')
+            self.assertNotEqual(updated, watcher.classification_digest(root))
+            updated = watcher.classification_digest(root)
+            aliases.write_text('{"changed": true}\n')
             self.assertNotEqual(updated, watcher.classification_digest(root))
             payload["source"] = "../outside"
             recipe.write_text(json.dumps(payload))
