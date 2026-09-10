@@ -1,0 +1,63 @@
+import importlib.util
+import json
+import tempfile
+from pathlib import Path
+import unittest
+
+spec = importlib.util.spec_from_file_location("capital_import", Path(__file__).parents[1] / "scripts/import_capital_year.py")
+module = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(module)
+
+
+class ImportTest(unittest.TestCase):
+    def test_versions_retained_and_years_reused(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            source = root / "input.json"
+            d = {"schema": "capital-statement-v1", "company": "TEST", "currency": "CNY", "year": 2025, "validation": {"status": "warning", "errors": []}}
+            source.write_text(json.dumps(d))
+            first = module.install(source, root / "site", "TEST", "run1", "digest")
+            module.install(source, root / "site", "TEST", "run1", "digest")
+            self.assertEqual(len(json.loads((root / "site/annual-manifest.json").read_text())["files"]), 1)
+            d["revision"] = 2
+            source.write_text(json.dumps(d))
+            second = module.install(source, root / "site", "TEST", "run2", "digest2")
+            self.assertNotEqual(first, second)
+            self.assertTrue((root / "site" / first).exists())
+            d["validation"]["status"] = "failed"
+            source.write_text(json.dumps(d))
+            with self.assertRaisesRegex(ValueError, "VALIDATION"):
+                module.install(source, root / "site", "TEST", "run3", "digest3")
+
+    def test_v2_requires_fact_ledger(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            source = root / "input.json"
+            d = {"schema": "capital-statement-v2", "company": "TEST", "currency": "CNY", "year": 2025,
+                 "facts": {"revenue": {"source_amount": 1}}, "mappings": [],
+                 "validation": {"status": "warning", "errors": []}}
+            source.write_text(json.dumps(d))
+            self.assertTrue(module.install(source, root / "site", "TEST", "run", "digest").startswith("annual/2025."))
+            del d["facts"]
+            source.write_text(json.dumps(d))
+            with self.assertRaisesRegex(ValueError, "FACT_LEDGER"):
+                module.install(source, root / "other", "TEST", "run", "digest")
+
+    def test_v3_requires_display_registry_and_caps_custom_fields(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            source = root / "input.json"
+            d = {"schema": "capital-statement-v3", "company": "TEST", "currency": "HKD", "year": 2025,
+                 "facts": {"revenue": {"source_amount": 1}}, "mappings": [], "custom_fields": [],
+                 "display_registry": {"version": "capital-display-v1"},
+                 "validation": {"status": "warning", "errors": []}}
+            source.write_text(json.dumps(d))
+            module.install(source, root / "site", "TEST", "run", "digest")
+            d["custom_fields"] = [{} for _ in range(6)]
+            source.write_text(json.dumps(d))
+            with self.assertRaisesRegex(ValueError, "CUSTOM_FIELD_LIMIT"):
+                module.install(source, root / "other", "TEST", "run", "digest")
+
+
+if __name__ == "__main__":
+    unittest.main()

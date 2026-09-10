@@ -1,0 +1,10 @@
+const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm'),path=require('node:path');
+const root=path.join(__dirname,'../value-line/classic'),elements={};
+const context={document:{getElementById(id){return elements[id]??={innerHTML:''};}},module:{exports:{}}};
+const source=fs.readFileSync(path.join(root,'app.js'),'utf8');
+vm.runInNewContext(source,context);
+const {years,rows,financials}=context.module.exports;
+test('full original annual field structure',()=>{assert.equal(years.length,18);assert.equal(rows.length,10);assert.equal(financials.length,13);rows.forEach(r=>assert.equal(r[2].length,18));financials.forEach(r=>assert.equal(r[2].length,12));});
+test('source forecasts replace generated predictions',()=>{assert.equal(rows[2][2][16],5.9);assert.equal(financials[0][2][10],57000);assert.equal(rows[0][4],40.5);assert.doesNotMatch(source,/function prediction|\*\*n/);});
+test('all original sections render and missing values remain visible',()=>{for(const id of ['per-share','financials','insiders','institutions','returns','position','growth','quarter-sales','quarter-eps','quarter-div','high-low','price-grid'])assert.ok(elements[id].innerHTML.length>30,id);assert.match(elements['quarter-div'].innerHTML,/—/);assert.match(elements['per-share'].innerHTML,/2020–22E/);});
+test('same year widths and explicit historical attribution',()=>{const css=fs.readFileSync(path.join(root,'style.css'),'utf8'),html=fs.readFileSync(path.join(root,'index.html'),'utf8');assert.match(css,/year-col\{width:52px\}/);assert.match(css,/grid-template-columns:312px 904px/);assert.match(html,/来源当时预测/);assert.match(html,/公司财务实力/);assert.doesNotMatch(html,/演示预测|版式讨论|怎么看/);});

@@ -1,0 +1,43 @@
+{
+  "company": "00837.HK",
+  "currency": "CNY",
+  "years": {
+    "2025": {
+      "file": "annual/2025.8a9226b363f2e7f8.json",
+      "sha256": "8a9226b363f2e7f8e1f23af5b8c64c5fb805a78310333c4c33bf05b255c9f32b",
+      "source_run": "tan-2025-manual-display-v3",
+      "bundle_sha256": "d979db2e5ab810e9cbd60fbcc2046ff7a88837dd"
+    },
+    "2024": {
+      "file": "annual/2024.9c8679e1241afb2d.json",
+      "sha256": "9c8679e1241afb2d155e25f1f93dbc18e671e4d2db3382677e18046bc0bef85e",
+      "source_run": "tan-2024-manual-display-v3",
+      "bundle_sha256": "d979db2e5ab810e9cbd60fbcc2046ff7a88837dd"
+    },
+    "2023": {
+      "file": "annual/2023.486d49598ee72483.json",
+      "sha256": "486d49598ee7248369a186e56e3466b876005bed3dedf335a41c1e5db33fa7b4",
+      "source_run": "tan-2023-manual-display-v3",
+      "bundle_sha256": "d979db2e5ab810e9cbd60fbcc2046ff7a88837dd"
+    },
+    "2022": {
+      "file": "annual/2022.8d0ffc1fff67157d.json",
+      "sha256": "8d0ffc1fff67157d9f768668b55067b262a61c73d244c67208aeec683a30a8fd",
+      "source_run": "tan-2022-manual-display-v3",
+      "bundle_sha256": "d979db2e5ab810e9cbd60fbcc2046ff7a88837dd"
+    },
+    "2021": {
+      "file": "annual/2021.8c5e27e64b49e9bc.json",
+      "sha256": "8c5e27e64b49e9bccf30dc2c5e7a76061cad0abd06517598d9d14abc96097baf",
+      "source_run": "tan-2021-manual-display-v3",
+      "bundle_sha256": "d979db2e5ab810e9cbd60fbcc2046ff7a88837dd"
+    }
+  },
+  "files": [
+    "annual/2021.8c5e27e64b49e9bc.json",
+    "annual/2022.8d0ffc1fff67157d.json",
+    "annual/2023.486d49598ee72483.json",
+    "annual/2024.9c8679e1241afb2d.json",
+    "annual/2025.8a9226b363f2e7f8.json"
+  ]
+}
