@@ -130,7 +130,8 @@
       .map((leaf) => ({ leaf, issuers: issuersByLeaf.get(leaf.id) || [] }))
       .filter((group) => group.issuers.length);
     if (!groups.length) return "";
-    return `<section class="industry-section"><div class="industry-section-head"><h2>股票列表</h2><span>${groups.reduce((sum, group) => sum + group.issuers.length, 0).toLocaleString("zh-CN")} 家</span></div>`
+    const uniqueCount = new Set(groups.flatMap(group => group.issuers.map(issuer => issuer.id))).size;
+    return `<section class="industry-section"><div class="industry-section-head"><h2>股票列表</h2><span>${uniqueCount.toLocaleString("zh-CN")} 家（跨类重复展示）</span></div>`
       + `<div class="industry-leaf-groups">${groups.map(({ leaf, issuers }) => `
         <details class="industry-leaf-group"${groups.length <= 8 || issuers.length <= 30 ? " open" : ""}>
           <summary><span>${escapeHtml(leaf.name)}</span><strong>${issuers.length}</strong></summary>
