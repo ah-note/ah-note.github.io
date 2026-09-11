@@ -3,22 +3,17 @@ const base=path.join(__dirname,'../value-line'),root=path.join(base,'tan-assets'
 const assets=require(path.join(root,'data.json')),s24=require(path.join(root,'activities-2024.json')),s25=require(path.join(root,'activities.json'));
 const {buildActivities}=require(path.join(root,'activities')),{standardize}=require(path.join(root,'mapping')),{model,render}=require(path.join(root,'compare')),{toggle}=require(path.join(root,'multi'));
 const annual={2024:buildActivities(s24,s24.reconciliation),2025:buildActivities(s25,assets)},m=model(assets,annual,standardize);
-test('linked child details use true shared rows for union, empty, zero and missing',()=>{
- const {fieldId,toggleField}=require(path.join(root,'multi'));
- const label='经营耗用与费用（折旧、损失前）',id=fieldId('capital:wealth:0',label);
+test('concrete activity fields use true shared rows for union, empty, zero and missing',()=>{
+ const label='经营耗用与费用（折旧、损失前）';
  const copy={...m,annual:structuredClone(annual)};
  copy.annual[2024].wealth[0].rows.find(r=>r.label===label).details=[{label:'A',amount:0},{label:'B',amount:20},{label:'D',amount:40}];
  copy.annual[2025].wealth[0].rows.find(r=>r.label===label).details=[{label:'A',amount:10},{label:'C',amount:30},{label:'D',amount:40},{label:'E',amount:null}];
- const state=toggleField({assets:[2024,2025],capital:[2024,2025]},id),h=render(copy,state);
- const rows=[...h.matchAll(/<tr class="aligned-subfield">([\s\S]*?)<\/tr>/g)].map(x=>x[1]);
+ const h=render(copy,{assets:[2024,2025],capital:[2024,2025]});
+ const rows=[...h.matchAll(/<tr class="object-row">([\s\S]*?)<\/tr>/g)].map(x=>x[1]).filter(r=>/[>](?:A|B|C|D|E)</.test(r));
  assert.equal(rows.length,5);
- assert.deepEqual(rows.map(r=>r.match(/class="subfield">([^<]+)/)[1]),['A','B','C','D','E']);
- const b=rows.find(r=>r.includes('>B</td>'));assert.match(b,/<td><\/td><td><\/td>$/);
- const c=rows.find(r=>r.includes('>C</td>'));assert.match(c,/^<td><\/td><td><\/td>/);
+ assert.deepEqual(rows.map(r=>r.match(/class="detail"[^>]*>([^<]+)/)[1]),['A','B','C','D','E']);
  assert.match(rows.find(r=>r.includes('>A</td>')),/>0\.00<\/td>/);
  assert.match(rows.find(r=>r.includes('>E</td>')),/>缺失<\/td>/);
- const closed=toggleField(state,id);assert.doesNotMatch(render(copy,closed),/class="aligned-subfield"/);
- assert.deepEqual(closed.assets,[2024,2025]);
 });
 test('union follows canonical order and distinguishes absent, zero, and missing cells',()=>{
  const {union}=require(path.join(root,'multi'));
@@ -57,14 +52,14 @@ test('asset expansion inserts changes before that year balance, with original ro
 test('capital expansion inserts children after the selected annual total',()=>{
  const h=render(m,{capital:2025});
  assert.match(h,/产品与服务收入/);assert.match(h,/税后经营盈余（折旧、损失前）/);
- assert.match(h,/rowspan="7"/);assert.match(h,/子项目/);assert.doesNotMatch(h,/净贡献／净收付/);
+ assert.match(h,/class="object-row"/);assert.match(h,/子项目/);assert.doesNotMatch(h,/净贡献／净收付/);
  assert.doesNotMatch(h,/<th colspan="2">2025 年变动|inline-detail/);
  assert.ok(h.includes('1.65'));assert.ok(h.includes('2.02'));
 });
 test('year sets stay linked across tables while allowing multiple years',()=>{
  let s=toggle({},'assets',2025);s=toggle(s,'capital',2024);
  assert.deepEqual(s,{assets:[2024,2025],capital:[2024,2025]});
- const h=render(m,s);assert.match(h,/<th colspan="2">2025 年变动/);assert.match(h,/购买少数股权/);
+ const h=render(m,s);assert.match(h,/<th colspan="2">2025 年变动/);assert.match(h,/少数股权交易/);
  s=toggle(s,'assets',2024);assert.deepEqual(s,{assets:[2025],capital:[2025]});
  s=toggle(s,'capital',2024);assert.deepEqual(s,{assets:[2024,2025],capital:[2024,2025]});
  s=toggle(s,'assets',2025);assert.deepEqual(s,{assets:[2024],capital:[2024]});
@@ -105,10 +100,8 @@ test('same-page controls toggle linked years without a simple-view switch',async
  const click=dataset=>handlers['comparison:click']({target:{closest:()=>({dataset})}});
  click({table:'capital',year:'2025'});assert.match(nodes.comparison.innerHTML,/产品与服务收入/);
  click({table:'assets',year:'2024'});assert.match(nodes.comparison.innerHTML,/<th colspan="2">2025 年变动/);assert.match(nodes.comparison.innerHTML,/<th colspan="2">2024 年变动/);
- const key=require(path.join(root,'multi')).fieldId('capital:wealth:0','经营耗用与费用（折旧、损失前）');
- click({field:key,year:'2024'});assert.match(nodes.comparison.innerHTML,/class="subfield">产品成本/);
- const buttons=[...nodes.comparison.innerHTML.matchAll(/<button[^>]*data-field="([^"]+)"[^>]*aria-expanded="true"/g)].filter(x=>x[1]===key);assert.equal(buttons.length,2);
- click({field:key,year:'2025'});assert.doesNotMatch(nodes.comparison.innerHTML,/class="subfield">产品成本/);
+ assert.match(nodes.comparison.innerHTML,/class="object-row"/);
+ assert.match(nodes.comparison.innerHTML,/产品成本/);
  assert.ok(!handlers['view-simple:click']);
  assert.match(nodes.comparison.innerHTML,/<th colspan="2">2025 年变动/);
  const page=fs.readFileSync(path.join(root,'compare.html'),'utf8');assert.doesNotMatch(page,/<a\b|window.print|collapse-all|view-simple|view-multi|end-year-label/);

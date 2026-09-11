@@ -18,7 +18,7 @@
   for(const d of docs){
    if(!['capital-statement-v1','capital-statement-v2','capital-statement-v3'].includes(d.schema)||d.company!==company||d.currency!==currency||!Number.isInteger(d.year)||d.validation?.errors?.length)throw Error('年度协议、主体、币种或校验状态不一致');
    if(['capital-statement-v2','capital-statement-v3'].includes(d.schema)&&(!d.facts||!Array.isArray(d.mappings)))throw Error('年度事实账本缺失');
-   if(v3&&(d.schema!=='capital-statement-v3'||d.display_registry?.version!=='capital-display-v1'||JSON.stringify(d.display_registry)!==JSON.stringify(registry)))throw Error('网页字段注册表不一致');
+   if(v3&&(d.schema!=='capital-statement-v3'||!['capital-display-v1','capital-display-v2'].includes(d.display_registry?.version)||JSON.stringify(d.display_registry)!==JSON.stringify(registry)))throw Error('网页字段注册表不一致');
   }
   const definitions=registeredGroups(registry),annual={},series={},boundaryWarnings=[];
   for(const d of docs){

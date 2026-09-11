@@ -86,24 +86,30 @@ test('all five-year expansion combinations form valid rectangular grids',()=>{
   }
  }
 });
-test('asset components expand as aligned rows in the parent table',()=>{
- const m=model([componentFixture(2021),componentFixture(2022)]),id=view.fieldId('components','working');
- const state=view.toggleComponent({assets:[2021,2022]},id),html=view.render(m,state);
- assert.match(html,/class="asset-component"><th class="subfield">Inventory<\/th>/);
+test('asset objects are primary rows rather than nested accounting buckets',()=>{
+ const m=model([componentFixture(2021),componentFixture(2022)]),html=view.render(m,{assets:[2021,2022]});
+ assert.match(html,/<th class="item">Inventory<\/th>/);
+ assert.doesNotMatch(html,/>经营周转净额</);
  assert.doesNotMatch(html,/<table class="components">/);
- const row=html.match(/<tr class="asset-component">([\s\S]*?)<\/tr>/)[1];
- assert.equal((row.match(/<(?:th|td)\b/g)||[]).length,6);
- assert.doesNotMatch(view.render(m,view.toggleComponent(state,id)),/class="asset-component"/);
+ const row=html.match(/<tr><th class="item">Inventory<\/th>([\s\S]*?)<\/tr>/)[1];
+ assert.equal((row.match(/<(?:th|td)\b/g)||[]).length,7);
 });
 test('actual v3 years render only registered Chinese table fields in filing currency',()=>{
  const root=path.join(__dirname,'../value-line/tan-assets'),manifest=JSON.parse(fs.readFileSync(path.join(root,'annual-manifest.json')));
  const docs=manifest.files.map(file=>JSON.parse(fs.readFileSync(path.join(root,file))));
  assert.ok(docs.every(d=>d.schema==='capital-statement-v3'&&d.currency==='CNY'&&d.custom_fields.length===0));
- const m=model(docs),components=Object.fromEntries(assetSets.flatMap(([, ,fields])=>fields.map(([key])=>[view.fieldId('components',key),true])));
- const html=view.render(m,{assets:m.years,capital:m.years,components}),table=html.split('<details class="page-notes">')[0];
+ const m=model(docs),html=view.render(m,{assets:m.years,capital:m.years}),table=html.split('<details class="page-notes">')[0];
  assert.match(table,/资本表 <small>年末余额 · CNY 亿元/);
  assert.match(table,/资本活动表 <small>全年发生额 · CNY 亿元/);
  assert.doesNotMatch(table,/Inventories|Trade receivables|Trade payables|Property, plant and equipment|Net PPE cash flow/);
- const allowed=new Set(Object.values(docs[0].display_registry.components).flat().map(([,label])=>label));
- for(const row of table.matchAll(/class="(?:asset-component|aligned-subfield)"[\s\S]*?class="subfield">([^<]+)/g))assert.ok(allowed.has(row[1])||row[1]==='无变动',row[1]);
+ const allowed=new Set([
+  ...Object.values(docs[0].display_registry.components).flat().map(([,label])=>label),
+  ...Object.values(docs[0].display_registry.derived),
+ ]);
+ for(const row of table.matchAll(/<td class="detail"[^>]*>([^<]+)/g)){
+  const label=row[1].trim().replace(/ · 估计$/,'');
+  assert.ok(allowed.has(label),row[1]);
+ }
+ for(const label of ['存货','客户应收款','租赁使用权资产','土地使用权','应付股利'])assert.match(table,new RegExp(label));
+ for(const retired of ['经营周转净额','经营设施','经营权利与开发资产','资本采购结算净额','其他经营净额'])assert.doesNotMatch(table,new RegExp('>'+retired+'<'));
 });

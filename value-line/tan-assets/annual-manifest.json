@@ -3,41 +3,41 @@
   "currency": "CNY",
   "years": {
     "2025": {
-      "file": "annual/2025.8a9226b363f2e7f8.json",
-      "sha256": "8a9226b363f2e7f8e1f23af5b8c64c5fb805a78310333c4c33bf05b255c9f32b",
-      "source_run": "tan-2025-manual-display-v3",
-      "bundle_sha256": "d979db2e5ab810e9cbd60fbcc2046ff7a88837dd"
+      "file": "annual/2025.58e3fec94866b6f9.json",
+      "sha256": "58e3fec94866b6f95caf8632949e91aab1042530ec8f757a91c7cd27a74d5ff0",
+      "source_run": "tan-manual-object-display-v2",
+      "bundle_sha256": "25bb512d449d07610803240c80d888bb6467e51d"
     },
     "2024": {
-      "file": "annual/2024.9c8679e1241afb2d.json",
-      "sha256": "9c8679e1241afb2d155e25f1f93dbc18e671e4d2db3382677e18046bc0bef85e",
-      "source_run": "tan-2024-manual-display-v3",
-      "bundle_sha256": "d979db2e5ab810e9cbd60fbcc2046ff7a88837dd"
+      "file": "annual/2024.5f5b1b5773df8e69.json",
+      "sha256": "5f5b1b5773df8e692b84de2a340b309e8d6b5be72a7da36cad746372b3145dc0",
+      "source_run": "tan-manual-object-display-v2",
+      "bundle_sha256": "25bb512d449d07610803240c80d888bb6467e51d"
     },
     "2023": {
-      "file": "annual/2023.486d49598ee72483.json",
-      "sha256": "486d49598ee7248369a186e56e3466b876005bed3dedf335a41c1e5db33fa7b4",
-      "source_run": "tan-2023-manual-display-v3",
-      "bundle_sha256": "d979db2e5ab810e9cbd60fbcc2046ff7a88837dd"
+      "file": "annual/2023.3603d3b51594a026.json",
+      "sha256": "3603d3b51594a026e5e5f9f8bffbbf347f892aa585262b9b25f5dfada0ff5a74",
+      "source_run": "tan-manual-object-display-v2",
+      "bundle_sha256": "25bb512d449d07610803240c80d888bb6467e51d"
     },
     "2022": {
-      "file": "annual/2022.8d0ffc1fff67157d.json",
-      "sha256": "8d0ffc1fff67157d9f768668b55067b262a61c73d244c67208aeec683a30a8fd",
-      "source_run": "tan-2022-manual-display-v3",
-      "bundle_sha256": "d979db2e5ab810e9cbd60fbcc2046ff7a88837dd"
+      "file": "annual/2022.368bc53e833783dc.json",
+      "sha256": "368bc53e833783dcfecd26615c1b8e325754d13b7c1bf2d76cc641429f3b261d",
+      "source_run": "tan-manual-object-display-v2",
+      "bundle_sha256": "25bb512d449d07610803240c80d888bb6467e51d"
     },
     "2021": {
-      "file": "annual/2021.8c5e27e64b49e9bc.json",
-      "sha256": "8c5e27e64b49e9bccf30dc2c5e7a76061cad0abd06517598d9d14abc96097baf",
-      "source_run": "tan-2021-manual-display-v3",
-      "bundle_sha256": "d979db2e5ab810e9cbd60fbcc2046ff7a88837dd"
+      "file": "annual/2021.7bd5414e5835b238.json",
+      "sha256": "7bd5414e5835b2385d135071cf83afe235b8f88335aecf58bc86679d877e26e2",
+      "source_run": "tan-manual-object-display-v2",
+      "bundle_sha256": "25bb512d449d07610803240c80d888bb6467e51d"
     }
   },
   "files": [
-    "annual/2021.8c5e27e64b49e9bc.json",
-    "annual/2022.8d0ffc1fff67157d.json",
-    "annual/2023.486d49598ee72483.json",
-    "annual/2024.9c8679e1241afb2d.json",
-    "annual/2025.8a9226b363f2e7f8.json"
+    "annual/2021.7bd5414e5835b238.json",
+    "annual/2022.368bc53e833783dc.json",
+    "annual/2023.3603d3b51594a026.json",
+    "annual/2024.5f5b1b5773df8e69.json",
+    "annual/2025.58e3fec94866b6f9.json"
   ]
 }
