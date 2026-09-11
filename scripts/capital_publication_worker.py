@@ -43,33 +43,37 @@ def publish(item: dict, site_root: Path) -> dict:
     source = Path(item["result_path"])
     if not source.is_file():
         raise ValueError("CAPITAL_RESULT_NOT_FOUND")
-    run_git(site_root, ["fetch", "origin", "main"])
-    with tempfile.TemporaryDirectory(prefix="capital-publish-") as temporary:
-        worktree = Path(temporary) / "site"
-        try:
-            run_git(site_root, ["worktree", "add", "--detach", str(worktree), "origin/main"])
-            subprocess.run([
-                sys.executable, str(worktree / "scripts/publish_capital_statement.py"),
-                "--input", str(source), "--site-root", str(worktree),
-                "--name", item["name"], "--code", item["company"],
-                "--run-id", item["source_run"], "--bundle-sha", item["bundle_revision"],
-            ], cwd=worktree, check=True)
-            run_git(site_root, ["add", "--all", "--", "capital"], cwd=worktree)
-            changed = run_git(site_root, ["diff", "--cached", "--quiet"], cwd=worktree, check=False).returncode != 0
-            if changed:
-                run_git(site_root, ["config", "user.name", "AH Note Publisher"], cwd=worktree)
-                run_git(site_root, ["config", "user.email", "publisher@ah-note.github.io"], cwd=worktree)
-                run_git(site_root, ["commit", "-m", f"Publish capital statement for {item['company']} {item['period_end']}"], cwd=worktree)
-                pushed = run_git(site_root, ["push", "origin", "HEAD:main"], cwd=worktree, check=False)
-                if pushed.returncode:
-                    raise ConnectionError(pushed.stderr.strip() or pushed.stdout.strip())
-                commit = run_git(site_root, ["rev-parse", "HEAD"], cwd=worktree).stdout.strip()
-            else:
-                commit = ""
-            return {"status": "published" if changed else "unchanged", "commit": commit}
-        finally:
-            run_git(site_root, ["worktree", "remove", "--force", str(worktree)], check=False)
-            run_git(site_root, ["worktree", "prune"], check=False)
+    common = run_git(site_root, ["rev-parse", "--git-common-dir"]).stdout.strip()
+    common_dir = Path(common) if Path(common).is_absolute() else (site_root / common).resolve()
+    with (common_dir / "ah-note-publish.lock").open("a+") as git_lock:
+        fcntl.flock(git_lock, fcntl.LOCK_EX)
+        run_git(site_root, ["fetch", "origin", "main"])
+        with tempfile.TemporaryDirectory(prefix="capital-publish-") as temporary:
+            worktree = Path(temporary) / "site"
+            try:
+                run_git(site_root, ["worktree", "add", "--detach", str(worktree), "origin/main"])
+                subprocess.run([
+                    sys.executable, str(worktree / "scripts/publish_capital_statement.py"),
+                    "--input", str(source), "--site-root", str(worktree),
+                    "--name", item["name"], "--code", item["company"],
+                    "--run-id", item["source_run"], "--bundle-sha", item["bundle_revision"],
+                ], cwd=worktree, check=True)
+                run_git(site_root, ["add", "--all", "--", "capital"], cwd=worktree)
+                changed = run_git(site_root, ["diff", "--cached", "--quiet"], cwd=worktree, check=False).returncode != 0
+                if changed:
+                    run_git(site_root, ["config", "user.name", "AH Note Publisher"], cwd=worktree)
+                    run_git(site_root, ["config", "user.email", "publisher@ah-note.github.io"], cwd=worktree)
+                    run_git(site_root, ["commit", "-m", f"Publish capital statement for {item['company']} {item['period_end']}"], cwd=worktree)
+                    pushed = run_git(site_root, ["push", "origin", "HEAD:main"], cwd=worktree, check=False)
+                    if pushed.returncode:
+                        raise ConnectionError(pushed.stderr.strip() or pushed.stdout.strip())
+                    commit = run_git(site_root, ["rev-parse", "HEAD"], cwd=worktree).stdout.strip()
+                else:
+                    commit = ""
+                return {"status": "published" if changed else "unchanged", "commit": commit}
+            finally:
+                run_git(site_root, ["worktree", "remove", "--force", str(worktree)], check=False)
+                run_git(site_root, ["worktree", "prune"], check=False)
 
 
 def recover(root: Path) -> int:
