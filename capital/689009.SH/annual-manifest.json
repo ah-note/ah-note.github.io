@@ -1,0 +1,27 @@
+{
+  "schema": "capital-period-manifest-v1",
+  "company": "689009.SH",
+  "currency": "CNY",
+  "periods": {
+    "2024-12-31": {
+      "period_start": "2024-01-01",
+      "period_end": "2024-12-31",
+      "file": "annual/2024-12-31.9f87c51872c88b5c.json",
+      "sha256": "9f87c51872c88b5c38352e705f9ba0bb003f271142222e68e3ca4d3a96ef3431",
+      "source_run": "ninebot-2024-2025-v5-2024-12-31-finalize",
+      "bundle_sha256": "dc65d88a"
+    },
+    "2025-12-31": {
+      "period_start": "2025-01-01",
+      "period_end": "2025-12-31",
+      "file": "annual/2025-12-31.6452721d43da96b9.json",
+      "sha256": "6452721d43da96b9494cd24dec1150627ade216bbe923ca62cae38ae9804b4d7",
+      "source_run": "ninebot-2024-2025-v5-2025-12-31-finalize",
+      "bundle_sha256": "dc65d88a"
+    }
+  },
+  "files": [
+    "annual/2024-12-31.9f87c51872c88b5c.json",
+    "annual/2025-12-31.6452721d43da96b9.json"
+  ]
+}
