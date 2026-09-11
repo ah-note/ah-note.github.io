@@ -1,0 +1,6940 @@
+{
+  "draft_schema": "capital-statement-draft-v6",
+  "schema": "capital-statement-v6",
+  "company": "600585.SH",
+  "period_start": "2023-01-01",
+  "period_end": "2023-12-31",
+  "report_type": "annual",
+  "currency": "CNY",
+  "precision": 1.0,
+  "sources": [
+    {
+      "id": "filing.2023",
+      "url": "https://www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2024-03-20/600585_20240320_ZZB4.pdf",
+      "basis": "安徽海螺水泥股份有限公司2023年度财务报表及附注",
+      "kind": "filing",
+      "page_count": 288,
+      "sha256": "0971274fa7ac33708afa1f40e16c7f6ad0c3edc8adacaceb7953631125271b15"
+    }
+  ],
+  "display_registry": {
+    "version": "capital-display-v1",
+    "assets": {
+      "op": [
+        [
+          "working",
+          "经营周转净额"
+        ],
+        [
+          "facilities",
+          "经营设施"
+        ],
+        [
+          "rights",
+          "经营权利与开发资产"
+        ],
+        [
+          "capital_settlement",
+          "资本采购结算净额"
+        ],
+        [
+          "goodwill",
+          "商誉"
+        ],
+        [
+          "other_operating",
+          "其他经营净额"
+        ]
+      ],
+      "na": [
+        [
+          "cash",
+          "现金与存款"
+        ],
+        [
+          "investments",
+          "对外投资"
+        ],
+        [
+          "other_assets",
+          "其他非经营资产"
+        ]
+      ],
+      "nl": [
+        [
+          "financing",
+          "融资负债"
+        ],
+        [
+          "shareholder",
+          "股东相关应付款"
+        ],
+        [
+          "other_liabilities",
+          "其他非经营负债"
+        ]
+      ]
+    },
+    "asset_groups": {
+      "op": "经营净资产",
+      "na": "非经营资产",
+      "nl": "非经营负债"
+    },
+    "activities": {
+      "wealth": {
+        "operating": [
+          [
+            "revenue",
+            "产品与服务收入"
+          ],
+          [
+            "costs",
+            "经营耗用与费用（折旧、损失前）"
+          ],
+          [
+            "other_income",
+            "经营补助与其他收入"
+          ],
+          [
+            "tax",
+            "经营所得税"
+          ],
+          [
+            "depreciation",
+            "折旧摊销"
+          ],
+          [
+            "loss",
+            "经营资产损失"
+          ]
+        ],
+        "nonoperating": [
+          [
+            "returns",
+            "利息与投资收益"
+          ],
+          [
+            "valuation",
+            "价值重估与汇兑损益"
+          ],
+          [
+            "tax",
+            "非经营所得税"
+          ]
+        ],
+        "finance": [
+          [
+            "cost",
+            "融资费用"
+          ],
+          [
+            "tax",
+            "融资税收影响"
+          ]
+        ],
+        "owner": [
+          [
+            "input",
+            "增资与股份激励"
+          ],
+          [
+            "dividend",
+            "批准分红"
+          ],
+          [
+            "repurchase",
+            "股份回购"
+          ],
+          [
+            "minority",
+            "少数股权交易"
+          ]
+        ],
+        "other": [
+          [
+            "translation",
+            "报表折算差额"
+          ],
+          [
+            "other_oci",
+            "其他综合收益"
+          ],
+          [
+            "scope",
+            "合并范围及其他权益变动"
+          ]
+        ]
+      },
+      "liquidity": {
+        "operating": [
+          [
+            "before_working",
+            "经营收付（周转、缴税前）"
+          ],
+          [
+            "working",
+            "经营周转资金释放／占用"
+          ],
+          [
+            "tax",
+            "实际缴纳所得税"
+          ]
+        ],
+        "capacity": [
+          [
+            "purchase",
+            "购建经营资产"
+          ],
+          [
+            "disposal",
+            "处置经营资产收款"
+          ]
+        ],
+        "investment": [
+          [
+            "invest",
+            "投入对外投资"
+          ],
+          [
+            "recover",
+            "收回投资及处置收款"
+          ],
+          [
+            "returns",
+            "收到利息与投资分配"
+          ]
+        ],
+        "finance": [
+          [
+            "borrow",
+            "现金借款"
+          ],
+          [
+            "repay",
+            "偿还融资本金"
+          ],
+          [
+            "cost",
+            "支付融资费用"
+          ]
+        ],
+        "owner": [
+          [
+            "input",
+            "收到增资"
+          ],
+          [
+            "dividend",
+            "实际支付分红"
+          ],
+          [
+            "repurchase",
+            "现金回购"
+          ],
+          [
+            "minority",
+            "少数股权交易收付"
+          ]
+        ],
+        "other": [
+          [
+            "translation",
+            "汇率折算影响"
+          ],
+          [
+            "scope",
+            "合并范围现金变化"
+          ],
+          [
+            "restriction",
+            "资金范围转类"
+          ]
+        ]
+      }
+    },
+    "table_sections": {
+      "wealth": "净资产形成",
+      "liquidity": "资金收付与配置"
+    },
+    "activity_groups": {
+      "wealth": [
+        [
+          "operating",
+          "经营净贡献"
+        ],
+        [
+          "nonoperating",
+          "非经营资产净贡献"
+        ],
+        [
+          "finance",
+          "融资净成本"
+        ],
+        [
+          "owner",
+          "股东投入与分配"
+        ],
+        [
+          "other",
+          "其他权益变动"
+        ]
+      ],
+      "liquidity": [
+        [
+          "operating",
+          "经营与持有收付"
+        ],
+        [
+          "capacity",
+          "经营资产投入与退出"
+        ],
+        [
+          "investment",
+          "投资投入、收回与收益"
+        ],
+        [
+          "finance",
+          "融资借入与偿还"
+        ],
+        [
+          "owner",
+          "股东资金收付"
+        ],
+        [
+          "other",
+          "现金折算及范围变化"
+        ]
+      ]
+    },
+    "components": {
+      "assets.working": [
+        [
+          "inventory",
+          "存货"
+        ],
+        [
+          "customer_receivables",
+          "客户经营欠款"
+        ],
+        [
+          "contract_assets",
+          "合同资产"
+        ],
+        [
+          "operating_prepayments",
+          "经营预付款与押金"
+        ],
+        [
+          "other_operating_receivables",
+          "其他经营应收"
+        ],
+        [
+          "supplier_payables",
+          "供应商经营占款"
+        ],
+        [
+          "customer_advances",
+          "客户预收与合同负债"
+        ],
+        [
+          "employee_payables",
+          "员工结算义务"
+        ],
+        [
+          "other_operating_payables",
+          "其他经营应付与结算"
+        ]
+      ],
+      "assets.facilities": [
+        [
+          "owned_facilities",
+          "自有经营设施"
+        ],
+        [
+          "construction_in_progress",
+          "在建经营设施"
+        ],
+        [
+          "leased_facilities",
+          "租入经营设施"
+        ],
+        [
+          "productive_biological_assets",
+          "生产性生物资产"
+        ],
+        [
+          "other_facilities",
+          "其他经营设施"
+        ]
+      ],
+      "assets.rights": [
+        [
+          "land_rights",
+          "土地使用权"
+        ],
+        [
+          "resource_rights",
+          "资源权利"
+        ],
+        [
+          "concessions",
+          "特许经营权"
+        ],
+        [
+          "development_assets",
+          "开发资产"
+        ],
+        [
+          "acquired_operating_intangibles",
+          "外购经营无形资产"
+        ],
+        [
+          "other_rights",
+          "其他经营权利"
+        ]
+      ],
+      "assets.capital_settlement": [
+        [
+          "capital_prepayments",
+          "资本采购预付款"
+        ],
+        [
+          "capital_payables",
+          "资本采购欠款"
+        ],
+        [
+          "undisclosed_estimate",
+          "未单列资本采购结算估计"
+        ]
+      ],
+      "assets.goodwill": [
+        [
+          "goodwill",
+          "商誉"
+        ]
+      ],
+      "assets.other_operating": [
+        [
+          "operating_tax_assets",
+          "经营税项资产"
+        ],
+        [
+          "operating_tax_liabilities",
+          "经营税项义务"
+        ],
+        [
+          "deferred_operating_income",
+          "递延经营收益"
+        ],
+        [
+          "employee_benefit_obligations",
+          "长期员工义务"
+        ],
+        [
+          "operating_provisions",
+          "经营预计义务"
+        ],
+        [
+          "other_operating_assets",
+          "其他经营资产"
+        ],
+        [
+          "other_operating_liabilities",
+          "其他经营义务"
+        ]
+      ],
+      "assets.cash": [
+        [
+          "cash_equivalents",
+          "现金及现金等价物"
+        ],
+        [
+          "time_deposits",
+          "定期存款"
+        ],
+        [
+          "restricted_cash",
+          "受限及质押资金"
+        ],
+        [
+          "undivided_cash",
+          "现金、存款及受限资金（未拆分）"
+        ]
+      ],
+      "assets.investments": [
+        [
+          "associates_joint_ventures",
+          "联营与合营投资"
+        ],
+        [
+          "equity_investments",
+          "权益投资"
+        ],
+        [
+          "debt_investments",
+          "债权投资"
+        ],
+        [
+          "funds_wealth_products",
+          "基金与理财产品"
+        ],
+        [
+          "investment_derivatives",
+          "投资性衍生工具"
+        ],
+        [
+          "other_investments",
+          "其他对外投资"
+        ]
+      ],
+      "assets.other_assets": [
+        [
+          "investment_property",
+          "非主业投资物业"
+        ],
+        [
+          "nonoperating_receivables",
+          "非经营应收"
+        ],
+        [
+          "assets_held_for_sale",
+          "持有待售非经营资产"
+        ],
+        [
+          "other_nonoperating_assets",
+          "其他非经营资产"
+        ]
+      ],
+      "assets.financing": [
+        [
+          "bank_borrowings",
+          "银行及其他借款"
+        ],
+        [
+          "bonds_notes",
+          "债券及票据"
+        ],
+        [
+          "lease_liabilities",
+          "租赁负债"
+        ],
+        [
+          "financing_payables",
+          "实质融资应付款"
+        ],
+        [
+          "financing_derivatives",
+          "融资性衍生工具"
+        ],
+        [
+          "other_financing",
+          "其他融资负债"
+        ]
+      ],
+      "assets.shareholder": [
+        [
+          "dividends_payable",
+          "应付股利"
+        ],
+        [
+          "repurchase_redemption",
+          "回购及赎回义务"
+        ],
+        [
+          "share_incentive_obligations",
+          "股份激励结算义务"
+        ]
+      ],
+      "assets.other_liabilities": [
+        [
+          "nonoperating_tax_liabilities",
+          "非经营税项义务"
+        ],
+        [
+          "nonoperating_provisions",
+          "诉讼及其他非经营预计义务"
+        ],
+        [
+          "other_nonoperating_liabilities",
+          "其他非经营负债"
+        ]
+      ],
+      "wealth.operating.revenue": [
+        [
+          "product_revenue",
+          "产品收入"
+        ],
+        [
+          "service_revenue",
+          "服务收入"
+        ],
+        [
+          "operating_rental_revenue",
+          "主营租赁收入"
+        ],
+        [
+          "other_operating_revenue",
+          "其他经营收入"
+        ],
+        [
+          "undivided_operating_revenue",
+          "产品与服务收入（未拆分）"
+        ]
+      ],
+      "wealth.operating.costs": [
+        [
+          "product_service_costs",
+          "产品与服务耗用"
+        ],
+        [
+          "selling_distribution",
+          "销售与履约费用"
+        ],
+        [
+          "administrative",
+          "管理费用"
+        ],
+        [
+          "research_development",
+          "研发费用"
+        ],
+        [
+          "other_operating_costs",
+          "其他经营费用"
+        ],
+        [
+          "depreciation_adjustment",
+          "剔除折旧摊销"
+        ],
+        [
+          "asset_loss_adjustment",
+          "剔除经营资产损失"
+        ],
+        [
+          "nonoperating_adjustment",
+          "剔除非经营收支"
+        ]
+      ],
+      "wealth.operating.other_income": [
+        [
+          "grants_subsidies",
+          "经营补助"
+        ],
+        [
+          "tax_refunds",
+          "经营税费返还"
+        ],
+        [
+          "other_operating_income",
+          "其他经营收益"
+        ],
+        [
+          "undivided_operating_income",
+          "经营补助与其他收益（未拆分）"
+        ]
+      ],
+      "wealth.operating.tax": [
+        [
+          "current_operating_tax",
+          "当期经营所得税"
+        ],
+        [
+          "deferred_operating_tax",
+          "递延经营所得税"
+        ],
+        [
+          "allocated_operating_tax",
+          "估计分配的经营所得税"
+        ]
+      ],
+      "wealth.operating.depreciation": [
+        [
+          "facility_depreciation",
+          "经营设施折旧"
+        ],
+        [
+          "rights_amortization",
+          "经营权利摊销"
+        ],
+        [
+          "other_operating_amortization",
+          "其他经营摊销"
+        ]
+      ],
+      "wealth.operating.loss": [
+        [
+          "inventory_loss",
+          "存货损失"
+        ],
+        [
+          "credit_loss",
+          "经营信用损失"
+        ],
+        [
+          "asset_impairment",
+          "经营资产减值"
+        ],
+        [
+          "disposal_derecognition_loss",
+          "处置及终止确认损失"
+        ],
+        [
+          "other_operating_loss",
+          "其他经营资产损失"
+        ],
+        [
+          "undivided_operating_loss",
+          "经营资产损失（未拆分）"
+        ]
+      ],
+      "wealth.nonoperating.returns": [
+        [
+          "interest_income",
+          "利息收益"
+        ],
+        [
+          "dividend_income",
+          "股利及投资分配"
+        ],
+        [
+          "nonoperating_rent",
+          "非主业物业净收益"
+        ],
+        [
+          "realized_investment_return",
+          "已实现投资收益"
+        ],
+        [
+          "other_nonoperating_return",
+          "其他非经营收益"
+        ],
+        [
+          "undivided_nonoperating_return",
+          "利息与其他非经营收益（未拆分）"
+        ]
+      ],
+      "wealth.nonoperating.valuation": [
+        [
+          "investment_valuation",
+          "投资价值变动"
+        ],
+        [
+          "property_valuation",
+          "非主业物业价值变动"
+        ],
+        [
+          "foreign_exchange",
+          "汇兑损益"
+        ],
+        [
+          "other_valuation",
+          "其他价值变动"
+        ],
+        [
+          "undivided_valuation",
+          "价值重估与汇兑损益（未拆分）"
+        ]
+      ],
+      "wealth.nonoperating.tax": [
+        [
+          "current_nonoperating_tax",
+          "当期非经营所得税"
+        ],
+        [
+          "deferred_nonoperating_tax",
+          "递延非经营所得税"
+        ],
+        [
+          "withholding_tax",
+          "投资分配预提税"
+        ],
+        [
+          "allocated_nonoperating_tax",
+          "估计分配的非经营所得税"
+        ],
+        [
+          "undivided_nonoperating_tax",
+          "非经营所得税（未拆分）"
+        ]
+      ],
+      "wealth.finance.cost": [
+        [
+          "borrowing_interest",
+          "借款利息"
+        ],
+        [
+          "bond_interest",
+          "债券及票据利息"
+        ],
+        [
+          "lease_interest",
+          "租赁融资费用"
+        ],
+        [
+          "other_finance_cost",
+          "其他融资费用"
+        ]
+      ],
+      "wealth.finance.tax": [
+        [
+          "finance_tax_effect",
+          "融资税收影响"
+        ]
+      ],
+      "wealth.owner.input": [
+        [
+          "share_issue",
+          "股份发行"
+        ],
+        [
+          "share_incentive",
+          "股份激励"
+        ],
+        [
+          "other_owner_input",
+          "其他股东投入"
+        ],
+        [
+          "undivided_owner_input",
+          "增资与股份激励（未拆分）"
+        ]
+      ],
+      "wealth.owner.dividend": [
+        [
+          "dividend_declared",
+          "批准及宣告分红"
+        ]
+      ],
+      "wealth.owner.repurchase": [
+        [
+          "share_repurchase",
+          "股份回购"
+        ]
+      ],
+      "wealth.owner.minority": [
+        [
+          "minority_acquisition",
+          "收购少数股权"
+        ],
+        [
+          "minority_disposal",
+          "出售少数股权"
+        ]
+      ],
+      "wealth.other.translation": [
+        [
+          "statement_translation",
+          "报表折算差额"
+        ]
+      ],
+      "wealth.other.other_oci": [
+        [
+          "hedging_oci",
+          "套期储备变动"
+        ],
+        [
+          "revaluation_oci",
+          "资产重估储备变动"
+        ],
+        [
+          "actuarial_oci",
+          "员工福利精算变动"
+        ],
+        [
+          "other_oci",
+          "其他综合收益"
+        ]
+      ],
+      "wealth.other.scope": [
+        [
+          "business_combination",
+          "业务并入"
+        ],
+        [
+          "business_disposal",
+          "业务移出"
+        ],
+        [
+          "other_equity_change",
+          "其他权益变动"
+        ]
+      ],
+      "liquidity.operating.before_working": [
+        [
+          "operating_base_cash",
+          "周转及缴税前经营收付"
+        ]
+      ],
+      "liquidity.operating.working": [
+        [
+          "inventory_cash",
+          "存货资金释放／占用"
+        ],
+        [
+          "receivables_cash",
+          "经营应收资金释放／占用"
+        ],
+        [
+          "payables_cash",
+          "经营应付资金释放／占用"
+        ],
+        [
+          "other_working_cash",
+          "其他经营周转资金释放／占用"
+        ],
+        [
+          "undivided_working_cash",
+          "经营周转资金释放／占用（未拆分）"
+        ]
+      ],
+      "liquidity.operating.tax": [
+        [
+          "income_tax_paid",
+          "支付所得税"
+        ],
+        [
+          "withholding_tax_paid",
+          "支付预提税"
+        ],
+        [
+          "undivided_tax_paid",
+          "实际缴纳所得税（未拆分）"
+        ]
+      ],
+      "liquidity.capacity.purchase": [
+        [
+          "facility_purchase",
+          "购建经营设施"
+        ],
+        [
+          "rights_purchase",
+          "取得经营权利"
+        ],
+        [
+          "development_purchase",
+          "投入开发资产"
+        ],
+        [
+          "other_capacity_purchase",
+          "其他经营资产投入"
+        ]
+      ],
+      "liquidity.capacity.disposal": [
+        [
+          "facility_disposal",
+          "处置经营设施收款"
+        ],
+        [
+          "rights_disposal",
+          "处置经营权利收款"
+        ],
+        [
+          "other_capacity_disposal",
+          "其他经营资产处置收款"
+        ]
+      ],
+      "liquidity.investment.invest": [
+        [
+          "associate_jv_invest",
+          "投入联营与合营企业"
+        ],
+        [
+          "equity_invest",
+          "投入权益投资"
+        ],
+        [
+          "debt_invest",
+          "投入债权投资"
+        ],
+        [
+          "fund_wealth_invest",
+          "投入基金与理财产品"
+        ],
+        [
+          "other_invest",
+          "其他对外投资"
+        ]
+      ],
+      "liquidity.investment.recover": [
+        [
+          "associate_jv_recover",
+          "收回联营与合营投资"
+        ],
+        [
+          "equity_recover",
+          "收回权益投资"
+        ],
+        [
+          "debt_recover",
+          "收回债权投资"
+        ],
+        [
+          "fund_wealth_recover",
+          "收回基金与理财产品"
+        ],
+        [
+          "other_investment_recover",
+          "其他投资收回及处置收款"
+        ]
+      ],
+      "liquidity.investment.returns": [
+        [
+          "interest_received",
+          "收到利息"
+        ],
+        [
+          "dividend_received",
+          "收到股利及投资分配"
+        ],
+        [
+          "other_investment_return_cash",
+          "收到其他投资收益"
+        ]
+      ],
+      "liquidity.finance.borrow": [
+        [
+          "bank_borrow",
+          "取得银行及其他借款"
+        ],
+        [
+          "bond_issue",
+          "发行债券及票据"
+        ],
+        [
+          "other_financing_received",
+          "收到其他融资"
+        ]
+      ],
+      "liquidity.finance.repay": [
+        [
+          "bank_repay",
+          "偿还银行及其他借款"
+        ],
+        [
+          "bond_repay",
+          "偿还债券及票据"
+        ],
+        [
+          "lease_principal",
+          "偿还租赁本金"
+        ],
+        [
+          "other_financing_repay",
+          "偿还其他融资本金"
+        ]
+      ],
+      "liquidity.finance.cost": [
+        [
+          "interest_paid",
+          "支付借款及债券利息"
+        ],
+        [
+          "lease_interest_paid",
+          "支付租赁利息"
+        ],
+        [
+          "other_finance_cost_paid",
+          "支付其他融资费用"
+        ]
+      ],
+      "liquidity.owner.input": [
+        [
+          "share_issue_cash",
+          "收到股份发行款"
+        ],
+        [
+          "share_incentive_cash",
+          "收到股份激励款"
+        ],
+        [
+          "other_owner_cash",
+          "收到其他股东投入"
+        ]
+      ],
+      "liquidity.owner.dividend": [
+        [
+          "dividend_paid",
+          "实际支付分红"
+        ]
+      ],
+      "liquidity.owner.repurchase": [
+        [
+          "repurchase_paid",
+          "现金回购股份"
+        ]
+      ],
+      "liquidity.owner.minority": [
+        [
+          "minority_acquisition_cash",
+          "收购少数股权付款"
+        ],
+        [
+          "minority_disposal_cash",
+          "出售少数股权收款"
+        ]
+      ],
+      "liquidity.other.translation": [
+        [
+          "cash_translation",
+          "现金汇率折算影响"
+        ]
+      ],
+      "liquidity.other.scope": [
+        [
+          "acquired_cash",
+          "并入业务现金"
+        ],
+        [
+          "disposed_cash",
+          "移出业务现金"
+        ]
+      ],
+      "liquidity.other.restriction": [
+        [
+          "restriction_transfer",
+          "资金可用范围转类"
+        ]
+      ]
+    },
+    "movements": {
+      "operating": "经营形成与耗用",
+      "settlement": "经营收付",
+      "capacity": "经营投入与退出",
+      "consumption": "折旧摊销与耗竭",
+      "loss": "资产减值与恢复",
+      "investment": "投资投入与收回",
+      "returns": "投资收益",
+      "financing": "融资借入与偿还",
+      "finance_cost": "融资费用",
+      "owner": "股东投入与分配",
+      "scope": "业务并入与移出",
+      "valuation": "价值重估与汇率",
+      "transfer": "资产与义务转类",
+      "balance": "余额变化",
+      "unresolved": "未解释差额"
+    },
+    "derived": {
+      "wealth.operating.before_depreciation_loss": "税后经营盈余（折旧、损失前）",
+      "controls.equity.change": "净资产增加",
+      "controls.cash.change": "现金与存款增加",
+      "noncash.leases": "非现金资本配置"
+    }
+  },
+  "custom_fields": [],
+  "facts": {
+    "wop.inv": {
+      "label": "存货",
+      "source_amount": 11678994640.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 97,
+      "basis": "合并资产负债表存货",
+      "calculation": null
+    },
+    "wop.rec": {
+      "label": "客户经营债权",
+      "source_amount": 16991449138.0,
+      "status": "derived",
+      "source_id": "filing.2023",
+      "page": 97,
+      "basis": "应收票据+应收账款+应收款项融资",
+      "calculation": "wop.rec1"
+    },
+    "wop.pay": {
+      "label": "应付账款",
+      "source_amount": 6781359336.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 98,
+      "basis": "合并资产负债表应付账款",
+      "calculation": null
+    },
+    "wop.orec": {
+      "label": "其他应收款",
+      "source_amount": 3900296934.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 97,
+      "basis": "合并资产负债表其他应收款",
+      "calculation": null
+    },
+    "wop.adv": {
+      "label": "合同负债",
+      "source_amount": 3576718529.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 98,
+      "basis": "合并资产负债表合同负债",
+      "calculation": null
+    },
+    "wop.emp": {
+      "label": "应付职工薪酬",
+      "source_amount": 1639166765.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 98,
+      "basis": "合并资产负债表应付职工薪酬",
+      "calculation": null
+    },
+    "wop.othpay": {
+      "label": "应交税费及其他应付款",
+      "source_amount": 10971880060.0,
+      "status": "derived",
+      "source_id": "filing.2023",
+      "page": 98,
+      "basis": "合计",
+      "calculation": "2135264342+8836615718"
+    },
+    "wcl.inv": {
+      "label": "存货",
+      "source_amount": 10100345825.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 97,
+      "basis": "合并资产负债表存货",
+      "calculation": null
+    },
+    "wcl.rec": {
+      "label": "客户经营债权",
+      "source_amount": 12615833159.0,
+      "status": "derived",
+      "source_id": "filing.2023",
+      "page": 97,
+      "basis": "合计",
+      "calculation": "6327967047+4398854276+1889011836"
+    },
+    "wcl.pre": {
+      "label": "预付款项",
+      "source_amount": 2403781870.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 97,
+      "basis": "合并资产负债表预付款项",
+      "calculation": null
+    },
+    "wcl.orec": {
+      "label": "其他应收款",
+      "source_amount": 3693848659.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 97,
+      "basis": "合并资产负债表其他应收款",
+      "calculation": null
+    },
+    "wcl.pay": {
+      "label": "应付账款",
+      "source_amount": 6298249362.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 98,
+      "basis": "合并资产负债表应付账款",
+      "calculation": null
+    },
+    "wcl.adv": {
+      "label": "合同负债",
+      "source_amount": 2887907489.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 98,
+      "basis": "合并资产负债表合同负债",
+      "calculation": null
+    },
+    "wcl.emp": {
+      "label": "应付职工薪酬",
+      "source_amount": 1512587996.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 98,
+      "basis": "合并资产负债表应付职工薪酬",
+      "calculation": null
+    },
+    "wcl.othpay": {
+      "label": "应交税费及其他应付款",
+      "source_amount": 11343946672.0,
+      "status": "derived",
+      "source_id": "filing.2023",
+      "page": 98,
+      "basis": "合计",
+      "calculation": "2297513152+9046433520"
+    },
+    "fop.owned": {
+      "label": "固定资产",
+      "source_amount": 81181917083.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 97,
+      "basis": "合并资产负债表固定资产",
+      "calculation": null
+    },
+    "fop.cip": {
+      "label": "在建工程",
+      "source_amount": 8387067209.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 97,
+      "basis": "合并资产负债表在建工程",
+      "calculation": null
+    },
+    "fop.lease": {
+      "label": "使用权资产",
+      "source_amount": 146228785.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 97,
+      "basis": "合并资产负债表使用权资产",
+      "calculation": null
+    },
+    "fcl.owned": {
+      "label": "固定资产",
+      "source_amount": 85564696703.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 97,
+      "basis": "合并资产负债表固定资产",
+      "calculation": null
+    },
+    "fcl.cip": {
+      "label": "在建工程",
+      "source_amount": 10842088393.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 97,
+      "basis": "合并资产负债表在建工程",
+      "calculation": null
+    },
+    "fcl.lease": {
+      "label": "使用权资产",
+      "source_amount": 339896374.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 97,
+      "basis": "合并资产负债表使用权资产",
+      "calculation": null
+    },
+    "rop": {
+      "label": "无形资产",
+      "source_amount": 32038330621.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 97,
+      "basis": "合并资产负债表无形资产",
+      "calculation": null
+    },
+    "rcl": {
+      "label": "无形资产",
+      "source_amount": 32379660353.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 97,
+      "basis": "合并资产负债表无形资产",
+      "calculation": null
+    },
+    "gop": {
+      "label": "商誉",
+      "source_amount": 1145963981.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 97,
+      "basis": "合并资产负债表商誉",
+      "calculation": null
+    },
+    "gcl": {
+      "label": "商誉",
+      "source_amount": 1147071509.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 97,
+      "basis": "合并资产负债表商誉",
+      "calculation": null
+    },
+    "cop": {
+      "label": "现金、存款及受限资金",
+      "source_amount": 57865704190.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 97,
+      "basis": "货币资金合计",
+      "calculation": null
+    },
+    "ccl": {
+      "label": "现金、存款及受限资金",
+      "source_amount": 68361599053.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 97,
+      "basis": "货币资金合计",
+      "calculation": null
+    },
+    "iop.eq": {
+      "label": "其他权益工具投资",
+      "source_amount": 2325185921.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 97,
+      "basis": "其他权益工具投资",
+      "calculation": null
+    },
+    "iop.jv": {
+      "label": "长期股权投资",
+      "source_amount": 6792654915.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 97,
+      "basis": "长期股权投资",
+      "calculation": null
+    },
+    "iop.fund": {
+      "label": "交易性金融资产",
+      "source_amount": 10754921384.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 97,
+      "basis": "交易性金融资产",
+      "calculation": null
+    },
+    "sh.c": {
+      "label": "应付股利",
+      "source_amount": 0.0,
+      "status": "not_applicable",
+      "source_id": "filing.2023",
+      "page": 98,
+      "basis": "未列示应付股利",
+      "calculation": null
+    },
+    "eq.o": {
+      "label": "股东权益合计",
+      "source_amount": 195993594732.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 99,
+      "basis": "股东权益合计",
+      "calculation": null
+    },
+    "eq.c": {
+      "label": "股东权益合计",
+      "source_amount": 197968727563.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 99,
+      "basis": "股东权益合计",
+      "calculation": null
+    },
+    "par.o": {
+      "label": "归属于母公司股东权益合计",
+      "source_amount": 183638724731.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 99,
+      "basis": "归属于母公司股东权益合计",
+      "calculation": null
+    },
+    "par.c": {
+      "label": "归属于母公司股东权益合计",
+      "source_amount": 185321082984.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 99,
+      "basis": "归属于母公司股东权益合计",
+      "calculation": null
+    },
+    "min.o": {
+      "label": "少数股东权益",
+      "source_amount": 12354870001.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 99,
+      "basis": "少数股东权益",
+      "calculation": null
+    },
+    "min.c": {
+      "label": "少数股东权益",
+      "source_amount": 12647644579.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 99,
+      "basis": "少数股东权益",
+      "calculation": null
+    },
+    "profit": {
+      "label": "合并净利润",
+      "source_amount": 10749185311.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 103,
+      "basis": "合并利润表净利润",
+      "calculation": null
+    },
+    "rev": {
+      "label": "营业收入",
+      "source_amount": 140999428017.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 103,
+      "basis": "合并利润表营业收入",
+      "calculation": null
+    },
+    "cost.cogs": {
+      "label": "营业成本",
+      "source_amount": 117636621441.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 103,
+      "basis": "合并利润表营业成本",
+      "calculation": null
+    },
+    "cost.dep_adj": {
+      "label": "折旧摊销剔除",
+      "source_amount": 7445255106.0,
+      "status": "derived",
+      "source_id": "filing.2023",
+      "page": 202,
+      "basis": "补充资料",
+      "calculation": "附注补充资料直接披露"
+    },
+    "cost.other": {
+      "label": "销售管理研发费用",
+      "source_amount": 10934725032.0,
+      "status": "derived",
+      "source_id": "filing.2023",
+      "page": 103,
+      "basis": "合计",
+      "calculation": "3423655850+5651515943+1859553239"
+    },
+    "otherinc": {
+      "label": "其他收益",
+      "source_amount": 565340940.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 103,
+      "basis": "合并利润表其他收益",
+      "calculation": null
+    },
+    "dep": {
+      "label": "折旧和摊销费用",
+      "source_amount": 7445255106.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 202,
+      "basis": "利润表补充资料折旧和摊销费用",
+      "calculation": null
+    },
+    "loss": {
+      "label": "信用及资产减值损失",
+      "source_amount": 333707055.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 103,
+      "basis": "信用减值损失+资产减值损失",
+      "calculation": null
+    },
+    "ret.int": {
+      "label": "利息收入",
+      "source_amount": 2215460619.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 103,
+      "basis": "合并利润表财务费用附注利息收入",
+      "calculation": null
+    },
+    "ret.inv": {
+      "label": "投资收益",
+      "source_amount": 543602141.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 103,
+      "basis": "合并利润表投资收益",
+      "calculation": null
+    },
+    "val": {
+      "label": "公允价值变动收益",
+      "source_amount": 206115996.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 103,
+      "basis": "合并利润表公允价值变动收益",
+      "calculation": null
+    },
+    "fin.int": {
+      "label": "利息费用",
+      "source_amount": 930403406.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 103,
+      "basis": "合并利润表财务费用利息费用",
+      "calculation": null
+    },
+    "fin.other": {
+      "label": "其他财务费用",
+      "source_amount": 165877912.0,
+      "status": "derived",
+      "source_id": "filing.2023",
+      "page": 103,
+      "basis": "差额",
+      "calculation": "(-1119179301)-(2215460619-930403406)"
+    },
+    "wd": {
+      "label": "批准及宣告分红",
+      "source_amount": 8201887334.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 111,
+      "basis": "权益变动表利润分配：母公司股东及少数股东股利",
+      "calculation": null
+    },
+    "wi": {
+      "label": "少数股东投入",
+      "source_amount": 676810470.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 111,
+      "basis": "权益变动表股东投入的资本及现金流量表",
+      "calculation": null
+    },
+    "wr": {
+      "label": "股份回购",
+      "source_amount": 339160424.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 189,
+      "basis": "库存股附注及权益变动表",
+      "calculation": null
+    },
+    "wma": {
+      "label": "收购少数股东股权",
+      "source_amount": 463503010.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 111,
+      "basis": "权益变动表收购子公司少数股东股权",
+      "calculation": null
+    },
+    "wmd": {
+      "label": "不丧失控制处置部分股权",
+      "source_amount": 195000000.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 111,
+      "basis": "权益变动表不丧失控制处置子公司部分股权",
+      "calculation": null
+    },
+    "oci": {
+      "label": "其他综合收益",
+      "source_amount": -920152309.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 104,
+      "basis": "合并利润表其他综合收益税后净额",
+      "calculation": null
+    },
+    "oe1": {
+      "label": "权益法及其他资本公积",
+      "source_amount": 35679918.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 111,
+      "basis": "权益变动表其他项目",
+      "calculation": null
+    },
+    "oe2": {
+      "label": "专项储备及少数股东相关变动",
+      "source_amount": 243160209.0,
+      "status": "derived",
+      "source_id": "filing.2023",
+      "page": 111,
+      "basis": "权益变动表",
+      "calculation": "234497761+8662448"
+    },
+    "l.before": {
+      "label": "税后及调整后周转前经营收付",
+      "source_amount": 24024838853.0,
+      "status": "derived",
+      "source_id": "filing.2023",
+      "page": 203,
+      "basis": "补充资料",
+      "calculation": "20105563570-3249834490+7169109773"
+    },
+    "l.work": {
+      "label": "经营周转变动",
+      "source_amount": 3249834490.0,
+      "status": "derived",
+      "source_id": "filing.2023",
+      "page": 203,
+      "basis": "补充资料",
+      "calculation": "1580924625+5687324034-4018414169"
+    },
+    "l.tax": {
+      "label": "支付所得税",
+      "source_amount": 7169109773.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 107,
+      "basis": "现金流量表支付的各项税费",
+      "calculation": null
+    },
+    "cp": {
+      "label": "购建固定资产无形资产及其他长期资产",
+      "source_amount": 14167451355.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 107,
+      "basis": "现金流量表购建固定资产、无形资产和其他长期资产支付的现金",
+      "calculation": null
+    },
+    "cd": {
+      "label": "处置固定资产及无形资产收款",
+      "source_amount": 233010584.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 107,
+      "basis": "现金流量表处置固定资产及无形资产收回现金净额",
+      "calculation": null
+    },
+    "ii1": {
+      "label": "投资支付的现金",
+      "source_amount": 35860359557.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 107,
+      "basis": "现金流量表投资支付的现金",
+      "calculation": null
+    },
+    "ii2": {
+      "label": "取得子公司及其他营业单位支付现金净额",
+      "source_amount": 1272643706.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 107,
+      "basis": "现金流量表取得子公司及其他营业单位支付现金净额",
+      "calculation": null
+    },
+    "ir": {
+      "label": "收回投资收到的现金",
+      "source_amount": 29892815190.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 107,
+      "basis": "现金流量表收回投资收到的现金",
+      "calculation": null
+    },
+    "iret": {
+      "label": "取得投资收益收到的现金",
+      "source_amount": 539467057.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 107,
+      "basis": "现金流量表取得投资收益收到的现金",
+      "calculation": null
+    },
+    "iotherin": {
+      "label": "收到其他投资活动现金",
+      "source_amount": 1369303671.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 202,
+      "basis": "现金流量表收到其他投资活动现金",
+      "calculation": null
+    },
+    "iotherout": {
+      "label": "支付其他投资活动现金",
+      "source_amount": 41159307.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 202,
+      "basis": "现金流量表支付其他投资活动现金",
+      "calculation": null
+    },
+    "fb": {
+      "label": "取得借款收到的现金",
+      "source_amount": 15681519107.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 108,
+      "basis": "现金流量表取得借款收到的现金",
+      "calculation": null
+    },
+    "fr": {
+      "label": "偿还债务支付的现金",
+      "source_amount": 12123940161.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 108,
+      "basis": "现金流量表偿还债务支付的现金",
+      "calculation": null
+    },
+    "fl": {
+      "label": "租赁负债本金及利息支付",
+      "source_amount": 74109713.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 202,
+      "basis": "筹资活动现金附注偿还租赁负债本金和利息",
+      "calculation": null
+    },
+    "fo": {
+      "label": "新收购子公司债务承接款",
+      "source_amount": 150654996.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 202,
+      "basis": "筹资活动现金附注新收购子公司支付的债务承接款",
+      "calculation": null
+    },
+    "fc": {
+      "label": "利息及融资费用支付",
+      "source_amount": 1028275572.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 108,
+      "basis": "筹资活动支付股利或偿付利息及筹资负债变动附注",
+      "calculation": null
+    },
+    "loi": {
+      "label": "子公司吸收少数股东投资",
+      "source_amount": 676810470.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 108,
+      "basis": "现金流量表吸收投资收到的现金",
+      "calculation": null
+    },
+    "lod": {
+      "label": "支付股东及少数股东分红",
+      "source_amount": 8201887334.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 108,
+      "basis": "权益变动表利润分配及现金流量表",
+      "calculation": null
+    },
+    "lor": {
+      "label": "回购股票支付现金",
+      "source_amount": 339160424.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 202,
+      "basis": "筹资活动现金附注回购股票支付的现金",
+      "calculation": null
+    },
+    "lom1": {
+      "label": "收购少数股东权益付款",
+      "source_amount": 71503010.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 108,
+      "basis": "现金流量表购买少数股东权益支付的现金净额",
+      "calculation": null
+    },
+    "lom2": {
+      "label": "不丧失控制处置部分股权收款",
+      "source_amount": 195000000.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 202,
+      "basis": "筹资活动收到其他现金：不丧失控制处置子公司部分股权",
+      "calculation": null
+    },
+    "lt": {
+      "label": "汇率变动对现金影响",
+      "source_amount": 30641868.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 108,
+      "basis": "现金流量表汇率变动对现金及现金等价物的影响",
+      "calculation": null
+    },
+    "lres": {
+      "label": "定期存款及受限资金范围变化",
+      "source_amount": 15102963481.0,
+      "status": "derived",
+      "source_id": "filing.2023",
+      "page": 203,
+      "basis": "现金余额与现金等价物差额",
+      "calculation": "68361599053-57865704190-(-4607013618)"
+    },
+    "fno.st": {
+      "label": "短期借款及一年内到期借款",
+      "source_amount": 12390422996.0,
+      "status": "derived",
+      "source_id": "filing.2023",
+      "page": 98,
+      "basis": "合计",
+      "calculation": "10037364015+2353058981"
+    },
+    "fnc.st": {
+      "label": "短期借款及一年内到期借款",
+      "source_amount": 7347197679.0,
+      "status": "derived",
+      "source_id": "filing.2023",
+      "page": 98,
+      "basis": "合计",
+      "calculation": "4479559166+2867638513"
+    },
+    "nol.o": {
+      "label": "其他非经营负债",
+      "source_amount": 0.0,
+      "status": "estimated",
+      "source_id": "filing.2023",
+      "page": 98,
+      "basis": "未见单列其他非经营负债",
+      "calculation": "未披露，采用0代表估计"
+    },
+    "nol.c": {
+      "label": "其他非经营负债",
+      "source_amount": 0.0,
+      "status": "estimated",
+      "source_id": "filing.2023",
+      "page": 98,
+      "basis": "未见单列其他非经营负债",
+      "calculation": "未披露，采用0代表估计"
+    },
+    "iop.other": {
+      "label": "其他非流动金融资产",
+      "source_amount": 1001300000.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 97,
+      "basis": "合并资产负债表其他非流动金融资产",
+      "calculation": null
+    },
+    "icl.eq": {
+      "label": "其他权益工具投资",
+      "source_amount": 1348010646.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 97,
+      "basis": "合并资产负债表其他权益工具投资",
+      "calculation": null
+    },
+    "icl.jv": {
+      "label": "长期股权投资",
+      "source_amount": 7765191948.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 97,
+      "basis": "合并资产负债表长期股权投资",
+      "calculation": null
+    },
+    "icl.fund": {
+      "label": "交易性金融资产",
+      "source_amount": 2210732788.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 97,
+      "basis": "合并资产负债表交易性金融资产",
+      "calculation": null
+    },
+    "aop.ip": {
+      "label": "投资性房地产",
+      "source_amount": 73408047.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 97,
+      "basis": "合并资产负债表投资性房地产",
+      "calculation": null
+    },
+    "acl.ip": {
+      "label": "投资性房地产",
+      "source_amount": 55139874.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 97,
+      "basis": "合并资产负债表投资性房地产",
+      "calculation": null
+    },
+    "acl.sale": {
+      "label": "持有待售资产",
+      "source_amount": 23538485.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 97,
+      "basis": "合并资产负债表持有待售资产",
+      "calculation": null
+    },
+    "oop.dta": {
+      "label": "递延所得税资产",
+      "source_amount": 1248930819.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 97,
+      "basis": "合并资产负债表递延所得税资产",
+      "calculation": null
+    },
+    "oop.dtli": {
+      "label": "递延所得税负债",
+      "source_amount": 1691864298.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 98,
+      "basis": "合并资产负债表递延所得税负债",
+      "calculation": null
+    },
+    "oop.grant": {
+      "label": "递延收益",
+      "source_amount": 663987448.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 98,
+      "basis": "合并资产负债表递延收益",
+      "calculation": null
+    },
+    "ocl.dta": {
+      "label": "递延所得税资产",
+      "source_amount": 1543299508.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 97,
+      "basis": "合并资产负债表递延所得税资产",
+      "calculation": null
+    },
+    "ocl.dtli": {
+      "label": "递延所得税负债",
+      "source_amount": 1616291549.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 98,
+      "basis": "合并资产负债表递延所得税负债",
+      "calculation": null
+    },
+    "ocl.grant": {
+      "label": "递延收益",
+      "source_amount": 870465009.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 98,
+      "basis": "合并资产负债表递延收益",
+      "calculation": null
+    },
+    "sh.o": {
+      "label": "应付股利",
+      "source_amount": 0.0,
+      "status": "not_applicable",
+      "source_id": "filing.2023",
+      "page": 98,
+      "basis": "未列示应付股利",
+      "calculation": null
+    },
+    "ret.other": {
+      "label": "营业外及资产处置等非经营净支出",
+      "source_amount": 515914930.0,
+      "status": "derived",
+      "source_id": "filing.2023",
+      "page": 103,
+      "basis": "合并利润表税前利润桥接",
+      "calculation": "-(13600465945-(140999428017-121126091367-7445255106-333707055+565340940+2759062760-206115996-1096281318))"
+    },
+    "wop.notes": {
+      "label": "应付票据",
+      "source_amount": 211695000.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 97,
+      "basis": "合并资产负债表应付票据",
+      "calculation": null
+    },
+    "wcl.notes": {
+      "label": "应付票据",
+      "source_amount": 269938869.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 97,
+      "basis": "合并资产负债表应付票据",
+      "calculation": null
+    },
+    "oop.other": {
+      "label": "其他流动资产",
+      "source_amount": 1823872020.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 97,
+      "basis": "合并资产负债表其他流动资产",
+      "calculation": null
+    },
+    "ocl.other": {
+      "label": "其他流动资产",
+      "source_amount": 1686237019.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 97,
+      "basis": "合并资产负债表其他流动资产",
+      "calculation": null
+    },
+    "fno.lt": {
+      "label": "长期借款",
+      "source_amount": 9688650727.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 98,
+      "basis": "合并资产负债表长期借款",
+      "calculation": null
+    },
+    "fno.ls": {
+      "label": "租赁负债",
+      "source_amount": 56049181.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 98,
+      "basis": "合并资产负债表租赁负债",
+      "calculation": null
+    },
+    "fno.pay": {
+      "label": "长期应付款",
+      "source_amount": 311033165.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 98,
+      "basis": "合并资产负债表长期应付款",
+      "calculation": null
+    },
+    "fnc.lt": {
+      "label": "长期借款",
+      "source_amount": 15611937445.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 98,
+      "basis": "合并资产负债表长期借款",
+      "calculation": null
+    },
+    "fnc.ls": {
+      "label": "租赁负债",
+      "source_amount": 198017987.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 98,
+      "basis": "合并资产负债表租赁负债",
+      "calculation": null
+    },
+    "fnc.pay": {
+      "label": "长期应付款",
+      "source_amount": 263931921.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 98,
+      "basis": "合并资产负债表长期应付款",
+      "calculation": null
+    },
+    "wop.pre": {
+      "label": "预付款项",
+      "source_amount": 3003021230.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 97,
+      "basis": "合并资产负债表预付款项",
+      "calculation": null
+    },
+    "scope0": {
+      "label": "合并范围现金变化",
+      "source_amount": 0.0,
+      "status": "not_applicable",
+      "source_id": "filing.2023",
+      "page": 107,
+      "basis": "未发生可单列现金并入移出",
+      "calculation": null
+    },
+    "tr0": {
+      "label": "报表折算差额",
+      "source_amount": 0.0,
+      "status": "not_applicable",
+      "source_id": "filing.2023",
+      "page": 104,
+      "basis": "外币折算差额已纳入其他综合收益但无单独净资产活动映射",
+      "calculation": null
+    },
+    "lease0": {
+      "label": "非现金租赁配置",
+      "source_amount": 0.0,
+      "status": "not_applicable",
+      "source_id": "filing.2023",
+      "page": 202,
+      "basis": "未披露重大非现金租赁配置",
+      "calculation": null
+    },
+    "cap.o.landprepay": {
+      "label": "预付土地及采矿权款项",
+      "source_amount": 1465484823.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 182,
+      "basis": "附注五、21其他非流动资产：2022年12月31日预付土地及采矿权款项",
+      "calculation": null
+    },
+    "cap.c.landprepay": {
+      "label": "预付土地及采矿权款项",
+      "source_amount": 1544822822.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 182,
+      "basis": "附注五、21其他非流动资产：2023年12月31日预付土地及采矿权款项",
+      "calculation": null
+    },
+    "aop.gov": {
+      "label": "政府贷款及代政府代垫款",
+      "source_amount": 292657021.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 182,
+      "basis": "附注五、21其他非流动资产，2022年12月31日",
+      "calculation": null
+    },
+    "acl.gov": {
+      "label": "政府贷款及代政府代垫款",
+      "source_amount": 250255929.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 182,
+      "basis": "附注五、21其他非流动资产，2023年12月31日",
+      "calculation": null
+    },
+    "aop.misc": {
+      "label": "其他非流动资产—其他",
+      "source_amount": 1859033476.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 182,
+      "basis": "附注五、21其他非流动资产，2022年12月31日其他项",
+      "calculation": null
+    },
+    "acl.misc": {
+      "label": "其他非流动资产—其他",
+      "source_amount": 2313148624.0,
+      "status": "disclosed",
+      "source_id": "filing.2023",
+      "page": 182,
+      "basis": "附注五、21其他非流动资产，2023年12月31日其他项",
+      "calculation": null
+    },
+    "tax.operating.alloc": {
+      "label": "经营所得税分配估计",
+      "source_amount": 2654056235.0,
+      "status": "estimated",
+      "source_id": "filing.2023",
+      "page": 199,
+      "basis": "附注五、54披露所得税费用总额但未按经济来源拆分",
+      "calculation": "2,851,280,634 - 427,055,179 - (-229,830,780) = 2,654,056,235"
+    },
+    "tax.nonoperating.alloc": {
+      "label": "非经营所得税分配估计",
+      "source_amount": 427055179.0,
+      "status": "estimated",
+      "source_id": "filing.2023",
+      "page": 199,
+      "basis": "附注五、54披露所得税费用总额但未按经济来源拆分",
+      "calculation": "(2,215,460,619 + 543,602,141 - 206,115,996 - 515,914,930) × (2,851,280,634 ÷ 13,600,465,945) = 427,055,179"
+    },
+    "tax.finance.alloc": {
+      "label": "融资税收影响估计",
+      "source_amount": -229830780.0,
+      "status": "estimated",
+      "source_id": "filing.2023",
+      "page": 199,
+      "basis": "附注五、54披露所得税费用总额但未按经济来源拆分",
+      "calculation": "(-930,403,406 - 165,877,912) × (2,851,280,634 ÷ 13,600,465,945) = -229,830,780"
+    },
+    "cap.o.payables_est": {
+      "label": "未单列资本采购欠款",
+      "source_amount": 0.0,
+      "status": "estimated",
+      "source_id": "filing.2023",
+      "page": 182,
+      "basis": "附注五、21披露资本预付款，但负债附注未单列对应资本采购欠款",
+      "calculation": "资本采购欠款未单列，采用0代表估计"
+    },
+    "cap.c.payables_est": {
+      "label": "未单列资本采购欠款",
+      "source_amount": 0.0,
+      "status": "estimated",
+      "source_id": "filing.2023",
+      "page": 182,
+      "basis": "附注五、21披露资本预付款，但负债附注未单列对应资本采购欠款",
+      "calculation": "资本采购欠款未单列，采用0代表估计"
+    }
+  },
+  "mappings": [
+    {
+      "id": "wop.inv",
+      "fact_id": "wop.inv",
+      "field": "assets.working.opening",
+      "display_field": "inventory",
+      "amount": 11678994640.0,
+      "rationale": "存货属于经营周转资产"
+    },
+    {
+      "id": "wop.rec",
+      "fact_id": "wop.rec",
+      "field": "assets.working.opening",
+      "display_field": "customer_receivables",
+      "amount": 16991449138.0,
+      "rationale": "经营信用及结算工具"
+    },
+    {
+      "id": "wop.pay",
+      "fact_id": "wop.pay",
+      "field": "assets.working.opening",
+      "display_field": "supplier_payables",
+      "amount": -6781359336.0,
+      "rationale": "供应商经营占款抵减经营资本"
+    },
+    {
+      "id": "wop.orec",
+      "fact_id": "wop.orec",
+      "field": "assets.working.opening",
+      "display_field": "other_operating_receivables",
+      "amount": 3900296934.0,
+      "rationale": "经营相关应收，未见非经营性质拆分"
+    },
+    {
+      "id": "wop.adv",
+      "fact_id": "wop.adv",
+      "field": "assets.working.opening",
+      "display_field": "customer_advances",
+      "amount": -3576718529.0,
+      "rationale": "客户预收抵减经营资本"
+    },
+    {
+      "id": "wop.emp",
+      "fact_id": "wop.emp",
+      "field": "assets.working.opening",
+      "display_field": "employee_payables",
+      "amount": -1639166765.0,
+      "rationale": "经营员工结算义务"
+    },
+    {
+      "id": "wcl.inv",
+      "fact_id": "wcl.inv",
+      "field": "assets.working.closing",
+      "display_field": "inventory",
+      "amount": 10100345825.0,
+      "rationale": "存货属于经营周转资产"
+    },
+    {
+      "id": "wcl.pre",
+      "fact_id": "wcl.pre",
+      "field": "assets.working.closing",
+      "display_field": "operating_prepayments",
+      "amount": 2403781870.0,
+      "rationale": "日常采购经营预付"
+    },
+    {
+      "id": "wcl.orec",
+      "fact_id": "wcl.orec",
+      "field": "assets.working.closing",
+      "display_field": "other_operating_receivables",
+      "amount": 3693848659.0,
+      "rationale": "经营相关应收，未见非经营性质拆分"
+    },
+    {
+      "id": "wcl.pay",
+      "fact_id": "wcl.pay",
+      "field": "assets.working.closing",
+      "display_field": "supplier_payables",
+      "amount": -6298249362.0,
+      "rationale": "供应商经营占款抵减经营资本"
+    },
+    {
+      "id": "wcl.adv",
+      "fact_id": "wcl.adv",
+      "field": "assets.working.closing",
+      "display_field": "customer_advances",
+      "amount": -2887907489.0,
+      "rationale": "客户预收抵减经营资本"
+    },
+    {
+      "id": "wcl.emp",
+      "fact_id": "wcl.emp",
+      "field": "assets.working.closing",
+      "display_field": "employee_payables",
+      "amount": -1512587996.0,
+      "rationale": "经营员工结算义务"
+    },
+    {
+      "id": "fop.owned",
+      "fact_id": "fop.owned",
+      "field": "assets.facilities.opening",
+      "display_field": "owned_facilities",
+      "amount": 81181917083.0,
+      "rationale": "自有经营设施"
+    },
+    {
+      "id": "fop.cip",
+      "fact_id": "fop.cip",
+      "field": "assets.facilities.opening",
+      "display_field": "construction_in_progress",
+      "amount": 8387067209.0,
+      "rationale": "经营设施建设中"
+    },
+    {
+      "id": "fop.lease",
+      "fact_id": "fop.lease",
+      "field": "assets.facilities.opening",
+      "display_field": "leased_facilities",
+      "amount": 146228785.0,
+      "rationale": "租入经营设施"
+    },
+    {
+      "id": "fcl.owned",
+      "fact_id": "fcl.owned",
+      "field": "assets.facilities.closing",
+      "display_field": "owned_facilities",
+      "amount": 85564696703.0,
+      "rationale": "自有经营设施"
+    },
+    {
+      "id": "fcl.cip",
+      "fact_id": "fcl.cip",
+      "field": "assets.facilities.closing",
+      "display_field": "construction_in_progress",
+      "amount": 10842088393.0,
+      "rationale": "经营设施建设中"
+    },
+    {
+      "id": "fcl.lease",
+      "fact_id": "fcl.lease",
+      "field": "assets.facilities.closing",
+      "display_field": "leased_facilities",
+      "amount": 339896374.0,
+      "rationale": "租入经营设施"
+    },
+    {
+      "id": "rop",
+      "fact_id": "rop",
+      "field": "assets.rights.opening",
+      "display_field": "acquired_operating_intangibles",
+      "amount": 32038330621.0,
+      "rationale": "经营权利及开发资产，年报未拆分性质"
+    },
+    {
+      "id": "rcl",
+      "fact_id": "rcl",
+      "field": "assets.rights.closing",
+      "display_field": "acquired_operating_intangibles",
+      "amount": 32379660353.0,
+      "rationale": "经营权利及开发资产，年报未拆分性质"
+    },
+    {
+      "id": "gop",
+      "fact_id": "gop",
+      "field": "assets.goodwill.opening",
+      "display_field": "goodwill",
+      "amount": 1145963981.0,
+      "rationale": "账面商誉"
+    },
+    {
+      "id": "gcl",
+      "fact_id": "gcl",
+      "field": "assets.goodwill.closing",
+      "display_field": "goodwill",
+      "amount": 1147071509.0,
+      "rationale": "账面商誉"
+    },
+    {
+      "id": "cop",
+      "fact_id": "cop",
+      "field": "assets.cash.opening",
+      "display_field": "undivided_cash",
+      "amount": 57865704190.0,
+      "rationale": "现金、定期存款及受限资金总额"
+    },
+    {
+      "id": "ccl",
+      "fact_id": "ccl",
+      "field": "assets.cash.closing",
+      "display_field": "undivided_cash",
+      "amount": 68361599053.0,
+      "rationale": "现金、定期存款及受限资金总额"
+    },
+    {
+      "id": "iop.eq",
+      "fact_id": "iop.eq",
+      "field": "assets.investments.opening",
+      "display_field": "equity_investments",
+      "amount": 2325185921.0,
+      "rationale": "未并表权益投资"
+    },
+    {
+      "id": "iop.jv",
+      "fact_id": "iop.jv",
+      "field": "assets.investments.opening",
+      "display_field": "associates_joint_ventures",
+      "amount": 6792654915.0,
+      "rationale": "联营与合营投资"
+    },
+    {
+      "id": "iop.fund",
+      "fact_id": "iop.fund",
+      "field": "assets.investments.opening",
+      "display_field": "funds_wealth_products",
+      "amount": 10754921384.0,
+      "rationale": "结构性存款、理财及交易性权益工具合并列示"
+    },
+    {
+      "id": "sh.c",
+      "fact_id": "sh.c",
+      "field": "assets.shareholder.closing",
+      "display_field": "dividends_payable",
+      "amount": 0.0,
+      "rationale": "年末无已确认股东相关应付款"
+    },
+    {
+      "id": "eq.o",
+      "fact_id": "eq.o",
+      "field": "controls.equity.opening",
+      "display_field": null,
+      "amount": 195993594732.0,
+      "rationale": "合并股东权益"
+    },
+    {
+      "id": "eq.c",
+      "fact_id": "eq.c",
+      "field": "controls.equity.closing",
+      "display_field": null,
+      "amount": 197968727563.0,
+      "rationale": "合并股东权益"
+    },
+    {
+      "id": "par.o",
+      "fact_id": "par.o",
+      "field": "controls.parent.opening",
+      "display_field": null,
+      "amount": 183638724731.0,
+      "rationale": "母公司股东权益"
+    },
+    {
+      "id": "par.c",
+      "fact_id": "par.c",
+      "field": "controls.parent.closing",
+      "display_field": null,
+      "amount": 185321082984.0,
+      "rationale": "母公司股东权益"
+    },
+    {
+      "id": "min.o",
+      "fact_id": "min.o",
+      "field": "controls.minority.opening",
+      "display_field": null,
+      "amount": 12354870001.0,
+      "rationale": "少数股东权益"
+    },
+    {
+      "id": "min.c",
+      "fact_id": "min.c",
+      "field": "controls.minority.closing",
+      "display_field": null,
+      "amount": 12647644579.0,
+      "rationale": "少数股东权益"
+    },
+    {
+      "id": "profit",
+      "fact_id": "profit",
+      "field": "controls.profit",
+      "display_field": null,
+      "amount": 10749185311.0,
+      "rationale": "合并净利润"
+    },
+    {
+      "id": "rev",
+      "fact_id": "rev",
+      "field": "wealth.operating.revenue",
+      "display_field": "product_revenue",
+      "amount": 140999428017.0,
+      "rationale": "水泥及相关产品经营收入"
+    },
+    {
+      "id": "cost.cogs",
+      "fact_id": "cost.cogs",
+      "field": "wealth.operating.costs",
+      "display_field": "product_service_costs",
+      "amount": -117636621441.0,
+      "rationale": "经营产品耗用，折旧在附注补充资料中单列剔除"
+    },
+    {
+      "id": "otherinc",
+      "fact_id": "otherinc",
+      "field": "wealth.operating.other_income",
+      "display_field": "other_operating_income",
+      "amount": 565340940.0,
+      "rationale": "经营补助及其他收益"
+    },
+    {
+      "id": "dep",
+      "fact_id": "dep",
+      "field": "wealth.operating.depreciation",
+      "display_field": "facility_depreciation",
+      "amount": -7445255106.0,
+      "rationale": "经营设施及权利折旧摊销合计，未拆分时归入设施折旧展开项"
+    },
+    {
+      "id": "loss",
+      "fact_id": "loss",
+      "field": "wealth.operating.loss",
+      "display_field": "undivided_operating_loss",
+      "amount": -333707055.0,
+      "rationale": "经营资产损失单列"
+    },
+    {
+      "id": "ret.int",
+      "fact_id": "ret.int",
+      "field": "wealth.nonoperating.returns",
+      "display_field": "interest_income",
+      "amount": 2215460619.0,
+      "rationale": "现金及存款利息收益"
+    },
+    {
+      "id": "ret.inv",
+      "fact_id": "ret.inv",
+      "field": "wealth.nonoperating.returns",
+      "display_field": "realized_investment_return",
+      "amount": 543602141.0,
+      "rationale": "对外投资已确认收益"
+    },
+    {
+      "id": "val",
+      "fact_id": "val",
+      "field": "wealth.nonoperating.valuation",
+      "display_field": "investment_valuation",
+      "amount": -206115996.0,
+      "rationale": "投资价值变动损失"
+    },
+    {
+      "id": "fin.int",
+      "fact_id": "fin.int",
+      "field": "wealth.finance.cost",
+      "display_field": "borrowing_interest",
+      "amount": -930403406.0,
+      "rationale": "借款融资成本"
+    },
+    {
+      "id": "wd",
+      "fact_id": "wd",
+      "field": "wealth.owner.dividend",
+      "display_field": "dividend_declared",
+      "amount": -8201887334.0,
+      "rationale": "本期批准/宣告分红"
+    },
+    {
+      "id": "wi",
+      "fact_id": "wi",
+      "field": "wealth.owner.input",
+      "display_field": "other_owner_input",
+      "amount": 676810470.0,
+      "rationale": "子公司吸收少数股东投资"
+    },
+    {
+      "id": "wr",
+      "fact_id": "wr",
+      "field": "wealth.owner.repurchase",
+      "display_field": "share_repurchase",
+      "amount": -339160424.0,
+      "rationale": "回购股份减少权益"
+    },
+    {
+      "id": "wma",
+      "fact_id": "wma",
+      "field": "wealth.owner.minority",
+      "display_field": "minority_acquisition",
+      "amount": -463503010.0,
+      "rationale": "收购少数股东权益"
+    },
+    {
+      "id": "wmd",
+      "fact_id": "wmd",
+      "field": "wealth.owner.minority",
+      "display_field": "minority_disposal",
+      "amount": 195000000.0,
+      "rationale": "出售少数股权增加权益"
+    },
+    {
+      "id": "oci",
+      "fact_id": "oci",
+      "field": "wealth.other.other_oci",
+      "display_field": "other_oci",
+      "amount": -920152309.0,
+      "rationale": "其他综合收益"
+    },
+    {
+      "id": "oe1",
+      "fact_id": "oe1",
+      "field": "wealth.other.scope",
+      "display_field": "other_equity_change",
+      "amount": 35679918.0,
+      "rationale": "权益法下被投资单位其他所有者权益变动份额"
+    },
+    {
+      "id": "l.tax",
+      "fact_id": "l.tax",
+      "field": "liquidity.operating.tax",
+      "display_field": "undivided_tax_paid",
+      "amount": -7169109773.0,
+      "rationale": "经营所得税现金支付，未披露其他税费拆分"
+    },
+    {
+      "id": "cp",
+      "fact_id": "cp",
+      "field": "liquidity.capacity.purchase",
+      "display_field": "other_capacity_purchase",
+      "amount": -14167451355.0,
+      "rationale": "经营资产购建"
+    },
+    {
+      "id": "cd",
+      "fact_id": "cd",
+      "field": "liquidity.capacity.disposal",
+      "display_field": "facility_disposal",
+      "amount": 233010584.0,
+      "rationale": "处置经营资产收款"
+    },
+    {
+      "id": "ii1",
+      "fact_id": "ii1",
+      "field": "liquidity.investment.invest",
+      "display_field": "fund_wealth_invest",
+      "amount": -35860359557.0,
+      "rationale": "对外投资投入，未拆分工具类型"
+    },
+    {
+      "id": "ii2",
+      "fact_id": "ii2",
+      "field": "liquidity.investment.invest",
+      "display_field": "other_invest",
+      "amount": -1272643706.0,
+      "rationale": "取得控制性投资现金支出"
+    },
+    {
+      "id": "ir",
+      "fact_id": "ir",
+      "field": "liquidity.investment.recover",
+      "display_field": "other_investment_recover",
+      "amount": 29892815190.0,
+      "rationale": "收回对外投资"
+    },
+    {
+      "id": "iret",
+      "fact_id": "iret",
+      "field": "liquidity.investment.returns",
+      "display_field": "other_investment_return_cash",
+      "amount": 539467057.0,
+      "rationale": "收到投资收益"
+    },
+    {
+      "id": "iotherin",
+      "fact_id": "iotherin",
+      "field": "liquidity.investment.returns",
+      "display_field": "other_investment_return_cash",
+      "amount": 1369303671.0,
+      "rationale": "利息及政府贷款/代垫款收回"
+    },
+    {
+      "id": "iotherout",
+      "fact_id": "iotherout",
+      "field": "liquidity.investment.invest",
+      "display_field": "other_invest",
+      "amount": -41159307.0,
+      "rationale": "政府贷款及代垫款投入"
+    },
+    {
+      "id": "fb",
+      "fact_id": "fb",
+      "field": "liquidity.finance.borrow",
+      "display_field": "bank_borrow",
+      "amount": 15681519107.0,
+      "rationale": "取得银行及其他借款"
+    },
+    {
+      "id": "fr",
+      "fact_id": "fr",
+      "field": "liquidity.finance.repay",
+      "display_field": "bank_repay",
+      "amount": -12123940161.0,
+      "rationale": "偿还银行及其他借款"
+    },
+    {
+      "id": "fl",
+      "fact_id": "fl",
+      "field": "liquidity.finance.repay",
+      "display_field": "lease_principal",
+      "amount": -74109713.0,
+      "rationale": "租赁融资现金支出，原披露未拆本金和利息"
+    },
+    {
+      "id": "fo",
+      "fact_id": "fo",
+      "field": "liquidity.finance.repay",
+      "display_field": "other_financing_repay",
+      "amount": -150654996.0,
+      "rationale": "偿还其他融资本金"
+    },
+    {
+      "id": "fc",
+      "fact_id": "fc",
+      "field": "liquidity.finance.cost",
+      "display_field": "other_finance_cost_paid",
+      "amount": -1028275572.0,
+      "rationale": "从合计中扣除已单列分红后的利息支付"
+    },
+    {
+      "id": "loi",
+      "fact_id": "loi",
+      "field": "liquidity.owner.input",
+      "display_field": "other_owner_cash",
+      "amount": 676810470.0,
+      "rationale": "收到少数股东投入"
+    },
+    {
+      "id": "lod",
+      "fact_id": "lod",
+      "field": "liquidity.owner.dividend",
+      "display_field": "dividend_paid",
+      "amount": -8201887334.0,
+      "rationale": "实际支付分红，含少数股东利润"
+    },
+    {
+      "id": "lor",
+      "fact_id": "lor",
+      "field": "liquidity.owner.repurchase",
+      "display_field": "repurchase_paid",
+      "amount": -339160424.0,
+      "rationale": "现金回购股份"
+    },
+    {
+      "id": "lom1",
+      "fact_id": "lom1",
+      "field": "liquidity.owner.minority",
+      "display_field": "minority_acquisition_cash",
+      "amount": -71503010.0,
+      "rationale": "收购少数股权付款"
+    },
+    {
+      "id": "lom2",
+      "fact_id": "lom2",
+      "field": "liquidity.owner.minority",
+      "display_field": "minority_disposal_cash",
+      "amount": 195000000.0,
+      "rationale": "出售少数股权收款"
+    },
+    {
+      "id": "lt",
+      "fact_id": "lt",
+      "field": "liquidity.other.translation",
+      "display_field": "cash_translation",
+      "amount": 30641868.0,
+      "rationale": "汇率折算影响"
+    },
+    {
+      "id": "wop.othpay",
+      "fact_id": "wop.othpay",
+      "field": "assets.working.opening",
+      "display_field": "other_operating_payables",
+      "amount": -10971880060.0,
+      "rationale": "经营税费及其他经营结算义务"
+    },
+    {
+      "id": "wcl.rec",
+      "fact_id": "wcl.rec",
+      "field": "assets.working.closing",
+      "display_field": "customer_receivables",
+      "amount": 12615833159.0,
+      "rationale": "经营信用及结算工具"
+    },
+    {
+      "id": "wcl.othpay",
+      "fact_id": "wcl.othpay",
+      "field": "assets.working.closing",
+      "display_field": "other_operating_payables",
+      "amount": -11343946672.0,
+      "rationale": "经营税费及其他经营结算义务"
+    },
+    {
+      "id": "fno.st",
+      "fact_id": "fno.st",
+      "field": "assets.financing.opening",
+      "display_field": "bank_borrowings",
+      "amount": 12390422996.0,
+      "rationale": "银行借款"
+    },
+    {
+      "id": "fnc.st",
+      "fact_id": "fnc.st",
+      "field": "assets.financing.closing",
+      "display_field": "bank_borrowings",
+      "amount": 7347197679.0,
+      "rationale": "银行借款"
+    },
+    {
+      "id": "cost.dep_adj",
+      "fact_id": "cost.dep_adj",
+      "field": "wealth.operating.costs",
+      "display_field": "depreciation_adjustment",
+      "amount": 7445255106.0,
+      "rationale": "从营业成本剔除折旧"
+    },
+    {
+      "id": "cost.other",
+      "fact_id": "cost.other",
+      "field": "wealth.operating.costs",
+      "display_field": "other_operating_costs",
+      "amount": -10934725032.0,
+      "rationale": "经营费用合计"
+    },
+    {
+      "id": "fin.other",
+      "fact_id": "fin.other",
+      "field": "wealth.finance.cost",
+      "display_field": "other_finance_cost",
+      "amount": -165877912.0,
+      "rationale": "其他融资费用"
+    },
+    {
+      "id": "oe2",
+      "fact_id": "oe2",
+      "field": "wealth.other.scope",
+      "display_field": "other_equity_change",
+      "amount": 243160209.0,
+      "rationale": "作为其他权益变动"
+    },
+    {
+      "id": "l.before",
+      "fact_id": "l.before",
+      "field": "liquidity.operating.before_working",
+      "display_field": "operating_base_cash",
+      "amount": 24024838853.0,
+      "rationale": "经营收付"
+    },
+    {
+      "id": "l.work",
+      "fact_id": "l.work",
+      "field": "liquidity.operating.working",
+      "display_field": "undivided_working_cash",
+      "amount": 3249834490.0,
+      "rationale": "周转变化"
+    },
+    {
+      "id": "lres",
+      "fact_id": "lres",
+      "field": "liquidity.other.restriction",
+      "display_field": "restriction_transfer",
+      "amount": 15102963481.0,
+      "rationale": "资金范围转类"
+    },
+    {
+      "id": "nol.o",
+      "fact_id": "nol.o",
+      "field": "assets.other_liabilities.opening",
+      "display_field": "other_nonoperating_liabilities",
+      "amount": 0.0,
+      "rationale": "代表值估计为0"
+    },
+    {
+      "id": "nol.c",
+      "fact_id": "nol.c",
+      "field": "assets.other_liabilities.closing",
+      "display_field": "other_nonoperating_liabilities",
+      "amount": 0.0,
+      "rationale": "代表值估计为0"
+    },
+    {
+      "id": "iop.other",
+      "fact_id": "iop.other",
+      "field": "assets.investments.opening",
+      "display_field": "other_investments",
+      "amount": 1001300000.0,
+      "rationale": "其他对外投资"
+    },
+    {
+      "id": "icl.eq",
+      "fact_id": "icl.eq",
+      "field": "assets.investments.closing",
+      "display_field": "equity_investments",
+      "amount": 1348010646.0,
+      "rationale": "未并表权益投资"
+    },
+    {
+      "id": "icl.jv",
+      "fact_id": "icl.jv",
+      "field": "assets.investments.closing",
+      "display_field": "associates_joint_ventures",
+      "amount": 7765191948.0,
+      "rationale": "联营与合营投资"
+    },
+    {
+      "id": "icl.fund",
+      "fact_id": "icl.fund",
+      "field": "assets.investments.closing",
+      "display_field": "funds_wealth_products",
+      "amount": 2210732788.0,
+      "rationale": "结构性存款理财及交易性权益工具"
+    },
+    {
+      "id": "aop.ip",
+      "fact_id": "aop.ip",
+      "field": "assets.other_assets.opening",
+      "display_field": "investment_property",
+      "amount": 73408047.0,
+      "rationale": "非主业投资物业"
+    },
+    {
+      "id": "acl.ip",
+      "fact_id": "acl.ip",
+      "field": "assets.other_assets.closing",
+      "display_field": "investment_property",
+      "amount": 55139874.0,
+      "rationale": "非主业投资物业"
+    },
+    {
+      "id": "acl.sale",
+      "fact_id": "acl.sale",
+      "field": "assets.other_assets.closing",
+      "display_field": "assets_held_for_sale",
+      "amount": 23538485.0,
+      "rationale": "持有待售非经营资产"
+    },
+    {
+      "id": "oop.dta",
+      "fact_id": "oop.dta",
+      "field": "assets.other_operating.opening",
+      "display_field": "operating_tax_assets",
+      "amount": 1248930819.0,
+      "rationale": "经营税项资产"
+    },
+    {
+      "id": "oop.dtli",
+      "fact_id": "oop.dtli",
+      "field": "assets.other_operating.opening",
+      "display_field": "operating_tax_liabilities",
+      "amount": -1691864298.0,
+      "rationale": "经营税项义务抵减"
+    },
+    {
+      "id": "oop.grant",
+      "fact_id": "oop.grant",
+      "field": "assets.other_operating.opening",
+      "display_field": "deferred_operating_income",
+      "amount": -663987448.0,
+      "rationale": "递延经营收益负债抵减"
+    },
+    {
+      "id": "ocl.dta",
+      "fact_id": "ocl.dta",
+      "field": "assets.other_operating.closing",
+      "display_field": "operating_tax_assets",
+      "amount": 1543299508.0,
+      "rationale": "经营税项资产"
+    },
+    {
+      "id": "ocl.dtli",
+      "fact_id": "ocl.dtli",
+      "field": "assets.other_operating.closing",
+      "display_field": "operating_tax_liabilities",
+      "amount": -1616291549.0,
+      "rationale": "经营税项义务抵减"
+    },
+    {
+      "id": "ocl.grant",
+      "fact_id": "ocl.grant",
+      "field": "assets.other_operating.closing",
+      "display_field": "deferred_operating_income",
+      "amount": -870465009.0,
+      "rationale": "递延经营收益负债抵减"
+    },
+    {
+      "id": "sh.o",
+      "fact_id": "sh.o",
+      "field": "assets.shareholder.opening",
+      "display_field": "dividends_payable",
+      "amount": 0.0,
+      "rationale": "年末无已确认股东相关应付款"
+    },
+    {
+      "id": "wop.notes",
+      "fact_id": "wop.notes",
+      "field": "assets.working.opening",
+      "display_field": "supplier_payables",
+      "amount": -211695000.0,
+      "rationale": "供应商经营占款抵减经营资本"
+    },
+    {
+      "id": "wcl.notes",
+      "fact_id": "wcl.notes",
+      "field": "assets.working.closing",
+      "display_field": "supplier_payables",
+      "amount": -269938869.0,
+      "rationale": "供应商经营占款抵减经营资本"
+    },
+    {
+      "id": "oop.other",
+      "fact_id": "oop.other",
+      "field": "assets.other_operating.opening",
+      "display_field": "other_operating_assets",
+      "amount": 1823872020.0,
+      "rationale": "经营税项及其他经营资产未拆分"
+    },
+    {
+      "id": "ocl.other",
+      "fact_id": "ocl.other",
+      "field": "assets.other_operating.closing",
+      "display_field": "other_operating_assets",
+      "amount": 1686237019.0,
+      "rationale": "经营税项及其他经营资产未拆分"
+    },
+    {
+      "id": "fno.lt",
+      "fact_id": "fno.lt",
+      "field": "assets.financing.opening",
+      "display_field": "bank_borrowings",
+      "amount": 9688650727.0,
+      "rationale": "银行借款"
+    },
+    {
+      "id": "fno.ls",
+      "fact_id": "fno.ls",
+      "field": "assets.financing.opening",
+      "display_field": "lease_liabilities",
+      "amount": 56049181.0,
+      "rationale": "租赁融资"
+    },
+    {
+      "id": "fno.pay",
+      "fact_id": "fno.pay",
+      "field": "assets.financing.opening",
+      "display_field": "financing_payables",
+      "amount": 311033165.0,
+      "rationale": "实质融资应付款"
+    },
+    {
+      "id": "fnc.lt",
+      "fact_id": "fnc.lt",
+      "field": "assets.financing.closing",
+      "display_field": "bank_borrowings",
+      "amount": 15611937445.0,
+      "rationale": "银行借款"
+    },
+    {
+      "id": "fnc.ls",
+      "fact_id": "fnc.ls",
+      "field": "assets.financing.closing",
+      "display_field": "lease_liabilities",
+      "amount": 198017987.0,
+      "rationale": "租赁融资"
+    },
+    {
+      "id": "fnc.pay",
+      "fact_id": "fnc.pay",
+      "field": "assets.financing.closing",
+      "display_field": "financing_payables",
+      "amount": 263931921.0,
+      "rationale": "实质融资应付款"
+    },
+    {
+      "id": "ret.other",
+      "fact_id": "ret.other",
+      "field": "wealth.nonoperating.returns",
+      "display_field": "other_nonoperating_return",
+      "amount": -515914930.0,
+      "rationale": "非经营净支出补足利润表桥接"
+    },
+    {
+      "id": "wop.pre",
+      "fact_id": "wop.pre",
+      "field": "assets.working.opening",
+      "display_field": "operating_prepayments",
+      "amount": 3003021230.0,
+      "rationale": "日常采购经营预付"
+    },
+    {
+      "id": "tr0",
+      "fact_id": "tr0",
+      "field": "wealth.other.translation",
+      "display_field": "statement_translation",
+      "amount": 0.0,
+      "rationale": "不单独重复计入"
+    },
+    {
+      "id": "scope0",
+      "fact_id": "scope0",
+      "field": "liquidity.other.scope",
+      "display_field": "acquired_cash",
+      "amount": 0.0,
+      "rationale": "未披露本期现金范围变化"
+    },
+    {
+      "id": "lease0",
+      "fact_id": "lease0",
+      "field": "noncash.leases",
+      "display_field": null,
+      "amount": 0.0,
+      "rationale": "不适用"
+    },
+    {
+      "id": "aop.gov",
+      "fact_id": "aop.gov",
+      "field": "assets.other_assets.opening",
+      "display_field": "other_nonoperating_assets",
+      "amount": 292657021.0,
+      "rationale": "对政府的长期贷款及代垫款，不属于经营周转或生产设施"
+    },
+    {
+      "id": "acl.gov",
+      "fact_id": "acl.gov",
+      "field": "assets.other_assets.closing",
+      "display_field": "other_nonoperating_assets",
+      "amount": 250255929.0,
+      "rationale": "对政府的长期贷款及代垫款，不属于经营周转或生产设施"
+    },
+    {
+      "id": "aop.misc",
+      "fact_id": "aop.misc",
+      "field": "assets.other_assets.opening",
+      "display_field": "other_nonoperating_assets",
+      "amount": 1859033476.0,
+      "rationale": "附注未进一步拆分性质，保守列作其他非经营资产并保留原始证据"
+    },
+    {
+      "id": "acl.misc",
+      "fact_id": "acl.misc",
+      "field": "assets.other_assets.closing",
+      "display_field": "other_nonoperating_assets",
+      "amount": 2313148624.0,
+      "rationale": "附注未进一步拆分性质，保守列作其他非经营资产并保留原始证据"
+    },
+    {
+      "id": "tax.operating.alloc",
+      "fact_id": "tax.operating.alloc",
+      "field": "wealth.operating.tax",
+      "display_field": "current_operating_tax",
+      "amount": -2654056235.0,
+      "rationale": "按各类税前贡献占合并税前利润比例分配，确保经营、非经营和融资税项合计等于披露所得税费用"
+    },
+    {
+      "id": "tax.nonoperating.alloc",
+      "fact_id": "tax.nonoperating.alloc",
+      "field": "wealth.nonoperating.tax",
+      "display_field": "allocated_nonoperating_tax",
+      "amount": -427055179.0,
+      "rationale": "按非经营税前贡献占合并税前利润比例估计税收归属"
+    },
+    {
+      "id": "tax.finance.alloc",
+      "fact_id": "tax.finance.alloc",
+      "field": "wealth.finance.tax",
+      "display_field": "finance_tax_effect",
+      "amount": 229830780.0,
+      "rationale": "融资成本形成税前负贡献，按综合有效税率估计为正向税盾"
+    },
+    {
+      "id": "cap.o.landprepay",
+      "fact_id": "cap.o.landprepay",
+      "field": "assets.capital_settlement.opening",
+      "display_field": "capital_prepayments",
+      "amount": 1465484823.0,
+      "rationale": "取得土地及采矿权前的资本预付款，属于资本采购结算而非已确认权利"
+    },
+    {
+      "id": "cap.c.landprepay",
+      "fact_id": "cap.c.landprepay",
+      "field": "assets.capital_settlement.closing",
+      "display_field": "capital_prepayments",
+      "amount": 1544822822.0,
+      "rationale": "取得土地及采矿权前的资本预付款，属于资本采购结算而非已确认权利"
+    },
+    {
+      "id": "cap.o.payables_est",
+      "fact_id": "cap.o.payables_est",
+      "field": "assets.capital_settlement.opening",
+      "display_field": "capital_payables",
+      "amount": 0.0,
+      "rationale": "为呈现已披露资本预付款而采用的代表估计；实际资本结算净额可能因欠款混入应付款项而被高估"
+    },
+    {
+      "id": "cap.c.payables_est",
+      "fact_id": "cap.c.payables_est",
+      "field": "assets.capital_settlement.closing",
+      "display_field": "capital_payables",
+      "amount": 0.0,
+      "rationale": "为呈现已披露资本预付款而采用的代表估计；实际资本结算净额可能因欠款混入应付款项而被高估"
+    }
+  ],
+  "records": {
+    "assets.capital_settlement.closing": {
+      "amount": 1544822822.0,
+      "status": "estimated",
+      "basis": "filing.2023 p.182: 附注五、21其他非流动资产：2023年12月31日预付土地及采矿权款项; filing.2023 p.182: 附注五、21披露资本预付款，但负债附注未单列对应资本采购欠款",
+      "details": [
+        {
+          "id": "cap.c.landprepay",
+          "display_field": "capital_prepayments",
+          "label": "资本采购预付款",
+          "custom": false,
+          "raw_label": "预付土地及采矿权款项",
+          "source_amount": 1544822822.0,
+          "amount": 1544822822.0,
+          "source": "filing.2023 p.182",
+          "status": "disclosed",
+          "rationale": "取得土地及采矿权前的资本预付款，属于资本采购结算而非已确认权利"
+        },
+        {
+          "id": "cap.c.payables_est",
+          "display_field": "capital_payables",
+          "label": "资本采购欠款",
+          "custom": false,
+          "raw_label": "未单列资本采购欠款",
+          "source_amount": 0.0,
+          "amount": 0.0,
+          "source": "filing.2023 p.182",
+          "status": "estimated",
+          "rationale": "为呈现已披露资本预付款而采用的代表估计；实际资本结算净额可能因欠款混入应付款项而被高估"
+        }
+      ]
+    },
+    "assets.capital_settlement.opening": {
+      "amount": 1465484823.0,
+      "status": "estimated",
+      "basis": "filing.2023 p.182: 附注五、21其他非流动资产：2022年12月31日预付土地及采矿权款项; filing.2023 p.182: 附注五、21披露资本预付款，但负债附注未单列对应资本采购欠款",
+      "details": [
+        {
+          "id": "cap.o.landprepay",
+          "display_field": "capital_prepayments",
+          "label": "资本采购预付款",
+          "custom": false,
+          "raw_label": "预付土地及采矿权款项",
+          "source_amount": 1465484823.0,
+          "amount": 1465484823.0,
+          "source": "filing.2023 p.182",
+          "status": "disclosed",
+          "rationale": "取得土地及采矿权前的资本预付款，属于资本采购结算而非已确认权利"
+        },
+        {
+          "id": "cap.o.payables_est",
+          "display_field": "capital_payables",
+          "label": "资本采购欠款",
+          "custom": false,
+          "raw_label": "未单列资本采购欠款",
+          "source_amount": 0.0,
+          "amount": 0.0,
+          "source": "filing.2023 p.182",
+          "status": "estimated",
+          "rationale": "为呈现已披露资本预付款而采用的代表估计；实际资本结算净额可能因欠款混入应付款项而被高估"
+        }
+      ]
+    },
+    "assets.cash.closing": {
+      "amount": 68361599053.0,
+      "status": "disclosed",
+      "basis": "filing.2023 p.97: 货币资金合计",
+      "details": [
+        {
+          "id": "ccl",
+          "display_field": "undivided_cash",
+          "label": "现金、存款及受限资金（未拆分）",
+          "custom": false,
+          "raw_label": "现金、存款及受限资金",
+          "source_amount": 68361599053.0,
+          "amount": 68361599053.0,
+          "source": "filing.2023 p.97",
+          "status": "disclosed",
+          "rationale": "现金、定期存款及受限资金总额"
+        }
+      ]
+    },
+    "assets.cash.opening": {
+      "amount": 57865704190.0,
+      "status": "disclosed",
+      "basis": "filing.2023 p.97: 货币资金合计",
+      "details": [
+        {
+          "id": "cop",
+          "display_field": "undivided_cash",
+          "label": "现金、存款及受限资金（未拆分）",
+          "custom": false,
+          "raw_label": "现金、存款及受限资金",
+          "source_amount": 57865704190.0,
+          "amount": 57865704190.0,
+          "source": "filing.2023 p.97",
+          "status": "disclosed",
+          "rationale": "现金、定期存款及受限资金总额"
+        }
+      ]
+    },
+    "assets.facilities.closing": {
+      "amount": 96746681470.0,
+      "status": "derived",
+      "basis": "filing.2023 p.97: 合并资产负债表固定资产; filing.2023 p.97: 合并资产负债表在建工程; filing.2023 p.97: 合并资产负债表使用权资产",
+      "details": [
+        {
+          "id": "fcl.owned",
+          "display_field": "owned_facilities",
+          "label": "自有经营设施",
+          "custom": false,
+          "raw_label": "固定资产",
+          "source_amount": 85564696703.0,
+          "amount": 85564696703.0,
+          "source": "filing.2023 p.97",
+          "status": "disclosed",
+          "rationale": "自有经营设施"
+        },
+        {
+          "id": "fcl.cip",
+          "display_field": "construction_in_progress",
+          "label": "在建经营设施",
+          "custom": false,
+          "raw_label": "在建工程",
+          "source_amount": 10842088393.0,
+          "amount": 10842088393.0,
+          "source": "filing.2023 p.97",
+          "status": "disclosed",
+          "rationale": "经营设施建设中"
+        },
+        {
+          "id": "fcl.lease",
+          "display_field": "leased_facilities",
+          "label": "租入经营设施",
+          "custom": false,
+          "raw_label": "使用权资产",
+          "source_amount": 339896374.0,
+          "amount": 339896374.0,
+          "source": "filing.2023 p.97",
+          "status": "disclosed",
+          "rationale": "租入经营设施"
+        }
+      ]
+    },
+    "assets.facilities.opening": {
+      "amount": 89715213077.0,
+      "status": "derived",
+      "basis": "filing.2023 p.97: 合并资产负债表固定资产; filing.2023 p.97: 合并资产负债表在建工程; filing.2023 p.97: 合并资产负债表使用权资产",
+      "details": [
+        {
+          "id": "fop.owned",
+          "display_field": "owned_facilities",
+          "label": "自有经营设施",
+          "custom": false,
+          "raw_label": "固定资产",
+          "source_amount": 81181917083.0,
+          "amount": 81181917083.0,
+          "source": "filing.2023 p.97",
+          "status": "disclosed",
+          "rationale": "自有经营设施"
+        },
+        {
+          "id": "fop.cip",
+          "display_field": "construction_in_progress",
+          "label": "在建经营设施",
+          "custom": false,
+          "raw_label": "在建工程",
+          "source_amount": 8387067209.0,
+          "amount": 8387067209.0,
+          "source": "filing.2023 p.97",
+          "status": "disclosed",
+          "rationale": "经营设施建设中"
+        },
+        {
+          "id": "fop.lease",
+          "display_field": "leased_facilities",
+          "label": "租入经营设施",
+          "custom": false,
+          "raw_label": "使用权资产",
+          "source_amount": 146228785.0,
+          "amount": 146228785.0,
+          "source": "filing.2023 p.97",
+          "status": "disclosed",
+          "rationale": "租入经营设施"
+        }
+      ]
+    },
+    "assets.financing.closing": {
+      "amount": 23421085032.0,
+      "status": "derived",
+      "basis": "filing.2023 p.98: 合计; filing.2023 p.98: 合并资产负债表长期借款; filing.2023 p.98: 合并资产负债表租赁负债; filing.2023 p.98: 合并资产负债表长期应付款",
+      "details": [
+        {
+          "id": "fnc.st",
+          "display_field": "bank_borrowings",
+          "label": "银行及其他借款",
+          "custom": false,
+          "raw_label": "短期借款及一年内到期借款",
+          "source_amount": 7347197679.0,
+          "amount": 7347197679.0,
+          "source": "filing.2023 p.98",
+          "status": "derived",
+          "rationale": "银行借款"
+        },
+        {
+          "id": "fnc.lt",
+          "display_field": "bank_borrowings",
+          "label": "银行及其他借款",
+          "custom": false,
+          "raw_label": "长期借款",
+          "source_amount": 15611937445.0,
+          "amount": 15611937445.0,
+          "source": "filing.2023 p.98",
+          "status": "disclosed",
+          "rationale": "银行借款"
+        },
+        {
+          "id": "fnc.ls",
+          "display_field": "lease_liabilities",
+          "label": "租赁负债",
+          "custom": false,
+          "raw_label": "租赁负债",
+          "source_amount": 198017987.0,
+          "amount": 198017987.0,
+          "source": "filing.2023 p.98",
+          "status": "disclosed",
+          "rationale": "租赁融资"
+        },
+        {
+          "id": "fnc.pay",
+          "display_field": "financing_payables",
+          "label": "实质融资应付款",
+          "custom": false,
+          "raw_label": "长期应付款",
+          "source_amount": 263931921.0,
+          "amount": 263931921.0,
+          "source": "filing.2023 p.98",
+          "status": "disclosed",
+          "rationale": "实质融资应付款"
+        }
+      ]
+    },
+    "assets.financing.opening": {
+      "amount": 22446156069.0,
+      "status": "derived",
+      "basis": "filing.2023 p.98: 合计; filing.2023 p.98: 合并资产负债表长期借款; filing.2023 p.98: 合并资产负债表租赁负债; filing.2023 p.98: 合并资产负债表长期应付款",
+      "details": [
+        {
+          "id": "fno.st",
+          "display_field": "bank_borrowings",
+          "label": "银行及其他借款",
+          "custom": false,
+          "raw_label": "短期借款及一年内到期借款",
+          "source_amount": 12390422996.0,
+          "amount": 12390422996.0,
+          "source": "filing.2023 p.98",
+          "status": "derived",
+          "rationale": "银行借款"
+        },
+        {
+          "id": "fno.lt",
+          "display_field": "bank_borrowings",
+          "label": "银行及其他借款",
+          "custom": false,
+          "raw_label": "长期借款",
+          "source_amount": 9688650727.0,
+          "amount": 9688650727.0,
+          "source": "filing.2023 p.98",
+          "status": "disclosed",
+          "rationale": "银行借款"
+        },
+        {
+          "id": "fno.ls",
+          "display_field": "lease_liabilities",
+          "label": "租赁负债",
+          "custom": false,
+          "raw_label": "租赁负债",
+          "source_amount": 56049181.0,
+          "amount": 56049181.0,
+          "source": "filing.2023 p.98",
+          "status": "disclosed",
+          "rationale": "租赁融资"
+        },
+        {
+          "id": "fno.pay",
+          "display_field": "financing_payables",
+          "label": "实质融资应付款",
+          "custom": false,
+          "raw_label": "长期应付款",
+          "source_amount": 311033165.0,
+          "amount": 311033165.0,
+          "source": "filing.2023 p.98",
+          "status": "disclosed",
+          "rationale": "实质融资应付款"
+        }
+      ]
+    },
+    "assets.goodwill.closing": {
+      "amount": 1147071509.0,
+      "status": "disclosed",
+      "basis": "filing.2023 p.97: 合并资产负债表商誉",
+      "details": [
+        {
+          "id": "gcl",
+          "display_field": "goodwill",
+          "label": "商誉",
+          "custom": false,
+          "raw_label": "商誉",
+          "source_amount": 1147071509.0,
+          "amount": 1147071509.0,
+          "source": "filing.2023 p.97",
+          "status": "disclosed",
+          "rationale": "账面商誉"
+        }
+      ]
+    },
+    "assets.goodwill.opening": {
+      "amount": 1145963981.0,
+      "status": "disclosed",
+      "basis": "filing.2023 p.97: 合并资产负债表商誉",
+      "details": [
+        {
+          "id": "gop",
+          "display_field": "goodwill",
+          "label": "商誉",
+          "custom": false,
+          "raw_label": "商誉",
+          "source_amount": 1145963981.0,
+          "amount": 1145963981.0,
+          "source": "filing.2023 p.97",
+          "status": "disclosed",
+          "rationale": "账面商誉"
+        }
+      ]
+    },
+    "assets.investments.closing": {
+      "amount": 11323935382.0,
+      "status": "derived",
+      "basis": "filing.2023 p.97: 合并资产负债表其他权益工具投资; filing.2023 p.97: 合并资产负债表长期股权投资; filing.2023 p.97: 合并资产负债表交易性金融资产",
+      "details": [
+        {
+          "id": "icl.eq",
+          "display_field": "equity_investments",
+          "label": "权益投资",
+          "custom": false,
+          "raw_label": "其他权益工具投资",
+          "source_amount": 1348010646.0,
+          "amount": 1348010646.0,
+          "source": "filing.2023 p.97",
+          "status": "disclosed",
+          "rationale": "未并表权益投资"
+        },
+        {
+          "id": "icl.jv",
+          "display_field": "associates_joint_ventures",
+          "label": "联营与合营投资",
+          "custom": false,
+          "raw_label": "长期股权投资",
+          "source_amount": 7765191948.0,
+          "amount": 7765191948.0,
+          "source": "filing.2023 p.97",
+          "status": "disclosed",
+          "rationale": "联营与合营投资"
+        },
+        {
+          "id": "icl.fund",
+          "display_field": "funds_wealth_products",
+          "label": "基金与理财产品",
+          "custom": false,
+          "raw_label": "交易性金融资产",
+          "source_amount": 2210732788.0,
+          "amount": 2210732788.0,
+          "source": "filing.2023 p.97",
+          "status": "disclosed",
+          "rationale": "结构性存款理财及交易性权益工具"
+        }
+      ]
+    },
+    "assets.investments.opening": {
+      "amount": 20874062220.0,
+      "status": "derived",
+      "basis": "filing.2023 p.97: 其他权益工具投资; filing.2023 p.97: 长期股权投资; filing.2023 p.97: 交易性金融资产; filing.2023 p.97: 合并资产负债表其他非流动金融资产",
+      "details": [
+        {
+          "id": "iop.eq",
+          "display_field": "equity_investments",
+          "label": "权益投资",
+          "custom": false,
+          "raw_label": "其他权益工具投资",
+          "source_amount": 2325185921.0,
+          "amount": 2325185921.0,
+          "source": "filing.2023 p.97",
+          "status": "disclosed",
+          "rationale": "未并表权益投资"
+        },
+        {
+          "id": "iop.jv",
+          "display_field": "associates_joint_ventures",
+          "label": "联营与合营投资",
+          "custom": false,
+          "raw_label": "长期股权投资",
+          "source_amount": 6792654915.0,
+          "amount": 6792654915.0,
+          "source": "filing.2023 p.97",
+          "status": "disclosed",
+          "rationale": "联营与合营投资"
+        },
+        {
+          "id": "iop.fund",
+          "display_field": "funds_wealth_products",
+          "label": "基金与理财产品",
+          "custom": false,
+          "raw_label": "交易性金融资产",
+          "source_amount": 10754921384.0,
+          "amount": 10754921384.0,
+          "source": "filing.2023 p.97",
+          "status": "disclosed",
+          "rationale": "结构性存款、理财及交易性权益工具合并列示"
+        },
+        {
+          "id": "iop.other",
+          "display_field": "other_investments",
+          "label": "其他对外投资",
+          "custom": false,
+          "raw_label": "其他非流动金融资产",
+          "source_amount": 1001300000.0,
+          "amount": 1001300000.0,
+          "source": "filing.2023 p.97",
+          "status": "disclosed",
+          "rationale": "其他对外投资"
+        }
+      ]
+    },
+    "assets.other_assets.closing": {
+      "amount": 2642082912.0,
+      "status": "derived",
+      "basis": "filing.2023 p.97: 合并资产负债表投资性房地产; filing.2023 p.97: 合并资产负债表持有待售资产; filing.2023 p.182: 附注五、21其他非流动资产，2023年12月31日; filing.2023 p.182: 附注五、21其他非流动资产，2023年12月31日其他项",
+      "details": [
+        {
+          "id": "acl.ip",
+          "display_field": "investment_property",
+          "label": "非主业投资物业",
+          "custom": false,
+          "raw_label": "投资性房地产",
+          "source_amount": 55139874.0,
+          "amount": 55139874.0,
+          "source": "filing.2023 p.97",
+          "status": "disclosed",
+          "rationale": "非主业投资物业"
+        },
+        {
+          "id": "acl.sale",
+          "display_field": "assets_held_for_sale",
+          "label": "持有待售非经营资产",
+          "custom": false,
+          "raw_label": "持有待售资产",
+          "source_amount": 23538485.0,
+          "amount": 23538485.0,
+          "source": "filing.2023 p.97",
+          "status": "disclosed",
+          "rationale": "持有待售非经营资产"
+        },
+        {
+          "id": "acl.gov",
+          "display_field": "other_nonoperating_assets",
+          "label": "其他非经营资产",
+          "custom": false,
+          "raw_label": "政府贷款及代政府代垫款",
+          "source_amount": 250255929.0,
+          "amount": 250255929.0,
+          "source": "filing.2023 p.182",
+          "status": "disclosed",
+          "rationale": "对政府的长期贷款及代垫款，不属于经营周转或生产设施"
+        },
+        {
+          "id": "acl.misc",
+          "display_field": "other_nonoperating_assets",
+          "label": "其他非经营资产",
+          "custom": false,
+          "raw_label": "其他非流动资产—其他",
+          "source_amount": 2313148624.0,
+          "amount": 2313148624.0,
+          "source": "filing.2023 p.182",
+          "status": "disclosed",
+          "rationale": "附注未进一步拆分性质，保守列作其他非经营资产并保留原始证据"
+        }
+      ]
+    },
+    "assets.other_assets.opening": {
+      "amount": 2225098544.0,
+      "status": "derived",
+      "basis": "filing.2023 p.97: 合并资产负债表投资性房地产; filing.2023 p.182: 附注五、21其他非流动资产，2022年12月31日; filing.2023 p.182: 附注五、21其他非流动资产，2022年12月31日其他项",
+      "details": [
+        {
+          "id": "aop.ip",
+          "display_field": "investment_property",
+          "label": "非主业投资物业",
+          "custom": false,
+          "raw_label": "投资性房地产",
+          "source_amount": 73408047.0,
+          "amount": 73408047.0,
+          "source": "filing.2023 p.97",
+          "status": "disclosed",
+          "rationale": "非主业投资物业"
+        },
+        {
+          "id": "aop.gov",
+          "display_field": "other_nonoperating_assets",
+          "label": "其他非经营资产",
+          "custom": false,
+          "raw_label": "政府贷款及代政府代垫款",
+          "source_amount": 292657021.0,
+          "amount": 292657021.0,
+          "source": "filing.2023 p.182",
+          "status": "disclosed",
+          "rationale": "对政府的长期贷款及代垫款，不属于经营周转或生产设施"
+        },
+        {
+          "id": "aop.misc",
+          "display_field": "other_nonoperating_assets",
+          "label": "其他非经营资产",
+          "custom": false,
+          "raw_label": "其他非流动资产—其他",
+          "source_amount": 1859033476.0,
+          "amount": 1859033476.0,
+          "source": "filing.2023 p.182",
+          "status": "disclosed",
+          "rationale": "附注未进一步拆分性质，保守列作其他非经营资产并保留原始证据"
+        }
+      ]
+    },
+    "assets.other_liabilities.closing": {
+      "amount": 0.0,
+      "status": "estimated",
+      "basis": "filing.2023 p.98: 未见单列其他非经营负债",
+      "details": [
+        {
+          "id": "nol.c",
+          "display_field": "other_nonoperating_liabilities",
+          "label": "其他非经营负债",
+          "custom": false,
+          "raw_label": "其他非经营负债",
+          "source_amount": 0.0,
+          "amount": 0.0,
+          "source": "filing.2023 p.98",
+          "status": "estimated",
+          "rationale": "代表值估计为0"
+        }
+      ]
+    },
+    "assets.other_liabilities.opening": {
+      "amount": 0.0,
+      "status": "estimated",
+      "basis": "filing.2023 p.98: 未见单列其他非经营负债",
+      "details": [
+        {
+          "id": "nol.o",
+          "display_field": "other_nonoperating_liabilities",
+          "label": "其他非经营负债",
+          "custom": false,
+          "raw_label": "其他非经营负债",
+          "source_amount": 0.0,
+          "amount": 0.0,
+          "source": "filing.2023 p.98",
+          "status": "estimated",
+          "rationale": "代表值估计为0"
+        }
+      ]
+    },
+    "assets.other_operating.closing": {
+      "amount": 742779969.0,
+      "status": "derived",
+      "basis": "filing.2023 p.97: 合并资产负债表递延所得税资产; filing.2023 p.98: 合并资产负债表递延所得税负债; filing.2023 p.98: 合并资产负债表递延收益; filing.2023 p.97: 合并资产负债表其他流动资产",
+      "details": [
+        {
+          "id": "ocl.dta",
+          "display_field": "operating_tax_assets",
+          "label": "经营税项资产",
+          "custom": false,
+          "raw_label": "递延所得税资产",
+          "source_amount": 1543299508.0,
+          "amount": 1543299508.0,
+          "source": "filing.2023 p.97",
+          "status": "disclosed",
+          "rationale": "经营税项资产"
+        },
+        {
+          "id": "ocl.dtli",
+          "display_field": "operating_tax_liabilities",
+          "label": "经营税项义务",
+          "custom": false,
+          "raw_label": "递延所得税负债",
+          "source_amount": 1616291549.0,
+          "amount": -1616291549.0,
+          "source": "filing.2023 p.98",
+          "status": "disclosed",
+          "rationale": "经营税项义务抵减"
+        },
+        {
+          "id": "ocl.grant",
+          "display_field": "deferred_operating_income",
+          "label": "递延经营收益",
+          "custom": false,
+          "raw_label": "递延收益",
+          "source_amount": 870465009.0,
+          "amount": -870465009.0,
+          "source": "filing.2023 p.98",
+          "status": "disclosed",
+          "rationale": "递延经营收益负债抵减"
+        },
+        {
+          "id": "ocl.other",
+          "display_field": "other_operating_assets",
+          "label": "其他经营资产",
+          "custom": false,
+          "raw_label": "其他流动资产",
+          "source_amount": 1686237019.0,
+          "amount": 1686237019.0,
+          "source": "filing.2023 p.97",
+          "status": "disclosed",
+          "rationale": "经营税项及其他经营资产未拆分"
+        }
+      ]
+    },
+    "assets.other_operating.opening": {
+      "amount": 716951093.0,
+      "status": "derived",
+      "basis": "filing.2023 p.97: 合并资产负债表递延所得税资产; filing.2023 p.98: 合并资产负债表递延所得税负债; filing.2023 p.98: 合并资产负债表递延收益; filing.2023 p.97: 合并资产负债表其他流动资产",
+      "details": [
+        {
+          "id": "oop.dta",
+          "display_field": "operating_tax_assets",
+          "label": "经营税项资产",
+          "custom": false,
+          "raw_label": "递延所得税资产",
+          "source_amount": 1248930819.0,
+          "amount": 1248930819.0,
+          "source": "filing.2023 p.97",
+          "status": "disclosed",
+          "rationale": "经营税项资产"
+        },
+        {
+          "id": "oop.dtli",
+          "display_field": "operating_tax_liabilities",
+          "label": "经营税项义务",
+          "custom": false,
+          "raw_label": "递延所得税负债",
+          "source_amount": 1691864298.0,
+          "amount": -1691864298.0,
+          "source": "filing.2023 p.98",
+          "status": "disclosed",
+          "rationale": "经营税项义务抵减"
+        },
+        {
+          "id": "oop.grant",
+          "display_field": "deferred_operating_income",
+          "label": "递延经营收益",
+          "custom": false,
+          "raw_label": "递延收益",
+          "source_amount": 663987448.0,
+          "amount": -663987448.0,
+          "source": "filing.2023 p.98",
+          "status": "disclosed",
+          "rationale": "递延经营收益负债抵减"
+        },
+        {
+          "id": "oop.other",
+          "display_field": "other_operating_assets",
+          "label": "其他经营资产",
+          "custom": false,
+          "raw_label": "其他流动资产",
+          "source_amount": 1823872020.0,
+          "amount": 1823872020.0,
+          "source": "filing.2023 p.97",
+          "status": "disclosed",
+          "rationale": "经营税项及其他经营资产未拆分"
+        }
+      ]
+    },
+    "assets.rights.closing": {
+      "amount": 32379660353.0,
+      "status": "disclosed",
+      "basis": "filing.2023 p.97: 合并资产负债表无形资产",
+      "details": [
+        {
+          "id": "rcl",
+          "display_field": "acquired_operating_intangibles",
+          "label": "外购经营无形资产",
+          "custom": false,
+          "raw_label": "无形资产",
+          "source_amount": 32379660353.0,
+          "amount": 32379660353.0,
+          "source": "filing.2023 p.97",
+          "status": "disclosed",
+          "rationale": "经营权利及开发资产，年报未拆分性质"
+        }
+      ]
+    },
+    "assets.rights.opening": {
+      "amount": 32038330621.0,
+      "status": "disclosed",
+      "basis": "filing.2023 p.97: 合并资产负债表无形资产",
+      "details": [
+        {
+          "id": "rop",
+          "display_field": "acquired_operating_intangibles",
+          "label": "外购经营无形资产",
+          "custom": false,
+          "raw_label": "无形资产",
+          "source_amount": 32038330621.0,
+          "amount": 32038330621.0,
+          "source": "filing.2023 p.97",
+          "status": "disclosed",
+          "rationale": "经营权利及开发资产，年报未拆分性质"
+        }
+      ]
+    },
+    "assets.shareholder.closing": {
+      "amount": 0.0,
+      "status": "not_applicable",
+      "basis": "filing.2023 p.98: 未列示应付股利",
+      "details": [
+        {
+          "id": "sh.c",
+          "display_field": "dividends_payable",
+          "label": "应付股利",
+          "custom": false,
+          "raw_label": "应付股利",
+          "source_amount": 0.0,
+          "amount": 0.0,
+          "source": "filing.2023 p.98",
+          "status": "not_applicable",
+          "rationale": "年末无已确认股东相关应付款"
+        }
+      ]
+    },
+    "assets.shareholder.opening": {
+      "amount": 0.0,
+      "status": "not_applicable",
+      "basis": "filing.2023 p.98: 未列示应付股利",
+      "details": [
+        {
+          "id": "sh.o",
+          "display_field": "dividends_payable",
+          "label": "应付股利",
+          "custom": false,
+          "raw_label": "应付股利",
+          "source_amount": 0.0,
+          "amount": 0.0,
+          "source": "filing.2023 p.98",
+          "status": "not_applicable",
+          "rationale": "年末无已确认股东相关应付款"
+        }
+      ]
+    },
+    "assets.working.closing": {
+      "amount": 6501179125.0,
+      "status": "derived",
+      "basis": "filing.2023 p.97: 合并资产负债表存货; filing.2023 p.97: 合并资产负债表预付款项; filing.2023 p.97: 合并资产负债表其他应收款; filing.2023 p.98: 合并资产负债表应付账款; filing.2023 p.98: 合并资产负债表合同负债; filing.2023 p.98: 合并资产负债表应付职工薪酬; filing.2023 p.97: 合计; filing.2023 p.98: 合计; filing.2023 p.97: 合并资产负债表应付票据",
+      "details": [
+        {
+          "id": "wcl.inv",
+          "display_field": "inventory",
+          "label": "存货",
+          "custom": false,
+          "raw_label": "存货",
+          "source_amount": 10100345825.0,
+          "amount": 10100345825.0,
+          "source": "filing.2023 p.97",
+          "status": "disclosed",
+          "rationale": "存货属于经营周转资产"
+        },
+        {
+          "id": "wcl.pre",
+          "display_field": "operating_prepayments",
+          "label": "经营预付款与押金",
+          "custom": false,
+          "raw_label": "预付款项",
+          "source_amount": 2403781870.0,
+          "amount": 2403781870.0,
+          "source": "filing.2023 p.97",
+          "status": "disclosed",
+          "rationale": "日常采购经营预付"
+        },
+        {
+          "id": "wcl.orec",
+          "display_field": "other_operating_receivables",
+          "label": "其他经营应收",
+          "custom": false,
+          "raw_label": "其他应收款",
+          "source_amount": 3693848659.0,
+          "amount": 3693848659.0,
+          "source": "filing.2023 p.97",
+          "status": "disclosed",
+          "rationale": "经营相关应收，未见非经营性质拆分"
+        },
+        {
+          "id": "wcl.pay",
+          "display_field": "supplier_payables",
+          "label": "供应商经营占款",
+          "custom": false,
+          "raw_label": "应付账款",
+          "source_amount": 6298249362.0,
+          "amount": -6298249362.0,
+          "source": "filing.2023 p.98",
+          "status": "disclosed",
+          "rationale": "供应商经营占款抵减经营资本"
+        },
+        {
+          "id": "wcl.adv",
+          "display_field": "customer_advances",
+          "label": "客户预收与合同负债",
+          "custom": false,
+          "raw_label": "合同负债",
+          "source_amount": 2887907489.0,
+          "amount": -2887907489.0,
+          "source": "filing.2023 p.98",
+          "status": "disclosed",
+          "rationale": "客户预收抵减经营资本"
+        },
+        {
+          "id": "wcl.emp",
+          "display_field": "employee_payables",
+          "label": "员工结算义务",
+          "custom": false,
+          "raw_label": "应付职工薪酬",
+          "source_amount": 1512587996.0,
+          "amount": -1512587996.0,
+          "source": "filing.2023 p.98",
+          "status": "disclosed",
+          "rationale": "经营员工结算义务"
+        },
+        {
+          "id": "wcl.rec",
+          "display_field": "customer_receivables",
+          "label": "客户经营欠款",
+          "custom": false,
+          "raw_label": "客户经营债权",
+          "source_amount": 12615833159.0,
+          "amount": 12615833159.0,
+          "source": "filing.2023 p.97",
+          "status": "derived",
+          "rationale": "经营信用及结算工具"
+        },
+        {
+          "id": "wcl.othpay",
+          "display_field": "other_operating_payables",
+          "label": "其他经营应付与结算",
+          "custom": false,
+          "raw_label": "应交税费及其他应付款",
+          "source_amount": 11343946672.0,
+          "amount": -11343946672.0,
+          "source": "filing.2023 p.98",
+          "status": "derived",
+          "rationale": "经营税费及其他经营结算义务"
+        },
+        {
+          "id": "wcl.notes",
+          "display_field": "supplier_payables",
+          "label": "供应商经营占款",
+          "custom": false,
+          "raw_label": "应付票据",
+          "source_amount": 269938869.0,
+          "amount": -269938869.0,
+          "source": "filing.2023 p.97",
+          "status": "disclosed",
+          "rationale": "供应商经营占款抵减经营资本"
+        }
+      ]
+    },
+    "assets.working.opening": {
+      "amount": 12392942252.0,
+      "status": "derived",
+      "basis": "filing.2023 p.97: 合并资产负债表存货; filing.2023 p.97: 应收票据+应收账款+应收款项融资; filing.2023 p.98: 合并资产负债表应付账款; filing.2023 p.97: 合并资产负债表其他应收款; filing.2023 p.98: 合并资产负债表合同负债; filing.2023 p.98: 合并资产负债表应付职工薪酬; filing.2023 p.98: 合计; filing.2023 p.97: 合并资产负债表应付票据; filing.2023 p.97: 合并资产负债表预付款项",
+      "details": [
+        {
+          "id": "wop.inv",
+          "display_field": "inventory",
+          "label": "存货",
+          "custom": false,
+          "raw_label": "存货",
+          "source_amount": 11678994640.0,
+          "amount": 11678994640.0,
+          "source": "filing.2023 p.97",
+          "status": "disclosed",
+          "rationale": "存货属于经营周转资产"
+        },
+        {
+          "id": "wop.rec",
+          "display_field": "customer_receivables",
+          "label": "客户经营欠款",
+          "custom": false,
+          "raw_label": "客户经营债权",
+          "source_amount": 16991449138.0,
+          "amount": 16991449138.0,
+          "source": "filing.2023 p.97",
+          "status": "derived",
+          "rationale": "经营信用及结算工具"
+        },
+        {
+          "id": "wop.pay",
+          "display_field": "supplier_payables",
+          "label": "供应商经营占款",
+          "custom": false,
+          "raw_label": "应付账款",
+          "source_amount": 6781359336.0,
+          "amount": -6781359336.0,
+          "source": "filing.2023 p.98",
+          "status": "disclosed",
+          "rationale": "供应商经营占款抵减经营资本"
+        },
+        {
+          "id": "wop.orec",
+          "display_field": "other_operating_receivables",
+          "label": "其他经营应收",
+          "custom": false,
+          "raw_label": "其他应收款",
+          "source_amount": 3900296934.0,
+          "amount": 3900296934.0,
+          "source": "filing.2023 p.97",
+          "status": "disclosed",
+          "rationale": "经营相关应收，未见非经营性质拆分"
+        },
+        {
+          "id": "wop.adv",
+          "display_field": "customer_advances",
+          "label": "客户预收与合同负债",
+          "custom": false,
+          "raw_label": "合同负债",
+          "source_amount": 3576718529.0,
+          "amount": -3576718529.0,
+          "source": "filing.2023 p.98",
+          "status": "disclosed",
+          "rationale": "客户预收抵减经营资本"
+        },
+        {
+          "id": "wop.emp",
+          "display_field": "employee_payables",
+          "label": "员工结算义务",
+          "custom": false,
+          "raw_label": "应付职工薪酬",
+          "source_amount": 1639166765.0,
+          "amount": -1639166765.0,
+          "source": "filing.2023 p.98",
+          "status": "disclosed",
+          "rationale": "经营员工结算义务"
+        },
+        {
+          "id": "wop.othpay",
+          "display_field": "other_operating_payables",
+          "label": "其他经营应付与结算",
+          "custom": false,
+          "raw_label": "应交税费及其他应付款",
+          "source_amount": 10971880060.0,
+          "amount": -10971880060.0,
+          "source": "filing.2023 p.98",
+          "status": "derived",
+          "rationale": "经营税费及其他经营结算义务"
+        },
+        {
+          "id": "wop.notes",
+          "display_field": "supplier_payables",
+          "label": "供应商经营占款",
+          "custom": false,
+          "raw_label": "应付票据",
+          "source_amount": 211695000.0,
+          "amount": -211695000.0,
+          "source": "filing.2023 p.97",
+          "status": "disclosed",
+          "rationale": "供应商经营占款抵减经营资本"
+        },
+        {
+          "id": "wop.pre",
+          "display_field": "operating_prepayments",
+          "label": "经营预付款与押金",
+          "custom": false,
+          "raw_label": "预付款项",
+          "source_amount": 3003021230.0,
+          "amount": 3003021230.0,
+          "source": "filing.2023 p.97",
+          "status": "disclosed",
+          "rationale": "日常采购经营预付"
+        }
+      ]
+    },
+    "controls.equity.closing": {
+      "amount": 197968727563.0,
+      "status": "disclosed",
+      "basis": "filing.2023 p.99: 股东权益合计",
+      "details": [
+        {
+          "id": "eq.c",
+          "display_field": null,
+          "label": null,
+          "custom": false,
+          "raw_label": "股东权益合计",
+          "source_amount": 197968727563.0,
+          "amount": 197968727563.0,
+          "source": "filing.2023 p.99",
+          "status": "disclosed",
+          "rationale": "合并股东权益"
+        }
+      ]
+    },
+    "controls.equity.opening": {
+      "amount": 195993594732.0,
+      "status": "disclosed",
+      "basis": "filing.2023 p.99: 股东权益合计",
+      "details": [
+        {
+          "id": "eq.o",
+          "display_field": null,
+          "label": null,
+          "custom": false,
+          "raw_label": "股东权益合计",
+          "source_amount": 195993594732.0,
+          "amount": 195993594732.0,
+          "source": "filing.2023 p.99",
+          "status": "disclosed",
+          "rationale": "合并股东权益"
+        }
+      ]
+    },
+    "controls.minority.closing": {
+      "amount": 12647644579.0,
+      "status": "disclosed",
+      "basis": "filing.2023 p.99: 少数股东权益",
+      "details": [
+        {
+          "id": "min.c",
+          "display_field": null,
+          "label": null,
+          "custom": false,
+          "raw_label": "少数股东权益",
+          "source_amount": 12647644579.0,
+          "amount": 12647644579.0,
+          "source": "filing.2023 p.99",
+          "status": "disclosed",
+          "rationale": "少数股东权益"
+        }
+      ]
+    },
+    "controls.minority.opening": {
+      "amount": 12354870001.0,
+      "status": "disclosed",
+      "basis": "filing.2023 p.99: 少数股东权益",
+      "details": [
+        {
+          "id": "min.o",
+          "display_field": null,
+          "label": null,
+          "custom": false,
+          "raw_label": "少数股东权益",
+          "source_amount": 12354870001.0,
+          "amount": 12354870001.0,
+          "source": "filing.2023 p.99",
+          "status": "disclosed",
+          "rationale": "少数股东权益"
+        }
+      ]
+    },
+    "controls.parent.closing": {
+      "amount": 185321082984.0,
+      "status": "disclosed",
+      "basis": "filing.2023 p.99: 归属于母公司股东权益合计",
+      "details": [
+        {
+          "id": "par.c",
+          "display_field": null,
+          "label": null,
+          "custom": false,
+          "raw_label": "归属于母公司股东权益合计",
+          "source_amount": 185321082984.0,
+          "amount": 185321082984.0,
+          "source": "filing.2023 p.99",
+          "status": "disclosed",
+          "rationale": "母公司股东权益"
+        }
+      ]
+    },
+    "controls.parent.opening": {
+      "amount": 183638724731.0,
+      "status": "disclosed",
+      "basis": "filing.2023 p.99: 归属于母公司股东权益合计",
+      "details": [
+        {
+          "id": "par.o",
+          "display_field": null,
+          "label": null,
+          "custom": false,
+          "raw_label": "归属于母公司股东权益合计",
+          "source_amount": 183638724731.0,
+          "amount": 183638724731.0,
+          "source": "filing.2023 p.99",
+          "status": "disclosed",
+          "rationale": "母公司股东权益"
+        }
+      ]
+    },
+    "controls.profit": {
+      "amount": 10749185311.0,
+      "status": "disclosed",
+      "basis": "filing.2023 p.103: 合并利润表净利润",
+      "details": [
+        {
+          "id": "profit",
+          "display_field": null,
+          "label": null,
+          "custom": false,
+          "raw_label": "合并净利润",
+          "source_amount": 10749185311.0,
+          "amount": 10749185311.0,
+          "source": "filing.2023 p.103",
+          "status": "disclosed",
+          "rationale": "合并净利润"
+        }
+      ]
+    },
+    "liquidity.capacity.disposal": {
+      "amount": 233010584.0,
+      "status": "disclosed",
+      "basis": "filing.2023 p.107: 现金流量表处置固定资产及无形资产收回现金净额",
+      "details": [
+        {
+          "id": "cd",
+          "display_field": "facility_disposal",
+          "label": "处置经营设施收款",
+          "custom": false,
+          "raw_label": "处置固定资产及无形资产收款",
+          "source_amount": 233010584.0,
+          "amount": 233010584.0,
+          "source": "filing.2023 p.107",
+          "status": "disclosed",
+          "rationale": "处置经营资产收款"
+        }
+      ]
+    },
+    "liquidity.capacity.purchase": {
+      "amount": -14167451355.0,
+      "status": "disclosed",
+      "basis": "filing.2023 p.107: 现金流量表购建固定资产、无形资产和其他长期资产支付的现金",
+      "details": [
+        {
+          "id": "cp",
+          "display_field": "other_capacity_purchase",
+          "label": "其他经营资产投入",
+          "custom": false,
+          "raw_label": "购建固定资产无形资产及其他长期资产",
+          "source_amount": 14167451355.0,
+          "amount": -14167451355.0,
+          "source": "filing.2023 p.107",
+          "status": "disclosed",
+          "rationale": "经营资产购建"
+        }
+      ]
+    },
+    "liquidity.finance.borrow": {
+      "amount": 15681519107.0,
+      "status": "disclosed",
+      "basis": "filing.2023 p.108: 现金流量表取得借款收到的现金",
+      "details": [
+        {
+          "id": "fb",
+          "display_field": "bank_borrow",
+          "label": "取得银行及其他借款",
+          "custom": false,
+          "raw_label": "取得借款收到的现金",
+          "source_amount": 15681519107.0,
+          "amount": 15681519107.0,
+          "source": "filing.2023 p.108",
+          "status": "disclosed",
+          "rationale": "取得银行及其他借款"
+        }
+      ]
+    },
+    "liquidity.finance.cost": {
+      "amount": -1028275572.0,
+      "status": "disclosed",
+      "basis": "filing.2023 p.108: 筹资活动支付股利或偿付利息及筹资负债变动附注",
+      "details": [
+        {
+          "id": "fc",
+          "display_field": "other_finance_cost_paid",
+          "label": "支付其他融资费用",
+          "custom": false,
+          "raw_label": "利息及融资费用支付",
+          "source_amount": 1028275572.0,
+          "amount": -1028275572.0,
+          "source": "filing.2023 p.108",
+          "status": "disclosed",
+          "rationale": "从合计中扣除已单列分红后的利息支付"
+        }
+      ]
+    },
+    "liquidity.finance.repay": {
+      "amount": -12348704870.0,
+      "status": "derived",
+      "basis": "filing.2023 p.108: 现金流量表偿还债务支付的现金; filing.2023 p.202: 筹资活动现金附注偿还租赁负债本金和利息; filing.2023 p.202: 筹资活动现金附注新收购子公司支付的债务承接款",
+      "details": [
+        {
+          "id": "fr",
+          "display_field": "bank_repay",
+          "label": "偿还银行及其他借款",
+          "custom": false,
+          "raw_label": "偿还债务支付的现金",
+          "source_amount": 12123940161.0,
+          "amount": -12123940161.0,
+          "source": "filing.2023 p.108",
+          "status": "disclosed",
+          "rationale": "偿还银行及其他借款"
+        },
+        {
+          "id": "fl",
+          "display_field": "lease_principal",
+          "label": "偿还租赁本金",
+          "custom": false,
+          "raw_label": "租赁负债本金及利息支付",
+          "source_amount": 74109713.0,
+          "amount": -74109713.0,
+          "source": "filing.2023 p.202",
+          "status": "disclosed",
+          "rationale": "租赁融资现金支出，原披露未拆本金和利息"
+        },
+        {
+          "id": "fo",
+          "display_field": "other_financing_repay",
+          "label": "偿还其他融资本金",
+          "custom": false,
+          "raw_label": "新收购子公司债务承接款",
+          "source_amount": 150654996.0,
+          "amount": -150654996.0,
+          "source": "filing.2023 p.202",
+          "status": "disclosed",
+          "rationale": "偿还其他融资本金"
+        }
+      ]
+    },
+    "liquidity.investment.invest": {
+      "amount": -37174162570.0,
+      "status": "derived",
+      "basis": "filing.2023 p.107: 现金流量表投资支付的现金; filing.2023 p.107: 现金流量表取得子公司及其他营业单位支付现金净额; filing.2023 p.202: 现金流量表支付其他投资活动现金",
+      "details": [
+        {
+          "id": "ii1",
+          "display_field": "fund_wealth_invest",
+          "label": "投入基金与理财产品",
+          "custom": false,
+          "raw_label": "投资支付的现金",
+          "source_amount": 35860359557.0,
+          "amount": -35860359557.0,
+          "source": "filing.2023 p.107",
+          "status": "disclosed",
+          "rationale": "对外投资投入，未拆分工具类型"
+        },
+        {
+          "id": "ii2",
+          "display_field": "other_invest",
+          "label": "其他对外投资",
+          "custom": false,
+          "raw_label": "取得子公司及其他营业单位支付现金净额",
+          "source_amount": 1272643706.0,
+          "amount": -1272643706.0,
+          "source": "filing.2023 p.107",
+          "status": "disclosed",
+          "rationale": "取得控制性投资现金支出"
+        },
+        {
+          "id": "iotherout",
+          "display_field": "other_invest",
+          "label": "其他对外投资",
+          "custom": false,
+          "raw_label": "支付其他投资活动现金",
+          "source_amount": 41159307.0,
+          "amount": -41159307.0,
+          "source": "filing.2023 p.202",
+          "status": "disclosed",
+          "rationale": "政府贷款及代垫款投入"
+        }
+      ]
+    },
+    "liquidity.investment.recover": {
+      "amount": 29892815190.0,
+      "status": "disclosed",
+      "basis": "filing.2023 p.107: 现金流量表收回投资收到的现金",
+      "details": [
+        {
+          "id": "ir",
+          "display_field": "other_investment_recover",
+          "label": "其他投资收回及处置收款",
+          "custom": false,
+          "raw_label": "收回投资收到的现金",
+          "source_amount": 29892815190.0,
+          "amount": 29892815190.0,
+          "source": "filing.2023 p.107",
+          "status": "disclosed",
+          "rationale": "收回对外投资"
+        }
+      ]
+    },
+    "liquidity.investment.returns": {
+      "amount": 1908770728.0,
+      "status": "derived",
+      "basis": "filing.2023 p.107: 现金流量表取得投资收益收到的现金; filing.2023 p.202: 现金流量表收到其他投资活动现金",
+      "details": [
+        {
+          "id": "iret",
+          "display_field": "other_investment_return_cash",
+          "label": "收到其他投资收益",
+          "custom": false,
+          "raw_label": "取得投资收益收到的现金",
+          "source_amount": 539467057.0,
+          "amount": 539467057.0,
+          "source": "filing.2023 p.107",
+          "status": "disclosed",
+          "rationale": "收到投资收益"
+        },
+        {
+          "id": "iotherin",
+          "display_field": "other_investment_return_cash",
+          "label": "收到其他投资收益",
+          "custom": false,
+          "raw_label": "收到其他投资活动现金",
+          "source_amount": 1369303671.0,
+          "amount": 1369303671.0,
+          "source": "filing.2023 p.202",
+          "status": "disclosed",
+          "rationale": "利息及政府贷款/代垫款收回"
+        }
+      ]
+    },
+    "liquidity.operating.before_working": {
+      "amount": 24024838853.0,
+      "status": "derived",
+      "basis": "filing.2023 p.203: 补充资料",
+      "details": [
+        {
+          "id": "l.before",
+          "display_field": "operating_base_cash",
+          "label": "周转及缴税前经营收付",
+          "custom": false,
+          "raw_label": "税后及调整后周转前经营收付",
+          "source_amount": 24024838853.0,
+          "amount": 24024838853.0,
+          "source": "filing.2023 p.203",
+          "status": "derived",
+          "rationale": "经营收付"
+        }
+      ]
+    },
+    "liquidity.operating.tax": {
+      "amount": -7169109773.0,
+      "status": "disclosed",
+      "basis": "filing.2023 p.107: 现金流量表支付的各项税费",
+      "details": [
+        {
+          "id": "l.tax",
+          "display_field": "undivided_tax_paid",
+          "label": "实际缴纳所得税（未拆分）",
+          "custom": false,
+          "raw_label": "支付所得税",
+          "source_amount": 7169109773.0,
+          "amount": -7169109773.0,
+          "source": "filing.2023 p.107",
+          "status": "disclosed",
+          "rationale": "经营所得税现金支付，未披露其他税费拆分"
+        }
+      ]
+    },
+    "liquidity.operating.working": {
+      "amount": 3249834490.0,
+      "status": "derived",
+      "basis": "filing.2023 p.203: 补充资料",
+      "details": [
+        {
+          "id": "l.work",
+          "display_field": "undivided_working_cash",
+          "label": "经营周转资金释放／占用（未拆分）",
+          "custom": false,
+          "raw_label": "经营周转变动",
+          "source_amount": 3249834490.0,
+          "amount": 3249834490.0,
+          "source": "filing.2023 p.203",
+          "status": "derived",
+          "rationale": "周转变化"
+        }
+      ]
+    },
+    "liquidity.other.restriction": {
+      "amount": 15102963481.0,
+      "status": "derived",
+      "basis": "filing.2023 p.203: 现金余额与现金等价物差额",
+      "details": [
+        {
+          "id": "lres",
+          "display_field": "restriction_transfer",
+          "label": "资金可用范围转类",
+          "custom": false,
+          "raw_label": "定期存款及受限资金范围变化",
+          "source_amount": 15102963481.0,
+          "amount": 15102963481.0,
+          "source": "filing.2023 p.203",
+          "status": "derived",
+          "rationale": "资金范围转类"
+        }
+      ]
+    },
+    "liquidity.other.scope": {
+      "amount": 0.0,
+      "status": "not_applicable",
+      "basis": "filing.2023 p.107: 未发生可单列现金并入移出",
+      "details": [
+        {
+          "id": "scope0",
+          "display_field": "acquired_cash",
+          "label": "并入业务现金",
+          "custom": false,
+          "raw_label": "合并范围现金变化",
+          "source_amount": 0.0,
+          "amount": 0.0,
+          "source": "filing.2023 p.107",
+          "status": "not_applicable",
+          "rationale": "未披露本期现金范围变化"
+        }
+      ]
+    },
+    "liquidity.other.translation": {
+      "amount": 30641868.0,
+      "status": "disclosed",
+      "basis": "filing.2023 p.108: 现金流量表汇率变动对现金及现金等价物的影响",
+      "details": [
+        {
+          "id": "lt",
+          "display_field": "cash_translation",
+          "label": "现金汇率折算影响",
+          "custom": false,
+          "raw_label": "汇率变动对现金影响",
+          "source_amount": 30641868.0,
+          "amount": 30641868.0,
+          "source": "filing.2023 p.108",
+          "status": "disclosed",
+          "rationale": "汇率折算影响"
+        }
+      ]
+    },
+    "liquidity.owner.dividend": {
+      "amount": -8201887334.0,
+      "status": "disclosed",
+      "basis": "filing.2023 p.108: 权益变动表利润分配及现金流量表",
+      "details": [
+        {
+          "id": "lod",
+          "display_field": "dividend_paid",
+          "label": "实际支付分红",
+          "custom": false,
+          "raw_label": "支付股东及少数股东分红",
+          "source_amount": 8201887334.0,
+          "amount": -8201887334.0,
+          "source": "filing.2023 p.108",
+          "status": "disclosed",
+          "rationale": "实际支付分红，含少数股东利润"
+        }
+      ]
+    },
+    "liquidity.owner.input": {
+      "amount": 676810470.0,
+      "status": "disclosed",
+      "basis": "filing.2023 p.108: 现金流量表吸收投资收到的现金",
+      "details": [
+        {
+          "id": "loi",
+          "display_field": "other_owner_cash",
+          "label": "收到其他股东投入",
+          "custom": false,
+          "raw_label": "子公司吸收少数股东投资",
+          "source_amount": 676810470.0,
+          "amount": 676810470.0,
+          "source": "filing.2023 p.108",
+          "status": "disclosed",
+          "rationale": "收到少数股东投入"
+        }
+      ]
+    },
+    "liquidity.owner.minority": {
+      "amount": 123496990.0,
+      "status": "derived",
+      "basis": "filing.2023 p.108: 现金流量表购买少数股东权益支付的现金净额; filing.2023 p.202: 筹资活动收到其他现金：不丧失控制处置子公司部分股权",
+      "details": [
+        {
+          "id": "lom1",
+          "display_field": "minority_acquisition_cash",
+          "label": "收购少数股权付款",
+          "custom": false,
+          "raw_label": "收购少数股东权益付款",
+          "source_amount": 71503010.0,
+          "amount": -71503010.0,
+          "source": "filing.2023 p.108",
+          "status": "disclosed",
+          "rationale": "收购少数股权付款"
+        },
+        {
+          "id": "lom2",
+          "display_field": "minority_disposal_cash",
+          "label": "出售少数股权收款",
+          "custom": false,
+          "raw_label": "不丧失控制处置部分股权收款",
+          "source_amount": 195000000.0,
+          "amount": 195000000.0,
+          "source": "filing.2023 p.202",
+          "status": "disclosed",
+          "rationale": "出售少数股权收款"
+        }
+      ]
+    },
+    "liquidity.owner.repurchase": {
+      "amount": -339160424.0,
+      "status": "disclosed",
+      "basis": "filing.2023 p.202: 筹资活动现金附注回购股票支付的现金",
+      "details": [
+        {
+          "id": "lor",
+          "display_field": "repurchase_paid",
+          "label": "现金回购股份",
+          "custom": false,
+          "raw_label": "回购股票支付现金",
+          "source_amount": 339160424.0,
+          "amount": -339160424.0,
+          "source": "filing.2023 p.202",
+          "status": "disclosed",
+          "rationale": "现金回购股份"
+        }
+      ]
+    },
+    "noncash.leases": {
+      "amount": 0.0,
+      "status": "not_applicable",
+      "basis": "filing.2023 p.202: 未披露重大非现金租赁配置",
+      "details": [
+        {
+          "id": "lease0",
+          "display_field": null,
+          "label": null,
+          "custom": false,
+          "raw_label": "非现金租赁配置",
+          "source_amount": 0.0,
+          "amount": 0.0,
+          "source": "filing.2023 p.202",
+          "status": "not_applicable",
+          "rationale": "不适用"
+        }
+      ]
+    },
+    "wealth.finance.cost": {
+      "amount": -1096281318.0,
+      "status": "derived",
+      "basis": "filing.2023 p.103: 合并利润表财务费用利息费用; filing.2023 p.103: 差额",
+      "details": [
+        {
+          "id": "fin.int",
+          "display_field": "borrowing_interest",
+          "label": "借款利息",
+          "custom": false,
+          "raw_label": "利息费用",
+          "source_amount": 930403406.0,
+          "amount": -930403406.0,
+          "source": "filing.2023 p.103",
+          "status": "disclosed",
+          "rationale": "借款融资成本"
+        },
+        {
+          "id": "fin.other",
+          "display_field": "other_finance_cost",
+          "label": "其他融资费用",
+          "custom": false,
+          "raw_label": "其他财务费用",
+          "source_amount": 165877912.0,
+          "amount": -165877912.0,
+          "source": "filing.2023 p.103",
+          "status": "derived",
+          "rationale": "其他融资费用"
+        }
+      ]
+    },
+    "wealth.finance.tax": {
+      "amount": 229830780.0,
+      "status": "estimated",
+      "basis": "filing.2023 p.199: 附注五、54披露所得税费用总额但未按经济来源拆分",
+      "details": [
+        {
+          "id": "tax.finance.alloc",
+          "display_field": "finance_tax_effect",
+          "label": "融资税收影响",
+          "custom": false,
+          "raw_label": "融资税收影响估计",
+          "source_amount": -229830780.0,
+          "amount": 229830780.0,
+          "source": "filing.2023 p.199",
+          "status": "estimated",
+          "rationale": "融资成本形成税前负贡献，按综合有效税率估计为正向税盾"
+        }
+      ]
+    },
+    "wealth.nonoperating.returns": {
+      "amount": 2243147830.0,
+      "status": "derived",
+      "basis": "filing.2023 p.103: 合并利润表财务费用附注利息收入; filing.2023 p.103: 合并利润表投资收益; filing.2023 p.103: 合并利润表税前利润桥接",
+      "details": [
+        {
+          "id": "ret.int",
+          "display_field": "interest_income",
+          "label": "利息收益",
+          "custom": false,
+          "raw_label": "利息收入",
+          "source_amount": 2215460619.0,
+          "amount": 2215460619.0,
+          "source": "filing.2023 p.103",
+          "status": "disclosed",
+          "rationale": "现金及存款利息收益"
+        },
+        {
+          "id": "ret.inv",
+          "display_field": "realized_investment_return",
+          "label": "已实现投资收益",
+          "custom": false,
+          "raw_label": "投资收益",
+          "source_amount": 543602141.0,
+          "amount": 543602141.0,
+          "source": "filing.2023 p.103",
+          "status": "disclosed",
+          "rationale": "对外投资已确认收益"
+        },
+        {
+          "id": "ret.other",
+          "display_field": "other_nonoperating_return",
+          "label": "其他非经营收益",
+          "custom": false,
+          "raw_label": "营业外及资产处置等非经营净支出",
+          "source_amount": 515914930.0,
+          "amount": -515914930.0,
+          "source": "filing.2023 p.103",
+          "status": "derived",
+          "rationale": "非经营净支出补足利润表桥接"
+        }
+      ]
+    },
+    "wealth.nonoperating.tax": {
+      "amount": -427055179.0,
+      "status": "estimated",
+      "basis": "filing.2023 p.199: 附注五、54披露所得税费用总额但未按经济来源拆分",
+      "details": [
+        {
+          "id": "tax.nonoperating.alloc",
+          "display_field": "allocated_nonoperating_tax",
+          "label": "估计分配的非经营所得税",
+          "custom": false,
+          "raw_label": "非经营所得税分配估计",
+          "source_amount": 427055179.0,
+          "amount": -427055179.0,
+          "source": "filing.2023 p.199",
+          "status": "estimated",
+          "rationale": "按非经营税前贡献占合并税前利润比例估计税收归属"
+        }
+      ]
+    },
+    "wealth.nonoperating.valuation": {
+      "amount": -206115996.0,
+      "status": "disclosed",
+      "basis": "filing.2023 p.103: 合并利润表公允价值变动收益",
+      "details": [
+        {
+          "id": "val",
+          "display_field": "investment_valuation",
+          "label": "投资价值变动",
+          "custom": false,
+          "raw_label": "公允价值变动收益",
+          "source_amount": 206115996.0,
+          "amount": -206115996.0,
+          "source": "filing.2023 p.103",
+          "status": "disclosed",
+          "rationale": "投资价值变动损失"
+        }
+      ]
+    },
+    "wealth.operating.costs": {
+      "amount": -121126091367.0,
+      "status": "derived",
+      "basis": "filing.2023 p.103: 合并利润表营业成本; filing.2023 p.202: 补充资料; filing.2023 p.103: 合计",
+      "details": [
+        {
+          "id": "cost.cogs",
+          "display_field": "product_service_costs",
+          "label": "产品与服务耗用",
+          "custom": false,
+          "raw_label": "营业成本",
+          "source_amount": 117636621441.0,
+          "amount": -117636621441.0,
+          "source": "filing.2023 p.103",
+          "status": "disclosed",
+          "rationale": "经营产品耗用，折旧在附注补充资料中单列剔除"
+        },
+        {
+          "id": "cost.dep_adj",
+          "display_field": "depreciation_adjustment",
+          "label": "剔除折旧摊销",
+          "custom": false,
+          "raw_label": "折旧摊销剔除",
+          "source_amount": 7445255106.0,
+          "amount": 7445255106.0,
+          "source": "filing.2023 p.202",
+          "status": "derived",
+          "rationale": "从营业成本剔除折旧"
+        },
+        {
+          "id": "cost.other",
+          "display_field": "other_operating_costs",
+          "label": "其他经营费用",
+          "custom": false,
+          "raw_label": "销售管理研发费用",
+          "source_amount": 10934725032.0,
+          "amount": -10934725032.0,
+          "source": "filing.2023 p.103",
+          "status": "derived",
+          "rationale": "经营费用合计"
+        }
+      ]
+    },
+    "wealth.operating.depreciation": {
+      "amount": -7445255106.0,
+      "status": "disclosed",
+      "basis": "filing.2023 p.202: 利润表补充资料折旧和摊销费用",
+      "details": [
+        {
+          "id": "dep",
+          "display_field": "facility_depreciation",
+          "label": "经营设施折旧",
+          "custom": false,
+          "raw_label": "折旧和摊销费用",
+          "source_amount": 7445255106.0,
+          "amount": -7445255106.0,
+          "source": "filing.2023 p.202",
+          "status": "disclosed",
+          "rationale": "经营设施及权利折旧摊销合计，未拆分时归入设施折旧展开项"
+        }
+      ]
+    },
+    "wealth.operating.loss": {
+      "amount": -333707055.0,
+      "status": "disclosed",
+      "basis": "filing.2023 p.103: 信用减值损失+资产减值损失",
+      "details": [
+        {
+          "id": "loss",
+          "display_field": "undivided_operating_loss",
+          "label": "经营资产损失（未拆分）",
+          "custom": false,
+          "raw_label": "信用及资产减值损失",
+          "source_amount": 333707055.0,
+          "amount": -333707055.0,
+          "source": "filing.2023 p.103",
+          "status": "disclosed",
+          "rationale": "经营资产损失单列"
+        }
+      ]
+    },
+    "wealth.operating.other_income": {
+      "amount": 565340940.0,
+      "status": "disclosed",
+      "basis": "filing.2023 p.103: 合并利润表其他收益",
+      "details": [
+        {
+          "id": "otherinc",
+          "display_field": "other_operating_income",
+          "label": "其他经营收益",
+          "custom": false,
+          "raw_label": "其他收益",
+          "source_amount": 565340940.0,
+          "amount": 565340940.0,
+          "source": "filing.2023 p.103",
+          "status": "disclosed",
+          "rationale": "经营补助及其他收益"
+        }
+      ]
+    },
+    "wealth.operating.revenue": {
+      "amount": 140999428017.0,
+      "status": "disclosed",
+      "basis": "filing.2023 p.103: 合并利润表营业收入",
+      "details": [
+        {
+          "id": "rev",
+          "display_field": "product_revenue",
+          "label": "产品收入",
+          "custom": false,
+          "raw_label": "营业收入",
+          "source_amount": 140999428017.0,
+          "amount": 140999428017.0,
+          "source": "filing.2023 p.103",
+          "status": "disclosed",
+          "rationale": "水泥及相关产品经营收入"
+        }
+      ]
+    },
+    "wealth.operating.tax": {
+      "amount": -2654056235.0,
+      "status": "estimated",
+      "basis": "filing.2023 p.199: 附注五、54披露所得税费用总额但未按经济来源拆分",
+      "details": [
+        {
+          "id": "tax.operating.alloc",
+          "display_field": "current_operating_tax",
+          "label": "当期经营所得税",
+          "custom": false,
+          "raw_label": "经营所得税分配估计",
+          "source_amount": 2654056235.0,
+          "amount": -2654056235.0,
+          "source": "filing.2023 p.199",
+          "status": "estimated",
+          "rationale": "按各类税前贡献占合并税前利润比例分配，确保经营、非经营和融资税项合计等于披露所得税费用"
+        }
+      ]
+    },
+    "wealth.other.other_oci": {
+      "amount": -920152309.0,
+      "status": "disclosed",
+      "basis": "filing.2023 p.104: 合并利润表其他综合收益税后净额",
+      "details": [
+        {
+          "id": "oci",
+          "display_field": "other_oci",
+          "label": "其他综合收益",
+          "custom": false,
+          "raw_label": "其他综合收益",
+          "source_amount": -920152309.0,
+          "amount": -920152309.0,
+          "source": "filing.2023 p.104",
+          "status": "disclosed",
+          "rationale": "其他综合收益"
+        }
+      ]
+    },
+    "wealth.other.scope": {
+      "amount": 278840127.0,
+      "status": "derived",
+      "basis": "filing.2023 p.111: 权益变动表其他项目; filing.2023 p.111: 权益变动表",
+      "details": [
+        {
+          "id": "oe1",
+          "display_field": "other_equity_change",
+          "label": "其他权益变动",
+          "custom": false,
+          "raw_label": "权益法及其他资本公积",
+          "source_amount": 35679918.0,
+          "amount": 35679918.0,
+          "source": "filing.2023 p.111",
+          "status": "disclosed",
+          "rationale": "权益法下被投资单位其他所有者权益变动份额"
+        },
+        {
+          "id": "oe2",
+          "display_field": "other_equity_change",
+          "label": "其他权益变动",
+          "custom": false,
+          "raw_label": "专项储备及少数股东相关变动",
+          "source_amount": 243160209.0,
+          "amount": 243160209.0,
+          "source": "filing.2023 p.111",
+          "status": "derived",
+          "rationale": "作为其他权益变动"
+        }
+      ]
+    },
+    "wealth.other.translation": {
+      "amount": 0.0,
+      "status": "not_applicable",
+      "basis": "filing.2023 p.104: 外币折算差额已纳入其他综合收益但无单独净资产活动映射",
+      "details": [
+        {
+          "id": "tr0",
+          "display_field": "statement_translation",
+          "label": "报表折算差额",
+          "custom": false,
+          "raw_label": "报表折算差额",
+          "source_amount": 0.0,
+          "amount": 0.0,
+          "source": "filing.2023 p.104",
+          "status": "not_applicable",
+          "rationale": "不单独重复计入"
+        }
+      ]
+    },
+    "wealth.owner.dividend": {
+      "amount": -8201887334.0,
+      "status": "disclosed",
+      "basis": "filing.2023 p.111: 权益变动表利润分配：母公司股东及少数股东股利",
+      "details": [
+        {
+          "id": "wd",
+          "display_field": "dividend_declared",
+          "label": "批准及宣告分红",
+          "custom": false,
+          "raw_label": "批准及宣告分红",
+          "source_amount": 8201887334.0,
+          "amount": -8201887334.0,
+          "source": "filing.2023 p.111",
+          "status": "disclosed",
+          "rationale": "本期批准/宣告分红"
+        }
+      ]
+    },
+    "wealth.owner.input": {
+      "amount": 676810470.0,
+      "status": "disclosed",
+      "basis": "filing.2023 p.111: 权益变动表股东投入的资本及现金流量表",
+      "details": [
+        {
+          "id": "wi",
+          "display_field": "other_owner_input",
+          "label": "其他股东投入",
+          "custom": false,
+          "raw_label": "少数股东投入",
+          "source_amount": 676810470.0,
+          "amount": 676810470.0,
+          "source": "filing.2023 p.111",
+          "status": "disclosed",
+          "rationale": "子公司吸收少数股东投资"
+        }
+      ]
+    },
+    "wealth.owner.minority": {
+      "amount": -268503010.0,
+      "status": "derived",
+      "basis": "filing.2023 p.111: 权益变动表收购子公司少数股东股权; filing.2023 p.111: 权益变动表不丧失控制处置子公司部分股权",
+      "details": [
+        {
+          "id": "wma",
+          "display_field": "minority_acquisition",
+          "label": "收购少数股权",
+          "custom": false,
+          "raw_label": "收购少数股东股权",
+          "source_amount": 463503010.0,
+          "amount": -463503010.0,
+          "source": "filing.2023 p.111",
+          "status": "disclosed",
+          "rationale": "收购少数股东权益"
+        },
+        {
+          "id": "wmd",
+          "display_field": "minority_disposal",
+          "label": "出售少数股权",
+          "custom": false,
+          "raw_label": "不丧失控制处置部分股权",
+          "source_amount": 195000000.0,
+          "amount": 195000000.0,
+          "source": "filing.2023 p.111",
+          "status": "disclosed",
+          "rationale": "出售少数股权增加权益"
+        }
+      ]
+    },
+    "wealth.owner.repurchase": {
+      "amount": -339160424.0,
+      "status": "disclosed",
+      "basis": "filing.2023 p.189: 库存股附注及权益变动表",
+      "details": [
+        {
+          "id": "wr",
+          "display_field": "share_repurchase",
+          "label": "股份回购",
+          "custom": false,
+          "raw_label": "股份回购",
+          "source_amount": 339160424.0,
+          "amount": -339160424.0,
+          "source": "filing.2023 p.189",
+          "status": "disclosed",
+          "rationale": "回购股份减少权益"
+        }
+      ]
+    },
+    "controls.cash.opening": {
+      "amount": 57865704190.0,
+      "status": "derived",
+      "basis": "程序取现金与存款标准余额，用资本活动核对其年度变化",
+      "details": [
+        {
+          "id": "cop",
+          "display_field": "undivided_cash",
+          "label": "现金、存款及受限资金（未拆分）",
+          "custom": false,
+          "raw_label": "现金、存款及受限资金",
+          "source_amount": 57865704190.0,
+          "amount": 57865704190.0,
+          "source": "filing.2023 p.97",
+          "status": "disclosed",
+          "rationale": "现金、定期存款及受限资金总额"
+        }
+      ]
+    },
+    "controls.cash.closing": {
+      "amount": 68361599053.0,
+      "status": "derived",
+      "basis": "程序取现金与存款标准余额，用资本活动核对其年度变化",
+      "details": [
+        {
+          "id": "ccl",
+          "display_field": "undivided_cash",
+          "label": "现金、存款及受限资金（未拆分）",
+          "custom": false,
+          "raw_label": "现金、存款及受限资金",
+          "source_amount": 68361599053.0,
+          "amount": 68361599053.0,
+          "source": "filing.2023 p.97",
+          "status": "disclosed",
+          "rationale": "现金、定期存款及受限资金总额"
+        }
+      ]
+    }
+  },
+  "draft_movements": {
+    "facilities": [
+      {
+        "id": "fac.purchase",
+        "category": "capacity",
+        "label": "购建固定资产、无形资产和其他长期资产",
+        "amount": 14167451355.0,
+        "source_id": "filing.2023",
+        "page": 107,
+        "basis": "合并现金流量表购建长期资产支付现金"
+      },
+      {
+        "id": "fac.dep",
+        "category": "consumption",
+        "label": "固定资产、投资性房地产及使用权资产折旧",
+        "amount": -6591498337.0,
+        "source_id": "filing.2023",
+        "page": 203,
+        "basis": "现金流量表补充资料固定资产、投资性房地产及使用权资产折旧"
+      }
+    ],
+    "rights": [
+      {
+        "id": "rights.amort",
+        "category": "consumption",
+        "label": "无形资产摊销",
+        "amount": -853756769.0,
+        "source_id": "filing.2023",
+        "page": 203,
+        "basis": "现金流量表补充资料无形资产摊销"
+      }
+    ],
+    "investments": [
+      {
+        "id": "inv.invest",
+        "category": "investment",
+        "label": "投资支付的现金",
+        "amount": -35860359557.0,
+        "source_id": "filing.2023",
+        "page": 107,
+        "basis": "合并现金流量表投资支付现金"
+      },
+      {
+        "id": "inv.recover",
+        "category": "investment",
+        "label": "收回投资收到的现金",
+        "amount": 29892815190.0,
+        "source_id": "filing.2023",
+        "page": 107,
+        "basis": "合并现金流量表收回投资现金"
+      }
+    ],
+    "financing": [
+      {
+        "id": "fin.borrow",
+        "category": "financing",
+        "label": "取得借款收到的现金",
+        "amount": 15681519107.0,
+        "source_id": "filing.2023",
+        "page": 108,
+        "basis": "合并现金流量表取得借款收到现金"
+      },
+      {
+        "id": "fin.repay",
+        "category": "financing",
+        "label": "偿还债务支付的现金",
+        "amount": -12123940161.0,
+        "source_id": "filing.2023",
+        "page": 108,
+        "basis": "合并现金流量表偿还债务支付现金"
+      }
+    ],
+    "shareholder": [
+      {
+        "id": "owner.div",
+        "category": "owner",
+        "label": "批准并支付股东分红",
+        "amount": -8201887334.0,
+        "source_id": "filing.2023",
+        "page": 111,
+        "basis": "合并权益变动表利润分配"
+      },
+      {
+        "id": "owner.buy",
+        "category": "owner",
+        "label": "股份回购",
+        "amount": -339160424.0,
+        "source_id": "filing.2023",
+        "page": 189,
+        "basis": "库存股附注回购股份"
+      }
+    ]
+  },
+  "movements": {
+    "capital_settlement": [],
+    "cash": [],
+    "facilities": [
+      {
+        "id": "fac.purchase",
+        "category": "capacity",
+        "label": "经营投入与退出",
+        "amount": 14167451355.0,
+        "source_id": "filing.2023",
+        "page": 107,
+        "basis": "合并现金流量表购建长期资产支付现金",
+        "raw_label": "购建固定资产、无形资产和其他长期资产",
+        "display_field": "movement.capacity"
+      },
+      {
+        "id": "fac.dep",
+        "category": "consumption",
+        "label": "折旧摊销与耗竭",
+        "amount": -6591498337.0,
+        "source_id": "filing.2023",
+        "page": 203,
+        "basis": "现金流量表补充资料固定资产、投资性房地产及使用权资产折旧",
+        "raw_label": "固定资产、投资性房地产及使用权资产折旧",
+        "display_field": "movement.consumption"
+      }
+    ],
+    "financing": [
+      {
+        "id": "fin.borrow",
+        "category": "financing",
+        "label": "融资借入与偿还",
+        "amount": 15681519107.0,
+        "source_id": "filing.2023",
+        "page": 108,
+        "basis": "合并现金流量表取得借款收到现金",
+        "raw_label": "取得借款收到的现金",
+        "display_field": "movement.financing"
+      },
+      {
+        "id": "fin.repay",
+        "category": "financing",
+        "label": "融资借入与偿还",
+        "amount": -12123940161.0,
+        "source_id": "filing.2023",
+        "page": 108,
+        "basis": "合并现金流量表偿还债务支付现金",
+        "raw_label": "偿还债务支付的现金",
+        "display_field": "movement.financing"
+      }
+    ],
+    "goodwill": [],
+    "investments": [
+      {
+        "id": "inv.invest",
+        "category": "investment",
+        "label": "投资投入与收回",
+        "amount": -35860359557.0,
+        "source_id": "filing.2023",
+        "page": 107,
+        "basis": "合并现金流量表投资支付现金",
+        "raw_label": "投资支付的现金",
+        "display_field": "movement.investment"
+      },
+      {
+        "id": "inv.recover",
+        "category": "investment",
+        "label": "投资投入与收回",
+        "amount": 29892815190.0,
+        "source_id": "filing.2023",
+        "page": 107,
+        "basis": "合并现金流量表收回投资现金",
+        "raw_label": "收回投资收到的现金",
+        "display_field": "movement.investment"
+      }
+    ],
+    "other_assets": [],
+    "other_liabilities": [],
+    "other_operating": [],
+    "rights": [
+      {
+        "id": "rights.amort",
+        "category": "consumption",
+        "label": "折旧摊销与耗竭",
+        "amount": -853756769.0,
+        "source_id": "filing.2023",
+        "page": 203,
+        "basis": "现金流量表补充资料无形资产摊销",
+        "raw_label": "无形资产摊销",
+        "display_field": "movement.consumption"
+      }
+    ],
+    "shareholder": [
+      {
+        "id": "owner.div",
+        "category": "owner",
+        "label": "股东投入与分配",
+        "amount": -8201887334.0,
+        "source_id": "filing.2023",
+        "page": 111,
+        "basis": "合并权益变动表利润分配",
+        "raw_label": "批准并支付股东分红",
+        "display_field": "movement.owner"
+      },
+      {
+        "id": "owner.buy",
+        "category": "owner",
+        "label": "股东投入与分配",
+        "amount": -339160424.0,
+        "source_id": "filing.2023",
+        "page": 189,
+        "basis": "库存股附注回购股份",
+        "raw_label": "股份回购",
+        "display_field": "movement.owner"
+      }
+    ],
+    "working": []
+  },
+  "component_changes": {
+    "capital_settlement": {
+      "opening": 1465484823.0,
+      "closing": 1544822822.0,
+      "change": 79337999.0,
+      "components": [
+        {
+          "display_field": "capital_prepayments",
+          "label": "资本采购预付款",
+          "custom": false,
+          "opening": 1465484823.0,
+          "closing": 1544822822.0,
+          "change": 79337999.0,
+          "opening_details": [
+            {
+              "id": "cap.o.landprepay",
+              "display_field": "capital_prepayments",
+              "label": "资本采购预付款",
+              "custom": false,
+              "raw_label": "预付土地及采矿权款项",
+              "source_amount": 1465484823.0,
+              "amount": 1465484823.0,
+              "source": "filing.2023 p.182",
+              "status": "disclosed",
+              "rationale": "取得土地及采矿权前的资本预付款，属于资本采购结算而非已确认权利"
+            }
+          ],
+          "closing_details": [
+            {
+              "id": "cap.c.landprepay",
+              "display_field": "capital_prepayments",
+              "label": "资本采购预付款",
+              "custom": false,
+              "raw_label": "预付土地及采矿权款项",
+              "source_amount": 1544822822.0,
+              "amount": 1544822822.0,
+              "source": "filing.2023 p.182",
+              "status": "disclosed",
+              "rationale": "取得土地及采矿权前的资本预付款，属于资本采购结算而非已确认权利"
+            }
+          ],
+          "opening_absent_zero": false,
+          "closing_absent_zero": false
+        },
+        {
+          "display_field": "capital_payables",
+          "label": "资本采购欠款",
+          "custom": false,
+          "opening": 0.0,
+          "closing": 0.0,
+          "change": 0.0,
+          "opening_details": [
+            {
+              "id": "cap.o.payables_est",
+              "display_field": "capital_payables",
+              "label": "资本采购欠款",
+              "custom": false,
+              "raw_label": "未单列资本采购欠款",
+              "source_amount": 0.0,
+              "amount": 0.0,
+              "source": "filing.2023 p.182",
+              "status": "estimated",
+              "rationale": "为呈现已披露资本预付款而采用的代表估计；实际资本结算净额可能因欠款混入应付款项而被高估"
+            }
+          ],
+          "closing_details": [
+            {
+              "id": "cap.c.payables_est",
+              "display_field": "capital_payables",
+              "label": "资本采购欠款",
+              "custom": false,
+              "raw_label": "未单列资本采购欠款",
+              "source_amount": 0.0,
+              "amount": 0.0,
+              "source": "filing.2023 p.182",
+              "status": "estimated",
+              "rationale": "为呈现已披露资本预付款而采用的代表估计；实际资本结算净额可能因欠款混入应付款项而被高估"
+            }
+          ],
+          "opening_absent_zero": false,
+          "closing_absent_zero": false
+        }
+      ],
+      "causal_total": null,
+      "unattributed_amount": null
+    },
+    "cash": {
+      "opening": 57865704190.0,
+      "closing": 68361599053.0,
+      "change": 10495894863.0,
+      "components": [
+        {
+          "display_field": "undivided_cash",
+          "label": "现金、存款及受限资金（未拆分）",
+          "custom": false,
+          "opening": 57865704190.0,
+          "closing": 68361599053.0,
+          "change": 10495894863.0,
+          "opening_details": [
+            {
+              "id": "cop",
+              "display_field": "undivided_cash",
+              "label": "现金、存款及受限资金（未拆分）",
+              "custom": false,
+              "raw_label": "现金、存款及受限资金",
+              "source_amount": 57865704190.0,
+              "amount": 57865704190.0,
+              "source": "filing.2023 p.97",
+              "status": "disclosed",
+              "rationale": "现金、定期存款及受限资金总额"
+            }
+          ],
+          "closing_details": [
+            {
+              "id": "ccl",
+              "display_field": "undivided_cash",
+              "label": "现金、存款及受限资金（未拆分）",
+              "custom": false,
+              "raw_label": "现金、存款及受限资金",
+              "source_amount": 68361599053.0,
+              "amount": 68361599053.0,
+              "source": "filing.2023 p.97",
+              "status": "disclosed",
+              "rationale": "现金、定期存款及受限资金总额"
+            }
+          ],
+          "opening_absent_zero": false,
+          "closing_absent_zero": false
+        }
+      ],
+      "causal_total": null,
+      "unattributed_amount": null
+    },
+    "facilities": {
+      "opening": 89715213077.0,
+      "closing": 96746681470.0,
+      "change": 7031468393.0,
+      "components": [
+        {
+          "display_field": "owned_facilities",
+          "label": "自有经营设施",
+          "custom": false,
+          "opening": 81181917083.0,
+          "closing": 85564696703.0,
+          "change": 4382779620.0,
+          "opening_details": [
+            {
+              "id": "fop.owned",
+              "display_field": "owned_facilities",
+              "label": "自有经营设施",
+              "custom": false,
+              "raw_label": "固定资产",
+              "source_amount": 81181917083.0,
+              "amount": 81181917083.0,
+              "source": "filing.2023 p.97",
+              "status": "disclosed",
+              "rationale": "自有经营设施"
+            }
+          ],
+          "closing_details": [
+            {
+              "id": "fcl.owned",
+              "display_field": "owned_facilities",
+              "label": "自有经营设施",
+              "custom": false,
+              "raw_label": "固定资产",
+              "source_amount": 85564696703.0,
+              "amount": 85564696703.0,
+              "source": "filing.2023 p.97",
+              "status": "disclosed",
+              "rationale": "自有经营设施"
+            }
+          ],
+          "opening_absent_zero": false,
+          "closing_absent_zero": false
+        },
+        {
+          "display_field": "construction_in_progress",
+          "label": "在建经营设施",
+          "custom": false,
+          "opening": 8387067209.0,
+          "closing": 10842088393.0,
+          "change": 2455021184.0,
+          "opening_details": [
+            {
+              "id": "fop.cip",
+              "display_field": "construction_in_progress",
+              "label": "在建经营设施",
+              "custom": false,
+              "raw_label": "在建工程",
+              "source_amount": 8387067209.0,
+              "amount": 8387067209.0,
+              "source": "filing.2023 p.97",
+              "status": "disclosed",
+              "rationale": "经营设施建设中"
+            }
+          ],
+          "closing_details": [
+            {
+              "id": "fcl.cip",
+              "display_field": "construction_in_progress",
+              "label": "在建经营设施",
+              "custom": false,
+              "raw_label": "在建工程",
+              "source_amount": 10842088393.0,
+              "amount": 10842088393.0,
+              "source": "filing.2023 p.97",
+              "status": "disclosed",
+              "rationale": "经营设施建设中"
+            }
+          ],
+          "opening_absent_zero": false,
+          "closing_absent_zero": false
+        },
+        {
+          "display_field": "leased_facilities",
+          "label": "租入经营设施",
+          "custom": false,
+          "opening": 146228785.0,
+          "closing": 339896374.0,
+          "change": 193667589.0,
+          "opening_details": [
+            {
+              "id": "fop.lease",
+              "display_field": "leased_facilities",
+              "label": "租入经营设施",
+              "custom": false,
+              "raw_label": "使用权资产",
+              "source_amount": 146228785.0,
+              "amount": 146228785.0,
+              "source": "filing.2023 p.97",
+              "status": "disclosed",
+              "rationale": "租入经营设施"
+            }
+          ],
+          "closing_details": [
+            {
+              "id": "fcl.lease",
+              "display_field": "leased_facilities",
+              "label": "租入经营设施",
+              "custom": false,
+              "raw_label": "使用权资产",
+              "source_amount": 339896374.0,
+              "amount": 339896374.0,
+              "source": "filing.2023 p.97",
+              "status": "disclosed",
+              "rationale": "租入经营设施"
+            }
+          ],
+          "opening_absent_zero": false,
+          "closing_absent_zero": false
+        }
+      ],
+      "causal_total": 7575953018.0,
+      "unattributed_amount": -544484625.0
+    },
+    "financing": {
+      "opening": 22446156069.0,
+      "closing": 23421085032.0,
+      "change": 974928963.0,
+      "components": [
+        {
+          "display_field": "bank_borrowings",
+          "label": "银行及其他借款",
+          "custom": false,
+          "opening": 22079073723.0,
+          "closing": 22959135124.0,
+          "change": 880061401.0,
+          "opening_details": [
+            {
+              "id": "fno.st",
+              "display_field": "bank_borrowings",
+              "label": "银行及其他借款",
+              "custom": false,
+              "raw_label": "短期借款及一年内到期借款",
+              "source_amount": 12390422996.0,
+              "amount": 12390422996.0,
+              "source": "filing.2023 p.98",
+              "status": "derived",
+              "rationale": "银行借款"
+            },
+            {
+              "id": "fno.lt",
+              "display_field": "bank_borrowings",
+              "label": "银行及其他借款",
+              "custom": false,
+              "raw_label": "长期借款",
+              "source_amount": 9688650727.0,
+              "amount": 9688650727.0,
+              "source": "filing.2023 p.98",
+              "status": "disclosed",
+              "rationale": "银行借款"
+            }
+          ],
+          "closing_details": [
+            {
+              "id": "fnc.st",
+              "display_field": "bank_borrowings",
+              "label": "银行及其他借款",
+              "custom": false,
+              "raw_label": "短期借款及一年内到期借款",
+              "source_amount": 7347197679.0,
+              "amount": 7347197679.0,
+              "source": "filing.2023 p.98",
+              "status": "derived",
+              "rationale": "银行借款"
+            },
+            {
+              "id": "fnc.lt",
+              "display_field": "bank_borrowings",
+              "label": "银行及其他借款",
+              "custom": false,
+              "raw_label": "长期借款",
+              "source_amount": 15611937445.0,
+              "amount": 15611937445.0,
+              "source": "filing.2023 p.98",
+              "status": "disclosed",
+              "rationale": "银行借款"
+            }
+          ],
+          "opening_absent_zero": false,
+          "closing_absent_zero": false
+        },
+        {
+          "display_field": "lease_liabilities",
+          "label": "租赁负债",
+          "custom": false,
+          "opening": 56049181.0,
+          "closing": 198017987.0,
+          "change": 141968806.0,
+          "opening_details": [
+            {
+              "id": "fno.ls",
+              "display_field": "lease_liabilities",
+              "label": "租赁负债",
+              "custom": false,
+              "raw_label": "租赁负债",
+              "source_amount": 56049181.0,
+              "amount": 56049181.0,
+              "source": "filing.2023 p.98",
+              "status": "disclosed",
+              "rationale": "租赁融资"
+            }
+          ],
+          "closing_details": [
+            {
+              "id": "fnc.ls",
+              "display_field": "lease_liabilities",
+              "label": "租赁负债",
+              "custom": false,
+              "raw_label": "租赁负债",
+              "source_amount": 198017987.0,
+              "amount": 198017987.0,
+              "source": "filing.2023 p.98",
+              "status": "disclosed",
+              "rationale": "租赁融资"
+            }
+          ],
+          "opening_absent_zero": false,
+          "closing_absent_zero": false
+        },
+        {
+          "display_field": "financing_payables",
+          "label": "实质融资应付款",
+          "custom": false,
+          "opening": 311033165.0,
+          "closing": 263931921.0,
+          "change": -47101244.0,
+          "opening_details": [
+            {
+              "id": "fno.pay",
+              "display_field": "financing_payables",
+              "label": "实质融资应付款",
+              "custom": false,
+              "raw_label": "长期应付款",
+              "source_amount": 311033165.0,
+              "amount": 311033165.0,
+              "source": "filing.2023 p.98",
+              "status": "disclosed",
+              "rationale": "实质融资应付款"
+            }
+          ],
+          "closing_details": [
+            {
+              "id": "fnc.pay",
+              "display_field": "financing_payables",
+              "label": "实质融资应付款",
+              "custom": false,
+              "raw_label": "长期应付款",
+              "source_amount": 263931921.0,
+              "amount": 263931921.0,
+              "source": "filing.2023 p.98",
+              "status": "disclosed",
+              "rationale": "实质融资应付款"
+            }
+          ],
+          "opening_absent_zero": false,
+          "closing_absent_zero": false
+        }
+      ],
+      "causal_total": 3557578946.0,
+      "unattributed_amount": -2582649983.0
+    },
+    "goodwill": {
+      "opening": 1145963981.0,
+      "closing": 1147071509.0,
+      "change": 1107528.0,
+      "components": [
+        {
+          "display_field": "goodwill",
+          "label": "商誉",
+          "custom": false,
+          "opening": 1145963981.0,
+          "closing": 1147071509.0,
+          "change": 1107528.0,
+          "opening_details": [
+            {
+              "id": "gop",
+              "display_field": "goodwill",
+              "label": "商誉",
+              "custom": false,
+              "raw_label": "商誉",
+              "source_amount": 1145963981.0,
+              "amount": 1145963981.0,
+              "source": "filing.2023 p.97",
+              "status": "disclosed",
+              "rationale": "账面商誉"
+            }
+          ],
+          "closing_details": [
+            {
+              "id": "gcl",
+              "display_field": "goodwill",
+              "label": "商誉",
+              "custom": false,
+              "raw_label": "商誉",
+              "source_amount": 1147071509.0,
+              "amount": 1147071509.0,
+              "source": "filing.2023 p.97",
+              "status": "disclosed",
+              "rationale": "账面商誉"
+            }
+          ],
+          "opening_absent_zero": false,
+          "closing_absent_zero": false
+        }
+      ],
+      "causal_total": null,
+      "unattributed_amount": null
+    },
+    "investments": {
+      "opening": 20874062220.0,
+      "closing": 11323935382.0,
+      "change": -9550126838.0,
+      "components": [
+        {
+          "display_field": "equity_investments",
+          "label": "权益投资",
+          "custom": false,
+          "opening": 2325185921.0,
+          "closing": 1348010646.0,
+          "change": -977175275.0,
+          "opening_details": [
+            {
+              "id": "iop.eq",
+              "display_field": "equity_investments",
+              "label": "权益投资",
+              "custom": false,
+              "raw_label": "其他权益工具投资",
+              "source_amount": 2325185921.0,
+              "amount": 2325185921.0,
+              "source": "filing.2023 p.97",
+              "status": "disclosed",
+              "rationale": "未并表权益投资"
+            }
+          ],
+          "closing_details": [
+            {
+              "id": "icl.eq",
+              "display_field": "equity_investments",
+              "label": "权益投资",
+              "custom": false,
+              "raw_label": "其他权益工具投资",
+              "source_amount": 1348010646.0,
+              "amount": 1348010646.0,
+              "source": "filing.2023 p.97",
+              "status": "disclosed",
+              "rationale": "未并表权益投资"
+            }
+          ],
+          "opening_absent_zero": false,
+          "closing_absent_zero": false
+        },
+        {
+          "display_field": "associates_joint_ventures",
+          "label": "联营与合营投资",
+          "custom": false,
+          "opening": 6792654915.0,
+          "closing": 7765191948.0,
+          "change": 972537033.0,
+          "opening_details": [
+            {
+              "id": "iop.jv",
+              "display_field": "associates_joint_ventures",
+              "label": "联营与合营投资",
+              "custom": false,
+              "raw_label": "长期股权投资",
+              "source_amount": 6792654915.0,
+              "amount": 6792654915.0,
+              "source": "filing.2023 p.97",
+              "status": "disclosed",
+              "rationale": "联营与合营投资"
+            }
+          ],
+          "closing_details": [
+            {
+              "id": "icl.jv",
+              "display_field": "associates_joint_ventures",
+              "label": "联营与合营投资",
+              "custom": false,
+              "raw_label": "长期股权投资",
+              "source_amount": 7765191948.0,
+              "amount": 7765191948.0,
+              "source": "filing.2023 p.97",
+              "status": "disclosed",
+              "rationale": "联营与合营投资"
+            }
+          ],
+          "opening_absent_zero": false,
+          "closing_absent_zero": false
+        },
+        {
+          "display_field": "funds_wealth_products",
+          "label": "基金与理财产品",
+          "custom": false,
+          "opening": 10754921384.0,
+          "closing": 2210732788.0,
+          "change": -8544188596.0,
+          "opening_details": [
+            {
+              "id": "iop.fund",
+              "display_field": "funds_wealth_products",
+              "label": "基金与理财产品",
+              "custom": false,
+              "raw_label": "交易性金融资产",
+              "source_amount": 10754921384.0,
+              "amount": 10754921384.0,
+              "source": "filing.2023 p.97",
+              "status": "disclosed",
+              "rationale": "结构性存款、理财及交易性权益工具合并列示"
+            }
+          ],
+          "closing_details": [
+            {
+              "id": "icl.fund",
+              "display_field": "funds_wealth_products",
+              "label": "基金与理财产品",
+              "custom": false,
+              "raw_label": "交易性金融资产",
+              "source_amount": 2210732788.0,
+              "amount": 2210732788.0,
+              "source": "filing.2023 p.97",
+              "status": "disclosed",
+              "rationale": "结构性存款理财及交易性权益工具"
+            }
+          ],
+          "opening_absent_zero": false,
+          "closing_absent_zero": false
+        },
+        {
+          "display_field": "other_investments",
+          "label": "其他对外投资",
+          "custom": false,
+          "opening": 1001300000.0,
+          "closing": 0,
+          "change": -1001300000.0,
+          "opening_details": [
+            {
+              "id": "iop.other",
+              "display_field": "other_investments",
+              "label": "其他对外投资",
+              "custom": false,
+              "raw_label": "其他非流动金融资产",
+              "source_amount": 1001300000.0,
+              "amount": 1001300000.0,
+              "source": "filing.2023 p.97",
+              "status": "disclosed",
+              "rationale": "其他对外投资"
+            }
+          ],
+          "closing_details": [],
+          "opening_absent_zero": false,
+          "closing_absent_zero": true
+        }
+      ],
+      "causal_total": -5967544367.0,
+      "unattributed_amount": -3582582471.0
+    },
+    "other_assets": {
+      "opening": 2225098544.0,
+      "closing": 2642082912.0,
+      "change": 416984368.0,
+      "components": [
+        {
+          "display_field": "investment_property",
+          "label": "非主业投资物业",
+          "custom": false,
+          "opening": 73408047.0,
+          "closing": 55139874.0,
+          "change": -18268173.0,
+          "opening_details": [
+            {
+              "id": "aop.ip",
+              "display_field": "investment_property",
+              "label": "非主业投资物业",
+              "custom": false,
+              "raw_label": "投资性房地产",
+              "source_amount": 73408047.0,
+              "amount": 73408047.0,
+              "source": "filing.2023 p.97",
+              "status": "disclosed",
+              "rationale": "非主业投资物业"
+            }
+          ],
+          "closing_details": [
+            {
+              "id": "acl.ip",
+              "display_field": "investment_property",
+              "label": "非主业投资物业",
+              "custom": false,
+              "raw_label": "投资性房地产",
+              "source_amount": 55139874.0,
+              "amount": 55139874.0,
+              "source": "filing.2023 p.97",
+              "status": "disclosed",
+              "rationale": "非主业投资物业"
+            }
+          ],
+          "opening_absent_zero": false,
+          "closing_absent_zero": false
+        },
+        {
+          "display_field": "other_nonoperating_assets",
+          "label": "其他非经营资产",
+          "custom": false,
+          "opening": 2151690497.0,
+          "closing": 2563404553.0,
+          "change": 411714056.0,
+          "opening_details": [
+            {
+              "id": "aop.gov",
+              "display_field": "other_nonoperating_assets",
+              "label": "其他非经营资产",
+              "custom": false,
+              "raw_label": "政府贷款及代政府代垫款",
+              "source_amount": 292657021.0,
+              "amount": 292657021.0,
+              "source": "filing.2023 p.182",
+              "status": "disclosed",
+              "rationale": "对政府的长期贷款及代垫款，不属于经营周转或生产设施"
+            },
+            {
+              "id": "aop.misc",
+              "display_field": "other_nonoperating_assets",
+              "label": "其他非经营资产",
+              "custom": false,
+              "raw_label": "其他非流动资产—其他",
+              "source_amount": 1859033476.0,
+              "amount": 1859033476.0,
+              "source": "filing.2023 p.182",
+              "status": "disclosed",
+              "rationale": "附注未进一步拆分性质，保守列作其他非经营资产并保留原始证据"
+            }
+          ],
+          "closing_details": [
+            {
+              "id": "acl.gov",
+              "display_field": "other_nonoperating_assets",
+              "label": "其他非经营资产",
+              "custom": false,
+              "raw_label": "政府贷款及代政府代垫款",
+              "source_amount": 250255929.0,
+              "amount": 250255929.0,
+              "source": "filing.2023 p.182",
+              "status": "disclosed",
+              "rationale": "对政府的长期贷款及代垫款，不属于经营周转或生产设施"
+            },
+            {
+              "id": "acl.misc",
+              "display_field": "other_nonoperating_assets",
+              "label": "其他非经营资产",
+              "custom": false,
+              "raw_label": "其他非流动资产—其他",
+              "source_amount": 2313148624.0,
+              "amount": 2313148624.0,
+              "source": "filing.2023 p.182",
+              "status": "disclosed",
+              "rationale": "附注未进一步拆分性质，保守列作其他非经营资产并保留原始证据"
+            }
+          ],
+          "opening_absent_zero": false,
+          "closing_absent_zero": false
+        },
+        {
+          "display_field": "assets_held_for_sale",
+          "label": "持有待售非经营资产",
+          "custom": false,
+          "opening": 0,
+          "closing": 23538485.0,
+          "change": 23538485.0,
+          "opening_details": [],
+          "closing_details": [
+            {
+              "id": "acl.sale",
+              "display_field": "assets_held_for_sale",
+              "label": "持有待售非经营资产",
+              "custom": false,
+              "raw_label": "持有待售资产",
+              "source_amount": 23538485.0,
+              "amount": 23538485.0,
+              "source": "filing.2023 p.97",
+              "status": "disclosed",
+              "rationale": "持有待售非经营资产"
+            }
+          ],
+          "opening_absent_zero": true,
+          "closing_absent_zero": false
+        }
+      ],
+      "causal_total": null,
+      "unattributed_amount": null
+    },
+    "other_liabilities": {
+      "opening": 0.0,
+      "closing": 0.0,
+      "change": 0.0,
+      "components": [
+        {
+          "display_field": "other_nonoperating_liabilities",
+          "label": "其他非经营负债",
+          "custom": false,
+          "opening": 0.0,
+          "closing": 0.0,
+          "change": 0.0,
+          "opening_details": [
+            {
+              "id": "nol.o",
+              "display_field": "other_nonoperating_liabilities",
+              "label": "其他非经营负债",
+              "custom": false,
+              "raw_label": "其他非经营负债",
+              "source_amount": 0.0,
+              "amount": 0.0,
+              "source": "filing.2023 p.98",
+              "status": "estimated",
+              "rationale": "代表值估计为0"
+            }
+          ],
+          "closing_details": [
+            {
+              "id": "nol.c",
+              "display_field": "other_nonoperating_liabilities",
+              "label": "其他非经营负债",
+              "custom": false,
+              "raw_label": "其他非经营负债",
+              "source_amount": 0.0,
+              "amount": 0.0,
+              "source": "filing.2023 p.98",
+              "status": "estimated",
+              "rationale": "代表值估计为0"
+            }
+          ],
+          "opening_absent_zero": false,
+          "closing_absent_zero": false
+        }
+      ],
+      "causal_total": null,
+      "unattributed_amount": null
+    },
+    "other_operating": {
+      "opening": 716951093.0,
+      "closing": 742779969.0,
+      "change": 25828876.0,
+      "components": [
+        {
+          "display_field": "operating_tax_assets",
+          "label": "经营税项资产",
+          "custom": false,
+          "opening": 1248930819.0,
+          "closing": 1543299508.0,
+          "change": 294368689.0,
+          "opening_details": [
+            {
+              "id": "oop.dta",
+              "display_field": "operating_tax_assets",
+              "label": "经营税项资产",
+              "custom": false,
+              "raw_label": "递延所得税资产",
+              "source_amount": 1248930819.0,
+              "amount": 1248930819.0,
+              "source": "filing.2023 p.97",
+              "status": "disclosed",
+              "rationale": "经营税项资产"
+            }
+          ],
+          "closing_details": [
+            {
+              "id": "ocl.dta",
+              "display_field": "operating_tax_assets",
+              "label": "经营税项资产",
+              "custom": false,
+              "raw_label": "递延所得税资产",
+              "source_amount": 1543299508.0,
+              "amount": 1543299508.0,
+              "source": "filing.2023 p.97",
+              "status": "disclosed",
+              "rationale": "经营税项资产"
+            }
+          ],
+          "opening_absent_zero": false,
+          "closing_absent_zero": false
+        },
+        {
+          "display_field": "operating_tax_liabilities",
+          "label": "经营税项义务",
+          "custom": false,
+          "opening": -1691864298.0,
+          "closing": -1616291549.0,
+          "change": 75572749.0,
+          "opening_details": [
+            {
+              "id": "oop.dtli",
+              "display_field": "operating_tax_liabilities",
+              "label": "经营税项义务",
+              "custom": false,
+              "raw_label": "递延所得税负债",
+              "source_amount": 1691864298.0,
+              "amount": -1691864298.0,
+              "source": "filing.2023 p.98",
+              "status": "disclosed",
+              "rationale": "经营税项义务抵减"
+            }
+          ],
+          "closing_details": [
+            {
+              "id": "ocl.dtli",
+              "display_field": "operating_tax_liabilities",
+              "label": "经营税项义务",
+              "custom": false,
+              "raw_label": "递延所得税负债",
+              "source_amount": 1616291549.0,
+              "amount": -1616291549.0,
+              "source": "filing.2023 p.98",
+              "status": "disclosed",
+              "rationale": "经营税项义务抵减"
+            }
+          ],
+          "opening_absent_zero": false,
+          "closing_absent_zero": false
+        },
+        {
+          "display_field": "deferred_operating_income",
+          "label": "递延经营收益",
+          "custom": false,
+          "opening": -663987448.0,
+          "closing": -870465009.0,
+          "change": -206477561.0,
+          "opening_details": [
+            {
+              "id": "oop.grant",
+              "display_field": "deferred_operating_income",
+              "label": "递延经营收益",
+              "custom": false,
+              "raw_label": "递延收益",
+              "source_amount": 663987448.0,
+              "amount": -663987448.0,
+              "source": "filing.2023 p.98",
+              "status": "disclosed",
+              "rationale": "递延经营收益负债抵减"
+            }
+          ],
+          "closing_details": [
+            {
+              "id": "ocl.grant",
+              "display_field": "deferred_operating_income",
+              "label": "递延经营收益",
+              "custom": false,
+              "raw_label": "递延收益",
+              "source_amount": 870465009.0,
+              "amount": -870465009.0,
+              "source": "filing.2023 p.98",
+              "status": "disclosed",
+              "rationale": "递延经营收益负债抵减"
+            }
+          ],
+          "opening_absent_zero": false,
+          "closing_absent_zero": false
+        },
+        {
+          "display_field": "other_operating_assets",
+          "label": "其他经营资产",
+          "custom": false,
+          "opening": 1823872020.0,
+          "closing": 1686237019.0,
+          "change": -137635001.0,
+          "opening_details": [
+            {
+              "id": "oop.other",
+              "display_field": "other_operating_assets",
+              "label": "其他经营资产",
+              "custom": false,
+              "raw_label": "其他流动资产",
+              "source_amount": 1823872020.0,
+              "amount": 1823872020.0,
+              "source": "filing.2023 p.97",
+              "status": "disclosed",
+              "rationale": "经营税项及其他经营资产未拆分"
+            }
+          ],
+          "closing_details": [
+            {
+              "id": "ocl.other",
+              "display_field": "other_operating_assets",
+              "label": "其他经营资产",
+              "custom": false,
+              "raw_label": "其他流动资产",
+              "source_amount": 1686237019.0,
+              "amount": 1686237019.0,
+              "source": "filing.2023 p.97",
+              "status": "disclosed",
+              "rationale": "经营税项及其他经营资产未拆分"
+            }
+          ],
+          "opening_absent_zero": false,
+          "closing_absent_zero": false
+        }
+      ],
+      "causal_total": null,
+      "unattributed_amount": null
+    },
+    "rights": {
+      "opening": 32038330621.0,
+      "closing": 32379660353.0,
+      "change": 341329732.0,
+      "components": [
+        {
+          "display_field": "acquired_operating_intangibles",
+          "label": "外购经营无形资产",
+          "custom": false,
+          "opening": 32038330621.0,
+          "closing": 32379660353.0,
+          "change": 341329732.0,
+          "opening_details": [
+            {
+              "id": "rop",
+              "display_field": "acquired_operating_intangibles",
+              "label": "外购经营无形资产",
+              "custom": false,
+              "raw_label": "无形资产",
+              "source_amount": 32038330621.0,
+              "amount": 32038330621.0,
+              "source": "filing.2023 p.97",
+              "status": "disclosed",
+              "rationale": "经营权利及开发资产，年报未拆分性质"
+            }
+          ],
+          "closing_details": [
+            {
+              "id": "rcl",
+              "display_field": "acquired_operating_intangibles",
+              "label": "外购经营无形资产",
+              "custom": false,
+              "raw_label": "无形资产",
+              "source_amount": 32379660353.0,
+              "amount": 32379660353.0,
+              "source": "filing.2023 p.97",
+              "status": "disclosed",
+              "rationale": "经营权利及开发资产，年报未拆分性质"
+            }
+          ],
+          "opening_absent_zero": false,
+          "closing_absent_zero": false
+        }
+      ],
+      "causal_total": -853756769.0,
+      "unattributed_amount": 1195086501.0
+    },
+    "shareholder": {
+      "opening": 0.0,
+      "closing": 0.0,
+      "change": 0.0,
+      "components": [
+        {
+          "display_field": "dividends_payable",
+          "label": "应付股利",
+          "custom": false,
+          "opening": 0.0,
+          "closing": 0.0,
+          "change": 0.0,
+          "opening_details": [
+            {
+              "id": "sh.o",
+              "display_field": "dividends_payable",
+              "label": "应付股利",
+              "custom": false,
+              "raw_label": "应付股利",
+              "source_amount": 0.0,
+              "amount": 0.0,
+              "source": "filing.2023 p.98",
+              "status": "not_applicable",
+              "rationale": "年末无已确认股东相关应付款"
+            }
+          ],
+          "closing_details": [
+            {
+              "id": "sh.c",
+              "display_field": "dividends_payable",
+              "label": "应付股利",
+              "custom": false,
+              "raw_label": "应付股利",
+              "source_amount": 0.0,
+              "amount": 0.0,
+              "source": "filing.2023 p.98",
+              "status": "not_applicable",
+              "rationale": "年末无已确认股东相关应付款"
+            }
+          ],
+          "opening_absent_zero": false,
+          "closing_absent_zero": false
+        }
+      ],
+      "causal_total": -8541047758.0,
+      "unattributed_amount": 8541047758.0
+    },
+    "working": {
+      "opening": 12392942252.0,
+      "closing": 6501179125.0,
+      "change": -5891763127.0,
+      "components": [
+        {
+          "display_field": "inventory",
+          "label": "存货",
+          "custom": false,
+          "opening": 11678994640.0,
+          "closing": 10100345825.0,
+          "change": -1578648815.0,
+          "opening_details": [
+            {
+              "id": "wop.inv",
+              "display_field": "inventory",
+              "label": "存货",
+              "custom": false,
+              "raw_label": "存货",
+              "source_amount": 11678994640.0,
+              "amount": 11678994640.0,
+              "source": "filing.2023 p.97",
+              "status": "disclosed",
+              "rationale": "存货属于经营周转资产"
+            }
+          ],
+          "closing_details": [
+            {
+              "id": "wcl.inv",
+              "display_field": "inventory",
+              "label": "存货",
+              "custom": false,
+              "raw_label": "存货",
+              "source_amount": 10100345825.0,
+              "amount": 10100345825.0,
+              "source": "filing.2023 p.97",
+              "status": "disclosed",
+              "rationale": "存货属于经营周转资产"
+            }
+          ],
+          "opening_absent_zero": false,
+          "closing_absent_zero": false
+        },
+        {
+          "display_field": "customer_receivables",
+          "label": "客户经营欠款",
+          "custom": false,
+          "opening": 16991449138.0,
+          "closing": 12615833159.0,
+          "change": -4375615979.0,
+          "opening_details": [
+            {
+              "id": "wop.rec",
+              "display_field": "customer_receivables",
+              "label": "客户经营欠款",
+              "custom": false,
+              "raw_label": "客户经营债权",
+              "source_amount": 16991449138.0,
+              "amount": 16991449138.0,
+              "source": "filing.2023 p.97",
+              "status": "derived",
+              "rationale": "经营信用及结算工具"
+            }
+          ],
+          "closing_details": [
+            {
+              "id": "wcl.rec",
+              "display_field": "customer_receivables",
+              "label": "客户经营欠款",
+              "custom": false,
+              "raw_label": "客户经营债权",
+              "source_amount": 12615833159.0,
+              "amount": 12615833159.0,
+              "source": "filing.2023 p.97",
+              "status": "derived",
+              "rationale": "经营信用及结算工具"
+            }
+          ],
+          "opening_absent_zero": false,
+          "closing_absent_zero": false
+        },
+        {
+          "display_field": "supplier_payables",
+          "label": "供应商经营占款",
+          "custom": false,
+          "opening": -6993054336.0,
+          "closing": -6568188231.0,
+          "change": 424866105.0,
+          "opening_details": [
+            {
+              "id": "wop.pay",
+              "display_field": "supplier_payables",
+              "label": "供应商经营占款",
+              "custom": false,
+              "raw_label": "应付账款",
+              "source_amount": 6781359336.0,
+              "amount": -6781359336.0,
+              "source": "filing.2023 p.98",
+              "status": "disclosed",
+              "rationale": "供应商经营占款抵减经营资本"
+            },
+            {
+              "id": "wop.notes",
+              "display_field": "supplier_payables",
+              "label": "供应商经营占款",
+              "custom": false,
+              "raw_label": "应付票据",
+              "source_amount": 211695000.0,
+              "amount": -211695000.0,
+              "source": "filing.2023 p.97",
+              "status": "disclosed",
+              "rationale": "供应商经营占款抵减经营资本"
+            }
+          ],
+          "closing_details": [
+            {
+              "id": "wcl.pay",
+              "display_field": "supplier_payables",
+              "label": "供应商经营占款",
+              "custom": false,
+              "raw_label": "应付账款",
+              "source_amount": 6298249362.0,
+              "amount": -6298249362.0,
+              "source": "filing.2023 p.98",
+              "status": "disclosed",
+              "rationale": "供应商经营占款抵减经营资本"
+            },
+            {
+              "id": "wcl.notes",
+              "display_field": "supplier_payables",
+              "label": "供应商经营占款",
+              "custom": false,
+              "raw_label": "应付票据",
+              "source_amount": 269938869.0,
+              "amount": -269938869.0,
+              "source": "filing.2023 p.97",
+              "status": "disclosed",
+              "rationale": "供应商经营占款抵减经营资本"
+            }
+          ],
+          "opening_absent_zero": false,
+          "closing_absent_zero": false
+        },
+        {
+          "display_field": "other_operating_receivables",
+          "label": "其他经营应收",
+          "custom": false,
+          "opening": 3900296934.0,
+          "closing": 3693848659.0,
+          "change": -206448275.0,
+          "opening_details": [
+            {
+              "id": "wop.orec",
+              "display_field": "other_operating_receivables",
+              "label": "其他经营应收",
+              "custom": false,
+              "raw_label": "其他应收款",
+              "source_amount": 3900296934.0,
+              "amount": 3900296934.0,
+              "source": "filing.2023 p.97",
+              "status": "disclosed",
+              "rationale": "经营相关应收，未见非经营性质拆分"
+            }
+          ],
+          "closing_details": [
+            {
+              "id": "wcl.orec",
+              "display_field": "other_operating_receivables",
+              "label": "其他经营应收",
+              "custom": false,
+              "raw_label": "其他应收款",
+              "source_amount": 3693848659.0,
+              "amount": 3693848659.0,
+              "source": "filing.2023 p.97",
+              "status": "disclosed",
+              "rationale": "经营相关应收，未见非经营性质拆分"
+            }
+          ],
+          "opening_absent_zero": false,
+          "closing_absent_zero": false
+        },
+        {
+          "display_field": "customer_advances",
+          "label": "客户预收与合同负债",
+          "custom": false,
+          "opening": -3576718529.0,
+          "closing": -2887907489.0,
+          "change": 688811040.0,
+          "opening_details": [
+            {
+              "id": "wop.adv",
+              "display_field": "customer_advances",
+              "label": "客户预收与合同负债",
+              "custom": false,
+              "raw_label": "合同负债",
+              "source_amount": 3576718529.0,
+              "amount": -3576718529.0,
+              "source": "filing.2023 p.98",
+              "status": "disclosed",
+              "rationale": "客户预收抵减经营资本"
+            }
+          ],
+          "closing_details": [
+            {
+              "id": "wcl.adv",
+              "display_field": "customer_advances",
+              "label": "客户预收与合同负债",
+              "custom": false,
+              "raw_label": "合同负债",
+              "source_amount": 2887907489.0,
+              "amount": -2887907489.0,
+              "source": "filing.2023 p.98",
+              "status": "disclosed",
+              "rationale": "客户预收抵减经营资本"
+            }
+          ],
+          "opening_absent_zero": false,
+          "closing_absent_zero": false
+        },
+        {
+          "display_field": "employee_payables",
+          "label": "员工结算义务",
+          "custom": false,
+          "opening": -1639166765.0,
+          "closing": -1512587996.0,
+          "change": 126578769.0,
+          "opening_details": [
+            {
+              "id": "wop.emp",
+              "display_field": "employee_payables",
+              "label": "员工结算义务",
+              "custom": false,
+              "raw_label": "应付职工薪酬",
+              "source_amount": 1639166765.0,
+              "amount": -1639166765.0,
+              "source": "filing.2023 p.98",
+              "status": "disclosed",
+              "rationale": "经营员工结算义务"
+            }
+          ],
+          "closing_details": [
+            {
+              "id": "wcl.emp",
+              "display_field": "employee_payables",
+              "label": "员工结算义务",
+              "custom": false,
+              "raw_label": "应付职工薪酬",
+              "source_amount": 1512587996.0,
+              "amount": -1512587996.0,
+              "source": "filing.2023 p.98",
+              "status": "disclosed",
+              "rationale": "经营员工结算义务"
+            }
+          ],
+          "opening_absent_zero": false,
+          "closing_absent_zero": false
+        },
+        {
+          "display_field": "other_operating_payables",
+          "label": "其他经营应付与结算",
+          "custom": false,
+          "opening": -10971880060.0,
+          "closing": -11343946672.0,
+          "change": -372066612.0,
+          "opening_details": [
+            {
+              "id": "wop.othpay",
+              "display_field": "other_operating_payables",
+              "label": "其他经营应付与结算",
+              "custom": false,
+              "raw_label": "应交税费及其他应付款",
+              "source_amount": 10971880060.0,
+              "amount": -10971880060.0,
+              "source": "filing.2023 p.98",
+              "status": "derived",
+              "rationale": "经营税费及其他经营结算义务"
+            }
+          ],
+          "closing_details": [
+            {
+              "id": "wcl.othpay",
+              "display_field": "other_operating_payables",
+              "label": "其他经营应付与结算",
+              "custom": false,
+              "raw_label": "应交税费及其他应付款",
+              "source_amount": 11343946672.0,
+              "amount": -11343946672.0,
+              "source": "filing.2023 p.98",
+              "status": "derived",
+              "rationale": "经营税费及其他经营结算义务"
+            }
+          ],
+          "opening_absent_zero": false,
+          "closing_absent_zero": false
+        },
+        {
+          "display_field": "operating_prepayments",
+          "label": "经营预付款与押金",
+          "custom": false,
+          "opening": 3003021230.0,
+          "closing": 2403781870.0,
+          "change": -599239360.0,
+          "opening_details": [
+            {
+              "id": "wop.pre",
+              "display_field": "operating_prepayments",
+              "label": "经营预付款与押金",
+              "custom": false,
+              "raw_label": "预付款项",
+              "source_amount": 3003021230.0,
+              "amount": 3003021230.0,
+              "source": "filing.2023 p.97",
+              "status": "disclosed",
+              "rationale": "日常采购经营预付"
+            }
+          ],
+          "closing_details": [
+            {
+              "id": "wcl.pre",
+              "display_field": "operating_prepayments",
+              "label": "经营预付款与押金",
+              "custom": false,
+              "raw_label": "预付款项",
+              "source_amount": 2403781870.0,
+              "amount": 2403781870.0,
+              "source": "filing.2023 p.97",
+              "status": "disclosed",
+              "rationale": "日常采购经营预付"
+            }
+          ],
+          "opening_absent_zero": false,
+          "closing_absent_zero": false
+        }
+      ],
+      "causal_total": null,
+      "unattributed_amount": null
+    }
+  },
+  "anomalies": [
+    {
+      "id": "anomaly.cash_scope",
+      "title": "定期存款及受限资金显著增加",
+      "explanation": "年末货币资金较期初增加，但现金流量表现金及现金等价物反而减少；差异主要来自三个月以上定期存款及受限资金不属于现金及现金等价物。资本表将该范围变化单列，避免把内部可用性变化误解为经营现金流。",
+      "basis": "货币资金附注第153-154页、现金流量表相关情况第203-205页",
+      "amount": 15102963481.0,
+      "fields": [
+        "assets.cash.opening",
+        "assets.cash.closing",
+        "liquidity.other.restriction"
+      ],
+      "source_ids": [
+        "filing.2023"
+      ]
+    },
+    {
+      "id": "anomaly.buyback",
+      "title": "本期股份回购",
+      "explanation": "集团于本期集中竞价回购A股，形成库存股并发生现金流出；该事项属于股东交易，不应混入经营费用或经营资产购建。",
+      "basis": "库存股附注第189页及现金流量表筹资活动附注第202页",
+      "amount": -339160424.0,
+      "fields": [
+        "wealth.owner.repurchase",
+        "liquidity.owner.repurchase"
+      ],
+      "source_ids": [
+        "filing.2023"
+      ]
+    },
+    {
+      "id": "anomaly.tax_allocation",
+      "title": "所得税经济归属未分项披露",
+      "explanation": "年报仅披露合并所得税费用总额，未按经营、投资及融资税前贡献拆分。本表按合并综合有效税率分配：非经营贡献承担税费，融资成本形成税盾，经营税费取保持总所得税一致的余额；该分配属于估计，不改变披露所得税总额。",
+      "basis": "合并利润表第103页及所得税附注第199页",
+      "amount": 2851280634.0,
+      "fields": [
+        "wealth.operating.tax",
+        "wealth.nonoperating.tax",
+        "wealth.finance.tax"
+      ],
+      "source_ids": [
+        "filing.2023"
+      ]
+    }
+  ],
+  "validation": {
+    "errors": [],
+    "warnings": [
+      {
+        "code": "RECONCILIATION_DIFFERENCE",
+        "check": "liquidity",
+        "difference": 55000.0,
+        "tolerance": 1049594.9863
+      },
+      {
+        "code": "CAUSE_ATTRIBUTION_PARTIAL",
+        "field": "facilities",
+        "amount": -544484625.0,
+        "soft_tolerance": 757595.3018
+      },
+      {
+        "code": "CAUSE_ATTRIBUTION_PARTIAL",
+        "field": "financing",
+        "amount": -2582649983.0,
+        "soft_tolerance": 355757.8946
+      },
+      {
+        "code": "CAUSE_ATTRIBUTION_PARTIAL",
+        "field": "investments",
+        "amount": -3582582471.0,
+        "soft_tolerance": 955012.6838
+      },
+      {
+        "code": "CAUSE_ATTRIBUTION_PARTIAL",
+        "field": "rights",
+        "amount": 1195086501.0,
+        "soft_tolerance": 85375.6769
+      },
+      {
+        "code": "CAUSE_ATTRIBUTION_PARTIAL",
+        "field": "shareholder",
+        "amount": 8541047758.0,
+        "soft_tolerance": 854104.7758000001
+      }
+    ],
+    "status": "warning"
+  }
+}
