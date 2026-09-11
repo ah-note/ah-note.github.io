@@ -25,10 +25,10 @@
       "period_start": "2025-01-01",
       "period_end": "2025-12-31",
       "report_type": "annual",
-      "file": "annual/2025-12-31.7c7b7778edc779f5.json",
-      "sha256": "7c7b7778edc779f51985f5dc010998eff5bae482255dc6fca42d752efa6c12f7",
-      "source_run": "/root/aicode/runs/capital_statement/capital-600585-SH-2025-12-31-a1-2025-12-31-finalize",
-      "bundle_sha256": "8a4846d31d92bd7e5c07a5a5b3d07de8d9d5d571"
+      "file": "annual/2025-12-31.a8b61271637226d1.json",
+      "sha256": "a8b61271637226d1cab5c2e4813e1801579be7ccb2243d40d7d5663a5ed4f20c",
+      "source_run": "/root/aicode/runs/capital_statement/capital-600585-SH-2025-12-31-a2-2025-12-31-finalize",
+      "bundle_sha256": "25bb512d449d07610803240c80d888bb6467e51d"
     },
     "2024-12-31": {
       "period_start": "2024-01-01",
@@ -104,6 +104,6 @@
     "annual/2022-12-31.ee3ffa2f690f46fb.json",
     "annual/2023-12-31.4bd19b9fcb86965f.json",
     "annual/2024-12-31.6e877bdb11451946.json",
-    "annual/2025-12-31.7c7b7778edc779f5.json"
+    "annual/2025-12-31.a8b61271637226d1.json"
   ]
 }
