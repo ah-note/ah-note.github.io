@@ -1,4 +1,4 @@
-/* Consume independently produced capital-statement years; never infer missing facts. */
+/* Consume independently produced capital-statement periods; never infer missing facts. */
 (function(){
  const sum=xs=>xs.some(x=>x===null||x===undefined)?null:xs.reduce((a,b)=>a+b,0);
  const groups={
@@ -11,13 +11,13 @@
   return Object.fromEntries(Object.entries(registry.activities).map(([block,definitions])=>[block,Object.entries(definitions).map(([id,fields])=>[id,labels[block][id],fields])]));
  }
  function model(documents){
-  if(!documents.length)throw Error('没有年度数据');
-  const docs=[...documents].sort((a,b)=>a.year-b.year),years=docs.map(d=>d.year),company=docs[0].company,currency=docs[0].currency;
-  if(new Set(years).size!==years.length)throw Error('年度重复');
-  const registered=docs.find(d=>['capital-statement-v3','capital-statement-v4'].includes(d.schema)),registry=registered?.display_registry||null;
+  if(!documents.length)throw Error('没有报告期间数据');
+  const docs=[...documents].sort((a,b)=>a.period_end.localeCompare(b.period_end)),years=docs.map(d=>d.period_end),company=docs[0].company,currency=docs[0].currency;
+  if(new Set(years).size!==years.length)throw Error('报告截止日重复');
+  const registered=docs.find(d=>['capital-statement-v3','capital-statement-v4','capital-statement-v5'].includes(d.schema)),registry=registered?.display_registry||null;
   for(const d of docs){
-   if(!['capital-statement-v1','capital-statement-v2','capital-statement-v3','capital-statement-v4'].includes(d.schema)||d.company!==company||d.currency!==currency||!Number.isInteger(d.year)||d.validation?.errors?.length)throw Error('年度协议、主体、币种或校验状态不一致');
-   if(['capital-statement-v2','capital-statement-v3','capital-statement-v4'].includes(d.schema)&&(!d.facts||!Array.isArray(d.mappings)))throw Error('年度事实账本缺失');
+   if(!['capital-statement-v1','capital-statement-v2','capital-statement-v3','capital-statement-v4','capital-statement-v5'].includes(d.schema)||d.company!==company||d.currency!==currency||!/^\d{4}-\d{2}-\d{2}$/.test(d.period_start)||!/^\d{4}-\d{2}-\d{2}$/.test(d.period_end)||d.period_start>=d.period_end||d.validation?.errors?.length)throw Error('报告期间、主体、币种或校验状态不一致');
+   if(['capital-statement-v2','capital-statement-v3','capital-statement-v4','capital-statement-v5'].includes(d.schema)&&(!d.facts||!Array.isArray(d.mappings)))throw Error('报告期间事实账本缺失');
    if(registered&&(d.schema!==registered.schema||d.display_registry?.version!=='capital-display-v1'||JSON.stringify(d.display_registry)!==JSON.stringify(registry)))throw Error('网页字段注册表不一致');
   }
   const definitions=registeredGroups(registry),annual={},series={},boundaryWarnings=[];
@@ -31,12 +31,12 @@
     return {key:id,label,amount,rows};
    });
    activity.equityChange=sum(activity.wealth.map(g=>g.amount));activity.cashChange=sum(activity.liquidity.map(g=>g.amount));activity.noncash=value('noncash.leases');
-   annual[d.year]=activity;series[d.year]=d;
+   annual[d.period_end]=activity;series[d.period_end]=d;
   }
-  for(let i=1;i<docs.length;i++)if(docs[i].year===docs[i-1].year+1){
+  for(let i=1;i<docs.length;i++){
    for(const [key,record] of Object.entries(docs[i].records).filter(([k])=>k.startsWith('assets.')&&k.endsWith('.opening'))){
     const prior=docs[i-1].records[key.replace('.opening','.closing')]?.amount;
-    if(prior!==null&&prior!==undefined&&record.amount!==null&&prior!==record.amount)boundaryWarnings.push({year:docs[i].year,field:key,previous:prior,opening:record.amount});
+    if(prior!==null&&prior!==undefined&&record.amount!==null&&prior!==record.amount)boundaryWarnings.push({period_end:docs[i].period_end,field:key,previous:prior,opening:record.amount});
    }
   }
   return {years,annual,series,company,currency,boundaryWarnings,displayRegistry:registry};

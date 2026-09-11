@@ -1,43 +1,54 @@
 {
+  "schema": "capital-period-manifest-v1",
   "company": "00837.HK",
   "currency": "CNY",
-  "years": {
-    "2021": {
-      "file": "annual/2021.8c5e27e64b49e9bc.json",
-      "sha256": "8c5e27e64b49e9bccf30dc2c5e7a76061cad0abd06517598d9d14abc96097baf",
-      "source_run": "tan-2021-manual-display-v3",
+  "periods": {
+    "2021-12-31": {
+      "period_start": "2021-01-01",
+      "period_end": "2021-12-31",
+      "file": "annual/2021-12-31.06c2e2be09de3728.json",
+      "sha256": "06c2e2be09de37288c3b7868b268ee98c19d7c70ccbae33b5707c75e4aaa2f49",
+      "source_run": "tan-2021-display-v3",
       "bundle_sha256": "d979db2e5ab810e9cbd60fbcc2046ff7a88837dd"
     },
-    "2022": {
-      "file": "annual/2022.8d0ffc1fff67157d.json",
-      "sha256": "8d0ffc1fff67157d9f768668b55067b262a61c73d244c67208aeec683a30a8fd",
-      "source_run": "tan-2022-manual-display-v3",
+    "2022-12-31": {
+      "period_start": "2022-01-01",
+      "period_end": "2022-12-31",
+      "file": "annual/2022-12-31.fe303aca33a36821.json",
+      "sha256": "fe303aca33a368217a98827749266f437207a5e7828a6d984479b49b24f08582",
+      "source_run": "tan-2022-display-v3",
       "bundle_sha256": "d979db2e5ab810e9cbd60fbcc2046ff7a88837dd"
     },
-    "2023": {
-      "file": "annual/2023.486d49598ee72483.json",
-      "sha256": "486d49598ee7248369a186e56e3466b876005bed3dedf335a41c1e5db33fa7b4",
-      "source_run": "tan-2023-manual-display-v3",
+    "2023-12-31": {
+      "period_start": "2023-01-01",
+      "period_end": "2023-12-31",
+      "file": "annual/2023-12-31.f4e278bfde266c4f.json",
+      "sha256": "f4e278bfde266c4f1472cdb51fb7f429a6e441dcc3eb06de5fad6ec546dab502",
+      "source_run": "tan-2023-display-v3",
       "bundle_sha256": "d979db2e5ab810e9cbd60fbcc2046ff7a88837dd"
     },
-    "2024": {
-      "file": "annual/2024.9c8679e1241afb2d.json",
-      "sha256": "9c8679e1241afb2d155e25f1f93dbc18e671e4d2db3382677e18046bc0bef85e",
-      "source_run": "tan-2024-manual-display-v3",
+    "2024-12-31": {
+      "period_start": "2024-01-01",
+      "period_end": "2024-12-31",
+      "file": "annual/2024-12-31.0ce360b5443d036f.json",
+      "sha256": "0ce360b5443d036f5d75b6b54aeef35d0e32e1cd353d76d5eb771abd5ea300d3",
+      "source_run": "tan-2024-display-v3",
       "bundle_sha256": "d979db2e5ab810e9cbd60fbcc2046ff7a88837dd"
     },
-    "2025": {
-      "file": "annual/2025.8a9226b363f2e7f8.json",
-      "sha256": "8a9226b363f2e7f8e1f23af5b8c64c5fb805a78310333c4c33bf05b255c9f32b",
-      "source_run": "tan-v3-migration",
-      "bundle_sha256": "12423125"
+    "2025-12-31": {
+      "period_start": "2025-01-01",
+      "period_end": "2025-12-31",
+      "file": "annual/2025-12-31.b8cb2e2a686a3ddc.json",
+      "sha256": "b8cb2e2a686a3ddcedfd5720f065f317d41dd099f02cf7e6b304f9683c6aac5c",
+      "source_run": "tan-2025-display-v3",
+      "bundle_sha256": "d979db2e5ab810e9cbd60fbcc2046ff7a88837dd"
     }
   },
   "files": [
-    "annual/2021.8c5e27e64b49e9bc.json",
-    "annual/2022.8d0ffc1fff67157d.json",
-    "annual/2023.486d49598ee72483.json",
-    "annual/2024.9c8679e1241afb2d.json",
-    "annual/2025.8a9226b363f2e7f8.json"
+    "annual/2021-12-31.06c2e2be09de3728.json",
+    "annual/2022-12-31.fe303aca33a36821.json",
+    "annual/2023-12-31.f4e278bfde266c4f.json",
+    "annual/2024-12-31.0ce360b5443d036f.json",
+    "annual/2025-12-31.b8cb2e2a686a3ddc.json"
   ]
 }

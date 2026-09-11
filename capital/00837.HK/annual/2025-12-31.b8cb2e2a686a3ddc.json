@@ -1,0 +1,5648 @@
+{
+  "draft_schema": "capital-statement-draft-v3",
+  "schema": "capital-statement-v3",
+  "company": "00837.HK",
+  "period_start": "2025-01-01",
+  "period_end": "2025-12-31",
+  "currency": "CNY",
+  "precision": 1000,
+  "sources": [
+    {
+      "id": "annual_report",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0417/2026041701755.pdf",
+      "basis": "Carpenter Tan Holdings Limited 2025 Annual Report, year ended 31 December 2025",
+      "kind": "filing",
+      "page_count": 152,
+      "sha256": "2520fa3c49abec15e965fa5c21b77d9b35c0f23f3882a91deb399fc8567b74a5"
+    }
+  ],
+  "display_registry": {
+    "version": "capital-display-v1",
+    "assets": {
+      "op": [
+        [
+          "working",
+          "经营周转净额"
+        ],
+        [
+          "facilities",
+          "经营设施"
+        ],
+        [
+          "rights",
+          "经营权利与开发资产"
+        ],
+        [
+          "capital_settlement",
+          "资本采购结算净额"
+        ],
+        [
+          "goodwill",
+          "商誉"
+        ],
+        [
+          "other_operating",
+          "其他经营净额"
+        ]
+      ],
+      "na": [
+        [
+          "cash",
+          "现金与存款"
+        ],
+        [
+          "investments",
+          "对外投资"
+        ],
+        [
+          "other_assets",
+          "其他非经营资产"
+        ]
+      ],
+      "nl": [
+        [
+          "financing",
+          "融资负债"
+        ],
+        [
+          "shareholder",
+          "股东相关应付款"
+        ],
+        [
+          "other_liabilities",
+          "其他非经营负债"
+        ]
+      ]
+    },
+    "asset_groups": {
+      "op": "经营净资产",
+      "na": "非经营资产",
+      "nl": "非经营负债"
+    },
+    "activities": {
+      "wealth": {
+        "operating": [
+          [
+            "revenue",
+            "产品与服务收入"
+          ],
+          [
+            "costs",
+            "经营耗用与费用（折旧、损失前）"
+          ],
+          [
+            "other_income",
+            "经营补助与其他收入"
+          ],
+          [
+            "tax",
+            "经营所得税"
+          ],
+          [
+            "depreciation",
+            "折旧摊销"
+          ],
+          [
+            "loss",
+            "经营资产损失"
+          ]
+        ],
+        "nonoperating": [
+          [
+            "returns",
+            "利息与投资收益"
+          ],
+          [
+            "valuation",
+            "价值重估与汇兑损益"
+          ],
+          [
+            "tax",
+            "非经营所得税"
+          ]
+        ],
+        "finance": [
+          [
+            "cost",
+            "融资费用"
+          ],
+          [
+            "tax",
+            "融资税收影响"
+          ]
+        ],
+        "owner": [
+          [
+            "input",
+            "增资与股份激励"
+          ],
+          [
+            "dividend",
+            "批准分红"
+          ],
+          [
+            "repurchase",
+            "股份回购"
+          ],
+          [
+            "minority",
+            "少数股权交易"
+          ]
+        ],
+        "other": [
+          [
+            "translation",
+            "报表折算差额"
+          ],
+          [
+            "other_oci",
+            "其他综合收益"
+          ],
+          [
+            "scope",
+            "合并范围及其他权益变动"
+          ]
+        ]
+      },
+      "liquidity": {
+        "operating": [
+          [
+            "before_working",
+            "经营收付（周转、缴税前）"
+          ],
+          [
+            "working",
+            "经营周转资金释放／占用"
+          ],
+          [
+            "tax",
+            "实际缴纳所得税"
+          ]
+        ],
+        "capacity": [
+          [
+            "purchase",
+            "购建经营资产"
+          ],
+          [
+            "disposal",
+            "处置经营资产收款"
+          ]
+        ],
+        "investment": [
+          [
+            "invest",
+            "投入对外投资"
+          ],
+          [
+            "recover",
+            "收回投资及处置收款"
+          ],
+          [
+            "returns",
+            "收到利息与投资分配"
+          ]
+        ],
+        "finance": [
+          [
+            "borrow",
+            "现金借款"
+          ],
+          [
+            "repay",
+            "偿还融资本金"
+          ],
+          [
+            "cost",
+            "支付融资费用"
+          ]
+        ],
+        "owner": [
+          [
+            "input",
+            "收到增资"
+          ],
+          [
+            "dividend",
+            "实际支付分红"
+          ],
+          [
+            "repurchase",
+            "现金回购"
+          ],
+          [
+            "minority",
+            "少数股权交易收付"
+          ]
+        ],
+        "other": [
+          [
+            "translation",
+            "汇率折算影响"
+          ],
+          [
+            "scope",
+            "合并范围现金变化"
+          ],
+          [
+            "restriction",
+            "资金范围转类"
+          ]
+        ]
+      }
+    },
+    "table_sections": {
+      "wealth": "净资产形成",
+      "liquidity": "资金收付与配置"
+    },
+    "activity_groups": {
+      "wealth": [
+        [
+          "operating",
+          "经营净贡献"
+        ],
+        [
+          "nonoperating",
+          "非经营资产净贡献"
+        ],
+        [
+          "finance",
+          "融资净成本"
+        ],
+        [
+          "owner",
+          "股东投入与分配"
+        ],
+        [
+          "other",
+          "其他权益变动"
+        ]
+      ],
+      "liquidity": [
+        [
+          "operating",
+          "经营与持有收付"
+        ],
+        [
+          "capacity",
+          "经营资产投入与退出"
+        ],
+        [
+          "investment",
+          "投资投入、收回与收益"
+        ],
+        [
+          "finance",
+          "融资借入与偿还"
+        ],
+        [
+          "owner",
+          "股东资金收付"
+        ],
+        [
+          "other",
+          "现金折算及范围变化"
+        ]
+      ]
+    },
+    "components": {
+      "assets.working": [
+        [
+          "inventory",
+          "存货"
+        ],
+        [
+          "customer_receivables",
+          "客户经营欠款"
+        ],
+        [
+          "contract_assets",
+          "合同资产"
+        ],
+        [
+          "operating_prepayments",
+          "经营预付款与押金"
+        ],
+        [
+          "other_operating_receivables",
+          "其他经营应收"
+        ],
+        [
+          "supplier_payables",
+          "供应商经营占款"
+        ],
+        [
+          "customer_advances",
+          "客户预收与合同负债"
+        ],
+        [
+          "employee_payables",
+          "员工结算义务"
+        ],
+        [
+          "other_operating_payables",
+          "其他经营应付与结算"
+        ]
+      ],
+      "assets.facilities": [
+        [
+          "owned_facilities",
+          "自有经营设施"
+        ],
+        [
+          "construction_in_progress",
+          "在建经营设施"
+        ],
+        [
+          "leased_facilities",
+          "租入经营设施"
+        ],
+        [
+          "productive_biological_assets",
+          "生产性生物资产"
+        ],
+        [
+          "other_facilities",
+          "其他经营设施"
+        ]
+      ],
+      "assets.rights": [
+        [
+          "land_rights",
+          "土地使用权"
+        ],
+        [
+          "resource_rights",
+          "资源权利"
+        ],
+        [
+          "concessions",
+          "特许经营权"
+        ],
+        [
+          "development_assets",
+          "开发资产"
+        ],
+        [
+          "acquired_operating_intangibles",
+          "外购经营无形资产"
+        ],
+        [
+          "other_rights",
+          "其他经营权利"
+        ]
+      ],
+      "assets.capital_settlement": [
+        [
+          "capital_prepayments",
+          "资本采购预付款"
+        ],
+        [
+          "capital_payables",
+          "资本采购欠款"
+        ],
+        [
+          "undisclosed_estimate",
+          "未单列资本采购结算估计"
+        ]
+      ],
+      "assets.goodwill": [
+        [
+          "goodwill",
+          "商誉"
+        ]
+      ],
+      "assets.other_operating": [
+        [
+          "operating_tax_assets",
+          "经营税项资产"
+        ],
+        [
+          "operating_tax_liabilities",
+          "经营税项义务"
+        ],
+        [
+          "deferred_operating_income",
+          "递延经营收益"
+        ],
+        [
+          "employee_benefit_obligations",
+          "长期员工义务"
+        ],
+        [
+          "operating_provisions",
+          "经营预计义务"
+        ],
+        [
+          "other_operating_assets",
+          "其他经营资产"
+        ],
+        [
+          "other_operating_liabilities",
+          "其他经营义务"
+        ]
+      ],
+      "assets.cash": [
+        [
+          "cash_equivalents",
+          "现金及现金等价物"
+        ],
+        [
+          "time_deposits",
+          "定期存款"
+        ],
+        [
+          "restricted_cash",
+          "受限及质押资金"
+        ],
+        [
+          "undivided_cash",
+          "现金、存款及受限资金（未拆分）"
+        ]
+      ],
+      "assets.investments": [
+        [
+          "associates_joint_ventures",
+          "联营与合营投资"
+        ],
+        [
+          "equity_investments",
+          "权益投资"
+        ],
+        [
+          "debt_investments",
+          "债权投资"
+        ],
+        [
+          "funds_wealth_products",
+          "基金与理财产品"
+        ],
+        [
+          "investment_derivatives",
+          "投资性衍生工具"
+        ],
+        [
+          "other_investments",
+          "其他对外投资"
+        ]
+      ],
+      "assets.other_assets": [
+        [
+          "investment_property",
+          "非主业投资物业"
+        ],
+        [
+          "nonoperating_receivables",
+          "非经营应收"
+        ],
+        [
+          "assets_held_for_sale",
+          "持有待售非经营资产"
+        ],
+        [
+          "other_nonoperating_assets",
+          "其他非经营资产"
+        ]
+      ],
+      "assets.financing": [
+        [
+          "bank_borrowings",
+          "银行及其他借款"
+        ],
+        [
+          "bonds_notes",
+          "债券及票据"
+        ],
+        [
+          "lease_liabilities",
+          "租赁负债"
+        ],
+        [
+          "financing_payables",
+          "实质融资应付款"
+        ],
+        [
+          "financing_derivatives",
+          "融资性衍生工具"
+        ],
+        [
+          "other_financing",
+          "其他融资负债"
+        ]
+      ],
+      "assets.shareholder": [
+        [
+          "dividends_payable",
+          "应付股利"
+        ],
+        [
+          "repurchase_redemption",
+          "回购及赎回义务"
+        ],
+        [
+          "share_incentive_obligations",
+          "股份激励结算义务"
+        ]
+      ],
+      "assets.other_liabilities": [
+        [
+          "nonoperating_tax_liabilities",
+          "非经营税项义务"
+        ],
+        [
+          "nonoperating_provisions",
+          "诉讼及其他非经营预计义务"
+        ],
+        [
+          "other_nonoperating_liabilities",
+          "其他非经营负债"
+        ]
+      ],
+      "wealth.operating.revenue": [
+        [
+          "product_revenue",
+          "产品收入"
+        ],
+        [
+          "service_revenue",
+          "服务收入"
+        ],
+        [
+          "operating_rental_revenue",
+          "主营租赁收入"
+        ],
+        [
+          "other_operating_revenue",
+          "其他经营收入"
+        ],
+        [
+          "undivided_operating_revenue",
+          "产品与服务收入（未拆分）"
+        ]
+      ],
+      "wealth.operating.costs": [
+        [
+          "product_service_costs",
+          "产品与服务耗用"
+        ],
+        [
+          "selling_distribution",
+          "销售与履约费用"
+        ],
+        [
+          "administrative",
+          "管理费用"
+        ],
+        [
+          "research_development",
+          "研发费用"
+        ],
+        [
+          "other_operating_costs",
+          "其他经营费用"
+        ],
+        [
+          "depreciation_adjustment",
+          "剔除折旧摊销"
+        ],
+        [
+          "asset_loss_adjustment",
+          "剔除经营资产损失"
+        ],
+        [
+          "nonoperating_adjustment",
+          "剔除非经营收支"
+        ]
+      ],
+      "wealth.operating.other_income": [
+        [
+          "grants_subsidies",
+          "经营补助"
+        ],
+        [
+          "tax_refunds",
+          "经营税费返还"
+        ],
+        [
+          "other_operating_income",
+          "其他经营收益"
+        ],
+        [
+          "undivided_operating_income",
+          "经营补助与其他收益（未拆分）"
+        ]
+      ],
+      "wealth.operating.tax": [
+        [
+          "current_operating_tax",
+          "当期经营所得税"
+        ],
+        [
+          "deferred_operating_tax",
+          "递延经营所得税"
+        ],
+        [
+          "allocated_operating_tax",
+          "估计分配的经营所得税"
+        ]
+      ],
+      "wealth.operating.depreciation": [
+        [
+          "facility_depreciation",
+          "经营设施折旧"
+        ],
+        [
+          "rights_amortization",
+          "经营权利摊销"
+        ],
+        [
+          "other_operating_amortization",
+          "其他经营摊销"
+        ]
+      ],
+      "wealth.operating.loss": [
+        [
+          "inventory_loss",
+          "存货损失"
+        ],
+        [
+          "credit_loss",
+          "经营信用损失"
+        ],
+        [
+          "asset_impairment",
+          "经营资产减值"
+        ],
+        [
+          "disposal_derecognition_loss",
+          "处置及终止确认损失"
+        ],
+        [
+          "other_operating_loss",
+          "其他经营资产损失"
+        ],
+        [
+          "undivided_operating_loss",
+          "经营资产损失（未拆分）"
+        ]
+      ],
+      "wealth.nonoperating.returns": [
+        [
+          "interest_income",
+          "利息收益"
+        ],
+        [
+          "dividend_income",
+          "股利及投资分配"
+        ],
+        [
+          "nonoperating_rent",
+          "非主业物业净收益"
+        ],
+        [
+          "realized_investment_return",
+          "已实现投资收益"
+        ],
+        [
+          "other_nonoperating_return",
+          "其他非经营收益"
+        ],
+        [
+          "undivided_nonoperating_return",
+          "利息与其他非经营收益（未拆分）"
+        ]
+      ],
+      "wealth.nonoperating.valuation": [
+        [
+          "investment_valuation",
+          "投资价值变动"
+        ],
+        [
+          "property_valuation",
+          "非主业物业价值变动"
+        ],
+        [
+          "foreign_exchange",
+          "汇兑损益"
+        ],
+        [
+          "other_valuation",
+          "其他价值变动"
+        ],
+        [
+          "undivided_valuation",
+          "价值重估与汇兑损益（未拆分）"
+        ]
+      ],
+      "wealth.nonoperating.tax": [
+        [
+          "current_nonoperating_tax",
+          "当期非经营所得税"
+        ],
+        [
+          "deferred_nonoperating_tax",
+          "递延非经营所得税"
+        ],
+        [
+          "withholding_tax",
+          "投资分配预提税"
+        ],
+        [
+          "allocated_nonoperating_tax",
+          "估计分配的非经营所得税"
+        ],
+        [
+          "undivided_nonoperating_tax",
+          "非经营所得税（未拆分）"
+        ]
+      ],
+      "wealth.finance.cost": [
+        [
+          "borrowing_interest",
+          "借款利息"
+        ],
+        [
+          "bond_interest",
+          "债券及票据利息"
+        ],
+        [
+          "lease_interest",
+          "租赁融资费用"
+        ],
+        [
+          "other_finance_cost",
+          "其他融资费用"
+        ]
+      ],
+      "wealth.finance.tax": [
+        [
+          "finance_tax_effect",
+          "融资税收影响"
+        ]
+      ],
+      "wealth.owner.input": [
+        [
+          "share_issue",
+          "股份发行"
+        ],
+        [
+          "share_incentive",
+          "股份激励"
+        ],
+        [
+          "other_owner_input",
+          "其他股东投入"
+        ],
+        [
+          "undivided_owner_input",
+          "增资与股份激励（未拆分）"
+        ]
+      ],
+      "wealth.owner.dividend": [
+        [
+          "dividend_declared",
+          "批准及宣告分红"
+        ]
+      ],
+      "wealth.owner.repurchase": [
+        [
+          "share_repurchase",
+          "股份回购"
+        ]
+      ],
+      "wealth.owner.minority": [
+        [
+          "minority_acquisition",
+          "收购少数股权"
+        ],
+        [
+          "minority_disposal",
+          "出售少数股权"
+        ]
+      ],
+      "wealth.other.translation": [
+        [
+          "statement_translation",
+          "报表折算差额"
+        ]
+      ],
+      "wealth.other.other_oci": [
+        [
+          "hedging_oci",
+          "套期储备变动"
+        ],
+        [
+          "revaluation_oci",
+          "资产重估储备变动"
+        ],
+        [
+          "actuarial_oci",
+          "员工福利精算变动"
+        ],
+        [
+          "other_oci",
+          "其他综合收益"
+        ]
+      ],
+      "wealth.other.scope": [
+        [
+          "business_combination",
+          "业务并入"
+        ],
+        [
+          "business_disposal",
+          "业务移出"
+        ],
+        [
+          "other_equity_change",
+          "其他权益变动"
+        ]
+      ],
+      "liquidity.operating.before_working": [
+        [
+          "operating_base_cash",
+          "周转及缴税前经营收付"
+        ]
+      ],
+      "liquidity.operating.working": [
+        [
+          "inventory_cash",
+          "存货资金释放／占用"
+        ],
+        [
+          "receivables_cash",
+          "经营应收资金释放／占用"
+        ],
+        [
+          "payables_cash",
+          "经营应付资金释放／占用"
+        ],
+        [
+          "other_working_cash",
+          "其他经营周转资金释放／占用"
+        ],
+        [
+          "undivided_working_cash",
+          "经营周转资金释放／占用（未拆分）"
+        ]
+      ],
+      "liquidity.operating.tax": [
+        [
+          "income_tax_paid",
+          "支付所得税"
+        ],
+        [
+          "withholding_tax_paid",
+          "支付预提税"
+        ],
+        [
+          "undivided_tax_paid",
+          "实际缴纳所得税（未拆分）"
+        ]
+      ],
+      "liquidity.capacity.purchase": [
+        [
+          "facility_purchase",
+          "购建经营设施"
+        ],
+        [
+          "rights_purchase",
+          "取得经营权利"
+        ],
+        [
+          "development_purchase",
+          "投入开发资产"
+        ],
+        [
+          "other_capacity_purchase",
+          "其他经营资产投入"
+        ]
+      ],
+      "liquidity.capacity.disposal": [
+        [
+          "facility_disposal",
+          "处置经营设施收款"
+        ],
+        [
+          "rights_disposal",
+          "处置经营权利收款"
+        ],
+        [
+          "other_capacity_disposal",
+          "其他经营资产处置收款"
+        ]
+      ],
+      "liquidity.investment.invest": [
+        [
+          "associate_jv_invest",
+          "投入联营与合营企业"
+        ],
+        [
+          "equity_invest",
+          "投入权益投资"
+        ],
+        [
+          "debt_invest",
+          "投入债权投资"
+        ],
+        [
+          "fund_wealth_invest",
+          "投入基金与理财产品"
+        ],
+        [
+          "other_invest",
+          "其他对外投资"
+        ]
+      ],
+      "liquidity.investment.recover": [
+        [
+          "associate_jv_recover",
+          "收回联营与合营投资"
+        ],
+        [
+          "equity_recover",
+          "收回权益投资"
+        ],
+        [
+          "debt_recover",
+          "收回债权投资"
+        ],
+        [
+          "fund_wealth_recover",
+          "收回基金与理财产品"
+        ],
+        [
+          "other_investment_recover",
+          "其他投资收回及处置收款"
+        ]
+      ],
+      "liquidity.investment.returns": [
+        [
+          "interest_received",
+          "收到利息"
+        ],
+        [
+          "dividend_received",
+          "收到股利及投资分配"
+        ],
+        [
+          "other_investment_return_cash",
+          "收到其他投资收益"
+        ]
+      ],
+      "liquidity.finance.borrow": [
+        [
+          "bank_borrow",
+          "取得银行及其他借款"
+        ],
+        [
+          "bond_issue",
+          "发行债券及票据"
+        ],
+        [
+          "other_financing_received",
+          "收到其他融资"
+        ]
+      ],
+      "liquidity.finance.repay": [
+        [
+          "bank_repay",
+          "偿还银行及其他借款"
+        ],
+        [
+          "bond_repay",
+          "偿还债券及票据"
+        ],
+        [
+          "lease_principal",
+          "偿还租赁本金"
+        ],
+        [
+          "other_financing_repay",
+          "偿还其他融资本金"
+        ]
+      ],
+      "liquidity.finance.cost": [
+        [
+          "interest_paid",
+          "支付借款及债券利息"
+        ],
+        [
+          "lease_interest_paid",
+          "支付租赁利息"
+        ],
+        [
+          "other_finance_cost_paid",
+          "支付其他融资费用"
+        ]
+      ],
+      "liquidity.owner.input": [
+        [
+          "share_issue_cash",
+          "收到股份发行款"
+        ],
+        [
+          "share_incentive_cash",
+          "收到股份激励款"
+        ],
+        [
+          "other_owner_cash",
+          "收到其他股东投入"
+        ]
+      ],
+      "liquidity.owner.dividend": [
+        [
+          "dividend_paid",
+          "实际支付分红"
+        ]
+      ],
+      "liquidity.owner.repurchase": [
+        [
+          "repurchase_paid",
+          "现金回购股份"
+        ]
+      ],
+      "liquidity.owner.minority": [
+        [
+          "minority_acquisition_cash",
+          "收购少数股权付款"
+        ],
+        [
+          "minority_disposal_cash",
+          "出售少数股权收款"
+        ]
+      ],
+      "liquidity.other.translation": [
+        [
+          "cash_translation",
+          "现金汇率折算影响"
+        ]
+      ],
+      "liquidity.other.scope": [
+        [
+          "acquired_cash",
+          "并入业务现金"
+        ],
+        [
+          "disposed_cash",
+          "移出业务现金"
+        ]
+      ],
+      "liquidity.other.restriction": [
+        [
+          "restriction_transfer",
+          "资金可用范围转类"
+        ]
+      ]
+    },
+    "movements": {
+      "operating": "经营形成与耗用",
+      "settlement": "经营收付",
+      "capacity": "经营投入与退出",
+      "consumption": "折旧摊销与耗竭",
+      "loss": "资产减值与恢复",
+      "investment": "投资投入与收回",
+      "returns": "投资收益",
+      "financing": "融资借入与偿还",
+      "finance_cost": "融资费用",
+      "owner": "股东投入与分配",
+      "scope": "业务并入与移出",
+      "valuation": "价值重估与汇率",
+      "transfer": "资产与义务转类",
+      "balance": "余额变化",
+      "unresolved": "未解释差额"
+    },
+    "derived": {
+      "wealth.operating.before_depreciation_loss": "税后经营盈余（折旧、损失前）",
+      "controls.equity.change": "净资产增加",
+      "controls.cash.change": "现金与存款增加",
+      "noncash.leases": "非现金资本配置"
+    }
+  },
+  "custom_fields": [],
+  "facts": {
+    "inv_c": {
+      "label": "Inventories",
+      "source_amount": 308556000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 129,
+      "basis": "Note 18 inventory total",
+      "calculation": null
+    },
+    "inv_o": {
+      "label": "Inventories",
+      "source_amount": 292498000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 129,
+      "basis": "Note 18 comparative inventory total",
+      "calculation": null
+    },
+    "tr_c": {
+      "label": "Trade receivables",
+      "source_amount": 7733000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 130,
+      "basis": "Note 19 net trade receivables",
+      "calculation": null
+    },
+    "tr_o": {
+      "label": "Trade receivables",
+      "source_amount": 7153000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 130,
+      "basis": "Note 19 comparative net trade receivables",
+      "calculation": null
+    },
+    "or_c": {
+      "label": "Other receivables, deposits and prepayments",
+      "source_amount": 41161000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 130,
+      "basis": "Note 20 current and non-current balances combined",
+      "calculation": null
+    },
+    "or_o": {
+      "label": "Other receivables, deposits and prepayments",
+      "source_amount": 11280000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 130,
+      "basis": "Note 20 comparative current and non-current balances combined",
+      "calculation": null
+    },
+    "tp_c": {
+      "label": "Trade payables",
+      "source_amount": 12099000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 136,
+      "basis": "Note 24 trade payables",
+      "calculation": null
+    },
+    "tp_o": {
+      "label": "Trade payables",
+      "source_amount": 9507000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 136,
+      "basis": "Note 24 comparative trade payables",
+      "calculation": null
+    },
+    "op_c": {
+      "label": "Operating other payables and accruals excluding dividend payable",
+      "source_amount": 59639000,
+      "status": "derived",
+      "source_id": "annual_report",
+      "page": 136,
+      "basis": "Note 25 total excluding nil dividend payable",
+      "calculation": "47,798,000-1,882,000"
+    },
+    "op_o": {
+      "label": "Operating other payables and accruals excluding dividend payable",
+      "source_amount": 45916000,
+      "status": "derived",
+      "source_id": "annual_report",
+      "page": 135,
+      "basis": "Note 25 total 47,798,000 less dividend payable 1,882,000 per Note 23(B)",
+      "calculation": "47,798,000-1,882,000"
+    },
+    "ppe_c": {
+      "label": "Property, plant and equipment",
+      "source_amount": 120650000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 119,
+      "basis": "Note 14(A) carrying amount",
+      "calculation": null
+    },
+    "ppe_o": {
+      "label": "Property, plant and equipment",
+      "source_amount": 132355000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 119,
+      "basis": "Note 14(A) comparative carrying amount",
+      "calculation": null
+    },
+    "roub_c": {
+      "label": "Leased warehouses, retail stores and production land/buildings",
+      "source_amount": 30800000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 120,
+      "basis": "Note 14(B) leased land and buildings for own use",
+      "calculation": null
+    },
+    "roub_o": {
+      "label": "Leased warehouses, retail stores and production land/buildings",
+      "source_amount": 13068000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 120,
+      "basis": "Note 14(B) comparative leased land and buildings",
+      "calculation": null
+    },
+    "land_c": {
+      "label": "Ownership interests in leasehold land held for own use",
+      "source_amount": 22751000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 120,
+      "basis": "Note 14(B) ownership interests in leasehold land",
+      "calculation": null
+    },
+    "land_o": {
+      "label": "Ownership interests in leasehold land held for own use",
+      "source_amount": 23165000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 120,
+      "basis": "Note 14(B) comparative ownership interests",
+      "calculation": null
+    },
+    "capset_c": {
+      "label": "Capital purchase prepayments less normal capital payables",
+      "source_amount": null,
+      "status": "missing",
+      "source_id": "annual_report",
+      "page": 130,
+      "basis": "Notes 20 and 25 do not separately identify capital settlement",
+      "calculation": null
+    },
+    "capset_o": {
+      "label": "Capital purchase prepayments less normal capital payables",
+      "source_amount": null,
+      "status": "missing",
+      "source_id": "annual_report",
+      "page": 130,
+      "basis": "Comparative notes do not separately identify capital settlement",
+      "calculation": null
+    },
+    "gw_c": {
+      "label": "Goodwill",
+      "source_amount": 0.0,
+      "status": "not_applicable",
+      "source_id": "annual_report",
+      "page": 79,
+      "basis": "Consolidated statement has no goodwill and no business combination goodwill disclosed",
+      "calculation": null
+    },
+    "gw_o": {
+      "label": "Goodwill",
+      "source_amount": 0.0,
+      "status": "not_applicable",
+      "source_id": "annual_report",
+      "page": 79,
+      "basis": "Comparative consolidated statement has no goodwill",
+      "calculation": null
+    },
+    "taxpay_c": {
+      "label": "Income tax payable",
+      "source_amount": 40349000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 132,
+      "basis": "Note 22(A) current tax payable",
+      "calculation": null
+    },
+    "taxpay_o": {
+      "label": "Income tax payable",
+      "source_amount": 38595000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 132,
+      "basis": "Note 22(A) opening current tax payable",
+      "calculation": null
+    },
+    "definc_c": {
+      "label": "Deferred income",
+      "source_amount": 476000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 138,
+      "basis": "Note 27 deferred equipment grant",
+      "calculation": null
+    },
+    "definc_o": {
+      "label": "Deferred income",
+      "source_amount": 497000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 138,
+      "basis": "Note 27 comparative balance",
+      "calculation": null
+    },
+    "dtland_c": {
+      "label": "Deferred tax liability—land/building revaluation surplus",
+      "source_amount": 4446000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 132,
+      "basis": "Note 22(B) land/building revaluation component",
+      "calculation": null
+    },
+    "dtland_o": {
+      "label": "Deferred tax liability—land/building revaluation surplus",
+      "source_amount": 4446000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 132,
+      "basis": "Note 22(B) opening component",
+      "calculation": null
+    },
+    "dtrou_c": {
+      "label": "Net deferred tax on ROU assets and lease liabilities",
+      "source_amount": -76000,
+      "status": "derived",
+      "source_id": "annual_report",
+      "page": 132,
+      "basis": "Note 22(B): ROU liability 4,520,000 less lease-liability asset 4,596,000",
+      "calculation": "4,520,000-4,596,000"
+    },
+    "dtrou_o": {
+      "label": "Net deferred tax on ROU assets and lease liabilities",
+      "source_amount": 294000,
+      "status": "derived",
+      "source_id": "annual_report",
+      "page": 132,
+      "basis": "Note 22(B): 2,964,000-2,670,000",
+      "calculation": "2,964,000-2,670,000"
+    },
+    "cashce_c": {
+      "label": "Cash and cash equivalents",
+      "source_amount": 79739000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 134,
+      "basis": "Note 23(A) cash and cash equivalents",
+      "calculation": null
+    },
+    "cashce_o": {
+      "label": "Cash and cash equivalents",
+      "source_amount": 41714000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 134,
+      "basis": "Note 23(A) comparative cash and cash equivalents",
+      "calculation": null
+    },
+    "fd1_c": {
+      "label": "Non-pledged fixed bank deposits within one year",
+      "source_amount": 10000000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 134,
+      "basis": "Note 23(A) fixed deposits within one year",
+      "calculation": null
+    },
+    "fd1_o": {
+      "label": "Non-pledged fixed bank deposits within one year",
+      "source_amount": 105000000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 134,
+      "basis": "Note 23(A) comparative fixed deposits within one year",
+      "calculation": null
+    },
+    "fdl_c": {
+      "label": "Non-pledged fixed bank deposits over one year",
+      "source_amount": 336000000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 134,
+      "basis": "Note 23(A) fixed deposits over one year",
+      "calculation": null
+    },
+    "fdl_o": {
+      "label": "Non-pledged fixed bank deposits over one year",
+      "source_amount": 218000000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 134,
+      "basis": "Note 23(A) comparative fixed deposits over one year",
+      "calculation": null
+    },
+    "fvpl_c": {
+      "label": "Principal guaranteed wealth management products",
+      "source_amount": 80669000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 131,
+      "basis": "Note 21 principal-guaranteed wealth products",
+      "calculation": null
+    },
+    "fvpl_o": {
+      "label": "Principal guaranteed wealth management products",
+      "source_amount": 80791000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 131,
+      "basis": "Note 21 comparative balance",
+      "calculation": null
+    },
+    "ip_c": {
+      "label": "Investment properties",
+      "source_amount": 81400000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 126,
+      "basis": "Note 15 investment properties",
+      "calculation": null
+    },
+    "ip_o": {
+      "label": "Investment properties",
+      "source_amount": 84100000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 126,
+      "basis": "Note 15 comparative balance",
+      "calculation": null
+    },
+    "lease_c": {
+      "label": "Lease liabilities",
+      "source_amount": 20774000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 137,
+      "basis": "Note 26 lease liabilities; RMB1,000 rounding difference to Note 23(B)",
+      "calculation": null
+    },
+    "lease_o": {
+      "label": "Lease liabilities",
+      "source_amount": 12114000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 137,
+      "basis": "Note 26 comparative lease liabilities",
+      "calculation": null
+    },
+    "divpay_c": {
+      "label": "Dividend payable",
+      "source_amount": 0,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 135,
+      "basis": "Note 23(B) dividend payable closing balance",
+      "calculation": null
+    },
+    "divpay_o": {
+      "label": "Dividend payable",
+      "source_amount": 1882000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 135,
+      "basis": "Note 23(B) opening dividend payable",
+      "calculation": null
+    },
+    "dtip_c": {
+      "label": "Deferred tax liability—investment property fair value",
+      "source_amount": 11549000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 132,
+      "basis": "Note 22(B) investment-property fair-value deferred tax",
+      "calculation": null
+    },
+    "dtip_o": {
+      "label": "Deferred tax liability—investment property fair value",
+      "source_amount": 11914000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 132,
+      "basis": "Note 22(B) comparative component",
+      "calculation": null
+    },
+    "ctl_eq_c": {
+      "label": "Total equity",
+      "source_amount": 970204000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 80,
+      "basis": "Consolidated statement of financial position",
+      "calculation": null
+    },
+    "ctl_eq_o": {
+      "label": "Total equity",
+      "source_amount": 883959000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 80,
+      "basis": "Comparative total equity",
+      "calculation": null
+    },
+    "ctl_parent_c": {
+      "label": "Equity attributable to owners",
+      "source_amount": 970204000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 81,
+      "basis": "Statement of changes in equity",
+      "calculation": null
+    },
+    "ctl_parent_o": {
+      "label": "Equity attributable to owners",
+      "source_amount": 883959000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 81,
+      "basis": "Opening equity attributable to owners",
+      "calculation": null
+    },
+    "ctl_nci_c": {
+      "label": "Non-controlling interests",
+      "source_amount": 0,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 81,
+      "basis": "Statement of changes in equity",
+      "calculation": null
+    },
+    "ctl_nci_o": {
+      "label": "Non-controlling interests",
+      "source_amount": 0,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 81,
+      "basis": "Statement of changes in equity opening balance",
+      "calculation": null
+    },
+    "ctl_profit": {
+      "label": "Profit for the year",
+      "source_amount": 171027000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 77,
+      "basis": "Consolidated profit for year",
+      "calculation": null
+    },
+    "rev": {
+      "label": "Revenue",
+      "source_amount": 558223000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 77,
+      "basis": "Revenue",
+      "calculation": null
+    },
+    "cos": {
+      "label": "Cost of sales",
+      "source_amount": 212921000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 77,
+      "basis": "Cost of sales",
+      "calculation": null
+    },
+    "admin": {
+      "label": "Administrative expenses",
+      "source_amount": 45432000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 77,
+      "basis": "Administrative expenses",
+      "calculation": null
+    },
+    "sell": {
+      "label": "Selling and distribution expenses",
+      "source_amount": 96945000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 77,
+      "basis": "Selling and distribution expenses",
+      "calculation": null
+    },
+    "ooe": {
+      "label": "Other operating expenses",
+      "source_amount": 30820000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 77,
+      "basis": "Other operating expenses",
+      "calculation": null
+    },
+    "adj_dep": {
+      "label": "Remove separately presented depreciation from operating costs",
+      "source_amount": 10641000,
+      "status": "derived",
+      "source_id": "annual_report",
+      "page": 111,
+      "basis": "Remove separately presented PPE and ROU depreciation",
+      "calculation": "6,090,000+4,551,000"
+    },
+    "adj_loss": {
+      "label": "Losses embedded in cost and operating expense lines",
+      "source_amount": 26281000,
+      "status": "derived",
+      "source_id": "annual_report",
+      "page": 111,
+      "basis": "Remove losses embedded in expense lines",
+      "calculation": "2,259,000-320,000+8,000+24,332,000+2,000"
+    },
+    "adj_rental": {
+      "label": "Transfer investment-property direct outgoings from operating costs",
+      "source_amount": 438000,
+      "status": "derived",
+      "source_id": "annual_report",
+      "page": 111,
+      "basis": "Transfer investment-property direct outgoings",
+      "calculation": "679,000"
+    },
+    "gov": {
+      "label": "Government grants",
+      "source_amount": 3313000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 110,
+      "basis": "Government grants",
+      "calculation": null
+    },
+    "govrel": {
+      "label": "Government grants released from deferred income",
+      "source_amount": 21000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 110,
+      "basis": "Deferred grant released",
+      "calculation": null
+    },
+    "vat": {
+      "label": "PRC VAT refunds",
+      "source_amount": 30898000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 110,
+      "basis": "PRC VAT refunds",
+      "calculation": null
+    },
+    "others": {
+      "label": "Other income—others",
+      "source_amount": 2366000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 110,
+      "basis": "Other income—others",
+      "calculation": null
+    },
+    "dep_ppe": {
+      "label": "Depreciation of property, plant and equipment",
+      "source_amount": 6090000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 111,
+      "basis": "PPE depreciation",
+      "calculation": null
+    },
+    "dep_rou": {
+      "label": "Depreciation of right-of-use assets",
+      "source_amount": 4551000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 111,
+      "basis": "ROU depreciation",
+      "calculation": null
+    },
+    "loss_inv": {
+      "label": "Write down of inventories",
+      "source_amount": 1939000,
+      "status": "derived",
+      "source_id": "annual_report",
+      "page": 111,
+      "basis": "Inventory write-down net of reversal",
+      "calculation": "2,259,000-320,000"
+    },
+    "loss_tr": {
+      "label": "Loss allowance on trade receivables",
+      "source_amount": 7000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 111,
+      "basis": "Trade receivable loss allowance",
+      "calculation": null
+    },
+    "loss_or": {
+      "label": "Loss allowance on other receivables",
+      "source_amount": 8000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 111,
+      "basis": "Other receivable loss allowance",
+      "calculation": null
+    },
+    "loss_disp": {
+      "label": "Net loss on disposal of property, plant and equipment",
+      "source_amount": 24347000,
+      "status": "derived",
+      "source_id": "annual_report",
+      "page": 111,
+      "basis": "PPE derecognition and disposal losses",
+      "calculation": "24,332,000+15,000"
+    },
+    "interest": {
+      "label": "Bank interest income",
+      "source_amount": 7725000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 110,
+      "basis": "Bank interest income",
+      "calculation": null
+    },
+    "rentgross": {
+      "label": "Gross rental income from investment properties",
+      "source_amount": 2899000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 111,
+      "basis": "Gross investment-property rent",
+      "calculation": null
+    },
+    "rentcost": {
+      "label": "Direct outgoings on investment properties",
+      "source_amount": 438000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 111,
+      "basis": "Direct investment-property outgoings",
+      "calculation": null
+    },
+    "ipfv": {
+      "label": "Fair value loss on investment properties",
+      "source_amount": 2700000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 126,
+      "basis": "Investment-property fair-value loss",
+      "calculation": null
+    },
+    "fvplgain": {
+      "label": "Fair value gain on wealth management products",
+      "source_amount": 669000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 131,
+      "basis": "FVPL fair-value gain",
+      "calculation": null
+    },
+    "fxpl": {
+      "label": "Net foreign exchange result",
+      "source_amount": -124000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 110,
+      "basis": "Net foreign-exchange loss",
+      "calculation": null
+    },
+    "fin_cost": {
+      "label": "Interest on lease liabilities",
+      "source_amount": 664000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 111,
+      "basis": "Lease interest",
+      "calculation": null
+    },
+    "div_wealth": {
+      "label": "Dividend approved in respect of previous year",
+      "source_amount": 89569000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 81,
+      "basis": "Dividend approved in respect of previous year",
+      "calculation": null
+    },
+    "minor_wealth": {
+      "label": "Acquisition of additional interest in subsidiary",
+      "source_amount": 0,
+      "status": "not_applicable",
+      "source_id": "annual_report",
+      "page": 81,
+      "basis": "No minority transaction; NCI remained nil",
+      "calculation": null
+    },
+    "translation": {
+      "label": "Exchange differences in other comprehensive income",
+      "source_amount": 4787000,
+      "status": "derived",
+      "source_id": "annual_report",
+      "page": 78,
+      "basis": "Two translation components in OCI",
+      "calculation": "1,498,000+3,289,000"
+    },
+    "liq_before": {
+      "label": "Operating profit before working capital changes",
+      "source_amount": 247598000,
+      "status": "derived",
+      "source_id": "annual_report",
+      "page": 82,
+      "basis": "Operating profit before working capital, excluding noncash deferred-grant release",
+      "calculation": "247,619,000-21,000"
+    },
+    "liq_work": {
+      "label": "Working capital changes",
+      "source_amount": 34205000,
+      "status": "derived",
+      "source_id": "annual_report",
+      "page": 82,
+      "basis": "Working-capital cash outflow adjusted for deferred-grant release",
+      "calculation": "-17,997,000-587,000-30,693,000+2,592,000+12,459,000+21,000"
+    },
+    "liq_tax": {
+      "label": "Income and withholding tax paid",
+      "source_amount": 44472000,
+      "status": "derived",
+      "source_id": "annual_report",
+      "page": 82,
+      "basis": "Income and withholding tax paid",
+      "calculation": "39,887,000+4,585,000"
+    },
+    "cap_buy": {
+      "label": "Purchase of property, plant and equipment",
+      "source_amount": 18775000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 83,
+      "basis": "PPE purchases",
+      "calculation": null
+    },
+    "cap_sell": {
+      "label": "Proceeds from disposal of property, plant and equipment",
+      "source_amount": 32000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 83,
+      "basis": "PPE disposal proceeds",
+      "calculation": null
+    },
+    "inv_buy": {
+      "label": "Purchase of wealth management products",
+      "source_amount": 160000000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 83,
+      "basis": "FVPL purchases",
+      "calculation": null
+    },
+    "inv_rec": {
+      "label": "Proceeds from sale of wealth management products",
+      "source_amount": 160789000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 83,
+      "basis": "FVPL sale proceeds",
+      "calculation": null
+    },
+    "inv_ret": {
+      "label": "Interest received",
+      "source_amount": 8529000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 82,
+      "basis": "Interest received",
+      "calculation": null
+    },
+    "fin_repay": {
+      "label": "Capital element of lease liabilities paid",
+      "source_amount": 13208000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 83,
+      "basis": "Lease principal paid",
+      "calculation": null
+    },
+    "fin_paid": {
+      "label": "Interest element of lease liabilities paid",
+      "source_amount": 664000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 83,
+      "basis": "Lease interest paid",
+      "calculation": null
+    },
+    "liq_div": {
+      "label": "Dividend paid",
+      "source_amount": 89569000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 83,
+      "basis": "Dividend paid",
+      "calculation": null
+    },
+    "liq_min": {
+      "label": "Payment for acquisition of additional subsidiary interest",
+      "source_amount": 0,
+      "status": "not_applicable",
+      "source_id": "annual_report",
+      "page": 83,
+      "basis": "No minority transaction payment",
+      "calculation": null
+    },
+    "liq_trans": {
+      "label": "Effect of foreign exchange rate changes on cash",
+      "source_amount": 4970000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 83,
+      "basis": "Exchange-rate effect on cash equivalents",
+      "calculation": null
+    },
+    "leases_nc": {
+      "label": "New leases entered",
+      "source_amount": 21974000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 121,
+      "basis": "New leases entered",
+      "calculation": null
+    },
+    "tax_nonop": {
+      "label": "Tax attributable to non-operating property valuation and dividend withholding",
+      "source_amount": 10192000,
+      "status": "derived",
+      "source_id": "annual_report",
+      "page": 112,
+      "basis": "Dividend withholding tax less investment-property deferred-tax credit",
+      "calculation": "10,557,000-365,000"
+    },
+    "tax_fin": {
+      "label": "Estimated tax shield on lease interest",
+      "source_amount": 166000,
+      "status": "estimated",
+      "source_id": "annual_report",
+      "page": 112,
+      "basis": "Representative 25% tax shield on lease interest",
+      "calculation": "664,000*25%"
+    },
+    "tax_op": {
+      "label": "Residual operating income tax",
+      "source_amount": 35433000,
+      "status": "estimated",
+      "source_id": "annual_report",
+      "page": 112,
+      "basis": "Residual operating income tax",
+      "calculation": "45,459,000-10,192,000+166,000"
+    },
+    "liq_borrow": {
+      "label": "Cash borrowings",
+      "source_amount": 0.0,
+      "status": "not_applicable",
+      "source_id": "annual_report",
+      "page": 83,
+      "basis": "No cash borrowings disclosed in cash flow statement",
+      "calculation": null
+    },
+    "liq_restrict": {
+      "label": "Net cash-range reclassification",
+      "source_amount": 0.0,
+      "status": "not_applicable",
+      "source_id": "annual_report",
+      "page": 83,
+      "basis": "Fixed-deposit placements and withdrawals are internal transfers within all cash and deposits",
+      "calculation": null
+    },
+    "liq_scope": {
+      "label": "Cash change from consolidation scope",
+      "source_amount": 0.0,
+      "status": "not_applicable",
+      "source_id": "annual_report",
+      "page": 83,
+      "basis": "No consolidation-scope cash change disclosed",
+      "calculation": null
+    },
+    "liq_owner_input": {
+      "label": "Cash equity contribution",
+      "source_amount": 0.0,
+      "status": "not_applicable",
+      "source_id": "annual_report",
+      "page": 81,
+      "basis": "No share issue or cash capital contribution disclosed",
+      "calculation": null
+    },
+    "liq_repurchase": {
+      "label": "Cash share repurchase",
+      "source_amount": 0.0,
+      "status": "not_applicable",
+      "source_id": "annual_report",
+      "page": 138,
+      "basis": "Neither company nor subsidiaries purchased, sold or redeemed listed securities",
+      "calculation": null
+    },
+    "w_other_oci": {
+      "label": "Other OCI excluding translation",
+      "source_amount": 0.0,
+      "status": "not_applicable",
+      "source_id": "annual_report",
+      "page": 65,
+      "basis": "OCI statement contains only translation differences",
+      "calculation": null
+    },
+    "w_scope": {
+      "label": "Consolidation scope and other equity change",
+      "source_amount": 0.0,
+      "status": "not_applicable",
+      "source_id": "annual_report",
+      "page": 81,
+      "basis": "No consolidation-scope equity change disclosed; NCI purchase is separately classified",
+      "calculation": null
+    },
+    "w_owner_input": {
+      "label": "Equity contribution and share compensation",
+      "source_amount": 0.0,
+      "status": "not_applicable",
+      "source_id": "annual_report",
+      "page": 81,
+      "basis": "No share issue and no share-based compensation movement",
+      "calculation": null
+    },
+    "w_repurchase": {
+      "label": "Share repurchase",
+      "source_amount": 0.0,
+      "status": "not_applicable",
+      "source_id": "annual_report",
+      "page": 138,
+      "basis": "Neither company nor subsidiaries purchased, sold or redeemed listed securities",
+      "calculation": null
+    },
+    "loss_fvpl": {
+      "label": "Loss on disposal of financial assets at FVPL",
+      "source_amount": 2000,
+      "status": "disclosed",
+      "source_id": "annual_report",
+      "page": 82,
+      "basis": "Cash-flow reconciliation adjustment",
+      "calculation": null
+    }
+  },
+  "mappings": [
+    {
+      "id": "inv_c",
+      "fact_id": "inv_c",
+      "field": "assets.working.closing",
+      "amount": 308556000,
+      "rationale": "存货属于经营周转资产",
+      "display_field": "inventory"
+    },
+    {
+      "id": "inv_o",
+      "fact_id": "inv_o",
+      "field": "assets.working.opening",
+      "amount": 292498000,
+      "rationale": "存货属于经营周转资产",
+      "display_field": "inventory"
+    },
+    {
+      "id": "tr_c",
+      "fact_id": "tr_c",
+      "field": "assets.working.closing",
+      "amount": 7733000,
+      "rationale": "客户经营债权",
+      "display_field": "customer_receivables"
+    },
+    {
+      "id": "tr_o",
+      "fact_id": "tr_o",
+      "field": "assets.working.opening",
+      "amount": 7153000,
+      "rationale": "客户经营债权",
+      "display_field": "customer_receivables"
+    },
+    {
+      "id": "or_c",
+      "fact_id": "or_c",
+      "field": "assets.working.closing",
+      "amount": 41161000,
+      "rationale": "披露项目为日常其他应收、押金、预付及非所得税项，归经营周转",
+      "display_field": "operating_prepayments"
+    },
+    {
+      "id": "or_o",
+      "fact_id": "or_o",
+      "field": "assets.working.opening",
+      "amount": 11280000,
+      "rationale": "披露项目为日常其他应收、押金、预付及非所得税项，归经营周转",
+      "display_field": "operating_prepayments"
+    },
+    {
+      "id": "tp_c",
+      "fact_id": "tp_c",
+      "field": "assets.working.closing",
+      "amount": -12099000,
+      "rationale": "供应商正常结算占款抵减经营资本",
+      "display_field": "supplier_payables"
+    },
+    {
+      "id": "tp_o",
+      "fact_id": "tp_o",
+      "field": "assets.working.opening",
+      "amount": -9507000,
+      "rationale": "供应商正常结算占款抵减经营资本",
+      "display_field": "supplier_payables"
+    },
+    {
+      "id": "op_o",
+      "fact_id": "op_o",
+      "field": "assets.working.opening",
+      "amount": -45916000,
+      "rationale": "经营应付、薪酬、销售退回、税费、加盟商押金及合同负债均为经营占款",
+      "display_field": "other_operating_payables"
+    },
+    {
+      "id": "ppe_c",
+      "fact_id": "ppe_c",
+      "field": "assets.facilities.closing",
+      "amount": 120650000,
+      "rationale": "生产、销售与服务设施及在建工程",
+      "display_field": "owned_facilities"
+    },
+    {
+      "id": "ppe_o",
+      "fact_id": "ppe_o",
+      "field": "assets.facilities.opening",
+      "amount": 132355000,
+      "rationale": "生产、销售与服务设施及在建工程",
+      "display_field": "owned_facilities"
+    },
+    {
+      "id": "roub_c",
+      "fact_id": "roub_c",
+      "field": "assets.facilities.closing",
+      "amount": 30800000,
+      "rationale": "租入仓库、门店及生产场地为经营设施",
+      "display_field": "leased_facilities"
+    },
+    {
+      "id": "roub_o",
+      "fact_id": "roub_o",
+      "field": "assets.facilities.opening",
+      "amount": 13068000,
+      "rationale": "租入仓库、门店及生产场地为经营设施",
+      "display_field": "leased_facilities"
+    },
+    {
+      "id": "land_c",
+      "fact_id": "land_c",
+      "field": "assets.rights.closing",
+      "amount": 22751000,
+      "rationale": "自用土地权利按字段边界列经营权利",
+      "display_field": "land_rights"
+    },
+    {
+      "id": "land_o",
+      "fact_id": "land_o",
+      "field": "assets.rights.opening",
+      "amount": 23165000,
+      "rationale": "自用土地权利按字段边界列经营权利",
+      "display_field": "land_rights"
+    },
+    {
+      "id": "capset_c",
+      "fact_id": "capset_c",
+      "field": "assets.capital_settlement.closing",
+      "amount": null,
+      "rationale": "资本采购预付及应付未单独披露，不能将未知写零",
+      "display_field": "undisclosed_estimate"
+    },
+    {
+      "id": "capset_o",
+      "fact_id": "capset_o",
+      "field": "assets.capital_settlement.opening",
+      "amount": null,
+      "rationale": "资本采购预付及应付未单独披露，不能将未知写零",
+      "display_field": "undisclosed_estimate"
+    },
+    {
+      "id": "gw_c",
+      "fact_id": "gw_c",
+      "field": "assets.goodwill.closing",
+      "amount": 0.0,
+      "rationale": "集团未列示商誉",
+      "display_field": "goodwill"
+    },
+    {
+      "id": "gw_o",
+      "fact_id": "gw_o",
+      "field": "assets.goodwill.opening",
+      "amount": 0.0,
+      "rationale": "集团未列示商誉",
+      "display_field": "goodwill"
+    },
+    {
+      "id": "taxpay_c",
+      "fact_id": "taxpay_c",
+      "field": "assets.other_operating.closing",
+      "amount": -40349000,
+      "rationale": "经营及所得税义务净额；逐项性质在税项活动中另拆",
+      "display_field": "operating_tax_liabilities"
+    },
+    {
+      "id": "taxpay_o",
+      "fact_id": "taxpay_o",
+      "field": "assets.other_operating.opening",
+      "amount": -38595000,
+      "rationale": "经营及所得税义务净额",
+      "display_field": "operating_tax_liabilities"
+    },
+    {
+      "id": "definc_c",
+      "fact_id": "definc_c",
+      "field": "assets.other_operating.closing",
+      "amount": -476000,
+      "rationale": "经营设施补助形成的递延经营义务",
+      "display_field": "deferred_operating_income"
+    },
+    {
+      "id": "definc_o",
+      "fact_id": "definc_o",
+      "field": "assets.other_operating.opening",
+      "amount": -497000,
+      "rationale": "经营设施补助形成的递延经营义务",
+      "display_field": "deferred_operating_income"
+    },
+    {
+      "id": "dtland_c",
+      "fact_id": "dtland_c",
+      "field": "assets.other_operating.closing",
+      "amount": -4446000,
+      "rationale": "自用经营土地建筑相关递延税为经营义务",
+      "display_field": "operating_tax_liabilities"
+    },
+    {
+      "id": "dtland_o",
+      "fact_id": "dtland_o",
+      "field": "assets.other_operating.opening",
+      "amount": -4446000,
+      "rationale": "自用经营土地建筑相关递延税为经营义务",
+      "display_field": "operating_tax_liabilities"
+    },
+    {
+      "id": "dtrou_c",
+      "fact_id": "dtrou_c",
+      "field": "assets.other_operating.closing",
+      "amount": 76000,
+      "rationale": "经营租赁资产与负债相关递延税按净义务列示",
+      "display_field": "operating_tax_liabilities"
+    },
+    {
+      "id": "dtrou_o",
+      "fact_id": "dtrou_o",
+      "field": "assets.other_operating.opening",
+      "amount": -294000,
+      "rationale": "经营租赁资产与负债相关递延税按净义务列示",
+      "display_field": "operating_tax_liabilities"
+    },
+    {
+      "id": "cashce_c",
+      "fact_id": "cashce_c",
+      "field": "assets.cash.closing",
+      "amount": 79739000,
+      "rationale": "现金及活期银行存款",
+      "display_field": "cash_equivalents"
+    },
+    {
+      "id": "cashce_o",
+      "fact_id": "cashce_o",
+      "field": "assets.cash.opening",
+      "amount": 41714000,
+      "rationale": "现金及活期银行存款",
+      "display_field": "cash_equivalents"
+    },
+    {
+      "id": "fd1_c",
+      "fact_id": "fd1_c",
+      "field": "assets.cash.closing",
+      "amount": 10000000,
+      "rationale": "全部定存按字段边界列现金并保留汇兑管制说明",
+      "display_field": "time_deposits"
+    },
+    {
+      "id": "fd1_o",
+      "fact_id": "fd1_o",
+      "field": "assets.cash.opening",
+      "amount": 105000000,
+      "rationale": "全部定存列现金",
+      "display_field": "time_deposits"
+    },
+    {
+      "id": "fdl_c",
+      "fact_id": "fdl_c",
+      "field": "assets.cash.closing",
+      "amount": 336000000,
+      "rationale": "全部定存列现金",
+      "display_field": "time_deposits"
+    },
+    {
+      "id": "fdl_o",
+      "fact_id": "fdl_o",
+      "field": "assets.cash.opening",
+      "amount": 218000000,
+      "rationale": "全部定存列现金",
+      "display_field": "time_deposits"
+    },
+    {
+      "id": "fvpl_c",
+      "fact_id": "fvpl_c",
+      "field": "assets.investments.closing",
+      "amount": 80669000,
+      "rationale": "银行理财为对外投资而非经营资产",
+      "display_field": "funds_wealth_products"
+    },
+    {
+      "id": "fvpl_o",
+      "fact_id": "fvpl_o",
+      "field": "assets.investments.opening",
+      "amount": 80791000,
+      "rationale": "银行理财为对外投资",
+      "display_field": "funds_wealth_products"
+    },
+    {
+      "id": "ip_c",
+      "fact_id": "ip_c",
+      "field": "assets.other_assets.closing",
+      "amount": 81400000,
+      "rationale": "对外出租物业并非木制品主营经营资产，列其他非经营资产",
+      "display_field": "investment_property"
+    },
+    {
+      "id": "ip_o",
+      "fact_id": "ip_o",
+      "field": "assets.other_assets.opening",
+      "amount": 84100000,
+      "rationale": "对外出租物业并非木制品主营经营资产",
+      "display_field": "investment_property"
+    },
+    {
+      "id": "lease_c",
+      "fact_id": "lease_c",
+      "field": "assets.financing.closing",
+      "amount": 20774000,
+      "rationale": "租赁负债产生融资费用，属融资负债",
+      "display_field": "lease_liabilities"
+    },
+    {
+      "id": "lease_o",
+      "fact_id": "lease_o",
+      "field": "assets.financing.opening",
+      "amount": 12114000,
+      "rationale": "租赁负债属融资负债",
+      "display_field": "lease_liabilities"
+    },
+    {
+      "id": "divpay_o",
+      "fact_id": "divpay_o",
+      "field": "assets.shareholder.opening",
+      "amount": 1882000,
+      "rationale": "已确认未付股利为股东义务",
+      "display_field": "dividends_payable"
+    },
+    {
+      "id": "dtip_c",
+      "fact_id": "dtip_c",
+      "field": "assets.other_liabilities.closing",
+      "amount": 11549000,
+      "rationale": "非核心出租物业相关递延税单列非经营负债",
+      "display_field": "nonoperating_tax_liabilities"
+    },
+    {
+      "id": "dtip_o",
+      "fact_id": "dtip_o",
+      "field": "assets.other_liabilities.opening",
+      "amount": 11914000,
+      "rationale": "非核心出租物业相关递延税单列非经营负债",
+      "display_field": "nonoperating_tax_liabilities"
+    },
+    {
+      "id": "ctl_eq_c",
+      "fact_id": "ctl_eq_c",
+      "field": "controls.equity.closing",
+      "amount": 970204000,
+      "rationale": "权益控制数",
+      "display_field": null
+    },
+    {
+      "id": "ctl_eq_o",
+      "fact_id": "ctl_eq_o",
+      "field": "controls.equity.opening",
+      "amount": 883959000,
+      "rationale": "权益控制数",
+      "display_field": null
+    },
+    {
+      "id": "ctl_parent_c",
+      "fact_id": "ctl_parent_c",
+      "field": "controls.parent.closing",
+      "amount": 970204000,
+      "rationale": "母公司股东权益控制数",
+      "display_field": null
+    },
+    {
+      "id": "ctl_parent_o",
+      "fact_id": "ctl_parent_o",
+      "field": "controls.parent.opening",
+      "amount": 883959000,
+      "rationale": "母公司股东权益控制数",
+      "display_field": null
+    },
+    {
+      "id": "ctl_nci_c",
+      "fact_id": "ctl_nci_c",
+      "field": "controls.minority.closing",
+      "amount": 0,
+      "rationale": "少数股权控制数",
+      "display_field": null
+    },
+    {
+      "id": "ctl_nci_o",
+      "fact_id": "ctl_nci_o",
+      "field": "controls.minority.opening",
+      "amount": 0,
+      "rationale": "少数股权控制数",
+      "display_field": null
+    },
+    {
+      "id": "ctl_profit",
+      "fact_id": "ctl_profit",
+      "field": "controls.profit",
+      "amount": 171027000,
+      "rationale": "本年损益控制数",
+      "display_field": null
+    },
+    {
+      "id": "rev",
+      "fact_id": "rev",
+      "field": "wealth.operating.revenue",
+      "amount": 558223000,
+      "rationale": "木制品销售及相关经营收入",
+      "display_field": "undivided_operating_revenue"
+    },
+    {
+      "id": "cos",
+      "fact_id": "cos",
+      "field": "wealth.operating.costs",
+      "amount": -212921000,
+      "rationale": "先列原费用，折旧与损失另以调整剔除",
+      "display_field": "product_service_costs"
+    },
+    {
+      "id": "admin",
+      "fact_id": "admin",
+      "field": "wealth.operating.costs",
+      "amount": -45432000,
+      "rationale": "经营管理费用",
+      "display_field": "administrative"
+    },
+    {
+      "id": "sell",
+      "fact_id": "sell",
+      "field": "wealth.operating.costs",
+      "amount": -96945000,
+      "rationale": "经营销售费用",
+      "display_field": "selling_distribution"
+    },
+    {
+      "id": "ooe",
+      "fact_id": "ooe",
+      "field": "wealth.operating.costs",
+      "amount": -30820000,
+      "rationale": "其他经营费用",
+      "display_field": "other_operating_costs"
+    },
+    {
+      "id": "adj_dep",
+      "fact_id": "adj_dep",
+      "field": "wealth.operating.costs",
+      "amount": 10641000,
+      "rationale": "折旧单列，必须从前置费用剔除",
+      "display_field": "depreciation_adjustment"
+    },
+    {
+      "id": "adj_rental",
+      "fact_id": "adj_rental",
+      "field": "wealth.operating.costs",
+      "amount": 438000,
+      "rationale": "投资物业为非核心出租资产，其直接费用与租金一并转入非经营收益",
+      "display_field": "nonoperating_adjustment"
+    },
+    {
+      "id": "gov",
+      "fact_id": "gov",
+      "field": "wealth.operating.other_income",
+      "amount": 3313000,
+      "rationale": "支持海外营销及稳定就业，属经营补助",
+      "display_field": "grants_subsidies"
+    },
+    {
+      "id": "govrel",
+      "fact_id": "govrel",
+      "field": "wealth.operating.other_income",
+      "amount": 21000,
+      "rationale": "经营设施补助摊销",
+      "display_field": "grants_subsidies"
+    },
+    {
+      "id": "vat",
+      "fact_id": "vat",
+      "field": "wealth.operating.other_income",
+      "amount": 30898000,
+      "rationale": "残疾员工政策相关经营增值税返还",
+      "display_field": "tax_refunds"
+    },
+    {
+      "id": "others",
+      "fact_id": "others",
+      "field": "wealth.operating.other_income",
+      "amount": 2366000,
+      "rationale": "未进一步细分的其他经营收入",
+      "display_field": "other_operating_income"
+    },
+    {
+      "id": "dep_ppe",
+      "fact_id": "dep_ppe",
+      "field": "wealth.operating.depreciation",
+      "amount": -6090000,
+      "rationale": "经营设施折旧单列",
+      "display_field": "facility_depreciation"
+    },
+    {
+      "id": "dep_rou",
+      "fact_id": "dep_rou",
+      "field": "wealth.operating.depreciation",
+      "amount": -4551000,
+      "rationale": "经营使用权资产折旧单列",
+      "display_field": "facility_depreciation"
+    },
+    {
+      "id": "loss_inv",
+      "fact_id": "loss_inv",
+      "field": "wealth.operating.loss",
+      "amount": -1939000,
+      "rationale": "经营存货损失单列",
+      "display_field": "inventory_loss"
+    },
+    {
+      "id": "loss_tr",
+      "fact_id": "loss_tr",
+      "field": "wealth.operating.loss",
+      "amount": -7000,
+      "rationale": "经营客户债权损失",
+      "display_field": "credit_loss"
+    },
+    {
+      "id": "loss_or",
+      "fact_id": "loss_or",
+      "field": "wealth.operating.loss",
+      "amount": -8000,
+      "rationale": "经营其他应收损失",
+      "display_field": "credit_loss"
+    },
+    {
+      "id": "loss_disp",
+      "fact_id": "loss_disp",
+      "field": "wealth.operating.loss",
+      "amount": -24347000,
+      "rationale": "经营设施处置损失",
+      "display_field": "disposal_derecognition_loss"
+    },
+    {
+      "id": "interest",
+      "fact_id": "interest",
+      "field": "wealth.nonoperating.returns",
+      "amount": 7725000,
+      "rationale": "现金存款产生非经营收益",
+      "display_field": "interest_income"
+    },
+    {
+      "id": "rentgross",
+      "fact_id": "rentgross",
+      "field": "wealth.nonoperating.returns",
+      "amount": 2899000,
+      "rationale": "非核心投资物业租金收益",
+      "display_field": "nonoperating_rent"
+    },
+    {
+      "id": "rentcost",
+      "fact_id": "rentcost",
+      "field": "wealth.nonoperating.returns",
+      "amount": -438000,
+      "rationale": "与非经营租赁收益配套转出直接费用",
+      "display_field": "nonoperating_rent"
+    },
+    {
+      "id": "ipfv",
+      "fact_id": "ipfv",
+      "field": "wealth.nonoperating.valuation",
+      "amount": -2700000,
+      "rationale": "非核心投资物业重估损失",
+      "display_field": "property_valuation"
+    },
+    {
+      "id": "fvplgain",
+      "fact_id": "fvplgain",
+      "field": "wealth.nonoperating.valuation",
+      "amount": 669000,
+      "rationale": "理财投资公允价值收益",
+      "display_field": "investment_valuation"
+    },
+    {
+      "id": "fxpl",
+      "fact_id": "fxpl",
+      "field": "wealth.nonoperating.valuation",
+      "amount": -124000,
+      "rationale": "汇兑损益不属于产品经营贡献；原表文字称loss但金额以正数计入合计",
+      "display_field": "foreign_exchange"
+    },
+    {
+      "id": "fin_cost",
+      "fact_id": "fin_cost",
+      "field": "wealth.finance.cost",
+      "amount": -664000,
+      "rationale": "租赁融资费用",
+      "display_field": "lease_interest"
+    },
+    {
+      "id": "div_wealth",
+      "fact_id": "div_wealth",
+      "field": "wealth.owner.dividend",
+      "amount": -89569000,
+      "rationale": "当年批准分红作为权益分配",
+      "display_field": "dividend_declared"
+    },
+    {
+      "id": "minor_wealth",
+      "fact_id": "minor_wealth",
+      "field": "wealth.owner.minority",
+      "amount": 0,
+      "rationale": "向少数股东返还出资并取得权益，属于少数股权交易",
+      "display_field": "minority_acquisition"
+    },
+    {
+      "id": "translation",
+      "fact_id": "translation",
+      "field": "wealth.other.translation",
+      "amount": 4787000,
+      "rationale": "两项报表折算差额净额",
+      "display_field": "statement_translation"
+    },
+    {
+      "id": "liq_before",
+      "fact_id": "liq_before",
+      "field": "liquidity.operating.before_working",
+      "amount": 247598000,
+      "rationale": "经营收付在周转和缴税前",
+      "display_field": "operating_base_cash"
+    },
+    {
+      "id": "liq_work",
+      "fact_id": "liq_work",
+      "field": "liquidity.operating.working",
+      "amount": -34205000,
+      "rationale": "经营周转资金净占用",
+      "display_field": "undivided_working_cash"
+    },
+    {
+      "id": "liq_tax",
+      "fact_id": "liq_tax",
+      "field": "liquidity.operating.tax",
+      "amount": -44472000,
+      "rationale": "实际缴纳所得税及股息预提税",
+      "display_field": "undivided_tax_paid"
+    },
+    {
+      "id": "cap_buy",
+      "fact_id": "cap_buy",
+      "field": "liquidity.capacity.purchase",
+      "amount": -18775000,
+      "rationale": "经营设施现金购建",
+      "display_field": "facility_purchase"
+    },
+    {
+      "id": "cap_sell",
+      "fact_id": "cap_sell",
+      "field": "liquidity.capacity.disposal",
+      "amount": 32000,
+      "rationale": "经营设施处置收款",
+      "display_field": "facility_disposal"
+    },
+    {
+      "id": "inv_buy",
+      "fact_id": "inv_buy",
+      "field": "liquidity.investment.invest",
+      "amount": -160000000,
+      "rationale": "对外理财投入",
+      "display_field": "fund_wealth_invest"
+    },
+    {
+      "id": "inv_rec",
+      "fact_id": "inv_rec",
+      "field": "liquidity.investment.recover",
+      "amount": 160789000,
+      "rationale": "收回理财及处置收款",
+      "display_field": "fund_wealth_recover"
+    },
+    {
+      "id": "inv_ret",
+      "fact_id": "inv_ret",
+      "field": "liquidity.investment.returns",
+      "amount": 8529000,
+      "rationale": "收到存款利息",
+      "display_field": "interest_received"
+    },
+    {
+      "id": "fin_repay",
+      "fact_id": "fin_repay",
+      "field": "liquidity.finance.repay",
+      "amount": -13208000,
+      "rationale": "偿还租赁融资本金",
+      "display_field": "lease_principal"
+    },
+    {
+      "id": "fin_paid",
+      "fact_id": "fin_paid",
+      "field": "liquidity.finance.cost",
+      "amount": -664000,
+      "rationale": "支付租赁融资费用",
+      "display_field": "lease_interest_paid"
+    },
+    {
+      "id": "liq_div",
+      "fact_id": "liq_div",
+      "field": "liquidity.owner.dividend",
+      "amount": -89569000,
+      "rationale": "实际支付分红",
+      "display_field": "dividend_paid"
+    },
+    {
+      "id": "liq_min",
+      "fact_id": "liq_min",
+      "field": "liquidity.owner.minority",
+      "amount": 0,
+      "rationale": "少数股权交易现金流出",
+      "display_field": "minority_acquisition_cash"
+    },
+    {
+      "id": "liq_trans",
+      "fact_id": "liq_trans",
+      "field": "liquidity.other.translation",
+      "amount": 4970000,
+      "rationale": "现金及现金等价物汇率折算影响",
+      "display_field": "cash_translation"
+    },
+    {
+      "id": "leases_nc",
+      "fact_id": "leases_nc",
+      "field": "noncash.leases",
+      "amount": 21974000,
+      "rationale": "新租赁形成非现金使用权资产和租赁负债",
+      "display_field": null
+    },
+    {
+      "id": "adj_loss",
+      "fact_id": "adj_loss",
+      "field": "wealth.operating.costs",
+      "amount": 26281000,
+      "rationale": "Only losses embedded in cost of sales/operating expense are added back; trade-receivable allowance and disposal loss are already separately presented within Note 6 decomposition",
+      "display_field": "asset_loss_adjustment"
+    },
+    {
+      "id": "tax_nonop",
+      "fact_id": "tax_nonop",
+      "field": "wealth.nonoperating.tax",
+      "amount": -10192000,
+      "rationale": "Dividend withholding and tax on non-core investment-property valuation belong to non-operating returns/valuation",
+      "display_field": "undivided_nonoperating_tax"
+    },
+    {
+      "id": "tax_fin",
+      "fact_id": "tax_fin",
+      "field": "wealth.finance.tax",
+      "amount": 166000,
+      "rationale": "Representative financing tax benefit; no itemised financing tax effect disclosed",
+      "display_field": "finance_tax_effect"
+    },
+    {
+      "id": "tax_op",
+      "fact_id": "tax_op",
+      "field": "wealth.operating.tax",
+      "amount": -35433000,
+      "rationale": "Residual tax assigned to core operations so all tax allocations reconcile to disclosed total expense",
+      "display_field": "allocated_operating_tax"
+    },
+    {
+      "id": "liq_borrow",
+      "fact_id": "liq_borrow",
+      "field": "liquidity.finance.borrow",
+      "amount": 0.0,
+      "rationale": "Explicitly disclosed absence or no applicable transaction during 2024",
+      "display_field": "bank_borrow"
+    },
+    {
+      "id": "liq_restrict",
+      "fact_id": "liq_restrict",
+      "field": "liquidity.other.restriction",
+      "amount": 0.0,
+      "rationale": "Explicitly disclosed absence or no applicable transaction during 2024",
+      "display_field": "restriction_transfer"
+    },
+    {
+      "id": "liq_scope",
+      "fact_id": "liq_scope",
+      "field": "liquidity.other.scope",
+      "amount": 0.0,
+      "rationale": "Explicitly disclosed absence or no applicable transaction during 2024",
+      "display_field": "acquired_cash"
+    },
+    {
+      "id": "liq_owner_input",
+      "fact_id": "liq_owner_input",
+      "field": "liquidity.owner.input",
+      "amount": 0.0,
+      "rationale": "Explicitly disclosed absence or no applicable transaction during 2024",
+      "display_field": "other_owner_cash"
+    },
+    {
+      "id": "liq_repurchase",
+      "fact_id": "liq_repurchase",
+      "field": "liquidity.owner.repurchase",
+      "amount": 0.0,
+      "rationale": "Explicitly disclosed absence or no applicable transaction during 2024",
+      "display_field": "repurchase_paid"
+    },
+    {
+      "id": "w_other_oci",
+      "fact_id": "w_other_oci",
+      "field": "wealth.other.other_oci",
+      "amount": 0.0,
+      "rationale": "Explicitly disclosed absence or no applicable transaction during 2024",
+      "display_field": "other_oci"
+    },
+    {
+      "id": "w_scope",
+      "fact_id": "w_scope",
+      "field": "wealth.other.scope",
+      "amount": 0.0,
+      "rationale": "Explicitly disclosed absence or no applicable transaction during 2024",
+      "display_field": "other_equity_change"
+    },
+    {
+      "id": "w_owner_input",
+      "fact_id": "w_owner_input",
+      "field": "wealth.owner.input",
+      "amount": 0.0,
+      "rationale": "Explicitly disclosed absence or no applicable transaction during 2024",
+      "display_field": "undivided_owner_input"
+    },
+    {
+      "id": "w_repurchase",
+      "fact_id": "w_repurchase",
+      "field": "wealth.owner.repurchase",
+      "amount": 0.0,
+      "rationale": "Explicitly disclosed absence or no applicable transaction during 2024",
+      "display_field": "share_repurchase"
+    },
+    {
+      "id": "divpay_c",
+      "fact_id": "divpay_c",
+      "field": "assets.shareholder.closing",
+      "amount": 0,
+      "rationale": "Use the economically continuous roll-forward amount; preserve the conflicting Note 25 version in anomaly disclosure",
+      "display_field": "dividends_payable"
+    },
+    {
+      "id": "op_c",
+      "fact_id": "op_c",
+      "field": "assets.working.closing",
+      "amount": -59639000,
+      "rationale": "Normal operating settlement obligations exclude the separately classified shareholder dividend payable; reconciled dividend balance chosen because Note 25 detail conflicts",
+      "display_field": "other_operating_payables"
+    },
+    {
+      "id": "loss_fvpl",
+      "fact_id": "loss_fvpl",
+      "field": "wealth.nonoperating.returns",
+      "amount": -2000,
+      "rationale": "理财产品处置损失属于对外投资已实现回报，不属于梳具经营资产损失；金额虽小仍纠正经济分类",
+      "display_field": "realized_investment_return"
+    }
+  ],
+  "records": {
+    "assets.capital_settlement.closing": {
+      "amount": null,
+      "status": "missing",
+      "basis": "annual_report p.130: Notes 20 and 25 do not separately identify capital settlement",
+      "details": [
+        {
+          "id": "capset_c",
+          "display_field": "undisclosed_estimate",
+          "label": "未单列资本采购结算估计",
+          "custom": false,
+          "raw_label": "Capital purchase prepayments less normal capital payables",
+          "source_amount": null,
+          "amount": null,
+          "source": "annual_report p.130",
+          "status": "missing",
+          "rationale": "资本采购预付及应付未单独披露，不能将未知写零"
+        }
+      ]
+    },
+    "assets.capital_settlement.opening": {
+      "amount": null,
+      "status": "missing",
+      "basis": "annual_report p.130: Comparative notes do not separately identify capital settlement",
+      "details": [
+        {
+          "id": "capset_o",
+          "display_field": "undisclosed_estimate",
+          "label": "未单列资本采购结算估计",
+          "custom": false,
+          "raw_label": "Capital purchase prepayments less normal capital payables",
+          "source_amount": null,
+          "amount": null,
+          "source": "annual_report p.130",
+          "status": "missing",
+          "rationale": "资本采购预付及应付未单独披露，不能将未知写零"
+        }
+      ]
+    },
+    "assets.cash.closing": {
+      "amount": 425739000,
+      "status": "derived",
+      "basis": "annual_report p.134: Note 23(A) cash and cash equivalents; annual_report p.134: Note 23(A) fixed deposits within one year; annual_report p.134: Note 23(A) fixed deposits over one year",
+      "details": [
+        {
+          "id": "cashce_c",
+          "display_field": "cash_equivalents",
+          "label": "现金及现金等价物",
+          "custom": false,
+          "raw_label": "Cash and cash equivalents",
+          "source_amount": 79739000,
+          "amount": 79739000,
+          "source": "annual_report p.134",
+          "status": "disclosed",
+          "rationale": "现金及活期银行存款"
+        },
+        {
+          "id": "fd1_c",
+          "display_field": "time_deposits",
+          "label": "定期存款",
+          "custom": false,
+          "raw_label": "Non-pledged fixed bank deposits within one year",
+          "source_amount": 10000000,
+          "amount": 10000000,
+          "source": "annual_report p.134",
+          "status": "disclosed",
+          "rationale": "全部定存按字段边界列现金并保留汇兑管制说明"
+        },
+        {
+          "id": "fdl_c",
+          "display_field": "time_deposits",
+          "label": "定期存款",
+          "custom": false,
+          "raw_label": "Non-pledged fixed bank deposits over one year",
+          "source_amount": 336000000,
+          "amount": 336000000,
+          "source": "annual_report p.134",
+          "status": "disclosed",
+          "rationale": "全部定存列现金"
+        }
+      ]
+    },
+    "assets.cash.opening": {
+      "amount": 364714000,
+      "status": "derived",
+      "basis": "annual_report p.134: Note 23(A) comparative cash and cash equivalents; annual_report p.134: Note 23(A) comparative fixed deposits within one year; annual_report p.134: Note 23(A) comparative fixed deposits over one year",
+      "details": [
+        {
+          "id": "cashce_o",
+          "display_field": "cash_equivalents",
+          "label": "现金及现金等价物",
+          "custom": false,
+          "raw_label": "Cash and cash equivalents",
+          "source_amount": 41714000,
+          "amount": 41714000,
+          "source": "annual_report p.134",
+          "status": "disclosed",
+          "rationale": "现金及活期银行存款"
+        },
+        {
+          "id": "fd1_o",
+          "display_field": "time_deposits",
+          "label": "定期存款",
+          "custom": false,
+          "raw_label": "Non-pledged fixed bank deposits within one year",
+          "source_amount": 105000000,
+          "amount": 105000000,
+          "source": "annual_report p.134",
+          "status": "disclosed",
+          "rationale": "全部定存列现金"
+        },
+        {
+          "id": "fdl_o",
+          "display_field": "time_deposits",
+          "label": "定期存款",
+          "custom": false,
+          "raw_label": "Non-pledged fixed bank deposits over one year",
+          "source_amount": 218000000,
+          "amount": 218000000,
+          "source": "annual_report p.134",
+          "status": "disclosed",
+          "rationale": "全部定存列现金"
+        }
+      ]
+    },
+    "assets.facilities.closing": {
+      "amount": 151450000,
+      "status": "derived",
+      "basis": "annual_report p.119: Note 14(A) carrying amount; annual_report p.120: Note 14(B) leased land and buildings for own use",
+      "details": [
+        {
+          "id": "ppe_c",
+          "display_field": "owned_facilities",
+          "label": "自有经营设施",
+          "custom": false,
+          "raw_label": "Property, plant and equipment",
+          "source_amount": 120650000,
+          "amount": 120650000,
+          "source": "annual_report p.119",
+          "status": "disclosed",
+          "rationale": "生产、销售与服务设施及在建工程"
+        },
+        {
+          "id": "roub_c",
+          "display_field": "leased_facilities",
+          "label": "租入经营设施",
+          "custom": false,
+          "raw_label": "Leased warehouses, retail stores and production land/buildings",
+          "source_amount": 30800000,
+          "amount": 30800000,
+          "source": "annual_report p.120",
+          "status": "disclosed",
+          "rationale": "租入仓库、门店及生产场地为经营设施"
+        }
+      ]
+    },
+    "assets.facilities.opening": {
+      "amount": 145423000,
+      "status": "derived",
+      "basis": "annual_report p.119: Note 14(A) comparative carrying amount; annual_report p.120: Note 14(B) comparative leased land and buildings",
+      "details": [
+        {
+          "id": "ppe_o",
+          "display_field": "owned_facilities",
+          "label": "自有经营设施",
+          "custom": false,
+          "raw_label": "Property, plant and equipment",
+          "source_amount": 132355000,
+          "amount": 132355000,
+          "source": "annual_report p.119",
+          "status": "disclosed",
+          "rationale": "生产、销售与服务设施及在建工程"
+        },
+        {
+          "id": "roub_o",
+          "display_field": "leased_facilities",
+          "label": "租入经营设施",
+          "custom": false,
+          "raw_label": "Leased warehouses, retail stores and production land/buildings",
+          "source_amount": 13068000,
+          "amount": 13068000,
+          "source": "annual_report p.120",
+          "status": "disclosed",
+          "rationale": "租入仓库、门店及生产场地为经营设施"
+        }
+      ]
+    },
+    "assets.financing.closing": {
+      "amount": 20774000,
+      "status": "disclosed",
+      "basis": "annual_report p.137: Note 26 lease liabilities; RMB1,000 rounding difference to Note 23(B)",
+      "details": [
+        {
+          "id": "lease_c",
+          "display_field": "lease_liabilities",
+          "label": "租赁负债",
+          "custom": false,
+          "raw_label": "Lease liabilities",
+          "source_amount": 20774000,
+          "amount": 20774000,
+          "source": "annual_report p.137",
+          "status": "disclosed",
+          "rationale": "租赁负债产生融资费用，属融资负债"
+        }
+      ]
+    },
+    "assets.financing.opening": {
+      "amount": 12114000,
+      "status": "disclosed",
+      "basis": "annual_report p.137: Note 26 comparative lease liabilities",
+      "details": [
+        {
+          "id": "lease_o",
+          "display_field": "lease_liabilities",
+          "label": "租赁负债",
+          "custom": false,
+          "raw_label": "Lease liabilities",
+          "source_amount": 12114000,
+          "amount": 12114000,
+          "source": "annual_report p.137",
+          "status": "disclosed",
+          "rationale": "租赁负债属融资负债"
+        }
+      ]
+    },
+    "assets.goodwill.closing": {
+      "amount": 0.0,
+      "status": "not_applicable",
+      "basis": "annual_report p.79: Consolidated statement has no goodwill and no business combination goodwill disclosed",
+      "details": [
+        {
+          "id": "gw_c",
+          "display_field": "goodwill",
+          "label": "商誉",
+          "custom": false,
+          "raw_label": "Goodwill",
+          "source_amount": 0.0,
+          "amount": 0.0,
+          "source": "annual_report p.79",
+          "status": "not_applicable",
+          "rationale": "集团未列示商誉"
+        }
+      ]
+    },
+    "assets.goodwill.opening": {
+      "amount": 0.0,
+      "status": "not_applicable",
+      "basis": "annual_report p.79: Comparative consolidated statement has no goodwill",
+      "details": [
+        {
+          "id": "gw_o",
+          "display_field": "goodwill",
+          "label": "商誉",
+          "custom": false,
+          "raw_label": "Goodwill",
+          "source_amount": 0.0,
+          "amount": 0.0,
+          "source": "annual_report p.79",
+          "status": "not_applicable",
+          "rationale": "集团未列示商誉"
+        }
+      ]
+    },
+    "assets.investments.closing": {
+      "amount": 80669000,
+      "status": "disclosed",
+      "basis": "annual_report p.131: Note 21 principal-guaranteed wealth products",
+      "details": [
+        {
+          "id": "fvpl_c",
+          "display_field": "funds_wealth_products",
+          "label": "基金与理财产品",
+          "custom": false,
+          "raw_label": "Principal guaranteed wealth management products",
+          "source_amount": 80669000,
+          "amount": 80669000,
+          "source": "annual_report p.131",
+          "status": "disclosed",
+          "rationale": "银行理财为对外投资而非经营资产"
+        }
+      ]
+    },
+    "assets.investments.opening": {
+      "amount": 80791000,
+      "status": "disclosed",
+      "basis": "annual_report p.131: Note 21 comparative balance",
+      "details": [
+        {
+          "id": "fvpl_o",
+          "display_field": "funds_wealth_products",
+          "label": "基金与理财产品",
+          "custom": false,
+          "raw_label": "Principal guaranteed wealth management products",
+          "source_amount": 80791000,
+          "amount": 80791000,
+          "source": "annual_report p.131",
+          "status": "disclosed",
+          "rationale": "银行理财为对外投资"
+        }
+      ]
+    },
+    "assets.other_assets.closing": {
+      "amount": 81400000,
+      "status": "disclosed",
+      "basis": "annual_report p.126: Note 15 investment properties",
+      "details": [
+        {
+          "id": "ip_c",
+          "display_field": "investment_property",
+          "label": "非主业投资物业",
+          "custom": false,
+          "raw_label": "Investment properties",
+          "source_amount": 81400000,
+          "amount": 81400000,
+          "source": "annual_report p.126",
+          "status": "disclosed",
+          "rationale": "对外出租物业并非木制品主营经营资产，列其他非经营资产"
+        }
+      ]
+    },
+    "assets.other_assets.opening": {
+      "amount": 84100000,
+      "status": "disclosed",
+      "basis": "annual_report p.126: Note 15 comparative balance",
+      "details": [
+        {
+          "id": "ip_o",
+          "display_field": "investment_property",
+          "label": "非主业投资物业",
+          "custom": false,
+          "raw_label": "Investment properties",
+          "source_amount": 84100000,
+          "amount": 84100000,
+          "source": "annual_report p.126",
+          "status": "disclosed",
+          "rationale": "对外出租物业并非木制品主营经营资产"
+        }
+      ]
+    },
+    "assets.other_liabilities.closing": {
+      "amount": 11549000,
+      "status": "disclosed",
+      "basis": "annual_report p.132: Note 22(B) investment-property fair-value deferred tax",
+      "details": [
+        {
+          "id": "dtip_c",
+          "display_field": "nonoperating_tax_liabilities",
+          "label": "非经营税项义务",
+          "custom": false,
+          "raw_label": "Deferred tax liability—investment property fair value",
+          "source_amount": 11549000,
+          "amount": 11549000,
+          "source": "annual_report p.132",
+          "status": "disclosed",
+          "rationale": "非核心出租物业相关递延税单列非经营负债"
+        }
+      ]
+    },
+    "assets.other_liabilities.opening": {
+      "amount": 11914000,
+      "status": "disclosed",
+      "basis": "annual_report p.132: Note 22(B) comparative component",
+      "details": [
+        {
+          "id": "dtip_o",
+          "display_field": "nonoperating_tax_liabilities",
+          "label": "非经营税项义务",
+          "custom": false,
+          "raw_label": "Deferred tax liability—investment property fair value",
+          "source_amount": 11914000,
+          "amount": 11914000,
+          "source": "annual_report p.132",
+          "status": "disclosed",
+          "rationale": "非核心出租物业相关递延税单列非经营负债"
+        }
+      ]
+    },
+    "assets.other_operating.closing": {
+      "amount": -45195000,
+      "status": "derived",
+      "basis": "annual_report p.132: Note 22(A) current tax payable; annual_report p.138: Note 27 deferred equipment grant; annual_report p.132: Note 22(B) land/building revaluation component; annual_report p.132: Note 22(B): ROU liability 4,520,000 less lease-liability asset 4,596,000",
+      "details": [
+        {
+          "id": "taxpay_c",
+          "display_field": "operating_tax_liabilities",
+          "label": "经营税项义务",
+          "custom": false,
+          "raw_label": "Income tax payable",
+          "source_amount": 40349000,
+          "amount": -40349000,
+          "source": "annual_report p.132",
+          "status": "disclosed",
+          "rationale": "经营及所得税义务净额；逐项性质在税项活动中另拆"
+        },
+        {
+          "id": "definc_c",
+          "display_field": "deferred_operating_income",
+          "label": "递延经营收益",
+          "custom": false,
+          "raw_label": "Deferred income",
+          "source_amount": 476000,
+          "amount": -476000,
+          "source": "annual_report p.138",
+          "status": "disclosed",
+          "rationale": "经营设施补助形成的递延经营义务"
+        },
+        {
+          "id": "dtland_c",
+          "display_field": "operating_tax_liabilities",
+          "label": "经营税项义务",
+          "custom": false,
+          "raw_label": "Deferred tax liability—land/building revaluation surplus",
+          "source_amount": 4446000,
+          "amount": -4446000,
+          "source": "annual_report p.132",
+          "status": "disclosed",
+          "rationale": "自用经营土地建筑相关递延税为经营义务"
+        },
+        {
+          "id": "dtrou_c",
+          "display_field": "operating_tax_liabilities",
+          "label": "经营税项义务",
+          "custom": false,
+          "raw_label": "Net deferred tax on ROU assets and lease liabilities",
+          "source_amount": -76000,
+          "amount": 76000,
+          "source": "annual_report p.132",
+          "status": "derived",
+          "rationale": "经营租赁资产与负债相关递延税按净义务列示"
+        }
+      ]
+    },
+    "assets.other_operating.opening": {
+      "amount": -43832000,
+      "status": "derived",
+      "basis": "annual_report p.132: Note 22(A) opening current tax payable; annual_report p.138: Note 27 comparative balance; annual_report p.132: Note 22(B) opening component; annual_report p.132: Note 22(B): 2,964,000-2,670,000",
+      "details": [
+        {
+          "id": "taxpay_o",
+          "display_field": "operating_tax_liabilities",
+          "label": "经营税项义务",
+          "custom": false,
+          "raw_label": "Income tax payable",
+          "source_amount": 38595000,
+          "amount": -38595000,
+          "source": "annual_report p.132",
+          "status": "disclosed",
+          "rationale": "经营及所得税义务净额"
+        },
+        {
+          "id": "definc_o",
+          "display_field": "deferred_operating_income",
+          "label": "递延经营收益",
+          "custom": false,
+          "raw_label": "Deferred income",
+          "source_amount": 497000,
+          "amount": -497000,
+          "source": "annual_report p.138",
+          "status": "disclosed",
+          "rationale": "经营设施补助形成的递延经营义务"
+        },
+        {
+          "id": "dtland_o",
+          "display_field": "operating_tax_liabilities",
+          "label": "经营税项义务",
+          "custom": false,
+          "raw_label": "Deferred tax liability—land/building revaluation surplus",
+          "source_amount": 4446000,
+          "amount": -4446000,
+          "source": "annual_report p.132",
+          "status": "disclosed",
+          "rationale": "自用经营土地建筑相关递延税为经营义务"
+        },
+        {
+          "id": "dtrou_o",
+          "display_field": "operating_tax_liabilities",
+          "label": "经营税项义务",
+          "custom": false,
+          "raw_label": "Net deferred tax on ROU assets and lease liabilities",
+          "source_amount": 294000,
+          "amount": -294000,
+          "source": "annual_report p.132",
+          "status": "derived",
+          "rationale": "经营租赁资产与负债相关递延税按净义务列示"
+        }
+      ]
+    },
+    "assets.rights.closing": {
+      "amount": 22751000,
+      "status": "disclosed",
+      "basis": "annual_report p.120: Note 14(B) ownership interests in leasehold land",
+      "details": [
+        {
+          "id": "land_c",
+          "display_field": "land_rights",
+          "label": "土地使用权",
+          "custom": false,
+          "raw_label": "Ownership interests in leasehold land held for own use",
+          "source_amount": 22751000,
+          "amount": 22751000,
+          "source": "annual_report p.120",
+          "status": "disclosed",
+          "rationale": "自用土地权利按字段边界列经营权利"
+        }
+      ]
+    },
+    "assets.rights.opening": {
+      "amount": 23165000,
+      "status": "disclosed",
+      "basis": "annual_report p.120: Note 14(B) comparative ownership interests",
+      "details": [
+        {
+          "id": "land_o",
+          "display_field": "land_rights",
+          "label": "土地使用权",
+          "custom": false,
+          "raw_label": "Ownership interests in leasehold land held for own use",
+          "source_amount": 23165000,
+          "amount": 23165000,
+          "source": "annual_report p.120",
+          "status": "disclosed",
+          "rationale": "自用土地权利按字段边界列经营权利"
+        }
+      ]
+    },
+    "assets.shareholder.closing": {
+      "amount": 0,
+      "status": "disclosed",
+      "basis": "annual_report p.135: Note 23(B) dividend payable closing balance",
+      "details": [
+        {
+          "id": "divpay_c",
+          "display_field": "dividends_payable",
+          "label": "应付股利",
+          "custom": false,
+          "raw_label": "Dividend payable",
+          "source_amount": 0,
+          "amount": 0,
+          "source": "annual_report p.135",
+          "status": "disclosed",
+          "rationale": "Use the economically continuous roll-forward amount; preserve the conflicting Note 25 version in anomaly disclosure"
+        }
+      ]
+    },
+    "assets.shareholder.opening": {
+      "amount": 1882000,
+      "status": "disclosed",
+      "basis": "annual_report p.135: Note 23(B) opening dividend payable",
+      "details": [
+        {
+          "id": "divpay_o",
+          "display_field": "dividends_payable",
+          "label": "应付股利",
+          "custom": false,
+          "raw_label": "Dividend payable",
+          "source_amount": 1882000,
+          "amount": 1882000,
+          "source": "annual_report p.135",
+          "status": "disclosed",
+          "rationale": "已确认未付股利为股东义务"
+        }
+      ]
+    },
+    "assets.working.closing": {
+      "amount": 285712000,
+      "status": "derived",
+      "basis": "annual_report p.129: Note 18 inventory total; annual_report p.130: Note 19 net trade receivables; annual_report p.130: Note 20 current and non-current balances combined; annual_report p.136: Note 24 trade payables; annual_report p.136: Note 25 total excluding nil dividend payable",
+      "details": [
+        {
+          "id": "inv_c",
+          "display_field": "inventory",
+          "label": "存货",
+          "custom": false,
+          "raw_label": "Inventories",
+          "source_amount": 308556000,
+          "amount": 308556000,
+          "source": "annual_report p.129",
+          "status": "disclosed",
+          "rationale": "存货属于经营周转资产"
+        },
+        {
+          "id": "tr_c",
+          "display_field": "customer_receivables",
+          "label": "客户经营欠款",
+          "custom": false,
+          "raw_label": "Trade receivables",
+          "source_amount": 7733000,
+          "amount": 7733000,
+          "source": "annual_report p.130",
+          "status": "disclosed",
+          "rationale": "客户经营债权"
+        },
+        {
+          "id": "or_c",
+          "display_field": "operating_prepayments",
+          "label": "经营预付款与押金",
+          "custom": false,
+          "raw_label": "Other receivables, deposits and prepayments",
+          "source_amount": 41161000,
+          "amount": 41161000,
+          "source": "annual_report p.130",
+          "status": "disclosed",
+          "rationale": "披露项目为日常其他应收、押金、预付及非所得税项，归经营周转"
+        },
+        {
+          "id": "tp_c",
+          "display_field": "supplier_payables",
+          "label": "供应商经营占款",
+          "custom": false,
+          "raw_label": "Trade payables",
+          "source_amount": 12099000,
+          "amount": -12099000,
+          "source": "annual_report p.136",
+          "status": "disclosed",
+          "rationale": "供应商正常结算占款抵减经营资本"
+        },
+        {
+          "id": "op_c",
+          "display_field": "other_operating_payables",
+          "label": "其他经营应付与结算",
+          "custom": false,
+          "raw_label": "Operating other payables and accruals excluding dividend payable",
+          "source_amount": 59639000,
+          "amount": -59639000,
+          "source": "annual_report p.136",
+          "status": "derived",
+          "rationale": "Normal operating settlement obligations exclude the separately classified shareholder dividend payable; reconciled dividend balance chosen because Note 25 detail conflicts"
+        }
+      ]
+    },
+    "assets.working.opening": {
+      "amount": 255508000,
+      "status": "derived",
+      "basis": "annual_report p.129: Note 18 comparative inventory total; annual_report p.130: Note 19 comparative net trade receivables; annual_report p.130: Note 20 comparative current and non-current balances combined; annual_report p.136: Note 24 comparative trade payables; annual_report p.135: Note 25 total 47,798,000 less dividend payable 1,882,000 per Note 23(B)",
+      "details": [
+        {
+          "id": "inv_o",
+          "display_field": "inventory",
+          "label": "存货",
+          "custom": false,
+          "raw_label": "Inventories",
+          "source_amount": 292498000,
+          "amount": 292498000,
+          "source": "annual_report p.129",
+          "status": "disclosed",
+          "rationale": "存货属于经营周转资产"
+        },
+        {
+          "id": "tr_o",
+          "display_field": "customer_receivables",
+          "label": "客户经营欠款",
+          "custom": false,
+          "raw_label": "Trade receivables",
+          "source_amount": 7153000,
+          "amount": 7153000,
+          "source": "annual_report p.130",
+          "status": "disclosed",
+          "rationale": "客户经营债权"
+        },
+        {
+          "id": "or_o",
+          "display_field": "operating_prepayments",
+          "label": "经营预付款与押金",
+          "custom": false,
+          "raw_label": "Other receivables, deposits and prepayments",
+          "source_amount": 11280000,
+          "amount": 11280000,
+          "source": "annual_report p.130",
+          "status": "disclosed",
+          "rationale": "披露项目为日常其他应收、押金、预付及非所得税项，归经营周转"
+        },
+        {
+          "id": "tp_o",
+          "display_field": "supplier_payables",
+          "label": "供应商经营占款",
+          "custom": false,
+          "raw_label": "Trade payables",
+          "source_amount": 9507000,
+          "amount": -9507000,
+          "source": "annual_report p.136",
+          "status": "disclosed",
+          "rationale": "供应商正常结算占款抵减经营资本"
+        },
+        {
+          "id": "op_o",
+          "display_field": "other_operating_payables",
+          "label": "其他经营应付与结算",
+          "custom": false,
+          "raw_label": "Operating other payables and accruals excluding dividend payable",
+          "source_amount": 45916000,
+          "amount": -45916000,
+          "source": "annual_report p.135",
+          "status": "derived",
+          "rationale": "经营应付、薪酬、销售退回、税费、加盟商押金及合同负债均为经营占款"
+        }
+      ]
+    },
+    "controls.equity.closing": {
+      "amount": 970204000,
+      "status": "disclosed",
+      "basis": "annual_report p.80: Consolidated statement of financial position",
+      "details": [
+        {
+          "id": "ctl_eq_c",
+          "display_field": null,
+          "label": null,
+          "custom": false,
+          "raw_label": "Total equity",
+          "source_amount": 970204000,
+          "amount": 970204000,
+          "source": "annual_report p.80",
+          "status": "disclosed",
+          "rationale": "权益控制数"
+        }
+      ]
+    },
+    "controls.equity.opening": {
+      "amount": 883959000,
+      "status": "disclosed",
+      "basis": "annual_report p.80: Comparative total equity",
+      "details": [
+        {
+          "id": "ctl_eq_o",
+          "display_field": null,
+          "label": null,
+          "custom": false,
+          "raw_label": "Total equity",
+          "source_amount": 883959000,
+          "amount": 883959000,
+          "source": "annual_report p.80",
+          "status": "disclosed",
+          "rationale": "权益控制数"
+        }
+      ]
+    },
+    "controls.minority.closing": {
+      "amount": 0,
+      "status": "disclosed",
+      "basis": "annual_report p.81: Statement of changes in equity",
+      "details": [
+        {
+          "id": "ctl_nci_c",
+          "display_field": null,
+          "label": null,
+          "custom": false,
+          "raw_label": "Non-controlling interests",
+          "source_amount": 0,
+          "amount": 0,
+          "source": "annual_report p.81",
+          "status": "disclosed",
+          "rationale": "少数股权控制数"
+        }
+      ]
+    },
+    "controls.minority.opening": {
+      "amount": 0,
+      "status": "disclosed",
+      "basis": "annual_report p.81: Statement of changes in equity opening balance",
+      "details": [
+        {
+          "id": "ctl_nci_o",
+          "display_field": null,
+          "label": null,
+          "custom": false,
+          "raw_label": "Non-controlling interests",
+          "source_amount": 0,
+          "amount": 0,
+          "source": "annual_report p.81",
+          "status": "disclosed",
+          "rationale": "少数股权控制数"
+        }
+      ]
+    },
+    "controls.parent.closing": {
+      "amount": 970204000,
+      "status": "disclosed",
+      "basis": "annual_report p.81: Statement of changes in equity",
+      "details": [
+        {
+          "id": "ctl_parent_c",
+          "display_field": null,
+          "label": null,
+          "custom": false,
+          "raw_label": "Equity attributable to owners",
+          "source_amount": 970204000,
+          "amount": 970204000,
+          "source": "annual_report p.81",
+          "status": "disclosed",
+          "rationale": "母公司股东权益控制数"
+        }
+      ]
+    },
+    "controls.parent.opening": {
+      "amount": 883959000,
+      "status": "disclosed",
+      "basis": "annual_report p.81: Opening equity attributable to owners",
+      "details": [
+        {
+          "id": "ctl_parent_o",
+          "display_field": null,
+          "label": null,
+          "custom": false,
+          "raw_label": "Equity attributable to owners",
+          "source_amount": 883959000,
+          "amount": 883959000,
+          "source": "annual_report p.81",
+          "status": "disclosed",
+          "rationale": "母公司股东权益控制数"
+        }
+      ]
+    },
+    "controls.profit": {
+      "amount": 171027000,
+      "status": "disclosed",
+      "basis": "annual_report p.77: Consolidated profit for year",
+      "details": [
+        {
+          "id": "ctl_profit",
+          "display_field": null,
+          "label": null,
+          "custom": false,
+          "raw_label": "Profit for the year",
+          "source_amount": 171027000,
+          "amount": 171027000,
+          "source": "annual_report p.77",
+          "status": "disclosed",
+          "rationale": "本年损益控制数"
+        }
+      ]
+    },
+    "liquidity.capacity.disposal": {
+      "amount": 32000,
+      "status": "disclosed",
+      "basis": "annual_report p.83: PPE disposal proceeds",
+      "details": [
+        {
+          "id": "cap_sell",
+          "display_field": "facility_disposal",
+          "label": "处置经营设施收款",
+          "custom": false,
+          "raw_label": "Proceeds from disposal of property, plant and equipment",
+          "source_amount": 32000,
+          "amount": 32000,
+          "source": "annual_report p.83",
+          "status": "disclosed",
+          "rationale": "经营设施处置收款"
+        }
+      ]
+    },
+    "liquidity.capacity.purchase": {
+      "amount": -18775000,
+      "status": "disclosed",
+      "basis": "annual_report p.83: PPE purchases",
+      "details": [
+        {
+          "id": "cap_buy",
+          "display_field": "facility_purchase",
+          "label": "购建经营设施",
+          "custom": false,
+          "raw_label": "Purchase of property, plant and equipment",
+          "source_amount": 18775000,
+          "amount": -18775000,
+          "source": "annual_report p.83",
+          "status": "disclosed",
+          "rationale": "经营设施现金购建"
+        }
+      ]
+    },
+    "liquidity.finance.borrow": {
+      "amount": 0.0,
+      "status": "not_applicable",
+      "basis": "annual_report p.83: No cash borrowings disclosed in cash flow statement",
+      "details": [
+        {
+          "id": "liq_borrow",
+          "display_field": "bank_borrow",
+          "label": "取得银行及其他借款",
+          "custom": false,
+          "raw_label": "Cash borrowings",
+          "source_amount": 0.0,
+          "amount": 0.0,
+          "source": "annual_report p.83",
+          "status": "not_applicable",
+          "rationale": "Explicitly disclosed absence or no applicable transaction during 2024"
+        }
+      ]
+    },
+    "liquidity.finance.cost": {
+      "amount": -664000,
+      "status": "disclosed",
+      "basis": "annual_report p.83: Lease interest paid",
+      "details": [
+        {
+          "id": "fin_paid",
+          "display_field": "lease_interest_paid",
+          "label": "支付租赁利息",
+          "custom": false,
+          "raw_label": "Interest element of lease liabilities paid",
+          "source_amount": 664000,
+          "amount": -664000,
+          "source": "annual_report p.83",
+          "status": "disclosed",
+          "rationale": "支付租赁融资费用"
+        }
+      ]
+    },
+    "liquidity.finance.repay": {
+      "amount": -13208000,
+      "status": "disclosed",
+      "basis": "annual_report p.83: Lease principal paid",
+      "details": [
+        {
+          "id": "fin_repay",
+          "display_field": "lease_principal",
+          "label": "偿还租赁本金",
+          "custom": false,
+          "raw_label": "Capital element of lease liabilities paid",
+          "source_amount": 13208000,
+          "amount": -13208000,
+          "source": "annual_report p.83",
+          "status": "disclosed",
+          "rationale": "偿还租赁融资本金"
+        }
+      ]
+    },
+    "liquidity.investment.invest": {
+      "amount": -160000000,
+      "status": "disclosed",
+      "basis": "annual_report p.83: FVPL purchases",
+      "details": [
+        {
+          "id": "inv_buy",
+          "display_field": "fund_wealth_invest",
+          "label": "投入基金与理财产品",
+          "custom": false,
+          "raw_label": "Purchase of wealth management products",
+          "source_amount": 160000000,
+          "amount": -160000000,
+          "source": "annual_report p.83",
+          "status": "disclosed",
+          "rationale": "对外理财投入"
+        }
+      ]
+    },
+    "liquidity.investment.recover": {
+      "amount": 160789000,
+      "status": "disclosed",
+      "basis": "annual_report p.83: FVPL sale proceeds",
+      "details": [
+        {
+          "id": "inv_rec",
+          "display_field": "fund_wealth_recover",
+          "label": "收回基金与理财产品",
+          "custom": false,
+          "raw_label": "Proceeds from sale of wealth management products",
+          "source_amount": 160789000,
+          "amount": 160789000,
+          "source": "annual_report p.83",
+          "status": "disclosed",
+          "rationale": "收回理财及处置收款"
+        }
+      ]
+    },
+    "liquidity.investment.returns": {
+      "amount": 8529000,
+      "status": "disclosed",
+      "basis": "annual_report p.82: Interest received",
+      "details": [
+        {
+          "id": "inv_ret",
+          "display_field": "interest_received",
+          "label": "收到利息",
+          "custom": false,
+          "raw_label": "Interest received",
+          "source_amount": 8529000,
+          "amount": 8529000,
+          "source": "annual_report p.82",
+          "status": "disclosed",
+          "rationale": "收到存款利息"
+        }
+      ]
+    },
+    "liquidity.operating.before_working": {
+      "amount": 247598000,
+      "status": "derived",
+      "basis": "annual_report p.82: Operating profit before working capital, excluding noncash deferred-grant release",
+      "details": [
+        {
+          "id": "liq_before",
+          "display_field": "operating_base_cash",
+          "label": "周转及缴税前经营收付",
+          "custom": false,
+          "raw_label": "Operating profit before working capital changes",
+          "source_amount": 247598000,
+          "amount": 247598000,
+          "source": "annual_report p.82",
+          "status": "derived",
+          "rationale": "经营收付在周转和缴税前"
+        }
+      ]
+    },
+    "liquidity.operating.tax": {
+      "amount": -44472000,
+      "status": "derived",
+      "basis": "annual_report p.82: Income and withholding tax paid",
+      "details": [
+        {
+          "id": "liq_tax",
+          "display_field": "undivided_tax_paid",
+          "label": "实际缴纳所得税（未拆分）",
+          "custom": false,
+          "raw_label": "Income and withholding tax paid",
+          "source_amount": 44472000,
+          "amount": -44472000,
+          "source": "annual_report p.82",
+          "status": "derived",
+          "rationale": "实际缴纳所得税及股息预提税"
+        }
+      ]
+    },
+    "liquidity.operating.working": {
+      "amount": -34205000,
+      "status": "derived",
+      "basis": "annual_report p.82: Working-capital cash outflow adjusted for deferred-grant release",
+      "details": [
+        {
+          "id": "liq_work",
+          "display_field": "undivided_working_cash",
+          "label": "经营周转资金释放／占用（未拆分）",
+          "custom": false,
+          "raw_label": "Working capital changes",
+          "source_amount": 34205000,
+          "amount": -34205000,
+          "source": "annual_report p.82",
+          "status": "derived",
+          "rationale": "经营周转资金净占用"
+        }
+      ]
+    },
+    "liquidity.other.restriction": {
+      "amount": 0.0,
+      "status": "not_applicable",
+      "basis": "annual_report p.83: Fixed-deposit placements and withdrawals are internal transfers within all cash and deposits",
+      "details": [
+        {
+          "id": "liq_restrict",
+          "display_field": "restriction_transfer",
+          "label": "资金可用范围转类",
+          "custom": false,
+          "raw_label": "Net cash-range reclassification",
+          "source_amount": 0.0,
+          "amount": 0.0,
+          "source": "annual_report p.83",
+          "status": "not_applicable",
+          "rationale": "Explicitly disclosed absence or no applicable transaction during 2024"
+        }
+      ]
+    },
+    "liquidity.other.scope": {
+      "amount": 0.0,
+      "status": "not_applicable",
+      "basis": "annual_report p.83: No consolidation-scope cash change disclosed",
+      "details": [
+        {
+          "id": "liq_scope",
+          "display_field": "acquired_cash",
+          "label": "并入业务现金",
+          "custom": false,
+          "raw_label": "Cash change from consolidation scope",
+          "source_amount": 0.0,
+          "amount": 0.0,
+          "source": "annual_report p.83",
+          "status": "not_applicable",
+          "rationale": "Explicitly disclosed absence or no applicable transaction during 2024"
+        }
+      ]
+    },
+    "liquidity.other.translation": {
+      "amount": 4970000,
+      "status": "disclosed",
+      "basis": "annual_report p.83: Exchange-rate effect on cash equivalents",
+      "details": [
+        {
+          "id": "liq_trans",
+          "display_field": "cash_translation",
+          "label": "现金汇率折算影响",
+          "custom": false,
+          "raw_label": "Effect of foreign exchange rate changes on cash",
+          "source_amount": 4970000,
+          "amount": 4970000,
+          "source": "annual_report p.83",
+          "status": "disclosed",
+          "rationale": "现金及现金等价物汇率折算影响"
+        }
+      ]
+    },
+    "liquidity.owner.dividend": {
+      "amount": -89569000,
+      "status": "disclosed",
+      "basis": "annual_report p.83: Dividend paid",
+      "details": [
+        {
+          "id": "liq_div",
+          "display_field": "dividend_paid",
+          "label": "实际支付分红",
+          "custom": false,
+          "raw_label": "Dividend paid",
+          "source_amount": 89569000,
+          "amount": -89569000,
+          "source": "annual_report p.83",
+          "status": "disclosed",
+          "rationale": "实际支付分红"
+        }
+      ]
+    },
+    "liquidity.owner.input": {
+      "amount": 0.0,
+      "status": "not_applicable",
+      "basis": "annual_report p.81: No share issue or cash capital contribution disclosed",
+      "details": [
+        {
+          "id": "liq_owner_input",
+          "display_field": "other_owner_cash",
+          "label": "收到其他股东投入",
+          "custom": false,
+          "raw_label": "Cash equity contribution",
+          "source_amount": 0.0,
+          "amount": 0.0,
+          "source": "annual_report p.81",
+          "status": "not_applicable",
+          "rationale": "Explicitly disclosed absence or no applicable transaction during 2024"
+        }
+      ]
+    },
+    "liquidity.owner.minority": {
+      "amount": 0,
+      "status": "not_applicable",
+      "basis": "annual_report p.83: No minority transaction payment",
+      "details": [
+        {
+          "id": "liq_min",
+          "display_field": "minority_acquisition_cash",
+          "label": "收购少数股权付款",
+          "custom": false,
+          "raw_label": "Payment for acquisition of additional subsidiary interest",
+          "source_amount": 0,
+          "amount": 0,
+          "source": "annual_report p.83",
+          "status": "not_applicable",
+          "rationale": "少数股权交易现金流出"
+        }
+      ]
+    },
+    "liquidity.owner.repurchase": {
+      "amount": 0.0,
+      "status": "not_applicable",
+      "basis": "annual_report p.138: Neither company nor subsidiaries purchased, sold or redeemed listed securities",
+      "details": [
+        {
+          "id": "liq_repurchase",
+          "display_field": "repurchase_paid",
+          "label": "现金回购股份",
+          "custom": false,
+          "raw_label": "Cash share repurchase",
+          "source_amount": 0.0,
+          "amount": 0.0,
+          "source": "annual_report p.138",
+          "status": "not_applicable",
+          "rationale": "Explicitly disclosed absence or no applicable transaction during 2024"
+        }
+      ]
+    },
+    "noncash.leases": {
+      "amount": 21974000,
+      "status": "disclosed",
+      "basis": "annual_report p.121: New leases entered",
+      "details": [
+        {
+          "id": "leases_nc",
+          "display_field": null,
+          "label": null,
+          "custom": false,
+          "raw_label": "New leases entered",
+          "source_amount": 21974000,
+          "amount": 21974000,
+          "source": "annual_report p.121",
+          "status": "disclosed",
+          "rationale": "新租赁形成非现金使用权资产和租赁负债"
+        }
+      ]
+    },
+    "wealth.finance.cost": {
+      "amount": -664000,
+      "status": "disclosed",
+      "basis": "annual_report p.111: Lease interest",
+      "details": [
+        {
+          "id": "fin_cost",
+          "display_field": "lease_interest",
+          "label": "租赁融资费用",
+          "custom": false,
+          "raw_label": "Interest on lease liabilities",
+          "source_amount": 664000,
+          "amount": -664000,
+          "source": "annual_report p.111",
+          "status": "disclosed",
+          "rationale": "租赁融资费用"
+        }
+      ]
+    },
+    "wealth.finance.tax": {
+      "amount": 166000,
+      "status": "estimated",
+      "basis": "annual_report p.112: Representative 25% tax shield on lease interest",
+      "details": [
+        {
+          "id": "tax_fin",
+          "display_field": "finance_tax_effect",
+          "label": "融资税收影响",
+          "custom": false,
+          "raw_label": "Estimated tax shield on lease interest",
+          "source_amount": 166000,
+          "amount": 166000,
+          "source": "annual_report p.112",
+          "status": "estimated",
+          "rationale": "Representative financing tax benefit; no itemised financing tax effect disclosed"
+        }
+      ]
+    },
+    "wealth.nonoperating.returns": {
+      "amount": 10184000,
+      "status": "derived",
+      "basis": "annual_report p.110: Bank interest income; annual_report p.111: Gross investment-property rent; annual_report p.111: Direct investment-property outgoings; annual_report p.82: Cash-flow reconciliation adjustment",
+      "details": [
+        {
+          "id": "interest",
+          "display_field": "interest_income",
+          "label": "利息收益",
+          "custom": false,
+          "raw_label": "Bank interest income",
+          "source_amount": 7725000,
+          "amount": 7725000,
+          "source": "annual_report p.110",
+          "status": "disclosed",
+          "rationale": "现金存款产生非经营收益"
+        },
+        {
+          "id": "rentgross",
+          "display_field": "nonoperating_rent",
+          "label": "非主业物业净收益",
+          "custom": false,
+          "raw_label": "Gross rental income from investment properties",
+          "source_amount": 2899000,
+          "amount": 2899000,
+          "source": "annual_report p.111",
+          "status": "disclosed",
+          "rationale": "非核心投资物业租金收益"
+        },
+        {
+          "id": "rentcost",
+          "display_field": "nonoperating_rent",
+          "label": "非主业物业净收益",
+          "custom": false,
+          "raw_label": "Direct outgoings on investment properties",
+          "source_amount": 438000,
+          "amount": -438000,
+          "source": "annual_report p.111",
+          "status": "disclosed",
+          "rationale": "与非经营租赁收益配套转出直接费用"
+        },
+        {
+          "id": "loss_fvpl",
+          "display_field": "realized_investment_return",
+          "label": "已实现投资收益",
+          "custom": false,
+          "raw_label": "Loss on disposal of financial assets at FVPL",
+          "source_amount": 2000,
+          "amount": -2000,
+          "source": "annual_report p.82",
+          "status": "disclosed",
+          "rationale": "理财产品处置损失属于对外投资已实现回报，不属于梳具经营资产损失；金额虽小仍纠正经济分类"
+        }
+      ]
+    },
+    "wealth.nonoperating.tax": {
+      "amount": -10192000,
+      "status": "derived",
+      "basis": "annual_report p.112: Dividend withholding tax less investment-property deferred-tax credit",
+      "details": [
+        {
+          "id": "tax_nonop",
+          "display_field": "undivided_nonoperating_tax",
+          "label": "非经营所得税（未拆分）",
+          "custom": false,
+          "raw_label": "Tax attributable to non-operating property valuation and dividend withholding",
+          "source_amount": 10192000,
+          "amount": -10192000,
+          "source": "annual_report p.112",
+          "status": "derived",
+          "rationale": "Dividend withholding and tax on non-core investment-property valuation belong to non-operating returns/valuation"
+        }
+      ]
+    },
+    "wealth.nonoperating.valuation": {
+      "amount": -2155000,
+      "status": "derived",
+      "basis": "annual_report p.126: Investment-property fair-value loss; annual_report p.131: FVPL fair-value gain; annual_report p.110: Net foreign-exchange loss",
+      "details": [
+        {
+          "id": "ipfv",
+          "display_field": "property_valuation",
+          "label": "非主业物业价值变动",
+          "custom": false,
+          "raw_label": "Fair value loss on investment properties",
+          "source_amount": 2700000,
+          "amount": -2700000,
+          "source": "annual_report p.126",
+          "status": "disclosed",
+          "rationale": "非核心投资物业重估损失"
+        },
+        {
+          "id": "fvplgain",
+          "display_field": "investment_valuation",
+          "label": "投资价值变动",
+          "custom": false,
+          "raw_label": "Fair value gain on wealth management products",
+          "source_amount": 669000,
+          "amount": 669000,
+          "source": "annual_report p.131",
+          "status": "disclosed",
+          "rationale": "理财投资公允价值收益"
+        },
+        {
+          "id": "fxpl",
+          "display_field": "foreign_exchange",
+          "label": "汇兑损益",
+          "custom": false,
+          "raw_label": "Net foreign exchange result",
+          "source_amount": -124000,
+          "amount": -124000,
+          "source": "annual_report p.110",
+          "status": "disclosed",
+          "rationale": "汇兑损益不属于产品经营贡献；原表文字称loss但金额以正数计入合计"
+        }
+      ]
+    },
+    "wealth.operating.costs": {
+      "amount": -348758000,
+      "status": "derived",
+      "basis": "annual_report p.77: Cost of sales; annual_report p.77: Administrative expenses; annual_report p.77: Selling and distribution expenses; annual_report p.77: Other operating expenses; annual_report p.111: Remove separately presented PPE and ROU depreciation; annual_report p.111: Transfer investment-property direct outgoings; annual_report p.111: Remove losses embedded in expense lines",
+      "details": [
+        {
+          "id": "cos",
+          "display_field": "product_service_costs",
+          "label": "产品与服务耗用",
+          "custom": false,
+          "raw_label": "Cost of sales",
+          "source_amount": 212921000,
+          "amount": -212921000,
+          "source": "annual_report p.77",
+          "status": "disclosed",
+          "rationale": "先列原费用，折旧与损失另以调整剔除"
+        },
+        {
+          "id": "admin",
+          "display_field": "administrative",
+          "label": "管理费用",
+          "custom": false,
+          "raw_label": "Administrative expenses",
+          "source_amount": 45432000,
+          "amount": -45432000,
+          "source": "annual_report p.77",
+          "status": "disclosed",
+          "rationale": "经营管理费用"
+        },
+        {
+          "id": "sell",
+          "display_field": "selling_distribution",
+          "label": "销售与履约费用",
+          "custom": false,
+          "raw_label": "Selling and distribution expenses",
+          "source_amount": 96945000,
+          "amount": -96945000,
+          "source": "annual_report p.77",
+          "status": "disclosed",
+          "rationale": "经营销售费用"
+        },
+        {
+          "id": "ooe",
+          "display_field": "other_operating_costs",
+          "label": "其他经营费用",
+          "custom": false,
+          "raw_label": "Other operating expenses",
+          "source_amount": 30820000,
+          "amount": -30820000,
+          "source": "annual_report p.77",
+          "status": "disclosed",
+          "rationale": "其他经营费用"
+        },
+        {
+          "id": "adj_dep",
+          "display_field": "depreciation_adjustment",
+          "label": "剔除折旧摊销",
+          "custom": false,
+          "raw_label": "Remove separately presented depreciation from operating costs",
+          "source_amount": 10641000,
+          "amount": 10641000,
+          "source": "annual_report p.111",
+          "status": "derived",
+          "rationale": "折旧单列，必须从前置费用剔除"
+        },
+        {
+          "id": "adj_rental",
+          "display_field": "nonoperating_adjustment",
+          "label": "剔除非经营收支",
+          "custom": false,
+          "raw_label": "Transfer investment-property direct outgoings from operating costs",
+          "source_amount": 438000,
+          "amount": 438000,
+          "source": "annual_report p.111",
+          "status": "derived",
+          "rationale": "投资物业为非核心出租资产，其直接费用与租金一并转入非经营收益"
+        },
+        {
+          "id": "adj_loss",
+          "display_field": "asset_loss_adjustment",
+          "label": "剔除经营资产损失",
+          "custom": false,
+          "raw_label": "Losses embedded in cost and operating expense lines",
+          "source_amount": 26281000,
+          "amount": 26281000,
+          "source": "annual_report p.111",
+          "status": "derived",
+          "rationale": "Only losses embedded in cost of sales/operating expense are added back; trade-receivable allowance and disposal loss are already separately presented within Note 6 decomposition"
+        }
+      ]
+    },
+    "wealth.operating.depreciation": {
+      "amount": -10641000,
+      "status": "derived",
+      "basis": "annual_report p.111: PPE depreciation; annual_report p.111: ROU depreciation",
+      "details": [
+        {
+          "id": "dep_ppe",
+          "display_field": "facility_depreciation",
+          "label": "经营设施折旧",
+          "custom": false,
+          "raw_label": "Depreciation of property, plant and equipment",
+          "source_amount": 6090000,
+          "amount": -6090000,
+          "source": "annual_report p.111",
+          "status": "disclosed",
+          "rationale": "经营设施折旧单列"
+        },
+        {
+          "id": "dep_rou",
+          "display_field": "facility_depreciation",
+          "label": "经营设施折旧",
+          "custom": false,
+          "raw_label": "Depreciation of right-of-use assets",
+          "source_amount": 4551000,
+          "amount": -4551000,
+          "source": "annual_report p.111",
+          "status": "disclosed",
+          "rationale": "经营使用权资产折旧单列"
+        }
+      ]
+    },
+    "wealth.operating.loss": {
+      "amount": -26301000,
+      "status": "derived",
+      "basis": "annual_report p.111: Inventory write-down net of reversal; annual_report p.111: Trade receivable loss allowance; annual_report p.111: Other receivable loss allowance; annual_report p.111: PPE derecognition and disposal losses",
+      "details": [
+        {
+          "id": "loss_inv",
+          "display_field": "inventory_loss",
+          "label": "存货损失",
+          "custom": false,
+          "raw_label": "Write down of inventories",
+          "source_amount": 1939000,
+          "amount": -1939000,
+          "source": "annual_report p.111",
+          "status": "derived",
+          "rationale": "经营存货损失单列"
+        },
+        {
+          "id": "loss_tr",
+          "display_field": "credit_loss",
+          "label": "经营信用损失",
+          "custom": false,
+          "raw_label": "Loss allowance on trade receivables",
+          "source_amount": 7000,
+          "amount": -7000,
+          "source": "annual_report p.111",
+          "status": "disclosed",
+          "rationale": "经营客户债权损失"
+        },
+        {
+          "id": "loss_or",
+          "display_field": "credit_loss",
+          "label": "经营信用损失",
+          "custom": false,
+          "raw_label": "Loss allowance on other receivables",
+          "source_amount": 8000,
+          "amount": -8000,
+          "source": "annual_report p.111",
+          "status": "disclosed",
+          "rationale": "经营其他应收损失"
+        },
+        {
+          "id": "loss_disp",
+          "display_field": "disposal_derecognition_loss",
+          "label": "处置及终止确认损失",
+          "custom": false,
+          "raw_label": "Net loss on disposal of property, plant and equipment",
+          "source_amount": 24347000,
+          "amount": -24347000,
+          "source": "annual_report p.111",
+          "status": "derived",
+          "rationale": "经营设施处置损失"
+        }
+      ]
+    },
+    "wealth.operating.other_income": {
+      "amount": 36598000,
+      "status": "derived",
+      "basis": "annual_report p.110: Government grants; annual_report p.110: Deferred grant released; annual_report p.110: PRC VAT refunds; annual_report p.110: Other income—others",
+      "details": [
+        {
+          "id": "gov",
+          "display_field": "grants_subsidies",
+          "label": "经营补助",
+          "custom": false,
+          "raw_label": "Government grants",
+          "source_amount": 3313000,
+          "amount": 3313000,
+          "source": "annual_report p.110",
+          "status": "disclosed",
+          "rationale": "支持海外营销及稳定就业，属经营补助"
+        },
+        {
+          "id": "govrel",
+          "display_field": "grants_subsidies",
+          "label": "经营补助",
+          "custom": false,
+          "raw_label": "Government grants released from deferred income",
+          "source_amount": 21000,
+          "amount": 21000,
+          "source": "annual_report p.110",
+          "status": "disclosed",
+          "rationale": "经营设施补助摊销"
+        },
+        {
+          "id": "vat",
+          "display_field": "tax_refunds",
+          "label": "经营税费返还",
+          "custom": false,
+          "raw_label": "PRC VAT refunds",
+          "source_amount": 30898000,
+          "amount": 30898000,
+          "source": "annual_report p.110",
+          "status": "disclosed",
+          "rationale": "残疾员工政策相关经营增值税返还"
+        },
+        {
+          "id": "others",
+          "display_field": "other_operating_income",
+          "label": "其他经营收益",
+          "custom": false,
+          "raw_label": "Other income—others",
+          "source_amount": 2366000,
+          "amount": 2366000,
+          "source": "annual_report p.110",
+          "status": "disclosed",
+          "rationale": "未进一步细分的其他经营收入"
+        }
+      ]
+    },
+    "wealth.operating.revenue": {
+      "amount": 558223000,
+      "status": "disclosed",
+      "basis": "annual_report p.77: Revenue",
+      "details": [
+        {
+          "id": "rev",
+          "display_field": "undivided_operating_revenue",
+          "label": "产品与服务收入（未拆分）",
+          "custom": false,
+          "raw_label": "Revenue",
+          "source_amount": 558223000,
+          "amount": 558223000,
+          "source": "annual_report p.77",
+          "status": "disclosed",
+          "rationale": "木制品销售及相关经营收入"
+        }
+      ]
+    },
+    "wealth.operating.tax": {
+      "amount": -35433000,
+      "status": "estimated",
+      "basis": "annual_report p.112: Residual operating income tax",
+      "details": [
+        {
+          "id": "tax_op",
+          "display_field": "allocated_operating_tax",
+          "label": "估计分配的经营所得税",
+          "custom": false,
+          "raw_label": "Residual operating income tax",
+          "source_amount": 35433000,
+          "amount": -35433000,
+          "source": "annual_report p.112",
+          "status": "estimated",
+          "rationale": "Residual tax assigned to core operations so all tax allocations reconcile to disclosed total expense"
+        }
+      ]
+    },
+    "wealth.other.other_oci": {
+      "amount": 0.0,
+      "status": "not_applicable",
+      "basis": "annual_report p.65: OCI statement contains only translation differences",
+      "details": [
+        {
+          "id": "w_other_oci",
+          "display_field": "other_oci",
+          "label": "其他综合收益",
+          "custom": false,
+          "raw_label": "Other OCI excluding translation",
+          "source_amount": 0.0,
+          "amount": 0.0,
+          "source": "annual_report p.65",
+          "status": "not_applicable",
+          "rationale": "Explicitly disclosed absence or no applicable transaction during 2024"
+        }
+      ]
+    },
+    "wealth.other.scope": {
+      "amount": 0.0,
+      "status": "not_applicable",
+      "basis": "annual_report p.81: No consolidation-scope equity change disclosed; NCI purchase is separately classified",
+      "details": [
+        {
+          "id": "w_scope",
+          "display_field": "other_equity_change",
+          "label": "其他权益变动",
+          "custom": false,
+          "raw_label": "Consolidation scope and other equity change",
+          "source_amount": 0.0,
+          "amount": 0.0,
+          "source": "annual_report p.81",
+          "status": "not_applicable",
+          "rationale": "Explicitly disclosed absence or no applicable transaction during 2024"
+        }
+      ]
+    },
+    "wealth.other.translation": {
+      "amount": 4787000,
+      "status": "derived",
+      "basis": "annual_report p.78: Two translation components in OCI",
+      "details": [
+        {
+          "id": "translation",
+          "display_field": "statement_translation",
+          "label": "报表折算差额",
+          "custom": false,
+          "raw_label": "Exchange differences in other comprehensive income",
+          "source_amount": 4787000,
+          "amount": 4787000,
+          "source": "annual_report p.78",
+          "status": "derived",
+          "rationale": "两项报表折算差额净额"
+        }
+      ]
+    },
+    "wealth.owner.dividend": {
+      "amount": -89569000,
+      "status": "disclosed",
+      "basis": "annual_report p.81: Dividend approved in respect of previous year",
+      "details": [
+        {
+          "id": "div_wealth",
+          "display_field": "dividend_declared",
+          "label": "批准及宣告分红",
+          "custom": false,
+          "raw_label": "Dividend approved in respect of previous year",
+          "source_amount": 89569000,
+          "amount": -89569000,
+          "source": "annual_report p.81",
+          "status": "disclosed",
+          "rationale": "当年批准分红作为权益分配"
+        }
+      ]
+    },
+    "wealth.owner.input": {
+      "amount": 0.0,
+      "status": "not_applicable",
+      "basis": "annual_report p.81: No share issue and no share-based compensation movement",
+      "details": [
+        {
+          "id": "w_owner_input",
+          "display_field": "undivided_owner_input",
+          "label": "增资与股份激励（未拆分）",
+          "custom": false,
+          "raw_label": "Equity contribution and share compensation",
+          "source_amount": 0.0,
+          "amount": 0.0,
+          "source": "annual_report p.81",
+          "status": "not_applicable",
+          "rationale": "Explicitly disclosed absence or no applicable transaction during 2024"
+        }
+      ]
+    },
+    "wealth.owner.minority": {
+      "amount": 0,
+      "status": "not_applicable",
+      "basis": "annual_report p.81: No minority transaction; NCI remained nil",
+      "details": [
+        {
+          "id": "minor_wealth",
+          "display_field": "minority_acquisition",
+          "label": "收购少数股权",
+          "custom": false,
+          "raw_label": "Acquisition of additional interest in subsidiary",
+          "source_amount": 0,
+          "amount": 0,
+          "source": "annual_report p.81",
+          "status": "not_applicable",
+          "rationale": "向少数股东返还出资并取得权益，属于少数股权交易"
+        }
+      ]
+    },
+    "wealth.owner.repurchase": {
+      "amount": 0.0,
+      "status": "not_applicable",
+      "basis": "annual_report p.138: Neither company nor subsidiaries purchased, sold or redeemed listed securities",
+      "details": [
+        {
+          "id": "w_repurchase",
+          "display_field": "share_repurchase",
+          "label": "股份回购",
+          "custom": false,
+          "raw_label": "Share repurchase",
+          "source_amount": 0.0,
+          "amount": 0.0,
+          "source": "annual_report p.138",
+          "status": "not_applicable",
+          "rationale": "Explicitly disclosed absence or no applicable transaction during 2024"
+        }
+      ]
+    },
+    "controls.cash.opening": {
+      "amount": 364714000,
+      "status": "derived",
+      "basis": "程序取现金与存款标准余额，用资本活动核对其年度变化",
+      "details": [
+        {
+          "id": "cashce_o",
+          "display_field": "cash_equivalents",
+          "label": "现金及现金等价物",
+          "custom": false,
+          "raw_label": "Cash and cash equivalents",
+          "source_amount": 41714000,
+          "amount": 41714000,
+          "source": "annual_report p.134",
+          "status": "disclosed",
+          "rationale": "现金及活期银行存款"
+        },
+        {
+          "id": "fd1_o",
+          "display_field": "time_deposits",
+          "label": "定期存款",
+          "custom": false,
+          "raw_label": "Non-pledged fixed bank deposits within one year",
+          "source_amount": 105000000,
+          "amount": 105000000,
+          "source": "annual_report p.134",
+          "status": "disclosed",
+          "rationale": "全部定存列现金"
+        },
+        {
+          "id": "fdl_o",
+          "display_field": "time_deposits",
+          "label": "定期存款",
+          "custom": false,
+          "raw_label": "Non-pledged fixed bank deposits over one year",
+          "source_amount": 218000000,
+          "amount": 218000000,
+          "source": "annual_report p.134",
+          "status": "disclosed",
+          "rationale": "全部定存列现金"
+        }
+      ]
+    },
+    "controls.cash.closing": {
+      "amount": 425739000,
+      "status": "derived",
+      "basis": "程序取现金与存款标准余额，用资本活动核对其年度变化",
+      "details": [
+        {
+          "id": "cashce_c",
+          "display_field": "cash_equivalents",
+          "label": "现金及现金等价物",
+          "custom": false,
+          "raw_label": "Cash and cash equivalents",
+          "source_amount": 79739000,
+          "amount": 79739000,
+          "source": "annual_report p.134",
+          "status": "disclosed",
+          "rationale": "现金及活期银行存款"
+        },
+        {
+          "id": "fd1_c",
+          "display_field": "time_deposits",
+          "label": "定期存款",
+          "custom": false,
+          "raw_label": "Non-pledged fixed bank deposits within one year",
+          "source_amount": 10000000,
+          "amount": 10000000,
+          "source": "annual_report p.134",
+          "status": "disclosed",
+          "rationale": "全部定存按字段边界列现金并保留汇兑管制说明"
+        },
+        {
+          "id": "fdl_c",
+          "display_field": "time_deposits",
+          "label": "定期存款",
+          "custom": false,
+          "raw_label": "Non-pledged fixed bank deposits over one year",
+          "source_amount": 336000000,
+          "amount": 336000000,
+          "source": "annual_report p.134",
+          "status": "disclosed",
+          "rationale": "全部定存列现金"
+        }
+      ]
+    }
+  },
+  "draft_movements": {
+    "cash": [
+      {
+        "id": "cash_ops",
+        "category": "settlement",
+        "label": "Operating cash flow excluding investment returns",
+        "amount": 168921000.0,
+        "source_id": "annual_report",
+        "page": 82,
+        "basis": "Net operating cash 177,450,000 less interest received 8,529,000"
+      },
+      {
+        "id": "cash_cap",
+        "category": "capacity",
+        "label": "Net operating-asset purchase and disposal",
+        "amount": -18743000.0,
+        "source_id": "annual_report",
+        "page": 83,
+        "basis": "PPE purchase 18,775,000 less disposal proceeds 32,000"
+      },
+      {
+        "id": "cash_inv",
+        "category": "investment",
+        "label": "Net FVPL principal cash flow",
+        "amount": 789000.0,
+        "source_id": "annual_report",
+        "page": 83,
+        "basis": "Sale proceeds 160,789,000 less purchases 160,000,000"
+      },
+      {
+        "id": "cash_ret",
+        "category": "returns",
+        "label": "Interest received",
+        "amount": 8529000.0,
+        "source_id": "annual_report",
+        "page": 82,
+        "basis": "Cash flow statement"
+      },
+      {
+        "id": "cash_fin",
+        "category": "financing",
+        "label": "Lease principal and interest paid",
+        "amount": -13872000.0,
+        "source_id": "annual_report",
+        "page": 83,
+        "basis": "Lease principal 13,208,000 and interest 664,000"
+      },
+      {
+        "id": "cash_owner",
+        "category": "owner",
+        "label": "Dividend paid",
+        "amount": -89569000.0,
+        "source_id": "annual_report",
+        "page": 83,
+        "basis": "Cash flow statement"
+      },
+      {
+        "id": "cash_fx",
+        "category": "valuation",
+        "label": "Exchange-rate effect",
+        "amount": 4970000.0,
+        "source_id": "annual_report",
+        "page": 83,
+        "basis": "Cash flow statement"
+      }
+    ],
+    "facilities": [
+      {
+        "id": "fac_add",
+        "category": "capacity",
+        "label": "PPE additions",
+        "amount": 18775000.0,
+        "source_id": "annual_report",
+        "page": 119,
+        "basis": "Note 14(A) additions"
+      },
+      {
+        "id": "fac_dep",
+        "category": "consumption",
+        "label": "PPE and leased-building depreciation",
+        "amount": -9671000.0,
+        "source_id": "annual_report",
+        "page": 120,
+        "basis": "PPE 6,090,000 plus leased buildings 3,581,000"
+      },
+      {
+        "id": "fac_loss",
+        "category": "loss",
+        "label": "PPE derecognition",
+        "amount": -24332000.0,
+        "source_id": "annual_report",
+        "page": 120,
+        "basis": "Final court ruling caused derecognition"
+      },
+      {
+        "id": "fac_disp",
+        "category": "capacity",
+        "label": "PPE carrying amount disposed",
+        "amount": -47000.0,
+        "source_id": "annual_report",
+        "page": 119,
+        "basis": "Cost 788,000 less accumulated depreciation 741,000"
+      },
+      {
+        "id": "fac_ppe_fx",
+        "category": "valuation",
+        "label": "PPE exchange differences",
+        "amount": -11000.0,
+        "source_id": "annual_report",
+        "page": 119,
+        "basis": "Cost -30,000 less accumulated depreciation -19,000"
+      },
+      {
+        "id": "fac_lease_add",
+        "category": "capacity",
+        "label": "New leased facilities",
+        "amount": 21974000.0,
+        "source_id": "annual_report",
+        "page": 121,
+        "basis": "ROU asset additions"
+      },
+      {
+        "id": "fac_rou_fx",
+        "category": "valuation",
+        "label": "Leased-facility exchange difference",
+        "amount": -661000.0,
+        "source_id": "annual_report",
+        "page": 120,
+        "basis": "Derived from Note 14(B) opening, additions, depreciation and closing"
+      }
+    ],
+    "rights": [
+      {
+        "id": "rights_dep",
+        "category": "consumption",
+        "label": "Leasehold-land depreciation",
+        "amount": -970000.0,
+        "source_id": "annual_report",
+        "page": 120,
+        "basis": "Note 14(B)"
+      },
+      {
+        "id": "rights_fx",
+        "category": "valuation",
+        "label": "Leasehold-land exchange difference",
+        "amount": 556000.0,
+        "source_id": "annual_report",
+        "page": 120,
+        "basis": "Derived from Note 14(B) opening, depreciation and closing"
+      }
+    ],
+    "investments": [
+      {
+        "id": "inv_add",
+        "category": "investment",
+        "label": "FVPL additions",
+        "amount": 160000000.0,
+        "source_id": "annual_report",
+        "page": 131,
+        "basis": "Note 21 movement"
+      },
+      {
+        "id": "inv_dispose",
+        "category": "investment",
+        "label": "FVPL disposal",
+        "amount": -160789000.0,
+        "source_id": "annual_report",
+        "page": 131,
+        "basis": "Note 21 movement"
+      },
+      {
+        "id": "inv_fv",
+        "category": "valuation",
+        "label": "FVPL fair-value gain",
+        "amount": 669000.0,
+        "source_id": "annual_report",
+        "page": 131,
+        "basis": "Note 21 movement"
+      },
+      {
+        "id": "inv_loss",
+        "category": "loss",
+        "label": "FVPL disposal loss",
+        "amount": -2000.0,
+        "source_id": "annual_report",
+        "page": 131,
+        "basis": "Note 21 movement"
+      }
+    ],
+    "other_assets": [
+      {
+        "id": "ip_fv",
+        "category": "valuation",
+        "label": "Investment-property fair-value loss",
+        "amount": -2700000.0,
+        "source_id": "annual_report",
+        "page": 126,
+        "basis": "Note 15 movement"
+      }
+    ],
+    "financing": [
+      {
+        "id": "lease_new",
+        "category": "financing",
+        "label": "New lease liabilities",
+        "amount": 21974000.0,
+        "source_id": "annual_report",
+        "page": 135,
+        "basis": "Note 23(B)"
+      },
+      {
+        "id": "lease_repay",
+        "category": "financing",
+        "label": "Lease principal repayment",
+        "amount": -13208000.0,
+        "source_id": "annual_report",
+        "page": 83,
+        "basis": "Cash flow statement"
+      },
+      {
+        "id": "lease_fx",
+        "category": "valuation",
+        "label": "Lease-liability exchange differences",
+        "amount": -106000.0,
+        "source_id": "annual_report",
+        "page": 135,
+        "basis": "Note 23(B)"
+      }
+    ],
+    "other_liabilities": [
+      {
+        "id": "dtip_credit",
+        "category": "valuation",
+        "label": "Investment-property deferred-tax credit",
+        "amount": -365000.0,
+        "source_id": "annual_report",
+        "page": 132,
+        "basis": "Note 22(B)"
+      }
+    ],
+    "other_operating": [
+      {
+        "id": "tax_charge",
+        "category": "operating",
+        "label": "Current income-tax charge",
+        "amount": -46194000.0,
+        "source_id": "annual_report",
+        "page": 132,
+        "basis": "Note 22(A)"
+      },
+      {
+        "id": "tax_paid",
+        "category": "settlement",
+        "label": "Income tax paid",
+        "amount": 39887000.0,
+        "source_id": "annual_report",
+        "page": 132,
+        "basis": "Note 22(A)"
+      },
+      {
+        "id": "withhold_paid",
+        "category": "owner",
+        "label": "Withholding tax paid on dividends",
+        "amount": 4585000.0,
+        "source_id": "annual_report",
+        "page": 132,
+        "basis": "Note 22(A)"
+      },
+      {
+        "id": "tax_fx",
+        "category": "valuation",
+        "label": "Current-tax exchange difference",
+        "amount": -32000.0,
+        "source_id": "annual_report",
+        "page": 132,
+        "basis": "Note 22(A)"
+      },
+      {
+        "id": "grant_release",
+        "category": "operating",
+        "label": "Deferred grant released",
+        "amount": 21000.0,
+        "source_id": "annual_report",
+        "page": 138,
+        "basis": "Note 27"
+      },
+      {
+        "id": "rou_tax_credit",
+        "category": "operating",
+        "label": "Net deferred-tax credit on ROU and lease liability",
+        "amount": 370000.0,
+        "source_id": "annual_report",
+        "page": 132,
+        "basis": "Note 22(B): net position changed from 294,000 liability to 76,000 asset"
+      }
+    ],
+    "shareholder": [
+      {
+        "id": "div_decl",
+        "category": "owner",
+        "label": "Dividend declared",
+        "amount": 89569000.0,
+        "source_id": "annual_report",
+        "page": 135,
+        "basis": "Note 23(B)"
+      },
+      {
+        "id": "div_paid",
+        "category": "settlement",
+        "label": "Dividend paid",
+        "amount": -89569000.0,
+        "source_id": "annual_report",
+        "page": 135,
+        "basis": "Note 23(B)"
+      },
+      {
+        "id": "div_fx",
+        "category": "valuation",
+        "label": "Dividend-payable exchange difference",
+        "amount": -1882000.0,
+        "source_id": "annual_report",
+        "page": 135,
+        "basis": "Note 23(B)"
+      }
+    ],
+    "working": [
+      {
+        "id": "wc_settle",
+        "category": "settlement",
+        "label": "Operating working-capital investment",
+        "amount": 34205000.0,
+        "source_id": "annual_report",
+        "page": 82,
+        "basis": "Cash-flow working-capital changes adjusted for deferred-grant release"
+      },
+      {
+        "id": "wc_loss",
+        "category": "loss",
+        "label": "Inventory and receivable losses",
+        "amount": -1962000.0,
+        "source_id": "annual_report",
+        "page": 111,
+        "basis": "Inventory net write-down 1,939,000 plus receivable allowances 23,000"
+      },
+      {
+        "id": "wc_return",
+        "category": "operating",
+        "label": "Reversal of sales-return provision",
+        "amount": 760000.0,
+        "source_id": "annual_report",
+        "page": 111,
+        "basis": "Reversal reduces operating liability"
+      }
+    ]
+  },
+  "movements": {
+    "capital_settlement": [],
+    "cash": [
+      {
+        "id": "cash_ops",
+        "category": "settlement",
+        "label": "经营收付",
+        "amount": 168921000.0,
+        "source_id": "annual_report",
+        "page": 82,
+        "basis": "Net operating cash 177,450,000 less interest received 8,529,000",
+        "raw_label": "Operating cash flow excluding investment returns",
+        "display_field": "movement.settlement"
+      },
+      {
+        "id": "cash_cap",
+        "category": "capacity",
+        "label": "经营投入与退出",
+        "amount": -18743000.0,
+        "source_id": "annual_report",
+        "page": 83,
+        "basis": "PPE purchase 18,775,000 less disposal proceeds 32,000",
+        "raw_label": "Net operating-asset purchase and disposal",
+        "display_field": "movement.capacity"
+      },
+      {
+        "id": "cash_inv",
+        "category": "investment",
+        "label": "投资投入与收回",
+        "amount": 789000.0,
+        "source_id": "annual_report",
+        "page": 83,
+        "basis": "Sale proceeds 160,789,000 less purchases 160,000,000",
+        "raw_label": "Net FVPL principal cash flow",
+        "display_field": "movement.investment"
+      },
+      {
+        "id": "cash_ret",
+        "category": "returns",
+        "label": "投资收益",
+        "amount": 8529000.0,
+        "source_id": "annual_report",
+        "page": 82,
+        "basis": "Cash flow statement",
+        "raw_label": "Interest received",
+        "display_field": "movement.returns"
+      },
+      {
+        "id": "cash_fin",
+        "category": "financing",
+        "label": "融资借入与偿还",
+        "amount": -13872000.0,
+        "source_id": "annual_report",
+        "page": 83,
+        "basis": "Lease principal 13,208,000 and interest 664,000",
+        "raw_label": "Lease principal and interest paid",
+        "display_field": "movement.financing"
+      },
+      {
+        "id": "cash_owner",
+        "category": "owner",
+        "label": "股东投入与分配",
+        "amount": -89569000.0,
+        "source_id": "annual_report",
+        "page": 83,
+        "basis": "Cash flow statement",
+        "raw_label": "Dividend paid",
+        "display_field": "movement.owner"
+      },
+      {
+        "id": "cash_fx",
+        "category": "valuation",
+        "label": "价值重估与汇率",
+        "amount": 4970000.0,
+        "source_id": "annual_report",
+        "page": 83,
+        "basis": "Cash flow statement",
+        "raw_label": "Exchange-rate effect",
+        "display_field": "movement.valuation"
+      }
+    ],
+    "facilities": [
+      {
+        "id": "fac_add",
+        "category": "capacity",
+        "label": "经营投入与退出",
+        "amount": 18775000.0,
+        "source_id": "annual_report",
+        "page": 119,
+        "basis": "Note 14(A) additions",
+        "raw_label": "PPE additions",
+        "display_field": "movement.capacity"
+      },
+      {
+        "id": "fac_dep",
+        "category": "consumption",
+        "label": "折旧摊销与耗竭",
+        "amount": -9671000.0,
+        "source_id": "annual_report",
+        "page": 120,
+        "basis": "PPE 6,090,000 plus leased buildings 3,581,000",
+        "raw_label": "PPE and leased-building depreciation",
+        "display_field": "movement.consumption"
+      },
+      {
+        "id": "fac_loss",
+        "category": "loss",
+        "label": "资产减值与恢复",
+        "amount": -24332000.0,
+        "source_id": "annual_report",
+        "page": 120,
+        "basis": "Final court ruling caused derecognition",
+        "raw_label": "PPE derecognition",
+        "display_field": "movement.loss"
+      },
+      {
+        "id": "fac_disp",
+        "category": "capacity",
+        "label": "经营投入与退出",
+        "amount": -47000.0,
+        "source_id": "annual_report",
+        "page": 119,
+        "basis": "Cost 788,000 less accumulated depreciation 741,000",
+        "raw_label": "PPE carrying amount disposed",
+        "display_field": "movement.capacity"
+      },
+      {
+        "id": "fac_ppe_fx",
+        "category": "valuation",
+        "label": "价值重估与汇率",
+        "amount": -11000.0,
+        "source_id": "annual_report",
+        "page": 119,
+        "basis": "Cost -30,000 less accumulated depreciation -19,000",
+        "raw_label": "PPE exchange differences",
+        "display_field": "movement.valuation"
+      },
+      {
+        "id": "fac_lease_add",
+        "category": "capacity",
+        "label": "经营投入与退出",
+        "amount": 21974000.0,
+        "source_id": "annual_report",
+        "page": 121,
+        "basis": "ROU asset additions",
+        "raw_label": "New leased facilities",
+        "display_field": "movement.capacity"
+      },
+      {
+        "id": "fac_rou_fx",
+        "category": "valuation",
+        "label": "价值重估与汇率",
+        "amount": -661000.0,
+        "source_id": "annual_report",
+        "page": 120,
+        "basis": "Derived from Note 14(B) opening, additions, depreciation and closing",
+        "raw_label": "Leased-facility exchange difference",
+        "display_field": "movement.valuation"
+      }
+    ],
+    "financing": [
+      {
+        "id": "lease_new",
+        "category": "financing",
+        "label": "融资借入与偿还",
+        "amount": 21974000.0,
+        "source_id": "annual_report",
+        "page": 135,
+        "basis": "Note 23(B)",
+        "raw_label": "New lease liabilities",
+        "display_field": "movement.financing"
+      },
+      {
+        "id": "lease_repay",
+        "category": "financing",
+        "label": "融资借入与偿还",
+        "amount": -13208000.0,
+        "source_id": "annual_report",
+        "page": 83,
+        "basis": "Cash flow statement",
+        "raw_label": "Lease principal repayment",
+        "display_field": "movement.financing"
+      },
+      {
+        "id": "lease_fx",
+        "category": "valuation",
+        "label": "价值重估与汇率",
+        "amount": -106000.0,
+        "source_id": "annual_report",
+        "page": 135,
+        "basis": "Note 23(B)",
+        "raw_label": "Lease-liability exchange differences",
+        "display_field": "movement.valuation"
+      }
+    ],
+    "goodwill": [],
+    "investments": [
+      {
+        "id": "inv_add",
+        "category": "investment",
+        "label": "投资投入与收回",
+        "amount": 160000000.0,
+        "source_id": "annual_report",
+        "page": 131,
+        "basis": "Note 21 movement",
+        "raw_label": "FVPL additions",
+        "display_field": "movement.investment"
+      },
+      {
+        "id": "inv_dispose",
+        "category": "investment",
+        "label": "投资投入与收回",
+        "amount": -160789000.0,
+        "source_id": "annual_report",
+        "page": 131,
+        "basis": "Note 21 movement",
+        "raw_label": "FVPL disposal",
+        "display_field": "movement.investment"
+      },
+      {
+        "id": "inv_fv",
+        "category": "valuation",
+        "label": "价值重估与汇率",
+        "amount": 669000.0,
+        "source_id": "annual_report",
+        "page": 131,
+        "basis": "Note 21 movement",
+        "raw_label": "FVPL fair-value gain",
+        "display_field": "movement.valuation"
+      },
+      {
+        "id": "inv_loss",
+        "category": "loss",
+        "label": "资产减值与恢复",
+        "amount": -2000.0,
+        "source_id": "annual_report",
+        "page": 131,
+        "basis": "Note 21 movement",
+        "raw_label": "FVPL disposal loss",
+        "display_field": "movement.loss"
+      }
+    ],
+    "other_assets": [
+      {
+        "id": "ip_fv",
+        "category": "valuation",
+        "label": "价值重估与汇率",
+        "amount": -2700000.0,
+        "source_id": "annual_report",
+        "page": 126,
+        "basis": "Note 15 movement",
+        "raw_label": "Investment-property fair-value loss",
+        "display_field": "movement.valuation"
+      }
+    ],
+    "other_liabilities": [
+      {
+        "id": "dtip_credit",
+        "category": "valuation",
+        "label": "价值重估与汇率",
+        "amount": -365000.0,
+        "source_id": "annual_report",
+        "page": 132,
+        "basis": "Note 22(B)",
+        "raw_label": "Investment-property deferred-tax credit",
+        "display_field": "movement.valuation"
+      }
+    ],
+    "other_operating": [
+      {
+        "id": "tax_charge",
+        "category": "operating",
+        "label": "经营形成与耗用",
+        "amount": -46194000.0,
+        "source_id": "annual_report",
+        "page": 132,
+        "basis": "Note 22(A)",
+        "raw_label": "Current income-tax charge",
+        "display_field": "movement.operating"
+      },
+      {
+        "id": "tax_paid",
+        "category": "settlement",
+        "label": "经营收付",
+        "amount": 39887000.0,
+        "source_id": "annual_report",
+        "page": 132,
+        "basis": "Note 22(A)",
+        "raw_label": "Income tax paid",
+        "display_field": "movement.settlement"
+      },
+      {
+        "id": "withhold_paid",
+        "category": "owner",
+        "label": "股东投入与分配",
+        "amount": 4585000.0,
+        "source_id": "annual_report",
+        "page": 132,
+        "basis": "Note 22(A)",
+        "raw_label": "Withholding tax paid on dividends",
+        "display_field": "movement.owner"
+      },
+      {
+        "id": "tax_fx",
+        "category": "valuation",
+        "label": "价值重估与汇率",
+        "amount": -32000.0,
+        "source_id": "annual_report",
+        "page": 132,
+        "basis": "Note 22(A)",
+        "raw_label": "Current-tax exchange difference",
+        "display_field": "movement.valuation"
+      },
+      {
+        "id": "grant_release",
+        "category": "operating",
+        "label": "经营形成与耗用",
+        "amount": 21000.0,
+        "source_id": "annual_report",
+        "page": 138,
+        "basis": "Note 27",
+        "raw_label": "Deferred grant released",
+        "display_field": "movement.operating"
+      },
+      {
+        "id": "rou_tax_credit",
+        "category": "operating",
+        "label": "经营形成与耗用",
+        "amount": 370000.0,
+        "source_id": "annual_report",
+        "page": 132,
+        "basis": "Note 22(B): net position changed from 294,000 liability to 76,000 asset",
+        "raw_label": "Net deferred-tax credit on ROU and lease liability",
+        "display_field": "movement.operating"
+      }
+    ],
+    "rights": [
+      {
+        "id": "rights_dep",
+        "category": "consumption",
+        "label": "折旧摊销与耗竭",
+        "amount": -970000.0,
+        "source_id": "annual_report",
+        "page": 120,
+        "basis": "Note 14(B)",
+        "raw_label": "Leasehold-land depreciation",
+        "display_field": "movement.consumption"
+      },
+      {
+        "id": "rights_fx",
+        "category": "valuation",
+        "label": "价值重估与汇率",
+        "amount": 556000.0,
+        "source_id": "annual_report",
+        "page": 120,
+        "basis": "Derived from Note 14(B) opening, depreciation and closing",
+        "raw_label": "Leasehold-land exchange difference",
+        "display_field": "movement.valuation"
+      }
+    ],
+    "shareholder": [
+      {
+        "id": "div_decl",
+        "category": "owner",
+        "label": "股东投入与分配",
+        "amount": 89569000.0,
+        "source_id": "annual_report",
+        "page": 135,
+        "basis": "Note 23(B)",
+        "raw_label": "Dividend declared",
+        "display_field": "movement.owner"
+      },
+      {
+        "id": "div_paid",
+        "category": "settlement",
+        "label": "经营收付",
+        "amount": -89569000.0,
+        "source_id": "annual_report",
+        "page": 135,
+        "basis": "Note 23(B)",
+        "raw_label": "Dividend paid",
+        "display_field": "movement.settlement"
+      },
+      {
+        "id": "div_fx",
+        "category": "valuation",
+        "label": "价值重估与汇率",
+        "amount": -1882000.0,
+        "source_id": "annual_report",
+        "page": 135,
+        "basis": "Note 23(B)",
+        "raw_label": "Dividend-payable exchange difference",
+        "display_field": "movement.valuation"
+      }
+    ],
+    "working": [
+      {
+        "id": "wc_settle",
+        "category": "settlement",
+        "label": "经营收付",
+        "amount": 34205000.0,
+        "source_id": "annual_report",
+        "page": 82,
+        "basis": "Cash-flow working-capital changes adjusted for deferred-grant release",
+        "raw_label": "Operating working-capital investment",
+        "display_field": "movement.settlement"
+      },
+      {
+        "id": "wc_loss",
+        "category": "loss",
+        "label": "资产减值与恢复",
+        "amount": -1962000.0,
+        "source_id": "annual_report",
+        "page": 111,
+        "basis": "Inventory net write-down 1,939,000 plus receivable allowances 23,000",
+        "raw_label": "Inventory and receivable losses",
+        "display_field": "movement.loss"
+      },
+      {
+        "id": "wc_return",
+        "category": "operating",
+        "label": "经营形成与耗用",
+        "amount": 760000.0,
+        "source_id": "annual_report",
+        "page": 111,
+        "basis": "Reversal reduces operating liability",
+        "raw_label": "Reversal of sales-return provision",
+        "display_field": "movement.operating"
+      },
+      {
+        "id": "system-unresolved",
+        "category": "unresolved",
+        "display_field": "movement.unresolved",
+        "label": "未解释差额",
+        "raw_label": "程序计算的未解释差额",
+        "amount": -2799000.0,
+        "basis": "期末减期初，再减已映射的经济变动",
+        "source_id": null,
+        "page": null
+      }
+    ]
+  },
+  "anomalies": [
+    {
+      "id": "ppe_derecognition",
+      "title": "法院终局裁定触发经营物业终止确认",
+      "explanation": "江苏高院2025年12月29日终局裁定耗尽通常上诉程序，管理层据法律意见终止确认账面价值人民币24,332,000元的楼宇及相关设备；该一次性损失显著推高其他经营费用并压低经营设施余额，不代表日常折旧或现金流出。",
+      "basis": "Annual report Note 14(A), physical page 120",
+      "amount": -24332000.0,
+      "fields": [
+        "assets.facilities.closing",
+        "wealth.operating.loss"
+      ],
+      "source_ids": [
+        "annual_report"
+      ]
+    },
+    {
+      "id": "lease_expansion",
+      "title": "新租约扩大租赁融资",
+      "explanation": "本年新签租约确认人民币21,974,000元使用权资产及租赁负债，支付本金13,208,000元并有汇兑减少106,000元，使融资负债净增约8,660,000元；这是经营设施融资扩张而非银行借款。",
+      "basis": "Annual report Notes 14(B), 23(B) and cash flow statement, physical pages 121, 135 and 83",
+      "amount": 8660000.0,
+      "fields": [
+        "assets.facilities.closing",
+        "assets.financing.closing",
+        "noncash.leases"
+      ],
+      "source_ids": [
+        "annual_report"
+      ]
+    },
+    {
+      "id": "dividend_cleared",
+      "title": "应付股利在汇兑调整后清零",
+      "explanation": "期初应付股利人民币1,882,000元，本年宣告及支付均为89,569,000元，另有汇兑减少1,882,000元，期末余额清零；附注25比较数仍列333,000元，标准余额采用能由附注23(B)流转闭合的1,882,000元并保留版本差异。",
+      "basis": "Annual report Notes 23(B) and 25, physical pages 135 and 136",
+      "amount": -1882000.0,
+      "fields": [
+        "assets.shareholder.opening",
+        "assets.shareholder.closing",
+        "wealth.owner.dividend",
+        "liquidity.owner.dividend"
+      ],
+      "source_ids": [
+        "annual_report"
+      ]
+    },
+    {
+      "id": "deposit_shift",
+      "title": "现金与存款增长且期限结构转长",
+      "explanation": "现金与全部定存由人民币364,714,000元增至425,739,000元；一年内定存减少95,000,000元，而一年以上定存增加118,000,000元。该变化主要是资金期限内部转换，不计作对外投资收付；内地资金仍受外汇管制。",
+      "basis": "Annual report Note 23(A), physical page 134",
+      "amount": 61025000.0,
+      "fields": [
+        "assets.cash.opening",
+        "assets.cash.closing"
+      ],
+      "source_ids": [
+        "annual_report"
+      ]
+    }
+  ],
+  "validation": {
+    "errors": [],
+    "warnings": [
+      {
+        "code": "CHECK_INCOMPLETE",
+        "check": "capital.opening"
+      },
+      {
+        "code": "CHECK_INCOMPLETE",
+        "check": "capital.closing"
+      },
+      {
+        "code": "MOVEMENT_CHECK_INCOMPLETE",
+        "field": "capital_settlement"
+      },
+      {
+        "code": "MOVEMENT_ATTRIBUTION_LIMIT",
+        "field": "working",
+        "amount": -2799000.0,
+        "soft_tolerance": 5000,
+        "material_threshold": 7551000.0
+      }
+    ],
+    "status": "warning"
+  }
+}

@@ -18,12 +18,14 @@ class CapitalPublishTest(unittest.TestCase):
             root = Path(tmp)
             source = root / "source.json"
             source.write_text(json.dumps({"schema": "capital-statement-v4", "company": "UVV", "currency": "USD",
-                "year": 2026, "facts": {"x": {}}, "mappings": [], "custom_fields": [],
+                "period_start": "2025-04-01", "period_end": "2026-03-31",
+                "facts": {"x": {}}, "mappings": [], "custom_fields": [],
                 "display_registry": {"version": "capital-display-v1"},
                 "validation": {"status": "warning", "errors": []}}))
             relative = module.publish(source, root / "site", "环球烟草", "UVV", "run", "bundle")
             self.assertTrue((root / "site/capital/UVV" / relative).exists())
             self.assertIn("环球烟草", (root / "site/capital/index.html").read_text())
+            self.assertIn("2026-03-31", (root / "site/capital/index.html").read_text())
             self.assertIn("资本表", (root / "site/capital/UVV/index.html").read_text())
 
 

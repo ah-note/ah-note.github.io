@@ -27,7 +27,7 @@ def company_page(name: str, code: str) -> str:
 <body><nav class="site-nav"><a href="/">股票</a><a href="/reports/">报告</a><a href="/research/">深度研报</a><a href="/industries/">行业</a><a class="active" href="/capital/">资本表</a><a href="/reference/">参考资料</a></nav>
 <main><header><strong>{title} <small>{safe_code}</small></strong><span id="filing-currency">合并口径</span></header>
 <div id="comparison"></div><p id="compare-status" role="status"></p>
-<footer id="view-help">点击年份展开或收起当年明细，两表联动。</footer>
+<footer id="view-help">点击报告截止日展开或收起该期明细，两表联动。</footer>
 <details class="page-notes" id="legacy-notes" hidden><summary>历史口径说明</summary></details>
 </main></body></html>
 '''
@@ -37,13 +37,13 @@ def catalog_page(entries: list[dict]) -> str:
     rows = "".join(
         f'<tr><td><a href="{html.escape(item["slug"])}/">{html.escape(item["name"])}</a></td>'
         f'<td>{html.escape(item["code"])}</td><td>{html.escape(item["currency"])}</td>'
-        f'<td>{"、".join(map(str, item["years"]))}</td></tr>' for item in entries
+        f'<td>{"、".join(item["period_ends"])}</td></tr>' for item in entries
     )
     return f'''<!doctype html>
 <html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>资本表 | AH Note</title><link rel="stylesheet" href="../assets/styles.css?v=20260910-capital-1"></head>
 <body><nav class="site-nav"><a href="../">股票</a><a href="../reports/">报告</a><a href="../research/">深度研报</a><a href="../industries/">行业</a><a class="active" href="">资本表</a><a href="../reference/">参考资料</a></nav>
-<main class="report-list-page"><section class="report-list"><h1>资本表</h1><div class="table-wrap"><table><thead><tr><th>公司</th><th>代码</th><th>呈报货币</th><th>年度</th></tr></thead><tbody>{rows}</tbody></table></div></section></main></body></html>
+<main class="report-list-page"><section class="report-list"><h1>资本表</h1><div class="table-wrap"><table><thead><tr><th>公司</th><th>代码</th><th>呈报货币</th><th>报告截止日</th></tr></thead><tbody>{rows}</tbody></table></div></section></main></body></html>
 '''
 
 
@@ -58,7 +58,7 @@ def publish(source: Path, site_root: Path, name: str, code: str, run_id: str, bu
     catalog = json.loads(catalog_path.read_text(encoding="utf-8")) if catalog_path.exists() else {"schema": "capital-catalog-v1", "companies": []}
     manifest = json.loads(company_root.joinpath("annual-manifest.json").read_text(encoding="utf-8"))
     entry = {"name": name, "code": code, "slug": code, "currency": manifest["currency"],
-             "years": sorted(map(int, manifest["years"]))}
+             "period_ends": sorted(manifest["periods"])}
     catalog["companies"] = sorted([item for item in catalog["companies"] if item["code"] != code] + [entry], key=lambda item: item["code"])
     capital_root.mkdir(parents=True, exist_ok=True)
     catalog_path.write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

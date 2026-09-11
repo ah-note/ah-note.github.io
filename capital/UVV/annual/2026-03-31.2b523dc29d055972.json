@@ -1,0 +1,5134 @@
+{
+  "draft_schema": "capital-statement-draft-v4",
+  "schema": "capital-statement-v4",
+  "company": "UVV",
+  "period_start": "2025-04-01",
+  "period_end": "2026-03-31",
+  "currency": "USD",
+  "precision": 1000.0,
+  "sources": [
+    {
+      "id": "uvv.2026.10k",
+      "url": "https://www.sec.gov/Archives/edgar/data/102037/000162828026046311/a2026_universalcorporation.pdf",
+      "basis": "Universal Corporation Form 10-K, fiscal year ended March 31, 2026; consolidated statements and notes",
+      "kind": "filing",
+      "page_count": 116,
+      "sha256": "db2661fd879c16889be42f3d9933251e40043ab24258ef414d3e0808cc6027aa"
+    }
+  ],
+  "display_registry": {
+    "version": "capital-display-v1",
+    "assets": {
+      "op": [
+        [
+          "working",
+          "经营周转净额"
+        ],
+        [
+          "facilities",
+          "经营设施"
+        ],
+        [
+          "rights",
+          "经营权利与开发资产"
+        ],
+        [
+          "capital_settlement",
+          "资本采购结算净额"
+        ],
+        [
+          "goodwill",
+          "商誉"
+        ],
+        [
+          "other_operating",
+          "其他经营净额"
+        ]
+      ],
+      "na": [
+        [
+          "cash",
+          "现金与存款"
+        ],
+        [
+          "investments",
+          "对外投资"
+        ],
+        [
+          "other_assets",
+          "其他非经营资产"
+        ]
+      ],
+      "nl": [
+        [
+          "financing",
+          "融资负债"
+        ],
+        [
+          "shareholder",
+          "股东相关应付款"
+        ],
+        [
+          "other_liabilities",
+          "其他非经营负债"
+        ]
+      ]
+    },
+    "asset_groups": {
+      "op": "经营净资产",
+      "na": "非经营资产",
+      "nl": "非经营负债"
+    },
+    "activities": {
+      "wealth": {
+        "operating": [
+          [
+            "revenue",
+            "产品与服务收入"
+          ],
+          [
+            "costs",
+            "经营耗用与费用（折旧、损失前）"
+          ],
+          [
+            "other_income",
+            "经营补助与其他收入"
+          ],
+          [
+            "tax",
+            "经营所得税"
+          ],
+          [
+            "depreciation",
+            "折旧摊销"
+          ],
+          [
+            "loss",
+            "经营资产损失"
+          ]
+        ],
+        "nonoperating": [
+          [
+            "returns",
+            "利息与投资收益"
+          ],
+          [
+            "valuation",
+            "价值重估与汇兑损益"
+          ],
+          [
+            "tax",
+            "非经营所得税"
+          ]
+        ],
+        "finance": [
+          [
+            "cost",
+            "融资费用"
+          ],
+          [
+            "tax",
+            "融资税收影响"
+          ]
+        ],
+        "owner": [
+          [
+            "input",
+            "增资与股份激励"
+          ],
+          [
+            "dividend",
+            "批准分红"
+          ],
+          [
+            "repurchase",
+            "股份回购"
+          ],
+          [
+            "minority",
+            "少数股权交易"
+          ]
+        ],
+        "other": [
+          [
+            "translation",
+            "报表折算差额"
+          ],
+          [
+            "other_oci",
+            "其他综合收益"
+          ],
+          [
+            "scope",
+            "合并范围及其他权益变动"
+          ]
+        ]
+      },
+      "liquidity": {
+        "operating": [
+          [
+            "before_working",
+            "经营收付（周转、缴税前）"
+          ],
+          [
+            "working",
+            "经营周转资金释放／占用"
+          ],
+          [
+            "tax",
+            "实际缴纳所得税"
+          ]
+        ],
+        "capacity": [
+          [
+            "purchase",
+            "购建经营资产"
+          ],
+          [
+            "disposal",
+            "处置经营资产收款"
+          ]
+        ],
+        "investment": [
+          [
+            "invest",
+            "投入对外投资"
+          ],
+          [
+            "recover",
+            "收回投资及处置收款"
+          ],
+          [
+            "returns",
+            "收到利息与投资分配"
+          ]
+        ],
+        "finance": [
+          [
+            "borrow",
+            "现金借款"
+          ],
+          [
+            "repay",
+            "偿还融资本金"
+          ],
+          [
+            "cost",
+            "支付融资费用"
+          ]
+        ],
+        "owner": [
+          [
+            "input",
+            "收到增资"
+          ],
+          [
+            "dividend",
+            "实际支付分红"
+          ],
+          [
+            "repurchase",
+            "现金回购"
+          ],
+          [
+            "minority",
+            "少数股权交易收付"
+          ]
+        ],
+        "other": [
+          [
+            "translation",
+            "汇率折算影响"
+          ],
+          [
+            "scope",
+            "合并范围现金变化"
+          ],
+          [
+            "restriction",
+            "资金范围转类"
+          ]
+        ]
+      }
+    },
+    "table_sections": {
+      "wealth": "净资产形成",
+      "liquidity": "资金收付与配置"
+    },
+    "activity_groups": {
+      "wealth": [
+        [
+          "operating",
+          "经营净贡献"
+        ],
+        [
+          "nonoperating",
+          "非经营资产净贡献"
+        ],
+        [
+          "finance",
+          "融资净成本"
+        ],
+        [
+          "owner",
+          "股东投入与分配"
+        ],
+        [
+          "other",
+          "其他权益变动"
+        ]
+      ],
+      "liquidity": [
+        [
+          "operating",
+          "经营与持有收付"
+        ],
+        [
+          "capacity",
+          "经营资产投入与退出"
+        ],
+        [
+          "investment",
+          "投资投入、收回与收益"
+        ],
+        [
+          "finance",
+          "融资借入与偿还"
+        ],
+        [
+          "owner",
+          "股东资金收付"
+        ],
+        [
+          "other",
+          "现金折算及范围变化"
+        ]
+      ]
+    },
+    "components": {
+      "assets.working": [
+        [
+          "inventory",
+          "存货"
+        ],
+        [
+          "customer_receivables",
+          "客户经营欠款"
+        ],
+        [
+          "contract_assets",
+          "合同资产"
+        ],
+        [
+          "operating_prepayments",
+          "经营预付款与押金"
+        ],
+        [
+          "other_operating_receivables",
+          "其他经营应收"
+        ],
+        [
+          "supplier_payables",
+          "供应商经营占款"
+        ],
+        [
+          "customer_advances",
+          "客户预收与合同负债"
+        ],
+        [
+          "employee_payables",
+          "员工结算义务"
+        ],
+        [
+          "other_operating_payables",
+          "其他经营应付与结算"
+        ]
+      ],
+      "assets.facilities": [
+        [
+          "owned_facilities",
+          "自有经营设施"
+        ],
+        [
+          "construction_in_progress",
+          "在建经营设施"
+        ],
+        [
+          "leased_facilities",
+          "租入经营设施"
+        ],
+        [
+          "productive_biological_assets",
+          "生产性生物资产"
+        ],
+        [
+          "other_facilities",
+          "其他经营设施"
+        ]
+      ],
+      "assets.rights": [
+        [
+          "land_rights",
+          "土地使用权"
+        ],
+        [
+          "resource_rights",
+          "资源权利"
+        ],
+        [
+          "concessions",
+          "特许经营权"
+        ],
+        [
+          "development_assets",
+          "开发资产"
+        ],
+        [
+          "acquired_operating_intangibles",
+          "外购经营无形资产"
+        ],
+        [
+          "other_rights",
+          "其他经营权利"
+        ]
+      ],
+      "assets.capital_settlement": [
+        [
+          "capital_prepayments",
+          "资本采购预付款"
+        ],
+        [
+          "capital_payables",
+          "资本采购欠款"
+        ],
+        [
+          "undisclosed_estimate",
+          "未单列资本采购结算估计"
+        ]
+      ],
+      "assets.goodwill": [
+        [
+          "goodwill",
+          "商誉"
+        ]
+      ],
+      "assets.other_operating": [
+        [
+          "operating_tax_assets",
+          "经营税项资产"
+        ],
+        [
+          "operating_tax_liabilities",
+          "经营税项义务"
+        ],
+        [
+          "deferred_operating_income",
+          "递延经营收益"
+        ],
+        [
+          "employee_benefit_obligations",
+          "长期员工义务"
+        ],
+        [
+          "operating_provisions",
+          "经营预计义务"
+        ],
+        [
+          "other_operating_assets",
+          "其他经营资产"
+        ],
+        [
+          "other_operating_liabilities",
+          "其他经营义务"
+        ]
+      ],
+      "assets.cash": [
+        [
+          "cash_equivalents",
+          "现金及现金等价物"
+        ],
+        [
+          "time_deposits",
+          "定期存款"
+        ],
+        [
+          "restricted_cash",
+          "受限及质押资金"
+        ],
+        [
+          "undivided_cash",
+          "现金、存款及受限资金（未拆分）"
+        ]
+      ],
+      "assets.investments": [
+        [
+          "associates_joint_ventures",
+          "联营与合营投资"
+        ],
+        [
+          "equity_investments",
+          "权益投资"
+        ],
+        [
+          "debt_investments",
+          "债权投资"
+        ],
+        [
+          "funds_wealth_products",
+          "基金与理财产品"
+        ],
+        [
+          "investment_derivatives",
+          "投资性衍生工具"
+        ],
+        [
+          "other_investments",
+          "其他对外投资"
+        ]
+      ],
+      "assets.other_assets": [
+        [
+          "investment_property",
+          "非主业投资物业"
+        ],
+        [
+          "nonoperating_receivables",
+          "非经营应收"
+        ],
+        [
+          "assets_held_for_sale",
+          "持有待售非经营资产"
+        ],
+        [
+          "other_nonoperating_assets",
+          "其他非经营资产"
+        ]
+      ],
+      "assets.financing": [
+        [
+          "bank_borrowings",
+          "银行及其他借款"
+        ],
+        [
+          "bonds_notes",
+          "债券及票据"
+        ],
+        [
+          "lease_liabilities",
+          "租赁负债"
+        ],
+        [
+          "financing_payables",
+          "实质融资应付款"
+        ],
+        [
+          "financing_derivatives",
+          "融资性衍生工具"
+        ],
+        [
+          "other_financing",
+          "其他融资负债"
+        ]
+      ],
+      "assets.shareholder": [
+        [
+          "dividends_payable",
+          "应付股利"
+        ],
+        [
+          "repurchase_redemption",
+          "回购及赎回义务"
+        ],
+        [
+          "share_incentive_obligations",
+          "股份激励结算义务"
+        ]
+      ],
+      "assets.other_liabilities": [
+        [
+          "nonoperating_tax_liabilities",
+          "非经营税项义务"
+        ],
+        [
+          "nonoperating_provisions",
+          "诉讼及其他非经营预计义务"
+        ],
+        [
+          "other_nonoperating_liabilities",
+          "其他非经营负债"
+        ]
+      ],
+      "wealth.operating.revenue": [
+        [
+          "product_revenue",
+          "产品收入"
+        ],
+        [
+          "service_revenue",
+          "服务收入"
+        ],
+        [
+          "operating_rental_revenue",
+          "主营租赁收入"
+        ],
+        [
+          "other_operating_revenue",
+          "其他经营收入"
+        ],
+        [
+          "undivided_operating_revenue",
+          "产品与服务收入（未拆分）"
+        ]
+      ],
+      "wealth.operating.costs": [
+        [
+          "product_service_costs",
+          "产品与服务耗用"
+        ],
+        [
+          "selling_distribution",
+          "销售与履约费用"
+        ],
+        [
+          "administrative",
+          "管理费用"
+        ],
+        [
+          "research_development",
+          "研发费用"
+        ],
+        [
+          "other_operating_costs",
+          "其他经营费用"
+        ],
+        [
+          "depreciation_adjustment",
+          "剔除折旧摊销"
+        ],
+        [
+          "asset_loss_adjustment",
+          "剔除经营资产损失"
+        ],
+        [
+          "nonoperating_adjustment",
+          "剔除非经营收支"
+        ]
+      ],
+      "wealth.operating.other_income": [
+        [
+          "grants_subsidies",
+          "经营补助"
+        ],
+        [
+          "tax_refunds",
+          "经营税费返还"
+        ],
+        [
+          "other_operating_income",
+          "其他经营收益"
+        ],
+        [
+          "undivided_operating_income",
+          "经营补助与其他收益（未拆分）"
+        ]
+      ],
+      "wealth.operating.tax": [
+        [
+          "current_operating_tax",
+          "当期经营所得税"
+        ],
+        [
+          "deferred_operating_tax",
+          "递延经营所得税"
+        ],
+        [
+          "allocated_operating_tax",
+          "估计分配的经营所得税"
+        ]
+      ],
+      "wealth.operating.depreciation": [
+        [
+          "facility_depreciation",
+          "经营设施折旧"
+        ],
+        [
+          "rights_amortization",
+          "经营权利摊销"
+        ],
+        [
+          "other_operating_amortization",
+          "其他经营摊销"
+        ]
+      ],
+      "wealth.operating.loss": [
+        [
+          "inventory_loss",
+          "存货损失"
+        ],
+        [
+          "credit_loss",
+          "经营信用损失"
+        ],
+        [
+          "asset_impairment",
+          "经营资产减值"
+        ],
+        [
+          "disposal_derecognition_loss",
+          "处置及终止确认损失"
+        ],
+        [
+          "other_operating_loss",
+          "其他经营资产损失"
+        ],
+        [
+          "undivided_operating_loss",
+          "经营资产损失（未拆分）"
+        ]
+      ],
+      "wealth.nonoperating.returns": [
+        [
+          "interest_income",
+          "利息收益"
+        ],
+        [
+          "dividend_income",
+          "股利及投资分配"
+        ],
+        [
+          "nonoperating_rent",
+          "非主业物业净收益"
+        ],
+        [
+          "realized_investment_return",
+          "已实现投资收益"
+        ],
+        [
+          "other_nonoperating_return",
+          "其他非经营收益"
+        ],
+        [
+          "undivided_nonoperating_return",
+          "利息与其他非经营收益（未拆分）"
+        ]
+      ],
+      "wealth.nonoperating.valuation": [
+        [
+          "investment_valuation",
+          "投资价值变动"
+        ],
+        [
+          "property_valuation",
+          "非主业物业价值变动"
+        ],
+        [
+          "foreign_exchange",
+          "汇兑损益"
+        ],
+        [
+          "other_valuation",
+          "其他价值变动"
+        ],
+        [
+          "undivided_valuation",
+          "价值重估与汇兑损益（未拆分）"
+        ]
+      ],
+      "wealth.nonoperating.tax": [
+        [
+          "current_nonoperating_tax",
+          "当期非经营所得税"
+        ],
+        [
+          "deferred_nonoperating_tax",
+          "递延非经营所得税"
+        ],
+        [
+          "withholding_tax",
+          "投资分配预提税"
+        ],
+        [
+          "allocated_nonoperating_tax",
+          "估计分配的非经营所得税"
+        ],
+        [
+          "undivided_nonoperating_tax",
+          "非经营所得税（未拆分）"
+        ]
+      ],
+      "wealth.finance.cost": [
+        [
+          "borrowing_interest",
+          "借款利息"
+        ],
+        [
+          "bond_interest",
+          "债券及票据利息"
+        ],
+        [
+          "lease_interest",
+          "租赁融资费用"
+        ],
+        [
+          "other_finance_cost",
+          "其他融资费用"
+        ]
+      ],
+      "wealth.finance.tax": [
+        [
+          "finance_tax_effect",
+          "融资税收影响"
+        ]
+      ],
+      "wealth.owner.input": [
+        [
+          "share_issue",
+          "股份发行"
+        ],
+        [
+          "share_incentive",
+          "股份激励"
+        ],
+        [
+          "other_owner_input",
+          "其他股东投入"
+        ],
+        [
+          "undivided_owner_input",
+          "增资与股份激励（未拆分）"
+        ]
+      ],
+      "wealth.owner.dividend": [
+        [
+          "dividend_declared",
+          "批准及宣告分红"
+        ]
+      ],
+      "wealth.owner.repurchase": [
+        [
+          "share_repurchase",
+          "股份回购"
+        ]
+      ],
+      "wealth.owner.minority": [
+        [
+          "minority_acquisition",
+          "收购少数股权"
+        ],
+        [
+          "minority_disposal",
+          "出售少数股权"
+        ]
+      ],
+      "wealth.other.translation": [
+        [
+          "statement_translation",
+          "报表折算差额"
+        ]
+      ],
+      "wealth.other.other_oci": [
+        [
+          "hedging_oci",
+          "套期储备变动"
+        ],
+        [
+          "revaluation_oci",
+          "资产重估储备变动"
+        ],
+        [
+          "actuarial_oci",
+          "员工福利精算变动"
+        ],
+        [
+          "other_oci",
+          "其他综合收益"
+        ]
+      ],
+      "wealth.other.scope": [
+        [
+          "business_combination",
+          "业务并入"
+        ],
+        [
+          "business_disposal",
+          "业务移出"
+        ],
+        [
+          "other_equity_change",
+          "其他权益变动"
+        ]
+      ],
+      "liquidity.operating.before_working": [
+        [
+          "operating_base_cash",
+          "周转及缴税前经营收付"
+        ]
+      ],
+      "liquidity.operating.working": [
+        [
+          "inventory_cash",
+          "存货资金释放／占用"
+        ],
+        [
+          "receivables_cash",
+          "经营应收资金释放／占用"
+        ],
+        [
+          "payables_cash",
+          "经营应付资金释放／占用"
+        ],
+        [
+          "other_working_cash",
+          "其他经营周转资金释放／占用"
+        ],
+        [
+          "undivided_working_cash",
+          "经营周转资金释放／占用（未拆分）"
+        ]
+      ],
+      "liquidity.operating.tax": [
+        [
+          "income_tax_paid",
+          "支付所得税"
+        ],
+        [
+          "withholding_tax_paid",
+          "支付预提税"
+        ],
+        [
+          "undivided_tax_paid",
+          "实际缴纳所得税（未拆分）"
+        ]
+      ],
+      "liquidity.capacity.purchase": [
+        [
+          "facility_purchase",
+          "购建经营设施"
+        ],
+        [
+          "rights_purchase",
+          "取得经营权利"
+        ],
+        [
+          "development_purchase",
+          "投入开发资产"
+        ],
+        [
+          "other_capacity_purchase",
+          "其他经营资产投入"
+        ]
+      ],
+      "liquidity.capacity.disposal": [
+        [
+          "facility_disposal",
+          "处置经营设施收款"
+        ],
+        [
+          "rights_disposal",
+          "处置经营权利收款"
+        ],
+        [
+          "other_capacity_disposal",
+          "其他经营资产处置收款"
+        ]
+      ],
+      "liquidity.investment.invest": [
+        [
+          "associate_jv_invest",
+          "投入联营与合营企业"
+        ],
+        [
+          "equity_invest",
+          "投入权益投资"
+        ],
+        [
+          "debt_invest",
+          "投入债权投资"
+        ],
+        [
+          "fund_wealth_invest",
+          "投入基金与理财产品"
+        ],
+        [
+          "other_invest",
+          "其他对外投资"
+        ]
+      ],
+      "liquidity.investment.recover": [
+        [
+          "associate_jv_recover",
+          "收回联营与合营投资"
+        ],
+        [
+          "equity_recover",
+          "收回权益投资"
+        ],
+        [
+          "debt_recover",
+          "收回债权投资"
+        ],
+        [
+          "fund_wealth_recover",
+          "收回基金与理财产品"
+        ],
+        [
+          "other_investment_recover",
+          "其他投资收回及处置收款"
+        ]
+      ],
+      "liquidity.investment.returns": [
+        [
+          "interest_received",
+          "收到利息"
+        ],
+        [
+          "dividend_received",
+          "收到股利及投资分配"
+        ],
+        [
+          "other_investment_return_cash",
+          "收到其他投资收益"
+        ]
+      ],
+      "liquidity.finance.borrow": [
+        [
+          "bank_borrow",
+          "取得银行及其他借款"
+        ],
+        [
+          "bond_issue",
+          "发行债券及票据"
+        ],
+        [
+          "other_financing_received",
+          "收到其他融资"
+        ]
+      ],
+      "liquidity.finance.repay": [
+        [
+          "bank_repay",
+          "偿还银行及其他借款"
+        ],
+        [
+          "bond_repay",
+          "偿还债券及票据"
+        ],
+        [
+          "lease_principal",
+          "偿还租赁本金"
+        ],
+        [
+          "other_financing_repay",
+          "偿还其他融资本金"
+        ]
+      ],
+      "liquidity.finance.cost": [
+        [
+          "interest_paid",
+          "支付借款及债券利息"
+        ],
+        [
+          "lease_interest_paid",
+          "支付租赁利息"
+        ],
+        [
+          "other_finance_cost_paid",
+          "支付其他融资费用"
+        ]
+      ],
+      "liquidity.owner.input": [
+        [
+          "share_issue_cash",
+          "收到股份发行款"
+        ],
+        [
+          "share_incentive_cash",
+          "收到股份激励款"
+        ],
+        [
+          "other_owner_cash",
+          "收到其他股东投入"
+        ]
+      ],
+      "liquidity.owner.dividend": [
+        [
+          "dividend_paid",
+          "实际支付分红"
+        ]
+      ],
+      "liquidity.owner.repurchase": [
+        [
+          "repurchase_paid",
+          "现金回购股份"
+        ]
+      ],
+      "liquidity.owner.minority": [
+        [
+          "minority_acquisition_cash",
+          "收购少数股权付款"
+        ],
+        [
+          "minority_disposal_cash",
+          "出售少数股权收款"
+        ]
+      ],
+      "liquidity.other.translation": [
+        [
+          "cash_translation",
+          "现金汇率折算影响"
+        ]
+      ],
+      "liquidity.other.scope": [
+        [
+          "acquired_cash",
+          "并入业务现金"
+        ],
+        [
+          "disposed_cash",
+          "移出业务现金"
+        ]
+      ],
+      "liquidity.other.restriction": [
+        [
+          "restriction_transfer",
+          "资金可用范围转类"
+        ]
+      ]
+    },
+    "movements": {
+      "operating": "经营形成与耗用",
+      "settlement": "经营收付",
+      "capacity": "经营投入与退出",
+      "consumption": "折旧摊销与耗竭",
+      "loss": "资产减值与恢复",
+      "investment": "投资投入与收回",
+      "returns": "投资收益",
+      "financing": "融资借入与偿还",
+      "finance_cost": "融资费用",
+      "owner": "股东投入与分配",
+      "scope": "业务并入与移出",
+      "valuation": "价值重估与汇率",
+      "transfer": "资产与义务转类",
+      "balance": "余额变化",
+      "unresolved": "未解释差额"
+    },
+    "derived": {
+      "wealth.operating.before_depreciation_loss": "税后经营盈余（折旧、损失前）",
+      "controls.equity.change": "净资产增加",
+      "controls.cash.change": "现金与存款增加",
+      "noncash.leases": "非现金资本配置"
+    }
+  },
+  "custom_fields": [],
+  "facts": {
+    "bal.inv.2026": {
+      "label": "存货",
+      "source_amount": 1035897000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 56,
+      "basis": "consolidated balance sheets, March 31, 2026 and 2025",
+      "calculation": null
+    },
+    "bal.inv.2025": {
+      "label": "存货",
+      "source_amount": 995942000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 56,
+      "basis": "consolidated balance sheets, March 31, 2026 and 2025",
+      "calculation": null
+    },
+    "bal.ar.2026": {
+      "label": "客户经营欠款",
+      "source_amount": 563864000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 56,
+      "basis": "consolidated balance sheets, March 31, 2026 and 2025",
+      "calculation": null
+    },
+    "bal.ar.2025": {
+      "label": "客户经营欠款",
+      "source_amount": 625876000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 56,
+      "basis": "consolidated balance sheets, March 31, 2026 and 2025",
+      "calculation": null
+    },
+    "bal.adv.2026": {
+      "label": "经营预付款与押金",
+      "source_amount": 177222000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 56,
+      "basis": "consolidated balance sheets, March 31, 2026 and 2025",
+      "calculation": null
+    },
+    "bal.adv.2025": {
+      "label": "经营预付款与押金",
+      "source_amount": 169385000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 56,
+      "basis": "consolidated balance sheets, March 31, 2026 and 2025",
+      "calculation": null
+    },
+    "bal.affar.2026": {
+      "label": "其他经营应收",
+      "source_amount": 12300000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 56,
+      "basis": "consolidated balance sheets, March 31, 2026 and 2025",
+      "calculation": null
+    },
+    "bal.custadv.2026": {
+      "label": "Customer advances",
+      "source_amount": 3376000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 57,
+      "basis": "consolidated balance sheets, March 31, 2026 and 2025",
+      "calculation": null
+    },
+    "bal.custadv.2025": {
+      "label": "Customer advances",
+      "source_amount": 3763000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 57,
+      "basis": "consolidated balance sheets, March 31, 2026 and 2025",
+      "calculation": null
+    },
+    "bal.comp.2026": {
+      "label": "Accrued compensation",
+      "source_amount": 33234000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 57,
+      "basis": "consolidated balance sheets, March 31, 2026 and 2025",
+      "calculation": null
+    },
+    "bal.comp.2025": {
+      "label": "Accrued compensation",
+      "source_amount": 44646000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 57,
+      "basis": "consolidated balance sheets, March 31, 2026 and 2025",
+      "calculation": null
+    },
+    "bal.gw.2026": {
+      "label": "Goodwill",
+      "source_amount": 172695000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 56,
+      "basis": "consolidated balance sheets, March 31, 2026 and 2025",
+      "calculation": null
+    },
+    "bal.gw.2025": {
+      "label": "Goodwill",
+      "source_amount": 213840000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 56,
+      "basis": "consolidated balance sheets, March 31, 2026 and 2025",
+      "calculation": null
+    },
+    "bal.invst.2026": {
+      "label": "Investments in unconsolidated affiliates",
+      "source_amount": 82287000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 56,
+      "basis": "consolidated balance sheets, March 31, 2026 and 2025",
+      "calculation": null
+    },
+    "bal.invst.2025": {
+      "label": "Investments in unconsolidated affiliates",
+      "source_amount": 79317000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 56,
+      "basis": "consolidated balance sheets, March 31, 2026 and 2025",
+      "calculation": null
+    },
+    "eq.total.2026": {
+      "label": "Total shareholders equity",
+      "source_amount": 1461124000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 57,
+      "basis": "consolidated balance sheets, March 31, 2026 and 2025",
+      "calculation": null
+    },
+    "eq.total.2025": {
+      "label": "Total shareholders equity",
+      "source_amount": 1500538000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 57,
+      "basis": "consolidated balance sheets, March 31, 2026 and 2025",
+      "calculation": null
+    },
+    "eq.parent.2026": {
+      "label": "Universal shareholders equity",
+      "source_amount": 1415400000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 57,
+      "basis": "consolidated balance sheets, March 31, 2026 and 2025",
+      "calculation": null
+    },
+    "eq.parent.2025": {
+      "label": "Universal shareholders equity",
+      "source_amount": 1458556000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 57,
+      "basis": "consolidated balance sheets, March 31, 2026 and 2025",
+      "calculation": null
+    },
+    "eq.min.2026": {
+      "label": "Noncontrolling interests",
+      "source_amount": 45724000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 57,
+      "basis": "consolidated balance sheets, March 31, 2026 and 2025",
+      "calculation": null
+    },
+    "eq.min.2025": {
+      "label": "Noncontrolling interests",
+      "source_amount": 41982000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 57,
+      "basis": "consolidated balance sheets, March 31, 2026 and 2025",
+      "calculation": null
+    },
+    "bal.ap.2026": {
+      "label": "Accounts payable",
+      "source_amount": 90649000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 57,
+      "basis": "consolidated balance sheets, March 31, 2026 and 2025",
+      "calculation": null
+    },
+    "bal.ap.2025": {
+      "label": "Accounts payable",
+      "source_amount": 100035000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 57,
+      "basis": "consolidated balance sheets, March 31, 2026 and 2025",
+      "calculation": null
+    },
+    "bal.accr.2026": {
+      "label": "Accrued expenses and other current liabilities",
+      "source_amount": 120603000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 57,
+      "basis": "consolidated balance sheets, March 31, 2026 and 2025",
+      "calculation": null
+    },
+    "bal.accr.2025": {
+      "label": "Accrued expenses and other current liabilities",
+      "source_amount": 123350000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 57,
+      "basis": "consolidated balance sheets, March 31, 2026 and 2025",
+      "calculation": null
+    },
+    "bal.ppe.2026": {
+      "label": "Property, plant and equipment, net",
+      "source_amount": 372954000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 56,
+      "basis": "consolidated balance sheets, March 31, 2026 and 2025",
+      "calculation": null
+    },
+    "bal.ppe.2025": {
+      "label": "Property, plant and equipment, net",
+      "source_amount": 372974000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 56,
+      "basis": "consolidated balance sheets, March 31, 2026 and 2025",
+      "calculation": null
+    },
+    "bal.rou.2026": {
+      "label": "Operating lease right-of-use assets",
+      "source_amount": 37272000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 56,
+      "basis": "consolidated balance sheets, March 31, 2026 and 2025",
+      "calculation": null
+    },
+    "bal.rou.2025": {
+      "label": "Operating lease right-of-use assets",
+      "source_amount": 34260000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 56,
+      "basis": "consolidated balance sheets, March 31, 2026 and 2025",
+      "calculation": null
+    },
+    "bal.int.2026": {
+      "label": "Other intangibles, net",
+      "source_amount": 48604000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 56,
+      "basis": "consolidated balance sheets, March 31, 2026 and 2025",
+      "calculation": null
+    },
+    "bal.int.2025": {
+      "label": "Other intangibles, net",
+      "source_amount": 57836000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 56,
+      "basis": "consolidated balance sheets, March 31, 2026 and 2025",
+      "calculation": null
+    },
+    "bal.cash.2026": {
+      "label": "Cash and cash equivalents",
+      "source_amount": 62178000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 56,
+      "basis": "consolidated balance sheets, March 31, 2026 and 2025",
+      "calculation": null
+    },
+    "bal.cash.2025": {
+      "label": "Cash and cash equivalents",
+      "source_amount": 260115000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 56,
+      "basis": "consolidated balance sheets, March 31, 2026 and 2025",
+      "calculation": null
+    },
+    "bal.debt.2026": {
+      "label": "Notes payable and long-term debt",
+      "source_amount": 904291000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 57,
+      "basis": "consolidated balance sheets, March 31, 2026 and 2025",
+      "calculation": null
+    },
+    "bal.debt.2025": {
+      "label": "Notes payable and long-term debt",
+      "source_amount": 1072957000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 57,
+      "basis": "consolidated balance sheets, March 31, 2026 and 2025",
+      "calculation": null
+    },
+    "bal.lease.2026": {
+      "label": "Operating lease liabilities",
+      "source_amount": 35531000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 57,
+      "basis": "consolidated balance sheets, March 31, 2026 and 2025",
+      "calculation": null
+    },
+    "bal.lease.2025": {
+      "label": "Operating lease liabilities",
+      "source_amount": 31350000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 57,
+      "basis": "consolidated balance sheets, March 31, 2026 and 2025",
+      "calculation": null
+    },
+    "bal.taxasset.2026": {
+      "label": "Income taxes and deferred tax assets",
+      "source_amount": 38594000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 56,
+      "basis": "consolidated balance sheets, March 31, 2026 and 2025",
+      "calculation": null
+    },
+    "bal.taxasset.2025": {
+      "label": "Income taxes and deferred tax assets",
+      "source_amount": 36134000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 56,
+      "basis": "consolidated balance sheets, March 31, 2026 and 2025",
+      "calculation": null
+    },
+    "bal.taxliab.2026": {
+      "label": "Income taxes and deferred tax liabilities",
+      "source_amount": 57563000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 57,
+      "basis": "consolidated balance sheets, March 31, 2026 and 2025",
+      "calculation": null
+    },
+    "bal.taxliab.2025": {
+      "label": "Income taxes and deferred tax liabilities",
+      "source_amount": 54676000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 57,
+      "basis": "consolidated balance sheets, March 31, 2026 and 2025",
+      "calculation": null
+    },
+    "bal.pension.2026": {
+      "label": "Pension and postretirement benefits",
+      "source_amount": 18929000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 56,
+      "basis": "consolidated balance sheets, March 31, 2026 and 2025",
+      "calculation": null
+    },
+    "bal.pension.2025": {
+      "label": "Pension and postretirement benefits",
+      "source_amount": 22517000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 56,
+      "basis": "consolidated balance sheets, March 31, 2026 and 2025",
+      "calculation": null
+    },
+    "bal.othernc.2026": {
+      "label": "Other noncurrent assets",
+      "source_amount": 49080000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 56,
+      "basis": "consolidated balance sheets, March 31, 2026 and 2025",
+      "calculation": null
+    },
+    "bal.othernc.2025": {
+      "label": "Other noncurrent assets",
+      "source_amount": 45870000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 56,
+      "basis": "consolidated balance sheets, March 31, 2026 and 2025",
+      "calculation": null
+    },
+    "bal.otherliab.2026": {
+      "label": "Other long-term liabilities",
+      "source_amount": 24925000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 57,
+      "basis": "consolidated balance sheets, March 31, 2026 and 2025",
+      "calculation": null
+    },
+    "bal.otherliab.2025": {
+      "label": "Other long-term liabilities",
+      "source_amount": 22901000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 57,
+      "basis": "consolidated balance sheets, March 31, 2026 and 2025",
+      "calculation": null
+    },
+    "inc.revenue": {
+      "label": "Sales and other operating revenues",
+      "source_amount": 2924470000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 54,
+      "basis": "consolidated statements of income, fiscal year ended March 31, 2026",
+      "calculation": null
+    },
+    "inc.cogs": {
+      "label": "Cost of goods sold",
+      "source_amount": 2412454000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 54,
+      "basis": "consolidated statements of income, fiscal year ended March 31, 2026",
+      "calculation": null
+    },
+    "inc.sga": {
+      "label": "Selling, general and administrative expenses",
+      "source_amount": 300671000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 54,
+      "basis": "consolidated statements of income, fiscal year ended March 31, 2026",
+      "calculation": null
+    },
+    "inc.restruct": {
+      "label": "Restructuring and impairment costs",
+      "source_amount": 1833000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 54,
+      "basis": "consolidated statements of income, fiscal year ended March 31, 2026",
+      "calculation": null
+    },
+    "inc.goodwillloss": {
+      "label": "Goodwill impairment",
+      "source_amount": 41061000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 54,
+      "basis": "consolidated statements of income, fiscal year ended March 31, 2026",
+      "calculation": null
+    },
+    "inc.returns1": {
+      "label": "Equity in pretax earnings of unconsolidated affiliates",
+      "source_amount": 3430000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 54,
+      "basis": "consolidated statements of income, fiscal year ended March 31, 2026",
+      "calculation": null
+    },
+    "inc.returns2": {
+      "label": "Other non-operating income",
+      "source_amount": 2847000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 54,
+      "basis": "consolidated statements of income, fiscal year ended March 31, 2026",
+      "calculation": null
+    },
+    "inc.interest": {
+      "label": "Interest income",
+      "source_amount": 1964000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 54,
+      "basis": "consolidated statements of income, fiscal year ended March 31, 2026",
+      "calculation": null
+    },
+    "inc.finance": {
+      "label": "Interest expense",
+      "source_amount": 74040000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 54,
+      "basis": "consolidated statements of income, fiscal year ended March 31, 2026",
+      "calculation": null
+    },
+    "inc.tax": {
+      "label": "Allocated operating income tax",
+      "source_amount": 76123989.0,
+      "status": "estimated",
+      "source_id": "uvv.2026.10k",
+      "page": 54,
+      "basis": "Consolidated income statement and Note 1 equity-method tax reconciliation",
+      "calculation": "After assigning disclosed equity-method tax of 1,818, residual tax 44,839 is allocated over residual pretax contribution 99,222; 44,839 × 168,451 / 99,222 = 76,124 (thousand dollars)"
+    },
+    "inc.dep": {
+      "label": "Depreciation and amortization",
+      "source_amount": 53437000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 58,
+      "basis": "consolidated statements of cash flows, fiscal year ended March 31, 2026",
+      "calculation": null
+    },
+    "inc.oci.trans": {
+      "label": "Foreign currency translation, net of income taxes",
+      "source_amount": 4955000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 55,
+      "basis": "consolidated statements of comprehensive income",
+      "calculation": null
+    },
+    "inc.oci.hedge": {
+      "label": "Foreign currency and interest rate hedges, net of income taxes",
+      "source_amount": 1046000.0,
+      "status": "derived",
+      "source_id": "uvv.2026.10k",
+      "page": 55,
+      "basis": "Consolidated statements of comprehensive income",
+      "calculation": "3,836 - 2,790 = 1,046 (thousand dollars)"
+    },
+    "inc.oci.pension": {
+      "label": "Pension and other postretirement benefit plans, net of income taxes",
+      "source_amount": 368000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 55,
+      "basis": "consolidated statements of comprehensive income",
+      "calculation": null
+    },
+    "inc.ownerinput": {
+      "label": "Accrual of stock-based compensation",
+      "source_amount": 7115000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 59,
+      "basis": "consolidated statements of changes in shareholders equity, fiscal year ended March 31, 2026",
+      "calculation": null
+    },
+    "inc.withhold": {
+      "label": "Withholding of shares from stock-based compensation for grantee income taxes",
+      "source_amount": 8135000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 59,
+      "basis": "consolidated statements of changes in shareholders equity, fiscal year ended March 31, 2026",
+      "calculation": null
+    },
+    "inc.divcommon": {
+      "label": "Cash dividends declared on common stock",
+      "source_amount": 81712000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 59,
+      "basis": "consolidated statements of changes in shareholders equity, fiscal year ended March 31, 2026",
+      "calculation": null
+    },
+    "inc.divnci": {
+      "label": "Dividends paid to noncontrolling shareholders",
+      "source_amount": 19046000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 59,
+      "basis": "consolidated statements of changes in shareholders equity, fiscal year ended March 31, 2026",
+      "calculation": null
+    },
+    "cf.tax": {
+      "label": "Income taxes paid, net of refunds",
+      "source_amount": 43117000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 58,
+      "basis": "consolidated statements of cash flows, fiscal year ended March 31, 2026",
+      "calculation": null
+    },
+    "cf.capacity": {
+      "label": "Purchase of property, plant and equipment",
+      "source_amount": 48829000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 58,
+      "basis": "consolidated statements of cash flows, fiscal year ended March 31, 2026",
+      "calculation": null
+    },
+    "cf.disposal": {
+      "label": "Proceeds from sale of property, plant and equipment",
+      "source_amount": 5873000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 58,
+      "basis": "consolidated statements of cash flows, fiscal year ended March 31, 2026",
+      "calculation": null
+    },
+    "cf.borrow": {
+      "label": "Issuance of long-term debt",
+      "source_amount": 89130000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 58,
+      "basis": "consolidated statements of cash flows, fiscal year ended March 31, 2026",
+      "calculation": null
+    },
+    "cf.repay1": {
+      "label": "Issuance (repayment) of short-term debt, net",
+      "source_amount": 170069000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 58,
+      "basis": "consolidated statements of cash flows, fiscal year ended March 31, 2026",
+      "calculation": null
+    },
+    "cf.repay2": {
+      "label": "Repayment of long-term debt",
+      "source_amount": 89130000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 58,
+      "basis": "consolidated statements of cash flows, fiscal year ended March 31, 2026",
+      "calculation": null
+    },
+    "cf.fincost": {
+      "label": "Settlement costs and debt issuance costs",
+      "source_amount": 13929000.0,
+      "status": "derived",
+      "source_id": "uvv.2026.10k",
+      "page": 58,
+      "basis": "Consolidated statements of cash flows",
+      "calculation": "988 + 12,941 = 13,929 (thousand dollars)"
+    },
+    "cf.divcommon": {
+      "label": "Dividends paid on common stock",
+      "source_amount": 81299000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 58,
+      "basis": "consolidated statements of cash flows, fiscal year ended March 31, 2026",
+      "calculation": null
+    },
+    "cf.divnci": {
+      "label": "Dividends paid to noncontrolling interests",
+      "source_amount": 19046000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 58,
+      "basis": "consolidated statements of cash flows, fiscal year ended March 31, 2026",
+      "calculation": null
+    },
+    "cf.noncash": {
+      "label": "Right-of-use assets obtained in exchange for new operating lease liabilities",
+      "source_amount": 16901000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 68,
+      "basis": "Note 9 leases",
+      "calculation": null
+    },
+    "profit": {
+      "label": "Net income",
+      "source_amount": 55995000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 54,
+      "basis": "consolidated statements of income, fiscal year ended March 31, 2026",
+      "calculation": null
+    },
+    "cf.trans": {
+      "label": "Effect of exchange rate changes on cash",
+      "source_amount": 262000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 58,
+      "basis": "Consolidated statements of cash flows, fiscal year ended March 31, 2026",
+      "calculation": null
+    },
+    "cf.working": {
+      "label": "Changes in operating assets and liabilities, net",
+      "source_amount": -119142000.0,
+      "status": "derived",
+      "source_id": "uvv.2026.10k",
+      "page": 58,
+      "basis": "Consolidated statements of cash flows, fiscal year ended March 31, 2026",
+      "calculation": "39,161 - 89,521 - 21,241 - 12,618 - 5,187 + 971 - 707 = -119,142 (thousand dollars)"
+    },
+    "cf.beforeworking": {
+      "label": "Operating cash before working capital and income taxes",
+      "source_amount": 291359000.0,
+      "status": "derived",
+      "source_id": "uvv.2026.10k",
+      "page": 58,
+      "basis": "Consolidated statements of cash flows, fiscal year ended March 31, 2026",
+      "calculation": "net cash from operating activities 129,100 - working-capital cash change (-119,142) - income taxes paid (-43,117) = 291,359 (thousand dollars)"
+    },
+    "cap.open": {
+      "label": "Capital procurement settlement",
+      "source_amount": 0.0,
+      "status": "not_applicable",
+      "source_id": "uvv.2026.10k",
+      "page": 56,
+      "basis": "Balance sheet; no separate capital procurement receivable/payable disclosed",
+      "calculation": null
+    },
+    "cap.close": {
+      "label": "Capital procurement settlement",
+      "source_amount": 0.0,
+      "status": "not_applicable",
+      "source_id": "uvv.2026.10k",
+      "page": 57,
+      "basis": "Balance sheet; no separate capital procurement receivable/payable disclosed",
+      "calculation": null
+    },
+    "oa.open": {
+      "label": "Other non-operating assets",
+      "source_amount": 0.0,
+      "status": "not_applicable",
+      "source_id": "uvv.2026.10k",
+      "page": 56,
+      "basis": "Balance sheet",
+      "calculation": null
+    },
+    "oa.close": {
+      "label": "Other non-operating assets",
+      "source_amount": 0.0,
+      "status": "not_applicable",
+      "source_id": "uvv.2026.10k",
+      "page": 56,
+      "basis": "Balance sheet",
+      "calculation": null
+    },
+    "ol.open": {
+      "label": "Other non-operating liabilities",
+      "source_amount": 0.0,
+      "status": "not_applicable",
+      "source_id": "uvv.2026.10k",
+      "page": 57,
+      "basis": "Balance sheet",
+      "calculation": null
+    },
+    "ol.close": {
+      "label": "Other non-operating liabilities",
+      "source_amount": 0.0,
+      "status": "not_applicable",
+      "source_id": "uvv.2026.10k",
+      "page": 57,
+      "basis": "Balance sheet",
+      "calculation": null
+    },
+    "sh.open": {
+      "label": "Shareholder-related payables",
+      "source_amount": 0.0,
+      "status": "not_applicable",
+      "source_id": "uvv.2026.10k",
+      "page": 57,
+      "basis": "Balance sheet",
+      "calculation": null
+    },
+    "sh.close": {
+      "label": "Shareholder-related payables",
+      "source_amount": 0.0,
+      "status": "not_applicable",
+      "source_id": "uvv.2026.10k",
+      "page": 57,
+      "basis": "Balance sheet",
+      "calculation": null
+    },
+    "li.invest": {
+      "label": "Investment cash invested",
+      "source_amount": 0.0,
+      "status": "not_applicable",
+      "source_id": "uvv.2026.10k",
+      "page": 58,
+      "basis": "Cash flow statement",
+      "calculation": null
+    },
+    "li.recover": {
+      "label": "Investment recoveries",
+      "source_amount": 0.0,
+      "status": "not_applicable",
+      "source_id": "uvv.2026.10k",
+      "page": 58,
+      "basis": "Cash flow statement",
+      "calculation": null
+    },
+    "li.returns": {
+      "label": "Investment returns received",
+      "source_amount": 0.0,
+      "status": "not_applicable",
+      "source_id": "uvv.2026.10k",
+      "page": 58,
+      "basis": "Cash flow statement",
+      "calculation": null
+    },
+    "li.restrict": {
+      "label": "Cash restriction transfers",
+      "source_amount": 0.0,
+      "status": "not_applicable",
+      "source_id": "uvv.2026.10k",
+      "page": 58,
+      "basis": "Cash flow statement",
+      "calculation": null
+    },
+    "li.scope": {
+      "label": "Cash from scope changes",
+      "source_amount": 0.0,
+      "status": "not_applicable",
+      "source_id": "uvv.2026.10k",
+      "page": 58,
+      "basis": "Cash flow statement",
+      "calculation": null
+    },
+    "li.input": {
+      "label": "Owner cash input",
+      "source_amount": 0.0,
+      "status": "not_applicable",
+      "source_id": "uvv.2026.10k",
+      "page": 58,
+      "basis": "Cash flow statement",
+      "calculation": null
+    },
+    "li.min": {
+      "label": "Minority cash transactions",
+      "source_amount": 0.0,
+      "status": "not_applicable",
+      "source_id": "uvv.2026.10k",
+      "page": 58,
+      "basis": "Cash flow statement",
+      "calculation": null
+    },
+    "li.rep": {
+      "label": "Cash share repurchase",
+      "source_amount": 0.0,
+      "status": "not_applicable",
+      "source_id": "uvv.2026.10k",
+      "page": 58,
+      "basis": "Cash flow statement",
+      "calculation": null
+    },
+    "w.ftax": {
+      "label": "Allocated financing tax effect",
+      "source_amount": 33459107.0,
+      "status": "estimated",
+      "source_id": "uvv.2026.10k",
+      "page": 54,
+      "basis": "Consolidated income statement and Note 1 equity-method tax reconciliation",
+      "calculation": "44,839 × 74,040 / 99,222 = 33,459 (thousand dollars) estimated financing tax shield"
+    },
+    "w.ntax": {
+      "label": "Equity-method tax plus allocated other non-operating tax",
+      "source_amount": 3992118.0,
+      "status": "estimated",
+      "source_id": "uvv.2026.10k",
+      "page": 63,
+      "basis": "Note 1 equity-method tax reconciliation and consolidated income statement",
+      "calculation": "1,818 disclosed equity-method tax + 44,839 × 4,811 / 99,222 = 3,992 (thousand dollars)"
+    },
+    "w.val": {
+      "label": "Non-operating valuation and FX",
+      "source_amount": 0.0,
+      "status": "not_applicable",
+      "source_id": "uvv.2026.10k",
+      "page": 54,
+      "basis": "Income statement",
+      "calculation": null
+    },
+    "w.oi": {
+      "label": "Other operating income",
+      "source_amount": 0.0,
+      "status": "not_applicable",
+      "source_id": "uvv.2026.10k",
+      "page": 54,
+      "basis": "Income statement",
+      "calculation": null
+    },
+    "w.scope": {
+      "label": "Other scope/equity changes",
+      "source_amount": 0.0,
+      "status": "not_applicable",
+      "source_id": "uvv.2026.10k",
+      "page": 59,
+      "basis": "Statement of changes in shareholders equity",
+      "calculation": null
+    },
+    "w.min": {
+      "label": "Minority equity transactions",
+      "source_amount": 0.0,
+      "status": "not_applicable",
+      "source_id": "uvv.2026.10k",
+      "page": 59,
+      "basis": "Statement of changes in shareholders equity",
+      "calculation": null
+    },
+    "bal.othercur.2026": {
+      "label": "Other current assets",
+      "source_amount": 97278000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 56,
+      "basis": "Consolidated balance sheets",
+      "calculation": null
+    },
+    "bal.othercur.2025": {
+      "label": "Other current assets",
+      "source_amount": 78041000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 56,
+      "basis": "Consolidated balance sheets",
+      "calculation": null
+    },
+    "inc.dep.adjust": {
+      "label": "Depreciation and amortization included in operating costs",
+      "source_amount": 53437000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 58,
+      "basis": "Cash flow reconciliation and income statement",
+      "calculation": null
+    },
+    "bal.affar.2025": {
+      "label": "Accounts receivable—unconsolidated affiliates",
+      "source_amount": 7143000.0,
+      "status": "disclosed",
+      "source_id": "uvv.2026.10k",
+      "page": 56,
+      "basis": "Consolidated balance sheets",
+      "calculation": null
+    }
+  },
+  "mappings": [
+    {
+      "id": "bal.inv.2026",
+      "fact_id": "bal.inv.2026",
+      "field": "assets.working.closing",
+      "display_field": "inventory",
+      "amount": 1035897000.0,
+      "rationale": "tobacco and other inventories are operating working assets"
+    },
+    {
+      "id": "bal.inv.2025",
+      "fact_id": "bal.inv.2025",
+      "field": "assets.working.opening",
+      "display_field": "inventory",
+      "amount": 995942000.0,
+      "rationale": "tobacco and other inventories are operating working assets"
+    },
+    {
+      "id": "bal.ar.2026",
+      "fact_id": "bal.ar.2026",
+      "field": "assets.working.closing",
+      "display_field": "customer_receivables",
+      "amount": 563864000.0,
+      "rationale": "accounts receivable are customer operating claims"
+    },
+    {
+      "id": "bal.ar.2025",
+      "fact_id": "bal.ar.2025",
+      "field": "assets.working.opening",
+      "display_field": "customer_receivables",
+      "amount": 625876000.0,
+      "rationale": "accounts receivable are customer operating claims"
+    },
+    {
+      "id": "bal.adv.2026",
+      "fact_id": "bal.adv.2026",
+      "field": "assets.working.closing",
+      "display_field": "operating_prepayments",
+      "amount": 177222000.0,
+      "rationale": "supplier advances support tobacco sourcing"
+    },
+    {
+      "id": "bal.adv.2025",
+      "fact_id": "bal.adv.2025",
+      "field": "assets.working.opening",
+      "display_field": "operating_prepayments",
+      "amount": 169385000.0,
+      "rationale": "supplier advances support tobacco sourcing"
+    },
+    {
+      "id": "bal.affar.2026",
+      "fact_id": "bal.affar.2026",
+      "field": "assets.working.closing",
+      "display_field": "other_operating_receivables",
+      "amount": 12300000.0,
+      "rationale": "receivables from unconsolidated affiliates arise in operations"
+    },
+    {
+      "id": "bal.ap.2026",
+      "fact_id": "bal.ap.2026",
+      "field": "assets.working.closing",
+      "display_field": "supplier_payables",
+      "amount": -90649000.0,
+      "rationale": "trade payables including affiliate payables reduce operating working capital"
+    },
+    {
+      "id": "bal.ap.2025",
+      "fact_id": "bal.ap.2025",
+      "field": "assets.working.opening",
+      "display_field": "supplier_payables",
+      "amount": -100035000.0,
+      "rationale": "trade payables including affiliate payables reduce operating working capital"
+    },
+    {
+      "id": "bal.custadv.2026",
+      "fact_id": "bal.custadv.2026",
+      "field": "assets.working.closing",
+      "display_field": "customer_advances",
+      "amount": -3376000.0,
+      "rationale": "customer advances are operating settlement obligations"
+    },
+    {
+      "id": "bal.custadv.2025",
+      "fact_id": "bal.custadv.2025",
+      "field": "assets.working.opening",
+      "display_field": "customer_advances",
+      "amount": -3763000.0,
+      "rationale": "customer advances are operating settlement obligations"
+    },
+    {
+      "id": "bal.comp.2026",
+      "fact_id": "bal.comp.2026",
+      "field": "assets.working.closing",
+      "display_field": "employee_payables",
+      "amount": -33234000.0,
+      "rationale": "accrued compensation is an operating employee settlement obligation"
+    },
+    {
+      "id": "bal.comp.2025",
+      "fact_id": "bal.comp.2025",
+      "field": "assets.working.opening",
+      "display_field": "employee_payables",
+      "amount": -44646000.0,
+      "rationale": "accrued compensation is an operating employee settlement obligation"
+    },
+    {
+      "id": "bal.accr.2026",
+      "fact_id": "bal.accr.2026",
+      "field": "assets.working.closing",
+      "display_field": "other_operating_payables",
+      "amount": -120603000.0,
+      "rationale": "accrued expenses and other current liabilities are operating settlements"
+    },
+    {
+      "id": "bal.accr.2025",
+      "fact_id": "bal.accr.2025",
+      "field": "assets.working.opening",
+      "display_field": "other_operating_payables",
+      "amount": -123350000.0,
+      "rationale": "accrued expenses and other current liabilities are operating settlements"
+    },
+    {
+      "id": "bal.ppe.2026",
+      "fact_id": "bal.ppe.2026",
+      "field": "assets.facilities.closing",
+      "display_field": "owned_facilities",
+      "amount": 372954000.0,
+      "rationale": "net property plant and equipment is owned operating facilities"
+    },
+    {
+      "id": "bal.ppe.2025",
+      "fact_id": "bal.ppe.2025",
+      "field": "assets.facilities.opening",
+      "display_field": "owned_facilities",
+      "amount": 372974000.0,
+      "rationale": "net property plant and equipment is owned operating facilities"
+    },
+    {
+      "id": "bal.rou.2026",
+      "fact_id": "bal.rou.2026",
+      "field": "assets.facilities.closing",
+      "display_field": "leased_facilities",
+      "amount": 37272000.0,
+      "rationale": "operating lease right-of-use assets are leased facilities"
+    },
+    {
+      "id": "bal.rou.2025",
+      "fact_id": "bal.rou.2025",
+      "field": "assets.facilities.opening",
+      "display_field": "leased_facilities",
+      "amount": 34260000.0,
+      "rationale": "operating lease right-of-use assets are leased facilities"
+    },
+    {
+      "id": "bal.int.2026",
+      "fact_id": "bal.int.2026",
+      "field": "assets.rights.closing",
+      "display_field": "acquired_operating_intangibles",
+      "amount": 48604000.0,
+      "rationale": "other intangibles support operating customer and technology activities"
+    },
+    {
+      "id": "bal.int.2025",
+      "fact_id": "bal.int.2025",
+      "field": "assets.rights.opening",
+      "display_field": "acquired_operating_intangibles",
+      "amount": 57836000.0,
+      "rationale": "other intangibles support operating customer and technology activities"
+    },
+    {
+      "id": "bal.gw.2026",
+      "fact_id": "bal.gw.2026",
+      "field": "assets.goodwill.closing",
+      "display_field": "goodwill",
+      "amount": 172695000.0,
+      "rationale": "reported goodwill balance"
+    },
+    {
+      "id": "bal.gw.2025",
+      "fact_id": "bal.gw.2025",
+      "field": "assets.goodwill.opening",
+      "display_field": "goodwill",
+      "amount": 213840000.0,
+      "rationale": "reported goodwill balance"
+    },
+    {
+      "id": "bal.invst.2026",
+      "fact_id": "bal.invst.2026",
+      "field": "assets.investments.closing",
+      "display_field": "associates_joint_ventures",
+      "amount": 82287000.0,
+      "rationale": "unconsolidated affiliate investments are non-operating investments"
+    },
+    {
+      "id": "bal.invst.2025",
+      "fact_id": "bal.invst.2025",
+      "field": "assets.investments.opening",
+      "display_field": "associates_joint_ventures",
+      "amount": 79317000.0,
+      "rationale": "unconsolidated affiliate investments are non-operating investments"
+    },
+    {
+      "id": "bal.cash.2026",
+      "fact_id": "bal.cash.2026",
+      "field": "assets.cash.closing",
+      "display_field": "cash_equivalents",
+      "amount": 62178000.0,
+      "rationale": "cash and cash equivalents; restricted cash was not separately reported on the balance sheet"
+    },
+    {
+      "id": "bal.cash.2025",
+      "fact_id": "bal.cash.2025",
+      "field": "assets.cash.opening",
+      "display_field": "cash_equivalents",
+      "amount": 260115000.0,
+      "rationale": "cash and cash equivalents; restricted cash was not separately reported on the balance sheet"
+    },
+    {
+      "id": "bal.debt.2026",
+      "fact_id": "bal.debt.2026",
+      "field": "assets.financing.closing",
+      "display_field": "bank_borrowings",
+      "amount": 904291000.0,
+      "rationale": "notes payable and long-term debt are borrowings"
+    },
+    {
+      "id": "bal.debt.2025",
+      "fact_id": "bal.debt.2025",
+      "field": "assets.financing.opening",
+      "display_field": "bank_borrowings",
+      "amount": 1072957000.0,
+      "rationale": "notes payable and long-term debt are borrowings"
+    },
+    {
+      "id": "bal.lease.2026",
+      "fact_id": "bal.lease.2026",
+      "field": "assets.financing.closing",
+      "display_field": "lease_liabilities",
+      "amount": 35531000.0,
+      "rationale": "operating lease liabilities are financing obligations under the economic boundary"
+    },
+    {
+      "id": "bal.lease.2025",
+      "fact_id": "bal.lease.2025",
+      "field": "assets.financing.opening",
+      "display_field": "lease_liabilities",
+      "amount": 31350000.0,
+      "rationale": "operating lease liabilities are financing obligations under the economic boundary"
+    },
+    {
+      "id": "bal.taxasset.2026",
+      "fact_id": "bal.taxasset.2026",
+      "field": "assets.other_operating.closing",
+      "display_field": "operating_tax_assets",
+      "amount": 38594000.0,
+      "rationale": "prepaid income taxes and deferred income tax assets are operating tax assets"
+    },
+    {
+      "id": "bal.taxasset.2025",
+      "fact_id": "bal.taxasset.2025",
+      "field": "assets.other_operating.opening",
+      "display_field": "operating_tax_assets",
+      "amount": 36134000.0,
+      "rationale": "prepaid income taxes and deferred income tax assets are operating tax assets"
+    },
+    {
+      "id": "bal.taxliab.2026",
+      "fact_id": "bal.taxliab.2026",
+      "field": "assets.other_operating.closing",
+      "display_field": "operating_tax_liabilities",
+      "amount": -57563000.0,
+      "rationale": "income tax payable and deferred income tax liabilities are operating tax obligations"
+    },
+    {
+      "id": "bal.taxliab.2025",
+      "fact_id": "bal.taxliab.2025",
+      "field": "assets.other_operating.opening",
+      "display_field": "operating_tax_liabilities",
+      "amount": -54676000.0,
+      "rationale": "income tax payable and deferred income tax liabilities are operating tax obligations"
+    },
+    {
+      "id": "bal.pension.2026",
+      "fact_id": "bal.pension.2026",
+      "field": "assets.other_operating.closing",
+      "display_field": "employee_benefit_obligations",
+      "amount": -18929000.0,
+      "rationale": "pension asset and pension/postretirement obligation are net operating employee balances"
+    },
+    {
+      "id": "bal.pension.2025",
+      "fact_id": "bal.pension.2025",
+      "field": "assets.other_operating.opening",
+      "display_field": "employee_benefit_obligations",
+      "amount": -22517000.0,
+      "rationale": "pension asset and pension/postretirement obligation are net operating employee balances"
+    },
+    {
+      "id": "bal.othernc.2026",
+      "fact_id": "bal.othernc.2026",
+      "field": "assets.other_operating.closing",
+      "display_field": "other_operating_assets",
+      "amount": 49080000.0,
+      "rationale": "other noncurrent assets are treated as operating absent disclosed non-operating nature"
+    },
+    {
+      "id": "bal.othernc.2025",
+      "fact_id": "bal.othernc.2025",
+      "field": "assets.other_operating.opening",
+      "display_field": "other_operating_assets",
+      "amount": 45870000.0,
+      "rationale": "other noncurrent assets are treated as operating absent disclosed non-operating nature"
+    },
+    {
+      "id": "bal.otherliab.2026",
+      "fact_id": "bal.otherliab.2026",
+      "field": "assets.other_operating.closing",
+      "display_field": "other_operating_liabilities",
+      "amount": -24925000.0,
+      "rationale": "other long-term liabilities are operating obligations absent financing characterization"
+    },
+    {
+      "id": "bal.otherliab.2025",
+      "fact_id": "bal.otherliab.2025",
+      "field": "assets.other_operating.opening",
+      "display_field": "other_operating_liabilities",
+      "amount": -22901000.0,
+      "rationale": "other long-term liabilities are operating obligations absent financing characterization"
+    },
+    {
+      "id": "eq.total.2026",
+      "fact_id": "eq.total.2026",
+      "field": "controls.equity.closing",
+      "display_field": null,
+      "amount": 1461124000.0,
+      "rationale": "total shareholders equity"
+    },
+    {
+      "id": "eq.total.2025",
+      "fact_id": "eq.total.2025",
+      "field": "controls.equity.opening",
+      "display_field": null,
+      "amount": 1500538000.0,
+      "rationale": "total shareholders equity"
+    },
+    {
+      "id": "eq.parent.2026",
+      "fact_id": "eq.parent.2026",
+      "field": "controls.parent.closing",
+      "display_field": null,
+      "amount": 1415400000.0,
+      "rationale": "parent shareholders equity"
+    },
+    {
+      "id": "eq.parent.2025",
+      "fact_id": "eq.parent.2025",
+      "field": "controls.parent.opening",
+      "display_field": null,
+      "amount": 1458556000.0,
+      "rationale": "parent shareholders equity"
+    },
+    {
+      "id": "eq.min.2026",
+      "fact_id": "eq.min.2026",
+      "field": "controls.minority.closing",
+      "display_field": null,
+      "amount": 45724000.0,
+      "rationale": "noncontrolling interests"
+    },
+    {
+      "id": "eq.min.2025",
+      "fact_id": "eq.min.2025",
+      "field": "controls.minority.opening",
+      "display_field": null,
+      "amount": 41982000.0,
+      "rationale": "noncontrolling interests"
+    },
+    {
+      "id": "inc.revenue",
+      "fact_id": "inc.revenue",
+      "field": "wealth.operating.revenue",
+      "display_field": "product_revenue",
+      "amount": 2924470000.0,
+      "rationale": "inc.revenue0"
+    },
+    {
+      "id": "inc.cogs",
+      "fact_id": "inc.cogs",
+      "field": "wealth.operating.costs",
+      "display_field": "product_service_costs",
+      "amount": -2412454000.0,
+      "rationale": "inc.cogs0"
+    },
+    {
+      "id": "inc.sga",
+      "fact_id": "inc.sga",
+      "field": "wealth.operating.costs",
+      "display_field": "administrative",
+      "amount": -300671000.0,
+      "rationale": "inc.sga0"
+    },
+    {
+      "id": "inc.restruct",
+      "fact_id": "inc.restruct",
+      "field": "wealth.operating.costs",
+      "display_field": "other_operating_costs",
+      "amount": -1833000.0,
+      "rationale": "inc.restruct0"
+    },
+    {
+      "id": "inc.goodwillloss",
+      "fact_id": "inc.goodwillloss",
+      "field": "wealth.operating.loss",
+      "display_field": "asset_impairment",
+      "amount": -41061000.0,
+      "rationale": "inc.goodwillloss0"
+    },
+    {
+      "id": "inc.returns1",
+      "fact_id": "inc.returns1",
+      "field": "wealth.nonoperating.returns",
+      "display_field": "other_nonoperating_return",
+      "amount": 3430000.0,
+      "rationale": "inc.returns10"
+    },
+    {
+      "id": "inc.returns2",
+      "fact_id": "inc.returns2",
+      "field": "wealth.nonoperating.returns",
+      "display_field": "other_nonoperating_return",
+      "amount": 2847000.0,
+      "rationale": "inc.returns20"
+    },
+    {
+      "id": "inc.interest",
+      "fact_id": "inc.interest",
+      "field": "wealth.nonoperating.returns",
+      "display_field": "interest_income",
+      "amount": 1964000.0,
+      "rationale": "inc.interest0"
+    },
+    {
+      "id": "inc.finance",
+      "fact_id": "inc.finance",
+      "field": "wealth.finance.cost",
+      "display_field": "borrowing_interest",
+      "amount": -74040000.0,
+      "rationale": "inc.finance0"
+    },
+    {
+      "id": "inc.oci.trans",
+      "fact_id": "inc.oci.trans",
+      "field": "wealth.other.translation",
+      "display_field": "statement_translation",
+      "amount": 4955000.0,
+      "rationale": "inc.oci.trans0"
+    },
+    {
+      "id": "inc.oci.pension",
+      "fact_id": "inc.oci.pension",
+      "field": "wealth.other.other_oci",
+      "display_field": "actuarial_oci",
+      "amount": 368000.0,
+      "rationale": "inc.oci.pension0"
+    },
+    {
+      "id": "inc.ownerinput",
+      "fact_id": "inc.ownerinput",
+      "field": "wealth.owner.input",
+      "display_field": "share_incentive",
+      "amount": 7115000.0,
+      "rationale": "inc.ownerinput0"
+    },
+    {
+      "id": "inc.withhold",
+      "fact_id": "inc.withhold",
+      "field": "wealth.owner.repurchase",
+      "display_field": "share_repurchase",
+      "amount": -8135000.0,
+      "rationale": "inc.withhold0"
+    },
+    {
+      "id": "inc.divcommon",
+      "fact_id": "inc.divcommon",
+      "field": "wealth.owner.dividend",
+      "display_field": "dividend_declared",
+      "amount": -81712000.0,
+      "rationale": "inc.divcommon0"
+    },
+    {
+      "id": "inc.divnci",
+      "fact_id": "inc.divnci",
+      "field": "wealth.owner.dividend",
+      "display_field": "dividend_declared",
+      "amount": -19046000.0,
+      "rationale": "inc.divnci0"
+    },
+    {
+      "id": "cf.tax",
+      "fact_id": "cf.tax",
+      "field": "liquidity.operating.tax",
+      "display_field": "undivided_tax_paid",
+      "amount": -43117000.0,
+      "rationale": "cf.tax0"
+    },
+    {
+      "id": "cf.capacity",
+      "fact_id": "cf.capacity",
+      "field": "liquidity.capacity.purchase",
+      "display_field": "facility_purchase",
+      "amount": -48829000.0,
+      "rationale": "cf.capacity0"
+    },
+    {
+      "id": "cf.disposal",
+      "fact_id": "cf.disposal",
+      "field": "liquidity.capacity.disposal",
+      "display_field": "facility_disposal",
+      "amount": 5873000.0,
+      "rationale": "cf.disposal0"
+    },
+    {
+      "id": "cf.borrow",
+      "fact_id": "cf.borrow",
+      "field": "liquidity.finance.borrow",
+      "display_field": "bank_borrow",
+      "amount": 89130000.0,
+      "rationale": "cf.borrow0"
+    },
+    {
+      "id": "cf.repay1",
+      "fact_id": "cf.repay1",
+      "field": "liquidity.finance.repay",
+      "display_field": "bank_repay",
+      "amount": -170069000.0,
+      "rationale": "cf.repay10"
+    },
+    {
+      "id": "cf.repay2",
+      "fact_id": "cf.repay2",
+      "field": "liquidity.finance.repay",
+      "display_field": "bank_repay",
+      "amount": -89130000.0,
+      "rationale": "cf.repay20"
+    },
+    {
+      "id": "cf.divcommon",
+      "fact_id": "cf.divcommon",
+      "field": "liquidity.owner.dividend",
+      "display_field": "dividend_paid",
+      "amount": -81299000.0,
+      "rationale": "cf.divcommon0"
+    },
+    {
+      "id": "cf.divnci",
+      "fact_id": "cf.divnci",
+      "field": "liquidity.owner.dividend",
+      "display_field": "dividend_paid",
+      "amount": -19046000.0,
+      "rationale": "cf.divnci0"
+    },
+    {
+      "id": "profit",
+      "fact_id": "profit",
+      "field": "controls.profit",
+      "display_field": null,
+      "amount": 55995000.0,
+      "rationale": "consolidated net income"
+    },
+    {
+      "id": "cf.trans",
+      "fact_id": "cf.trans",
+      "field": "liquidity.other.translation",
+      "display_field": "cash_translation",
+      "amount": 262000.0,
+      "rationale": "cash translation effect"
+    },
+    {
+      "id": "cf.working",
+      "fact_id": "cf.working",
+      "field": "liquidity.operating.working",
+      "display_field": "undivided_working_cash",
+      "amount": -119142000.0,
+      "rationale": "sum of disclosed working-capital cash changes"
+    },
+    {
+      "id": "cf.beforeworking",
+      "fact_id": "cf.beforeworking",
+      "field": "liquidity.operating.before_working",
+      "display_field": "operating_base_cash",
+      "amount": 291359000.0,
+      "rationale": "residual operating cash before working capital and tax payments"
+    },
+    {
+      "id": "inc.oci.hedge",
+      "fact_id": "inc.oci.hedge",
+      "field": "wealth.other.other_oci",
+      "display_field": "hedging_oci",
+      "amount": 1046000.0,
+      "rationale": "combined hedge OCI"
+    },
+    {
+      "id": "cf.fincost",
+      "fact_id": "cf.fincost",
+      "field": "liquidity.finance.cost",
+      "display_field": "other_finance_cost_paid",
+      "amount": -13929000.0,
+      "rationale": "financing cash costs shown in financing section"
+    },
+    {
+      "id": "cf.noncash",
+      "fact_id": "cf.noncash",
+      "field": "noncash.leases",
+      "display_field": null,
+      "amount": 16901000.0,
+      "rationale": "noncash lease capital configuration"
+    },
+    {
+      "id": "cap.open",
+      "fact_id": "cap.open",
+      "field": "assets.capital_settlement.opening",
+      "display_field": "undisclosed_estimate",
+      "amount": 0.0,
+      "rationale": "not separately disclosed and no identified balance; explicit zero representative value"
+    },
+    {
+      "id": "cap.close",
+      "fact_id": "cap.close",
+      "field": "assets.capital_settlement.closing",
+      "display_field": "undisclosed_estimate",
+      "amount": 0.0,
+      "rationale": "not separately disclosed and no identified balance; explicit zero representative value"
+    },
+    {
+      "id": "oa.open",
+      "fact_id": "oa.open",
+      "field": "assets.other_assets.opening",
+      "display_field": "other_nonoperating_assets",
+      "amount": 0.0,
+      "rationale": "no separately identified non-operating asset beyond cash and unconsolidated affiliates"
+    },
+    {
+      "id": "oa.close",
+      "fact_id": "oa.close",
+      "field": "assets.other_assets.closing",
+      "display_field": "other_nonoperating_assets",
+      "amount": 0.0,
+      "rationale": "no separately identified non-operating asset beyond cash and unconsolidated affiliates"
+    },
+    {
+      "id": "ol.open",
+      "fact_id": "ol.open",
+      "field": "assets.other_liabilities.opening",
+      "display_field": "other_nonoperating_liabilities",
+      "amount": 0.0,
+      "rationale": "no separately identified non-operating liability"
+    },
+    {
+      "id": "ol.close",
+      "fact_id": "ol.close",
+      "field": "assets.other_liabilities.closing",
+      "display_field": "other_nonoperating_liabilities",
+      "amount": 0.0,
+      "rationale": "no separately identified non-operating liability"
+    },
+    {
+      "id": "sh.open",
+      "fact_id": "sh.open",
+      "field": "assets.shareholder.opening",
+      "display_field": "dividends_payable",
+      "amount": 0.0,
+      "rationale": "no dividend payable or redemption obligation separately reported"
+    },
+    {
+      "id": "sh.close",
+      "fact_id": "sh.close",
+      "field": "assets.shareholder.closing",
+      "display_field": "dividends_payable",
+      "amount": 0.0,
+      "rationale": "no dividend payable or redemption obligation separately reported"
+    },
+    {
+      "id": "li.invest",
+      "fact_id": "li.invest",
+      "field": "liquidity.investment.invest",
+      "display_field": "other_invest",
+      "amount": 0.0,
+      "rationale": "no investment cash outflow disclosed in fiscal 2026"
+    },
+    {
+      "id": "li.recover",
+      "fact_id": "li.recover",
+      "field": "liquidity.investment.recover",
+      "display_field": "other_investment_recover",
+      "amount": 0.0,
+      "rationale": "no investment recovery disclosed in fiscal 2026"
+    },
+    {
+      "id": "li.returns",
+      "fact_id": "li.returns",
+      "field": "liquidity.investment.returns",
+      "display_field": "other_investment_return_cash",
+      "amount": 0.0,
+      "rationale": "no separate investment return cash line disclosed"
+    },
+    {
+      "id": "li.restrict",
+      "fact_id": "li.restrict",
+      "field": "liquidity.other.restriction",
+      "display_field": "restriction_transfer",
+      "amount": 0.0,
+      "rationale": "no cash restriction transfer disclosed"
+    },
+    {
+      "id": "li.scope",
+      "fact_id": "li.scope",
+      "field": "liquidity.other.scope",
+      "display_field": "acquired_cash",
+      "amount": 0.0,
+      "rationale": "no business acquisition or disposal cash disclosed in fiscal 2026"
+    },
+    {
+      "id": "li.input",
+      "fact_id": "li.input",
+      "field": "liquidity.owner.input",
+      "display_field": "other_owner_cash",
+      "amount": 0.0,
+      "rationale": "no share issuance cash disclosed"
+    },
+    {
+      "id": "li.min",
+      "fact_id": "li.min",
+      "field": "liquidity.owner.minority",
+      "display_field": "minority_acquisition_cash",
+      "amount": 0.0,
+      "rationale": "no minority cash acquisition or disposal disclosed"
+    },
+    {
+      "id": "li.rep",
+      "fact_id": "li.rep",
+      "field": "liquidity.owner.repurchase",
+      "display_field": "repurchase_paid",
+      "amount": 0.0,
+      "rationale": "no cash share repurchase disclosed"
+    },
+    {
+      "id": "w.val",
+      "fact_id": "w.val",
+      "field": "wealth.nonoperating.valuation",
+      "display_field": "undivided_valuation",
+      "amount": 0.0,
+      "rationale": "no separate valuation or FX earnings line disclosed in income statement"
+    },
+    {
+      "id": "w.oi",
+      "fact_id": "w.oi",
+      "field": "wealth.operating.other_income",
+      "display_field": "other_operating_income",
+      "amount": 0.0,
+      "rationale": "no separate operating other income line; included in revenue or expenses"
+    },
+    {
+      "id": "w.scope",
+      "fact_id": "w.scope",
+      "field": "wealth.other.scope",
+      "display_field": "other_equity_change",
+      "amount": 0.0,
+      "rationale": "no separate scope change disclosed"
+    },
+    {
+      "id": "w.min",
+      "fact_id": "w.min",
+      "field": "wealth.owner.minority",
+      "display_field": "minority_acquisition",
+      "amount": 0.0,
+      "rationale": "no minority acquisition or disposal disclosed"
+    },
+    {
+      "id": "inc.dep.adjust",
+      "fact_id": "inc.dep.adjust",
+      "field": "wealth.operating.costs",
+      "display_field": "depreciation_adjustment",
+      "amount": 53437000.0,
+      "rationale": "add back separately disclosed depreciation and amortization so costs are before depreciation"
+    },
+    {
+      "id": "bal.othercur.2026",
+      "fact_id": "bal.othercur.2026",
+      "field": "assets.other_operating.closing",
+      "display_field": "other_operating_assets",
+      "amount": 97278000.0,
+      "rationale": "other current assets are operating absent non-operating characterization"
+    },
+    {
+      "id": "bal.othercur.2025",
+      "fact_id": "bal.othercur.2025",
+      "field": "assets.other_operating.opening",
+      "display_field": "other_operating_assets",
+      "amount": 78041000.0,
+      "rationale": "other current assets are operating absent non-operating characterization"
+    },
+    {
+      "id": "bal.affar.2025",
+      "fact_id": "bal.affar.2025",
+      "field": "assets.working.opening",
+      "display_field": "other_operating_receivables",
+      "amount": 7143000.0,
+      "rationale": "affiliate receivable is an operating claim"
+    },
+    {
+      "id": "inc.tax",
+      "fact_id": "inc.tax",
+      "field": "wealth.operating.tax",
+      "display_field": "allocated_operating_tax",
+      "amount": -76123989.0,
+      "rationale": "estimated allocation of residual consolidated tax to operating contribution after using the specifically disclosed equity-method tax"
+    },
+    {
+      "id": "w.ntax",
+      "fact_id": "w.ntax",
+      "field": "wealth.nonoperating.tax",
+      "display_field": "allocated_nonoperating_tax",
+      "amount": -3992118.0,
+      "rationale": "uses the disclosed tax on equity-method income and estimates tax on other non-operating returns at the residual consolidated effective rate"
+    },
+    {
+      "id": "w.ftax",
+      "fact_id": "w.ftax",
+      "field": "wealth.finance.tax",
+      "display_field": "finance_tax_effect",
+      "amount": 33459107.0,
+      "rationale": "estimated financing tax shield at the residual consolidated effective rate after using specifically disclosed equity-method tax"
+    },
+    {
+      "id": "inc.dep.facility",
+      "fact_id": "inc.dep",
+      "field": "wealth.operating.depreciation",
+      "display_field": "facility_depreciation",
+      "amount": -44313000.0,
+      "rationale": "total depreciation and amortization less separately disclosed intangible amortization"
+    },
+    {
+      "id": "inc.dep.rights",
+      "fact_id": "inc.dep",
+      "field": "wealth.operating.depreciation",
+      "display_field": "rights_amortization",
+      "amount": -9124000.0,
+      "rationale": "Note 6 separately discloses fiscal 2026 intangible amortization expense"
+    }
+  ],
+  "records": {
+    "assets.capital_settlement.closing": {
+      "amount": 0.0,
+      "status": "not_applicable",
+      "basis": "uvv.2026.10k p.57: Balance sheet; no separate capital procurement receivable/payable disclosed",
+      "details": [
+        {
+          "id": "cap.close",
+          "display_field": "undisclosed_estimate",
+          "label": "未单列资本采购结算估计",
+          "custom": false,
+          "raw_label": "Capital procurement settlement",
+          "source_amount": 0.0,
+          "amount": 0.0,
+          "source": "uvv.2026.10k p.57",
+          "status": "not_applicable",
+          "rationale": "not separately disclosed and no identified balance; explicit zero representative value"
+        }
+      ]
+    },
+    "assets.capital_settlement.opening": {
+      "amount": 0.0,
+      "status": "not_applicable",
+      "basis": "uvv.2026.10k p.56: Balance sheet; no separate capital procurement receivable/payable disclosed",
+      "details": [
+        {
+          "id": "cap.open",
+          "display_field": "undisclosed_estimate",
+          "label": "未单列资本采购结算估计",
+          "custom": false,
+          "raw_label": "Capital procurement settlement",
+          "source_amount": 0.0,
+          "amount": 0.0,
+          "source": "uvv.2026.10k p.56",
+          "status": "not_applicable",
+          "rationale": "not separately disclosed and no identified balance; explicit zero representative value"
+        }
+      ]
+    },
+    "assets.cash.closing": {
+      "amount": 62178000.0,
+      "status": "disclosed",
+      "basis": "uvv.2026.10k p.56: consolidated balance sheets, March 31, 2026 and 2025",
+      "details": [
+        {
+          "id": "bal.cash.2026",
+          "display_field": "cash_equivalents",
+          "label": "现金及现金等价物",
+          "custom": false,
+          "raw_label": "Cash and cash equivalents",
+          "source_amount": 62178000.0,
+          "amount": 62178000.0,
+          "source": "uvv.2026.10k p.56",
+          "status": "disclosed",
+          "rationale": "cash and cash equivalents; restricted cash was not separately reported on the balance sheet"
+        }
+      ]
+    },
+    "assets.cash.opening": {
+      "amount": 260115000.0,
+      "status": "disclosed",
+      "basis": "uvv.2026.10k p.56: consolidated balance sheets, March 31, 2026 and 2025",
+      "details": [
+        {
+          "id": "bal.cash.2025",
+          "display_field": "cash_equivalents",
+          "label": "现金及现金等价物",
+          "custom": false,
+          "raw_label": "Cash and cash equivalents",
+          "source_amount": 260115000.0,
+          "amount": 260115000.0,
+          "source": "uvv.2026.10k p.56",
+          "status": "disclosed",
+          "rationale": "cash and cash equivalents; restricted cash was not separately reported on the balance sheet"
+        }
+      ]
+    },
+    "assets.facilities.closing": {
+      "amount": 410226000.0,
+      "status": "derived",
+      "basis": "uvv.2026.10k p.56: consolidated balance sheets, March 31, 2026 and 2025",
+      "details": [
+        {
+          "id": "bal.ppe.2026",
+          "display_field": "owned_facilities",
+          "label": "自有经营设施",
+          "custom": false,
+          "raw_label": "Property, plant and equipment, net",
+          "source_amount": 372954000.0,
+          "amount": 372954000.0,
+          "source": "uvv.2026.10k p.56",
+          "status": "disclosed",
+          "rationale": "net property plant and equipment is owned operating facilities"
+        },
+        {
+          "id": "bal.rou.2026",
+          "display_field": "leased_facilities",
+          "label": "租入经营设施",
+          "custom": false,
+          "raw_label": "Operating lease right-of-use assets",
+          "source_amount": 37272000.0,
+          "amount": 37272000.0,
+          "source": "uvv.2026.10k p.56",
+          "status": "disclosed",
+          "rationale": "operating lease right-of-use assets are leased facilities"
+        }
+      ]
+    },
+    "assets.facilities.opening": {
+      "amount": 407234000.0,
+      "status": "derived",
+      "basis": "uvv.2026.10k p.56: consolidated balance sheets, March 31, 2026 and 2025",
+      "details": [
+        {
+          "id": "bal.ppe.2025",
+          "display_field": "owned_facilities",
+          "label": "自有经营设施",
+          "custom": false,
+          "raw_label": "Property, plant and equipment, net",
+          "source_amount": 372974000.0,
+          "amount": 372974000.0,
+          "source": "uvv.2026.10k p.56",
+          "status": "disclosed",
+          "rationale": "net property plant and equipment is owned operating facilities"
+        },
+        {
+          "id": "bal.rou.2025",
+          "display_field": "leased_facilities",
+          "label": "租入经营设施",
+          "custom": false,
+          "raw_label": "Operating lease right-of-use assets",
+          "source_amount": 34260000.0,
+          "amount": 34260000.0,
+          "source": "uvv.2026.10k p.56",
+          "status": "disclosed",
+          "rationale": "operating lease right-of-use assets are leased facilities"
+        }
+      ]
+    },
+    "assets.financing.closing": {
+      "amount": 939822000.0,
+      "status": "derived",
+      "basis": "uvv.2026.10k p.57: consolidated balance sheets, March 31, 2026 and 2025",
+      "details": [
+        {
+          "id": "bal.debt.2026",
+          "display_field": "bank_borrowings",
+          "label": "银行及其他借款",
+          "custom": false,
+          "raw_label": "Notes payable and long-term debt",
+          "source_amount": 904291000.0,
+          "amount": 904291000.0,
+          "source": "uvv.2026.10k p.57",
+          "status": "disclosed",
+          "rationale": "notes payable and long-term debt are borrowings"
+        },
+        {
+          "id": "bal.lease.2026",
+          "display_field": "lease_liabilities",
+          "label": "租赁负债",
+          "custom": false,
+          "raw_label": "Operating lease liabilities",
+          "source_amount": 35531000.0,
+          "amount": 35531000.0,
+          "source": "uvv.2026.10k p.57",
+          "status": "disclosed",
+          "rationale": "operating lease liabilities are financing obligations under the economic boundary"
+        }
+      ]
+    },
+    "assets.financing.opening": {
+      "amount": 1104307000.0,
+      "status": "derived",
+      "basis": "uvv.2026.10k p.57: consolidated balance sheets, March 31, 2026 and 2025",
+      "details": [
+        {
+          "id": "bal.debt.2025",
+          "display_field": "bank_borrowings",
+          "label": "银行及其他借款",
+          "custom": false,
+          "raw_label": "Notes payable and long-term debt",
+          "source_amount": 1072957000.0,
+          "amount": 1072957000.0,
+          "source": "uvv.2026.10k p.57",
+          "status": "disclosed",
+          "rationale": "notes payable and long-term debt are borrowings"
+        },
+        {
+          "id": "bal.lease.2025",
+          "display_field": "lease_liabilities",
+          "label": "租赁负债",
+          "custom": false,
+          "raw_label": "Operating lease liabilities",
+          "source_amount": 31350000.0,
+          "amount": 31350000.0,
+          "source": "uvv.2026.10k p.57",
+          "status": "disclosed",
+          "rationale": "operating lease liabilities are financing obligations under the economic boundary"
+        }
+      ]
+    },
+    "assets.goodwill.closing": {
+      "amount": 172695000.0,
+      "status": "disclosed",
+      "basis": "uvv.2026.10k p.56: consolidated balance sheets, March 31, 2026 and 2025",
+      "details": [
+        {
+          "id": "bal.gw.2026",
+          "display_field": "goodwill",
+          "label": "商誉",
+          "custom": false,
+          "raw_label": "Goodwill",
+          "source_amount": 172695000.0,
+          "amount": 172695000.0,
+          "source": "uvv.2026.10k p.56",
+          "status": "disclosed",
+          "rationale": "reported goodwill balance"
+        }
+      ]
+    },
+    "assets.goodwill.opening": {
+      "amount": 213840000.0,
+      "status": "disclosed",
+      "basis": "uvv.2026.10k p.56: consolidated balance sheets, March 31, 2026 and 2025",
+      "details": [
+        {
+          "id": "bal.gw.2025",
+          "display_field": "goodwill",
+          "label": "商誉",
+          "custom": false,
+          "raw_label": "Goodwill",
+          "source_amount": 213840000.0,
+          "amount": 213840000.0,
+          "source": "uvv.2026.10k p.56",
+          "status": "disclosed",
+          "rationale": "reported goodwill balance"
+        }
+      ]
+    },
+    "assets.investments.closing": {
+      "amount": 82287000.0,
+      "status": "disclosed",
+      "basis": "uvv.2026.10k p.56: consolidated balance sheets, March 31, 2026 and 2025",
+      "details": [
+        {
+          "id": "bal.invst.2026",
+          "display_field": "associates_joint_ventures",
+          "label": "联营与合营投资",
+          "custom": false,
+          "raw_label": "Investments in unconsolidated affiliates",
+          "source_amount": 82287000.0,
+          "amount": 82287000.0,
+          "source": "uvv.2026.10k p.56",
+          "status": "disclosed",
+          "rationale": "unconsolidated affiliate investments are non-operating investments"
+        }
+      ]
+    },
+    "assets.investments.opening": {
+      "amount": 79317000.0,
+      "status": "disclosed",
+      "basis": "uvv.2026.10k p.56: consolidated balance sheets, March 31, 2026 and 2025",
+      "details": [
+        {
+          "id": "bal.invst.2025",
+          "display_field": "associates_joint_ventures",
+          "label": "联营与合营投资",
+          "custom": false,
+          "raw_label": "Investments in unconsolidated affiliates",
+          "source_amount": 79317000.0,
+          "amount": 79317000.0,
+          "source": "uvv.2026.10k p.56",
+          "status": "disclosed",
+          "rationale": "unconsolidated affiliate investments are non-operating investments"
+        }
+      ]
+    },
+    "assets.other_assets.closing": {
+      "amount": 0.0,
+      "status": "not_applicable",
+      "basis": "uvv.2026.10k p.56: Balance sheet",
+      "details": [
+        {
+          "id": "oa.close",
+          "display_field": "other_nonoperating_assets",
+          "label": "其他非经营资产",
+          "custom": false,
+          "raw_label": "Other non-operating assets",
+          "source_amount": 0.0,
+          "amount": 0.0,
+          "source": "uvv.2026.10k p.56",
+          "status": "not_applicable",
+          "rationale": "no separately identified non-operating asset beyond cash and unconsolidated affiliates"
+        }
+      ]
+    },
+    "assets.other_assets.opening": {
+      "amount": 0.0,
+      "status": "not_applicable",
+      "basis": "uvv.2026.10k p.56: Balance sheet",
+      "details": [
+        {
+          "id": "oa.open",
+          "display_field": "other_nonoperating_assets",
+          "label": "其他非经营资产",
+          "custom": false,
+          "raw_label": "Other non-operating assets",
+          "source_amount": 0.0,
+          "amount": 0.0,
+          "source": "uvv.2026.10k p.56",
+          "status": "not_applicable",
+          "rationale": "no separately identified non-operating asset beyond cash and unconsolidated affiliates"
+        }
+      ]
+    },
+    "assets.other_liabilities.closing": {
+      "amount": 0.0,
+      "status": "not_applicable",
+      "basis": "uvv.2026.10k p.57: Balance sheet",
+      "details": [
+        {
+          "id": "ol.close",
+          "display_field": "other_nonoperating_liabilities",
+          "label": "其他非经营负债",
+          "custom": false,
+          "raw_label": "Other non-operating liabilities",
+          "source_amount": 0.0,
+          "amount": 0.0,
+          "source": "uvv.2026.10k p.57",
+          "status": "not_applicable",
+          "rationale": "no separately identified non-operating liability"
+        }
+      ]
+    },
+    "assets.other_liabilities.opening": {
+      "amount": 0.0,
+      "status": "not_applicable",
+      "basis": "uvv.2026.10k p.57: Balance sheet",
+      "details": [
+        {
+          "id": "ol.open",
+          "display_field": "other_nonoperating_liabilities",
+          "label": "其他非经营负债",
+          "custom": false,
+          "raw_label": "Other non-operating liabilities",
+          "source_amount": 0.0,
+          "amount": 0.0,
+          "source": "uvv.2026.10k p.57",
+          "status": "not_applicable",
+          "rationale": "no separately identified non-operating liability"
+        }
+      ]
+    },
+    "assets.other_operating.closing": {
+      "amount": 83535000.0,
+      "status": "derived",
+      "basis": "uvv.2026.10k p.56: consolidated balance sheets, March 31, 2026 and 2025; uvv.2026.10k p.57: consolidated balance sheets, March 31, 2026 and 2025; uvv.2026.10k p.56: Consolidated balance sheets",
+      "details": [
+        {
+          "id": "bal.taxasset.2026",
+          "display_field": "operating_tax_assets",
+          "label": "经营税项资产",
+          "custom": false,
+          "raw_label": "Income taxes and deferred tax assets",
+          "source_amount": 38594000.0,
+          "amount": 38594000.0,
+          "source": "uvv.2026.10k p.56",
+          "status": "disclosed",
+          "rationale": "prepaid income taxes and deferred income tax assets are operating tax assets"
+        },
+        {
+          "id": "bal.taxliab.2026",
+          "display_field": "operating_tax_liabilities",
+          "label": "经营税项义务",
+          "custom": false,
+          "raw_label": "Income taxes and deferred tax liabilities",
+          "source_amount": 57563000.0,
+          "amount": -57563000.0,
+          "source": "uvv.2026.10k p.57",
+          "status": "disclosed",
+          "rationale": "income tax payable and deferred income tax liabilities are operating tax obligations"
+        },
+        {
+          "id": "bal.pension.2026",
+          "display_field": "employee_benefit_obligations",
+          "label": "长期员工义务",
+          "custom": false,
+          "raw_label": "Pension and postretirement benefits",
+          "source_amount": 18929000.0,
+          "amount": -18929000.0,
+          "source": "uvv.2026.10k p.56",
+          "status": "disclosed",
+          "rationale": "pension asset and pension/postretirement obligation are net operating employee balances"
+        },
+        {
+          "id": "bal.othernc.2026",
+          "display_field": "other_operating_assets",
+          "label": "其他经营资产",
+          "custom": false,
+          "raw_label": "Other noncurrent assets",
+          "source_amount": 49080000.0,
+          "amount": 49080000.0,
+          "source": "uvv.2026.10k p.56",
+          "status": "disclosed",
+          "rationale": "other noncurrent assets are treated as operating absent disclosed non-operating nature"
+        },
+        {
+          "id": "bal.otherliab.2026",
+          "display_field": "other_operating_liabilities",
+          "label": "其他经营义务",
+          "custom": false,
+          "raw_label": "Other long-term liabilities",
+          "source_amount": 24925000.0,
+          "amount": -24925000.0,
+          "source": "uvv.2026.10k p.57",
+          "status": "disclosed",
+          "rationale": "other long-term liabilities are operating obligations absent financing characterization"
+        },
+        {
+          "id": "bal.othercur.2026",
+          "display_field": "other_operating_assets",
+          "label": "其他经营资产",
+          "custom": false,
+          "raw_label": "Other current assets",
+          "source_amount": 97278000.0,
+          "amount": 97278000.0,
+          "source": "uvv.2026.10k p.56",
+          "status": "disclosed",
+          "rationale": "other current assets are operating absent non-operating characterization"
+        }
+      ]
+    },
+    "assets.other_operating.opening": {
+      "amount": 59951000.0,
+      "status": "derived",
+      "basis": "uvv.2026.10k p.56: consolidated balance sheets, March 31, 2026 and 2025; uvv.2026.10k p.57: consolidated balance sheets, March 31, 2026 and 2025; uvv.2026.10k p.56: Consolidated balance sheets",
+      "details": [
+        {
+          "id": "bal.taxasset.2025",
+          "display_field": "operating_tax_assets",
+          "label": "经营税项资产",
+          "custom": false,
+          "raw_label": "Income taxes and deferred tax assets",
+          "source_amount": 36134000.0,
+          "amount": 36134000.0,
+          "source": "uvv.2026.10k p.56",
+          "status": "disclosed",
+          "rationale": "prepaid income taxes and deferred income tax assets are operating tax assets"
+        },
+        {
+          "id": "bal.taxliab.2025",
+          "display_field": "operating_tax_liabilities",
+          "label": "经营税项义务",
+          "custom": false,
+          "raw_label": "Income taxes and deferred tax liabilities",
+          "source_amount": 54676000.0,
+          "amount": -54676000.0,
+          "source": "uvv.2026.10k p.57",
+          "status": "disclosed",
+          "rationale": "income tax payable and deferred income tax liabilities are operating tax obligations"
+        },
+        {
+          "id": "bal.pension.2025",
+          "display_field": "employee_benefit_obligations",
+          "label": "长期员工义务",
+          "custom": false,
+          "raw_label": "Pension and postretirement benefits",
+          "source_amount": 22517000.0,
+          "amount": -22517000.0,
+          "source": "uvv.2026.10k p.56",
+          "status": "disclosed",
+          "rationale": "pension asset and pension/postretirement obligation are net operating employee balances"
+        },
+        {
+          "id": "bal.othernc.2025",
+          "display_field": "other_operating_assets",
+          "label": "其他经营资产",
+          "custom": false,
+          "raw_label": "Other noncurrent assets",
+          "source_amount": 45870000.0,
+          "amount": 45870000.0,
+          "source": "uvv.2026.10k p.56",
+          "status": "disclosed",
+          "rationale": "other noncurrent assets are treated as operating absent disclosed non-operating nature"
+        },
+        {
+          "id": "bal.otherliab.2025",
+          "display_field": "other_operating_liabilities",
+          "label": "其他经营义务",
+          "custom": false,
+          "raw_label": "Other long-term liabilities",
+          "source_amount": 22901000.0,
+          "amount": -22901000.0,
+          "source": "uvv.2026.10k p.57",
+          "status": "disclosed",
+          "rationale": "other long-term liabilities are operating obligations absent financing characterization"
+        },
+        {
+          "id": "bal.othercur.2025",
+          "display_field": "other_operating_assets",
+          "label": "其他经营资产",
+          "custom": false,
+          "raw_label": "Other current assets",
+          "source_amount": 78041000.0,
+          "amount": 78041000.0,
+          "source": "uvv.2026.10k p.56",
+          "status": "disclosed",
+          "rationale": "other current assets are operating absent non-operating characterization"
+        }
+      ]
+    },
+    "assets.rights.closing": {
+      "amount": 48604000.0,
+      "status": "disclosed",
+      "basis": "uvv.2026.10k p.56: consolidated balance sheets, March 31, 2026 and 2025",
+      "details": [
+        {
+          "id": "bal.int.2026",
+          "display_field": "acquired_operating_intangibles",
+          "label": "外购经营无形资产",
+          "custom": false,
+          "raw_label": "Other intangibles, net",
+          "source_amount": 48604000.0,
+          "amount": 48604000.0,
+          "source": "uvv.2026.10k p.56",
+          "status": "disclosed",
+          "rationale": "other intangibles support operating customer and technology activities"
+        }
+      ]
+    },
+    "assets.rights.opening": {
+      "amount": 57836000.0,
+      "status": "disclosed",
+      "basis": "uvv.2026.10k p.56: consolidated balance sheets, March 31, 2026 and 2025",
+      "details": [
+        {
+          "id": "bal.int.2025",
+          "display_field": "acquired_operating_intangibles",
+          "label": "外购经营无形资产",
+          "custom": false,
+          "raw_label": "Other intangibles, net",
+          "source_amount": 57836000.0,
+          "amount": 57836000.0,
+          "source": "uvv.2026.10k p.56",
+          "status": "disclosed",
+          "rationale": "other intangibles support operating customer and technology activities"
+        }
+      ]
+    },
+    "assets.shareholder.closing": {
+      "amount": 0.0,
+      "status": "not_applicable",
+      "basis": "uvv.2026.10k p.57: Balance sheet",
+      "details": [
+        {
+          "id": "sh.close",
+          "display_field": "dividends_payable",
+          "label": "应付股利",
+          "custom": false,
+          "raw_label": "Shareholder-related payables",
+          "source_amount": 0.0,
+          "amount": 0.0,
+          "source": "uvv.2026.10k p.57",
+          "status": "not_applicable",
+          "rationale": "no dividend payable or redemption obligation separately reported"
+        }
+      ]
+    },
+    "assets.shareholder.opening": {
+      "amount": 0.0,
+      "status": "not_applicable",
+      "basis": "uvv.2026.10k p.57: Balance sheet",
+      "details": [
+        {
+          "id": "sh.open",
+          "display_field": "dividends_payable",
+          "label": "应付股利",
+          "custom": false,
+          "raw_label": "Shareholder-related payables",
+          "source_amount": 0.0,
+          "amount": 0.0,
+          "source": "uvv.2026.10k p.57",
+          "status": "not_applicable",
+          "rationale": "no dividend payable or redemption obligation separately reported"
+        }
+      ]
+    },
+    "assets.working.closing": {
+      "amount": 1541421000.0,
+      "status": "derived",
+      "basis": "uvv.2026.10k p.56: consolidated balance sheets, March 31, 2026 and 2025; uvv.2026.10k p.57: consolidated balance sheets, March 31, 2026 and 2025",
+      "details": [
+        {
+          "id": "bal.inv.2026",
+          "display_field": "inventory",
+          "label": "存货",
+          "custom": false,
+          "raw_label": "存货",
+          "source_amount": 1035897000.0,
+          "amount": 1035897000.0,
+          "source": "uvv.2026.10k p.56",
+          "status": "disclosed",
+          "rationale": "tobacco and other inventories are operating working assets"
+        },
+        {
+          "id": "bal.ar.2026",
+          "display_field": "customer_receivables",
+          "label": "客户经营欠款",
+          "custom": false,
+          "raw_label": "客户经营欠款",
+          "source_amount": 563864000.0,
+          "amount": 563864000.0,
+          "source": "uvv.2026.10k p.56",
+          "status": "disclosed",
+          "rationale": "accounts receivable are customer operating claims"
+        },
+        {
+          "id": "bal.adv.2026",
+          "display_field": "operating_prepayments",
+          "label": "经营预付款与押金",
+          "custom": false,
+          "raw_label": "经营预付款与押金",
+          "source_amount": 177222000.0,
+          "amount": 177222000.0,
+          "source": "uvv.2026.10k p.56",
+          "status": "disclosed",
+          "rationale": "supplier advances support tobacco sourcing"
+        },
+        {
+          "id": "bal.affar.2026",
+          "display_field": "other_operating_receivables",
+          "label": "其他经营应收",
+          "custom": false,
+          "raw_label": "其他经营应收",
+          "source_amount": 12300000.0,
+          "amount": 12300000.0,
+          "source": "uvv.2026.10k p.56",
+          "status": "disclosed",
+          "rationale": "receivables from unconsolidated affiliates arise in operations"
+        },
+        {
+          "id": "bal.ap.2026",
+          "display_field": "supplier_payables",
+          "label": "供应商经营占款",
+          "custom": false,
+          "raw_label": "Accounts payable",
+          "source_amount": 90649000.0,
+          "amount": -90649000.0,
+          "source": "uvv.2026.10k p.57",
+          "status": "disclosed",
+          "rationale": "trade payables including affiliate payables reduce operating working capital"
+        },
+        {
+          "id": "bal.custadv.2026",
+          "display_field": "customer_advances",
+          "label": "客户预收与合同负债",
+          "custom": false,
+          "raw_label": "Customer advances",
+          "source_amount": 3376000.0,
+          "amount": -3376000.0,
+          "source": "uvv.2026.10k p.57",
+          "status": "disclosed",
+          "rationale": "customer advances are operating settlement obligations"
+        },
+        {
+          "id": "bal.comp.2026",
+          "display_field": "employee_payables",
+          "label": "员工结算义务",
+          "custom": false,
+          "raw_label": "Accrued compensation",
+          "source_amount": 33234000.0,
+          "amount": -33234000.0,
+          "source": "uvv.2026.10k p.57",
+          "status": "disclosed",
+          "rationale": "accrued compensation is an operating employee settlement obligation"
+        },
+        {
+          "id": "bal.accr.2026",
+          "display_field": "other_operating_payables",
+          "label": "其他经营应付与结算",
+          "custom": false,
+          "raw_label": "Accrued expenses and other current liabilities",
+          "source_amount": 120603000.0,
+          "amount": -120603000.0,
+          "source": "uvv.2026.10k p.57",
+          "status": "disclosed",
+          "rationale": "accrued expenses and other current liabilities are operating settlements"
+        }
+      ]
+    },
+    "assets.working.opening": {
+      "amount": 1526552000.0,
+      "status": "derived",
+      "basis": "uvv.2026.10k p.56: consolidated balance sheets, March 31, 2026 and 2025; uvv.2026.10k p.57: consolidated balance sheets, March 31, 2026 and 2025; uvv.2026.10k p.56: Consolidated balance sheets",
+      "details": [
+        {
+          "id": "bal.inv.2025",
+          "display_field": "inventory",
+          "label": "存货",
+          "custom": false,
+          "raw_label": "存货",
+          "source_amount": 995942000.0,
+          "amount": 995942000.0,
+          "source": "uvv.2026.10k p.56",
+          "status": "disclosed",
+          "rationale": "tobacco and other inventories are operating working assets"
+        },
+        {
+          "id": "bal.ar.2025",
+          "display_field": "customer_receivables",
+          "label": "客户经营欠款",
+          "custom": false,
+          "raw_label": "客户经营欠款",
+          "source_amount": 625876000.0,
+          "amount": 625876000.0,
+          "source": "uvv.2026.10k p.56",
+          "status": "disclosed",
+          "rationale": "accounts receivable are customer operating claims"
+        },
+        {
+          "id": "bal.adv.2025",
+          "display_field": "operating_prepayments",
+          "label": "经营预付款与押金",
+          "custom": false,
+          "raw_label": "经营预付款与押金",
+          "source_amount": 169385000.0,
+          "amount": 169385000.0,
+          "source": "uvv.2026.10k p.56",
+          "status": "disclosed",
+          "rationale": "supplier advances support tobacco sourcing"
+        },
+        {
+          "id": "bal.ap.2025",
+          "display_field": "supplier_payables",
+          "label": "供应商经营占款",
+          "custom": false,
+          "raw_label": "Accounts payable",
+          "source_amount": 100035000.0,
+          "amount": -100035000.0,
+          "source": "uvv.2026.10k p.57",
+          "status": "disclosed",
+          "rationale": "trade payables including affiliate payables reduce operating working capital"
+        },
+        {
+          "id": "bal.custadv.2025",
+          "display_field": "customer_advances",
+          "label": "客户预收与合同负债",
+          "custom": false,
+          "raw_label": "Customer advances",
+          "source_amount": 3763000.0,
+          "amount": -3763000.0,
+          "source": "uvv.2026.10k p.57",
+          "status": "disclosed",
+          "rationale": "customer advances are operating settlement obligations"
+        },
+        {
+          "id": "bal.comp.2025",
+          "display_field": "employee_payables",
+          "label": "员工结算义务",
+          "custom": false,
+          "raw_label": "Accrued compensation",
+          "source_amount": 44646000.0,
+          "amount": -44646000.0,
+          "source": "uvv.2026.10k p.57",
+          "status": "disclosed",
+          "rationale": "accrued compensation is an operating employee settlement obligation"
+        },
+        {
+          "id": "bal.accr.2025",
+          "display_field": "other_operating_payables",
+          "label": "其他经营应付与结算",
+          "custom": false,
+          "raw_label": "Accrued expenses and other current liabilities",
+          "source_amount": 123350000.0,
+          "amount": -123350000.0,
+          "source": "uvv.2026.10k p.57",
+          "status": "disclosed",
+          "rationale": "accrued expenses and other current liabilities are operating settlements"
+        },
+        {
+          "id": "bal.affar.2025",
+          "display_field": "other_operating_receivables",
+          "label": "其他经营应收",
+          "custom": false,
+          "raw_label": "Accounts receivable—unconsolidated affiliates",
+          "source_amount": 7143000.0,
+          "amount": 7143000.0,
+          "source": "uvv.2026.10k p.56",
+          "status": "disclosed",
+          "rationale": "affiliate receivable is an operating claim"
+        }
+      ]
+    },
+    "controls.equity.closing": {
+      "amount": 1461124000.0,
+      "status": "disclosed",
+      "basis": "uvv.2026.10k p.57: consolidated balance sheets, March 31, 2026 and 2025",
+      "details": [
+        {
+          "id": "eq.total.2026",
+          "display_field": null,
+          "label": null,
+          "custom": false,
+          "raw_label": "Total shareholders equity",
+          "source_amount": 1461124000.0,
+          "amount": 1461124000.0,
+          "source": "uvv.2026.10k p.57",
+          "status": "disclosed",
+          "rationale": "total shareholders equity"
+        }
+      ]
+    },
+    "controls.equity.opening": {
+      "amount": 1500538000.0,
+      "status": "disclosed",
+      "basis": "uvv.2026.10k p.57: consolidated balance sheets, March 31, 2026 and 2025",
+      "details": [
+        {
+          "id": "eq.total.2025",
+          "display_field": null,
+          "label": null,
+          "custom": false,
+          "raw_label": "Total shareholders equity",
+          "source_amount": 1500538000.0,
+          "amount": 1500538000.0,
+          "source": "uvv.2026.10k p.57",
+          "status": "disclosed",
+          "rationale": "total shareholders equity"
+        }
+      ]
+    },
+    "controls.minority.closing": {
+      "amount": 45724000.0,
+      "status": "disclosed",
+      "basis": "uvv.2026.10k p.57: consolidated balance sheets, March 31, 2026 and 2025",
+      "details": [
+        {
+          "id": "eq.min.2026",
+          "display_field": null,
+          "label": null,
+          "custom": false,
+          "raw_label": "Noncontrolling interests",
+          "source_amount": 45724000.0,
+          "amount": 45724000.0,
+          "source": "uvv.2026.10k p.57",
+          "status": "disclosed",
+          "rationale": "noncontrolling interests"
+        }
+      ]
+    },
+    "controls.minority.opening": {
+      "amount": 41982000.0,
+      "status": "disclosed",
+      "basis": "uvv.2026.10k p.57: consolidated balance sheets, March 31, 2026 and 2025",
+      "details": [
+        {
+          "id": "eq.min.2025",
+          "display_field": null,
+          "label": null,
+          "custom": false,
+          "raw_label": "Noncontrolling interests",
+          "source_amount": 41982000.0,
+          "amount": 41982000.0,
+          "source": "uvv.2026.10k p.57",
+          "status": "disclosed",
+          "rationale": "noncontrolling interests"
+        }
+      ]
+    },
+    "controls.parent.closing": {
+      "amount": 1415400000.0,
+      "status": "disclosed",
+      "basis": "uvv.2026.10k p.57: consolidated balance sheets, March 31, 2026 and 2025",
+      "details": [
+        {
+          "id": "eq.parent.2026",
+          "display_field": null,
+          "label": null,
+          "custom": false,
+          "raw_label": "Universal shareholders equity",
+          "source_amount": 1415400000.0,
+          "amount": 1415400000.0,
+          "source": "uvv.2026.10k p.57",
+          "status": "disclosed",
+          "rationale": "parent shareholders equity"
+        }
+      ]
+    },
+    "controls.parent.opening": {
+      "amount": 1458556000.0,
+      "status": "disclosed",
+      "basis": "uvv.2026.10k p.57: consolidated balance sheets, March 31, 2026 and 2025",
+      "details": [
+        {
+          "id": "eq.parent.2025",
+          "display_field": null,
+          "label": null,
+          "custom": false,
+          "raw_label": "Universal shareholders equity",
+          "source_amount": 1458556000.0,
+          "amount": 1458556000.0,
+          "source": "uvv.2026.10k p.57",
+          "status": "disclosed",
+          "rationale": "parent shareholders equity"
+        }
+      ]
+    },
+    "controls.profit": {
+      "amount": 55995000.0,
+      "status": "disclosed",
+      "basis": "uvv.2026.10k p.54: consolidated statements of income, fiscal year ended March 31, 2026",
+      "details": [
+        {
+          "id": "profit",
+          "display_field": null,
+          "label": null,
+          "custom": false,
+          "raw_label": "Net income",
+          "source_amount": 55995000.0,
+          "amount": 55995000.0,
+          "source": "uvv.2026.10k p.54",
+          "status": "disclosed",
+          "rationale": "consolidated net income"
+        }
+      ]
+    },
+    "liquidity.capacity.disposal": {
+      "amount": 5873000.0,
+      "status": "disclosed",
+      "basis": "uvv.2026.10k p.58: consolidated statements of cash flows, fiscal year ended March 31, 2026",
+      "details": [
+        {
+          "id": "cf.disposal",
+          "display_field": "facility_disposal",
+          "label": "处置经营设施收款",
+          "custom": false,
+          "raw_label": "Proceeds from sale of property, plant and equipment",
+          "source_amount": 5873000.0,
+          "amount": 5873000.0,
+          "source": "uvv.2026.10k p.58",
+          "status": "disclosed",
+          "rationale": "cf.disposal0"
+        }
+      ]
+    },
+    "liquidity.capacity.purchase": {
+      "amount": -48829000.0,
+      "status": "disclosed",
+      "basis": "uvv.2026.10k p.58: consolidated statements of cash flows, fiscal year ended March 31, 2026",
+      "details": [
+        {
+          "id": "cf.capacity",
+          "display_field": "facility_purchase",
+          "label": "购建经营设施",
+          "custom": false,
+          "raw_label": "Purchase of property, plant and equipment",
+          "source_amount": 48829000.0,
+          "amount": -48829000.0,
+          "source": "uvv.2026.10k p.58",
+          "status": "disclosed",
+          "rationale": "cf.capacity0"
+        }
+      ]
+    },
+    "liquidity.finance.borrow": {
+      "amount": 89130000.0,
+      "status": "disclosed",
+      "basis": "uvv.2026.10k p.58: consolidated statements of cash flows, fiscal year ended March 31, 2026",
+      "details": [
+        {
+          "id": "cf.borrow",
+          "display_field": "bank_borrow",
+          "label": "取得银行及其他借款",
+          "custom": false,
+          "raw_label": "Issuance of long-term debt",
+          "source_amount": 89130000.0,
+          "amount": 89130000.0,
+          "source": "uvv.2026.10k p.58",
+          "status": "disclosed",
+          "rationale": "cf.borrow0"
+        }
+      ]
+    },
+    "liquidity.finance.cost": {
+      "amount": -13929000.0,
+      "status": "derived",
+      "basis": "uvv.2026.10k p.58: Consolidated statements of cash flows",
+      "details": [
+        {
+          "id": "cf.fincost",
+          "display_field": "other_finance_cost_paid",
+          "label": "支付其他融资费用",
+          "custom": false,
+          "raw_label": "Settlement costs and debt issuance costs",
+          "source_amount": 13929000.0,
+          "amount": -13929000.0,
+          "source": "uvv.2026.10k p.58",
+          "status": "derived",
+          "rationale": "financing cash costs shown in financing section"
+        }
+      ]
+    },
+    "liquidity.finance.repay": {
+      "amount": -259199000.0,
+      "status": "derived",
+      "basis": "uvv.2026.10k p.58: consolidated statements of cash flows, fiscal year ended March 31, 2026",
+      "details": [
+        {
+          "id": "cf.repay1",
+          "display_field": "bank_repay",
+          "label": "偿还银行及其他借款",
+          "custom": false,
+          "raw_label": "Issuance (repayment) of short-term debt, net",
+          "source_amount": 170069000.0,
+          "amount": -170069000.0,
+          "source": "uvv.2026.10k p.58",
+          "status": "disclosed",
+          "rationale": "cf.repay10"
+        },
+        {
+          "id": "cf.repay2",
+          "display_field": "bank_repay",
+          "label": "偿还银行及其他借款",
+          "custom": false,
+          "raw_label": "Repayment of long-term debt",
+          "source_amount": 89130000.0,
+          "amount": -89130000.0,
+          "source": "uvv.2026.10k p.58",
+          "status": "disclosed",
+          "rationale": "cf.repay20"
+        }
+      ]
+    },
+    "liquidity.investment.invest": {
+      "amount": 0.0,
+      "status": "not_applicable",
+      "basis": "uvv.2026.10k p.58: Cash flow statement",
+      "details": [
+        {
+          "id": "li.invest",
+          "display_field": "other_invest",
+          "label": "其他对外投资",
+          "custom": false,
+          "raw_label": "Investment cash invested",
+          "source_amount": 0.0,
+          "amount": 0.0,
+          "source": "uvv.2026.10k p.58",
+          "status": "not_applicable",
+          "rationale": "no investment cash outflow disclosed in fiscal 2026"
+        }
+      ]
+    },
+    "liquidity.investment.recover": {
+      "amount": 0.0,
+      "status": "not_applicable",
+      "basis": "uvv.2026.10k p.58: Cash flow statement",
+      "details": [
+        {
+          "id": "li.recover",
+          "display_field": "other_investment_recover",
+          "label": "其他投资收回及处置收款",
+          "custom": false,
+          "raw_label": "Investment recoveries",
+          "source_amount": 0.0,
+          "amount": 0.0,
+          "source": "uvv.2026.10k p.58",
+          "status": "not_applicable",
+          "rationale": "no investment recovery disclosed in fiscal 2026"
+        }
+      ]
+    },
+    "liquidity.investment.returns": {
+      "amount": 0.0,
+      "status": "not_applicable",
+      "basis": "uvv.2026.10k p.58: Cash flow statement",
+      "details": [
+        {
+          "id": "li.returns",
+          "display_field": "other_investment_return_cash",
+          "label": "收到其他投资收益",
+          "custom": false,
+          "raw_label": "Investment returns received",
+          "source_amount": 0.0,
+          "amount": 0.0,
+          "source": "uvv.2026.10k p.58",
+          "status": "not_applicable",
+          "rationale": "no separate investment return cash line disclosed"
+        }
+      ]
+    },
+    "liquidity.operating.before_working": {
+      "amount": 291359000.0,
+      "status": "derived",
+      "basis": "uvv.2026.10k p.58: Consolidated statements of cash flows, fiscal year ended March 31, 2026",
+      "details": [
+        {
+          "id": "cf.beforeworking",
+          "display_field": "operating_base_cash",
+          "label": "周转及缴税前经营收付",
+          "custom": false,
+          "raw_label": "Operating cash before working capital and income taxes",
+          "source_amount": 291359000.0,
+          "amount": 291359000.0,
+          "source": "uvv.2026.10k p.58",
+          "status": "derived",
+          "rationale": "residual operating cash before working capital and tax payments"
+        }
+      ]
+    },
+    "liquidity.operating.tax": {
+      "amount": -43117000.0,
+      "status": "disclosed",
+      "basis": "uvv.2026.10k p.58: consolidated statements of cash flows, fiscal year ended March 31, 2026",
+      "details": [
+        {
+          "id": "cf.tax",
+          "display_field": "undivided_tax_paid",
+          "label": "实际缴纳所得税（未拆分）",
+          "custom": false,
+          "raw_label": "Income taxes paid, net of refunds",
+          "source_amount": 43117000.0,
+          "amount": -43117000.0,
+          "source": "uvv.2026.10k p.58",
+          "status": "disclosed",
+          "rationale": "cf.tax0"
+        }
+      ]
+    },
+    "liquidity.operating.working": {
+      "amount": -119142000.0,
+      "status": "derived",
+      "basis": "uvv.2026.10k p.58: Consolidated statements of cash flows, fiscal year ended March 31, 2026",
+      "details": [
+        {
+          "id": "cf.working",
+          "display_field": "undivided_working_cash",
+          "label": "经营周转资金释放／占用（未拆分）",
+          "custom": false,
+          "raw_label": "Changes in operating assets and liabilities, net",
+          "source_amount": -119142000.0,
+          "amount": -119142000.0,
+          "source": "uvv.2026.10k p.58",
+          "status": "derived",
+          "rationale": "sum of disclosed working-capital cash changes"
+        }
+      ]
+    },
+    "liquidity.other.restriction": {
+      "amount": 0.0,
+      "status": "not_applicable",
+      "basis": "uvv.2026.10k p.58: Cash flow statement",
+      "details": [
+        {
+          "id": "li.restrict",
+          "display_field": "restriction_transfer",
+          "label": "资金可用范围转类",
+          "custom": false,
+          "raw_label": "Cash restriction transfers",
+          "source_amount": 0.0,
+          "amount": 0.0,
+          "source": "uvv.2026.10k p.58",
+          "status": "not_applicable",
+          "rationale": "no cash restriction transfer disclosed"
+        }
+      ]
+    },
+    "liquidity.other.scope": {
+      "amount": 0.0,
+      "status": "not_applicable",
+      "basis": "uvv.2026.10k p.58: Cash flow statement",
+      "details": [
+        {
+          "id": "li.scope",
+          "display_field": "acquired_cash",
+          "label": "并入业务现金",
+          "custom": false,
+          "raw_label": "Cash from scope changes",
+          "source_amount": 0.0,
+          "amount": 0.0,
+          "source": "uvv.2026.10k p.58",
+          "status": "not_applicable",
+          "rationale": "no business acquisition or disposal cash disclosed in fiscal 2026"
+        }
+      ]
+    },
+    "liquidity.other.translation": {
+      "amount": 262000.0,
+      "status": "disclosed",
+      "basis": "uvv.2026.10k p.58: Consolidated statements of cash flows, fiscal year ended March 31, 2026",
+      "details": [
+        {
+          "id": "cf.trans",
+          "display_field": "cash_translation",
+          "label": "现金汇率折算影响",
+          "custom": false,
+          "raw_label": "Effect of exchange rate changes on cash",
+          "source_amount": 262000.0,
+          "amount": 262000.0,
+          "source": "uvv.2026.10k p.58",
+          "status": "disclosed",
+          "rationale": "cash translation effect"
+        }
+      ]
+    },
+    "liquidity.owner.dividend": {
+      "amount": -100345000.0,
+      "status": "derived",
+      "basis": "uvv.2026.10k p.58: consolidated statements of cash flows, fiscal year ended March 31, 2026",
+      "details": [
+        {
+          "id": "cf.divcommon",
+          "display_field": "dividend_paid",
+          "label": "实际支付分红",
+          "custom": false,
+          "raw_label": "Dividends paid on common stock",
+          "source_amount": 81299000.0,
+          "amount": -81299000.0,
+          "source": "uvv.2026.10k p.58",
+          "status": "disclosed",
+          "rationale": "cf.divcommon0"
+        },
+        {
+          "id": "cf.divnci",
+          "display_field": "dividend_paid",
+          "label": "实际支付分红",
+          "custom": false,
+          "raw_label": "Dividends paid to noncontrolling interests",
+          "source_amount": 19046000.0,
+          "amount": -19046000.0,
+          "source": "uvv.2026.10k p.58",
+          "status": "disclosed",
+          "rationale": "cf.divnci0"
+        }
+      ]
+    },
+    "liquidity.owner.input": {
+      "amount": 0.0,
+      "status": "not_applicable",
+      "basis": "uvv.2026.10k p.58: Cash flow statement",
+      "details": [
+        {
+          "id": "li.input",
+          "display_field": "other_owner_cash",
+          "label": "收到其他股东投入",
+          "custom": false,
+          "raw_label": "Owner cash input",
+          "source_amount": 0.0,
+          "amount": 0.0,
+          "source": "uvv.2026.10k p.58",
+          "status": "not_applicable",
+          "rationale": "no share issuance cash disclosed"
+        }
+      ]
+    },
+    "liquidity.owner.minority": {
+      "amount": 0.0,
+      "status": "not_applicable",
+      "basis": "uvv.2026.10k p.58: Cash flow statement",
+      "details": [
+        {
+          "id": "li.min",
+          "display_field": "minority_acquisition_cash",
+          "label": "收购少数股权付款",
+          "custom": false,
+          "raw_label": "Minority cash transactions",
+          "source_amount": 0.0,
+          "amount": 0.0,
+          "source": "uvv.2026.10k p.58",
+          "status": "not_applicable",
+          "rationale": "no minority cash acquisition or disposal disclosed"
+        }
+      ]
+    },
+    "liquidity.owner.repurchase": {
+      "amount": 0.0,
+      "status": "not_applicable",
+      "basis": "uvv.2026.10k p.58: Cash flow statement",
+      "details": [
+        {
+          "id": "li.rep",
+          "display_field": "repurchase_paid",
+          "label": "现金回购股份",
+          "custom": false,
+          "raw_label": "Cash share repurchase",
+          "source_amount": 0.0,
+          "amount": 0.0,
+          "source": "uvv.2026.10k p.58",
+          "status": "not_applicable",
+          "rationale": "no cash share repurchase disclosed"
+        }
+      ]
+    },
+    "noncash.leases": {
+      "amount": 16901000.0,
+      "status": "disclosed",
+      "basis": "uvv.2026.10k p.68: Note 9 leases",
+      "details": [
+        {
+          "id": "cf.noncash",
+          "display_field": null,
+          "label": null,
+          "custom": false,
+          "raw_label": "Right-of-use assets obtained in exchange for new operating lease liabilities",
+          "source_amount": 16901000.0,
+          "amount": 16901000.0,
+          "source": "uvv.2026.10k p.68",
+          "status": "disclosed",
+          "rationale": "noncash lease capital configuration"
+        }
+      ]
+    },
+    "wealth.finance.cost": {
+      "amount": -74040000.0,
+      "status": "disclosed",
+      "basis": "uvv.2026.10k p.54: consolidated statements of income, fiscal year ended March 31, 2026",
+      "details": [
+        {
+          "id": "inc.finance",
+          "display_field": "borrowing_interest",
+          "label": "借款利息",
+          "custom": false,
+          "raw_label": "Interest expense",
+          "source_amount": 74040000.0,
+          "amount": -74040000.0,
+          "source": "uvv.2026.10k p.54",
+          "status": "disclosed",
+          "rationale": "inc.finance0"
+        }
+      ]
+    },
+    "wealth.finance.tax": {
+      "amount": 33459107.0,
+      "status": "estimated",
+      "basis": "uvv.2026.10k p.54: Consolidated income statement and Note 1 equity-method tax reconciliation",
+      "details": [
+        {
+          "id": "w.ftax",
+          "display_field": "finance_tax_effect",
+          "label": "融资税收影响",
+          "custom": false,
+          "raw_label": "Allocated financing tax effect",
+          "source_amount": 33459107.0,
+          "amount": 33459107.0,
+          "source": "uvv.2026.10k p.54",
+          "status": "estimated",
+          "rationale": "estimated financing tax shield at the residual consolidated effective rate after using specifically disclosed equity-method tax"
+        }
+      ]
+    },
+    "wealth.nonoperating.returns": {
+      "amount": 8241000.0,
+      "status": "derived",
+      "basis": "uvv.2026.10k p.54: consolidated statements of income, fiscal year ended March 31, 2026",
+      "details": [
+        {
+          "id": "inc.returns1",
+          "display_field": "other_nonoperating_return",
+          "label": "其他非经营收益",
+          "custom": false,
+          "raw_label": "Equity in pretax earnings of unconsolidated affiliates",
+          "source_amount": 3430000.0,
+          "amount": 3430000.0,
+          "source": "uvv.2026.10k p.54",
+          "status": "disclosed",
+          "rationale": "inc.returns10"
+        },
+        {
+          "id": "inc.returns2",
+          "display_field": "other_nonoperating_return",
+          "label": "其他非经营收益",
+          "custom": false,
+          "raw_label": "Other non-operating income",
+          "source_amount": 2847000.0,
+          "amount": 2847000.0,
+          "source": "uvv.2026.10k p.54",
+          "status": "disclosed",
+          "rationale": "inc.returns20"
+        },
+        {
+          "id": "inc.interest",
+          "display_field": "interest_income",
+          "label": "利息收益",
+          "custom": false,
+          "raw_label": "Interest income",
+          "source_amount": 1964000.0,
+          "amount": 1964000.0,
+          "source": "uvv.2026.10k p.54",
+          "status": "disclosed",
+          "rationale": "inc.interest0"
+        }
+      ]
+    },
+    "wealth.nonoperating.tax": {
+      "amount": -3992118.0,
+      "status": "estimated",
+      "basis": "uvv.2026.10k p.63: Note 1 equity-method tax reconciliation and consolidated income statement",
+      "details": [
+        {
+          "id": "w.ntax",
+          "display_field": "allocated_nonoperating_tax",
+          "label": "估计分配的非经营所得税",
+          "custom": false,
+          "raw_label": "Equity-method tax plus allocated other non-operating tax",
+          "source_amount": 3992118.0,
+          "amount": -3992118.0,
+          "source": "uvv.2026.10k p.63",
+          "status": "estimated",
+          "rationale": "uses the disclosed tax on equity-method income and estimates tax on other non-operating returns at the residual consolidated effective rate"
+        }
+      ]
+    },
+    "wealth.nonoperating.valuation": {
+      "amount": 0.0,
+      "status": "not_applicable",
+      "basis": "uvv.2026.10k p.54: Income statement",
+      "details": [
+        {
+          "id": "w.val",
+          "display_field": "undivided_valuation",
+          "label": "价值重估与汇兑损益（未拆分）",
+          "custom": false,
+          "raw_label": "Non-operating valuation and FX",
+          "source_amount": 0.0,
+          "amount": 0.0,
+          "source": "uvv.2026.10k p.54",
+          "status": "not_applicable",
+          "rationale": "no separate valuation or FX earnings line disclosed in income statement"
+        }
+      ]
+    },
+    "wealth.operating.costs": {
+      "amount": -2661521000.0,
+      "status": "derived",
+      "basis": "uvv.2026.10k p.54: consolidated statements of income, fiscal year ended March 31, 2026; uvv.2026.10k p.58: Cash flow reconciliation and income statement",
+      "details": [
+        {
+          "id": "inc.cogs",
+          "display_field": "product_service_costs",
+          "label": "产品与服务耗用",
+          "custom": false,
+          "raw_label": "Cost of goods sold",
+          "source_amount": 2412454000.0,
+          "amount": -2412454000.0,
+          "source": "uvv.2026.10k p.54",
+          "status": "disclosed",
+          "rationale": "inc.cogs0"
+        },
+        {
+          "id": "inc.sga",
+          "display_field": "administrative",
+          "label": "管理费用",
+          "custom": false,
+          "raw_label": "Selling, general and administrative expenses",
+          "source_amount": 300671000.0,
+          "amount": -300671000.0,
+          "source": "uvv.2026.10k p.54",
+          "status": "disclosed",
+          "rationale": "inc.sga0"
+        },
+        {
+          "id": "inc.restruct",
+          "display_field": "other_operating_costs",
+          "label": "其他经营费用",
+          "custom": false,
+          "raw_label": "Restructuring and impairment costs",
+          "source_amount": 1833000.0,
+          "amount": -1833000.0,
+          "source": "uvv.2026.10k p.54",
+          "status": "disclosed",
+          "rationale": "inc.restruct0"
+        },
+        {
+          "id": "inc.dep.adjust",
+          "display_field": "depreciation_adjustment",
+          "label": "剔除折旧摊销",
+          "custom": false,
+          "raw_label": "Depreciation and amortization included in operating costs",
+          "source_amount": 53437000.0,
+          "amount": 53437000.0,
+          "source": "uvv.2026.10k p.58",
+          "status": "disclosed",
+          "rationale": "add back separately disclosed depreciation and amortization so costs are before depreciation"
+        }
+      ]
+    },
+    "wealth.operating.depreciation": {
+      "amount": -53437000.0,
+      "status": "derived",
+      "basis": "uvv.2026.10k p.58: consolidated statements of cash flows, fiscal year ended March 31, 2026",
+      "details": [
+        {
+          "id": "inc.dep.facility",
+          "display_field": "facility_depreciation",
+          "label": "经营设施折旧",
+          "custom": false,
+          "raw_label": "Depreciation and amortization",
+          "source_amount": 53437000.0,
+          "amount": -44313000.0,
+          "source": "uvv.2026.10k p.58",
+          "status": "disclosed",
+          "rationale": "total depreciation and amortization less separately disclosed intangible amortization"
+        },
+        {
+          "id": "inc.dep.rights",
+          "display_field": "rights_amortization",
+          "label": "经营权利摊销",
+          "custom": false,
+          "raw_label": "Depreciation and amortization",
+          "source_amount": 53437000.0,
+          "amount": -9124000.0,
+          "source": "uvv.2026.10k p.58",
+          "status": "disclosed",
+          "rationale": "Note 6 separately discloses fiscal 2026 intangible amortization expense"
+        }
+      ]
+    },
+    "wealth.operating.loss": {
+      "amount": -41061000.0,
+      "status": "disclosed",
+      "basis": "uvv.2026.10k p.54: consolidated statements of income, fiscal year ended March 31, 2026",
+      "details": [
+        {
+          "id": "inc.goodwillloss",
+          "display_field": "asset_impairment",
+          "label": "经营资产减值",
+          "custom": false,
+          "raw_label": "Goodwill impairment",
+          "source_amount": 41061000.0,
+          "amount": -41061000.0,
+          "source": "uvv.2026.10k p.54",
+          "status": "disclosed",
+          "rationale": "inc.goodwillloss0"
+        }
+      ]
+    },
+    "wealth.operating.other_income": {
+      "amount": 0.0,
+      "status": "not_applicable",
+      "basis": "uvv.2026.10k p.54: Income statement",
+      "details": [
+        {
+          "id": "w.oi",
+          "display_field": "other_operating_income",
+          "label": "其他经营收益",
+          "custom": false,
+          "raw_label": "Other operating income",
+          "source_amount": 0.0,
+          "amount": 0.0,
+          "source": "uvv.2026.10k p.54",
+          "status": "not_applicable",
+          "rationale": "no separate operating other income line; included in revenue or expenses"
+        }
+      ]
+    },
+    "wealth.operating.revenue": {
+      "amount": 2924470000.0,
+      "status": "disclosed",
+      "basis": "uvv.2026.10k p.54: consolidated statements of income, fiscal year ended March 31, 2026",
+      "details": [
+        {
+          "id": "inc.revenue",
+          "display_field": "product_revenue",
+          "label": "产品收入",
+          "custom": false,
+          "raw_label": "Sales and other operating revenues",
+          "source_amount": 2924470000.0,
+          "amount": 2924470000.0,
+          "source": "uvv.2026.10k p.54",
+          "status": "disclosed",
+          "rationale": "inc.revenue0"
+        }
+      ]
+    },
+    "wealth.operating.tax": {
+      "amount": -76123989.0,
+      "status": "estimated",
+      "basis": "uvv.2026.10k p.54: Consolidated income statement and Note 1 equity-method tax reconciliation",
+      "details": [
+        {
+          "id": "inc.tax",
+          "display_field": "allocated_operating_tax",
+          "label": "估计分配的经营所得税",
+          "custom": false,
+          "raw_label": "Allocated operating income tax",
+          "source_amount": 76123989.0,
+          "amount": -76123989.0,
+          "source": "uvv.2026.10k p.54",
+          "status": "estimated",
+          "rationale": "estimated allocation of residual consolidated tax to operating contribution after using the specifically disclosed equity-method tax"
+        }
+      ]
+    },
+    "wealth.other.other_oci": {
+      "amount": 1414000.0,
+      "status": "derived",
+      "basis": "uvv.2026.10k p.55: consolidated statements of comprehensive income; uvv.2026.10k p.55: Consolidated statements of comprehensive income",
+      "details": [
+        {
+          "id": "inc.oci.pension",
+          "display_field": "actuarial_oci",
+          "label": "员工福利精算变动",
+          "custom": false,
+          "raw_label": "Pension and other postretirement benefit plans, net of income taxes",
+          "source_amount": 368000.0,
+          "amount": 368000.0,
+          "source": "uvv.2026.10k p.55",
+          "status": "disclosed",
+          "rationale": "inc.oci.pension0"
+        },
+        {
+          "id": "inc.oci.hedge",
+          "display_field": "hedging_oci",
+          "label": "套期储备变动",
+          "custom": false,
+          "raw_label": "Foreign currency and interest rate hedges, net of income taxes",
+          "source_amount": 1046000.0,
+          "amount": 1046000.0,
+          "source": "uvv.2026.10k p.55",
+          "status": "derived",
+          "rationale": "combined hedge OCI"
+        }
+      ]
+    },
+    "wealth.other.scope": {
+      "amount": 0.0,
+      "status": "not_applicable",
+      "basis": "uvv.2026.10k p.59: Statement of changes in shareholders equity",
+      "details": [
+        {
+          "id": "w.scope",
+          "display_field": "other_equity_change",
+          "label": "其他权益变动",
+          "custom": false,
+          "raw_label": "Other scope/equity changes",
+          "source_amount": 0.0,
+          "amount": 0.0,
+          "source": "uvv.2026.10k p.59",
+          "status": "not_applicable",
+          "rationale": "no separate scope change disclosed"
+        }
+      ]
+    },
+    "wealth.other.translation": {
+      "amount": 4955000.0,
+      "status": "disclosed",
+      "basis": "uvv.2026.10k p.55: consolidated statements of comprehensive income",
+      "details": [
+        {
+          "id": "inc.oci.trans",
+          "display_field": "statement_translation",
+          "label": "报表折算差额",
+          "custom": false,
+          "raw_label": "Foreign currency translation, net of income taxes",
+          "source_amount": 4955000.0,
+          "amount": 4955000.0,
+          "source": "uvv.2026.10k p.55",
+          "status": "disclosed",
+          "rationale": "inc.oci.trans0"
+        }
+      ]
+    },
+    "wealth.owner.dividend": {
+      "amount": -100758000.0,
+      "status": "derived",
+      "basis": "uvv.2026.10k p.59: consolidated statements of changes in shareholders equity, fiscal year ended March 31, 2026",
+      "details": [
+        {
+          "id": "inc.divcommon",
+          "display_field": "dividend_declared",
+          "label": "批准及宣告分红",
+          "custom": false,
+          "raw_label": "Cash dividends declared on common stock",
+          "source_amount": 81712000.0,
+          "amount": -81712000.0,
+          "source": "uvv.2026.10k p.59",
+          "status": "disclosed",
+          "rationale": "inc.divcommon0"
+        },
+        {
+          "id": "inc.divnci",
+          "display_field": "dividend_declared",
+          "label": "批准及宣告分红",
+          "custom": false,
+          "raw_label": "Dividends paid to noncontrolling shareholders",
+          "source_amount": 19046000.0,
+          "amount": -19046000.0,
+          "source": "uvv.2026.10k p.59",
+          "status": "disclosed",
+          "rationale": "inc.divnci0"
+        }
+      ]
+    },
+    "wealth.owner.input": {
+      "amount": 7115000.0,
+      "status": "disclosed",
+      "basis": "uvv.2026.10k p.59: consolidated statements of changes in shareholders equity, fiscal year ended March 31, 2026",
+      "details": [
+        {
+          "id": "inc.ownerinput",
+          "display_field": "share_incentive",
+          "label": "股份激励",
+          "custom": false,
+          "raw_label": "Accrual of stock-based compensation",
+          "source_amount": 7115000.0,
+          "amount": 7115000.0,
+          "source": "uvv.2026.10k p.59",
+          "status": "disclosed",
+          "rationale": "inc.ownerinput0"
+        }
+      ]
+    },
+    "wealth.owner.minority": {
+      "amount": 0.0,
+      "status": "not_applicable",
+      "basis": "uvv.2026.10k p.59: Statement of changes in shareholders equity",
+      "details": [
+        {
+          "id": "w.min",
+          "display_field": "minority_acquisition",
+          "label": "收购少数股权",
+          "custom": false,
+          "raw_label": "Minority equity transactions",
+          "source_amount": 0.0,
+          "amount": 0.0,
+          "source": "uvv.2026.10k p.59",
+          "status": "not_applicable",
+          "rationale": "no minority acquisition or disposal disclosed"
+        }
+      ]
+    },
+    "wealth.owner.repurchase": {
+      "amount": -8135000.0,
+      "status": "disclosed",
+      "basis": "uvv.2026.10k p.59: consolidated statements of changes in shareholders equity, fiscal year ended March 31, 2026",
+      "details": [
+        {
+          "id": "inc.withhold",
+          "display_field": "share_repurchase",
+          "label": "股份回购",
+          "custom": false,
+          "raw_label": "Withholding of shares from stock-based compensation for grantee income taxes",
+          "source_amount": 8135000.0,
+          "amount": -8135000.0,
+          "source": "uvv.2026.10k p.59",
+          "status": "disclosed",
+          "rationale": "inc.withhold0"
+        }
+      ]
+    },
+    "controls.cash.opening": {
+      "amount": 260115000.0,
+      "status": "derived",
+      "basis": "程序取现金与存款标准余额，用资本活动核对其年度变化",
+      "details": [
+        {
+          "id": "bal.cash.2025",
+          "display_field": "cash_equivalents",
+          "label": "现金及现金等价物",
+          "custom": false,
+          "raw_label": "Cash and cash equivalents",
+          "source_amount": 260115000.0,
+          "amount": 260115000.0,
+          "source": "uvv.2026.10k p.56",
+          "status": "disclosed",
+          "rationale": "cash and cash equivalents; restricted cash was not separately reported on the balance sheet"
+        }
+      ]
+    },
+    "controls.cash.closing": {
+      "amount": 62178000.0,
+      "status": "derived",
+      "basis": "程序取现金与存款标准余额，用资本活动核对其年度变化",
+      "details": [
+        {
+          "id": "bal.cash.2026",
+          "display_field": "cash_equivalents",
+          "label": "现金及现金等价物",
+          "custom": false,
+          "raw_label": "Cash and cash equivalents",
+          "source_amount": 62178000.0,
+          "amount": 62178000.0,
+          "source": "uvv.2026.10k p.56",
+          "status": "disclosed",
+          "rationale": "cash and cash equivalents; restricted cash was not separately reported on the balance sheet"
+        }
+      ]
+    }
+  },
+  "draft_movements": {
+    "facilities": [],
+    "goodwill": [
+      {
+        "id": "mv.goodwill.loss",
+        "category": "loss",
+        "label": "Goodwill impairment",
+        "amount": -41061000.0,
+        "source_id": "uvv.2026.10k",
+        "page": 54,
+        "basis": "Consolidated statements of income"
+      },
+      {
+        "id": "mv.goodwill.translation",
+        "category": "valuation",
+        "label": "Foreign currency translation adjustment",
+        "amount": -84000.0,
+        "source_id": "uvv.2026.10k",
+        "page": 77,
+        "basis": "Note 6 goodwill rollforward for fiscal year 2026"
+      }
+    ],
+    "investments": [
+      {
+        "id": "mv.invest.return",
+        "category": "returns",
+        "label": "Equity in net income of unconsolidated affiliates",
+        "amount": 1612000.0,
+        "source_id": "uvv.2026.10k",
+        "page": 63,
+        "basis": "Note 1 reconciliation of equity-method pretax earnings to net income"
+      },
+      {
+        "id": "mv.invest.dividend",
+        "category": "investment",
+        "label": "Dividends received from unconsolidated affiliates",
+        "amount": -1857000.0,
+        "source_id": "uvv.2026.10k",
+        "page": 63,
+        "basis": "Note 1 reconciliation of equity-method net income to dividends received"
+      }
+    ],
+    "financing": [
+      {
+        "id": "mv.cash.finance",
+        "category": "financing",
+        "label": "Net short-term debt repayment and long-term debt issuance/repayment",
+        "amount": -170069000.0,
+        "source_id": "uvv.2026.10k",
+        "page": 58,
+        "basis": "Consolidated statements of cash flows"
+      }
+    ],
+    "cash": [
+      {
+        "id": "mv.cash.operating",
+        "category": "settlement",
+        "label": "Net cash provided by operating activities",
+        "amount": 129100000.0,
+        "source_id": "uvv.2026.10k",
+        "page": 58,
+        "basis": "Consolidated statements of cash flows"
+      },
+      {
+        "id": "mv.cash.capacity",
+        "category": "capacity",
+        "label": "Net cash used by investing activities",
+        "amount": -42956000.0,
+        "source_id": "uvv.2026.10k",
+        "page": 58,
+        "basis": "Consolidated statements of cash flows"
+      },
+      {
+        "id": "mv.cash.financing",
+        "category": "financing",
+        "label": "Net cash used by financing activities",
+        "amount": -284343000.0,
+        "source_id": "uvv.2026.10k",
+        "page": 58,
+        "basis": "Consolidated statements of cash flows"
+      },
+      {
+        "id": "mv.cash.translation",
+        "category": "valuation",
+        "label": "Effect of exchange rate changes on cash",
+        "amount": 262000.0,
+        "source_id": "uvv.2026.10k",
+        "page": 58,
+        "basis": "Consolidated statements of cash flows"
+      }
+    ],
+    "rights": [
+      {
+        "id": "mv.rights.amort",
+        "category": "consumption",
+        "label": "Intangible asset amortization expense",
+        "amount": -9124000.0,
+        "source_id": "uvv.2026.10k",
+        "page": 77,
+        "basis": "Note 6, amortization expense for fiscal year 2026"
+      }
+    ],
+    "other_operating": []
+  },
+  "movements": {
+    "capital_settlement": [],
+    "cash": [
+      {
+        "id": "mv.cash.operating",
+        "category": "settlement",
+        "label": "经营收付",
+        "amount": 129100000.0,
+        "source_id": "uvv.2026.10k",
+        "page": 58,
+        "basis": "Consolidated statements of cash flows",
+        "raw_label": "Net cash provided by operating activities",
+        "display_field": "movement.settlement"
+      },
+      {
+        "id": "mv.cash.capacity",
+        "category": "capacity",
+        "label": "经营投入与退出",
+        "amount": -42956000.0,
+        "source_id": "uvv.2026.10k",
+        "page": 58,
+        "basis": "Consolidated statements of cash flows",
+        "raw_label": "Net cash used by investing activities",
+        "display_field": "movement.capacity"
+      },
+      {
+        "id": "mv.cash.financing",
+        "category": "financing",
+        "label": "融资借入与偿还",
+        "amount": -284343000.0,
+        "source_id": "uvv.2026.10k",
+        "page": 58,
+        "basis": "Consolidated statements of cash flows",
+        "raw_label": "Net cash used by financing activities",
+        "display_field": "movement.financing"
+      },
+      {
+        "id": "mv.cash.translation",
+        "category": "valuation",
+        "label": "价值重估与汇率",
+        "amount": 262000.0,
+        "source_id": "uvv.2026.10k",
+        "page": 58,
+        "basis": "Consolidated statements of cash flows",
+        "raw_label": "Effect of exchange rate changes on cash",
+        "display_field": "movement.valuation"
+      }
+    ],
+    "facilities": [
+      {
+        "id": "system-unresolved",
+        "category": "unresolved",
+        "display_field": "movement.unresolved",
+        "label": "未解释差额",
+        "raw_label": "程序计算的未解释差额",
+        "amount": 2992000.0,
+        "basis": "期末减期初，再减已映射的经济变动",
+        "source_id": null,
+        "page": null
+      }
+    ],
+    "financing": [
+      {
+        "id": "mv.cash.finance",
+        "category": "financing",
+        "label": "融资借入与偿还",
+        "amount": -170069000.0,
+        "source_id": "uvv.2026.10k",
+        "page": 58,
+        "basis": "Consolidated statements of cash flows",
+        "raw_label": "Net short-term debt repayment and long-term debt issuance/repayment",
+        "display_field": "movement.financing"
+      },
+      {
+        "id": "system-unresolved",
+        "category": "unresolved",
+        "display_field": "movement.unresolved",
+        "label": "未解释差额",
+        "raw_label": "程序计算的未解释差额",
+        "amount": 5584000.0,
+        "basis": "期末减期初，再减已映射的经济变动",
+        "source_id": null,
+        "page": null
+      }
+    ],
+    "goodwill": [
+      {
+        "id": "mv.goodwill.loss",
+        "category": "loss",
+        "label": "资产减值与恢复",
+        "amount": -41061000.0,
+        "source_id": "uvv.2026.10k",
+        "page": 54,
+        "basis": "Consolidated statements of income",
+        "raw_label": "Goodwill impairment",
+        "display_field": "movement.loss"
+      },
+      {
+        "id": "mv.goodwill.translation",
+        "category": "valuation",
+        "label": "价值重估与汇率",
+        "amount": -84000.0,
+        "source_id": "uvv.2026.10k",
+        "page": 77,
+        "basis": "Note 6 goodwill rollforward for fiscal year 2026",
+        "raw_label": "Foreign currency translation adjustment",
+        "display_field": "movement.valuation"
+      }
+    ],
+    "investments": [
+      {
+        "id": "mv.invest.return",
+        "category": "returns",
+        "label": "投资收益",
+        "amount": 1612000.0,
+        "source_id": "uvv.2026.10k",
+        "page": 63,
+        "basis": "Note 1 reconciliation of equity-method pretax earnings to net income",
+        "raw_label": "Equity in net income of unconsolidated affiliates",
+        "display_field": "movement.returns"
+      },
+      {
+        "id": "mv.invest.dividend",
+        "category": "investment",
+        "label": "投资投入与收回",
+        "amount": -1857000.0,
+        "source_id": "uvv.2026.10k",
+        "page": 63,
+        "basis": "Note 1 reconciliation of equity-method net income to dividends received",
+        "raw_label": "Dividends received from unconsolidated affiliates",
+        "display_field": "movement.investment"
+      },
+      {
+        "id": "system-unresolved",
+        "category": "unresolved",
+        "display_field": "movement.unresolved",
+        "label": "未解释差额",
+        "raw_label": "程序计算的未解释差额",
+        "amount": 3215000.0,
+        "basis": "期末减期初，再减已映射的经济变动",
+        "source_id": null,
+        "page": null
+      }
+    ],
+    "other_assets": [],
+    "other_liabilities": [],
+    "other_operating": [
+      {
+        "id": "system-unresolved",
+        "category": "unresolved",
+        "display_field": "movement.unresolved",
+        "label": "未解释差额",
+        "raw_label": "程序计算的未解释差额",
+        "amount": 23584000.0,
+        "basis": "期末减期初，再减已映射的经济变动",
+        "source_id": null,
+        "page": null
+      }
+    ],
+    "rights": [
+      {
+        "id": "mv.rights.amort",
+        "category": "consumption",
+        "label": "折旧摊销与耗竭",
+        "amount": -9124000.0,
+        "source_id": "uvv.2026.10k",
+        "page": 77,
+        "basis": "Note 6, amortization expense for fiscal year 2026",
+        "raw_label": "Intangible asset amortization expense",
+        "display_field": "movement.consumption"
+      },
+      {
+        "id": "system-unresolved",
+        "category": "unresolved",
+        "display_field": "movement.unresolved",
+        "label": "未解释差额",
+        "raw_label": "程序计算的未解释差额",
+        "amount": -108000.0,
+        "basis": "期末减期初，再减已映射的经济变动",
+        "source_id": null,
+        "page": null
+      }
+    ],
+    "shareholder": [],
+    "working": [
+      {
+        "id": "system-unresolved",
+        "category": "unresolved",
+        "display_field": "movement.unresolved",
+        "label": "未解释差额",
+        "raw_label": "程序计算的未解释差额",
+        "amount": 14869000.0,
+        "basis": "期末减期初，再减已映射的经济变动",
+        "source_id": null,
+        "page": null
+      }
+    ]
+  },
+  "anomalies": [
+    {
+      "id": "an.goodwill",
+      "title": "配料业务商誉减值",
+      "explanation": "公司本期确认4,106.1万美元非现金商誉减值，同时减少商誉和经营收益；本表将其单列为经营资产损失。",
+      "basis": "Note 1 goodwill and consolidated statements of income",
+      "amount": -41061000.0,
+      "fields": [
+        "assets.goodwill.closing",
+        "wealth.operating.loss"
+      ],
+      "source_ids": [
+        "uvv.2026.10k"
+      ]
+    },
+    {
+      "id": "an.cash",
+      "title": "季节性现金下降与周转资金释放并存",
+      "explanation": "现金及现金等价物减少19,793.7万美元，而经营现金流为12,910.0万美元；现金下降主要来自28,434.3万美元融资流出和4,295.6万美元投资流出，部分被经营活动产生的现金抵消。",
+      "basis": "Consolidated balance sheets and statements of cash flows",
+      "amount": -197937000.0,
+      "fields": [
+        "assets.cash.closing",
+        "liquidity.finance.repay"
+      ],
+      "source_ids": [
+        "uvv.2026.10k"
+      ]
+    },
+    {
+      "id": "an.taxalloc",
+      "title": "所得税经济归属存在估计",
+      "explanation": "财报披露权益法收益相关税费181.8万美元，但未把其余合并所得税拆分到经营、其他非经营和融资来源。本表保留该直接披露数，并按统一剩余有效税率分配其余4,483.9万美元，因此三类经济税项部分为估计，合计与4,665.7万美元所得税费用一致。",
+      "basis": "Consolidated statements of income and Note 1 equity-method tax reconciliation",
+      "amount": -46657000.0,
+      "fields": [
+        "wealth.operating.tax",
+        "wealth.nonoperating.tax",
+        "wealth.finance.tax"
+      ],
+      "source_ids": [
+        "uvv.2026.10k"
+      ]
+    },
+    {
+      "id": "an.otherop",
+      "title": "其他经营净额变动未完整拆解",
+      "explanation": "其他经营净资产增加2,358.4万美元。财报披露了税项、养老金、其他流动及非流动资产和其他长期负债的构成余额，但没有完整滚存表；该金额保留为程序计算的未解释变动，不将其虚构为内部转类。",
+      "basis": "Consolidated balance sheets and Notes 5, 9, 12 and 17",
+      "amount": 23584000.0,
+      "fields": [
+        "assets.other_operating.closing"
+      ],
+      "source_ids": [
+        "uvv.2026.10k"
+      ]
+    },
+    {
+      "id": "an.investmovement",
+      "title": "未并表投资余额变动未完整拆解",
+      "explanation": "未并表关联公司投资增加297.0万美元。已披露的权益法净收益161.2万美元和收到分红185.7万美元合计解释净减少24.5万美元；其余321.5万美元增加未在财报中单独归因，继续列为未解释变动。",
+      "basis": "Consolidated balance sheets and Note 1 equity-method reconciliation",
+      "amount": 3215000.0,
+      "fields": [
+        "assets.investments.closing"
+      ],
+      "source_ids": [
+        "uvv.2026.10k"
+      ]
+    }
+  ],
+  "validation": {
+    "errors": [],
+    "warnings": [
+      {
+        "code": "MOVEMENT_ATTRIBUTION_LIMIT",
+        "field": "facilities",
+        "amount": 2992000.0,
+        "soft_tolerance": 5000.0,
+        "material_threshold": 8204520.0
+      },
+      {
+        "code": "MOVEMENT_ATTRIBUTION_LIMIT",
+        "field": "financing",
+        "amount": 5584000.0,
+        "soft_tolerance": 17006.9,
+        "material_threshold": 41121250.0
+      },
+      {
+        "code": "MOVEMENT_ATTRIBUTION_LIMIT",
+        "field": "investments",
+        "amount": 3215000.0,
+        "soft_tolerance": 5000.0,
+        "material_threshold": 1645740.0
+      },
+      {
+        "code": "MOVEMENT_ATTRIBUTION_LIMIT",
+        "field": "other_operating",
+        "amount": 23584000.0,
+        "soft_tolerance": 5000.0,
+        "material_threshold": 5896000.0
+      },
+      {
+        "code": "MATERIAL_MOVEMENT_UNEXPLAINED",
+        "field": "other_operating",
+        "change": 23584000.0
+      },
+      {
+        "code": "MOVEMENT_ATTRIBUTION_LIMIT",
+        "field": "rights",
+        "amount": -108000.0,
+        "soft_tolerance": 5000.0,
+        "material_threshold": 2308000.0
+      },
+      {
+        "code": "MOVEMENT_ATTRIBUTION_LIMIT",
+        "field": "working",
+        "amount": 14869000.0,
+        "soft_tolerance": 5000.0,
+        "material_threshold": 30828420.0
+      }
+    ],
+    "status": "warning"
+  }
+}

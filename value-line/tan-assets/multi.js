@@ -22,7 +22,7 @@
  function alignedRows(keys,entriesForKey,years,prefix,detailState){
   return keys.flatMap(key=>{
    const entries=entriesForKey(key),id=fieldId(prefix,key);
-   const children=orderedChildren([...years].sort((a,b)=>b-a).map(y=>(entries[y]?.details||[]).map(e=>e.label)));
+   const children=orderedChildren([...years].sort((a,b)=>String(b).localeCompare(String(a))).map(y=>(entries[y]?.details||[]).map(e=>e.label)));
    const parent={entries,id,children,open:Boolean(detailState[id]),kind:'parent'};
    return [parent,...(parent.open?children.map(child=>({...parent,kind:'child',child})):[])];
   });
@@ -75,7 +75,7 @@
  function activityTable(m,open,detailState){
   const annual=m.annual,years=m.years,registry=m.displayRegistry;
   open=expanded(open);const columns=1+years.length+open.size*2,width=200+years.length*110+open.size*540;
-  let h='<div class="table-wrap"><table class="year-activities" style="width:'+width+'px;min-width:'+width+'px"><caption>资本活动表 <small>全年发生额 · '+esc(m.currency)+' 亿元</small></caption><colgroup>'+col(200)+years.map(y=>col(110)+(open.has(y)?col(440)+col(100):'')).join('')+'</colgroup><thead><tr><th rowspan="2">大项目</th>'+years.map(y=>'<th colspan="'+(open.has(y)?3:1)+'">'+yearButton('capital',y,open,y+' 全年')+'</th>').join('')+'</tr><tr>'+years.map(y=>'<th aria-label="年度合计金额"></th>'+(open.has(y)?'<th>子项目</th><th>金额</th>':'')).join('')+'</tr></thead><tbody>';
+  let h='<div class="table-wrap"><table class="year-activities" style="width:'+width+'px;min-width:'+width+'px"><caption>资本活动表 <small>期间发生额 · '+esc(m.currency)+' 亿元</small></caption><colgroup>'+col(200)+years.map(y=>col(110)+(open.has(y)?col(440)+col(100):'')).join('')+'</colgroup><thead><tr><th rowspan="2">大项目</th>'+years.map(y=>'<th colspan="'+(open.has(y)?3:1)+'">'+yearButton('capital',y,open,Number.isInteger(y)?y+' 全年':y)+'</th>').join('')+'</tr><tr>'+years.map(y=>'<th aria-label="期间合计金额"></th>'+(open.has(y)?'<th>子项目</th><th>金额</th>':'')).join('')+'</tr></thead><tbody>';
   for(const [block,label,totalKey,totalLabel] of [['wealth',registry?.table_sections?.wealth||'净资产形成','equityChange',registry?.derived?.['controls.equity.change']||'净资产增加'],['liquidity',registry?.table_sections?.liquidity||'资金收付与配置','cashChange',registry?.derived?.['controls.cash.change']||'现金与存款增加']]){
    h+='<tr class="group"><th colspan="'+columns+'">'+label+'</th></tr>';
    annual[years[years.length-1]][block].forEach((g,gi)=>{
@@ -107,7 +107,8 @@
   const sum=xs=>xs.some(x=>x===null||x===undefined)?null:xs.reduce((a,b)=>a+b,0);
   const record=(y,key,side)=>m.series[y].records[`assets.${key}.${side}`];
   const value=(y,key,side)=>record(y,key,side)?.amount??null;
-  let h='<div class="table-wrap"><table class="year-assets" style="width:'+width+'px;min-width:'+width+'px"><caption>资本表 <small>年末余额 · '+esc(m.currency)+' 亿元</small></caption><colgroup>'+col(230)+col(100)+years.map(y=>(open.has(y)?col(320)+col(100):'')+col(100)).join('')+'</colgroup><thead><tr><th rowspan="2">资产／负债项目</th><th rowspan="2">'+(first-1)+' 年末</th>'+years.map(y=>(open.has(y)?'<th colspan="2">'+y+' 年变动</th>':'')+'<th rowspan="2">'+y+' 年末'+yearButton('assets',y,open,y+' 年变动')+'</th>').join('')+'</tr><tr>'+years.filter(y=>open.has(y)).map(()=>'<th>项目</th><th>金额</th>').join('')+'</tr></thead><tbody>';
+  const priorDate=new Date(m.series[first].period_start+'T00:00:00Z');priorDate.setUTCDate(priorDate.getUTCDate()-1);const openingDate=priorDate.toISOString().slice(0,10);
+  let h='<div class="table-wrap"><table class="year-assets" style="width:'+width+'px;min-width:'+width+'px"><caption>资本表 <small>期末余额 · '+esc(m.currency)+' 亿元</small></caption><colgroup>'+col(230)+col(100)+years.map(y=>(open.has(y)?col(320)+col(100):'')+col(100)).join('')+'</colgroup><thead><tr><th rowspan="2">资产／负债项目</th><th rowspan="2">'+openingDate+'</th>'+years.map(y=>(open.has(y)?'<th colspan="2">截至 '+y+' 的期间变动</th>':'')+'<th rowspan="2">'+y+yearButton('assets',y,open,'变动')+'</th>').join('')+'</tr><tr>'+years.filter(y=>open.has(y)).map(()=>'<th>项目</th><th>金额</th>').join('')+'</tr></thead><tbody>';
   const total=(label,get,cls='total')=>'<tr class="'+cls+'"><th>'+esc(label)+'</th>'+amount(get(first,'opening'))+years.map(y=>{const a=get(y,'opening'),b=get(y,'closing');return(open.has(y)?'<td>净变动</td>'+amount(a===null||b===null?null:b-a):'')+amount(b);}).join('')+'</tr>';
   for(const [group,title,fields] of dictionary.assetSets){
    h+='<tr class="group"><th colspan="'+count+'">'+esc(title)+'</th></tr>';
@@ -116,7 +117,7 @@
      const entries=m.series[y].movements[key];if(!entries)return [y,null];
      if(entries.length&&entries.every(e=>e.amount===0))return [y,[{code:'none',label:'无变动',amount:0,details:[]}]];
      const cats=union([entries.map(e=>e.category)],Object.keys(dictionary.movementGroups));
-     return [y,cats.map(code=>{const parts=entries.filter(e=>e.category===code);return {code,label:dictionary.movementGroups[code]||code,amount:sum(parts.map(e=>e.amount)),details:['capital-statement-v3','capital-statement-v4'].includes(m.series[y].schema)?[]:parts.map(e=>({label:e.label,amount:e.amount,basis:e.basis}))};})];
+     return [y,cats.map(code=>{const parts=entries.filter(e=>e.category===code);return {code,label:dictionary.movementGroups[code]||code,amount:sum(parts.map(e=>e.amount)),details:['capital-statement-v3','capital-statement-v4','capital-statement-v5'].includes(m.series[y].schema)?[]:parts.map(e=>({label:e.label,amount:e.amount,basis:e.basis}))};})];
     }));
     const keys=union([...open].map(y=>(byYear[y]||[]).map(e=>e.code)),Object.keys(dictionary.movementGroups));
     if(open.size&&!keys.length)keys.push('unresolved');
@@ -163,15 +164,15 @@
   });
  }
  function anomalyTable(m){
-  return '<div class="table-wrap"><table class="year-anomalies"><tbody><tr><th>重要异常与一次性事项</th>'+m.years.map(y=>{const d=m.series[y],notes=visibleAnomalies(d),boundary=m.boundaryWarnings.filter(w=>w.year===y&&materialRatio(w.opening-w.previous,[w.previous,w.opening])>=0.03);const count=notes.length+boundary.length;return '<td><details><summary>'+y+' · '+count+' 项</summary>'+notes.map(n=>'<p><strong>'+esc(n.title)+'</strong> '+esc(n.explanation)+'</p>').join('')+boundary.map(b=>'<p>相邻年度期末／期初不一致：'+esc(b.field)+'，前期 '+fmt(b.previous)+'，本期期初 '+fmt(b.opening)+'。本页保留原值。</p>').join('')+'</details></td>';}).join('')+'</tr></tbody></table></div>';
+  return '<div class="table-wrap"><table class="year-anomalies"><tbody><tr><th>重要异常与一次性事项</th>'+m.years.map(y=>{const d=m.series[y],notes=visibleAnomalies(d),boundary=m.boundaryWarnings.filter(w=>w.period_end===y&&materialRatio(w.opening-w.previous,[w.previous,w.opening])>=0.03);const count=notes.length+boundary.length;return '<td><details><summary>'+y+' · '+count+' 项</summary>'+notes.map(n=>'<p><strong>'+esc(n.title)+'</strong> '+esc(n.explanation)+'</p>').join('')+boundary.map(b=>'<p>相邻期间期末／期初不一致：'+esc(b.field)+'，前期 '+fmt(b.previous)+'，本期期初 '+fmt(b.opening)+'。本页保留原值。</p>').join('')+'</details></td>';}).join('')+'</tr></tbody></table></div>';
  }
 function evidence(m){
   return '<details class="page-notes"><summary>口径、来源与数据限制</summary>'+m.years.map(y=>{const d=m.series[y];
-   const facts=['capital-statement-v2','capital-statement-v3','capital-statement-v4'].includes(d.schema)?'<details><summary>原始事实与映射 · '+Object.keys(d.facts).length+' 项</summary>'+d.mappings.map(mapping=>{const fact=d.facts[mapping.fact_id]||{};return '<p><strong>'+esc(fact.label||mapping.fact_id)+'</strong> 来源 '+(fact.source_amount===null||fact.source_amount===undefined?'缺失':fmt(fact.source_amount))+' → '+esc(mapping.field)+(mapping.display_field?' / '+esc(mapping.display_field):'')+' '+(mapping.amount===null||mapping.amount===undefined?'缺失':fmt(mapping.amount))+' · '+esc(fact.source_id||'')+' p.'+esc(fact.page||'')+(fact.calculation?' · '+esc(fact.calculation):'')+' · '+esc(mapping.rationale||'')+'</p>';}).join('')+'</details>':'';
-   return '<details><summary>'+y+' 年</summary>'+d.sources.map(s=>'<p>'+esc(s.basis)+' · '+esc(s.url)+'</p>').join('')+facts+Object.entries(d.records).map(([key,r])=>'<p><strong>'+esc(key)+'</strong> '+esc(r.status)+' · '+esc(r.basis)+'</p>').join('')+(d.validation?.warnings||[]).map(w=>'<p>'+esc(w.code)+' · '+esc(w.check||w.field||'')+(w.difference!==undefined?' · 差额 '+fmt(w.difference):w.amount!==undefined?' · 差额 '+fmt(w.amount):'')+'</p>').join('')+'</details>';}).join('')+'</details>';
+   const facts=['capital-statement-v2','capital-statement-v3','capital-statement-v4','capital-statement-v5'].includes(d.schema)?'<details><summary>原始事实与映射 · '+Object.keys(d.facts).length+' 项</summary>'+d.mappings.map(mapping=>{const fact=d.facts[mapping.fact_id]||{};return '<p><strong>'+esc(fact.label||mapping.fact_id)+'</strong> 来源 '+(fact.source_amount===null||fact.source_amount===undefined?'缺失':fmt(fact.source_amount))+' → '+esc(mapping.field)+(mapping.display_field?' / '+esc(mapping.display_field):'')+' '+(mapping.amount===null||mapping.amount===undefined?'缺失':fmt(mapping.amount))+' · '+esc(fact.source_id||'')+' p.'+esc(fact.page||'')+(fact.calculation?' · '+esc(fact.calculation):'')+' · '+esc(mapping.rationale||'')+'</p>';}).join('')+'</details>':'';
+   return '<details><summary>'+y+'</summary>'+d.sources.map(s=>'<p>'+esc(s.basis)+' · '+esc(s.url)+'</p>').join('')+facts+Object.entries(d.records).map(([key,r])=>'<p><strong>'+esc(key)+'</strong> '+esc(r.status)+' · '+esc(r.basis)+'</p>').join('')+(d.validation?.warnings||[]).map(w=>'<p>'+esc(w.code)+' · '+esc(w.check||w.field||'')+(w.difference!==undefined?' · 差额 '+fmt(w.difference):w.amount!==undefined?' · 差额 '+fmt(w.amount):'')+'</p>').join('')+'</details>';}).join('')+'</details>';
 }
  function render(m,state={}){return '<div class="simple-view multi-fold">'+(m.series?protocolAssets(m,state.assets,state.details||{},state.components||{}):assetTable(m.assets,m.groups,m.years,state.assets,state.details||{},m.currency))+activityTable(m,state.capital,state.details||{})+(m.series?anomalyTable(m)+evidence(m):'')+'</div>';}
- function toggle(state,table,year){if(!['assets','capital'].includes(table)||!Number.isInteger(year)||year<1900||year>2200)return state;const selected=expanded(state[table]);selected.has(year)?selected.delete(year):selected.add(year);const years=[...selected].sort();return {...state,assets:years,capital:[...years]};}
+ function toggle(state,table,periodEnd){if(!['assets','capital'].includes(table)||!(Number.isInteger(periodEnd)||/^\d{4}-\d{2}-\d{2}$/.test(periodEnd)))return state;const selected=expanded(state[table]);selected.has(periodEnd)?selected.delete(periodEnd):selected.add(periodEnd);const periods=[...selected].sort();return {...state,assets:periods,capital:[...periods]};}
  function toggleField(state,key){return {...state,details:{...state.details,[key]:!state.details?.[key]}};}
  function toggleComponent(state,key){return {...state,components:{...state.components,[key]:!state.components?.[key]}};}
  if(typeof module!=='undefined')module.exports={render,toggle,union,toggleField,toggleComponent,fieldId};else globalThis.TanMultiView={render,toggle,toggleField,toggleComponent};

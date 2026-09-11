@@ -74,7 +74,7 @@ Published pages:
 
 ## 资本表发布
 
-`/capital/`是正式入口。每个通过验收的年度JSON独立导入，按内容哈希保存；公司清单和年度清单只切换引用，不覆盖历史文件。当前页面共享`/value-line/tan-assets/`中已验收的紧凑型渲染器，支持多年余额比较、年度变动与资本活动联动展开。
+`/capital/`是正式入口。每个通过验收的报告期间JSON独立导入，按内容哈希保存；公司清单和期间清单只切换引用，不覆盖历史文件。当前页面共享`/value-line/tan-assets/`中已验收的紧凑型渲染器，按真实报告截止日比较余额，并支持期间变动与资本活动联动展开。
 
 ```bash
 python3 scripts/publish_capital_statement.py \
@@ -82,7 +82,7 @@ python3 scripts/publish_capital_statement.py \
   --run-id uvv-2026-finalizer-v4 --bundle-sha <sha256>
 ```
 
-导入器接纳`capital-statement-v1`至`v4`；v3/v4必须带事实账本、映射和`capital-display-v1`显示注册表，且每年扩展字段不超过5个。未来年度使用同一命令增量发布，即会出现在`/capital/`目录和对应公司页。
+导入器接纳带明确`period_start/period_end`的v3、v4历史结果和当前`capital-statement-v5`；必须带事实账本、映射和`capital-display-v1`显示注册表，且每期扩展字段不超过5个。未来期间使用同一命令增量发布，即会出现在`/capital/`目录和对应公司页。
 
 ## 公司资料页原型
 

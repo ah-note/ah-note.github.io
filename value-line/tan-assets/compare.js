@@ -22,7 +22,7 @@
   const draw=()=>{
    document.getElementById('filing-currency').textContent='合并口径 · '+m.currency+' 亿元';
    root.innerHTML=render(m,state);
-   document.getElementById('view-help').textContent='点击年份展开或收起当年明细，两表联动；可同时展开多年。净资产形成与资金收付是不同视角，不能相加。';
+   document.getElementById('view-help').textContent='点击报告截止日展开或收起该期明细，两表联动；可同时展开多期。净资产形成与资金收付是不同视角，不能相加。';
   };
   draw();
   root.addEventListener('click',event=>{
@@ -38,7 +38,7 @@
     return;
    }
    if(!b.dataset.table)return;
-   const table=b.dataset.table,selectedYear=Number(b.dataset.year);
+   const table=b.dataset.table,selectedYear=/^\d{4}$/.test(b.dataset.year)?Number(b.dataset.year):b.dataset.year;
    state=TanMultiView.toggle(state,table,selectedYear);
    draw();
    root.querySelector('button[data-table="'+table+'"][data-year="'+selectedYear+'"]')?.focus({preventScroll:true});

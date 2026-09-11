@@ -1,15 +1,18 @@
 {
+  "schema": "capital-period-manifest-v1",
   "company": "UVV",
   "currency": "USD",
-  "years": {
-    "2026": {
-      "file": "annual/2026.6238ea4cda52f5e7.json",
-      "sha256": "6238ea4cda52f5e74db2b44cc2e998e606893aae00acd6e93140ae3a3bc58e76",
-      "source_run": "uvv-2026-official-text-v1",
+  "periods": {
+    "2026-03-31": {
+      "period_start": "2025-04-01",
+      "period_end": "2026-03-31",
+      "file": "annual/2026-03-31.2b523dc29d055972.json",
+      "sha256": "2b523dc29d055972b8691704d2fb4caed8ee252e3cb43fc658f162038f7b248d",
+      "source_run": "uvv-2026-finalizer-v4",
       "bundle_sha256": "96038c40"
     }
   },
   "files": [
-    "annual/2026.6238ea4cda52f5e7.json"
+    "annual/2026-03-31.2b523dc29d055972.json"
   ]
 }
