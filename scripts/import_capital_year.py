@@ -14,7 +14,7 @@ def install(source, destination, company, run_id, bundle_sha):
     if doc.get("schema") in ("capital-statement-v3", "capital-statement-v4", "capital-statement-v5", "capital-statement-v6"):
         if not doc.get("facts") or not isinstance(doc.get("mappings"), list):
             raise ValueError("ANNUAL_FACT_LEDGER_REQUIRED")
-        if doc.get("display_registry", {}).get("version") != "capital-display-v1":
+        if doc.get("display_registry", {}).get("version") not in ("capital-display-v1", "capital-display-v2"):
             raise ValueError("ANNUAL_DISPLAY_REGISTRY_REQUIRED")
         if len(doc.get("custom_fields", [])) > 5:
             raise ValueError("ANNUAL_CUSTOM_FIELD_LIMIT")

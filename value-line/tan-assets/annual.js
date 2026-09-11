@@ -18,7 +18,7 @@
   for(const d of docs){
    if(!['capital-statement-v1','capital-statement-v2','capital-statement-v3','capital-statement-v4','capital-statement-v5','capital-statement-v6'].includes(d.schema)||d.company!==company||d.currency!==currency||!/^\d{4}-\d{2}-\d{2}$/.test(d.period_start)||!/^\d{4}-\d{2}-\d{2}$/.test(d.period_end)||d.period_start>=d.period_end||d.validation?.errors?.length)throw Error('报告期间、主体、币种或校验状态不一致');
    if(['capital-statement-v2','capital-statement-v3','capital-statement-v4','capital-statement-v5','capital-statement-v6'].includes(d.schema)&&(!d.facts||!Array.isArray(d.mappings)))throw Error('报告期间事实账本缺失');
-   if(registered&&(d.schema!==registered.schema||d.display_registry?.version!=='capital-display-v1'||JSON.stringify(d.display_registry)!==JSON.stringify(registry)))throw Error('网页字段注册表不一致');
+   if(registered&&(d.schema!==registered.schema||!['capital-display-v1','capital-display-v2'].includes(d.display_registry?.version)||JSON.stringify(d.display_registry)!==JSON.stringify(registry)))throw Error('网页字段注册表不一致');
   }
   const definitions=registeredGroups(registry),annual={},series={},boundaryWarnings=[];
   for(const d of docs){
