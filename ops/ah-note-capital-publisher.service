@@ -1,0 +1,18 @@
+[Unit]
+Description=AH Note capital statement publication queue
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/root/aicode/ah-note.github.io
+Environment=PYTHONUNBUFFERED=1
+Environment=PYTHONDONTWRITEBYTECODE=1
+ExecStart=/usr/bin/python3 scripts/capital_publication_worker.py serve --queue-root /root/aicode/capital_statement_publication_queue --site-root /root/aicode/ah-note.github.io --poll-seconds 5
+Restart=on-failure
+RestartSec=15
+KillMode=control-group
+TimeoutStopSec=30
+
+[Install]
+WantedBy=multi-user.target
