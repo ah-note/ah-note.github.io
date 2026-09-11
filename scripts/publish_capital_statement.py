@@ -14,16 +14,16 @@ def company_page(name: str, code: str) -> str:
     return f'''<!doctype html>
 <html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{title} · 资本表 | AH Note</title>
-<link rel="stylesheet" href="/assets/styles.css?v=20260911-capital-2">
-<link rel="stylesheet" href="/value-line/tan-assets/compare.css?v=20260911-capital-2">
-<link rel="stylesheet" href="/value-line/tan-assets/simple.css?v=20260911-capital-2">
+<link rel="stylesheet" href="/assets/styles.css?v=20260911-capital-3">
+<link rel="stylesheet" href="/value-line/tan-assets/compare.css?v=20260911-capital-3">
+<link rel="stylesheet" href="/value-line/tan-assets/simple.css?v=20260911-capital-3">
 <script>globalThis.TAN_COMPARE=true;</script>
-<script defer src="/value-line/berun-assets/fields.js?v=20260911-capital-2"></script>
-<script defer src="/value-line/tan-assets/mapping.js?v=20260911-capital-2"></script>
-<script defer src="/value-line/tan-assets/activities.js?v=20260911-capital-2"></script>
-<script defer src="/value-line/tan-assets/annual.js?v=20260911-capital-2"></script>
-<script defer src="/value-line/tan-assets/multi.js?v=20260911-capital-2"></script>
-<script defer src="/value-line/tan-assets/compare.js?v=20260911-capital-2"></script></head>
+<script defer src="/value-line/berun-assets/fields.js?v=20260911-capital-3"></script>
+<script defer src="/value-line/tan-assets/mapping.js?v=20260911-capital-3"></script>
+<script defer src="/value-line/tan-assets/activities.js?v=20260911-capital-3"></script>
+<script defer src="/value-line/tan-assets/annual.js?v=20260911-capital-3"></script>
+<script defer src="/value-line/tan-assets/multi.js?v=20260911-capital-3"></script>
+<script defer src="/value-line/tan-assets/compare.js?v=20260911-capital-3"></script></head>
 <body><nav class="site-nav"><a href="/">股票</a><a href="/reports/">报告</a><a href="/research/">深度研报</a><a href="/industries/">行业</a><a class="active" href="/capital/">资本表</a><a href="/reference/">参考资料</a></nav>
 <main><header><strong>{title} <small>{safe_code}</small></strong><span id="filing-currency">合并口径</span></header>
 <div id="comparison"></div><p id="compare-status" role="status"></p>

@@ -132,3 +132,11 @@ test('actual Universal v4 final renders through the shared capital view',()=>{
  assert.equal(m.years[0],'2026-03-31');
  assert.match(html,/资本表 <small>期末余额 · USD 亿元/);assert.match(html,/重要异常与一次性事项/);
 });
+test('mixed display registries select the latest coherent reporting cohort',()=>{
+ const root=path.join(__dirname,'../capital/600585.SH'),manifest=JSON.parse(fs.readFileSync(path.join(root,'annual-manifest.json')));
+ const docs=manifest.files.map(file=>JSON.parse(fs.readFileSync(path.join(root,file)))),m=model(docs);
+ assert.equal(m.displayRegistry.version,'capital-display-v2');
+ assert.deepEqual(m.years,['2024-12-31','2025-12-31']);
+ assert.equal(m.excludedPeriods.length,8);
+ assert.doesNotThrow(()=>view.render(m));
+});

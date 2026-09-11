@@ -24,7 +24,7 @@ test('real annual manifest loads and linked year/detail events work in page runt
  const context=vm.createContext({fetch:async file=>({ok:true,json:async()=>JSON.parse(fs.readFileSync(path.join(root,file)))}),document:{getElementById:element}});
  for(const file of ['../berun-assets/fields.js','annual.js','multi.js','compare.js'])vm.runInContext(fs.readFileSync(path.join(root,file),'utf8'),context);
  await new Promise(r=>setImmediate(r));
- assert.ok(!nodes['compare-status']);assert.equal(nodes['legacy-notes'].hidden,true);
+ assert.equal(nodes['compare-status'].textContent,'');assert.equal(nodes['legacy-notes'].hidden,true);
  const click=dataset=>handlers['comparison:click']({target:{closest:()=>({dataset})}});
  click({table:'assets',year:'2025-12-31'});
  assert.match(nodes.comparison.innerHTML,/<th colspan="2">截至 2025-12-31 的期间变动/);

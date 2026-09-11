@@ -22,6 +22,7 @@
   const draw=()=>{
    document.getElementById('filing-currency').textContent='合并口径 · '+m.currency+' 亿元';
    root.innerHTML=render(m,state);
+   document.getElementById('compare-status').textContent=m.excludedPeriods?.length?'已优先展示最新字段规范；'+m.excludedPeriods.length+'个旧口径期间暂未混合展示。':'';
    document.getElementById('view-help').textContent='点击报告截止日展开或收起该期明细，两表联动；可同时展开多期。净资产形成与资金收付是不同视角，不能相加。';
   };
   draw();
