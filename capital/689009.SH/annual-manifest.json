@@ -20,10 +20,20 @@
       "sha256": "2670c12fa9ea89f4e33ee9c4d0d029dd2fdeaff434711078a3c1ae45e7552fb3",
       "source_run": "ninebot-2025-12-31-v6-migrate",
       "bundle_sha256": "deccec4a"
+    },
+    "2026-06-30": {
+      "period_start": "2026-01-01",
+      "period_end": "2026-06-30",
+      "report_type": "half_year",
+      "file": "annual/2026-06-30.cabc405ba1193e51.json",
+      "sha256": "cabc405ba1193e5198b8a49cbf640c2293c8e1b21eec7f1445dcefc92a4c8a0c",
+      "source_run": "ninebot-2026h1-v6",
+      "bundle_sha256": "c55c9202"
     }
   },
   "files": [
     "annual/2024-12-31.e05f4968aeac7a8d.json",
-    "annual/2025-12-31.2670c12fa9ea89f4.json"
+    "annual/2025-12-31.2670c12fa9ea89f4.json",
+    "annual/2026-06-30.cabc405ba1193e51.json"
   ]
 }
