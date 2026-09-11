@@ -1,0 +1,19 @@
+{
+  "schema": "capital-period-manifest-v1",
+  "company": "600585.SH",
+  "currency": "CNY",
+  "periods": {
+    "2017-12-31": {
+      "period_start": "2017-01-01",
+      "period_end": "2017-12-31",
+      "report_type": "annual",
+      "file": "annual/2017-12-31.52190b1e5bde3fc8.json",
+      "sha256": "52190b1e5bde3fc8754d6c6c1706ae4b2abe89cb9234b4419d62db2e66ce6821",
+      "source_run": "/root/aicode/runs/capital_statement/capital-600585-SH-2017-12-31-a1-2017-12-31-finalize",
+      "bundle_sha256": "8a4846d31d92bd7e5c07a5a5b3d07de8d9d5d571"
+    }
+  },
+  "files": [
+    "annual/2017-12-31.52190b1e5bde3fc8.json"
+  ]
+}
