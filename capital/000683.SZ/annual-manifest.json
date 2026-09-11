@@ -6,22 +6,24 @@
     "2024-12-31": {
       "period_start": "2024-01-01",
       "period_end": "2024-12-31",
-      "file": "annual/2024-12-31.dd22cde55a1fc1d8.json",
-      "sha256": "dd22cde55a1fc1d84a8025ee98064de4d171a66c64979a2503abd34953cda4a8",
-      "source_run": "berun-2024-2025-v5-2024-12-31-finalize",
-      "bundle_sha256": "dc65d88a"
+      "report_type": "annual",
+      "file": "annual/2024-12-31.774dae62a5039e06.json",
+      "sha256": "774dae62a5039e06a78c54950cbd54d212d750dd29d73bc9b04008ab61495fed",
+      "source_run": "berun-2024-12-31-v6-migrate",
+      "bundle_sha256": "deccec4a"
     },
     "2025-12-31": {
       "period_start": "2025-01-01",
       "period_end": "2025-12-31",
-      "file": "annual/2025-12-31.82239f1c42c79771.json",
-      "sha256": "82239f1c42c79771b82c56921c3fee83e1a7b8ba72f46e59e4e8da409b707c7a",
-      "source_run": "berun-2024-2025-v5-2025-12-31-finalize",
-      "bundle_sha256": "dc65d88a"
+      "report_type": "annual",
+      "file": "annual/2025-12-31.0fb87529cfeea8bc.json",
+      "sha256": "0fb87529cfeea8bc2ec0b3a8e6d04c7a3b71c307af5d706110c59b00fc6593a1",
+      "source_run": "berun-2025-12-31-v6-migrate",
+      "bundle_sha256": "deccec4a"
     }
   },
   "files": [
-    "annual/2024-12-31.dd22cde55a1fc1d8.json",
-    "annual/2025-12-31.82239f1c42c79771.json"
+    "annual/2024-12-31.774dae62a5039e06.json",
+    "annual/2025-12-31.0fb87529cfeea8bc.json"
   ]
 }

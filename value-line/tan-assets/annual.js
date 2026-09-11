@@ -14,10 +14,10 @@
   if(!documents.length)throw Error('没有报告期间数据');
   const docs=[...documents].sort((a,b)=>a.period_end.localeCompare(b.period_end)),years=docs.map(d=>d.period_end),company=docs[0].company,currency=docs[0].currency;
   if(new Set(years).size!==years.length)throw Error('报告截止日重复');
-  const registered=docs.find(d=>['capital-statement-v3','capital-statement-v4','capital-statement-v5'].includes(d.schema)),registry=registered?.display_registry||null;
+  const registered=docs.find(d=>['capital-statement-v3','capital-statement-v4','capital-statement-v5','capital-statement-v6'].includes(d.schema)),registry=registered?.display_registry||null;
   for(const d of docs){
-   if(!['capital-statement-v1','capital-statement-v2','capital-statement-v3','capital-statement-v4','capital-statement-v5'].includes(d.schema)||d.company!==company||d.currency!==currency||!/^\d{4}-\d{2}-\d{2}$/.test(d.period_start)||!/^\d{4}-\d{2}-\d{2}$/.test(d.period_end)||d.period_start>=d.period_end||d.validation?.errors?.length)throw Error('报告期间、主体、币种或校验状态不一致');
-   if(['capital-statement-v2','capital-statement-v3','capital-statement-v4','capital-statement-v5'].includes(d.schema)&&(!d.facts||!Array.isArray(d.mappings)))throw Error('报告期间事实账本缺失');
+   if(!['capital-statement-v1','capital-statement-v2','capital-statement-v3','capital-statement-v4','capital-statement-v5','capital-statement-v6'].includes(d.schema)||d.company!==company||d.currency!==currency||!/^\d{4}-\d{2}-\d{2}$/.test(d.period_start)||!/^\d{4}-\d{2}-\d{2}$/.test(d.period_end)||d.period_start>=d.period_end||d.validation?.errors?.length)throw Error('报告期间、主体、币种或校验状态不一致');
+   if(['capital-statement-v2','capital-statement-v3','capital-statement-v4','capital-statement-v5','capital-statement-v6'].includes(d.schema)&&(!d.facts||!Array.isArray(d.mappings)))throw Error('报告期间事实账本缺失');
    if(registered&&(d.schema!==registered.schema||d.display_registry?.version!=='capital-display-v1'||JSON.stringify(d.display_registry)!==JSON.stringify(registry)))throw Error('网页字段注册表不一致');
   }
   const definitions=registeredGroups(registry),annual={},series={},boundaryWarnings=[];

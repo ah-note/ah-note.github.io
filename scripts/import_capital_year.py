@@ -9,9 +9,9 @@ from pathlib import Path
 def install(source, destination, company, run_id, bundle_sha):
     raw = Path(source).read_bytes()
     doc = json.loads(raw)
-    if doc.get("schema") not in ("capital-statement-v3", "capital-statement-v4", "capital-statement-v5") or doc.get("company") != company:
+    if doc.get("schema") not in ("capital-statement-v3", "capital-statement-v4", "capital-statement-v5", "capital-statement-v6") or doc.get("company") != company:
         raise ValueError("ANNUAL_IDENTITY_OR_SCHEMA_MISMATCH")
-    if doc.get("schema") in ("capital-statement-v3", "capital-statement-v4", "capital-statement-v5"):
+    if doc.get("schema") in ("capital-statement-v3", "capital-statement-v4", "capital-statement-v5", "capital-statement-v6"):
         if not doc.get("facts") or not isinstance(doc.get("mappings"), list):
             raise ValueError("ANNUAL_FACT_LEDGER_REQUIRED")
         if doc.get("display_registry", {}).get("version") != "capital-display-v1":
@@ -40,6 +40,7 @@ def install(source, destination, company, run_id, bundle_sha):
         raise ValueError("CONTENT_ADDRESSED_FILE_CONFLICT")
     target.write_bytes(raw)
     manifest["periods"][period_end] = {"period_start": period_start, "period_end": period_end,
+        "report_type": doc.get("report_type", "annual"),
         "file": relative, "sha256": digest, "source_run": run_id, "bundle_sha256": bundle_sha}
     manifest["files"] = [value["file"] for _, value in sorted(manifest["periods"].items())]
     manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n")

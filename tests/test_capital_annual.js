@@ -25,6 +25,17 @@ function componentFixture(year){
  d.records['assets.working.closing']={amount:closing,status:'derived',basis:'annual',details:[{label:'Inventory',amount:closing,source_amount:closing}]};
  return d;
 }
+function fixtureV6(year){
+ const d=fixtureV2(year),opening=80000000,closing=100000000;
+ d.schema='capital-statement-v6';d.draft_schema='capital-statement-draft-v6';d.report_type='annual';
+ const root=path.join(__dirname,'../value-line/tan-assets'),manifest=JSON.parse(fs.readFileSync(path.join(root,'annual-manifest.json')));
+ d.display_registry=JSON.parse(fs.readFileSync(path.join(root,manifest.files[0]))).display_registry;
+ d.records['assets.working.opening']={amount:opening,status:'disclosed',basis:'annual',details:[{display_field:'inventory',label:'存货',amount:opening}]};
+ d.records['assets.working.closing']={amount:closing,status:'disclosed',basis:'annual',details:[{display_field:'inventory',label:'存货',amount:closing}]};
+ d.movements={working:[{category:'capacity',amount:5000000}]};
+ d.component_changes={working:{opening,closing,change:20000000,components:[{display_field:'inventory',label:'存货',opening,closing,change:20000000}],causal_total:5000000,unattributed_amount:15000000}};
+ return d;
+}
 test('one-year and five-year independent documents preserve all standard fields',()=>{
  for(const years of [[2025],[2021,2022,2023,2024,2025]]){
   const m=model(years.map(fixture)),h=view.render(m);
@@ -95,6 +106,12 @@ test('asset components expand as aligned rows in the parent table',()=>{
  const row=html.match(/<tr class="asset-component">([\s\S]*?)<\/tr>/)[1];
  assert.equal((row.match(/<(?:th|td)\b/g)||[]).length,6);
  assert.doesNotMatch(view.render(m,view.toggleComponent(state,id)),/class="asset-component"/);
+});
+test('v6 year expansion shows exact component changes apart from economic causes',()=>{
+ const d=fixtureV6(2025),html=view.render(model([d]),{assets:[end(2025)],capital:[end(2025)]});
+ assert.match(html,/存货/);assert.match(html,/经济原因 · 经营投入与退出/);
+ assert.match(html,/经济原因 · 其他未披露原因/);
+ assert.match(html,/变动合计<\/td><td class="amount">0\.20<\/td>/);
 });
 test('actual v3 years render only registered Chinese table fields in filing currency',()=>{
  const root=path.join(__dirname,'../value-line/tan-assets'),manifest=JSON.parse(fs.readFileSync(path.join(root,'annual-manifest.json')));

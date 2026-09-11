@@ -37,10 +37,10 @@ class ImportTest(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, "VALIDATION"):
                 module.install(source, root / "site", "TEST", "run3", "digest3")
 
-    def test_v3_v4_v5_share_display_contract_and_use_period_end_filename(self):
+    def test_v3_to_v6_share_display_contract_and_use_period_end_filename(self):
         with tempfile.TemporaryDirectory() as tmp:
             root, source = Path(tmp), Path(tmp) / "input.json"
-            for schema in ["capital-statement-v3", "capital-statement-v4", "capital-statement-v5"]:
+            for schema in ["capital-statement-v3", "capital-statement-v4", "capital-statement-v5", "capital-statement-v6"]:
                 source.write_text(json.dumps(document(schema)))
                 relative = module.install(source, root / schema, "TEST", "run", "digest")
                 self.assertTrue(relative.startswith("annual/2025-12-31."))

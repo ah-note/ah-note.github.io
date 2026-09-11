@@ -114,13 +114,25 @@
    h+='<tr class="group"><th colspan="'+count+'">'+esc(title)+'</th></tr>';
    for(const [key,label] of fields){
     const byYear=Object.fromEntries(years.map(y=>{
-     const entries=m.series[y].movements[key];if(!entries)return [y,null];
+     const doc=m.series[y];
+     if(doc.schema==='capital-statement-v6'){
+      const change=doc.component_changes?.[key];if(!change)return [y,null];
+      const components=(change.components||[]).map(e=>({code:'component:'+e.display_field,label:e.label,amount:e.change,details:[]}));
+      const causes=doc.movements?.[key]||[],cats=union([causes.map(e=>e.category)],Object.keys(dictionary.movementGroups));
+      const causeRows=cats.map(code=>{const parts=causes.filter(e=>e.category===code);return {code:'cause:'+code,label:'经济原因 · '+(dictionary.movementGroups[code]||code),amount:sum(parts.map(e=>e.amount)),details:[]};});
+      if(Number.isFinite(change.unattributed_amount))causeRows.push({code:'cause:unattributed',label:'经济原因 · 其他未披露原因',amount:change.unattributed_amount,details:[]});
+      const rows=[...components,...causeRows];
+      return [y,rows.length?rows:[{code:'none',label:'无构成变化',amount:0,details:[]}]];
+     }
+     const entries=doc.movements[key];if(!entries)return [y,null];
      if(entries.length&&entries.every(e=>e.amount===0))return [y,[{code:'none',label:'无变动',amount:0,details:[]}]];
      const cats=union([entries.map(e=>e.category)],Object.keys(dictionary.movementGroups));
-     return [y,cats.map(code=>{const parts=entries.filter(e=>e.category===code);return {code,label:dictionary.movementGroups[code]||code,amount:sum(parts.map(e=>e.amount)),details:['capital-statement-v3','capital-statement-v4','capital-statement-v5'].includes(m.series[y].schema)?[]:parts.map(e=>({label:e.label,amount:e.amount,basis:e.basis}))};})];
+     return [y,cats.map(code=>{const parts=entries.filter(e=>e.category===code);return {code,label:dictionary.movementGroups[code]||code,amount:sum(parts.map(e=>e.amount)),details:[]};})];
     }));
-    const keys=union([...open].map(y=>(byYear[y]||[]).map(e=>e.code)),Object.keys(dictionary.movementGroups));
-    if(open.size&&!keys.length)keys.push('unresolved');
+    const componentOrder=(m.displayRegistry?.components?.['assets.'+key]||[]).map(([id])=>'component:'+id);
+    const causeOrder=Object.keys(dictionary.movementGroups).map(id=>'cause:'+id).concat('cause:unattributed');
+    const keys=union([...open].map(y=>(byYear[y]||[]).map(e=>e.code)),componentOrder.concat(causeOrder));
+    if(open.size&&!keys.length)keys.push('none');
     const plan=open.size?alignedRows(keys,k=>Object.fromEntries([...open].map(y=>[y,byYear[y]===null?null:byYear[y].find(e=>e.code===k)])),[...open],'assets:'+key,details):[];
     const rows=open.size?plan.length+1:1;
     const boundaries=[[first-1,first,'opening'],...years.map(y=>[y,y,'closing'])];
@@ -134,7 +146,7 @@
      h+='<tr class="'+(i===rows-1&&open.size?'subtotal':plan[i]?.kind==='child'?'aligned-subfield':'')+'">';
      if(!i)h+='<th class="item" rowspan="'+rows+'">'+componentLabel+'</th>'+amount(value(first,key,'opening'),rows,record(first,key,'opening')?.status,record(first,key,'opening')?.basis);
      for(const y of years){
-      if(open.has(y))h+=i===rows-1?'<td>变动合计</td>'+amount(byYear[y]===null?null:sum(byYear[y].map(e=>e.amount))):entryCells(plan[i],y);
+      if(open.has(y))h+=i===rows-1?'<td>变动合计</td>'+amount(value(y,key,'opening')===null||value(y,key,'closing')===null?null:value(y,key,'closing')-value(y,key,'opening')):entryCells(plan[i],y);
       if(!i)h+=amount(value(y,key,'closing'),rows,record(y,key,'closing')?.status,record(y,key,'closing')?.basis);
      }h+='</tr>';
     }
@@ -168,7 +180,7 @@
  }
 function evidence(m){
   return '<details class="page-notes"><summary>口径、来源与数据限制</summary>'+m.years.map(y=>{const d=m.series[y];
-   const facts=['capital-statement-v2','capital-statement-v3','capital-statement-v4','capital-statement-v5'].includes(d.schema)?'<details><summary>原始事实与映射 · '+Object.keys(d.facts).length+' 项</summary>'+d.mappings.map(mapping=>{const fact=d.facts[mapping.fact_id]||{};return '<p><strong>'+esc(fact.label||mapping.fact_id)+'</strong> 来源 '+(fact.source_amount===null||fact.source_amount===undefined?'缺失':fmt(fact.source_amount))+' → '+esc(mapping.field)+(mapping.display_field?' / '+esc(mapping.display_field):'')+' '+(mapping.amount===null||mapping.amount===undefined?'缺失':fmt(mapping.amount))+' · '+esc(fact.source_id||'')+' p.'+esc(fact.page||'')+(fact.calculation?' · '+esc(fact.calculation):'')+' · '+esc(mapping.rationale||'')+'</p>';}).join('')+'</details>':'';
+   const facts=['capital-statement-v2','capital-statement-v3','capital-statement-v4','capital-statement-v5','capital-statement-v6'].includes(d.schema)?'<details><summary>原始事实与映射 · '+Object.keys(d.facts).length+' 项</summary>'+d.mappings.map(mapping=>{const fact=d.facts[mapping.fact_id]||{};return '<p><strong>'+esc(fact.label||mapping.fact_id)+'</strong> 来源 '+(fact.source_amount===null||fact.source_amount===undefined?'缺失':fmt(fact.source_amount))+' → '+esc(mapping.field)+(mapping.display_field?' / '+esc(mapping.display_field):'')+' '+(mapping.amount===null||mapping.amount===undefined?'缺失':fmt(mapping.amount))+' · '+esc(fact.source_id||'')+' p.'+esc(fact.page||'')+(fact.calculation?' · '+esc(fact.calculation):'')+' · '+esc(mapping.rationale||'')+'</p>';}).join('')+'</details>':'';
    return '<details><summary>'+y+'</summary>'+d.sources.map(s=>'<p>'+esc(s.basis)+' · '+esc(s.url)+'</p>').join('')+facts+Object.entries(d.records).map(([key,r])=>'<p><strong>'+esc(key)+'</strong> '+esc(r.status)+' · '+esc(r.basis)+'</p>').join('')+(d.validation?.warnings||[]).map(w=>'<p>'+esc(w.code)+' · '+esc(w.check||w.field||'')+(w.difference!==undefined?' · 差额 '+fmt(w.difference):w.amount!==undefined?' · 差额 '+fmt(w.amount):'')+'</p>').join('')+'</details>';}).join('')+'</details>';
 }
  function render(m,state={}){return '<div class="simple-view multi-fold">'+(m.series?protocolAssets(m,state.assets,state.details||{},state.components||{}):assetTable(m.assets,m.groups,m.years,state.assets,state.details||{},m.currency))+activityTable(m,state.capital,state.details||{})+(m.series?anomalyTable(m)+evidence(m):'')+'</div>';}
