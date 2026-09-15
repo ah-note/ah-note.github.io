@@ -16,4 +16,4 @@
 
 ## Open Questions And Risks
 
-提交后部署并验证三家公司HTTP页面与引用JSON。历史样本不视为新协议Agent运行。
+实现ff21a95d已部署，两个发布服务及分析服务active。三家公司线上HTTP页面与引用JSON逐一验证通过，本地前端函数实际渲染三份数据无异常。历史样本不视为新协议Agent运行。
