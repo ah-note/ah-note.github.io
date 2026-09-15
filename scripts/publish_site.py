@@ -17,6 +17,7 @@ from industry_catalog import validate_industry_snapshot
 
 
 PUBLISH_PATHS = [
+    "capital/index.html",
     "assets/styles.css",
     "assets/industries.js",
     "data",

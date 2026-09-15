@@ -4,7 +4,7 @@ Public stock research notes website for multi-market company reports.
 
 ## 当前公司研究：资产表与经营表
 
-`/research/`是正式公司研究入口。已迁移公司展示一套资产表和经营表，直接读取分析Agent的reader_view；尚未迁移的公司继续进入原报告。旧`/reports/<code>/`、历史文章和`/capital/`地址保留。
+`/capital/`是唯一的“资本表”导航入口，每家公司只列一次，按“双表 → 深度研报 → 普通报告”选择可用内容。已迁移公司展示一套资产表和经营表，直接读取分析Agent的reader_view；深度研报沿用原研究目录的当前协议研究及正式文章。`/research/`保留为同一目录的兼容地址，旧公司页面和历史文章链接继续可用。
 
 导入新报告：
 
@@ -80,10 +80,10 @@ Published pages:
 - `/` - ranking tables
 - `/reports/` - report list
 - `/reports/<code>/` - full report
-- `/research/` - latest approved company research feed
+- `/research/` - compatibility alias of the capital directory
 - `/research/<code>/<analysis-version>/` - immutable formal research article
 - `/industries/` - A/H/US company search and hierarchical industry browser
-- `/capital/` - validated capital statements and annual capital activity tables
+- `/capital/` - unified company directory, preferring two tables, then research, then reports
 - `/reference/` - calculation and field reference
 
 ## 资本表发布
@@ -96,7 +96,7 @@ python3 scripts/publish_capital_statement.py \
   --run-id uvv-2026-finalizer-v4 --bundle-sha <sha256>
 ```
 
-导入器接纳带明确`period_start/period_end`的v3、v4历史结果和当前`capital-statement-v5`；必须带事实账本、映射和`capital-display-v1`显示注册表，且每期扩展字段不超过5个。未来期间使用同一命令增量发布，即会出现在`/capital/`目录和对应公司页。
+历史导入器接纳带明确`period_start/period_end`的v3、v4结果和`capital-statement-v5`；必须带事实账本、映射和`capital-display-v1`显示注册表，且每期扩展字段不超过5个。增量发布更新对应公司页和历史目录JSON；公共`/capital/`目录始终遵循上面的统一选择规则。
 
 ## 公司资料页原型
 

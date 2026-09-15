@@ -645,28 +645,13 @@ def fmt(value: object, suffix: str = "") -> str:
 
 
 def nav(current: str, prefix: str = "") -> str:
-    items = [
-        ("股票", "index", ""),
-        ("报告", "reports", "reports/"),
-        ("公司研究", "research", "research/"),
-        ("行业", "industries", "industries/"),
-        ("资本表", "capital", "capital/"),
-        ("参考资料", "reference", "reference/"),
-    ]
-    links = []
-    for label, key, href in items:
-        cls = ' class="active"' if key == current else ""
-        links.append(f'<a{cls} href="{prefix}{href}">{html.escape(label)}</a>')
-    return '<nav class="site-nav">' + "".join(links) + "</nav>"
+    from navigation import nav as unified_nav
+    return unified_nav(current, prefix)
 
 
 def legacy_report_nav(prefix: str = "") -> str:
-    items = [("股票", ""), ("报告", "reports/"), ("行业", "industries/"), ("资本表", "capital/"), ("参考资料", "reference/")]
-    links = []
-    for label, href in items:
-        cls = ' class="active"' if label == "报告" else ""
-        links.append(f'<a{cls} href="{prefix}{href}">{html.escape(label)}</a>')
-    return '<nav class="site-nav">' + "".join(links) + "</nav>"
+    from navigation import nav as unified_nav
+    return unified_nav('capital', prefix)
 
 
 def sort_value(stock: dict, key: str) -> float | None:
@@ -924,7 +909,7 @@ def render_research_index(reports: list[ResearchFeedEntry]) -> str:
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>研究 - AH Note</title>
+  <title>资本表 - AH Note</title>
   <meta name="description" content="从财报和公开信息还原公司的生意模式、经营情况与价值。">
   <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="../assets/styles.css?v={ASSET_VERSION}">
@@ -1074,12 +1059,16 @@ def build_site(
     (REFERENCE_DIR / "index.html").write_text(render_reference(), encoding="utf-8")
     write_detail_pages(stocks, built_at, detail_codes)
     write_research_pages(research_feed, formal_reports)
+    from two_table_reports import refresh_index
+    refresh_index(ROOT)
     industry_counts = write_industry_site(
         root=ROOT,
         stock_analysis_root=stock_analysis_root,
         asset_version=ASSET_VERSION,
         snapshot=industry_snapshot,
     )
+    from navigation import refresh
+    refresh(ROOT)
     print(
         f"generated {len(stocks)} stocks, {len(research_feed)} research entries "
         f"and {industry_counts['issuer_count']} industry issuers at {built_at}"

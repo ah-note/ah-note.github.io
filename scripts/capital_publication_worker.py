@@ -59,7 +59,7 @@ def publish(item: dict, site_root: Path) -> dict:
                     command = [sys.executable, str(worktree / 'scripts/two_table_reports.py'),
                                '--input', str(source), '--site-root', str(worktree),
                                '--analysis-root', item['analysis_root']]
-                    paths = ['research', 'data/research.json', 'data/two-table']
+                    paths = ['research', 'capital/index.html', 'data/research.json', 'data/two-table']
                 else:
                     command = [
                     sys.executable, str(worktree / "scripts/publish_capital_statement.py"),
@@ -67,7 +67,7 @@ def publish(item: dict, site_root: Path) -> dict:
                     "--name", item["name"], "--code", item["company"],
                     "--run-id", item["source_run"], "--bundle-sha", item["bundle_revision"],
                     ]
-                    paths = ['capital']
+                    paths = ['capital', 'research/index.html', 'data/research.json']
                 subprocess.run(command, cwd=worktree, check=True)
                 run_git(site_root, ["add", "--all", "--", *paths], cwd=worktree)
                 changed = run_git(site_root, ["diff", "--cached", "--quiet"], cwd=worktree, check=False).returncode != 0

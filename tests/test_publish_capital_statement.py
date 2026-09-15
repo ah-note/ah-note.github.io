@@ -24,8 +24,9 @@ class CapitalPublishTest(unittest.TestCase):
                 "validation": {"status": "warning", "errors": []}}))
             relative = module.publish(source, root / "site", "环球烟草", "UVV", "run", "bundle")
             self.assertTrue((root / "site/capital/UVV" / relative).exists())
-            self.assertIn("环球烟草", (root / "site/capital/index.html").read_text())
-            self.assertIn("2026-03-31", (root / "site/capital/index.html").read_text())
+            self.assertIn("环球烟草", (root / "site/capital/catalog.json").read_text())
+            self.assertIn("2026-03-31", (root / "site/capital/catalog.json").read_text())
+            self.assertIn("资本表", (root / "site/capital/index.html").read_text())
             self.assertIn("资本表", (root / "site/capital/UVV/index.html").read_text())
 
 

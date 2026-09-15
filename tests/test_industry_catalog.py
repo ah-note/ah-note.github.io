@@ -222,7 +222,7 @@ class IndustryCatalogTest(unittest.TestCase):
         self.assertIn("输入公司名称或股票代码", page)
 
     def test_primary_navigation_and_publisher_keep_industry_browser(self) -> None:
-        self.assertIn('href="industries/"', nav("index"))
+        self.assertIn('href="/industries/"', nav("index"))
         self.assertIn("industries", PUBLISH_PATHS)
         self.assertIn("assets/industries.js", PUBLISH_PATHS)
 

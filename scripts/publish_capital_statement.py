@@ -6,6 +6,7 @@ import re
 from pathlib import Path
 
 from import_capital_year import install
+from navigation import nav
 
 
 def company_page(name: str, code: str) -> str:
@@ -24,7 +25,7 @@ def company_page(name: str, code: str) -> str:
 <script defer src="/value-line/tan-assets/annual.js?v=20260911-capital-3"></script>
 <script defer src="/value-line/tan-assets/multi.js?v=20260911-capital-3"></script>
 <script defer src="/value-line/tan-assets/compare.js?v=20260911-capital-3"></script></head>
-<body><nav class="site-nav"><a href="/">股票</a><a href="/reports/">报告</a><a href="/research/">深度研报</a><a href="/industries/">行业</a><a class="active" href="/capital/">资本表</a><a href="/reference/">参考资料</a></nav>
+<body>{nav('capital')}
 <main><header><strong>{title} <small>{safe_code}</small></strong><span id="filing-currency">合并口径</span></header>
 <div id="comparison"></div><p id="compare-status" role="status"></p>
 <footer id="view-help">点击报告截止日展开或收起该期明细，两表联动。</footer>
@@ -42,7 +43,7 @@ def catalog_page(entries: list[dict]) -> str:
     return f'''<!doctype html>
 <html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>资本表 | AH Note</title><link rel="stylesheet" href="../assets/styles.css?v=20260910-capital-1"></head>
-<body><nav class="site-nav"><a href="../">股票</a><a href="../reports/">报告</a><a href="../research/">深度研报</a><a href="../industries/">行业</a><a class="active" href="">资本表</a><a href="../reference/">参考资料</a></nav>
+<body>{nav('capital')}
 <main class="report-list-page"><section class="report-list"><h1>资本表</h1><div class="table-wrap"><table><thead><tr><th>公司</th><th>代码</th><th>呈报货币</th><th>报告截止日</th></tr></thead><tbody>{rows}</tbody></table></div></section></main></body></html>
 '''
 
@@ -63,6 +64,8 @@ def publish(source: Path, site_root: Path, name: str, code: str, run_id: str, bu
     capital_root.mkdir(parents=True, exist_ok=True)
     catalog_path.write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     capital_root.joinpath("index.html").write_text(catalog_page(catalog["companies"]), encoding="utf-8")
+    from two_table_reports import refresh_index
+    refresh_index(site_root)
     return relative
 
 

@@ -11,6 +11,7 @@ import subprocess
 import sys
 
 from research_feed import ResearchFeedEntry, market_for
+from dataclasses import replace
 
 
 def public_view(value):
@@ -40,7 +41,26 @@ def merge_feed(feed, root):
         page_url=f"./{e['code']}/", public_url=f"research/{e['code']}/",
         title=f"{e['name']}（{e['code']}）", excerpt=e['coverage'],
         analysis_version='autonomous-two-table-v1', review_status='pass') for e in entries)
-    return sorted(combined, key=lambda e: e.published_at, reverse=True)
+    stocks_file = root / 'data/stocks.json'
+    if stocks_file.exists():
+        for stock in json.loads(stocks_file.read_text()).get('stocks', []):
+            code = stock['code']
+            if not re.fullmatch(r'[A-Za-z0-9._-]+', code) or not (root / 'reports' / code / 'index.html').is_file(): continue
+            combined.append(ResearchFeedEntry(
+                source='legacy_report', code=code, name=stock['name'], market=stock.get('market', ''),
+                report_period=stock.get('period', ''), published_at='', label='报告',
+                page_url=f'/reports/{code}/', public_url=f'reports/{code}/',
+                title=f"{stock['name']}（{code}）", excerpt=stock.get('business_summary') or '',
+                analysis_version=stock.get('schema_version', 'legacy'), review_status='published'))
+    rank = {'company_two_table': 3, 'current_company_research': 2, 'formal_report_registry': 2, 'legacy_report': 1}
+    selected = {}
+    for entry in combined:
+        old = selected.get(entry.code)
+        if old is None or (rank.get(entry.source, 1), entry.published_at, entry.report_period) > (rank.get(old.source, 1), old.published_at, old.report_period):
+            selected[entry.code] = entry
+    return sorted((replace(e, page_url='/' + e.public_url.lstrip('/'),
+                           label='双表' if e.source == 'company_two_table' else '深度研报' if rank.get(e.source) == 2 else '报告')
+                   for e in selected.values()), key=lambda e: (rank.get(e.source, 1), e.published_at, e.code), reverse=True)
 
 
 def refresh_index(root):
@@ -58,6 +78,8 @@ def refresh_index(root):
     file.write_text(json.dumps({'reports': [e.public_record() for e in merged]}, ensure_ascii=False, indent=2) + '\n')
     (root / 'research').mkdir(exist_ok=True)
     (root / 'research/index.html').write_text(render_research_index(merged))
+    (root / 'capital').mkdir(exist_ok=True)
+    (root / 'capital/index.html').write_text(render_research_index(merged))
 
 
 def install(source, root, analysis_root):
