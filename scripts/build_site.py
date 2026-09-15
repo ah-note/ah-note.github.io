@@ -648,7 +648,7 @@ def nav(current: str, prefix: str = "") -> str:
     items = [
         ("股票", "index", ""),
         ("报告", "reports", "reports/"),
-        ("深度研报", "research", "research/"),
+        ("公司研究", "research", "research/"),
         ("行业", "industries", "industries/"),
         ("资本表", "capital", "capital/"),
         ("参考资料", "reference", "reference/"),
@@ -1050,6 +1050,8 @@ def build_site(
     stocks = merge_published_stocks(load_published_stocks(), sourced_stocks)
     formal_reports = load_formal_reports(stock_report_root)
     research_feed = build_research_feed(documents, formal_reports)
+    from two_table_reports import merge_feed
+    research_feed = merge_feed(research_feed, ROOT)
     public_stocks = []
     for stock in stocks:
         public_stock = dict(stock)

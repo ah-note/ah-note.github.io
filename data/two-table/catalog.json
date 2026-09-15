@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "companies": [
+    {
+      "code": "PDD",
+      "name": "拼多多集团",
+      "report_end": "2026-06-30",
+      "completed_at": "2026-09-15T14:35:22.095400+08:00",
+      "source_sha256": "0387802c353a6deb19b769cf79dd7a5f077e7eda216df0a7f30028e89d895e8e",
+      "view_sha256": "ef9fa96508acfbb7f858b06f571e30bc3e273fd00c803865506d939d520aac96",
+      "coverage": "5个完整年度；最新累计披露截至2026-06-30",
+      "version_url": "research/PDD/versions/0387802c353a6deb19b769cf79dd7a5f077e7eda216df0a7f30028e89d895e8e/"
+    }
+  ]
+}

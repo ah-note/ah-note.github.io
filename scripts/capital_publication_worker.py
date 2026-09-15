@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import argparse
 import fcntl
+import hashlib
 import json
 import subprocess
 import sys
@@ -43,6 +44,8 @@ def publish(item: dict, site_root: Path) -> dict:
     source = Path(item["result_path"])
     if not source.is_file():
         raise ValueError("CAPITAL_RESULT_NOT_FOUND")
+    if item.get('result_sha256') and hashlib.sha256(source.read_bytes()).hexdigest() != item['result_sha256']:
+        raise ValueError('RESULT_HASH_MISMATCH')
     common = run_git(site_root, ["rev-parse", "--git-common-dir"]).stdout.strip()
     common_dir = Path(common) if Path(common).is_absolute() else (site_root / common).resolve()
     with (common_dir / "ah-note-publish.lock").open("a+") as git_lock:
@@ -52,13 +55,21 @@ def publish(item: dict, site_root: Path) -> dict:
             worktree = Path(temporary) / "site"
             try:
                 run_git(site_root, ["worktree", "add", "--detach", str(worktree), "origin/main"])
-                subprocess.run([
+                if item.get('schema') == 'company-two-table-publication-v1':
+                    command = [sys.executable, str(worktree / 'scripts/two_table_reports.py'),
+                               '--input', str(source), '--site-root', str(worktree),
+                               '--analysis-root', item['analysis_root']]
+                    paths = ['research', 'data/research.json', 'data/two-table']
+                else:
+                    command = [
                     sys.executable, str(worktree / "scripts/publish_capital_statement.py"),
                     "--input", str(source), "--site-root", str(worktree),
                     "--name", item["name"], "--code", item["company"],
                     "--run-id", item["source_run"], "--bundle-sha", item["bundle_revision"],
-                ], cwd=worktree, check=True)
-                run_git(site_root, ["add", "--all", "--", "capital"], cwd=worktree)
+                    ]
+                    paths = ['capital']
+                subprocess.run(command, cwd=worktree, check=True)
+                run_git(site_root, ["add", "--all", "--", *paths], cwd=worktree)
                 changed = run_git(site_root, ["diff", "--cached", "--quiet"], cwd=worktree, check=False).returncode != 0
                 if changed:
                     run_git(site_root, ["config", "user.name", "AH Note Publisher"], cwd=worktree)

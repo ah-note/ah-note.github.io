@@ -1,6 +1,19 @@
 {
   "reports": [
     {
+      "source": "company_two_table",
+      "analysis_version": "autonomous-two-table-v1",
+      "code": "PDD",
+      "name": "拼多多集团",
+      "market": "US",
+      "report_period": "2026-06-30",
+      "published_at": "2026-09-15T14:35:22.095400+08:00",
+      "review_status": "pass",
+      "title": "拼多多集团（PDD）",
+      "excerpt": "5个完整年度；最新累计披露截至2026-06-30",
+      "url": "research/PDD/"
+    },
+    {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
       "code": "01857.HK",
@@ -8813,19 +8826,6 @@
       "title": "中国能建（601868.SH）2025年公司研究",
       "excerpt": "中国能建的客户价值，是用规划设计、工程总承包、装备制造和投建营一体化能力，把电源、电网、水利及相关基础设施从方案变成可交付资产。它的优势最强在订单入口：公司称其完成国内超过90%的电力规划咨询、评估和行业标准制定，火电及特高压输变电设计份额超过90%，并能把设计能力延伸为EPC、装备和运营项目。问题在订单之后：工程建设贡献绝大多数收入但毛利率仅7.17%，回款、资本开支和项目融资决定的价值远比收入增速重要。[《中国能源建设股份有限公司2025年年度报告》，2026年4月17日……",
       "url": "reports/601868.SH/"
-    },
-    {
-      "source": "current_company_research",
-      "analysis_version": "stock-research-analysis-v2",
-      "code": "PDD",
-      "name": "拼多多",
-      "market": "US",
-      "report_period": "2025-12-31",
-      "published_at": "2026-09-02T16:22:23+08:00",
-      "review_status": "pass",
-      "title": "拼多多（PDD）2025年度公司研究",
-      "excerpt": "拼多多是一家由商户付费、消费者形成流量和订单的平台企业。2025年两类收入已大致各半：在线营销服务及其他为2,178亿元，交易服务为2,141亿元。平台并不主要赚取商品进销差价，而是用低价、丰富供给和互动体验聚合买家，再向商户出售流量匹配、交易及履约相关服务。这个模式仍有规模优势，但2025年的证据更像“增长放缓、继续投入”，而不是已到稳定状态：收入增长9.7%，营业利润却由1,084亿元降至931亿元。",
-      "url": "reports/PDD/"
     },
     {
       "source": "current_company_research",

@@ -2,6 +2,20 @@
 
 Public stock research notes website for multi-market company reports.
 
+## 当前公司研究：资产表与经营表
+
+`/research/`是正式公司研究入口。已迁移公司展示一套资产表和经营表，直接读取分析Agent的reader_view；尚未迁移的公司继续进入原报告。旧`/reports/<code>/`、历史文章和`/capital/`地址保留。
+
+导入新报告：
+
+```bash
+python3 scripts/two_table_reports.py --input /path/to/accepted.json --analysis-root /path/to/stock_analysis
+```
+
+报告原件先通过分析仓协议校验，公开投影只移除运行文件路径；金额和解释保持不变。数据按哈希保存在`research/<code>/versions/`，公司页切换到当前版本，`data/two-table/catalog.json`登记引用。原构建器始终合并该目录，后续旧报告发布不会覆盖双表入口。静态渲染器沿用已验收的紧凑两表样式。
+
+生产通过`capital_publication_worker.py`的单一发布锁接收`company-two-table-publication-v1`队列项，临时worktree构建、提交并推送；研究Agent不直接发布。下文旧经营报告和资本表流程保留为历史维护入口。
+
 ## Build
 
 The published site is static. Local source inputs live under `_source/` and are
