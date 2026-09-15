@@ -3,6 +3,7 @@ from pathlib import Path
 import sys
 import tempfile
 import unittest
+from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
 from two_table_reports import public_view, merge_feed, refresh_index
@@ -10,6 +11,24 @@ from research_feed import ResearchFeedEntry
 
 
 class TwoTableTests(unittest.TestCase):
+    def test_old_publisher_preserves_new_tables_and_versions(self):
+        import build_site
+        from two_table_reports import install_view
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            (root / 'assets').mkdir()
+            (root / 'assets/company-tables.html').write_text('<body></body>')
+            install_view({'code': 'NEW', 'name': '新公司'}, root, 'abc',
+                         '2026-09-15T00:00:00+08:00', '2025-12-31', '年度')
+            snapshot = root / 'research/NEW/versions/abc/report.json'
+            original = snapshot.read_bytes()
+            with patch.object(build_site, 'RESEARCH_DIR', root / 'research'):
+                build_site.write_research_pages([], [])
+            refresh_index(root)
+            self.assertEqual(snapshot.read_bytes(), original)
+            self.assertTrue((root / 'research/NEW/index.html').is_file())
+            self.assertIn('/research/NEW/', (root / 'capital/index.html').read_text())
+
     def test_one_entry_per_company_prefers_tables_then_research_then_report(self):
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)

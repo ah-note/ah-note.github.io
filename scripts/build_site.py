@@ -949,8 +949,7 @@ def render_research_detail(report: FormalReport) -> str:
 
 
 def write_research_pages(feed: list[ResearchFeedEntry], formal_reports: list[FormalReport]) -> None:
-    if RESEARCH_DIR.exists():
-        shutil.rmtree(RESEARCH_DIR)
+    # Each publisher owns its own pages; preserve two-table and historical versions.
     RESEARCH_DIR.mkdir(exist_ok=True)
     (RESEARCH_DIR / "index.html").write_text(render_research_index(feed), encoding="utf-8")
     for report in formal_reports:

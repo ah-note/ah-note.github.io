@@ -14,6 +14,32 @@
       "url": "research/PDD/"
     },
     {
+      "source": "company_two_table",
+      "analysis_version": "autonomous-two-table-v1",
+      "code": "00837.HK",
+      "name": "谭木匠集团（合并）",
+      "market": "HK",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-15T00:00:00+08:00",
+      "review_status": "pass",
+      "title": "谭木匠集团（合并）（00837.HK）",
+      "excerpt": "2024—2025年度",
+      "url": "research/00837.HK/"
+    },
+    {
+      "source": "company_two_table",
+      "analysis_version": "autonomous-two-table-v1",
+      "code": "000683.SZ",
+      "name": "博源化工",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-15T00:00:00+08:00",
+      "review_status": "pass",
+      "title": "博源化工（000683.SZ）",
+      "excerpt": "2024—2025年度",
+      "url": "research/000683.SZ/"
+    },
+    {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
       "code": "01857.HK",
@@ -8700,19 +8726,6 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v3",
-      "code": "000683.SZ",
-      "name": "博源化工",
-      "market": "A",
-      "report_period": "2025-12-31",
-      "published_at": "2026-09-07T19:53:17+08:00",
-      "review_status": "pass",
-      "title": "博源化工（000683.SZ）公司研究",
-      "excerpt": "博源化工是一家以天然碱法纯碱、小苏打和煤制尿素为核心的资源型基础化工企业。客户支付的是标准化大宗产品，订单主要由下游开工、即时价格、产品等级、供应稳定性与物流到岸成本共同决定。公司真正较难复制的环节不是品牌溢价，而是塔木素天然碱资源、低流程成本、连续化大装置及配套能源物流；但产品价格仍由行业供需主导，这些优势更可能表现为低成本周期韧性，而不是稳定定价权。",
-      "url": "reports/000683.SZ/"
-    },
-    {
-      "source": "current_company_research",
-      "analysis_version": "stock-research-analysis-v3",
       "code": "000932.SZ",
       "name": "华菱钢铁",
       "market": "A",
@@ -8826,19 +8839,6 @@
       "title": "中国能建（601868.SH）2025年公司研究",
       "excerpt": "中国能建的客户价值，是用规划设计、工程总承包、装备制造和投建营一体化能力，把电源、电网、水利及相关基础设施从方案变成可交付资产。它的优势最强在订单入口：公司称其完成国内超过90%的电力规划咨询、评估和行业标准制定，火电及特高压输变电设计份额超过90%，并能把设计能力延伸为EPC、装备和运营项目。问题在订单之后：工程建设贡献绝大多数收入但毛利率仅7.17%，回款、资本开支和项目融资决定的价值远比收入增速重要。[《中国能源建设股份有限公司2025年年度报告》，2026年4月17日……",
       "url": "reports/601868.SH/"
-    },
-    {
-      "source": "current_company_research",
-      "analysis_version": "stock-research-analysis-v2",
-      "code": "00837.HK",
-      "name": "谭木匠",
-      "market": "HK",
-      "report_period": "2025-12-31",
-      "published_at": "2026-09-02T12:58:02+08:00",
-      "review_status": "pass",
-      "title": "谭木匠（00837.HK）2025 年公司研究",
-      "excerpt": "今天的高毛利、低应收和轻门店资产不是 2025 年突然出现的结果。公司始创于 1993 年，早期最重要的转折是把木梳从无牌手工作坊产品变成单一品牌：消费者开始为质量承诺、天然材料和工艺身份识别产品。品牌在 1997 年前后定型，1998 年启动加盟。根据 2009 年上市文件，上市前最新可行日期内地已有 853 家加盟店，另有少量海外加盟和香港直营店。加盟不是普通批发的改名，它把店租、装修、零售人员和当地客流风险放到加盟商一端，把设计、制造、供货、品牌和门店规则留在公司一端……",
-      "url": "reports/00837.HK/"
     },
     {
       "source": "formal_report_registry",

@@ -91,12 +91,19 @@ def install(source, root, analysis_root):
     if (result.get('workflow_contract') != 'autonomous-two-table-v1' or delivery.get('success') is not True
             or delivery.get('block') is not None or not delivery.get('summary')):
         raise ValueError('AGENT_DELIVERY_REQUIRED')
-    view = public_view(result['reader_view']); code = view['code']
+    years = [p for p, m in result['period_metadata'].items() if m['kind'] == 'annual']
+    return install_view(result['reader_view'], root, hashlib.sha256(raw).hexdigest(),
+                        delivery['completed_at'], result['disclosure_resolution']['report_end'],
+                        f'{len(years)}个完整年度；最新累计披露截至{result["disclosure_resolution"]["report_end"]}')
+
+
+def install_view(reader_view, root, digest, completed_at, report_end, coverage, provenance='autonomous-two-table-v1'):
+    """Publish a validated view; historical migrations retain explicit provenance."""
+    view = public_view(reader_view); code = view['code']
     if not re.fullmatch(r'[A-Za-z0-9._-]+', code): raise ValueError('COMPANY_CODE_INVALID')
-    digest = hashlib.sha256(raw).hexdigest()
     data = catalog(root)
     prior = next((e for e in data['companies'] if e['code'] == code), None)
-    if prior and prior['completed_at'] > delivery['completed_at']: raise ValueError('OLDER_DELIVERY')
+    if prior and prior['completed_at'] > completed_at: raise ValueError('OLDER_DELIVERY')
     directory = root / 'research' / code
     version = directory / 'versions' / digest
     version.mkdir(parents=True, exist_ok=True)
@@ -108,11 +115,9 @@ def install(source, root, analysis_root):
     template = template.replace('<title>资产表与经营表 | AH Note</title>', f'<title>{html.escape(view["name"])} · 资产表与经营表 | AH Note</title>')
     (version / 'index.html').write_text(template)
     (directory / 'index.html').write_text(template.replace('<body>', f'<body data-report="./versions/{digest}/report.json">'))
-    years = [p for p, m in result['period_metadata'].items() if m['kind'] == 'annual']
-    latest = result['disclosure_resolution']['report_end']
-    entry = {'code': code, 'name': view['name'], 'report_end': latest, 'completed_at': delivery['completed_at'],
+    entry = {'code': code, 'name': view['name'], 'report_end': report_end, 'completed_at': completed_at,
              'source_sha256': digest, 'view_sha256': hashlib.sha256(content.encode()).hexdigest(),
-             'coverage': f'{len(years)}个完整年度；最新累计披露截至{latest}',
+             'coverage': coverage, 'provenance': provenance,
              'version_url': f'research/{code}/versions/{digest}/'}
     data['companies'] = sorted([e for e in data['companies'] if e['code'] != code] + [entry], key=lambda e: e['code'])
     catalog_file = root / 'data/two-table/catalog.json'; catalog_file.parent.mkdir(parents=True, exist_ok=True)

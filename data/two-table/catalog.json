@@ -2,6 +2,36 @@
   "version": 1,
   "companies": [
     {
+      "code": "000683.SZ",
+      "name": "博源化工",
+      "report_end": "2025-12-31",
+      "completed_at": "2026-09-15T00:00:00+08:00",
+      "source_sha256": "de3f8fb2e9a1a5cf73d0fc8b6c71c2a5d0a6ff504b57c4b4dd296f528f450b95",
+      "view_sha256": "21bac972dbc9683f9b2af6944870fed32830410b3e27ff39df9e1c58d41b003c",
+      "coverage": "2024—2025年度",
+      "provenance": {
+        "kind": "accepted-reader-example",
+        "source_run": "berun-v2-20260914T1533",
+        "projection": "stock_analysis.capital_statement.web_view.build_company_tables_dataset"
+      },
+      "version_url": "research/000683.SZ/versions/de3f8fb2e9a1a5cf73d0fc8b6c71c2a5d0a6ff504b57c4b4dd296f528f450b95/"
+    },
+    {
+      "code": "00837.HK",
+      "name": "谭木匠集团（合并）",
+      "report_end": "2025-12-31",
+      "completed_at": "2026-09-15T00:00:00+08:00",
+      "source_sha256": "2a1952b3df5079164346528f9d861fbfb34bddb2765a97b1166931f9107d8a38",
+      "view_sha256": "90be9046dbb821e13d43ebf542e9af1e5df78356dbf74d4d8a1d7f6956229dd9",
+      "coverage": "2024—2025年度",
+      "provenance": {
+        "kind": "accepted-reader-example",
+        "source_run": "tan-20260913T2217",
+        "projection": "stock_analysis.capital_statement.web_view.build_company_tables_dataset"
+      },
+      "version_url": "research/00837.HK/versions/2a1952b3df5079164346528f9d861fbfb34bddb2765a97b1166931f9107d8a38/"
+    },
+    {
       "code": "PDD",
       "name": "拼多多集团",
       "report_end": "2026-06-30",
@@ -9,6 +39,7 @@
       "source_sha256": "0387802c353a6deb19b769cf79dd7a5f077e7eda216df0a7f30028e89d895e8e",
       "view_sha256": "ef9fa96508acfbb7f858b06f571e30bc3e273fd00c803865506d939d520aac96",
       "coverage": "5个完整年度；最新累计披露截至2026-06-30",
+      "provenance": "autonomous-two-table-v1",
       "version_url": "research/PDD/versions/0387802c353a6deb19b769cf79dd7a5f077e7eda216df0a7f30028e89d895e8e/"
     }
   ]
