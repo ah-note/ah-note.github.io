@@ -889,21 +889,12 @@ def render_reference() -> str:
 
 
 def render_research_index(reports: list[ResearchFeedEntry]) -> str:
-    articles = []
+    rows = []
     for report in reports:
-        articles.append(f"""
-      <article class="research-entry">
-        <a href="{html.escape(report.page_url)}">
-          <div class="research-meta">
-            <span>{html.escape(report.label)}</span><span>{html.escape(report.market)}</span>
-            <span>报告期 {html.escape(report.report_period)}</span><time>{html.escape(report.publication_date)}</time>
-          </div>
-          <h2>{html.escape(report.title)}</h2>
-          <p>{html.escape(report.excerpt)}</p>
-          <strong>阅读全文 →</strong>
-        </a>
-      </article>""")
-    empty = '<p class="research-empty">暂无通过验收的公司研究。</p>' if not articles else ""
+        rows.append(f'<tr><td><a href="{html.escape(report.page_url)}" title="{html.escape(report.title)}">'
+                    f'{html.escape(report.name)}</a></td><td>{html.escape(report.code)}</td>'
+                    f'<td>{html.escape(report.label)}</td><td>{html.escape(report.report_period)}</td></tr>')
+    empty = '<tr><td colspan="4">暂无通过验收的公司研究。</td></tr>' if not rows else ""
     return f"""<!doctype html>
 <html lang="zh-CN">
 <head>
@@ -914,10 +905,12 @@ def render_research_index(reports: list[ResearchFeedEntry]) -> str:
   <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="../assets/styles.css?v={ASSET_VERSION}">
 </head>
-<body class="research-body">
+<body>
   {nav("research", "../")}
-  <main class="research-index">
-    <section class="research-feed" aria-label="研究报告列表">{''.join(articles)}{empty}
+  <main class="report-list-page">
+    <section class="report-list"><h1>资本表</h1>
+      <div class="table-wrap"><table><thead><tr><th>公司</th><th>代码</th><th>内容</th><th>报告截止日</th></tr></thead>
+      <tbody>{''.join(rows)}{empty}</tbody></table></div>
     </section>
   </main>
 </body>
