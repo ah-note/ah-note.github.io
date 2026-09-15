@@ -1,5 +1,14 @@
 # Alignment Log
 
+## 2026-09-15T21:09:06+08:00 Asia/Shanghai
+
+- Range: `4731cf9a..1f27d238`，核对26份未归档记录及当前代码。
+- Absorbed: `.agent/records/absorbed/2026-09-15-production/`，历史分类、资本页与本次双表迁移记录原文保留。
+- Updated: publication-pipeline、company-sheet-preview、当前状态及README的默认入口。
+- Resolved: 双表成为新公司研究入口；旧资本和文章固定地址维护；分类别名、共享树与发布摘要保持既有契约；站点只展示研究产物。
+- Pending: 本次生产部署和公网验收，另记后续记录。
+- Verification: 网站51项Python回归、行业Node检查及本地双表年份联动通过。
+
 ## 2026-09-03T16:36:11+08:00 Asia/Shanghai
 
 - Range: repository bootstrap through commit `0ce7c080`.
