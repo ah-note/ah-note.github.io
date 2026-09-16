@@ -32,6 +32,17 @@
       "version_url": "research/00837.HK/versions/2a1952b3df5079164346528f9d861fbfb34bddb2765a97b1166931f9107d8a38/"
     },
     {
+      "code": "09896.HK",
+      "name": "名创优品",
+      "report_end": "2026-06-30",
+      "completed_at": "2026-09-16T12:50:26.671445+08:00",
+      "source_sha256": "edce10dcd5afe05c99a9920d89da2aa0d3c55fad2bcd9f9ff126633239143e74",
+      "view_sha256": "1880b2c410eda0fcf976c72827050a94ec9d990b3bb76321a1dc00b3f1688563",
+      "coverage": "5个完整年度；最新累计披露截至2026-06-30",
+      "provenance": "autonomous-two-table-v1",
+      "version_url": "research/09896.HK/versions/edce10dcd5afe05c99a9920d89da2aa0d3c55fad2bcd9f9ff126633239143e74/"
+    },
+    {
       "code": "PDD",
       "name": "拼多多集团",
       "report_end": "2026-06-30",
