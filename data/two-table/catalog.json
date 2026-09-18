@@ -43,6 +43,17 @@
       "version_url": "research/09896.HK/versions/edce10dcd5afe05c99a9920d89da2aa0d3c55fad2bcd9f9ff126633239143e74/"
     },
     {
+      "code": "600585.SH",
+      "name": "海螺水泥",
+      "report_end": "2025-12-31",
+      "completed_at": "2026-09-18T11:36:50.871794+08:00",
+      "source_sha256": "87015839391a677442c58eaa5f7785313d4698145efbba8c5d3dc6285be9bff6",
+      "view_sha256": "f6f4136b90db3e8a918ea94a0ead11f084970942ead17d12c82debc517e03b44",
+      "coverage": "5个完整年度；最新累计披露截至2025-12-31",
+      "provenance": "autonomous-two-table-v1",
+      "version_url": "research/600585.SH/versions/87015839391a677442c58eaa5f7785313d4698145efbba8c5d3dc6285be9bff6/"
+    },
+    {
       "code": "PDD",
       "name": "拼多多集团",
       "report_end": "2026-06-30",

@@ -3,6 +3,19 @@
     {
       "source": "company_two_table",
       "analysis_version": "autonomous-two-table-v1",
+      "code": "600585.SH",
+      "name": "海螺水泥",
+      "market": "A",
+      "report_period": "2025-12-31",
+      "published_at": "2026-09-18T11:36:50.871794+08:00",
+      "review_status": "pass",
+      "title": "海螺水泥（600585.SH）",
+      "excerpt": "5个完整年度；最新累计披露截至2025-12-31",
+      "url": "research/600585.SH/"
+    },
+    {
+      "source": "company_two_table",
+      "analysis_version": "autonomous-two-table-v1",
       "code": "09896.HK",
       "name": "名创优品",
       "market": "HK",
@@ -8709,19 +8722,6 @@
       "title": "旗滨集团（601636.SH）公司研究",
       "excerpt": "旗滨集团已经从以浮法玻璃为主、能在景气年份产生较高利润的制造商，变成浮法、节能建筑玻璃和光伏玻璃并重的重资产集团。扩张提高了收入容量，却尚未提高股东可得现金：2023—2025年收入几乎停在157亿元，投入资本由222亿元升至260亿元，重构ROIC由9.69%降至0.68%，实际FCFF分别为-20.5亿元、-13.8亿元和-7.67亿元。资本开支下降使现金缺口收窄，但利润端没有同步修复。",
       "url": "reports/601636.SH/"
-    },
-    {
-      "source": "current_company_research",
-      "analysis_version": "stock-research-analysis-v3",
-      "code": "600585.SH",
-      "name": "海螺水泥",
-      "market": "A",
-      "report_period": "2025-12-31",
-      "published_at": "2026-09-07T20:00:25+08:00",
-      "review_status": "pass",
-      "title": "海螺水泥（600585.SH）2025年度公司研究",
-      "excerpt": "海螺水泥仍是一个由矿山资源、熟料和水泥产线、沿江沿海物流节点、区域销售网络共同组成的重资产经营系统。2025年成本下降使毛利率改善，但需求和价格压力没有消失：重构EBIT为81.63亿元，低于2023年的116.27亿元；NOPAT由93.82亿元降至63.56亿元；ROIC由6.36%降至4.45%。这组数字更接近“低回报、强现金、结构性收缩中的成熟制造业”，而不是由高资本回报支撑的成长企业。",
-      "url": "reports/600585.SH/"
     },
     {
       "source": "current_company_research",
