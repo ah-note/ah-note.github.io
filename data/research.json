@@ -3,6 +3,19 @@
     {
       "source": "company_two_table",
       "analysis_version": "autonomous-two-table-v1",
+      "code": "UVV",
+      "name": "环球烟叶（Universal Corporation）",
+      "market": "US",
+      "report_period": "2026-03-31",
+      "published_at": "2026-09-18T18:30:00.205414+08:00",
+      "review_status": "pass",
+      "title": "环球烟叶（Universal Corporation）（UVV）",
+      "excerpt": "10个完整年度；最新累计披露截至2026-03-31",
+      "url": "research/UVV/"
+    },
+    {
+      "source": "company_two_table",
+      "analysis_version": "autonomous-two-table-v1",
       "code": "600585.SH",
       "name": "海螺水泥",
       "market": "A",

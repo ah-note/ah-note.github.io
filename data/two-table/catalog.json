@@ -63,6 +63,17 @@
       "coverage": "5个完整年度；最新累计披露截至2026-06-30",
       "provenance": "autonomous-two-table-v1",
       "version_url": "research/PDD/versions/0387802c353a6deb19b769cf79dd7a5f077e7eda216df0a7f30028e89d895e8e/"
+    },
+    {
+      "code": "UVV",
+      "name": "环球烟叶（Universal Corporation）",
+      "report_end": "2026-03-31",
+      "completed_at": "2026-09-18T18:30:00.205414+08:00",
+      "source_sha256": "a2dc2477bfffb31e303d71aae605a4c5297d8f631b76e8cb66486152b07c3fe4",
+      "view_sha256": "afc39040b8107b50be62fa7d8f6caa2644cbf6433d9fea0bfe16f4d648959c2e",
+      "coverage": "10个完整年度；最新累计披露截至2026-03-31",
+      "provenance": "autonomous-two-table-v1",
+      "version_url": "research/UVV/versions/a2dc2477bfffb31e303d71aae605a4c5297d8f631b76e8cb66486152b07c3fe4/"
     }
   ]
 }
