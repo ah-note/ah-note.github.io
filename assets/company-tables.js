@@ -13,6 +13,19 @@ let company;
 let componentMode = false;
 let comparisonContext = {};
 const openPeriods = new Set();
+let periodView = "annual";
+
+function selectedPeriods(periods) {
+  const metadata = company?.period_metadata;
+  if (!metadata) return periods;
+  return periods.filter((period) => (metadata[period]?.kind === "annual") === (periodView === "annual"));
+}
+
+function periodNavigation() {
+  if (!company?.period_metadata || !company.asset_table.periods.some((period) => company.period_metadata[period]?.kind !== "annual")) return "";
+  return `<nav class="period-views" aria-label="报告期间">${[["annual", "完整年度"], ["interim", "半年与季度"]]
+    .map(([id, label]) => `<a href="/research/${encodeURIComponent(company.code)}/${id === "interim" ? "latest/" : ""}" ${periodView === id ? 'aria-current="page"' : ""}>${label}</a>`).join("")}</nav>`;
+}
 
 function union(lists) {
   const seen = new Set();
@@ -171,7 +184,8 @@ function summaryRow(label, values, periods, className, evidence = {}) {
 function assetTable(entity) {
   comparisonContext = entity.presentation?.periods?.asset || {};
   const table = entity.asset_table;
-  const periods = table.periods;
+  const periods = selectedPeriods(table.periods);
+  if (!periods.length) return "";
   const header = periods.map((period) => `${openPeriods.has(period) ? `<th>变化原因解释</th><th>金额</th>` : ""}<th>${periodButton(period, "asset", "年末")}</th>`).join("");
   const bases = assetMaterialityBases(table, periods);
   let body = "";
@@ -243,7 +257,8 @@ function metricRows(rows, periods, materialityBase) {
 function operatingTable(entity) {
   comparisonContext = entity.presentation?.periods?.operating || {};
   const table = entity.operating_table;
-  const periods = table.periods;
+  const periods = selectedPeriods(table.periods);
+  if (!periods.length) return "";
   const materialityBase = operatingMaterialityBase(table, periods);
   const header = periods.map((period) => `${openPeriods.has(period) ? `<th>变化原因解释</th><th>金额</th>` : ""}<th>${periodButton(period, "operating", "年度")}</th>`).join("");
   const columnCount = 1 + periods.reduce((count, period) => count + (openPeriods.has(period) ? 3 : 1), 0);
@@ -279,11 +294,38 @@ function operatingTable(entity) {
   return `<div class="table-wrap"><table class="operating-table"><caption>经营表 <small>期间发生额 · ${esc(entity.unit)}</small></caption><thead><tr><th>业务／经营项目</th>${header}</tr></thead><tbody>${body}</tbody></table></div><p class="table-note">${esc(table.note)}</p>`;
 }
 
+function businessAssetDisclosure(entity) {
+  const data = entity.business_asset_disclosure;
+  if (!data || periodView !== "annual") return "";
+  if (data.kind === "unavailable") {
+    const source = data.source_url ? ` <a href="${esc(data.source_url)}" target="_blank" rel="noopener">年报原文</a>` : "";
+    return `<section class="business-assets"><h3>业务资产拆分</h3><p class="table-note">${esc(data.note)}${source}</p></section>`;
+  }
+  const periods = selectedPeriods(entity.asset_table.periods);
+  const header = periods.map((p) => `<th>${esc(entity.presentation?.periods?.asset?.labels?.[p] || p)}</th>`).join("");
+  const cells = (values) => periods.map((p) => amountCell(values[p])).join("");
+  const rows = data.segments.map((segment) =>
+    `<tr class="business-band"><th colspan="${periods.length + 1}">${esc(segment.label)}</th></tr>`
+    + `<tr><th>分部资产（抵销前）</th>${cells(segment.assets)}</tr>`
+    + `<tr><th>分部负债（抵销前）</th>${cells(segment.liabilities)}</tr>`).join("");
+  const eliminations = `<tr class="business-band"><th colspan="${periods.length + 1}">分部间抵销</th></tr>`
+    + `<tr><th>减：资产抵销</th>${cells(data.eliminations.assets)}</tr>`
+    + `<tr><th>减：负债抵销</th>${cells(data.eliminations.liabilities)}</tr>`;
+  const reported = (id) => entity.asset_table.disclosure_summary.find((row) => row.id === id)?.values || {};
+  const consolidated = `<tr class="business-total"><th>合并资产</th>${cells(reported("total_assets"))}</tr>`
+    + `<tr class="business-total"><th>合并负债</th>${cells(reported("total_liabilities"))}</tr>`;
+  const sources = periods.map((p) => data.sources[p] ? `<a href="${esc(data.sources[p].url)}" target="_blank" rel="noopener">${esc(entity.presentation?.periods?.asset?.labels?.[p] || p)}年报</a>` : "").filter(Boolean).join(" · ");
+  return `<section class="business-assets"><h3>业务资产拆分</h3><p class="table-note">${esc(data.note)}</p>`
+    + `<div class="table-wrap"><table class="asset-table"><caption>业务分部资产与负债 <small>${esc(data.unit)}</small></caption><thead><tr><th>业务／项目</th>${header}</tr></thead><tbody>${rows}${eliminations}${consolidated}</tbody></table></div>`
+    + `<p class="table-note">来源：${sources}</p></section>`;
+}
+
 function cashNarrative(entity) {
-  if (entity.narratives.cash) return entity.narratives.cash;
+  if (entity.narratives.cash && (periodView === "interim" || !company?.period_metadata)) return entity.narratives.cash;
   const rows = entity.operating_table.cash_flow_bridge?.rows || [];
   if (!rows.length) return entity.narratives.cash || "";
-  const periods = entity.operating_table.periods;
+  const periods = selectedPeriods(entity.operating_table.periods);
+  if (!periods.length) return "";
   const period = periods.at(-1);
   const value = (id, p = period) => rows.find((row) => row.id === id)?.values[p];
   if (["net_profit", "operating_cash_flow", "asset_spending", "free_cash_flow"].some((id) => value(id) == null)) {
@@ -320,7 +362,7 @@ function ownershipNote(entity) {
   if (entity.presentation?.mode !== "component") return "";
   if (!Object.keys(entity.ownership || {}).length) return "";
   const percent = (value) => value == null ? "未披露" : `${(value * 100).toPrecision(3)}%`;
-  const periods = entity.asset_table.periods.map((p) => {
+  const periods = selectedPeriods(entity.asset_table.periods).map((p) => {
     const item = entity.ownership?.[p] || {};
     const profit = item.profit_ratio !== item.ratio ? `，利润适用比例${percent(item.profit_ratio)}` : "";
     return `${p}年末${percent(item.ratio)}${profit}${item.method === "adjusted" ? "（份额含归属调整）" : ""}`;
@@ -329,7 +371,8 @@ function ownershipNote(entity) {
 }
 
 function componentTables(children, root) {
-  const periods = root.asset_table.periods;
+  const periods = selectedPeriods(root.asset_table.periods);
+  if (!periods.length) return "";
   const columns = 1 + periods.reduce((n, p) => n + (openPeriods.has(p) ? 3 : 1), 0);
   const table = (kind) => {
     const asset = kind === "asset";
@@ -361,23 +404,25 @@ function entityView(entity, child = false) {
   const equity = entity.narratives.equity ? `<p><strong>股权变化</strong>${esc(entity.narratives.equity)}</p>` : "";
   const source = entity.source_url ? `<p class="table-note"><a href="${esc(entity.source_url)}" target="_blank" rel="noopener">2025年报</a></p>` : "";
   const scope = entity.narratives.scope ? `<p class="table-note">${esc(entity.narratives.scope)}</p>` : "";
-  const reconciliations = (entity.reconciliations || []).filter((item) => {
+  const visiblePeriods = new Set(selectedPeriods(entity.asset_table.periods));
+  const reconciliations = (entity.reconciliations || []).filter((item) => visiblePeriods.has(item.period)).filter((item) => {
     const base = item.domain === "asset" ? assetMaterialityBases(entity.asset_table, entity.asset_table.periods).asset
       : operatingMaterialityBase(entity.operating_table, entity.operating_table.periods);
     return base === 0 ? item.difference !== 0 : Math.abs(item.difference) / base >= 0.03;
   }).map((item) => `<p class="table-note">${esc(item.period)}年${esc(item.label)}：已列金额间差额${esc(Number(item.difference).toPrecision(3))}（${esc(entity.unit)}）。</p>`).join("");
   const hasAssets = entity.asset_table.groups.length || entity.asset_table.disclosure_summary?.length || Object.keys(entity.asset_table.controls).length;
   const hasOperations = entity.operating_table.modules.some((m) => m.rows?.length || m.businesses?.some((b) => b.metrics.length));
-  return `<section class="entity" id="entity-${esc(entity.id)}">${heading}${scope}${ownershipNote(entity)}${hasAssets ? assetTable(entity) : ""}${dilutionTable(entity)}${hasOperations ? operatingTable(entity) : ""}<div class="narratives">${equity}${cash}</div>${reconciliations}${source}</section>`
+  return `<section class="entity" id="entity-${esc(entity.id)}">${heading}${scope}${ownershipNote(entity)}${hasAssets ? assetTable(entity) : ""}${businessAssetDisclosure(entity)}${dilutionTable(entity)}${hasOperations ? operatingTable(entity) : ""}<div class="narratives">${equity}${cash}</div>${reconciliations}${source}</section>`
     + (entity.presentation?.component_tables ? componentTables(children, entity) : children.map((subsidiary) => entityView(subsidiary, true)).join(""));
 }
 
 function draw(focusSelector = "") {
-  $("#company-content").innerHTML = entityView(company);
+  $("#company-content").innerHTML = periodNavigation() + entityView(company);
   if (focusSelector) document.querySelector(focusSelector)?.focus({preventScroll:true});
 }
 
 async function init() {
+  periodView = document.body.dataset.periodView === "interim" ? "interim" : "annual";
   const response = await fetch(document.body.dataset.report || "./report.json");
   if (!response.ok) throw new Error(`HTTP ${response.status}`);
   company = await response.json();

@@ -5,6 +5,7 @@ import argparse
 import hashlib
 import html
 import json
+import math
 from pathlib import Path
 import re
 import subprocess
@@ -82,7 +83,42 @@ def refresh_index(root):
     (root / 'capital/index.html').write_text(render_research_index(merged))
 
 
-def install(source, root, analysis_root):
+def checked_business_assets(source, result):
+    if source is None:
+        return None
+    data = json.loads(source.read_text())
+    if data.get('code') != result['companies'][0]['code'] or data.get('unit') != result['reader_view']['unit']:
+        raise ValueError('BUSINESS_ASSET_IDENTITY_INVALID')
+    periods = result['period_metadata']
+    if data.get('kind') == 'unavailable':
+        if not data.get('note') or data.get('segments'):
+            raise ValueError('BUSINESS_ASSET_UNAVAILABLE_INVALID')
+        return data
+    if data.get('kind') != 'gross_segments' or not data.get('note') or not data.get('sources'):
+        raise ValueError('BUSINESS_ASSET_SCOPE_INVALID')
+    business_ids = {b['id'] for m in result['reader_view']['operating_table']['modules'] for b in m.get('businesses', [])}
+    segments = data.get('segments', [])
+    if not segments or len({s.get('id') for s in segments}) != len(segments) or any(s.get('id') not in business_ids or not s.get('label') for s in segments):
+        raise ValueError('BUSINESS_ASSET_SEGMENTS_INVALID')
+    annual = [p for p, m in periods.items() if m['kind'] == 'annual']
+    sources = data['sources']
+    for period in annual:
+        if not sources.get(period, {}).get('url', '').startswith('https://') or not sources[period].get('locator'):
+            raise ValueError('BUSINESS_ASSET_SOURCE_INVALID')
+        for metric in ('assets', 'liabilities'):
+            values = [s.get(metric, {}).get(period) for s in segments]
+            elimination = data.get('eliminations', {}).get(metric, {}).get(period)
+            if any(type(v) not in (int, float) or not math.isfinite(v) for v in [*values, elimination]):
+                raise ValueError('BUSINESS_ASSET_VALUE_INVALID')
+            actual = sum(values) - elimination
+            expected_id = 'total_assets' if metric == 'assets' else 'total_liabilities'
+            expected = next((row['values'].get(period) for row in result['companies'][0]['asset_table']['disclosure_summary'] if row['id'] == expected_id), None)
+            if expected is None or abs(actual - expected) > 0.02:
+                raise ValueError('BUSINESS_ASSET_RECONCILIATION_FAILED')
+    return data
+
+
+def install(source, root, analysis_root, business_assets=None):
     validator = analysis_root / 'agent_definitions/company_two_table/skills/company-two-table/scripts/protocol.py'
     done = subprocess.run([sys.executable, str(validator), 'validate', '--result', str(source)], capture_output=True, text=True)
     if done.returncode: raise ValueError(done.stderr or done.stdout)
@@ -92,7 +128,12 @@ def install(source, root, analysis_root):
             or delivery.get('block') is not None or not delivery.get('summary')):
         raise ValueError('AGENT_DELIVERY_REQUIRED')
     years = [p for p, m in result['period_metadata'].items() if m['kind'] == 'annual']
-    return install_view(result['reader_view'], root, hashlib.sha256(raw).hexdigest(),
+    view = dict(result['reader_view'])
+    view['period_metadata'] = result['period_metadata']
+    supplement = checked_business_assets(business_assets, result)
+    if supplement:
+        view['business_asset_disclosure'] = supplement
+    return install_view(view, root, hashlib.sha256(raw).hexdigest(),
                         delivery['completed_at'], result['disclosure_resolution']['report_end'],
                         f'{len(years)}个完整年度；最新累计披露截至{result["disclosure_resolution"]["report_end"]}')
 
@@ -115,6 +156,10 @@ def install_view(reader_view, root, digest, completed_at, report_end, coverage, 
     template = template.replace('<title>资产表与经营表 | AH Note</title>', f'<title>{html.escape(view["name"])} · 资产表与经营表 | AH Note</title>')
     (version / 'index.html').write_text(template)
     (directory / 'index.html').write_text(template.replace('<body>', f'<body data-report="./versions/{digest}/report.json">'))
+    latest = directory / 'latest'
+    latest.mkdir(exist_ok=True)
+    (latest / 'index.html').write_text(template.replace('<body>',
+        f'<body data-period-view="interim" data-report="../versions/{digest}/report.json">'))
     entry = {'code': code, 'name': view['name'], 'report_end': report_end, 'completed_at': completed_at,
              'source_sha256': digest, 'view_sha256': hashlib.sha256(content.encode()).hexdigest(),
              'coverage': coverage, 'provenance': provenance,
@@ -131,5 +176,6 @@ if __name__ == '__main__':
     parser.add_argument('--input', type=Path, required=True)
     parser.add_argument('--site-root', type=Path, default=Path(__file__).resolve().parents[1])
     parser.add_argument('--analysis-root', type=Path, required=True)
+    parser.add_argument('--business-assets', type=Path)
     args = parser.parse_args()
-    print(json.dumps(install(args.input, args.site_root, args.analysis_root), ensure_ascii=False))
+    print(json.dumps(install(args.input, args.site_root, args.analysis_root, args.business_assets), ensure_ascii=False))

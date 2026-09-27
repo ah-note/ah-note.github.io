@@ -3,6 +3,45 @@
     {
       "source": "company_two_table",
       "analysis_version": "autonomous-two-table-v1",
+      "code": "000876.SZ",
+      "name": "新希望",
+      "market": "A",
+      "report_period": "2026-06-30",
+      "published_at": "2026-09-27T22:05:43.292677+08:00",
+      "review_status": "pass",
+      "title": "新希望（000876.SZ）",
+      "excerpt": "5个完整年度；最新累计披露截至2026-06-30",
+      "url": "research/000876.SZ/"
+    },
+    {
+      "source": "company_two_table",
+      "analysis_version": "autonomous-two-table-v1",
+      "code": "300498.SZ",
+      "name": "温氏食品集团股份有限公司",
+      "market": "A",
+      "report_period": "2026-06-30",
+      "published_at": "2026-09-27T21:34:44.403865+08:00",
+      "review_status": "pass",
+      "title": "温氏食品集团股份有限公司（300498.SZ）",
+      "excerpt": "5个完整年度；最新累计披露截至2026-06-30",
+      "url": "research/300498.SZ/"
+    },
+    {
+      "source": "company_two_table",
+      "analysis_version": "autonomous-two-table-v1",
+      "code": "002714.SZ",
+      "name": "牧原股份",
+      "market": "A",
+      "report_period": "2026-06-30",
+      "published_at": "2026-09-27T21:07:59.166725+08:00",
+      "review_status": "pass",
+      "title": "牧原股份（002714.SZ）",
+      "excerpt": "5个完整年度；最新累计披露截至2026-06-30",
+      "url": "research/002714.SZ/"
+    },
+    {
+      "source": "company_two_table",
+      "analysis_version": "autonomous-two-table-v1",
       "code": "UVV",
       "name": "环球烟叶（Universal Corporation）",
       "market": "US",
@@ -6724,19 +6763,6 @@
     {
       "source": "current_company_research",
       "analysis_version": "stock-research-analysis-v4",
-      "code": "000876.SZ",
-      "name": "新希望六和股份有限公司",
-      "market": "A",
-      "report_period": "2025-12-31",
-      "published_at": "2026-09-08T13:23:15+08:00",
-      "review_status": "pass",
-      "title": "新希望（000876.SZ）公司研究",
-      "excerpt": "本表以公司合并总量为硬约束；业务行混合直接披露与基准估计，只用于理解主要经营数据和利润/现金来源。",
-      "url": "reports/000876.SZ/"
-    },
-    {
-      "source": "current_company_research",
-      "analysis_version": "stock-research-analysis-v4",
       "code": "605009.SH",
       "name": "杭州豪悦护理用品股份有限公司",
       "market": "A",
@@ -7201,19 +7227,6 @@
       "title": "竣球控股（01481.HK）公司研究",
       "excerpt": "竣球已不再是一家纯印刷公司：2025年赞比亚供应链管理服务迅速取代衰退中的印刷业务，成为唯一利润来源。但这个新业务只有一个完整年度的证据，利润集中于少数客户，车队和物流中心仍在大额投入，而20%经济权益已归少数股东。因此，2025年的高增长和高分部利润率尚不足以证明一个可持续的高回报复利机器。",
       "url": "reports/01481.HK/"
-    },
-    {
-      "source": "current_company_research",
-      "analysis_version": "stock-research-analysis-v3",
-      "code": "002714.SZ",
-      "name": "牧原股份",
-      "market": "A",
-      "report_period": "2025-12-31",
-      "published_at": "2026-09-08T09:45:38+08:00",
-      "review_status": "pass",
-      "title": "牧原股份（002714.SZ）2025年度公司研究",
-      "excerpt": "牧原股份本质上是把饲料采购、育种、繁殖、育肥、疫病防控和猪舍运营组织成一个超大规模的生物制造系统，再以活猪或猪肉产品变现。客户愿意付款的直接原因不是技术本身，而是稳定取得符合重量、健康和食品安全要求的生猪与肉品；公司的技术、设备和管理只有在降低每公斤完全成本、提高成活率和出栏稳定性时才形成经济价值。2025年商品猪销量7,798.1万头、同比增长19.1%，全年养殖完全成本约12元/公斤、同比下降约2元/公斤；但行业活猪均价降至14.44元/公斤，解释了收入增长4.5%而归母……",
-      "url": "reports/002714.SZ/"
     },
     {
       "source": "current_company_research",
@@ -8397,19 +8410,6 @@
       "title": "盛航股份（001205.SZ）公司研究",
       "excerpt": "盛航股份卖的不是普通运力，而是受资质、安全审核、船型适配和客户准入共同约束的液体危险品运输履约能力。这个门槛能帮助公司获得大型石化客户和长期包运合同，却没有在 2024—2025 年转化成稳定的定价权：收入从 2023 年的 12.6 亿元升至 2024 年的 15.0 亿元后回落至 14.4 亿元，EBIT 率由 22.9% 连续降至 14.8%，同期投入资本从 33.2 亿元升至 41.7 亿元，ROIC 从 8.53% 降至 4.33%。",
       "url": "reports/001205.SZ/"
-    },
-    {
-      "source": "current_company_research",
-      "analysis_version": "stock-research-analysis-v3",
-      "code": "300498.SZ",
-      "name": "温氏股份",
-      "market": "A",
-      "report_period": "2025-12-31",
-      "published_at": "2026-09-08T00:17:49+08:00",
-      "review_status": "pass",
-      "title": "温氏股份（300498.SZ）公司研究",
-      "excerpt": "温氏股份不是具有定价权的消费品牌企业，而是一套以育种、饲料、疫病防控、集中采购和数字化服务为核心，把4.49万户合作农户的栏舍与劳动力组织进来的规模化养殖系统。猪鸡价格基本随行就市，利润的主要变量仍是市场价格减去完全成本；公司真正能控制的是成活率、料肉比、种苗效率、饲料采购和固定费用。2025年猪、鸡收入合计993.84亿元，占营业收入95.7%，说明食品、动保和设备仍不足以显著改写周期属性。[2025年年度报告（2026-04-22），第10-15、33页](https:/……",
-      "url": "reports/300498.SZ/"
     },
     {
       "source": "current_company_research",

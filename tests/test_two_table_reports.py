@@ -6,7 +6,7 @@ import unittest
 from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
-from two_table_reports import public_view, merge_feed, refresh_index
+from two_table_reports import public_view, merge_feed, refresh_index, checked_business_assets
 from research_feed import ResearchFeedEntry
 
 
@@ -27,7 +27,31 @@ class TwoTableTests(unittest.TestCase):
             refresh_index(root)
             self.assertEqual(snapshot.read_bytes(), original)
             self.assertTrue((root / 'research/NEW/index.html').is_file())
+            self.assertIn('data-period-view="interim"', (root / 'research/NEW/latest/index.html').read_text())
+            self.assertIn('data-report="../versions/abc/report.json"', (root / 'research/NEW/latest/index.html').read_text())
             self.assertIn('/research/NEW/', (root / 'capital/index.html').read_text())
+
+    def test_business_assets_must_reconcile_to_company_totals(self):
+        result = {'companies': [{'code': 'TEST', 'asset_table': {'disclosure_summary': [
+            {'id': 'total_assets', 'values': {'y2025': 90}},
+            {'id': 'total_liabilities', 'values': {'y2025': 50}},
+        ]}}], 'reader_view': {'unit': 'CNY 亿元', 'operating_table': {'modules': [
+            {'businesses': [{'id': 'feed'}, {'id': 'hog'}]},
+        ]}}, 'period_metadata': {'y2025': {'kind': 'annual'}}}
+        data = {'code': 'TEST', 'unit': 'CNY 亿元', 'kind': 'gross_segments', 'note': '年报分部',
+                'sources': {'y2025': {'url': 'https://example.com/report.pdf', 'locator': '分部信息'}},
+                'segments': [
+                    {'id': 'feed', 'label': '饲料', 'assets': {'y2025': 40}, 'liabilities': {'y2025': 20}},
+                    {'id': 'hog', 'label': '猪产业', 'assets': {'y2025': 60}, 'liabilities': {'y2025': 35}},
+                ], 'eliminations': {'assets': {'y2025': 10}, 'liabilities': {'y2025': 5}}}
+        with tempfile.TemporaryDirectory() as temporary:
+            source = Path(temporary) / 'segments.json'
+            source.write_text(json.dumps(data))
+            self.assertEqual(checked_business_assets(source, result), data)
+            data['eliminations']['assets']['y2025'] = 9
+            source.write_text(json.dumps(data))
+            with self.assertRaisesRegex(ValueError, 'BUSINESS_ASSET_RECONCILIATION_FAILED'):
+                checked_business_assets(source, result)
 
     def test_one_entry_per_company_prefers_tables_then_research_then_report(self):
         with tempfile.TemporaryDirectory() as temporary:

@@ -17,6 +17,28 @@
       "version_url": "research/000683.SZ/versions/de3f8fb2e9a1a5cf73d0fc8b6c71c2a5d0a6ff504b57c4b4dd296f528f450b95/"
     },
     {
+      "code": "000876.SZ",
+      "name": "新希望",
+      "report_end": "2026-06-30",
+      "completed_at": "2026-09-27T22:05:43.292677+08:00",
+      "source_sha256": "021585e255bf30ec7279c1393c9e1445cc1a2be1e27904d75eb808b320facdce",
+      "view_sha256": "c1e94bcb0785e11988416e400faf13ef699dc92e5c65dd7bcd0b7ca14de86fe6",
+      "coverage": "5个完整年度；最新累计披露截至2026-06-30",
+      "provenance": "autonomous-two-table-v1",
+      "version_url": "research/000876.SZ/versions/021585e255bf30ec7279c1393c9e1445cc1a2be1e27904d75eb808b320facdce/"
+    },
+    {
+      "code": "002714.SZ",
+      "name": "牧原股份",
+      "report_end": "2026-06-30",
+      "completed_at": "2026-09-27T21:07:59.166725+08:00",
+      "source_sha256": "5525572024b696b4d1ed853684a5e26311b041af285ac324c434ceae48d1b032",
+      "view_sha256": "54bfece116962b4084431ca3fea8e208df6c3582b1129028b4f2e51f204bdc7e",
+      "coverage": "5个完整年度；最新累计披露截至2026-06-30",
+      "provenance": "autonomous-two-table-v1",
+      "version_url": "research/002714.SZ/versions/5525572024b696b4d1ed853684a5e26311b041af285ac324c434ceae48d1b032/"
+    },
+    {
       "code": "00837.HK",
       "name": "谭木匠集团（合并）",
       "report_end": "2025-12-31",
@@ -41,6 +63,17 @@
       "coverage": "5个完整年度；最新累计披露截至2026-06-30",
       "provenance": "autonomous-two-table-v1",
       "version_url": "research/09896.HK/versions/edce10dcd5afe05c99a9920d89da2aa0d3c55fad2bcd9f9ff126633239143e74/"
+    },
+    {
+      "code": "300498.SZ",
+      "name": "温氏食品集团股份有限公司",
+      "report_end": "2026-06-30",
+      "completed_at": "2026-09-27T21:34:44.403865+08:00",
+      "source_sha256": "5df0638b03e4992e2b614efa6128105316e6c7027a43b0a520de44a39eeaf30a",
+      "view_sha256": "995a8c50ea11f9584e0f1e4a9bb17a313962accbdc6294d6472a69ebe8735973",
+      "coverage": "5个完整年度；最新累计披露截至2026-06-30",
+      "provenance": "autonomous-two-table-v1",
+      "version_url": "research/300498.SZ/versions/5df0638b03e4992e2b614efa6128105316e6c7027a43b0a520de44a39eeaf30a/"
     },
     {
       "code": "600585.SH",

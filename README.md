@@ -12,6 +12,8 @@ Public stock research notes website for multi-market company reports.
 python3 scripts/two_table_reports.py --input /path/to/accepted.json --analysis-root /path/to/stock_analysis
 ```
 
+公司主页`/research/<code>/`只展示完整年度；`/research/<code>/latest/`单独展示最新半年、季度及可比同期。两页读取同一份已验收报告，期间类型由报告`period_metadata`决定。年报有可勾稽的业务分部资产、负债时，可用`--business-assets /path/to/segment-assets.json`补充披露；导入器逐年与合并数核对。没有完整分部资产披露时，补充文件只说明缺口，不按收入估算分摊。
+
 报告原件先通过分析仓协议校验，公开投影只移除运行文件路径；金额和解释保持不变。数据按哈希保存在`research/<code>/versions/`，公司页切换到当前版本，`data/two-table/catalog.json`登记引用。原构建器始终合并该目录，后续旧报告发布不会覆盖双表入口。静态渲染器沿用已验收的紧凑两表样式。
 
 生产通过`capital_publication_worker.py`的单一发布锁接收`company-two-table-publication-v1`队列项，临时worktree构建、提交并推送；研究Agent不直接发布。下文旧经营报告和资本表流程保留为历史维护入口。
