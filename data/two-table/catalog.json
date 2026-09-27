@@ -69,11 +69,11 @@
       "name": "温氏食品集团股份有限公司",
       "report_end": "2026-06-30",
       "completed_at": "2026-09-27T21:34:44.403865+08:00",
-      "source_sha256": "5df0638b03e4992e2b614efa6128105316e6c7027a43b0a520de44a39eeaf30a",
-      "view_sha256": "995a8c50ea11f9584e0f1e4a9bb17a313962accbdc6294d6472a69ebe8735973",
+      "source_sha256": "869e838a8d01a4eabf34eb64b13a25a17b3b81a537577e7634aef56c80f12b8c",
+      "view_sha256": "35f5e43bd05dabf05250573a9e59bdfbd1c7418f483be6eaedd87f63421e565a",
       "coverage": "5个完整年度；最新累计披露截至2026-06-30",
       "provenance": "autonomous-two-table-v1",
-      "version_url": "research/300498.SZ/versions/5df0638b03e4992e2b614efa6128105316e6c7027a43b0a520de44a39eeaf30a/"
+      "version_url": "research/300498.SZ/versions/869e838a8d01a4eabf34eb64b13a25a17b3b81a537577e7634aef56c80f12b8c/"
     },
     {
       "code": "600585.SH",

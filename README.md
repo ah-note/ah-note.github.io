@@ -16,6 +16,8 @@ python3 scripts/two_table_reports.py --input /path/to/accepted.json --analysis-r
 
 报告原件先通过分析仓协议校验，公开投影只移除运行文件路径；金额和解释保持不变。数据按哈希保存在`research/<code>/versions/`，公司页切换到当前版本，`data/two-table/catalog.json`登记引用。原构建器始终合并该目录，后续旧报告发布不会覆盖双表入口。静态渲染器沿用已验收的紧凑两表样式。
 
+单元格`reader_note`最多40字，不接纳科学计数法；较长的来源、计算和口径依据留在证据或表外说明。站点导入时再校验一次，避免绕过分析端约束。
+
 生产通过`capital_publication_worker.py`的单一发布锁接收`company-two-table-publication-v1`队列项，临时worktree构建、提交并推送；研究Agent不直接发布。下文旧经营报告和资本表流程保留为历史维护入口。
 
 ## Build

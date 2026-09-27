@@ -118,6 +118,19 @@ def checked_business_assets(source, result):
     return data
 
 
+def checked_reader_notes(view):
+    scientific = re.compile(r'(?<![A-Za-z0-9.])[-+]?\d+(?:\.\d+)?[eE][-+]?\d+(?![A-Za-z0-9.])')
+    def walk(value, path='reader_view'):
+        if isinstance(value, list):
+            for index, item in enumerate(value): walk(item, f'{path}/{index}')
+        elif isinstance(value, dict):
+            for key, item in value.items():
+                if key == 'reader_note' and (not isinstance(item, str) or len(item) > 40 or scientific.search(item)):
+                    raise ValueError(f'READER_NOTE_DISPLAY_INVALID: {path}')
+                walk(item, f'{path}/{key}')
+    walk(view)
+
+
 def install(source, root, analysis_root, business_assets=None):
     validator = analysis_root / 'agent_definitions/company_two_table/skills/company-two-table/scripts/protocol.py'
     done = subprocess.run([sys.executable, str(validator), 'validate', '--result', str(source)], capture_output=True, text=True)
@@ -141,6 +154,7 @@ def install(source, root, analysis_root, business_assets=None):
 def install_view(reader_view, root, digest, completed_at, report_end, coverage, provenance='autonomous-two-table-v1'):
     """Publish a validated view; historical migrations retain explicit provenance."""
     view = public_view(reader_view); code = view['code']
+    checked_reader_notes(view)
     if not re.fullmatch(r'[A-Za-z0-9._-]+', code): raise ValueError('COMPANY_CODE_INVALID')
     data = catalog(root)
     prior = next((e for e in data['companies'] if e['code'] == code), None)

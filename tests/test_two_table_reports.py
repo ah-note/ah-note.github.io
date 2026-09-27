@@ -6,11 +6,18 @@ import unittest
 from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
-from two_table_reports import public_view, merge_feed, refresh_index, checked_business_assets
+from two_table_reports import public_view, merge_feed, refresh_index, checked_business_assets, checked_reader_notes
 from research_feed import ResearchFeedEntry
 
 
 class TwoTableTests(unittest.TestCase):
+    def test_reader_notes_reject_long_text_and_scientific_notation(self):
+        for note in ('这是一个远超四十字的表格注释，混入了年份、来源、计算过程和多个不同口径，应该移到证据或表外说明中，不应占据单元格。',
+                     '肉猪销量1.66e+03万头'):
+            with self.subTest(note=note), self.assertRaisesRegex(ValueError, 'READER_NOTE_DISPLAY_INVALID'):
+                checked_reader_notes({'asset_table': {'groups': [{'evidence': {'2025': {'reader_note': note}}}]}})
+        checked_reader_notes({'reader_note': '肉猪销量1,660万头（不含仔猪）。'})
+
     def test_old_publisher_preserves_new_tables_and_versions(self):
         import build_site
         from two_table_reports import install_view

@@ -1,5 +1,6 @@
 const $ = (selector) => document.querySelector(selector);
 const esc = (value) => String(value ?? "").replace(/[&<>"']/g, (char) => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"})[char]);
+const readable = (value) => Number(value).toLocaleString("zh-CN", {maximumSignificantDigits:3, useGrouping:false});
 const fmt = (value, status = "") => {
   if (value == null && status === "not_applicable") return '<span class="missing">不适用</span>';
   if (value == null) return `<span class="missing">${componentMode ? "—" : "缺失"}</span>`;
@@ -33,9 +34,8 @@ function union(lists) {
 }
 
 function amountCell(value, rowspan = 1, status = "", note = "", ratio = null) {
-  const prefix = status === "external" ? "外部来源：" : status === "estimated" ? "估计：" : "";
-  const reader = note ? `<small class="value-note">${esc(prefix + note)}</small>` : "";
-  const attribution = value != null && ratio != null ? `（${(ratio * 100).toPrecision(3)}%）` : "";
+  const reader = note ? `<small class="value-note">${esc(note)}</small>` : "";
+  const attribution = value != null && ratio != null ? `（${readable(ratio * 100)}%）` : "";
   return `<td class="amount"${rowspan > 1 ? ` rowspan="${rowspan}"` : ""}>${fmt(value, status)}${attribution}${reader}</td>`;
 }
 
@@ -331,10 +331,10 @@ function cashNarrative(entity) {
   if (["net_profit", "operating_cash_flow", "asset_spending", "free_cash_flow"].some((id) => value(id) == null)) {
     const available = [["net_profit", "净利润"], ["operating_cash_flow", "经营现金净额"], ["asset_spending", "现金资本投入"], ["free_cash_flow", "自由现金余额"]]
       .filter(([id]) => value(id) != null)
-      .map(([id, label]) => `${label}${Number(value(id)).toPrecision(3)}${rows.find((r) => r.id === id)?.evidence?.[period]?.reader_note ? `（${rows.find((r) => r.id === id).evidence[period].reader_note}）` : ""}`);
+      .map(([id, label]) => `${label}${readable(value(id))}${rows.find((r) => r.id === id)?.evidence?.[period]?.reader_note ? `（${rows.find((r) => r.id === id).evidence[period].reader_note}）` : ""}`);
     return available.length ? `${period}年${available.join("，")}。金额均为${entity.unit}。` : "";
   }
-  const significant = (number) => Number(number).toPrecision(3);
+  const significant = readable;
   const signed = (number) => `${number >= 0 ? "+" : ""}${significant(number)}`;
   const end = rows.findIndex((row) => row.id === "operating_cash_flow");
   const adjustments = rows.slice(1, end);
@@ -361,7 +361,7 @@ function ownershipShare(entity, metric) {
 function ownershipNote(entity) {
   if (entity.presentation?.mode !== "component") return "";
   if (!Object.keys(entity.ownership || {}).length) return "";
-  const percent = (value) => value == null ? "未披露" : `${(value * 100).toPrecision(3)}%`;
+  const percent = (value) => value == null ? "未披露" : `${readable(value * 100)}%`;
   const periods = selectedPeriods(entity.asset_table.periods).map((p) => {
     const item = entity.ownership?.[p] || {};
     const profit = item.profit_ratio !== item.ratio ? `，利润适用比例${percent(item.profit_ratio)}` : "";
@@ -378,7 +378,7 @@ function componentTables(children, root) {
     const asset = kind === "asset";
     const header = periods.map((p) => `${openPeriods.has(p) ? "<th>变化原因解释</th><th>金额</th>" : ""}<th>${periodButton(p, kind, asset ? "年末" : "年度")}</th>`).join("");
     const blocks = children.map((entity) => {
-      const ratio = periods.map((p) => `${p}年末 ${entity.ownership?.[p]?.ratio == null ? "未披露" : (entity.ownership[p].ratio * 100).toPrecision(3) + "%"}`).join("；");
+      const ratio = periods.map((p) => `${p}年末 ${entity.ownership?.[p]?.ratio == null ? "未披露" : readable(entity.ownership[p].ratio * 100) + "%"}`).join("；");
       const rendered = asset ? assetTable(entity) : operatingTable(entity);
       const body = rendered.split("<tbody>")[1].split("</tbody>")[0];
       const note = asset ? entity.narratives.scope : cashNarrative(entity);
@@ -409,7 +409,7 @@ function entityView(entity, child = false) {
     const base = item.domain === "asset" ? assetMaterialityBases(entity.asset_table, entity.asset_table.periods).asset
       : operatingMaterialityBase(entity.operating_table, entity.operating_table.periods);
     return base === 0 ? item.difference !== 0 : Math.abs(item.difference) / base >= 0.03;
-  }).map((item) => `<p class="table-note">${esc(item.period)}年${esc(item.label)}：已列金额间差额${esc(Number(item.difference).toPrecision(3))}（${esc(entity.unit)}）。</p>`).join("");
+  }).map((item) => `<p class="table-note">${esc(item.period)}年${esc(item.label)}：已列金额间差额${esc(readable(item.difference))}（${esc(entity.unit)}）。</p>`).join("");
   const hasAssets = entity.asset_table.groups.length || entity.asset_table.disclosure_summary?.length || Object.keys(entity.asset_table.controls).length;
   const hasOperations = entity.operating_table.modules.some((m) => m.rows?.length || m.businesses?.some((b) => b.metrics.length));
   return `<section class="entity" id="entity-${esc(entity.id)}">${heading}${scope}${ownershipNote(entity)}${hasAssets ? assetTable(entity) : ""}${businessAssetDisclosure(entity)}${dilutionTable(entity)}${hasOperations ? operatingTable(entity) : ""}<div class="narratives">${equity}${cash}</div>${reconciliations}${source}</section>`
