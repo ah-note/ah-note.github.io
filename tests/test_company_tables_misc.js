@@ -38,6 +38,7 @@ function click(content, selector, data) {
   assert.doesNotMatch(context.testApi.readable(1e22), /e[+-]?\d/i);
   assert.equal(context.testApi.naturalUnit('USD / 1e+06'), '百万美元');
   assert.equal(context.testApi.naturalUnit('USD 亿元'), '亿美元');
+  assert.equal(context.testApi.naturalUnit('HKD 亿元'), '亿港币');
   const working = report.asset_table.groups.find((group) => group.id === 'operating').sections.find((section) => section.id === 'working');
   const periods = report.asset_table.periods;
   const base = context.testApi.assetMaterialityBases(report.asset_table, periods);

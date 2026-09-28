@@ -6,7 +6,7 @@ import unittest
 from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
-from two_table_reports import public_view, merge_feed, refresh_index, checked_business_assets, checked_reader_notes
+from two_table_reports import public_view, merge_feed, refresh_index, checked_business_assets, checked_reader_notes, checked_display_unit
 from research_feed import ResearchFeedEntry
 
 
@@ -19,6 +19,12 @@ class TwoTableTests(unittest.TestCase):
         checked_reader_notes({'reader_note': '肉猪销量1,660万头（不含仔猪）。'})
         with self.assertRaisesRegex(ValueError, 'SCIENTIFIC_DISPLAY_INVALID'):
             checked_reader_notes({'unit': 'USD / 1e+06'})
+
+    def test_currency_unit_labels_are_canonical(self):
+        for currency, unit in [('CNY', '亿元'), ('USD', '亿美元'), ('HKD', '亿港币')]:
+            checked_display_unit(currency, unit)
+        with self.assertRaisesRegex(ValueError, 'DISPLAY_UNIT_INVALID'):
+            checked_display_unit('HKD', '亿港元')
 
     def test_old_publisher_preserves_new_tables_and_versions(self):
         import build_site
