@@ -2,7 +2,7 @@ const $ = (selector) => document.querySelector(selector);
 const esc = (value) => String(value ?? "").replace(/[&<>"']/g, (char) => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"})[char]);
 const readable = (value) => Number(value).toLocaleString("zh-CN", {maximumSignificantDigits:3, useGrouping:false, notation:"standard"});
 function naturalUnit(unit) {
-  const names = {CNY:"元", USD:"美元", HKD:"港币", EUR:"欧元", JPY:"日元", GBP:"英镑"};
+  const names = {CNY:"元", USD:"美元", HKD:"港元", EUR:"欧元", JPY:"日元", GBP:"英镑"};
   const old = /^([A-Z]{3})\s*(?:\/\s*([\d.eE+,-]+)|亿元)$/.exec(unit || "");
   if (!old) return unit;
   const name = names[old[1]] || old[1];

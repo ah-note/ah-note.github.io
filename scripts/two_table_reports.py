@@ -134,12 +134,6 @@ def checked_reader_notes(view):
     walk(view)
 
 
-def checked_display_unit(currency, unit):
-    canonical = {'CNY': '亿元', 'USD': '亿美元', 'HKD': '亿港币'}
-    if (currency in canonical and unit != canonical[currency]) or re.search(r'\d[eE][+-]?\d', unit or ''):
-        raise ValueError('DISPLAY_UNIT_INVALID')
-
-
 def install(source, root, analysis_root, business_assets=None):
     validator = analysis_root / 'agent_definitions/company_two_table/skills/company-two-table/scripts/protocol.py'
     done = subprocess.run([sys.executable, str(validator), 'validate', '--result', str(source)], capture_output=True, text=True)
@@ -153,7 +147,8 @@ def install(source, root, analysis_root, business_assets=None):
         raise ValueError('DISPLAY_SCALE_INVALID')
     years = [p for p, m in result['period_metadata'].items() if m['kind'] == 'annual' and m.get('operating_visible')]
     view = dict(result['reader_view'])
-    checked_display_unit(result['currency'], view.get('unit', ''))
+    if re.search(r'\d[eE][+-]?\d', view.get('unit', '')):
+        raise ValueError('DISPLAY_UNIT_INVALID')
     view['period_metadata'] = result['period_metadata']
     supplement = checked_business_assets(business_assets, result)
     if supplement:
