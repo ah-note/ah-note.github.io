@@ -41,21 +41,21 @@ function click(content, selector, data) {
   assert.ok(misc.length >= 2);
   assert.ok(misc.some((item) => item.label === '销售票据'));
   for (const period of periods) {
-    const gross = working.objects.reduce((sum, item) => sum + Math.abs(item.values[period]), 0);
+    const parent = Math.abs(working.values[period]);
     const grouped = misc.reduce((sum, item) => sum + Math.abs(item.values[period]), 0);
-    assert.ok(grouped <= gross * 0.1 + 1e-9, `${period}: ${grouped} > ${gross * 0.1}`);
+    assert.ok(grouped <= parent * 0.1 + 1e-9, `${period}: ${grouped} > ${parent * 0.1}`);
   }
-  const synthetic = (values) => ({objects: values.map(([id, value, force_display]) => ({
+  const synthetic = (values, total) => ({values: {y2024: total, y2025: total}, objects: values.map(([id, value, force_display]) => ({
     id, values: {y2024: value, y2025: value}, movements: {}, force_display,
   }))});
   const years = ['y2024', 'y2025'];
-  const safe = context.testApi.miscObjects(synthetic([['core', 92, true], ['a', 4], ['b', 4]]),
+  const safe = context.testApi.miscObjects(synthetic([['core', 92, true], ['a', 4], ['b', 4]], 100),
     'operating', years, {asset: 200, liability: 200});
   assert.deepEqual(Array.from(safe, (item) => item.id), ['a', 'b']);
-  const offset = context.testApi.miscObjects(synthetic([['core', 92, true], ['a', 8], ['b', -8]]),
+  const offset = context.testApi.miscObjects(synthetic([['core', 92, true], ['a', 8], ['b', -8]], 92),
     'operating', years, {asset: 300, liability: 300});
   assert.equal(offset.length, 0, 'opposite signs cannot evade the ten percent cap');
-  assert.equal(context.testApi.miscObjects(synthetic([['core', 92, true], ['a', null], ['b', 4]]),
+  assert.equal(context.testApi.miscObjects(synthetic([['core', 92, true], ['a', null], ['b', 4]], 100),
     'operating', years, {asset: 200, liability: 200}).length, 0);
   assert.match(content.innerHTML, /经营周转资产与义务/);
   assert.match(content.innerHTML, /生产性固定资产/);
@@ -65,6 +65,9 @@ function click(content, selector, data) {
   const key = `${report.id}/operating/working`;
   click(content, '[data-section-key]', {sectionKey: key});
   assert.match(content.innerHTML, /data-misc-key=/);
+  assert.ok(content.innerHTML.includes(`data-parent-section="${key}"`));
+  assert.ok(content.innerHTML.indexOf('应付专业户款</th>') < content.innerHTML.indexOf(`data-parent-section="${key}"`));
+  assert.match(content.innerHTML, /经营周转资产与义务下杂项/);
   assert.doesNotMatch(content.innerHTML, /<th class="item"[^>]*>销售票据<\/th>/);
   click(content, '[data-misc-key]', {miscKey: key});
   assert.match(content.innerHTML, /<th class="item"[^>]*>销售票据<\/th>/);

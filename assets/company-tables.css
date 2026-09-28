@@ -8,6 +8,8 @@
 .business-assets>h3{width:850px;max-width:100%;margin:18px auto 4px;font-size:15px}
 .section-button,.misc-button{border:0;background:transparent;color:inherit;font:inherit;font-weight:inherit;text-align:left;cursor:pointer;padding:0}
 .section-button:hover,.misc-button:hover{text-decoration:underline;text-underline-offset:3px}
+.asset-table .category-title th:first-child{padding-left:22px}
+.asset-table .object-row th:first-child,.asset-table .misc-total th:first-child{padding-left:40px}
+.asset-table .misc-member th:first-child{padding-left:58px}
 .misc-total th,.misc-total td{background:#f4f7f8;font-weight:bold;border-top:1px solid #c6cfd4}
-.misc-member th:first-child{padding-left:44px}
 @media(max-width:650px){.category-title th:first-child{background:#eef1f3!important}.misc-total th:first-child{background:#f4f7f8!important}.misc-member th:first-child{background:#f4f7f8!important}}

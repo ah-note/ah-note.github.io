@@ -148,32 +148,31 @@ function deltaCells(values, period, periods, explanation = "") {
   return `<td class="change-label">${esc(explanation)}</td>${amountCell(delta)}`;
 }
 
-function miscObjects(section, groupId, allPeriods, bases) {
+function miscObjects(section, groupId, periods, bases) {
   if (componentMode || section.objects.length < 2) return [];
-  const gross = Object.fromEntries(allPeriods.map((period) => [period, section.objects.reduce((sum, object) =>
-    sum + Math.abs(Number(object.values[period]) || 0), 0)]));
-  if (allPeriods.some((period) => !gross[period] || section.objects.some((object) =>
+  const parent = Object.fromEntries(periods.map((period) => [period, Math.abs(Number(section.values[period]))]));
+  if (periods.some((period) => !parent[period] || section.values[period] == null || section.objects.some((object) =>
       object.values[period] == null || !Number.isFinite(Number(object.values[period]))))) return [];
   const candidates = section.objects.map((object, index) => ({object, index,
-    share: Math.max(...allPeriods.map((period) => Math.abs(object.values[period]) / gross[period]))}))
-    .filter(({object}) => !isMaterialObject(object, groupId, allPeriods, bases))
+    share: Math.max(...periods.map((period) => Math.abs(object.values[period]) / parent[period]))}))
+    .filter(({object}) => !isMaterialObject(object, groupId, periods, bases))
     .sort((left, right) => left.share - right.share || left.index - right.index);
-  const used = Object.fromEntries(allPeriods.map((period) => [period, 0]));
+  const used = Object.fromEntries(periods.map((period) => [period, 0]));
   const chosen = new Set();
   for (const {object} of candidates) {
-    if (allPeriods.every((period) => used[period] + Math.abs(object.values[period]) <= gross[period] * MISC_SECTION_LIMIT + 1e-9)) {
+    if (periods.every((period) => used[period] + Math.abs(object.values[period]) <= parent[period] * MISC_SECTION_LIMIT + 1e-9)) {
       chosen.add(object);
-      allPeriods.forEach((period) => { used[period] += Math.abs(object.values[period]); });
+      periods.forEach((period) => { used[period] += Math.abs(object.values[period]); });
     }
   }
   return chosen.size >= 2 ? section.objects.filter((object) => chosen.has(object)) : [];
 }
 
-function miscRows(objects, key, periods) {
+function miscRows(objects, key, sectionLabel, periods) {
   const open = openMiscSections.has(key);
   const values = Object.fromEntries(periods.map((period) => [period,
     objects.reduce((sum, object) => sum + object.values[period], 0)]));
-  let html = `<tr class="misc-total"><th><button type="button" class="misc-button" data-misc-key="${esc(key)}" aria-expanded="${open}" aria-label="${open ? "收起" : "展开"}杂项${objects.length}个项目">杂项（${objects.length}项）${open ? " ▾" : " ▸"}</button></th>`;
+  let html = `<tr class="misc-total" data-parent-section="${esc(key)}"><th><button type="button" class="misc-button" data-misc-key="${esc(key)}" aria-expanded="${open}" aria-label="${open ? "收起" : "展开"}${esc(sectionLabel)}下杂项${objects.length}个项目">杂项（${objects.length}项）${open ? " ▾" : " ▸"}</button></th>`;
   periods.forEach((period) => {
     if (openPeriods.has(period)) html += deltaCells(values, period, periods);
     html += amountCell(values[period]);
@@ -183,7 +182,7 @@ function miscRows(objects, key, periods) {
   return html;
 }
 
-function assetSectionRows(section, groupId, entityId, periods, allPeriods, bases, miscBases) {
+function assetSectionRows(section, groupId, entityId, periods, bases) {
   const key = `${entityId}/${groupId}/${section.id}`;
   const open = openAssetSections.has(key);
   let html = `<tr class="category-title"><th><button type="button" class="section-button" data-section-key="${esc(key)}" aria-expanded="${open}">${esc(section.label)}${open ? " ▾" : " ▸"}</button></th>`;
@@ -193,16 +192,11 @@ function assetSectionRows(section, groupId, entityId, periods, allPeriods, bases
   });
   html += "</tr>";
   if (!open) return html;
-  const misc = miscObjects(section, groupId, allPeriods, miscBases);
+  const misc = miscObjects(section, groupId, periods, bases);
   if (misc.length) {
     const selected = new Set(misc);
-    let inserted = false;
-    section.objects.forEach((object) => {
-      if (selected.has(object)) {
-        if (!inserted) html += miscRows(misc, key, periods);
-        inserted = true;
-      } else html += objectRows(object, periods);
-    });
+    section.objects.filter((object) => !selected.has(object)).forEach((object) => { html += objectRows(object, periods); });
+    html += miscRows(misc, key, section.label, periods);
     return html;
   }
   retainMaterial(section.objects, (object) => isMaterialObject(object, groupId, periods, bases), periods,
@@ -235,7 +229,6 @@ function assetTable(entity) {
   if (!periods.length) return "";
   const header = periods.map((period) => `${openPeriods.has(period) ? `<th>变化原因解释</th><th>金额</th>` : ""}<th>${periodButton(period, "asset", "年末")}</th>`).join("");
   const bases = assetMaterialityBases(table, periods);
-  const miscBases = assetMaterialityBases(table, table.periods);
   let body = "";
   (entity.presentation?.hide_disclosure_summary ? [] : table.disclosure_summary || []).forEach((row) => {
     body += summaryRow(row.label, row.values, periods, row.kind === "total" ? "band" : "category-title", row.evidence);
@@ -244,7 +237,7 @@ function assetTable(entity) {
     const values = totalValues(group.sections, periods);
     if (componentMode && !hasVisibleValues(values)) return;
     body += summaryRow(group.label, values, periods, "band");
-    group.sections.forEach((section) => { body += assetSectionRows(section, group.id, entity.id, periods, table.periods, bases, miscBases); });
+    group.sections.forEach((section) => { body += assetSectionRows(section, group.id, entity.id, periods, bases); });
   });
   Object.values(table.controls).forEach((control, index) => {
     if (!hasVisibleValues(control.values)) return;
