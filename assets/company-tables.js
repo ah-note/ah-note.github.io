@@ -1,6 +1,7 @@
 const $ = (selector) => document.querySelector(selector);
 const esc = (value) => String(value ?? "").replace(/[&<>"']/g, (char) => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"})[char]);
 const readable = (value) => Number(value).toLocaleString("zh-CN", {maximumSignificantDigits:3, useGrouping:false});
+const MISC_SECTION_LIMIT = 0.1;
 const fmt = (value, status = "") => {
   if (value == null && status === "not_applicable") return '<span class="missing">不适用</span>';
   if (value == null) return `<span class="missing">${componentMode ? "—" : "缺失"}</span>`;
@@ -14,6 +15,8 @@ let company;
 let componentMode = false;
 let comparisonContext = {};
 const openPeriods = new Set();
+const openAssetSections = new Set();
+const openMiscSections = new Set();
 let periodView = "annual";
 
 function selectedPeriods(periods) {
@@ -95,17 +98,6 @@ function isMaterialObject(object, groupId, periods, bases) {
   return base === 0 ? scale > 0 : scale / base >= 0.03;
 }
 
-function isMaterialSection(section, groupId, periods, bases) {
-  if (componentMode) periods = periods.filter((p) => section.values[p] != null);
-  if (!periods.length) return false;
-  if (section.force_display) return true;
-  const balances = periods.map((period) => section.values[period]);
-  if (balances.some((value) => value == null)) return true;
-  const scale = Math.max(...balances.map((value) => Math.abs(Number(value))), 0);
-  const base = groupId === "liabilities" ? bases.liability : bases.asset;
-  return base === 0 ? scale > 0 : scale / base >= 0.03;
-}
-
 function objectMovementPlan(object, periods) {
   return union(periods.filter((period) => openPeriods.has(period)).map((period) => {
     const movements = visibleMovements(object, period);
@@ -135,11 +127,11 @@ function movementCells(object, movement, period, periods) {
   return `<td class="change-label">${esc(found.label)}</td>${amountCell(found.id === "net" ? net : found.value)}`;
 }
 
-function objectRows(object, periods) {
+function objectRows(object, periods, extraClass = "") {
   const plan = objectMovementPlan(object, periods);
   const rows = plan.length ? plan : [{id:"closed"}];
   return rows.map((movement, index) => {
-    let html = '<tr class="object-row">';
+    let html = `<tr class="object-row ${extraClass}">`;
     if (index === 0) html += `<th class="item" rowspan="${rows.length}">${esc(object.label)}</th>`;
     periods.forEach((period) => {
       if (openPeriods.has(period)) html += movementCells(object, movement, period, periods);
@@ -156,8 +148,63 @@ function deltaCells(values, period, periods, explanation = "") {
   return `<td class="change-label">${esc(explanation)}</td>${amountCell(delta)}`;
 }
 
-function assetSectionRows(section, groupId, periods, bases) {
-  let html = summaryRow(section.label, section.values, periods, "category-title", section.evidence);
+function miscObjects(section, groupId, allPeriods, bases) {
+  if (componentMode || section.objects.length < 2) return [];
+  const gross = Object.fromEntries(allPeriods.map((period) => [period, section.objects.reduce((sum, object) =>
+    sum + Math.abs(Number(object.values[period]) || 0), 0)]));
+  if (allPeriods.some((period) => !gross[period] || section.objects.some((object) =>
+      object.values[period] == null || !Number.isFinite(Number(object.values[period]))))) return [];
+  const candidates = section.objects.map((object, index) => ({object, index,
+    share: Math.max(...allPeriods.map((period) => Math.abs(object.values[period]) / gross[period]))}))
+    .filter(({object}) => !isMaterialObject(object, groupId, allPeriods, bases))
+    .sort((left, right) => left.share - right.share || left.index - right.index);
+  const used = Object.fromEntries(allPeriods.map((period) => [period, 0]));
+  const chosen = new Set();
+  for (const {object} of candidates) {
+    if (allPeriods.every((period) => used[period] + Math.abs(object.values[period]) <= gross[period] * MISC_SECTION_LIMIT + 1e-9)) {
+      chosen.add(object);
+      allPeriods.forEach((period) => { used[period] += Math.abs(object.values[period]); });
+    }
+  }
+  return chosen.size >= 2 ? section.objects.filter((object) => chosen.has(object)) : [];
+}
+
+function miscRows(objects, key, periods) {
+  const open = openMiscSections.has(key);
+  const values = Object.fromEntries(periods.map((period) => [period,
+    objects.reduce((sum, object) => sum + object.values[period], 0)]));
+  let html = `<tr class="misc-total"><th><button type="button" class="misc-button" data-misc-key="${esc(key)}" aria-expanded="${open}" aria-label="${open ? "收起" : "展开"}杂项${objects.length}个项目">杂项（${objects.length}项）${open ? " ▾" : " ▸"}</button></th>`;
+  periods.forEach((period) => {
+    if (openPeriods.has(period)) html += deltaCells(values, period, periods);
+    html += amountCell(values[period]);
+  });
+  html += "</tr>";
+  if (open) html += objects.map((object) => objectRows(object, periods, "misc-member")).join("");
+  return html;
+}
+
+function assetSectionRows(section, groupId, entityId, periods, allPeriods, bases, miscBases) {
+  const key = `${entityId}/${groupId}/${section.id}`;
+  const open = openAssetSections.has(key);
+  let html = `<tr class="category-title"><th><button type="button" class="section-button" data-section-key="${esc(key)}" aria-expanded="${open}">${esc(section.label)}${open ? " ▾" : " ▸"}</button></th>`;
+  periods.forEach((period) => {
+    if (openPeriods.has(period)) html += deltaCells(section.values, period, periods);
+    html += amountCell(section.values[period], 1, section.evidence?.[period]?.status || "", section.evidence?.[period]?.reader_note || "");
+  });
+  html += "</tr>";
+  if (!open) return html;
+  const misc = miscObjects(section, groupId, allPeriods, miscBases);
+  if (misc.length) {
+    const selected = new Set(misc);
+    let inserted = false;
+    section.objects.forEach((object) => {
+      if (selected.has(object)) {
+        if (!inserted) html += miscRows(misc, key, periods);
+        inserted = true;
+      } else html += objectRows(object, periods);
+    });
+    return html;
+  }
   retainMaterial(section.objects, (object) => isMaterialObject(object, groupId, periods, bases), periods,
     groupId === "liabilities" ? bases.liability : bases.asset)
     .forEach((object) => { html += objectRows(object, periods); });
@@ -188,6 +235,7 @@ function assetTable(entity) {
   if (!periods.length) return "";
   const header = periods.map((period) => `${openPeriods.has(period) ? `<th>变化原因解释</th><th>金额</th>` : ""}<th>${periodButton(period, "asset", "年末")}</th>`).join("");
   const bases = assetMaterialityBases(table, periods);
+  const miscBases = assetMaterialityBases(table, table.periods);
   let body = "";
   (entity.presentation?.hide_disclosure_summary ? [] : table.disclosure_summary || []).forEach((row) => {
     body += summaryRow(row.label, row.values, periods, row.kind === "total" ? "band" : "category-title", row.evidence);
@@ -196,9 +244,7 @@ function assetTable(entity) {
     const values = totalValues(group.sections, periods);
     if (componentMode && !hasVisibleValues(values)) return;
     body += summaryRow(group.label, values, periods, "band");
-    retainMaterial(group.sections, (section) => isMaterialSection(section, group.id, periods, bases), periods,
-      group.id === "liabilities" ? bases.liability : bases.asset)
-      .forEach((section) => { body += assetSectionRows(section, group.id, periods, bases); });
+    group.sections.forEach((section) => { body += assetSectionRows(section, group.id, entity.id, periods, table.periods, bases, miscBases); });
   });
   Object.values(table.controls).forEach((control, index) => {
     if (!hasVisibleValues(control.values)) return;
@@ -431,6 +477,20 @@ async function init() {
   $("#page-header").innerHTML = `<strong>${esc(company.name)} <small>${esc(company.code)}</small></strong><span>${esc(company.scope)} · ${esc(company.unit)}</span>`;
   draw();
   $("#company-content").addEventListener("click", (event) => {
+    const sectionButton = event.target.closest("[data-section-key]");
+    if (sectionButton) {
+      const key = sectionButton.dataset.sectionKey;
+      openAssetSections.has(key) ? openAssetSections.delete(key) : openAssetSections.add(key);
+      draw(`[data-section-key="${CSS.escape(key)}"]`);
+      return;
+    }
+    const miscButton = event.target.closest("[data-misc-key]");
+    if (miscButton) {
+      const key = miscButton.dataset.miscKey;
+      openMiscSections.has(key) ? openMiscSections.delete(key) : openMiscSections.add(key);
+      draw(`[data-misc-key="${CSS.escape(key)}"]`);
+      return;
+    }
     const button = event.target.closest("[data-period]");
     if (!button) return;
     const period = button.dataset.period;
