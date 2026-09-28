@@ -59,3 +59,11 @@
   - A mapped company may be browsed without being presented as industry- or company-reviewed; unresolved mappings and other exceptions remain explicit.
   - Classification-only changes are independently published and include optional SEC evidence in the content digest.
 - Verification: latest real build generated 13,349 issuers across 378 leaves, including 12,216 mapped and 826 unmapped; 45 Python tests and the Node browser-state test passed before commit `4731cf9a` was pushed to main.
+
+## 2026-09-28T14:24:00+08:00 Asia/Shanghai
+
+- Range: `1f27d238..639e7920`.
+- Changed pages: `project-memory/status/current.md`, `.agent/alignment-record`, `.agent/alignment-log.md`.
+- Absorbed records: 10 files moved to `.agent/records/absorbed/2026-09-28-two-table-publication/`; no pending records.
+- Resolved context: the public company entry remains `/capital/`; current double-table company pages show full years and move interim periods to `latest/`; validated business asset disclosure is kept separate from operating splits. Asset sections and their miscellaneous child rows are display-only folds. The final miscellaneous budget uses 10% of the larger of a section's absolute net amount and its largest child's absolute amount, while each included child consumes budget by absolute amount.
+- Verification: 56 Python tests, company-table Node interaction test, and industry-browser Node test passed before `639e7920`; Pages reported that commit built, and the three annual and three interim pages plus shared JS/CSS returned the updated resource version online.
