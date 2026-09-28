@@ -140,15 +140,17 @@ def install(source, root, analysis_root, business_assets=None):
     if (result.get('workflow_contract') != 'autonomous-two-table-v1' or delivery.get('success') is not True
             or delivery.get('block') is not None or not delivery.get('summary')):
         raise ValueError('AGENT_DELIVERY_REQUIRED')
-    years = [p for p, m in result['period_metadata'].items() if m['kind'] == 'annual']
+    years = [p for p, m in result['period_metadata'].items() if m['kind'] == 'annual' and m.get('operating_visible')]
     view = dict(result['reader_view'])
     view['period_metadata'] = result['period_metadata']
     supplement = checked_business_assets(business_assets, result)
     if supplement:
         view['business_asset_disclosure'] = supplement
+    coverage = f'{len(years)}个完整年度'
+    if result.get('research_request', {}).get('scope', {}).get('latest_report'):
+        coverage += f'；最新累计披露截至{result["disclosure_resolution"]["report_end"]}'
     return install_view(view, root, hashlib.sha256(raw).hexdigest(),
-                        delivery['completed_at'], result['disclosure_resolution']['report_end'],
-                        f'{len(years)}个完整年度；最新累计披露截至{result["disclosure_resolution"]["report_end"]}')
+                        delivery['completed_at'], result['disclosure_resolution']['report_end'], coverage)
 
 
 def install_view(reader_view, root, digest, completed_at, report_end, coverage, provenance='autonomous-two-table-v1'):

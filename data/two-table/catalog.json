@@ -107,6 +107,17 @@
       "coverage": "10个完整年度；最新累计披露截至2026-03-31",
       "provenance": "autonomous-two-table-v1",
       "version_url": "research/UVV/versions/a2dc2477bfffb31e303d71aae605a4c5297d8f631b76e8cb66486152b07c3fe4/"
+    },
+    {
+      "code": "ZBH",
+      "name": "Zimmer Biomet Holdings, Inc.",
+      "report_end": "2025-12-31",
+      "completed_at": "2026-09-28T14:59:21.545095+08:00",
+      "source_sha256": "d0472e609b666fffe66a8a92f56ad1ac871ac2fdd49906e25132dd1d9c190b71",
+      "view_sha256": "a61d8137b4e92765d967de95ad130eedc066c05a30a155a33f935b608aa011bc",
+      "coverage": "1个完整年度",
+      "provenance": "autonomous-two-table-v1",
+      "version_url": "research/ZBH/versions/d0472e609b666fffe66a8a92f56ad1ac871ac2fdd49906e25132dd1d9c190b71/"
     }
   ]
 }
