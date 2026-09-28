@@ -1,0 +1,4099 @@
+{
+  "id": "zbh",
+  "code": "ZBH",
+  "accounting_scope": "consolidated",
+  "coverage": {
+    "level": "complete",
+    "basis": "核对2025年报财务报表及附注7–12、17–19；以地区分部提供成本利润，产品作为辅助说明；非全资逐项比例和其他资产细分存在披露边界。",
+    "source_ids": [
+      "sec_10k_2025"
+    ]
+  },
+  "name": "Zimmer Biomet Holdings, Inc.",
+  "scope": "Zimmer Biomet Holdings, Inc. and subsidiaries, consolidated",
+  "unit": "亿美元",
+  "asset_table": {
+    "periods": [
+      "fy2025"
+    ],
+    "groups": [
+      {
+        "id": "operating",
+        "label": "经营净资产",
+        "sections": [
+          {
+            "id": "working",
+            "label": "经营周转资产与义务",
+            "objects": [
+              {
+                "id": "accounts_payable",
+                "label": "应付供应商款",
+                "kind": "line",
+                "values": {
+                  "fy2025": -3.03,
+                  "fy2024": -1.946
+                },
+                "statuses": {
+                  "fy2025": "disclosed",
+                  "fy2024": "disclosed"
+                },
+                "evidence": {
+                  "fy2025": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 47,
+                    "basis": "2025年报原表；百万美元转换为美元。",
+                    "calculation": null
+                  },
+                  "fy2024": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 47,
+                    "basis": "2025年报原表；百万美元转换为美元。",
+                    "calculation": null
+                  }
+                },
+                "movement_review": {},
+                "movements": {
+                  "fy2025": [],
+                  "fy2024": []
+                },
+                "movement_residual": {
+                  "fy2024": 1.0839999999999999
+                }
+              },
+              {
+                "id": "accruals",
+                "label": "其他应计流动义务（扣除租赁）",
+                "kind": "line",
+                "values": {
+                  "fy2025": -7.77,
+                  "fy2024": -6.533
+                },
+                "statuses": {
+                  "fy2025": "derived",
+                  "fy2024": "derived"
+                },
+                "evidence": {
+                  "fy2025": {
+                    "status": "derived",
+                    "source_id": "sec_10k_2025",
+                    "page": 65,
+                    "basis": "2025年报原表；百万美元转换为美元。",
+                    "calculation": "应计834.5-租赁57.5=777.0；706.5-53.2=653.3"
+                  },
+                  "fy2024": {
+                    "status": "derived",
+                    "source_id": "sec_10k_2025",
+                    "page": 65,
+                    "basis": "2025年报原表；百万美元转换为美元。",
+                    "calculation": "应计834.5-租赁57.5=777.0；706.5-53.2=653.3"
+                  }
+                },
+                "movement_review": {},
+                "movements": {
+                  "fy2025": [],
+                  "fy2024": []
+                },
+                "movement_residual": {
+                  "fy2024": 1.2369999999999992
+                }
+              },
+              {
+                "id": "employees",
+                "label": "应付薪酬福利",
+                "kind": "line",
+                "values": {
+                  "fy2025": -4.771,
+                  "fy2024": -3.732
+                },
+                "statuses": {
+                  "fy2025": "disclosed",
+                  "fy2024": "disclosed"
+                },
+                "evidence": {
+                  "fy2025": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 65,
+                    "basis": "2025年报原表；百万美元转换为美元。",
+                    "calculation": null
+                  },
+                  "fy2024": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 65,
+                    "basis": "2025年报原表；百万美元转换为美元。",
+                    "calculation": null
+                  }
+                },
+                "movement_review": {},
+                "movements": {
+                  "fy2025": [],
+                  "fy2024": []
+                },
+                "movement_residual": {
+                  "fy2024": 1.0389999999999997
+                }
+              },
+              {
+                "id": "finished",
+                "label": "植入物及其他产成品",
+                "kind": "line",
+                "values": {
+                  "fy2025": 18.322,
+                  "fy2024": 17.717
+                },
+                "statuses": {
+                  "fy2025": "disclosed",
+                  "fy2024": "disclosed"
+                },
+                "evidence": {
+                  "fy2025": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 58,
+                    "basis": "2025年报原表；百万美元转换为美元。",
+                    "calculation": null
+                  },
+                  "fy2024": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 58,
+                    "basis": "2025年报原表；百万美元转换为美元。",
+                    "calculation": null
+                  }
+                },
+                "movement_review": {},
+                "movements": {
+                  "fy2025": [],
+                  "fy2024": []
+                },
+                "movement_residual": {
+                  "fy2024": -0.6050000000000004
+                }
+              },
+              {
+                "id": "licenses",
+                "label": "许可与服务应付款",
+                "kind": "line",
+                "values": {
+                  "fy2025": -1.39,
+                  "fy2024": -1.105
+                },
+                "statuses": {
+                  "fy2025": "disclosed",
+                  "fy2024": "disclosed"
+                },
+                "evidence": {
+                  "fy2025": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 65,
+                    "basis": "2025年报原表；百万美元转换为美元。",
+                    "calculation": null
+                  },
+                  "fy2024": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 65,
+                    "basis": "2025年报原表；百万美元转换为美元。",
+                    "calculation": null
+                  }
+                },
+                "movement_review": {},
+                "movements": {
+                  "fy2025": [],
+                  "fy2024": []
+                },
+                "movement_residual": {
+                  "fy2024": 0.2849999999999999
+                }
+              },
+              {
+                "id": "raw",
+                "label": "原材料",
+                "kind": "line",
+                "values": {
+                  "fy2025": 2.732,
+                  "fy2024": 2.885
+                },
+                "statuses": {
+                  "fy2025": "disclosed",
+                  "fy2024": "disclosed"
+                },
+                "evidence": {
+                  "fy2025": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 58,
+                    "basis": "2025年报原表；百万美元转换为美元。",
+                    "calculation": null
+                  },
+                  "fy2024": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 58,
+                    "basis": "2025年报原表；百万美元转换为美元。",
+                    "calculation": null
+                  }
+                },
+                "movement_review": {},
+                "movements": {
+                  "fy2025": [],
+                  "fy2024": []
+                },
+                "movement_residual": {
+                  "fy2024": 0.15299999999999958
+                }
+              },
+              {
+                "id": "rebates",
+                "label": "客户返利义务",
+                "kind": "line",
+                "values": {
+                  "fy2025": -2.43,
+                  "fy2024": -2.031
+                },
+                "statuses": {
+                  "fy2025": "disclosed",
+                  "fy2024": "disclosed"
+                },
+                "evidence": {
+                  "fy2025": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 65,
+                    "basis": "2025年报原表；百万美元转换为美元。",
+                    "calculation": null
+                  },
+                  "fy2024": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 65,
+                    "basis": "2025年报原表；百万美元转换为美元。",
+                    "calculation": null
+                  }
+                },
+                "movement_review": {},
+                "movements": {
+                  "fy2025": [],
+                  "fy2024": []
+                },
+                "movement_residual": {
+                  "fy2024": 0.399
+                }
+              },
+              {
+                "id": "wip",
+                "label": "在产品",
+                "kind": "line",
+                "values": {
+                  "fy2025": 1.81,
+                  "fy2024": 1.751
+                },
+                "statuses": {
+                  "fy2025": "disclosed",
+                  "fy2024": "disclosed"
+                },
+                "evidence": {
+                  "fy2025": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 58,
+                    "basis": "2025年报原表；百万美元转换为美元。",
+                    "calculation": null
+                  },
+                  "fy2024": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 58,
+                    "basis": "2025年报原表；百万美元转换为美元。",
+                    "calculation": null
+                  }
+                },
+                "movement_review": {},
+                "movements": {
+                  "fy2025": [],
+                  "fy2024": []
+                },
+                "movement_residual": {
+                  "fy2024": -0.05900000000000016
+                }
+              },
+              {
+                "id": "prepaids_other_current",
+                "label": "预付及其他流动资产",
+                "kind": "line",
+                "values": {
+                  "fy2025": 5.373,
+                  "fy2024": 4.301
+                },
+                "statuses": {
+                  "fy2025": "disclosed",
+                  "fy2024": "disclosed"
+                },
+                "evidence": {
+                  "fy2025": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 47,
+                    "basis": "Disclosed consolidated balance-sheet line item in 2025 Form 10-K.",
+                    "calculation": null
+                  },
+                  "fy2024": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 47,
+                    "basis": "Disclosed consolidated balance-sheet line item in 2025 Form 10-K.",
+                    "calculation": null
+                  }
+                },
+                "movement_review": {},
+                "movements": {
+                  "fy2025": [],
+                  "fy2024": []
+                },
+                "movement_residual": {
+                  "fy2024": -1.072
+                }
+              },
+              {
+                "id": "receivables",
+                "label": "应收账款",
+                "kind": "line",
+                "values": {
+                  "fy2025": 17.044,
+                  "fy2024": 14.807
+                },
+                "statuses": {
+                  "fy2025": "disclosed",
+                  "fy2024": "disclosed"
+                },
+                "evidence": {
+                  "fy2025": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 47,
+                    "basis": "Disclosed consolidated balance-sheet line item in 2025 Form 10-K.",
+                    "calculation": null
+                  },
+                  "fy2024": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 47,
+                    "basis": "Disclosed consolidated balance-sheet line item in 2025 Form 10-K.",
+                    "calculation": null
+                  }
+                },
+                "movement_review": {},
+                "movements": {
+                  "fy2025": [],
+                  "fy2024": []
+                },
+                "movement_residual": {
+                  "fy2024": -2.237
+                }
+              }
+            ],
+            "kind": "subtotal",
+            "values": {
+              "fy2025": 25.89,
+              "fy2024": 26.114
+            },
+            "statuses": {
+              "fy2025": "derived",
+              "fy2024": "derived"
+            },
+            "evidence": {
+              "fy2025": {
+                "status": "derived",
+                "source_id": "sec_10k_2025",
+                "page": 47,
+                "basis": "2025年报原表；百万美元转换为美元。",
+                "calculation": "按底层真实对象有符号金额加总；保留财报舍入差异。"
+              },
+              "fy2024": {
+                "status": "derived",
+                "source_id": "sec_10k_2025",
+                "page": 47,
+                "basis": "2025年报原表；百万美元转换为美元。",
+                "calculation": "按底层真实对象有符号金额加总；保留财报舍入差异。"
+              }
+            }
+          },
+          {
+            "id": "facilities",
+            "label": "生产性固定资产",
+            "objects": [
+              {
+                "id": "lease_rou",
+                "label": "办公场所及车辆使用权",
+                "kind": "line",
+                "values": {
+                  "fy2025": 2.042,
+                  "fy2024": 2.135
+                },
+                "statuses": {
+                  "fy2025": "disclosed",
+                  "fy2024": "disclosed"
+                },
+                "evidence": {
+                  "fy2025": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 81,
+                    "basis": "2025年报原表；百万美元转换为美元。",
+                    "calculation": null
+                  },
+                  "fy2024": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 81,
+                    "basis": "2025年报原表；百万美元转换为美元。",
+                    "calculation": null
+                  }
+                },
+                "force_display": true,
+                "movement_review": {},
+                "movements": {
+                  "fy2025": [],
+                  "fy2024": []
+                },
+                "movement_residual": {
+                  "fy2024": 0.09299999999999997
+                }
+              },
+              {
+                "id": "accumulated_depreciation",
+                "label": "累计折旧",
+                "kind": "line",
+                "values": {
+                  "fy2025": -50.503,
+                  "fy2024": -46.414
+                },
+                "statuses": {
+                  "fy2025": "disclosed",
+                  "fy2024": "disclosed"
+                },
+                "evidence": {
+                  "fy2025": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 58,
+                    "basis": "附注7：固定资产原值与累计折旧；折旧未按资产类别分配。",
+                    "calculation": null
+                  },
+                  "fy2024": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 58,
+                    "basis": "附注7：固定资产原值与累计折旧；折旧未按资产类别分配。",
+                    "calculation": null
+                  }
+                },
+                "movement_review": {},
+                "movements": {
+                  "fy2025": [],
+                  "fy2024": []
+                },
+                "movement_residual": {
+                  "fy2024": 4.088999999999999
+                }
+              },
+              {
+                "id": "building_equipment",
+                "label": "建筑物及设备",
+                "kind": "line",
+                "values": {
+                  "fy2025": 24.198,
+                  "fy2024": 22.731
+                },
+                "statuses": {
+                  "fy2025": "disclosed",
+                  "fy2024": "disclosed"
+                },
+                "evidence": {
+                  "fy2025": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 58,
+                    "basis": "附注7：固定资产原值与累计折旧；折旧未按资产类别分配。",
+                    "calculation": null
+                  },
+                  "fy2024": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 58,
+                    "basis": "附注7：固定资产原值与累计折旧；折旧未按资产类别分配。",
+                    "calculation": null
+                  }
+                },
+                "movement_review": {},
+                "movements": {
+                  "fy2025": [],
+                  "fy2024": []
+                },
+                "movement_residual": {
+                  "fy2024": -1.4669999999999987
+                }
+              },
+              {
+                "id": "capitalized_software",
+                "label": "资本化软件",
+                "kind": "line",
+                "values": {
+                  "fy2025": 6.238,
+                  "fy2024": 5.751
+                },
+                "statuses": {
+                  "fy2025": "disclosed",
+                  "fy2024": "disclosed"
+                },
+                "evidence": {
+                  "fy2025": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 58,
+                    "basis": "附注7：固定资产原值与累计折旧；折旧未按资产类别分配。",
+                    "calculation": null
+                  },
+                  "fy2024": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 58,
+                    "basis": "附注7：固定资产原值与累计折旧；折旧未按资产类别分配。",
+                    "calculation": null
+                  }
+                },
+                "force_display": true,
+                "movement_review": {},
+                "movements": {
+                  "fy2025": [],
+                  "fy2024": []
+                },
+                "movement_residual": {
+                  "fy2024": -0.4870000000000001
+                }
+              },
+              {
+                "id": "instruments",
+                "label": "手术器械",
+                "kind": "line",
+                "values": {
+                  "fy2025": 39.05,
+                  "fy2024": 35.896
+                },
+                "statuses": {
+                  "fy2025": "disclosed",
+                  "fy2024": "disclosed"
+                },
+                "evidence": {
+                  "fy2025": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 58,
+                    "basis": "附注7：固定资产原值与累计折旧；折旧未按资产类别分配。",
+                    "calculation": null
+                  },
+                  "fy2024": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 58,
+                    "basis": "附注7：固定资产原值与累计折旧；折旧未按资产类别分配。",
+                    "calculation": null
+                  }
+                },
+                "force_display": true,
+                "movement_review": {},
+                "movements": {
+                  "fy2025": [],
+                  "fy2024": []
+                },
+                "movement_residual": {
+                  "fy2024": -3.1539999999999964
+                }
+              },
+              {
+                "id": "land",
+                "label": "土地",
+                "kind": "line",
+                "values": {
+                  "fy2025": 0.225,
+                  "fy2024": 0.185
+                },
+                "statuses": {
+                  "fy2025": "disclosed",
+                  "fy2024": "disclosed"
+                },
+                "evidence": {
+                  "fy2025": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 58,
+                    "basis": "附注7：固定资产原值与累计折旧；折旧未按资产类别分配。",
+                    "calculation": null
+                  },
+                  "fy2024": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 58,
+                    "basis": "附注7：固定资产原值与累计折旧；折旧未按资产类别分配。",
+                    "calculation": null
+                  }
+                },
+                "movement_review": {},
+                "movements": {
+                  "fy2025": [],
+                  "fy2024": []
+                },
+                "movement_residual": {
+                  "fy2024": -0.04000000000000001
+                }
+              }
+            ],
+            "kind": "subtotal",
+            "values": {
+              "fy2025": 21.25,
+              "fy2024": 20.284
+            },
+            "statuses": {
+              "fy2025": "derived",
+              "fy2024": "derived"
+            },
+            "evidence": {
+              "fy2025": {
+                "status": "derived",
+                "source_id": "sec_10k_2025",
+                "page": 47,
+                "basis": "2025年报原表；百万美元转换为美元。",
+                "calculation": "按底层真实对象有符号金额加总；保留财报舍入差异。"
+              },
+              "fy2024": {
+                "status": "derived",
+                "source_id": "sec_10k_2025",
+                "page": 47,
+                "basis": "2025年报原表；百万美元转换为美元。",
+                "calculation": "按底层真实对象有符号金额加总；保留财报舍入差异。"
+              }
+            }
+          },
+          {
+            "id": "rights",
+            "label": "资源和权利资产",
+            "objects": [
+              {
+                "id": "brands",
+                "label": "商标及商号净额",
+                "kind": "line",
+                "values": {
+                  "fy2025": 6.808,
+                  "fy2024": 6.574
+                },
+                "statuses": {
+                  "fy2025": "disclosed",
+                  "fy2024": "disclosed"
+                },
+                "evidence": {
+                  "fy2025": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 65,
+                    "basis": "2025年报原表；百万美元转换为美元。",
+                    "calculation": null
+                  },
+                  "fy2024": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 65,
+                    "basis": "2025年报原表；百万美元转换为美元。",
+                    "calculation": null
+                  }
+                },
+                "movement_review": {},
+                "movements": {
+                  "fy2025": [],
+                  "fy2024": []
+                },
+                "movement_residual": {
+                  "fy2024": -0.23399999999999999
+                }
+              },
+              {
+                "id": "customers",
+                "label": "客户关系净额",
+                "kind": "line",
+                "values": {
+                  "fy2025": 21.793,
+                  "fy2024": 23.631
+                },
+                "statuses": {
+                  "fy2025": "disclosed",
+                  "fy2024": "disclosed"
+                },
+                "evidence": {
+                  "fy2025": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 65,
+                    "basis": "2025年报原表；百万美元转换为美元。",
+                    "calculation": null
+                  },
+                  "fy2024": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 65,
+                    "basis": "2025年报原表；百万美元转换为美元。",
+                    "calculation": null
+                  }
+                },
+                "movement_review": {},
+                "movements": {
+                  "fy2025": [],
+                  "fy2024": []
+                },
+                "movement_residual": {
+                  "fy2024": 1.838000000000001
+                }
+              },
+              {
+                "id": "ip_rights",
+                "label": "知识产权净额",
+                "kind": "line",
+                "values": {
+                  "fy2025": 0.948,
+                  "fy2024": 1.317
+                },
+                "statuses": {
+                  "fy2025": "disclosed",
+                  "fy2024": "disclosed"
+                },
+                "evidence": {
+                  "fy2025": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 65,
+                    "basis": "2025年报原表；百万美元转换为美元。",
+                    "calculation": null
+                  },
+                  "fy2024": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 65,
+                    "basis": "2025年报原表；百万美元转换为美元。",
+                    "calculation": null
+                  }
+                },
+                "force_display": true,
+                "movement_review": {},
+                "movements": {
+                  "fy2025": [],
+                  "fy2024": []
+                },
+                "movement_residual": {
+                  "fy2024": 0.369
+                }
+              },
+              {
+                "id": "monogram_iprd",
+                "label": "Monogram在研骨科机器人",
+                "kind": "line",
+                "values": {
+                  "fy2025": 1.315,
+                  "fy2024": 0.0
+                },
+                "statuses": {
+                  "fy2025": "derived",
+                  "fy2024": "disclosed"
+                },
+                "evidence": {
+                  "fy2025": {
+                    "status": "derived",
+                    "basis": "附注9，两家公司收购全部流通股份，2025年末全资；此项为已映射合并无形资产组成。",
+                    "calculation": "1.315 * 1.0"
+                  },
+                  "fy2024": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 62,
+                    "basis": "附注9及10：收购在研机器人，尚未商业化；年末在研资产总额216.1。",
+                    "calculation": null
+                  }
+                },
+                "attribution": {
+                  "fy2025": {
+                    "ratio": 1.0,
+                    "basis": "附注9，两家公司收购全部流通股份，2025年末全资；此项为已映射合并无形资产组成。"
+                  }
+                },
+                "force_display": true,
+                "movement_review": {},
+                "movements": {
+                  "fy2025": [],
+                  "fy2024": []
+                },
+                "movement_residual": {
+                  "fy2024": -1.315
+                },
+                "attribution_ratios": {
+                  "fy2025": 1.0
+                }
+              },
+              {
+                "id": "other_intangibles",
+                "label": "其他无形资产净额",
+                "kind": "line",
+                "values": {
+                  "fy2025": 0.357,
+                  "fy2024": 0.647
+                },
+                "statuses": {
+                  "fy2025": "disclosed",
+                  "fy2024": "disclosed"
+                },
+                "evidence": {
+                  "fy2025": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 65,
+                    "basis": "2025年报原表；百万美元转换为美元。",
+                    "calculation": null
+                  },
+                  "fy2024": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 65,
+                    "basis": "2025年报原表；百万美元转换为美元。",
+                    "calculation": null
+                  }
+                },
+                "movement_review": {},
+                "movements": {
+                  "fy2025": [],
+                  "fy2024": []
+                },
+                "movement_residual": {
+                  "fy2024": 0.29000000000000004
+                }
+              },
+              {
+                "id": "paragon_iprd",
+                "label": "Paragon 28在研足踝技术",
+                "kind": "line",
+                "values": {
+                  "fy2025": 0.846,
+                  "fy2024": 0.0
+                },
+                "statuses": {
+                  "fy2025": "derived",
+                  "fy2024": "derived"
+                },
+                "evidence": {
+                  "fy2025": {
+                    "status": "derived",
+                    "basis": "附注9，两家公司收购全部流通股份，2025年末全资；此项为已映射合并无形资产组成。",
+                    "calculation": "0.846 * 1.0"
+                  },
+                  "fy2024": {
+                    "status": "derived",
+                    "source_id": "sec_10k_2025",
+                    "page": 61,
+                    "basis": "2025年报原表；百万美元转换为美元。",
+                    "calculation": "103.0收购在研技术-18.4商业化转入有限寿命技术=84.6；加Monogram131.5=216.1"
+                  }
+                },
+                "attribution": {
+                  "fy2025": {
+                    "ratio": 1.0,
+                    "basis": "附注9，两家公司收购全部流通股份，2025年末全资；此项为已映射合并无形资产组成。"
+                  }
+                },
+                "force_display": true,
+                "movement_review": {},
+                "movements": {
+                  "fy2025": [],
+                  "fy2024": []
+                },
+                "movement_residual": {
+                  "fy2024": -0.846
+                },
+                "attribution_ratios": {
+                  "fy2025": 1.0
+                }
+              },
+              {
+                "id": "technology",
+                "label": "技术无形资产净额",
+                "kind": "line",
+                "values": {
+                  "fy2025": 15.106,
+                  "fy2024": 13.815
+                },
+                "statuses": {
+                  "fy2025": "disclosed",
+                  "fy2024": "disclosed"
+                },
+                "evidence": {
+                  "fy2025": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 65,
+                    "basis": "2025年报原表；百万美元转换为美元。",
+                    "calculation": null
+                  },
+                  "fy2024": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 65,
+                    "basis": "2025年报原表；百万美元转换为美元。",
+                    "calculation": null
+                  }
+                },
+                "movement_review": {},
+                "movements": {
+                  "fy2025": [],
+                  "fy2024": []
+                },
+                "movement_residual": {
+                  "fy2024": -1.2910000000000004
+                }
+              },
+              {
+                "id": "goodwill",
+                "label": "商誉",
+                "kind": "line",
+                "values": {
+                  "fy2025": 99.471,
+                  "fy2024": 89.511
+                },
+                "statuses": {
+                  "fy2025": "disclosed",
+                  "fy2024": "disclosed"
+                },
+                "evidence": {
+                  "fy2025": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 47,
+                    "basis": "Disclosed consolidated balance-sheet line item in 2025 Form 10-K.",
+                    "calculation": null
+                  },
+                  "fy2024": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 47,
+                    "basis": "Disclosed consolidated balance-sheet line item in 2025 Form 10-K.",
+                    "calculation": null
+                  }
+                },
+                "movement_review": {
+                  "fy2025": {
+                    "status": "explained",
+                    "basis": "附注10商誉滚存：8951.1+2.3+620.1+263.0+110.6=9947.1。",
+                    "source_ids": [
+                      "sec_10k_2025"
+                    ]
+                  }
+                },
+                "movements": {
+                  "fy2025": [
+                    {
+                      "id": "prior_ppa",
+                      "label": "上年收购评估调整",
+                      "kind": "line",
+                      "values": {
+                        "fy2025": 0.023
+                      },
+                      "statuses": {
+                        "fy2025": "disclosed"
+                      },
+                      "evidence": {
+                        "fy2025": {
+                          "status": "disclosed",
+                          "source_id": "sec_10k_2025",
+                          "page": 64,
+                          "basis": "2025年报原表；百万美元转换为美元。",
+                          "calculation": null
+                        },
+                        "fy2024": {
+                          "status": "not_applicable",
+                          "source_id": "sec_10k_2025",
+                          "page": 64,
+                          "basis": "2025年报原表；百万美元转换为美元。",
+                          "calculation": null
+                        }
+                      },
+                      "value": 0.023
+                    },
+                    {
+                      "id": "paragon",
+                      "label": "Paragon 28收购",
+                      "kind": "line",
+                      "values": {
+                        "fy2025": 6.201
+                      },
+                      "statuses": {
+                        "fy2025": "disclosed"
+                      },
+                      "evidence": {
+                        "fy2025": {
+                          "status": "disclosed",
+                          "source_id": "sec_10k_2025",
+                          "page": 64,
+                          "basis": "2025年报原表；百万美元转换为美元。",
+                          "calculation": null
+                        },
+                        "fy2024": {
+                          "status": "not_applicable",
+                          "source_id": "sec_10k_2025",
+                          "page": 64,
+                          "basis": "2025年报原表；百万美元转换为美元。",
+                          "calculation": null
+                        }
+                      },
+                      "value": 6.201
+                    },
+                    {
+                      "id": "monogram",
+                      "label": "Monogram收购",
+                      "kind": "line",
+                      "values": {
+                        "fy2025": 2.63
+                      },
+                      "statuses": {
+                        "fy2025": "disclosed"
+                      },
+                      "evidence": {
+                        "fy2025": {
+                          "status": "disclosed",
+                          "source_id": "sec_10k_2025",
+                          "page": 64,
+                          "basis": "2025年报原表；百万美元转换为美元。",
+                          "calculation": null
+                        },
+                        "fy2024": {
+                          "status": "not_applicable",
+                          "source_id": "sec_10k_2025",
+                          "page": 64,
+                          "basis": "2025年报原表；百万美元转换为美元。",
+                          "calculation": null
+                        }
+                      },
+                      "value": 2.63
+                    },
+                    {
+                      "id": "fx",
+                      "label": "外币折算",
+                      "kind": "line",
+                      "values": {
+                        "fy2025": 1.106
+                      },
+                      "statuses": {
+                        "fy2025": "disclosed"
+                      },
+                      "evidence": {
+                        "fy2025": {
+                          "status": "disclosed",
+                          "source_id": "sec_10k_2025",
+                          "page": 64,
+                          "basis": "2025年报原表；百万美元转换为美元。",
+                          "calculation": null
+                        },
+                        "fy2024": {
+                          "status": "not_applicable",
+                          "source_id": "sec_10k_2025",
+                          "page": 64,
+                          "basis": "2025年报原表；百万美元转换为美元。",
+                          "calculation": null
+                        }
+                      },
+                      "value": 1.106
+                    }
+                  ],
+                  "fy2024": []
+                },
+                "movement_residual": {
+                  "fy2024": -9.960000000000008
+                }
+              }
+            ],
+            "kind": "subtotal",
+            "values": {
+              "fy2025": 146.644,
+              "fy2024": 135.495
+            },
+            "statuses": {
+              "fy2025": "derived",
+              "fy2024": "derived"
+            },
+            "evidence": {
+              "fy2025": {
+                "status": "derived",
+                "source_id": "sec_10k_2025",
+                "page": 47,
+                "basis": "2025年报原表；百万美元转换为美元。",
+                "calculation": "按底层真实对象有符号金额加总；保留财报舍入差异。"
+              },
+              "fy2024": {
+                "status": "derived",
+                "source_id": "sec_10k_2025",
+                "page": 47,
+                "basis": "2025年报原表；百万美元转换为美元。",
+                "calculation": "按底层真实对象有符号金额加总；保留财报舍入差异。"
+              }
+            }
+          },
+          {
+            "id": "projects",
+            "label": "在建项目",
+            "objects": [
+              {
+                "id": "construction_in_progress",
+                "label": "在建工程",
+                "kind": "line",
+                "values": {
+                  "fy2025": 2.863,
+                  "fy2024": 2.339
+                },
+                "statuses": {
+                  "fy2025": "disclosed",
+                  "fy2024": "disclosed"
+                },
+                "evidence": {
+                  "fy2025": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 58,
+                    "basis": "附注7：固定资产原值与累计折旧；折旧未按资产类别分配。",
+                    "calculation": null
+                  },
+                  "fy2024": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 58,
+                    "basis": "附注7：固定资产原值与累计折旧；折旧未按资产类别分配。",
+                    "calculation": null
+                  }
+                },
+                "movement_review": {},
+                "movements": {
+                  "fy2025": [],
+                  "fy2024": []
+                },
+                "movement_residual": {
+                  "fy2024": -0.524
+                }
+              }
+            ],
+            "kind": "subtotal",
+            "values": {
+              "fy2025": 2.863,
+              "fy2024": 2.339
+            },
+            "statuses": {
+              "fy2025": "derived",
+              "fy2024": "derived"
+            },
+            "evidence": {
+              "fy2025": {
+                "status": "derived",
+                "source_id": "sec_10k_2025",
+                "page": 47,
+                "basis": "2025年报原表；百万美元转换为美元。",
+                "calculation": "按底层真实对象有符号金额加总；保留财报舍入差异。"
+              },
+              "fy2024": {
+                "status": "derived",
+                "source_id": "sec_10k_2025",
+                "page": 47,
+                "basis": "2025年报原表；百万美元转换为美元。",
+                "calculation": "按底层真实对象有符号金额加总；保留财报舍入差异。"
+              }
+            }
+          },
+          {
+            "id": "other_operating",
+            "label": "其他经营资产与义务",
+            "objects": [
+              {
+                "id": "lease_liabilities",
+                "label": "经营租赁义务",
+                "kind": "line",
+                "values": {
+                  "fy2025": -2.33,
+                  "fy2024": -2.434
+                },
+                "statuses": {
+                  "fy2025": "derived",
+                  "fy2024": "derived"
+                },
+                "evidence": {
+                  "fy2025": {
+                    "status": "derived",
+                    "source_id": "sec_10k_2025",
+                    "page": 81,
+                    "basis": "2025年报原表；百万美元转换为美元。",
+                    "calculation": "流动57.5+长期175.5=233.0；53.2+190.2=243.4"
+                  },
+                  "fy2024": {
+                    "status": "derived",
+                    "source_id": "sec_10k_2025",
+                    "page": 81,
+                    "basis": "2025年报原表；百万美元转换为美元。",
+                    "calculation": "流动57.5+长期175.5=233.0；53.2+190.2=243.4"
+                  }
+                },
+                "force_display": true,
+                "movement_review": {},
+                "movements": {
+                  "fy2025": [],
+                  "fy2024": []
+                },
+                "movement_residual": {
+                  "fy2024": -0.10400000000000009
+                }
+              }
+            ],
+            "kind": "subtotal",
+            "values": {
+              "fy2025": -2.33,
+              "fy2024": -2.434
+            },
+            "statuses": {
+              "fy2025": "derived",
+              "fy2024": "derived"
+            },
+            "evidence": {
+              "fy2025": {
+                "status": "derived",
+                "source_id": "sec_10k_2025",
+                "page": 47,
+                "basis": "2025年报原表；百万美元转换为美元。",
+                "calculation": "按底层真实对象有符号金额加总；保留财报舍入差异。"
+              },
+              "fy2024": {
+                "status": "derived",
+                "source_id": "sec_10k_2025",
+                "page": 47,
+                "basis": "2025年报原表；百万美元转换为美元。",
+                "calculation": "按底层真实对象有符号金额加总；保留财报舍入差异。"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "nonoperating",
+        "label": "非经营资产",
+        "sections": [
+          {
+            "id": "cash",
+            "label": "现金类资产",
+            "objects": [
+              {
+                "id": "cash_eq",
+                "label": "现金及现金等价物",
+                "kind": "line",
+                "values": {
+                  "fy2025": 5.919,
+                  "fy2024": 5.255
+                },
+                "statuses": {
+                  "fy2025": "disclosed",
+                  "fy2024": "disclosed"
+                },
+                "evidence": {
+                  "fy2025": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 47,
+                    "basis": "Disclosed consolidated balance-sheet line item in 2025 Form 10-K.",
+                    "calculation": null
+                  },
+                  "fy2024": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 47,
+                    "basis": "Disclosed consolidated balance-sheet line item in 2025 Form 10-K.",
+                    "calculation": null
+                  }
+                },
+                "movement_review": {},
+                "movements": {
+                  "fy2025": [],
+                  "fy2024": []
+                },
+                "movement_residual": {
+                  "fy2024": -0.6639999999999997
+                }
+              }
+            ],
+            "kind": "subtotal",
+            "values": {
+              "fy2025": 5.919,
+              "fy2024": 5.255
+            },
+            "statuses": {
+              "fy2025": "derived",
+              "fy2024": "derived"
+            },
+            "evidence": {
+              "fy2025": {
+                "status": "derived",
+                "source_id": "sec_10k_2025",
+                "page": 47,
+                "basis": "2025年报原表；百万美元转换为美元。",
+                "calculation": "按底层真实对象有符号金额加总；保留财报舍入差异。"
+              },
+              "fy2024": {
+                "status": "derived",
+                "source_id": "sec_10k_2025",
+                "page": 47,
+                "basis": "2025年报原表；百万美元转换为美元。",
+                "calculation": "按底层真实对象有符号金额加总；保留财报舍入差异。"
+              }
+            }
+          },
+          {
+            "id": "other_assets",
+            "label": "其他非经营资产",
+            "objects": [
+              {
+                "id": "other_assets",
+                "label": "其他长期资产剩余组成",
+                "kind": "line",
+                "values": {
+                  "fy2025": 8.961,
+                  "fy2024": 8.82
+                },
+                "statuses": {
+                  "fy2025": "derived",
+                  "fy2024": "derived"
+                },
+                "evidence": {
+                  "fy2025": {
+                    "status": "derived",
+                    "source_id": "sec_10k_2025",
+                    "page": 47,
+                    "basis": "扣除附注19租赁使用权；剩余未按经营/投资可靠拆分，暂列其他非经营资产。",
+                    "calculation": "1100.3-204.2=896.1；1095.5-213.5=882.0"
+                  },
+                  "fy2024": {
+                    "status": "derived",
+                    "source_id": "sec_10k_2025",
+                    "page": 47,
+                    "basis": "扣除附注19租赁使用权；剩余未按经营/投资可靠拆分，暂列其他非经营资产。",
+                    "calculation": "1100.3-204.2=896.1；1095.5-213.5=882.0"
+                  }
+                },
+                "movement_review": {},
+                "movements": {
+                  "fy2025": [],
+                  "fy2024": []
+                },
+                "movement_residual": {
+                  "fy2024": -0.14100000000000001
+                }
+              }
+            ],
+            "kind": "subtotal",
+            "values": {
+              "fy2025": 8.961,
+              "fy2024": 8.82
+            },
+            "statuses": {
+              "fy2025": "derived",
+              "fy2024": "derived"
+            },
+            "evidence": {
+              "fy2025": {
+                "status": "derived",
+                "source_id": "sec_10k_2025",
+                "page": 47,
+                "basis": "2025年报原表；百万美元转换为美元。",
+                "calculation": "按底层真实对象有符号金额加总；保留财报舍入差异。"
+              },
+              "fy2024": {
+                "status": "derived",
+                "source_id": "sec_10k_2025",
+                "page": 47,
+                "basis": "2025年报原表；百万美元转换为美元。",
+                "calculation": "按底层真实对象有符号金额加总；保留财报舍入差异。"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "liabilities",
+        "label": "非经营负债",
+        "sections": [
+          {
+            "id": "financing",
+            "label": "融资负债",
+            "objects": [
+              {
+                "id": "current_debt",
+                "label": "流动债务",
+                "kind": "line",
+                "values": {
+                  "fy2025": 5.871,
+                  "fy2024": 8.63
+                },
+                "statuses": {
+                  "fy2025": "disclosed",
+                  "fy2024": "disclosed"
+                },
+                "evidence": {
+                  "fy2025": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 47,
+                    "basis": "Disclosed liability balance; displayed as positive balance.",
+                    "calculation": null
+                  },
+                  "fy2024": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 47,
+                    "basis": "Disclosed liability balance; displayed as positive balance.",
+                    "calculation": null
+                  }
+                },
+                "movement_review": {},
+                "movements": {
+                  "fy2025": [],
+                  "fy2024": []
+                },
+                "movement_residual": {
+                  "fy2024": 2.7590000000000003
+                }
+              },
+              {
+                "id": "longterm_debt",
+                "label": "长期债务",
+                "kind": "line",
+                "values": {
+                  "fy2025": 69.32,
+                  "fy2024": 53.416
+                },
+                "statuses": {
+                  "fy2025": "disclosed",
+                  "fy2024": "disclosed"
+                },
+                "evidence": {
+                  "fy2025": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 47,
+                    "basis": "Disclosed liability balance; displayed as positive balance.",
+                    "calculation": null
+                  },
+                  "fy2024": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 47,
+                    "basis": "Disclosed liability balance; displayed as positive balance.",
+                    "calculation": null
+                  }
+                },
+                "movement_review": {},
+                "movements": {
+                  "fy2025": [],
+                  "fy2024": []
+                },
+                "movement_residual": {
+                  "fy2024": -15.903999999999996
+                }
+              }
+            ],
+            "kind": "subtotal",
+            "values": {
+              "fy2025": 75.191,
+              "fy2024": 62.046
+            },
+            "statuses": {
+              "fy2025": "derived",
+              "fy2024": "derived"
+            },
+            "evidence": {
+              "fy2025": {
+                "status": "derived",
+                "source_id": "sec_10k_2025",
+                "page": 47,
+                "basis": "2025年报原表；百万美元转换为美元。",
+                "calculation": "按底层真实对象有符号金额加总；保留财报舍入差异。"
+              },
+              "fy2024": {
+                "status": "derived",
+                "source_id": "sec_10k_2025",
+                "page": 47,
+                "basis": "2025年报原表；百万美元转换为美元。",
+                "calculation": "按底层真实对象有符号金额加总；保留财报舍入差异。"
+              }
+            }
+          },
+          {
+            "id": "other_liabilities",
+            "label": "其他非经营负债",
+            "objects": [
+              {
+                "id": "other_longterm_liabilities",
+                "label": "其他长期义务剩余组成",
+                "kind": "line",
+                "values": {
+                  "fy2025": 4.506,
+                  "fy2024": 5.539
+                },
+                "statuses": {
+                  "fy2025": "derived",
+                  "fy2024": "derived"
+                },
+                "evidence": {
+                  "fy2025": {
+                    "status": "derived",
+                    "source_id": "sec_10k_2025",
+                    "page": 81,
+                    "basis": "2025年报原表；百万美元转换为美元。",
+                    "calculation": "626.1-175.5=450.6；744.1-190.2=553.9"
+                  },
+                  "fy2024": {
+                    "status": "derived",
+                    "source_id": "sec_10k_2025",
+                    "page": 81,
+                    "basis": "2025年报原表；百万美元转换为美元。",
+                    "calculation": "626.1-175.5=450.6；744.1-190.2=553.9"
+                  }
+                },
+                "movement_review": {},
+                "movements": {
+                  "fy2025": [],
+                  "fy2024": []
+                },
+                "movement_residual": {
+                  "fy2024": 1.0329999999999995
+                }
+              },
+              {
+                "id": "deferred_tax",
+                "label": "递延所得税负债",
+                "kind": "line",
+                "values": {
+                  "fy2025": 2.441,
+                  "fy2024": 3.525
+                },
+                "statuses": {
+                  "fy2025": "disclosed",
+                  "fy2024": "disclosed"
+                },
+                "evidence": {
+                  "fy2025": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 47,
+                    "basis": "Disclosed liability balance; displayed as positive balance.",
+                    "calculation": null
+                  },
+                  "fy2024": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 47,
+                    "basis": "Disclosed liability balance; displayed as positive balance.",
+                    "calculation": null
+                  }
+                },
+                "movement_review": {},
+                "movements": {
+                  "fy2025": [],
+                  "fy2024": []
+                },
+                "movement_residual": {
+                  "fy2024": 1.084
+                }
+              }
+            ],
+            "kind": "subtotal",
+            "values": {
+              "fy2025": 6.947,
+              "fy2024": 9.064
+            },
+            "statuses": {
+              "fy2025": "derived",
+              "fy2024": "derived"
+            },
+            "evidence": {
+              "fy2025": {
+                "status": "derived",
+                "source_id": "sec_10k_2025",
+                "page": 47,
+                "basis": "2025年报原表；百万美元转换为美元。",
+                "calculation": "按底层真实对象有符号金额加总；保留财报舍入差异。"
+              },
+              "fy2024": {
+                "status": "derived",
+                "source_id": "sec_10k_2025",
+                "page": 47,
+                "basis": "2025年报原表；百万美元转换为美元。",
+                "calculation": "按底层真实对象有符号金额加总；保留财报舍入差异。"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "controls": {
+      "equity": {
+        "label": "逐项折算后净资产",
+        "values": {
+          "fy2025": 127.058,
+          "fy2024": 124.762
+        },
+        "statuses": {
+          "fy2025": "derived",
+          "fy2024": "derived"
+        },
+        "evidence": {
+          "fy2025": {
+            "status": "derived",
+            "basis": "原净资产控制数与逐项折算台账",
+            "calculation": "原控制数按净调整0.0衔接"
+          },
+          "fy2024": {
+            "status": "derived",
+            "basis": "原净资产控制数与逐项折算台账",
+            "calculation": "原控制数按净调整0.0衔接"
+          }
+        }
+      },
+      "minority": {
+        "label": "剩余归属调整",
+        "values": {
+          "fy2025": -0.081,
+          "fy2024": -0.081
+        },
+        "statuses": {
+          "fy2025": "derived",
+          "fy2024": "derived"
+        },
+        "evidence": {
+          "fy2025": {
+            "status": "derived",
+            "basis": "原净资产控制数与逐项折算台账",
+            "calculation": "原控制数按净调整0.0衔接"
+          },
+          "fy2024": {
+            "status": "derived",
+            "basis": "原净资产控制数与逐项折算台账",
+            "calculation": "原控制数按净调整0.0衔接"
+          }
+        }
+      },
+      "parent": {
+        "label": "归母净资产",
+        "values": {
+          "fy2025": 126.977,
+          "fy2024": 124.681
+        },
+        "statuses": {
+          "fy2025": "disclosed",
+          "fy2024": "disclosed"
+        },
+        "evidence": {
+          "fy2025": {
+            "status": "disclosed",
+            "source_id": "sec_10k_2025",
+            "page": 47,
+            "basis": "Disclosed stockholders equity in consolidated balance sheet.",
+            "calculation": null
+          },
+          "fy2024": {
+            "status": "disclosed",
+            "source_id": "sec_10k_2025",
+            "page": 47,
+            "basis": "Disclosed stockholders equity in consolidated balance sheet.",
+            "calculation": null
+          }
+        }
+      }
+    },
+    "disclosure_summary": [
+      {
+        "id": "current_assets",
+        "label": "流动资产",
+        "kind": "line",
+        "values": {
+          "fy2025": 51.199,
+          "fy2024": 46.715
+        },
+        "statuses": {
+          "fy2025": "disclosed",
+          "fy2024": "disclosed"
+        },
+        "evidence": {
+          "fy2025": {
+            "status": "disclosed",
+            "source_id": "sec_10k_2025",
+            "page": 47,
+            "basis": "2025 Form 10-K consolidated balance sheet.",
+            "calculation": null
+          },
+          "fy2024": {
+            "status": "disclosed",
+            "source_id": "sec_10k_2025",
+            "page": 47,
+            "basis": "2025 Form 10-K consolidated balance sheet.",
+            "calculation": null
+          }
+        }
+      },
+      {
+        "id": "current_liabilities",
+        "label": "流动负债",
+        "kind": "line",
+        "values": {
+          "fy2025": 25.837,
+          "fy2024": 24.509
+        },
+        "statuses": {
+          "fy2025": "disclosed",
+          "fy2024": "disclosed"
+        },
+        "evidence": {
+          "fy2025": {
+            "status": "disclosed",
+            "source_id": "sec_10k_2025",
+            "page": 47,
+            "basis": "2025 Form 10-K consolidated balance sheet.",
+            "calculation": null
+          },
+          "fy2024": {
+            "status": "disclosed",
+            "source_id": "sec_10k_2025",
+            "page": 47,
+            "basis": "2025 Form 10-K consolidated balance sheet.",
+            "calculation": null
+          }
+        }
+      },
+      {
+        "id": "long_assets",
+        "label": "非流动资产",
+        "kind": "line",
+        "values": {
+          "fy2025": 179.718,
+          "fy2024": 166.938
+        },
+        "statuses": {
+          "fy2025": "derived",
+          "fy2024": "derived"
+        },
+        "evidence": {
+          "fy2025": {
+            "status": "derived",
+            "source_id": "sec_10k_2025",
+            "page": 47,
+            "basis": "Total assets less current assets.",
+            "calculation": "23,091.7 - 5,119.9 = 17,971.8 million USD"
+          },
+          "fy2024": {
+            "status": "derived",
+            "source_id": "sec_10k_2025",
+            "page": 47,
+            "basis": "Total assets less current assets.",
+            "calculation": "21,365.3 - 4,671.5 = 16,693.8 million USD"
+          }
+        }
+      },
+      {
+        "id": "long_liabilities",
+        "label": "非流动负债",
+        "kind": "line",
+        "values": {
+          "fy2025": 78.023,
+          "fy2024": 64.382
+        },
+        "statuses": {
+          "fy2025": "derived",
+          "fy2024": "derived"
+        },
+        "evidence": {
+          "fy2025": {
+            "status": "derived",
+            "source_id": "sec_10k_2025",
+            "page": 47,
+            "basis": "Total liabilities less current liabilities.",
+            "calculation": "10,386.0 - 2,583.7 = 7,802.3 million USD"
+          },
+          "fy2024": {
+            "status": "derived",
+            "source_id": "sec_10k_2025",
+            "page": 47,
+            "basis": "Total liabilities less current liabilities.",
+            "calculation": "8,889.1 - 2,450.9 = 6,438.2 million USD"
+          }
+        }
+      },
+      {
+        "id": "total_assets",
+        "label": "资产总额",
+        "kind": "total",
+        "values": {
+          "fy2025": 230.917,
+          "fy2024": 213.653
+        },
+        "statuses": {
+          "fy2025": "disclosed",
+          "fy2024": "disclosed"
+        },
+        "evidence": {
+          "fy2025": {
+            "status": "disclosed",
+            "source_id": "sec_10k_2025",
+            "page": 47,
+            "basis": "2025 Form 10-K consolidated balance sheet.",
+            "calculation": null
+          },
+          "fy2024": {
+            "status": "disclosed",
+            "source_id": "sec_10k_2025",
+            "page": 47,
+            "basis": "2025 Form 10-K consolidated balance sheet.",
+            "calculation": null
+          }
+        }
+      },
+      {
+        "id": "total_liabilities",
+        "label": "负债总额",
+        "kind": "total",
+        "values": {
+          "fy2025": 103.86,
+          "fy2024": 88.891
+        },
+        "statuses": {
+          "fy2025": "disclosed",
+          "fy2024": "disclosed"
+        },
+        "evidence": {
+          "fy2025": {
+            "status": "disclosed",
+            "source_id": "sec_10k_2025",
+            "page": 47,
+            "basis": "2025 Form 10-K consolidated balance sheet.",
+            "calculation": null
+          },
+          "fy2024": {
+            "status": "disclosed",
+            "source_id": "sec_10k_2025",
+            "page": 47,
+            "basis": "2025 Form 10-K consolidated balance sheet.",
+            "calculation": null
+          }
+        }
+      }
+    ],
+    "potential_dilution": {
+      "items": [
+        {
+          "id": "options",
+          "label": "期末未行权股票期权",
+          "outstanding": "460万份（原数4,595,000）；PDF第57页",
+          "terms": "普通股一股/份；平均行权价126美元；当前全部价外。仅为合约股数上限，不预测实际行权。",
+          "maximum_new_shares": 4595000
+        },
+        {
+          "id": "rsus",
+          "label": "期末未归属RSU名义数量",
+          "outstanding": "278万份；PDF第58页",
+          "terms": "按已披露未归属单位数备查，非业绩超额支付的法律上限；公司估计可归属194万份。",
+          "maximum_new_shares": 2780000
+        }
+      ]
+    },
+    "equity_bridge": {
+      "rows": [
+        {
+          "id": "opening_parent_equity",
+          "label": "期初归母权益",
+          "kind": "total",
+          "values": {
+            "fy2025": 124.681,
+            "fy2024": 124.804
+          },
+          "statuses": {
+            "fy2025": "disclosed",
+            "fy2024": "disclosed"
+          },
+          "evidence": {
+            "fy2025": {
+              "status": "disclosed",
+              "source_id": "sec_10k_2025",
+              "page": 48,
+              "basis": "2025年报原表；百万美元转换为美元。",
+              "calculation": null
+            },
+            "fy2024": {
+              "status": "disclosed",
+              "source_id": "sec_10k_2025",
+              "page": 48,
+              "basis": "2025年报原表；百万美元转换为美元。",
+              "calculation": null
+            }
+          }
+        },
+        {
+          "id": "parent_profit",
+          "label": "归母净利润",
+          "kind": "line",
+          "values": {
+            "fy2025": 7.051,
+            "fy2024": 9.038
+          },
+          "statuses": {
+            "fy2025": "disclosed",
+            "fy2024": "disclosed"
+          },
+          "evidence": {
+            "fy2025": {
+              "status": "disclosed",
+              "source_id": "sec_10k_2025",
+              "page": 48,
+              "basis": "2025年报原表；百万美元转换为美元。",
+              "calculation": null
+            },
+            "fy2024": {
+              "status": "disclosed",
+              "source_id": "sec_10k_2025",
+              "page": 48,
+              "basis": "2025年报原表；百万美元转换为美元。",
+              "calculation": null
+            }
+          }
+        },
+        {
+          "id": "oci",
+          "label": "其他综合收益",
+          "kind": "line",
+          "values": {
+            "fy2025": 0.571,
+            "fy2024": -0.718
+          },
+          "statuses": {
+            "fy2025": "disclosed",
+            "fy2024": "disclosed"
+          },
+          "evidence": {
+            "fy2025": {
+              "status": "disclosed",
+              "source_id": "sec_10k_2025",
+              "page": 48,
+              "basis": "2025年报原表；百万美元转换为美元。",
+              "calculation": null
+            },
+            "fy2024": {
+              "status": "disclosed",
+              "source_id": "sec_10k_2025",
+              "page": 48,
+              "basis": "2025年报原表；百万美元转换为美元。",
+              "calculation": null
+            }
+          }
+        },
+        {
+          "id": "dividends",
+          "label": "宣告普通股股利",
+          "kind": "line",
+          "values": {
+            "fy2025": -1.894,
+            "fy2024": -1.944
+          },
+          "statuses": {
+            "fy2025": "disclosed",
+            "fy2024": "disclosed"
+          },
+          "evidence": {
+            "fy2025": {
+              "status": "disclosed",
+              "source_id": "sec_10k_2025",
+              "page": 48,
+              "basis": "2025年报原表；百万美元转换为美元。",
+              "calculation": null
+            },
+            "fy2024": {
+              "status": "disclosed",
+              "source_id": "sec_10k_2025",
+              "page": 48,
+              "basis": "2025年报原表；百万美元转换为美元。",
+              "calculation": null
+            }
+          }
+        },
+        {
+          "id": "stock_plans",
+          "label": "股权激励计划权益增加",
+          "kind": "line",
+          "values": {
+            "fy2025": 1.133,
+            "fy2024": 1.714
+          },
+          "statuses": {
+            "fy2025": "disclosed",
+            "fy2024": "disclosed"
+          },
+          "evidence": {
+            "fy2025": {
+              "status": "disclosed",
+              "source_id": "sec_10k_2025",
+              "page": 48,
+              "basis": "2025年报原表；百万美元转换为美元。",
+              "calculation": null
+            },
+            "fy2024": {
+              "status": "disclosed",
+              "source_id": "sec_10k_2025",
+              "page": 48,
+              "basis": "2025年报原表；百万美元转换为美元。",
+              "calculation": null
+            }
+          }
+        },
+        {
+          "id": "embody",
+          "label": "Embody收购股份对价",
+          "kind": "line",
+          "values": {
+            "fy2025": 0.278,
+            "fy2024": 0.234
+          },
+          "statuses": {
+            "fy2025": "disclosed",
+            "fy2024": "disclosed"
+          },
+          "evidence": {
+            "fy2025": {
+              "status": "disclosed",
+              "source_id": "sec_10k_2025",
+              "page": 48,
+              "basis": "2025年报原表；百万美元转换为美元。",
+              "calculation": null
+            },
+            "fy2024": {
+              "status": "disclosed",
+              "source_id": "sec_10k_2025",
+              "page": 48,
+              "basis": "2025年报原表；百万美元转换为美元。",
+              "calculation": null
+            }
+          }
+        },
+        {
+          "id": "repurchase",
+          "label": "股份回购权益减少",
+          "kind": "line",
+          "values": {
+            "fy2025": -4.843,
+            "fy2024": -8.448
+          },
+          "statuses": {
+            "fy2025": "disclosed",
+            "fy2024": "disclosed"
+          },
+          "evidence": {
+            "fy2025": {
+              "status": "disclosed",
+              "source_id": "sec_10k_2025",
+              "page": 48,
+              "basis": "2025年报原表；百万美元转换为美元。",
+              "calculation": null
+            },
+            "fy2024": {
+              "status": "disclosed",
+              "source_id": "sec_10k_2025",
+              "page": 48,
+              "basis": "2025年报原表；百万美元转换为美元。",
+              "calculation": null
+            }
+          }
+        },
+        {
+          "id": "parent_equity_change",
+          "label": "归母权益变动",
+          "kind": "total",
+          "values": {
+            "fy2025": 2.296,
+            "fy2024": -0.123
+          },
+          "statuses": {
+            "fy2025": "derived",
+            "fy2024": "derived"
+          },
+          "evidence": {
+            "fy2025": {
+              "status": "derived",
+              "source_id": "sec_10k_2025",
+              "page": 48,
+              "basis": "2025年报原表；百万美元转换为美元。",
+              "calculation": "期末归母权益-期初归母权益"
+            },
+            "fy2024": {
+              "status": "derived",
+              "source_id": "sec_10k_2025",
+              "page": 48,
+              "basis": "2025年报原表；百万美元转换为美元。",
+              "calculation": "期末归母权益-期初归母权益"
+            }
+          }
+        },
+        {
+          "id": "closing_parent_equity",
+          "label": "期末归母净资产",
+          "kind": "total",
+          "values": {
+            "fy2025": 126.977,
+            "fy2024": 124.681
+          }
+        }
+      ],
+      "note": "分红为本期权益确认分配；回购与注销转销按净权益影响列示。"
+    }
+  },
+  "operating_table": {
+    "periods": [
+      "fy2025"
+    ],
+    "modules": [
+      {
+        "id": "business_operations",
+        "label": "业务经营",
+        "kind": "businesses",
+        "businesses": [
+          {
+            "id": "americas",
+            "label": "美洲",
+            "kind": "business",
+            "metrics": [
+              {
+                "id": "revenue",
+                "label": "收入",
+                "kind": "line",
+                "values": {
+                  "fy2025": 51.446,
+                  "fy2024": 47.948
+                },
+                "statuses": {
+                  "fy2025": "disclosed",
+                  "fy2024": "disclosed"
+                },
+                "evidence": {
+                  "fy2025": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 80,
+                    "basis": "附注18；分部不承担总部集中费用及无形资产摊销，不能视作完整独立业务利润。",
+                    "calculation": null
+                  },
+                  "fy2024": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 80,
+                    "basis": "附注18；分部不承担总部集中费用及无形资产摊销，不能视作完整独立业务利润。",
+                    "calculation": null
+                  }
+                }
+              },
+              {
+                "id": "direct_cost",
+                "label": "产品成本（不含无形摊销）",
+                "kind": "line",
+                "values": {
+                  "fy2025": -11.335,
+                  "fy2024": -9.837
+                },
+                "statuses": {
+                  "fy2025": "disclosed",
+                  "fy2024": "disclosed"
+                },
+                "evidence": {
+                  "fy2025": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 80,
+                    "basis": "附注18；分部不承担总部集中费用及无形资产摊销，不能视作完整独立业务利润。",
+                    "calculation": null
+                  },
+                  "fy2024": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 80,
+                    "basis": "附注18；分部不承担总部集中费用及无形资产摊销，不能视作完整独立业务利润。",
+                    "calculation": null
+                  }
+                }
+              },
+              {
+                "id": "gross_profit",
+                "label": "分部毛利",
+                "kind": "subtotal",
+                "values": {
+                  "fy2025": 40.111,
+                  "fy2024": 38.111
+                },
+                "statuses": {
+                  "fy2025": "derived",
+                  "fy2024": "derived"
+                },
+                "evidence": {
+                  "fy2025": {
+                    "status": "derived",
+                    "source_id": "sec_10k_2025",
+                    "page": 80,
+                    "basis": "附注18；分部不承担总部集中费用及无形资产摊销，不能视作完整独立业务利润。",
+                    "calculation": "收入-产品成本"
+                  },
+                  "fy2024": {
+                    "status": "derived",
+                    "source_id": "sec_10k_2025",
+                    "page": 80,
+                    "basis": "附注18；分部不承担总部集中费用及无形资产摊销，不能视作完整独立业务利润。",
+                    "calculation": "收入-产品成本"
+                  }
+                }
+              },
+              {
+                "id": "period_cost",
+                "label": "分部销售管理与研发",
+                "kind": "line",
+                "values": {
+                  "fy2025": -13.655,
+                  "fy2024": -12.349
+                },
+                "statuses": {
+                  "fy2025": "derived",
+                  "fy2024": "derived"
+                },
+                "evidence": {
+                  "fy2025": {
+                    "status": "derived",
+                    "source_id": "sec_10k_2025",
+                    "page": 80,
+                    "basis": "附注18；分部不承担总部集中费用及无形资产摊销，不能视作完整独立业务利润。",
+                    "calculation": "销售管理费用+研发费用，取负号"
+                  },
+                  "fy2024": {
+                    "status": "derived",
+                    "source_id": "sec_10k_2025",
+                    "page": 80,
+                    "basis": "附注18；分部不承担总部集中费用及无形资产摊销，不能视作完整独立业务利润。",
+                    "calculation": "销售管理费用+研发费用，取负号"
+                  }
+                }
+              },
+              {
+                "id": "operating_profit",
+                "label": "分部利润",
+                "kind": "subtotal",
+                "values": {
+                  "fy2025": 26.457,
+                  "fy2024": 25.763
+                },
+                "statuses": {
+                  "fy2025": "disclosed",
+                  "fy2024": "disclosed"
+                },
+                "evidence": {
+                  "fy2025": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 80,
+                    "basis": "附注18；分部不承担总部集中费用及无形资产摊销，不能视作完整独立业务利润。",
+                    "calculation": null
+                  },
+                  "fy2024": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 80,
+                    "basis": "附注18；分部不承担总部集中费用及无形资产摊销，不能视作完整独立业务利润。",
+                    "calculation": null
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "emea",
+            "label": "欧洲、中东及非洲",
+            "kind": "business",
+            "metrics": [
+              {
+                "id": "revenue",
+                "label": "收入",
+                "kind": "line",
+                "values": {
+                  "fy2025": 18.288,
+                  "fy2024": 16.911
+                },
+                "statuses": {
+                  "fy2025": "disclosed",
+                  "fy2024": "disclosed"
+                },
+                "evidence": {
+                  "fy2025": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 80,
+                    "basis": "附注18；分部不承担总部集中费用及无形资产摊销，不能视作完整独立业务利润。",
+                    "calculation": null
+                  },
+                  "fy2024": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 80,
+                    "basis": "附注18；分部不承担总部集中费用及无形资产摊销，不能视作完整独立业务利润。",
+                    "calculation": null
+                  }
+                }
+              },
+              {
+                "id": "direct_cost",
+                "label": "产品成本（不含无形摊销）",
+                "kind": "line",
+                "values": {
+                  "fy2025": -6.854,
+                  "fy2024": -5.889
+                },
+                "statuses": {
+                  "fy2025": "disclosed",
+                  "fy2024": "disclosed"
+                },
+                "evidence": {
+                  "fy2025": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 80,
+                    "basis": "附注18；分部不承担总部集中费用及无形资产摊销，不能视作完整独立业务利润。",
+                    "calculation": null
+                  },
+                  "fy2024": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 80,
+                    "basis": "附注18；分部不承担总部集中费用及无形资产摊销，不能视作完整独立业务利润。",
+                    "calculation": null
+                  }
+                }
+              },
+              {
+                "id": "gross_profit",
+                "label": "分部毛利",
+                "kind": "subtotal",
+                "values": {
+                  "fy2025": 11.434,
+                  "fy2024": 11.022
+                },
+                "statuses": {
+                  "fy2025": "derived",
+                  "fy2024": "derived"
+                },
+                "evidence": {
+                  "fy2025": {
+                    "status": "derived",
+                    "source_id": "sec_10k_2025",
+                    "page": 80,
+                    "basis": "附注18；分部不承担总部集中费用及无形资产摊销，不能视作完整独立业务利润。",
+                    "calculation": "收入-产品成本"
+                  },
+                  "fy2024": {
+                    "status": "derived",
+                    "source_id": "sec_10k_2025",
+                    "page": 80,
+                    "basis": "附注18；分部不承担总部集中费用及无形资产摊销，不能视作完整独立业务利润。",
+                    "calculation": "收入-产品成本"
+                  }
+                }
+              },
+              {
+                "id": "period_cost",
+                "label": "分部销售管理与研发",
+                "kind": "line",
+                "values": {
+                  "fy2025": -5.483,
+                  "fy2024": -5.079
+                },
+                "statuses": {
+                  "fy2025": "derived",
+                  "fy2024": "derived"
+                },
+                "evidence": {
+                  "fy2025": {
+                    "status": "derived",
+                    "source_id": "sec_10k_2025",
+                    "page": 80,
+                    "basis": "附注18；分部不承担总部集中费用及无形资产摊销，不能视作完整独立业务利润。",
+                    "calculation": "销售管理费用+研发费用，取负号"
+                  },
+                  "fy2024": {
+                    "status": "derived",
+                    "source_id": "sec_10k_2025",
+                    "page": 80,
+                    "basis": "附注18；分部不承担总部集中费用及无形资产摊销，不能视作完整独立业务利润。",
+                    "calculation": "销售管理费用+研发费用，取负号"
+                  }
+                }
+              },
+              {
+                "id": "operating_profit",
+                "label": "分部利润",
+                "kind": "subtotal",
+                "values": {
+                  "fy2025": 5.95,
+                  "fy2024": 5.943
+                },
+                "statuses": {
+                  "fy2025": "disclosed",
+                  "fy2024": "disclosed"
+                },
+                "evidence": {
+                  "fy2025": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 80,
+                    "basis": "附注18；分部不承担总部集中费用及无形资产摊销，不能视作完整独立业务利润。",
+                    "calculation": null
+                  },
+                  "fy2024": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 80,
+                    "basis": "附注18；分部不承担总部集中费用及无形资产摊销，不能视作完整独立业务利润。",
+                    "calculation": null
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "apac",
+            "label": "亚太",
+            "kind": "business",
+            "metrics": [
+              {
+                "id": "revenue",
+                "label": "收入",
+                "kind": "line",
+                "values": {
+                  "fy2025": 12.581,
+                  "fy2024": 11.928
+                },
+                "statuses": {
+                  "fy2025": "disclosed",
+                  "fy2024": "disclosed"
+                },
+                "evidence": {
+                  "fy2025": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 80,
+                    "basis": "附注18；分部不承担总部集中费用及无形资产摊销，不能视作完整独立业务利润。",
+                    "calculation": null
+                  },
+                  "fy2024": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 80,
+                    "basis": "附注18；分部不承担总部集中费用及无形资产摊销，不能视作完整独立业务利润。",
+                    "calculation": null
+                  }
+                }
+              },
+              {
+                "id": "direct_cost",
+                "label": "产品成本（不含无形摊销）",
+                "kind": "line",
+                "values": {
+                  "fy2025": -4.378,
+                  "fy2024": -3.755
+                },
+                "statuses": {
+                  "fy2025": "disclosed",
+                  "fy2024": "disclosed"
+                },
+                "evidence": {
+                  "fy2025": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 80,
+                    "basis": "附注18；分部不承担总部集中费用及无形资产摊销，不能视作完整独立业务利润。",
+                    "calculation": null
+                  },
+                  "fy2024": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 80,
+                    "basis": "附注18；分部不承担总部集中费用及无形资产摊销，不能视作完整独立业务利润。",
+                    "calculation": null
+                  }
+                }
+              },
+              {
+                "id": "gross_profit",
+                "label": "分部毛利",
+                "kind": "subtotal",
+                "values": {
+                  "fy2025": 8.203,
+                  "fy2024": 8.173
+                },
+                "statuses": {
+                  "fy2025": "derived",
+                  "fy2024": "derived"
+                },
+                "evidence": {
+                  "fy2025": {
+                    "status": "derived",
+                    "source_id": "sec_10k_2025",
+                    "page": 80,
+                    "basis": "附注18；分部不承担总部集中费用及无形资产摊销，不能视作完整独立业务利润。",
+                    "calculation": "收入-产品成本"
+                  },
+                  "fy2024": {
+                    "status": "derived",
+                    "source_id": "sec_10k_2025",
+                    "page": 80,
+                    "basis": "附注18；分部不承担总部集中费用及无形资产摊销，不能视作完整独立业务利润。",
+                    "calculation": "收入-产品成本"
+                  }
+                }
+              },
+              {
+                "id": "period_cost",
+                "label": "分部销售管理与研发",
+                "kind": "line",
+                "values": {
+                  "fy2025": -3.743,
+                  "fy2024": -3.553
+                },
+                "statuses": {
+                  "fy2025": "derived",
+                  "fy2024": "derived"
+                },
+                "evidence": {
+                  "fy2025": {
+                    "status": "derived",
+                    "source_id": "sec_10k_2025",
+                    "page": 80,
+                    "basis": "附注18；分部不承担总部集中费用及无形资产摊销，不能视作完整独立业务利润。",
+                    "calculation": "销售管理费用+研发费用，取负号"
+                  },
+                  "fy2024": {
+                    "status": "derived",
+                    "source_id": "sec_10k_2025",
+                    "page": 80,
+                    "basis": "附注18；分部不承担总部集中费用及无形资产摊销，不能视作完整独立业务利润。",
+                    "calculation": "销售管理费用+研发费用，取负号"
+                  }
+                }
+              },
+              {
+                "id": "operating_profit",
+                "label": "分部利润",
+                "kind": "subtotal",
+                "values": {
+                  "fy2025": 4.46,
+                  "fy2024": 4.621
+                },
+                "statuses": {
+                  "fy2025": "disclosed",
+                  "fy2024": "disclosed"
+                },
+                "evidence": {
+                  "fy2025": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 80,
+                    "basis": "附注18；分部不承担总部集中费用及无形资产摊销，不能视作完整独立业务利润。",
+                    "calculation": null
+                  },
+                  "fy2024": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 80,
+                    "basis": "附注18；分部不承担总部集中费用及无形资产摊销，不能视作完整独立业务利润。",
+                    "calculation": null
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "total_sales",
+            "label": "合并总计（含总部成本）",
+            "kind": "total",
+            "metrics": [
+              {
+                "id": "revenue",
+                "label": "合并收入",
+                "kind": "line",
+                "values": {
+                  "fy2025": 82.315,
+                  "fy2024": 76.786
+                },
+                "statuses": {
+                  "fy2025": "disclosed",
+                  "fy2024": "disclosed"
+                },
+                "evidence": {
+                  "fy2025": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 45,
+                    "basis": "2025年报原表；百万美元转换为美元。",
+                    "calculation": null
+                  },
+                  "fy2024": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 45,
+                    "basis": "2025年报原表；百万美元转换为美元。",
+                    "calculation": null
+                  }
+                }
+              },
+              {
+                "id": "direct_cost",
+                "label": "合并产品成本（不含无形摊销）",
+                "kind": "line",
+                "values": {
+                  "fy2025": -24.937,
+                  "fy2024": -21.912
+                },
+                "statuses": {
+                  "fy2025": "disclosed",
+                  "fy2024": "disclosed"
+                },
+                "evidence": {
+                  "fy2025": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 45,
+                    "basis": "2025年报原表；百万美元转换为美元。",
+                    "calculation": null
+                  },
+                  "fy2024": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 45,
+                    "basis": "2025年报原表；百万美元转换为美元。",
+                    "calculation": null
+                  }
+                }
+              },
+              {
+                "id": "gross_profit",
+                "label": "合并毛利（未扣无形摊销）",
+                "kind": "subtotal",
+                "values": {
+                  "fy2025": 57.378,
+                  "fy2024": 54.874
+                },
+                "statuses": {
+                  "fy2025": "derived",
+                  "fy2024": "derived"
+                },
+                "evidence": {
+                  "fy2025": {
+                    "status": "derived",
+                    "source_id": "sec_10k_2025",
+                    "page": 45,
+                    "basis": "2025年报原表；百万美元转换为美元。",
+                    "calculation": "收入-产品成本"
+                  },
+                  "fy2024": {
+                    "status": "derived",
+                    "source_id": "sec_10k_2025",
+                    "page": 45,
+                    "basis": "2025年报原表；百万美元转换为美元。",
+                    "calculation": "收入-产品成本"
+                  }
+                }
+              },
+              {
+                "id": "period_cost",
+                "label": "研发、销售管理、重组及并购费用",
+                "kind": "line",
+                "values": {
+                  "fy2025": -39.738,
+                  "fy2024": -36.098
+                },
+                "statuses": {
+                  "fy2025": "derived",
+                  "fy2024": "derived"
+                },
+                "evidence": {
+                  "fy2025": {
+                    "status": "derived",
+                    "source_id": "sec_10k_2025",
+                    "page": 45,
+                    "basis": "2025年报原表；百万美元转换为美元。",
+                    "calculation": "2025: -(458.5+3257.2+181.2+76.9)；2024: -(437.4+2929.8+219.0+23.6)"
+                  },
+                  "fy2024": {
+                    "status": "derived",
+                    "source_id": "sec_10k_2025",
+                    "page": 45,
+                    "basis": "2025年报原表；百万美元转换为美元。",
+                    "calculation": "2025: -(458.5+3257.2+181.2+76.9)；2024: -(437.4+2929.8+219.0+23.6)"
+                  }
+                }
+              },
+              {
+                "id": "asset_net_consumption",
+                "label": "无形资产摊销",
+                "kind": "line",
+                "values": {
+                  "fy2025": -6.659,
+                  "fy2024": -5.919
+                },
+                "statuses": {
+                  "fy2025": "disclosed",
+                  "fy2024": "disclosed"
+                },
+                "evidence": {
+                  "fy2025": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 45,
+                    "basis": "2025年报原表；百万美元转换为美元。",
+                    "calculation": null
+                  },
+                  "fy2024": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 45,
+                    "basis": "2025年报原表；百万美元转换为美元。",
+                    "calculation": null
+                  }
+                }
+              },
+              {
+                "id": "operating_profit",
+                "label": "合并经营利润",
+                "kind": "subtotal",
+                "values": {
+                  "fy2025": 10.981,
+                  "fy2024": 12.857
+                },
+                "statuses": {
+                  "fy2025": "disclosed",
+                  "fy2024": "disclosed"
+                },
+                "evidence": {
+                  "fy2025": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 45,
+                    "basis": "2025年报原表；百万美元转换为美元。",
+                    "calculation": null
+                  },
+                  "fy2024": {
+                    "status": "disclosed",
+                    "source_id": "sec_10k_2025",
+                    "page": 45,
+                    "basis": "2025年报原表；百万美元转换为美元。",
+                    "calculation": null
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "other_profit",
+        "label": "其他利润来源与支出",
+        "kind": "rows",
+        "rows": [
+          {
+            "id": "business_operating_profit",
+            "label": "合并经营利润",
+            "kind": "total",
+            "values": {
+              "fy2025": 10.981,
+              "fy2024": 12.857
+            },
+            "statuses": {
+              "fy2025": "disclosed",
+              "fy2024": "disclosed"
+            },
+            "evidence": {
+              "fy2025": {
+                "status": "disclosed",
+                "source_id": "sec_10k_2025",
+                "page": 45,
+                "basis": "2025年报原表；百万美元转换为美元。",
+                "calculation": null
+              },
+              "fy2024": {
+                "status": "disclosed",
+                "source_id": "sec_10k_2025",
+                "page": 45,
+                "basis": "2025年报原表；百万美元转换为美元。",
+                "calculation": null
+              }
+            }
+          },
+          {
+            "id": "other_income",
+            "label": "其他收益（费用）净额",
+            "kind": "line",
+            "values": {
+              "fy2025": 0.255,
+              "fy2024": -0.311
+            },
+            "statuses": {
+              "fy2025": "disclosed",
+              "fy2024": "disclosed"
+            },
+            "evidence": {
+              "fy2025": {
+                "status": "disclosed",
+                "source_id": "sec_10k_2025",
+                "page": 45,
+                "basis": "2025年报原表；百万美元转换为美元。",
+                "calculation": null
+              },
+              "fy2024": {
+                "status": "disclosed",
+                "source_id": "sec_10k_2025",
+                "page": 45,
+                "basis": "2025年报原表；百万美元转换为美元。",
+                "calculation": null
+              }
+            }
+          },
+          {
+            "id": "interest_expense",
+            "label": "利息费用净额",
+            "kind": "line",
+            "values": {
+              "fy2025": -2.928,
+              "fy2024": -2.18
+            },
+            "statuses": {
+              "fy2025": "disclosed",
+              "fy2024": "disclosed"
+            },
+            "evidence": {
+              "fy2025": {
+                "status": "disclosed",
+                "source_id": "sec_10k_2025",
+                "page": 45,
+                "basis": "2025年报原表；百万美元转换为美元。",
+                "calculation": null
+              },
+              "fy2024": {
+                "status": "disclosed",
+                "source_id": "sec_10k_2025",
+                "page": 45,
+                "basis": "2025年报原表；百万美元转换为美元。",
+                "calculation": null
+              }
+            }
+          },
+          {
+            "id": "pretax_profit",
+            "label": "税前利润",
+            "kind": "total",
+            "values": {
+              "fy2025": 8.308,
+              "fy2024": 10.366
+            },
+            "statuses": {
+              "fy2025": "disclosed",
+              "fy2024": "disclosed"
+            },
+            "evidence": {
+              "fy2025": {
+                "status": "disclosed",
+                "source_id": "sec_10k_2025",
+                "page": 45,
+                "basis": "2025年报原表；百万美元转换为美元。",
+                "calculation": null
+              },
+              "fy2024": {
+                "status": "disclosed",
+                "source_id": "sec_10k_2025",
+                "page": 45,
+                "basis": "2025年报原表；百万美元转换为美元。",
+                "calculation": null
+              }
+            }
+          },
+          {
+            "id": "income_tax",
+            "label": "所得税费用",
+            "kind": "line",
+            "values": {
+              "fy2025": -1.257,
+              "fy2024": -1.314
+            },
+            "statuses": {
+              "fy2025": "disclosed",
+              "fy2024": "disclosed"
+            },
+            "evidence": {
+              "fy2025": {
+                "status": "disclosed",
+                "source_id": "sec_10k_2025",
+                "page": 45,
+                "basis": "2025年报原表；百万美元转换为美元。",
+                "calculation": null
+              },
+              "fy2024": {
+                "status": "disclosed",
+                "source_id": "sec_10k_2025",
+                "page": 45,
+                "basis": "2025年报原表；百万美元转换为美元。",
+                "calculation": null
+              }
+            }
+          },
+          {
+            "id": "consolidated_profit",
+            "label": "合并净利润",
+            "kind": "total",
+            "values": {
+              "fy2025": 7.051,
+              "fy2024": 9.052
+            },
+            "statuses": {
+              "fy2025": "disclosed",
+              "fy2024": "disclosed"
+            },
+            "evidence": {
+              "fy2025": {
+                "status": "disclosed",
+                "source_id": "sec_10k_2025",
+                "page": 45,
+                "basis": "2025年报原表；百万美元转换为美元。",
+                "calculation": null
+              },
+              "fy2024": {
+                "status": "disclosed",
+                "source_id": "sec_10k_2025",
+                "page": 45,
+                "basis": "2025年报原表；百万美元转换为美元。",
+                "calculation": null
+              }
+            }
+          },
+          {
+            "id": "minority_profit",
+            "label": "减：少数股东利润（亏损加回）",
+            "kind": "line",
+            "values": {
+              "fy2025": 0.001,
+              "fy2024": -0.015
+            },
+            "statuses": {
+              "fy2025": "disclosed",
+              "fy2024": "disclosed"
+            },
+            "evidence": {
+              "fy2025": {
+                "status": "disclosed",
+                "source_id": "sec_10k_2025",
+                "page": 45,
+                "basis": "2025年报原表；百万美元转换为美元。",
+                "calculation": null
+              },
+              "fy2024": {
+                "status": "disclosed",
+                "source_id": "sec_10k_2025",
+                "page": 45,
+                "basis": "2025年报原表；百万美元转换为美元。",
+                "calculation": null
+              }
+            }
+          },
+          {
+            "id": "parent_profit",
+            "label": "归母净利润",
+            "kind": "total",
+            "values": {
+              "fy2025": 7.051,
+              "fy2024": 9.038
+            },
+            "statuses": {
+              "fy2025": "disclosed",
+              "fy2024": "disclosed"
+            },
+            "evidence": {
+              "fy2025": {
+                "status": "disclosed",
+                "source_id": "sec_10k_2025",
+                "page": 45,
+                "basis": "2025年报原表；百万美元转换为美元。",
+                "calculation": null
+              },
+              "fy2024": {
+                "status": "disclosed",
+                "source_id": "sec_10k_2025",
+                "page": 45,
+                "basis": "2025年报原表；百万美元转换为美元。",
+                "calculation": null
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "owner_flows",
+        "label": "股东资金流转",
+        "kind": "rows",
+        "rows": [
+          {
+            "id": "dividends",
+            "label": "支付普通股股利",
+            "kind": "line",
+            "values": {
+              "fy2025": -1.903,
+              "fy2024": -1.96
+            },
+            "statuses": {
+              "fy2025": "disclosed",
+              "fy2024": "disclosed"
+            },
+            "evidence": {
+              "fy2025": {
+                "status": "disclosed",
+                "source_id": "sec_10k_2025",
+                "page": 49,
+                "basis": "2025年报原表；百万美元转换为美元。",
+                "calculation": null
+              },
+              "fy2024": {
+                "status": "disclosed",
+                "source_id": "sec_10k_2025",
+                "page": 49,
+                "basis": "2025年报原表；百万美元转换为美元。",
+                "calculation": null
+              }
+            }
+          },
+          {
+            "id": "repurchases",
+            "label": "回购现金支付",
+            "kind": "line",
+            "values": {
+              "fy2025": -4.87,
+              "fy2024": -8.68
+            },
+            "statuses": {
+              "fy2025": "disclosed",
+              "fy2024": "disclosed"
+            },
+            "evidence": {
+              "fy2025": {
+                "status": "disclosed",
+                "source_id": "sec_10k_2025",
+                "page": 49,
+                "basis": "2025年报原表；百万美元转换为美元。",
+                "calculation": null
+              },
+              "fy2024": {
+                "status": "disclosed",
+                "source_id": "sec_10k_2025",
+                "page": 49,
+                "basis": "2025年报原表；百万美元转换为美元。",
+                "calculation": null
+              }
+            }
+          },
+          {
+            "id": "employee_proceeds",
+            "label": "员工股权计划收款",
+            "kind": "line",
+            "values": {
+              "fy2025": 0.397,
+              "fy2024": 0.821
+            },
+            "statuses": {
+              "fy2025": "disclosed",
+              "fy2024": "disclosed"
+            },
+            "evidence": {
+              "fy2025": {
+                "status": "disclosed",
+                "source_id": "sec_10k_2025",
+                "page": 49,
+                "basis": "2025年报原表；百万美元转换为美元。",
+                "calculation": null
+              },
+              "fy2024": {
+                "status": "disclosed",
+                "source_id": "sec_10k_2025",
+                "page": 49,
+                "basis": "2025年报原表；百万美元转换为美元。",
+                "calculation": null
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "equity_changes": {
+      "rows": [
+        {
+          "id": "opening_parent_equity",
+          "label": "期初归母权益",
+          "kind": "total",
+          "values": {
+            "fy2025": 124.681,
+            "fy2024": 124.804
+          },
+          "statuses": {
+            "fy2025": "disclosed",
+            "fy2024": "disclosed"
+          },
+          "evidence": {
+            "fy2025": {
+              "status": "disclosed",
+              "source_id": "sec_10k_2025",
+              "page": 48,
+              "basis": "2025年报原表；百万美元转换为美元。",
+              "calculation": null
+            },
+            "fy2024": {
+              "status": "disclosed",
+              "source_id": "sec_10k_2025",
+              "page": 48,
+              "basis": "2025年报原表；百万美元转换为美元。",
+              "calculation": null
+            }
+          }
+        },
+        {
+          "id": "parent_profit",
+          "label": "归母净利润",
+          "kind": "line",
+          "values": {
+            "fy2025": 7.051,
+            "fy2024": 9.038
+          },
+          "statuses": {
+            "fy2025": "disclosed",
+            "fy2024": "disclosed"
+          },
+          "evidence": {
+            "fy2025": {
+              "status": "disclosed",
+              "source_id": "sec_10k_2025",
+              "page": 48,
+              "basis": "2025年报原表；百万美元转换为美元。",
+              "calculation": null
+            },
+            "fy2024": {
+              "status": "disclosed",
+              "source_id": "sec_10k_2025",
+              "page": 48,
+              "basis": "2025年报原表；百万美元转换为美元。",
+              "calculation": null
+            }
+          }
+        },
+        {
+          "id": "oci",
+          "label": "其他综合收益",
+          "kind": "line",
+          "values": {
+            "fy2025": 0.571,
+            "fy2024": -0.718
+          },
+          "statuses": {
+            "fy2025": "disclosed",
+            "fy2024": "disclosed"
+          },
+          "evidence": {
+            "fy2025": {
+              "status": "disclosed",
+              "source_id": "sec_10k_2025",
+              "page": 48,
+              "basis": "2025年报原表；百万美元转换为美元。",
+              "calculation": null
+            },
+            "fy2024": {
+              "status": "disclosed",
+              "source_id": "sec_10k_2025",
+              "page": 48,
+              "basis": "2025年报原表；百万美元转换为美元。",
+              "calculation": null
+            }
+          }
+        },
+        {
+          "id": "dividends",
+          "label": "宣告普通股股利",
+          "kind": "line",
+          "values": {
+            "fy2025": -1.894,
+            "fy2024": -1.944
+          },
+          "statuses": {
+            "fy2025": "disclosed",
+            "fy2024": "disclosed"
+          },
+          "evidence": {
+            "fy2025": {
+              "status": "disclosed",
+              "source_id": "sec_10k_2025",
+              "page": 48,
+              "basis": "2025年报原表；百万美元转换为美元。",
+              "calculation": null
+            },
+            "fy2024": {
+              "status": "disclosed",
+              "source_id": "sec_10k_2025",
+              "page": 48,
+              "basis": "2025年报原表；百万美元转换为美元。",
+              "calculation": null
+            }
+          }
+        },
+        {
+          "id": "stock_plans",
+          "label": "股权激励计划权益增加",
+          "kind": "line",
+          "values": {
+            "fy2025": 1.133,
+            "fy2024": 1.714
+          },
+          "statuses": {
+            "fy2025": "disclosed",
+            "fy2024": "disclosed"
+          },
+          "evidence": {
+            "fy2025": {
+              "status": "disclosed",
+              "source_id": "sec_10k_2025",
+              "page": 48,
+              "basis": "2025年报原表；百万美元转换为美元。",
+              "calculation": null
+            },
+            "fy2024": {
+              "status": "disclosed",
+              "source_id": "sec_10k_2025",
+              "page": 48,
+              "basis": "2025年报原表；百万美元转换为美元。",
+              "calculation": null
+            }
+          }
+        },
+        {
+          "id": "embody",
+          "label": "Embody收购股份对价",
+          "kind": "line",
+          "values": {
+            "fy2025": 0.278,
+            "fy2024": 0.234
+          },
+          "statuses": {
+            "fy2025": "disclosed",
+            "fy2024": "disclosed"
+          },
+          "evidence": {
+            "fy2025": {
+              "status": "disclosed",
+              "source_id": "sec_10k_2025",
+              "page": 48,
+              "basis": "2025年报原表；百万美元转换为美元。",
+              "calculation": null
+            },
+            "fy2024": {
+              "status": "disclosed",
+              "source_id": "sec_10k_2025",
+              "page": 48,
+              "basis": "2025年报原表；百万美元转换为美元。",
+              "calculation": null
+            }
+          }
+        },
+        {
+          "id": "repurchase",
+          "label": "股份回购权益减少",
+          "kind": "line",
+          "values": {
+            "fy2025": -4.843,
+            "fy2024": -8.448
+          },
+          "statuses": {
+            "fy2025": "disclosed",
+            "fy2024": "disclosed"
+          },
+          "evidence": {
+            "fy2025": {
+              "status": "disclosed",
+              "source_id": "sec_10k_2025",
+              "page": 48,
+              "basis": "2025年报原表；百万美元转换为美元。",
+              "calculation": null
+            },
+            "fy2024": {
+              "status": "disclosed",
+              "source_id": "sec_10k_2025",
+              "page": 48,
+              "basis": "2025年报原表；百万美元转换为美元。",
+              "calculation": null
+            }
+          }
+        },
+        {
+          "id": "parent_equity_change",
+          "label": "归母权益变动",
+          "kind": "total",
+          "values": {
+            "fy2025": 2.296,
+            "fy2024": -0.123
+          },
+          "statuses": {
+            "fy2025": "derived",
+            "fy2024": "derived"
+          },
+          "evidence": {
+            "fy2025": {
+              "status": "derived",
+              "source_id": "sec_10k_2025",
+              "page": 48,
+              "basis": "2025年报原表；百万美元转换为美元。",
+              "calculation": "期末归母权益-期初归母权益"
+            },
+            "fy2024": {
+              "status": "derived",
+              "source_id": "sec_10k_2025",
+              "page": 48,
+              "basis": "2025年报原表；百万美元转换为美元。",
+              "calculation": "期末归母权益-期初归母权益"
+            }
+          }
+        }
+      ],
+      "display_policy": "网页按重要性筛选；底层始终保留"
+    },
+    "cash_flow_bridge": {
+      "rows": [
+        {
+          "id": "net_profit",
+          "label": "合并净利润",
+          "kind": "total",
+          "values": {
+            "fy2025": 7.051,
+            "fy2024": 9.052
+          },
+          "statuses": {
+            "fy2025": "disclosed",
+            "fy2024": "disclosed"
+          },
+          "evidence": {
+            "fy2025": {
+              "status": "disclosed",
+              "source_id": "sec_10k_2025",
+              "page": 49,
+              "basis": "2025年报原表；百万美元转换为美元。",
+              "calculation": null
+            },
+            "fy2024": {
+              "status": "disclosed",
+              "source_id": "sec_10k_2025",
+              "page": 49,
+              "basis": "2025年报原表；百万美元转换为美元。",
+              "calculation": null
+            }
+          }
+        },
+        {
+          "id": "da",
+          "label": "折旧及摊销",
+          "kind": "line",
+          "values": {
+            "fy2025": 10.938,
+            "fy2024": 9.963
+          },
+          "statuses": {
+            "fy2025": "disclosed",
+            "fy2024": "disclosed"
+          },
+          "evidence": {
+            "fy2025": {
+              "status": "disclosed",
+              "source_id": "sec_10k_2025",
+              "page": 49,
+              "basis": "2025年报原表；百万美元转换为美元。",
+              "calculation": null
+            },
+            "fy2024": {
+              "status": "disclosed",
+              "source_id": "sec_10k_2025",
+              "page": 49,
+              "basis": "2025年报原表；百万美元转换为美元。",
+              "calculation": null
+            }
+          }
+        },
+        {
+          "id": "sbc",
+          "label": "股份支付",
+          "kind": "line",
+          "values": {
+            "fy2025": 0.902,
+            "fy2024": 1.01
+          },
+          "statuses": {
+            "fy2025": "disclosed",
+            "fy2024": "disclosed"
+          },
+          "evidence": {
+            "fy2025": {
+              "status": "disclosed",
+              "source_id": "sec_10k_2025",
+              "page": 49,
+              "basis": "2025年报原表；百万美元转换为美元。",
+              "calculation": null
+            },
+            "fy2024": {
+              "status": "disclosed",
+              "source_id": "sec_10k_2025",
+              "page": 49,
+              "basis": "2025年报原表；百万美元转换为美元。",
+              "calculation": null
+            }
+          }
+        },
+        {
+          "id": "dt",
+          "label": "递延税收益",
+          "kind": "line",
+          "values": {
+            "fy2025": -0.872,
+            "fy2024": -0.477
+          },
+          "statuses": {
+            "fy2025": "disclosed",
+            "fy2024": "disclosed"
+          },
+          "evidence": {
+            "fy2025": {
+              "status": "disclosed",
+              "source_id": "sec_10k_2025",
+              "page": 49,
+              "basis": "2025年报原表；百万美元转换为美元。",
+              "calculation": null
+            },
+            "fy2024": {
+              "status": "disclosed",
+              "source_id": "sec_10k_2025",
+              "page": 49,
+              "basis": "2025年报原表；百万美元转换为美元。",
+              "calculation": null
+            }
+          }
+        },
+        {
+          "id": "tax_wc",
+          "label": "所得税变动",
+          "kind": "line",
+          "values": {
+            "fy2025": -1.666,
+            "fy2024": -1.586
+          },
+          "statuses": {
+            "fy2025": "disclosed",
+            "fy2024": "disclosed"
+          },
+          "evidence": {
+            "fy2025": {
+              "status": "disclosed",
+              "source_id": "sec_10k_2025",
+              "page": 49,
+              "basis": "2025年报原表；百万美元转换为美元。",
+              "calculation": null
+            },
+            "fy2024": {
+              "status": "disclosed",
+              "source_id": "sec_10k_2025",
+              "page": 49,
+              "basis": "2025年报原表；百万美元转换为美元。",
+              "calculation": null
+            }
+          }
+        },
+        {
+          "id": "ar_wc",
+          "label": "应收款变动",
+          "kind": "line",
+          "values": {
+            "fy2025": -1.273,
+            "fy2024": -0.897
+          },
+          "statuses": {
+            "fy2025": "disclosed",
+            "fy2024": "disclosed"
+          },
+          "evidence": {
+            "fy2025": {
+              "status": "disclosed",
+              "source_id": "sec_10k_2025",
+              "page": 49,
+              "basis": "2025年报原表；百万美元转换为美元。",
+              "calculation": null
+            },
+            "fy2024": {
+              "status": "disclosed",
+              "source_id": "sec_10k_2025",
+              "page": 49,
+              "basis": "2025年报原表；百万美元转换为美元。",
+              "calculation": null
+            }
+          }
+        },
+        {
+          "id": "inv_wc",
+          "label": "存货变动",
+          "kind": "line",
+          "values": {
+            "fy2025": 0.982,
+            "fy2024": 0.499
+          },
+          "statuses": {
+            "fy2025": "disclosed",
+            "fy2024": "disclosed"
+          },
+          "evidence": {
+            "fy2025": {
+              "status": "disclosed",
+              "source_id": "sec_10k_2025",
+              "page": 49,
+              "basis": "2025年报原表；百万美元转换为美元。",
+              "calculation": null
+            },
+            "fy2024": {
+              "status": "disclosed",
+              "source_id": "sec_10k_2025",
+              "page": 49,
+              "basis": "2025年报原表；百万美元转换为美元。",
+              "calculation": null
+            }
+          }
+        },
+        {
+          "id": "ap_wc",
+          "label": "应付款及应计义务变动",
+          "kind": "line",
+          "values": {
+            "fy2025": 1.018,
+            "fy2024": -3.22
+          },
+          "statuses": {
+            "fy2025": "disclosed",
+            "fy2024": "disclosed"
+          },
+          "evidence": {
+            "fy2025": {
+              "status": "disclosed",
+              "source_id": "sec_10k_2025",
+              "page": 49,
+              "basis": "2025年报原表；百万美元转换为美元。",
+              "calculation": null
+            },
+            "fy2024": {
+              "status": "disclosed",
+              "source_id": "sec_10k_2025",
+              "page": 49,
+              "basis": "2025年报原表；百万美元转换为美元。",
+              "calculation": null
+            }
+          }
+        },
+        {
+          "id": "other_wc",
+          "label": "其他资产义务变动",
+          "kind": "line",
+          "values": {
+            "fy2025": -0.11,
+            "fy2024": 0.65
+          },
+          "statuses": {
+            "fy2025": "disclosed",
+            "fy2024": "disclosed"
+          },
+          "evidence": {
+            "fy2025": {
+              "status": "disclosed",
+              "source_id": "sec_10k_2025",
+              "page": 49,
+              "basis": "2025年报原表；百万美元转换为美元。",
+              "calculation": null
+            },
+            "fy2024": {
+              "status": "disclosed",
+              "source_id": "sec_10k_2025",
+              "page": 49,
+              "basis": "2025年报原表；百万美元转换为美元。",
+              "calculation": null
+            }
+          }
+        },
+        {
+          "id": "operating_cash_flow",
+          "label": "经营活动现金流",
+          "kind": "total",
+          "values": {
+            "fy2025": 16.971,
+            "fy2024": 14.994
+          },
+          "statuses": {
+            "fy2025": "disclosed",
+            "fy2024": "disclosed"
+          },
+          "evidence": {
+            "fy2025": {
+              "status": "disclosed",
+              "source_id": "sec_10k_2025",
+              "page": 49,
+              "basis": "2025年报原表；百万美元转换为美元。",
+              "calculation": null
+            },
+            "fy2024": {
+              "status": "disclosed",
+              "source_id": "sec_10k_2025",
+              "page": 49,
+              "basis": "2025年报原表；百万美元转换为美元。",
+              "calculation": null
+            }
+          }
+        },
+        {
+          "id": "instruments",
+          "label": "手术器械现金投入",
+          "kind": "line",
+          "values": {
+            "fy2025": -3.005,
+            "fy2024": -2.403
+          },
+          "statuses": {
+            "fy2025": "disclosed",
+            "fy2024": "disclosed"
+          },
+          "evidence": {
+            "fy2025": {
+              "status": "disclosed",
+              "source_id": "sec_10k_2025",
+              "page": 49,
+              "basis": "2025年报原表；百万美元转换为美元。",
+              "calculation": null
+            },
+            "fy2024": {
+              "status": "disclosed",
+              "source_id": "sec_10k_2025",
+              "page": 49,
+              "basis": "2025年报原表；百万美元转换为美元。",
+              "calculation": null
+            }
+          }
+        },
+        {
+          "id": "ppe",
+          "label": "其他固定资产现金投入",
+          "kind": "line",
+          "values": {
+            "fy2025": -2.245,
+            "fy2024": -2.038
+          },
+          "statuses": {
+            "fy2025": "disclosed",
+            "fy2024": "disclosed"
+          },
+          "evidence": {
+            "fy2025": {
+              "status": "disclosed",
+              "source_id": "sec_10k_2025",
+              "page": 49,
+              "basis": "2025年报原表；百万美元转换为美元。",
+              "calculation": null
+            },
+            "fy2024": {
+              "status": "disclosed",
+              "source_id": "sec_10k_2025",
+              "page": 49,
+              "basis": "2025年报原表；百万美元转换为美元。",
+              "calculation": null
+            }
+          }
+        },
+        {
+          "id": "intangibles",
+          "label": "技术权利现金投入",
+          "kind": "line",
+          "values": {
+            "fy2025": -0.524,
+            "fy2024": -1.53
+          },
+          "statuses": {
+            "fy2025": "disclosed",
+            "fy2024": "disclosed"
+          },
+          "evidence": {
+            "fy2025": {
+              "status": "disclosed",
+              "source_id": "sec_10k_2025",
+              "page": 49,
+              "basis": "2025年报原表；百万美元转换为美元。",
+              "calculation": null
+            },
+            "fy2024": {
+              "status": "disclosed",
+              "source_id": "sec_10k_2025",
+              "page": 49,
+              "basis": "2025年报原表；百万美元转换为美元。",
+              "calculation": null
+            }
+          }
+        },
+        {
+          "id": "free_cash_flow",
+          "label": "自由现金余额（并购前）",
+          "kind": "total",
+          "values": {
+            "fy2025": 11.197,
+            "fy2024": 9.023
+          },
+          "statuses": {
+            "fy2025": "derived",
+            "fy2024": "derived"
+          },
+          "evidence": {
+            "fy2025": {
+              "status": "derived",
+              "source_id": "sec_10k_2025",
+              "page": 49,
+              "basis": "2025年报原表；百万美元转换为美元。",
+              "calculation": "经营现金流-器械投入-其他固定资产投入-无形资产购买；2025:1697.1-300.5-224.5-52.4=1119.7"
+            },
+            "fy2024": {
+              "status": "derived",
+              "source_id": "sec_10k_2025",
+              "page": 49,
+              "basis": "2025年报原表；百万美元转换为美元。",
+              "calculation": "1499.4-240.3-203.8-153.0=902.3 百万美元"
+            }
+          }
+        }
+      ]
+    },
+    "note": ""
+  },
+  "narratives": {
+    "scope_note": "仅展示2025完整年度；2024仅用于余额比较和权益核对。单位百万美元，原报表已舍入，保留独立控制总数。",
+    "business_scope": "公司提供骨科植入物、手术器械及机器人。经营按有成本及利润披露的地区分部组织；膝关节收入3,320、髋关节2,090、S.E.T.（运动医学、上肢、足踝、创伤、颅颌面胸外科）2,150、技术数据及骨水泥手术产品666。产品口径不与地区重复加总。产品收入见PDF第79页。",
+    "segment_bridge": "分部利润合计3,690，扣除总部项目1,920及无形摊销666，衔接合并经营利润1,100。总部项目涵盖集中研发、营销、管理及其他分部未分摊支出；合并产品成本也含总部项。附注18（PDF第80页）。",
+    "acquisition_effect": "Paragon 28于2025年4月21日全资并入，增加足踝产品；收购公允对价1,280，取得可辨认净资产656及商誉620。Monogram于10月7日全资并入，公允对价378，取得净资产115及商誉263，在研机器人尚未商业化。两项购买价分配仍属初步。金额来自附注9（PDF第60–62页）；收购日资产不能替代年末余额。",
+    "acquisition_assets": "Paragon收购日技术324、商标44.0、客户关系91.5、在研技术103、存货153、固定资产68.0；在研技术18.4于年内转为商业化技术。Monogram在研机器人132保持单列。并购净现金支出1,390单独列入投资活动，不重复计入器械/固定资产投入。",
+    "contingent_consideration": "附注8（PDF第60页）：并购或有对价负债由181增加至299；新确认246、估值减少77.1、结算52.8及汇兑2.10。其流动/非流动拆分未充分匹配，保留在相关义务总额中，不另加计。",
+    "asset_boundary": "固定资产原值按土地、建筑设备、软件、器械和在建工程展示；累计折旧统一扣减，年报未披露各类净值。其他长期资产扣除租赁使用权后仍含未分拆经营及金融组成，暂列其他非经营资产；不把未知组成估算为业务资产。",
+    "ownership": "年报未提供少数股东对应子公司的可匹配资产负债及有效权益比例，不能逐项可靠折算。维持合并总量，使用剩余归属调整扣除少数权益8.10衔接归母权益12,700；全资收购不产生少数归属。少数损益加回0.100，与独立归母利润间保留报表舍入差异。",
+    "cash_conversion": "净利润705，加折旧摊销1,090、股份支付90.2及递延税收益-87.2，经营周转与其他调整合计-105，得到经营现金流1,700。器械、固定资产及技术投入合计577后，自由现金余额1,120；若再扣并购净支付1,390，余额为-274。",
+    "equity_flows": "年末已发行股数3.19亿，库存股1.23亿，流通约1.96亿，较年初减少约360万股。回购现金487与权益减少484存在支付时点差异；股利现金190与宣告189分别列示。股权计划权益增加113包含股份支付及员工出资、代扣税等，不能等同现金流股份支付90.2。",
+    "rounding": "原报表以百万美元一位小数披露。总资产减总负债比合并权益低0.100；明细分类及少数损益、分部利润、现金流和权益桥存在0.100的舍入差异，保留原数而不造平衡项目。",
+    "asset_changes": "固定资产净额增加158；当年器械及其他固定资产现金投入525、折旧428，Paragon收购固定资产68.0，余项含汇兑、处置、资本应付款和其他非现金变动，不能将现金投入直接当应计新增。无形资产净额增加119；年内摊销666、Paragon取得无形资产563、Monogram在研资产132；各类别完整滚存未披露，余额差额保留，不能全部解释为收购。附注7、9、10（PDF第58、61–65页）。"
+  },
+  "sources": {
+    "sec_10k_2025": {
+      "id": "sec_10k_2025",
+      "basis": "2025年报所含经审计10-K，金额百万美元；证据页码均为PDF物理页码。",
+      "url": "https://www.sec.gov/Archives/edgar/data/1136869/000119312526135671/d80737dars.pdf",
+      "unit_scale": 1000000.0,
+      "sha256": "63dee3cd354dfebb529f90c62fe684a0478f86d6128a34609d5b473ea0e39e5a",
+      "kind": "filing",
+      "page_count": 100
+    }
+  },
+  "subsidiaries": [],
+  "presentation": {
+    "mode": "integrated",
+    "basis": "2025 Form 10-K presents consolidated statements for Zimmer Biomet Holdings, Inc. and subsidiaries.",
+    "component_tables": false,
+    "hide_disclosure_summary": true,
+    "share_quantity_unit": "shares",
+    "periods": {
+      "asset": {
+        "labels": {
+          "fy2025": "2025-12-31",
+          "fy2024": "2024-12-31"
+        },
+        "previous": {
+          "fy2025": "fy2024",
+          "fy2024": null
+        }
+      },
+      "operating": {
+        "labels": {
+          "fy2025": "2025-01-01—2025-12-31 全年",
+          "fy2024": "2024-01-01—2024-12-31 全年"
+        },
+        "previous": {
+          "fy2025": "fy2024",
+          "fy2024": null
+        }
+      }
+    }
+  },
+  "ownership": {},
+  "reconciliations": [
+    {
+      "code": "RECONCILIATION_DIFFERENCE",
+      "domain": "asset",
+      "entity": "zbh",
+      "target": "equity",
+      "label": "资产减负债与净资产",
+      "period": "fy2025",
+      "total": 127.058,
+      "components": 127.057,
+      "difference": 0.0010000000000047748
+    },
+    {
+      "code": "RECONCILIATION_DIFFERENCE",
+      "domain": "asset",
+      "entity": "zbh",
+      "target": "asset_classification",
+      "label": "分类资产负债与净资产",
+      "period": "fy2025",
+      "total": 127.058,
+      "components": 127.059,
+      "difference": -0.000999999999990564
+    },
+    {
+      "code": "RECONCILIATION_DIFFERENCE",
+      "domain": "asset",
+      "entity": "zbh",
+      "target": "asset_classification",
+      "label": "分类资产负债与净资产",
+      "period": "fy2024",
+      "total": 124.762,
+      "components": 124.763,
+      "difference": -0.0010000000000047748
+    },
+    {
+      "code": "RECONCILIATION_DIFFERENCE",
+      "domain": "operating",
+      "entity": "zbh",
+      "target": "americas:operating_profit",
+      "label": "美洲利润与现金关系",
+      "period": "fy2025",
+      "total": 26.457,
+      "components": 26.455999999999996,
+      "difference": 0.0010000000000047748
+    },
+    {
+      "code": "RECONCILIATION_DIFFERENCE",
+      "domain": "operating",
+      "entity": "zbh",
+      "target": "americas:operating_profit",
+      "label": "美洲利润与现金关系",
+      "period": "fy2024",
+      "total": 25.763,
+      "components": 25.761999999999997,
+      "difference": 0.0010000000000047748
+    },
+    {
+      "code": "RECONCILIATION_DIFFERENCE",
+      "domain": "operating",
+      "entity": "zbh",
+      "target": "emea:operating_profit",
+      "label": "欧洲、中东及非洲利润与现金关系",
+      "period": "fy2025",
+      "total": 5.95,
+      "components": 5.951,
+      "difference": -0.0009999999999994458
+    },
+    {
+      "code": "RECONCILIATION_DIFFERENCE",
+      "domain": "operating",
+      "entity": "zbh",
+      "target": "apac:operating_profit",
+      "label": "亚太利润与现金关系",
+      "period": "fy2024",
+      "total": 4.621,
+      "components": 4.62,
+      "difference": 0.001000000000000334
+    },
+    {
+      "code": "RECONCILIATION_DIFFERENCE",
+      "domain": "operating",
+      "entity": "zbh",
+      "target": "operating_cash_flow",
+      "label": "利润到经营现金流",
+      "period": "fy2025",
+      "total": 16.971,
+      "components": 16.970000000000002,
+      "difference": 0.0009999999999976694
+    },
+    {
+      "code": "RECONCILIATION_DIFFERENCE",
+      "domain": "operating",
+      "entity": "zbh",
+      "target": "parent_profit",
+      "label": "净利润归属",
+      "period": "fy2025",
+      "total": 7.051,
+      "components": 7.0520000000000005,
+      "difference": -0.001000000000000334
+    },
+    {
+      "code": "RECONCILIATION_DIFFERENCE",
+      "domain": "operating",
+      "entity": "zbh",
+      "target": "parent_profit",
+      "label": "净利润归属",
+      "period": "fy2024",
+      "total": 9.038,
+      "components": 9.036999999999999,
+      "difference": 0.0010000000000012221
+    },
+    {
+      "code": "RECONCILIATION_DIFFERENCE",
+      "domain": "operating",
+      "entity": "zbh",
+      "target": "parent_equity_change",
+      "label": "归母权益变化构成",
+      "period": "fy2024",
+      "total": -0.123,
+      "components": -0.12400000000000008,
+      "difference": 0.0010000000000000842
+    }
+  ],
+  "attribution_ledger": {
+    "items": [
+      {
+        "id": "monogram_iprd",
+        "original": {
+          "id": "monogram_iprd",
+          "label": "Monogram在研骨科机器人",
+          "kind": "line",
+          "values": {
+            "fy2025": 1.315,
+            "fy2024": 0.0
+          },
+          "statuses": {
+            "fy2025": "derived",
+            "fy2024": "disclosed"
+          },
+          "evidence": {
+            "fy2025": {
+              "status": "derived",
+              "source_id": "sec_10k_2025",
+              "page": 62,
+              "basis": "附注9及10：收购在研机器人，尚未商业化；年末在研资产总额216.1。",
+              "calculation": "年末在研总额216.1-Paragon剩余84.6=131.5，与Monogram初始确认金额相等；未商业化，不计摊销。"
+            },
+            "fy2024": {
+              "status": "disclosed",
+              "source_id": "sec_10k_2025",
+              "page": 62,
+              "basis": "附注9及10：收购在研机器人，尚未商业化；年末在研资产总额216.1。",
+              "calculation": null
+            }
+          },
+          "attribution": {
+            "fy2025": {
+              "ratio": 1.0,
+              "basis": "附注9，两家公司收购全部流通股份，2025年末全资；此项为已映射合并无形资产组成。"
+            }
+          },
+          "force_display": true,
+          "movement_review": {},
+          "movements": {
+            "fy2025": [],
+            "fy2024": []
+          },
+          "movement_residual": {
+            "fy2024": -1.315
+          }
+        }
+      },
+      {
+        "id": "paragon_iprd",
+        "original": {
+          "id": "paragon_iprd",
+          "label": "Paragon 28在研足踝技术",
+          "kind": "line",
+          "values": {
+            "fy2025": 0.846,
+            "fy2024": 0.0
+          },
+          "statuses": {
+            "fy2025": "derived",
+            "fy2024": "derived"
+          },
+          "evidence": {
+            "fy2025": {
+              "status": "derived",
+              "source_id": "sec_10k_2025",
+              "page": 61,
+              "basis": "2025年报原表；百万美元转换为美元。",
+              "calculation": "103.0收购在研技术-18.4商业化转入有限寿命技术=84.6；加Monogram131.5=216.1"
+            },
+            "fy2024": {
+              "status": "derived",
+              "source_id": "sec_10k_2025",
+              "page": 61,
+              "basis": "2025年报原表；百万美元转换为美元。",
+              "calculation": "103.0收购在研技术-18.4商业化转入有限寿命技术=84.6；加Monogram131.5=216.1"
+            }
+          },
+          "attribution": {
+            "fy2025": {
+              "ratio": 1.0,
+              "basis": "附注9，两家公司收购全部流通股份，2025年末全资；此项为已映射合并无形资产组成。"
+            }
+          },
+          "force_display": true,
+          "movement_review": {},
+          "movements": {
+            "fy2025": [],
+            "fy2024": []
+          },
+          "movement_residual": {
+            "fy2024": -0.846
+          }
+        }
+      }
+    ],
+    "net_adjustments": {
+      "fy2025": 0.0,
+      "fy2024": 0.0
+    }
+  },
+  "period_metadata": {
+    "fy2025": {
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "balance_date": "2025-12-31",
+      "kind": "annual",
+      "source_id": "sec_10k_2025",
+      "basis": "Audited fiscal year ended December 31, 2025; balance sheet at December 31, 2025.",
+      "asset_compare": "fy2024",
+      "operating_compare": "fy2024",
+      "asset_visible": true,
+      "operating_visible": true
+    },
+    "fy2024": {
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "balance_date": "2024-12-31",
+      "kind": "annual",
+      "source_id": "sec_10k_2025",
+      "basis": "Prior-year comparative balance and operating amounts in 2025 Form 10-K; retained for checks/equity bridge and hidden from requested display.",
+      "asset_compare": null,
+      "operating_compare": null,
+      "asset_visible": false,
+      "operating_visible": false
+    }
+  }
+}

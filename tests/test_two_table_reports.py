@@ -17,6 +17,8 @@ class TwoTableTests(unittest.TestCase):
             with self.subTest(note=note), self.assertRaisesRegex(ValueError, 'READER_NOTE_DISPLAY_INVALID'):
                 checked_reader_notes({'asset_table': {'groups': [{'evidence': {'2025': {'reader_note': note}}}]}})
         checked_reader_notes({'reader_note': '肉猪销量1,660万头（不含仔猪）。'})
+        with self.assertRaisesRegex(ValueError, 'SCIENTIFIC_DISPLAY_INVALID'):
+            checked_reader_notes({'unit': 'USD / 1e+06'})
 
     def test_old_publisher_preserves_new_tables_and_versions(self):
         import build_site

@@ -20,7 +20,7 @@ async function render(mode) {
     CSS: {escape: (value) => value.replaceAll('/', '\\/')},
     console,
   };
-  vm.runInNewContext(script + '\n;globalThis.testApi = {miscObjects, assetMaterialityBases};', context);
+  vm.runInNewContext(script + '\n;globalThis.testApi = {miscObjects, assetMaterialityBases, fmt, readable, naturalUnit};', context);
   await new Promise((resolve) => setImmediate(resolve));
   assert.doesNotMatch(content.innerHTML, /加载失败/);
   return {content, context};
@@ -34,6 +34,10 @@ function click(content, selector, data) {
 
 (async () => {
   const {content, context} = await render('annual');
+  assert.doesNotMatch(context.testApi.fmt(1e22), /e[+-]?\d/i);
+  assert.doesNotMatch(context.testApi.readable(1e22), /e[+-]?\d/i);
+  assert.equal(context.testApi.naturalUnit('USD / 1e+06'), '百万美元');
+  assert.equal(context.testApi.naturalUnit('USD 亿元'), '亿美元');
   const working = report.asset_table.groups.find((group) => group.id === 'operating').sections.find((section) => section.id === 'working');
   const periods = report.asset_table.periods;
   const base = context.testApi.assetMaterialityBases(report.asset_table, periods);

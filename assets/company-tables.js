@@ -1,6 +1,16 @@
 const $ = (selector) => document.querySelector(selector);
 const esc = (value) => String(value ?? "").replace(/[&<>"']/g, (char) => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"})[char]);
-const readable = (value) => Number(value).toLocaleString("zh-CN", {maximumSignificantDigits:3, useGrouping:false});
+const readable = (value) => Number(value).toLocaleString("zh-CN", {maximumSignificantDigits:3, useGrouping:false, notation:"standard"});
+function naturalUnit(unit) {
+  const names = {CNY:"元", USD:"美元", HKD:"港元", EUR:"欧元", JPY:"日元", GBP:"英镑"};
+  const old = /^([A-Z]{3})\s*(?:\/\s*([\d.eE+,-]+)|亿元)$/.exec(unit || "");
+  if (!old) return unit;
+  const name = names[old[1]] || old[1];
+  const scale = old[2] ? Number(old[2].replaceAll(",", "")) : 100000000;
+  if (scale === 100000000) return old[1] === "CNY" ? "亿元" : `亿${name}`;
+  if (scale === 1000000) return old[1] === "CNY" ? "百万元" : `百万${name}`;
+  return unit;
+}
 const MISC_SECTION_LIMIT = 0.1;
 const fmt = (value, status = "") => {
   if (value == null && status === "not_applicable") return '<span class="missing">不适用</span>';
@@ -8,7 +18,9 @@ const fmt = (value, status = "") => {
   const raw = Number(value);
   const number = Math.abs(raw) < 0.00005 ? 0 : raw;
   const digits = number !== 0 && Math.abs(number) < 0.01 ? 4 : 2;
-  return `${number.toFixed(digits)}${status === "estimated" ? "²" : ""}`;
+  const decimal = new Intl.NumberFormat("zh-CN", {useGrouping:false, minimumFractionDigits:digits,
+    maximumFractionDigits:digits, notation:"standard"}).format(number);
+  return `${decimal}${status === "estimated" ? "²" : ""}`;
 };
 
 let company;
@@ -469,6 +481,11 @@ async function init() {
   if (!response.ok) throw new Error(`HTTP ${response.status}`);
   company = await response.json();
   if (!company?.asset_table || !company?.operating_table) throw new Error("报告格式不完整");
+  const normalizeUnits = (entity) => {
+    entity.unit = naturalUnit(entity.unit);
+    (entity.subsidiaries || []).forEach(normalizeUnits);
+  };
+  normalizeUnits(company);
   document.title = `${company.name} · 资产表与经营表 | AH Note`;
   $("#page-header").innerHTML = `<strong>${esc(company.name)} <small>${esc(company.code)}</small></strong><span>${esc(company.scope)} · ${esc(company.unit)}</span>`;
   draw();

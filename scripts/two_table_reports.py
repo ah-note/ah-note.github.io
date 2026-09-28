@@ -120,6 +120,7 @@ def checked_business_assets(source, result):
 
 def checked_reader_notes(view):
     scientific = re.compile(r'(?<![A-Za-z0-9.])[-+]?\d+(?:\.\d+)?[eE][-+]?\d+(?![A-Za-z0-9.])')
+    visible_text = {'unit', 'scope', 'name', 'label', 'note', 'reader_note', 'change_explanation', 'terms', 'outstanding'}
     def walk(value, path='reader_view'):
         if isinstance(value, list):
             for index, item in enumerate(value): walk(item, f'{path}/{index}')
@@ -127,6 +128,8 @@ def checked_reader_notes(view):
             for key, item in value.items():
                 if key == 'reader_note' and (not isinstance(item, str) or len(item) > 40 or scientific.search(item)):
                     raise ValueError(f'READER_NOTE_DISPLAY_INVALID: {path}')
+                if key in visible_text and isinstance(item, str) and scientific.search(item):
+                    raise ValueError(f'SCIENTIFIC_DISPLAY_INVALID: {path}/{key}')
                 walk(item, f'{path}/{key}')
     walk(view)
 
@@ -140,8 +143,12 @@ def install(source, root, analysis_root, business_assets=None):
     if (result.get('workflow_contract') != 'autonomous-two-table-v1' or delivery.get('success') is not True
             or delivery.get('block') is not None or not delivery.get('summary')):
         raise ValueError('AGENT_DELIVERY_REQUIRED')
+    if result.get('display_scale') != 100_000_000:
+        raise ValueError('DISPLAY_SCALE_INVALID')
     years = [p for p, m in result['period_metadata'].items() if m['kind'] == 'annual' and m.get('operating_visible')]
     view = dict(result['reader_view'])
+    if re.search(r'\d[eE][+-]?\d', view.get('unit', '')):
+        raise ValueError('DISPLAY_UNIT_INVALID')
     view['period_metadata'] = result['period_metadata']
     supplement = checked_business_assets(business_assets, result)
     if supplement:

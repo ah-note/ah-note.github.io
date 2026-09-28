@@ -112,12 +112,12 @@
       "code": "ZBH",
       "name": "Zimmer Biomet Holdings, Inc.",
       "report_end": "2025-12-31",
-      "completed_at": "2026-09-28T14:59:21.545095+08:00",
-      "source_sha256": "d0472e609b666fffe66a8a92f56ad1ac871ac2fdd49906e25132dd1d9c190b71",
-      "view_sha256": "a61d8137b4e92765d967de95ad130eedc066c05a30a155a33f935b608aa011bc",
+      "completed_at": "2026-09-28T15:15:16.474121+08:00",
+      "source_sha256": "7554aeca19cac3c27629fe4127868ad3dd5b28c87ccfc9f65165a34e9fdbc68e",
+      "view_sha256": "a2f5764af45545adc68fac35d53a8d3758f7c68e7c68826860753768f9f8aa1a",
       "coverage": "1个完整年度",
       "provenance": "autonomous-two-table-v1",
-      "version_url": "research/ZBH/versions/d0472e609b666fffe66a8a92f56ad1ac871ac2fdd49906e25132dd1d9c190b71/"
+      "version_url": "research/ZBH/versions/7554aeca19cac3c27629fe4127868ad3dd5b28c87ccfc9f65165a34e9fdbc68e/"
     }
   ]
 }
