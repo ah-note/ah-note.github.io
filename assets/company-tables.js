@@ -150,7 +150,10 @@ function deltaCells(values, period, periods, explanation = "") {
 
 function miscObjects(section, groupId, periods, bases) {
   if (componentMode || section.objects.length < 2) return [];
-  const parent = Object.fromEntries(periods.map((period) => [period, Math.abs(Number(section.values[period]))]));
+  const parent = Object.fromEntries(periods.map((period) => [period, Math.max(
+    Math.abs(Number(section.values[period])),
+    ...section.objects.map((object) => Math.abs(Number(object.values[period])))
+  )]));
   if (periods.some((period) => !parent[period] || section.values[period] == null || section.objects.some((object) =>
       object.values[period] == null || !Number.isFinite(Number(object.values[period]))))) return [];
   const candidates = section.objects.map((object, index) => ({object, index,

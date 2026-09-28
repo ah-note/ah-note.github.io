@@ -41,7 +41,8 @@ function click(content, selector, data) {
   assert.ok(misc.length >= 2);
   assert.ok(misc.some((item) => item.label === '销售票据'));
   for (const period of periods) {
-    const parent = Math.abs(working.values[period]);
+    const parent = Math.max(Math.abs(working.values[period]),
+      ...working.objects.map((item) => Math.abs(item.values[period])));
     const grouped = misc.reduce((sum, item) => sum + Math.abs(item.values[period]), 0);
     assert.ok(grouped <= parent * 0.1 + 1e-9, `${period}: ${grouped} > ${parent * 0.1}`);
   }
@@ -55,6 +56,11 @@ function click(content, selector, data) {
   const offset = context.testApi.miscObjects(synthetic([['core', 92, true], ['a', 8], ['b', -8]], 92),
     'operating', years, {asset: 300, liability: 300});
   assert.equal(offset.length, 0, 'opposite signs cannot evade the ten percent cap');
+  const nearZero = context.testApi.miscObjects(synthetic([
+    ['asset', 100, true], ['obligation', -100, true], ['a', 4], ['b', -4],
+  ], 0), 'operating', years, {asset: 200, liability: 200});
+  assert.deepEqual(Array.from(nearZero, (item) => item.id), ['a', 'b'],
+    'a near-zero net section uses its largest child as the floor');
   assert.equal(context.testApi.miscObjects(synthetic([['core', 92, true], ['a', null], ['b', 4]], 100),
     'operating', years, {asset: 200, liability: 200}).length, 0);
   assert.match(content.innerHTML, /经营周转资产与义务/);
@@ -72,6 +78,8 @@ function click(content, selector, data) {
   click(content, '[data-misc-key]', {miscKey: key});
   assert.match(content.innerHTML, /<th class="item"[^>]*>销售票据<\/th>/);
   assert.match(content.innerHTML, /class="object-row misc-member"/);
+  const css = fs.readFileSync(path.join(root, 'assets/company-tables.css'), 'utf8');
+  assert.match(css, /\.misc-total th,\.misc-total td\{[^}]*font-size:12px;font-weight:normal/);
 
   const interim = await render('interim');
   assert.match(interim.content.innerHTML, /经营周转资产与义务/);
